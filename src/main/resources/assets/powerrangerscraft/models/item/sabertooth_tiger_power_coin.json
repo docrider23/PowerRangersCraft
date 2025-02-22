@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "powerrangerscraft:item/sabertooth_tiger_power_coin"
+  }
+}

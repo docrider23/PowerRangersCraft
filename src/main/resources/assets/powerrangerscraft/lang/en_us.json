@@ -1,0 +1,62 @@
+{
+  "effect.powerrangerscraft.flying":"Flying",
+  "effect.powerrangerscraft.fire_punch":"Fire Punch",
+  "effect.powerrangerscraft.punch":"Punch",
+  "effect.powerrangerscraft.big":"Giant",
+  "effect.powerrangerscraft.slash":"Slash",
+  "effect.powerrangerscraft.fire_slash":"Fire Slash",
+  "effect.powerrangerscraft.fire_shot":"Fire Shot",
+  "effect.powerrangerscraft.shot_boost":"Shot Boost",
+  "effect.powerrangerscraft.sneakboost":"Sneak Boost",
+  "effect.powerrangerscraft.waterboost":"Water Boost",
+  "effect.powerrangerscraft.frost_walker":"Frost Walker",
+  "effect.powerrangerscraft.smoke":"Smoke",
+
+  "effect.powerrangerscraft.boost":"Boost",
+  "effect.powerrangerscraft.anti_poison":"Anti Poison",
+  "effect.powerrangerscraft.small":"Shrink",
+  "effect.powerrangerscraft.explosion_punch":"Explosive Punch",
+  "effect.powerrangerscraft.reflect":"Reflect",
+  "effect.powerrangerscraft.explosion_shot":"Explosive Shot",
+  "effect.powerrangerscraft.thunder_shot":"Thunder Shot",
+  "effect.powerrangerscraft.thunder_punch":"Thunder Punch",
+  "effect.powerrangerscraft.flat":"Flatten",
+  "effect.powerrangerscraft.stretch":"Stretch",
+  "effect.powerrangerscraft.wide":"Wide",
+
+  "entity.powerrangerscraft.putty_patroller":"Putty Patrollers",
+  "item.powerrangerscraft.putty_patroller_spawn_egg":"Putty Patrollers Spawn Egg",
+  
+  "item.powerrangerscraft.power_rangers_logo": "Power Rangers Logo",
+  
+  //01 MMPR
+  "tab.powerrangerscraft.mmpr": "Mighty Morphin Power Rangers",
+  
+  "item.powerrangerscraft.mmpr_logo": "Mighty Morphin Logo",
+  
+  "item.powerrangerscraft.mmpr_head": "Mighty Morphin Helmet",
+  "item.powerrangerscraft.mmpr_torso": "Mighty Morphin Chestplate",
+  "item.powerrangerscraft.mmpr_legs": "Mighty Morphin Leggings",
+
+  "item.powerrangerscraft.red_power_morpher":"Power Morpher (Red Ranger)",
+  "item.powerrangerscraft.black_power_morpher":"Power Morpher (Black Ranger)",
+  "item.powerrangerscraft.blue_power_morpher":"Power Morpher (BLue Ranger)",
+  "item.powerrangerscraft.yellow_power_morpher":"Power Morpher (Yellow Ranger)",
+  "item.powerrangerscraft.pink_power_morpher":"Power Morpher (Pink Ranger)",
+
+  "item.powerrangerscraft.tyrannosaurus_power_coin":"Tyrannosaurus Power Coin",
+  "item.powerrangerscraft.mastodon_power_coin":"Mastodon Power Coin",
+  "item.powerrangerscraft.triceratops_power_coin":"Triceratops Power Coin",
+  "item.powerrangerscraft.sabertooth_tiger_power_coin":"Sabertooth Tiger Power Coin",
+  "item.powerrangerscraft.pteradactyl_power_coin":"Pteradactyl Power Coin",
+  
+  "item.powerrangerscraft.blade_blaster": "Blade Blaster",
+  
+  //Misc
+  "tab.powerrangerscraft.misc": "Ranger Items",
+  "tab.powerrangerscraft.block": "Ranger Blocks",
+
+  "item.powerrangerscraft.mecha_gear":"Mecha Gear",
+  "block.powerrangerscraft.mecha_nether_ore":"Mecha Nether Ore",
+  "block.powerrangerscraft.deepslate_mecha_ore":"Deepslate Mecha Ore"
+}
