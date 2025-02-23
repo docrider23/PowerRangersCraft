@@ -106,7 +106,7 @@ public class PowerRangersCraftCore {
 
         MobsCore.register(modEventBus);
         MobsCore.MOBLIST.register(modEventBus);
-        //MobsItems.register(modEventBus);
+        MobsItems.register(modEventBus);
         RangerTabs.register(modEventBus);
         ModLootModifiers.register(modEventBus);
 
@@ -263,29 +263,19 @@ public class PowerRangersCraftCore {
         public static void entityRenderers(EntityRenderersEvent.RegisterRenderers event) {
             event.registerEntityRenderer(MobsCore.PUTTY_PATROLLERS.get(), BasicEntityRenderer::new);
 
-            //event.registerEntityRenderer(MobsCore.CRIMERS.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.CHROMITES.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.BLUE_SENTURION_EVIL.get(), BasicEntityRenderer::new);
 
-            //event.registerEntityRenderer(MobsCore.MACHINEMEN.get(), BasicEntityRenderer::new);
+            //event.registerEntityRenderer(MobsCore.SWABBIES.get(), BasicEntityRenderer::new);
+            //event.registerEntityRenderer(MobsCore.MAGNA_DEFENDER.get(), BasicEntityRenderer::new);
 
-            //event.registerEntityRenderer(MobsCore.UNGLERS.get(), BasicEntityRenderer::new);
+            //event.registerEntityRenderer(MobsCore.PUTRIDS.get(), BasicEntityRenderer::new);
+            //event.registerEntityRenderer(MobsCore.ZEN_AKU.get(), BasicEntityRenderer::new);
 
-            //event.registerEntityRenderer(MobsCore.WUMPERS.get(), BasicEntityRenderer::new);
-            //event.registerEntityRenderer(MobsCore.SIGNALMAN_EVIL.get(), BasicEntityRenderer::new);
+            //event.registerEntityRenderer(MobsCore.MOOGERS.get(), BasicEntityRenderer::new);
 
-            //event.registerEntityRenderer(MobsCore.YARTOTS.get(), BasicEntityRenderer::new);
-            //event.registerEntityRenderer(MobsCore.BLACK_KNIGHT.get(), BasicEntityRenderer::new);
-
-            //event.registerEntityRenderer(MobsCore.ORGETTES.get(), BasicEntityRenderer::new);
-            //event.registerEntityRenderer(MobsCore.DUKE_ORG_ROUKI.get(), BasicEntityRenderer::new);
-
-            //event.registerEntityRenderer(MobsCore.NANASHIS.get(), BasicEntityRenderer::new);
-            //event.registerEntityRenderer(MobsCore.GEDOU_SHINKEN_RED.get(), BasicEntityRenderer::new);
-
-            //event.registerEntityRenderer(MobsCore.PORDERMEN.get(), BasicEntityRenderer::new);
-
-            //event.registerEntityRenderer(MobsCore.DRUNNS.get(), BasicEntityRenderer::new);
-            //event.registerEntityRenderer(MobsCore.GAISOULG.get(), BasicEntityRenderer::new);
-            //event.registerEntityRenderer(MobsCore.RYUSOUL_MORIA.get(), BasicEntityRenderer::new);
+            //event.registerEntityRenderer(MobsCore.HENGEMEN.get(), BasicEntityRenderer::new);
+            //event.registerEntityRenderer(MobsCore.VOID_KNIGHT.get(), BasicEntityRenderer::new);
 
             //event.registerEntityRenderer(MobsCore.EXPLOSIVE_PROJECTILE.get(), ThrownItemRenderer::new);
             //event.registerEntityRenderer(MobsCore.WEAPON_PROJECTILE.get(), ThrownWeaponRenderer::new);

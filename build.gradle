@@ -25,6 +25,7 @@ repositories {
             includeGroup("software.bernie.geckolib")
         }
     }
+    mavenCentral()
 }
 
 base {

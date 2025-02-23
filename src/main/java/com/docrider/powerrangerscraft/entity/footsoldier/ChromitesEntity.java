@@ -15,16 +15,16 @@ public class ChromitesEntity extends BaseFootsoldierEntity {
         this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(MobsItems.CHROMITES_SWORD.get()));
         switch (this.getRandom().nextInt(4)) {
             case 0:
-                NAME="wumper_blue";
+                NAME="chromite_blue";
                 break;
             case 1:
-                NAME="wumper_pink";
+                NAME="chromite_pink";
                 break;
             case 2:
-                NAME="wumper_green";
+                NAME="chromite_green";
                 break;
             case 3:
-                NAME="wumper_white";
+                NAME="chromite_white";
                 break;
         }
     }

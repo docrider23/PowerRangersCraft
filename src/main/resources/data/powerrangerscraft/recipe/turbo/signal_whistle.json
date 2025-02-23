@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blue_senturion",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "supersentaicraft:turbo_logo"
+    },
+	"b": {
+      "item": "supersentaicraft:blue_senturion_badge"
+    }
+  },
+  "result": {
+    "id": "supersentaicraft:signal_whistle"
+  }
+}

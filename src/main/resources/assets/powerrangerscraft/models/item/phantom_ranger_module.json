@@ -2,6 +2,6 @@
   "_comment": "Generated using MiningMark48's JSON Generator.",
   "parent": "item/generated",
   "textures": {
-    "layer0": "powerrangerscraft:item/phantom_ranger_belt"
+    "layer0": "powerrangerscraft:item/phantom_ranger_module"
   }
 }

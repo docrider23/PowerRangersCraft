@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:red_turbo_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:blue_turbo_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:green_turbo_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:yellow_turbo_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:pink_turbo_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:blue_senturion_badge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:power_ruby"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "powerrangerscraft:turbo_logo",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:turbo_logo"
+        }
+      ]
+    }
+  ]
+}

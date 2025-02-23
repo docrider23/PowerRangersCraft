@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "turbo",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:turbo_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:turbo_torso"
+  }
+}

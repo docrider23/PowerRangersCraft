@@ -27,17 +27,17 @@
   "entity.powerrangerscraft.putty_patroller":"Putty Patrollers",
   "item.powerrangerscraft.putty_patroller_spawn_egg":"Putty Patrollers Spawn Egg",
 
-  "entity.supersentaicraft.chromite":"Chromites",
-  "entity.supersentaicraft.blue_senturion_evil":"Blue Senturion (Evil)",
-  "item.supersentaicraft.chromite_spawn_egg":"Chromites Spawn Egg",
-  "item.supersentaicraft.blue_senturion_evil_spawn_egg":"Blue Senturion (Evil) Spawn Egg",
+  "entity.powerrangerscraft.chromite":"Chromites",
+  "entity.powerrangerscraft.blue_senturion_evil":"Blue Senturion (Evil)",
+  "item.powerrangerscraft.chromite_spawn_egg":"Chromites Spawn Egg",
+  "item.powerrangerscraft.blue_senturion_evil_spawn_egg":"Blue Senturion (Evil) Spawn Egg",
   
   "item.powerrangerscraft.power_rangers_logo": "Power Rangers Logo",
 
   //00 Mobs Weapon
-  "item.supersentaicraft.chromites_sword":"Chromites Sword",
+  "item.powerrangerscraft.chromites_sword":"Chromites Sword",
   
-  //01 MMPR
+  //01-02 MMPR
   "tab.powerrangerscraft.mmpr": "Mighty Morphin Power Rangers",
   
   "item.powerrangerscraft.mmpr_logo": "Mighty Morphin Logo",
@@ -60,11 +60,13 @@
   
   "item.powerrangerscraft.blade_blaster": "Blade Blaster",
 
-  //02 Alien
+  //03 Alien
+  "item.powerrangerscraft.alien_logo": "Alien Logo",
 
-  //03 Zeo
+  //04 Zeo
+  "item.powerrangerscraft.zeo_logo": "Zeo Logo",
 
-  //04 Turbo
+  //05 Turbo
   "tab.powerrangerscraft.turbo": "Power Rangers Turbo",
 
   "item.powerrangerscraft.turbo_logo": "Turbo Logo",
@@ -80,7 +82,7 @@
   "item.powerrangerscraft.pink_turbo_morpher":"Turbo Morpher (Pink Ranger)",
   "item.powerrangerscraft.signal_whistle": "Signal Whistle",
   "item.powerrangerscraft.signal_whistle_evil": "Signal Whistle (Blue Senturion Evil)",
-  "item.powerrangerscraft.phantom_ranger_belt": "Phantom Ranger Belt",
+  "item.powerrangerscraft.phantom_ranger_module": "Phantom Ranger Module",
 
   "item.powerrangerscraft.red_turbo_key":"Red Turbo Key",
   "item.powerrangerscraft.blue_turbo_key":"Blue Turbo Key",
@@ -101,6 +103,69 @@
   "item.powerrangerscraft.auto_blast_defender": "Auto Blast Defender",
   "item.powerrangerscraft.senturion_synergizer": "Senturion Synergizer",
   "item.powerrangerscraft.phantom_laser": "Phantom Laser",
+
+  //06 In Space
+  "item.powerrangerscraft.in_space_logo": "In Space Logo",
+
+  //07 Lost Galaxy
+  "item.powerrangerscraft.lost_galaxy_logo": "Lost Galaxy Logo",
+
+  //08 Lightspeed Rescue
+  "item.powerrangerscraft.lightspeed_rescue_logo": "Lightspeed Rescue Logo",
+
+  //09 Time Force
+  "item.powerrangerscraft.time_force_logo": "Time Force Logo",
+
+  //10 Wild Force
+  "item.powerrangerscraft.wild_force_logo": "Wild Force Logo",
+
+  //11 Ninja Storm
+  "item.powerrangerscraft.ninja_storm_logo": "Ninja Storm Logo",
+
+  //12 Dino Thunder
+  "item.powerrangerscraft.dino_thunder_logo": "Dino Thunder Logo",
+
+  //13 SPD
+  "item.powerrangerscraft.spd_logo": "SPD Logo",
+
+  //14 Mystic Force
+  "item.powerrangerscraft.mystic_force_logo": "Mystic Force Logo",
+
+  //15 Operation Overdrive
+  "item.powerrangerscraft.operation_overdrive_logo": "Operation Overdrive Logo",
+
+  //16 Jungle Fury
+  "item.powerrangerscraft.jungle_fury_logo": "Jungle Fury Logo",
+
+  //17 RPM
+  "item.powerrangerscraft.rpm_logo": "RPM Logo",
+
+  //18-19 Samurai/Super Samurai
+  "item.powerrangerscraft.samurai_logo": "Samurai Logo",
+
+  //20 Megaforce
+  "item.powerrangerscraft.megaforce_logo": "Megaforce Logo",
+
+  //21 Super Megaforce
+  "item.powerrangerscraft.super_megaforce_logo": "Super Megaforce Logo",
+
+  //22-23 Dino Charge/Dino Supercharge
+  "item.powerrangerscraft.dino_charge_logo": "Dino Charge Logo",
+
+  //24-25 Ninja Steel
+  "item.powerrangerscraft.ninja_steel_logo": "Ninja Steel Logo",
+
+  //26-27 Beast Morphers
+  "item.powerrangerscraft.beast_morphers_logo": "Beast Morphers Logo",
+
+  //28 Dino Fury
+  "item.powerrangerscraft.dino_fury_logo": "Dino Fury Logo",
+
+  //29 Cosmic Fury
+  "item.powerrangerscraft.cosmic_fury_logo": "Cosmic Fury Logo",
+
+  //EX Hyperforce
+  "item.powerrangerscraft.hyperforce_logo": "Hyperforce Logo",
   
   //Misc
   "tab.powerrangerscraft.misc": "Ranger Items",

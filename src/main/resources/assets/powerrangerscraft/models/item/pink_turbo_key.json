@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "powerrangerscraft:item/pink_turbo_key"
+  }
+}

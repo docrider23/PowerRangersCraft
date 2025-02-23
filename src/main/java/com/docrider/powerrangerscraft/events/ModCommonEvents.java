@@ -1,6 +1,8 @@
 package com.docrider.powerrangerscraft.events;
 
 import com.docrider.powerrangerscraft.effect.EffectCore;
+import com.docrider.powerrangerscraft.entity.boss.BlueSenturionEvilEntity;
+import com.docrider.powerrangerscraft.entity.footsoldier.ChromitesEntity;
 import com.docrider.powerrangerscraft.entity.footsoldier.PuttyPatrollersEntity;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.entity.EntityType;
@@ -101,52 +103,34 @@ public class ModCommonEvents {public static class EventHandler {
     public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
         event.put(MobsCore.PUTTY_PATROLLERS.get(), PuttyPatrollersEntity.setAttributes().build());
 
-        /*event.put(MobsCore.CRIMERS.get(), CrimersEntity.setAttributes().build());
+        event.put(MobsCore.CHROMITES.get(), ChromitesEntity.setAttributes().build());
+        event.put(MobsCore.BLUE_SENTURION_EVIL.get(), BlueSenturionEvilEntity.setAttributes().build());
+/*
+        event.put(MobsCore.SWABBIES.get(), SwabbiesEntity.setAttributes().build());
+        event.put(MobsCore.MAGNA_DEFENDER.get(), MagnaDefenderEntity.setAttributes().build());
 
-        event.put(MobsCore.MACHINEMEN.get(), MachinemenEntity.setAttributes().build());
+        event.put(MobsCore.PUTRIDS.get(), PutridsEntity.setAttributes().build());
+        event.put(MobsCore.ZEN_AKU.get(), ZenAkuEntity.setAttributes().build());
 
-        event.put(MobsCore.UNGLERS.get(), UnglersEntity.setAttributes().build());
+        event.put(MobsCore.MOOGERS.get(), MoogersEntity.setAttributes().build());
 
-        event.put(MobsCore.WUMPERS.get(), WumpersEntity.setAttributes().build());
-        event.put(MobsCore.SIGNALMAN_EVIL.get(), SignalmanEvilEntity.setAttributes().build());
-
-        event.put(MobsCore.YARTOTS.get(), YartotsEntity.setAttributes().build());
-        event.put(MobsCore.BLACK_KNIGHT.get(), BlackKnightEntity.setAttributes().build());
-
-        event.put(MobsCore.ORGETTES.get(), OrgettesEntity.setAttributes().build());
-        event.put(MobsCore.DUKE_ORG_ROUKI.get(), DukeOrgRoukiEntity.setAttributes().build());
-
-        event.put(MobsCore.NANASHIS.get(), NanashisEntity.setAttributes().build());
-        event.put(MobsCore.GEDOU_SHINKEN_RED.get(), GedouShinkenRedEntity.setAttributes().build());
-
-        event.put(MobsCore.PORDERMEN.get(), PordermenEntity.setAttributes().build());
-
-        event.put(MobsCore.DRUNNS.get(), DrunnsEntity.setAttributes().build());
-        event.put(MobsCore.GAISOULG.get(), GaisoulgEntity.setAttributes().build());
-        event.put(MobsCore.RYUSOUL_MORIA.get(), RyusoulMoriaEntity.setAttributes().build());*/
+        event.put(MobsCore.HENGEMEN.get(), HengemenEntity.setAttributes().build());
+        event.put(MobsCore.VOID_KNIGHT.get(), VoidKnightEntity.setAttributes().build());*/
     }
 
     @SubscribeEvent
     public static void entitySpawnRestriction(RegisterSpawnPlacementsEvent event) {
         event.register(MobsCore.PUTTY_PATROLLERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+        event.register(MobsCore.CHROMITES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 /*
-        event.register(MobsCore.CRIMERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+        event.register(MobsCore.SWABBIES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
-        event.register(MobsCore.MACHINEMEN.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+        event.register(MobsCore.PUTRIDS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
-        event.register(MobsCore.UNGLERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+        event.register(MobsCore.MOOGERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
-        event.register(MobsCore.WUMPERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
-
-        event.register(MobsCore.YARTOTS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
-
-        event.register(MobsCore.ORGETTES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
-
-        event.register(MobsCore.NANASHIS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
-
-        event.register(MobsCore.PORDERMEN.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
-
-        event.register(MobsCore.DRUNNS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+        event.register(MobsCore.HENGEMEN.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
  */
     }
