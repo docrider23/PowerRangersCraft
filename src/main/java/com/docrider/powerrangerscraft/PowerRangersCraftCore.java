@@ -14,6 +14,7 @@ import com.docrider.powerrangerscraft.items.*;
 //import com.docrider.powerrangerscraft.items.others.*;
 //import com.docrider.powerrangerscraft.items.ryusoulger.MosaChangerItem;
 //import com.docrider.powerrangerscraft.items.ryusoulger.RyusoulChangerItem;
+import com.docrider.powerrangerscraft.items.others.BaseBlasterItem;
 import com.docrider.powerrangerscraft.loot.ModLootModifiers;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
@@ -75,15 +76,31 @@ public class PowerRangersCraftCore {
         OtherItems.register(modEventBus);
 
         MMPRItems.register(modEventBus);
-        //JAKQItems.register(modEventBus);
-        //SunVulcanItems.register(modEventBus);
-        //MaskmanItems.register(modEventBus);
-        //CarrangerItems.register(modEventBus);
-        //GingamanItems.register(modEventBus);
-        //GaorangerItems.register(modEventBus);
-        //ShinkengerItems.register(modEventBus);
-        //LuPatRangerItems.register(modEventBus);
-        //RyusoulgerItems.register(modEventBus);
+        //AlienItems.register(modEventBus);
+        //ZeoItems.register(modEventBus);
+        TurboItems.register(modEventBus);
+        //InSpaceItems.register(modEventBus);
+        //LostGalaxyItems.register(modEventBus);
+        //LightspeedRescueItems.register(modEventBus);
+        //TimeForceItems.register(modEventBus);
+        //WildForceItems.register(modEventBus);
+        //NinjaStormItems.register(modEventBus);
+        //DinoThunderItems.register(modEventBus);
+        //SPDItems.register(modEventBus);
+        //MysticForceItems.register(modEventBus);
+        //OperationOverdriveItems.register(modEventBus);
+        //JungleFuryItems.register(modEventBus);
+        //RPMItems.register(modEventBus);
+        //SamuraiItems.register(modEventBus);
+        //MegaforceItems.register(modEventBus);
+        //SuperMegaforceItems.register(modEventBus);
+        //DinoChargeItems.register(modEventBus);
+        //NinjaSteelItems.register(modEventBus);
+        //BeastMorphersItems.register(modEventBus);
+        //DinoFuryItems.register(modEventBus);
+        //CosmicFuryItems.register(modEventBus);
+        //HyperforceItems.register(modEventBus);
+        //ComicsItems.register(modEventBus);
 
         RangerBlocks.register(modEventBus);
 
@@ -146,7 +163,7 @@ public class PowerRangersCraftCore {
                 ItemProperties.register(MULTI_WEAPON_ITEM.get(i), ResourceLocation.parse("change"), ($itemStack, $level, $entity, $seed) -> {
                     return BaseDualSwordItem.get_mode($itemStack);
                 });
-            }
+            }*/
 
             for (int i = 0; i < CHARGED_WEAPON.size(); i++) {
                 ItemProperties.register(CHARGED_WEAPON.get(i), ResourceLocation.parse("change"), ($itemStack, $level, $entity, $seed) -> {
@@ -154,7 +171,7 @@ public class PowerRangersCraftCore {
                     return 0;
                 });
             }
-
+/*
             for (int i = 0; i < FORM_WEAPON_ITEM.size(); i++) {
                 ItemProperties.register(FORM_WEAPON_ITEM.get(i), ResourceLocation.parse("change"), ($itemStack, $level, $entity, $seed) -> {
                     if ($entity == null) {

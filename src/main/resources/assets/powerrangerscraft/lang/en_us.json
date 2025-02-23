@@ -26,8 +26,16 @@
 
   "entity.powerrangerscraft.putty_patroller":"Putty Patrollers",
   "item.powerrangerscraft.putty_patroller_spawn_egg":"Putty Patrollers Spawn Egg",
+
+  "entity.supersentaicraft.chromite":"Chromites",
+  "entity.supersentaicraft.blue_senturion_evil":"Blue Senturion (Evil)",
+  "item.supersentaicraft.chromite_spawn_egg":"Chromites Spawn Egg",
+  "item.supersentaicraft.blue_senturion_evil_spawn_egg":"Blue Senturion (Evil) Spawn Egg",
   
   "item.powerrangerscraft.power_rangers_logo": "Power Rangers Logo",
+
+  //00 Mobs Weapon
+  "item.supersentaicraft.chromites_sword":"Chromites Sword",
   
   //01 MMPR
   "tab.powerrangerscraft.mmpr": "Mighty Morphin Power Rangers",
@@ -40,7 +48,7 @@
 
   "item.powerrangerscraft.red_power_morpher":"Power Morpher (Red Ranger)",
   "item.powerrangerscraft.black_power_morpher":"Power Morpher (Black Ranger)",
-  "item.powerrangerscraft.blue_power_morpher":"Power Morpher (BLue Ranger)",
+  "item.powerrangerscraft.blue_power_morpher":"Power Morpher (Blue Ranger)",
   "item.powerrangerscraft.yellow_power_morpher":"Power Morpher (Yellow Ranger)",
   "item.powerrangerscraft.pink_power_morpher":"Power Morpher (Pink Ranger)",
 
@@ -51,6 +59,48 @@
   "item.powerrangerscraft.pteradactyl_power_coin":"Pteradactyl Power Coin",
   
   "item.powerrangerscraft.blade_blaster": "Blade Blaster",
+
+  //02 Alien
+
+  //03 Zeo
+
+  //04 Turbo
+  "tab.powerrangerscraft.turbo": "Power Rangers Turbo",
+
+  "item.powerrangerscraft.turbo_logo": "Turbo Logo",
+
+  "item.powerrangerscraft.turbo_head": "Turbo Helmet",
+  "item.powerrangerscraft.turbo_torso": "Turbo Chestplate",
+  "item.powerrangerscraft.turbo_legs": "Turbo Leggings",
+
+  "item.powerrangerscraft.red_turbo_morpher":"Turbo Morpher (Red Ranger)",
+  "item.powerrangerscraft.blue_turbo_morpher":"Turbo Morpher (Blue Ranger)",
+  "item.powerrangerscraft.green_turbo_morpher":"Turbo Morpher (Green Ranger)",
+  "item.powerrangerscraft.yellow_turbo_morpher":"Turbo Morpher (Yellow Ranger)",
+  "item.powerrangerscraft.pink_turbo_morpher":"Turbo Morpher (Pink Ranger)",
+  "item.powerrangerscraft.signal_whistle": "Signal Whistle",
+  "item.powerrangerscraft.signal_whistle_evil": "Signal Whistle (Blue Senturion Evil)",
+  "item.powerrangerscraft.phantom_ranger_belt": "Phantom Ranger Belt",
+
+  "item.powerrangerscraft.red_turbo_key":"Red Turbo Key",
+  "item.powerrangerscraft.blue_turbo_key":"Blue Turbo Key",
+  "item.powerrangerscraft.green_turbo_key":"Green Turbo Key",
+  "item.powerrangerscraft.yellow_turbo_key":"Yellow Turbo Key",
+  "item.powerrangerscraft.pink_turbo_key":"Pink Turbo Key",
+  "item.powerrangerscraft.blue_senturion_badge": "Blue Senturion Badge",
+  "item.powerrangerscraft.power_ruby": "Power Ruby",
+
+  "item.powerrangerscraft.auto_blaster": "Auto Blaster",
+  "item.powerrangerscraft.turbo_blade": "Turbo Blade",
+  "item.powerrangerscraft.turbo_lightning_sword": "Turbo Lightning Sword",
+  "item.powerrangerscraft.turbo_hand_blaster": "Turbo Hand Blaster",
+  "item.powerrangerscraft.turbo_thunder_cannon": "Turbo Thunder Cannon",
+  "item.powerrangerscraft.turbo_star_charger": "Turbo Star Charger",
+  "item.powerrangerscraft.turbo_wind_fire": "Turbo Wind Fire",
+  "item.powerrangerscraft.turbo_navigator": "Turbo Navigator",
+  "item.powerrangerscraft.auto_blast_defender": "Auto Blast Defender",
+  "item.powerrangerscraft.senturion_synergizer": "Senturion Synergizer",
+  "item.powerrangerscraft.phantom_laser": "Phantom Laser",
   
   //Misc
   "tab.powerrangerscraft.misc": "Ranger Items",

@@ -1,6 +1,7 @@
 package com.docrider.powerrangerscraft.entity;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.entity.boss.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.*;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.EntityType;
@@ -21,41 +22,24 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
 
     public static final DeferredItem<DeferredSpawnEggItem> PUTTY_PATROLLERS_SPAWN_EGG = ITEMS.register("putty_patroller_spawn_egg",
             () -> new DeferredSpawnEggItem(PUTTY_PATROLLERS, 0x121212, 0xa1a1a1, new Item.Properties()));
+
+    //02 Alien
+
+    //03 Zeo
+
+    //04 Turbo
+    public static final DeferredHolder<EntityType<?>, EntityType<ChromitesEntity>> CHROMITES = MOBLIST.register("chromite",
+            () -> EntityType.Builder.of(ChromitesEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":chromite"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> CHROMITES_SPAWN_EGG = ITEMS.register("chromite_spawn_egg",
+            () -> new DeferredSpawnEggItem(CHROMITES, 0x03a9f4, 0xbd66a6, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<BlueSenturionEvilEntity>> BLUE_SENTURION_EVIL = MOBLIST.register("blue_senturion_evil",
+            () -> EntityType.Builder.of(BlueSenturionEvilEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":blue_senturion_evil"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> BLUE_SENTURION_EVIL_SPAWN_EGG = ITEMS.register("blue_senturion_evil_spawn_egg",
+            () -> new DeferredSpawnEggItem(BLUE_SENTURION_EVIL, 0x1323af, 0xffffff, new Item.Properties()));
 /*
-    //02 JAKQ
-    public static final DeferredHolder<EntityType<?>, EntityType<CrimersEntity>> CRIMERS = MOBLIST.register("crimer",
-            () -> EntityType.Builder.of(CrimersEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":crimer"));
-
-    public static final DeferredItem<DeferredSpawnEggItem> CRIMERS_SPAWN_EGG = ITEMS.register("crimer_spawn_egg",
-            () -> new DeferredSpawnEggItem(CRIMERS, 0x878583, 0x121212, new Item.Properties()));
-
-    //05 Sun Vulcan
-    public static final DeferredHolder<EntityType<?>, EntityType<MachinemenEntity>> MACHINEMEN = MOBLIST.register("machineman",
-            () -> EntityType.Builder.of(MachinemenEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":machineman"));
-
-    public static final DeferredItem<DeferredSpawnEggItem> MACHINEMEN_SPAWN_EGG = ITEMS.register("machineman_spawn_egg",
-            () -> new DeferredSpawnEggItem(MACHINEMEN, 0x121212, 0xb81200, new Item.Properties()));
-
-    //11 Maskman
-    public static final DeferredHolder<EntityType<?>, EntityType<UnglersEntity>> UNGLERS = MOBLIST.register("ungler",
-            () -> EntityType.Builder.of(UnglersEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":ungler"));
-
-    public static final DeferredItem<DeferredSpawnEggItem> UNGLERS_SPAWN_EGG = ITEMS.register("ungler_spawn_egg",
-            () -> new DeferredSpawnEggItem(UNGLERS, 0x121212, 0xdcc568, new Item.Properties()));
-
-    //20 Carranger
-    public static final DeferredHolder<EntityType<?>, EntityType<WumpersEntity>> WUMPERS = MOBLIST.register("wumper",
-            () -> EntityType.Builder.of(WumpersEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":wumper"));
-
-    public static final DeferredItem<DeferredSpawnEggItem> WUMPERS_SPAWN_EGG = ITEMS.register("wumper_spawn_egg",
-            () -> new DeferredSpawnEggItem(WUMPERS, 0x03a9f4, 0xbd66a6, new Item.Properties()));
-
-    public static final DeferredHolder<EntityType<?>, EntityType<SignalmanEvilEntity>> SIGNALMAN_EVIL = MOBLIST.register("signalman_evil",
-            () -> EntityType.Builder.of(SignalmanEvilEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":signalman_evil"));
-
-    public static final DeferredItem<DeferredSpawnEggItem> SIGNALMAN_EVIL_SPAWN_EGG = ITEMS.register("signalman_evil_spawn_egg",
-            () -> new DeferredSpawnEggItem(SIGNALMAN_EVIL, 0x1323af, 0xffffff, new Item.Properties()));
-
     //22 Gingaman
     public static final DeferredHolder<EntityType<?>, EntityType<YartotsEntity>> YARTOTS = MOBLIST.register("yartots",
             () -> EntityType.Builder.of(YartotsEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":yartots"));

@@ -1,0 +1,15 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "powerrangerscraft:item/auto_blaster"
+  },
+    "overrides": [
+       
+        {
+            "predicate": {
+                "change": 1
+            },
+            "model": "powerrangerscraft:item/auto_blaster_turbo"
+        }
+    ]
+}

@@ -13,7 +13,6 @@ import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.ArrayList;
@@ -39,14 +38,14 @@ public class RangerTabs {
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> SunVulcanTab = CREATIVE_MODE_TABS.register("ssc005", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(SunVulcanItems.SUN_VULCAN_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_sun_vulcan_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.sun_vulcan")).build());
-
+*/
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> TurboTab = CREATIVE_MODE_TABS.register("prc004", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(TurboItems.TURBO_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/base_tab_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.turbo")).build());
+/*
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> MaskmanTab = CREATIVE_MODE_TABS.register("ssc011", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(MaskmanItems.MASKMAN_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_maskman_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.maskman")).build());
-
-    public static DeferredHolder<CreativeModeTab, CreativeModeTab> CarrangerTab = CREATIVE_MODE_TABS.register("ssc020", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(CarrangerItems.CARRANGER_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_carranger_items.png"))
-                    .title(Component.translatable("tab.powerrangerscraft.carranger")).build());
 
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> GingamanTab = CREATIVE_MODE_TABS.register("ssc022", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(GingamanItems.GINGAMAN_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_gingaman_items.png"))
@@ -81,10 +80,10 @@ public class RangerTabs {
     public static List<Item> JAKQ= new ArrayList<Item>();
 
     public static List<Item> SUN_VULCAN= new ArrayList<Item>();
-
+*/
+    public static List<Item> TURBO = new ArrayList<Item>();
+/*
     public static List<Item> MASKMAN= new ArrayList<Item>();
-
-    public static List<Item> CARRANGER= new ArrayList<Item>();
 
     public static List<Item> GINGAMAN= new ArrayList<Item>();
 
@@ -126,18 +125,18 @@ public class RangerTabs {
                 event.accept( RangerTabs.SUN_VULCAN.get(i));
             }
 
-        }
+        }*/
+        else if(event.getTab() == RangerTabs.TurboTab.get()) {
+            for (int i = 0; i < RangerTabs.TURBO.size(); i++)
+            {
+                event.accept( RangerTabs.TURBO.get(i));
+            }
+
+        }/*
         else if(event.getTab() == RangerTabs.MaskmanTab.get()) {
             for (int i = 0; i < RangerTabs.MASKMAN.size(); i++)
             {
                 event.accept( RangerTabs.MASKMAN.get(i));
-            }
-
-        }
-        else if(event.getTab() == RangerTabs.CarrangerTab.get()) {
-            for (int i = 0; i < RangerTabs.CARRANGER.size(); i++)
-            {
-                event.accept( RangerTabs.CARRANGER.get(i));
             }
 
         }
@@ -185,10 +184,10 @@ public class RangerTabs {
             event.accept(MobsCore.MACHINEMEN_SPAWN_EGG);
 
             event.accept(MobsCore.UNGLERS_SPAWN_EGG);
-
-            event.accept(MobsCore.WUMPERS_SPAWN_EGG);
-            event.accept(MobsCore.SIGNALMAN_EVIL_SPAWN_EGG);
-
+*/
+            event.accept(MobsCore.CHROMITES_SPAWN_EGG);
+            event.accept(MobsCore.BLUE_SENTURION_EVIL_SPAWN_EGG);
+/*
             event.accept(MobsCore.YARTOTS_SPAWN_EGG);
             event.accept(MobsCore.BLACK_KNIGHT_SPAWN_EGG);
 
