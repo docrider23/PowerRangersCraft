@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "galaxy_yellow",
+  "pattern": [
+    "aba",
+    "aca",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "supersentaicraft:lost_galaxy_logo"
+    },
+	"b": {
+      "item": "supersentaicraft:wolf_mirinoi_medal"
+    },
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "supersentaicraft:quasar_launcher_yellow"
+  }
+}

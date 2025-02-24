@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lost_galaxy",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:lost_galaxy_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:lost_galaxy_torso"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "galaxy_green",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "supersentaicraft:lost_galaxy_logo"
+    },
+	"b": {
+      "item": "supersentaicraft:eagle_mirinoi_medal"
+    },
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "supersentaicraft:trans_blaster"
+  }
+}

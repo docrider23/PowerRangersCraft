@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "galaxy_blue",
+  "pattern": [
+    "aba",
+    "aca",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:lost_galaxy_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:gorilla_mirinoi_medal"
+    },
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:quasar_launcher_blue"
+  }
+}
