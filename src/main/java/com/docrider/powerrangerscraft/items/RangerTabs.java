@@ -31,26 +31,27 @@ public class RangerTabs {
             CreativeModeTab.builder().icon(() -> new ItemStack(MMPRItems.MMPR_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_mmpr_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.mmpr")).build());
 
-    public static DeferredHolder<CreativeModeTab, CreativeModeTab> TurboTab = CREATIVE_MODE_TABS.register("prc004", () ->
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> TurboTab = CREATIVE_MODE_TABS.register("prc005", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(TurboItems.TURBO_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_turbo_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.turbo")).build());
-/*
-    public static DeferredHolder<CreativeModeTab, CreativeModeTab> GingamanTab = CREATIVE_MODE_TABS.register("ssc022", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(GingamanItems.GINGAMAN_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_gingaman_items.png"))
-                    .title(Component.translatable("tab.powerrangerscraft.gingaman")).build());
 
-    public static DeferredHolder<CreativeModeTab, CreativeModeTab> GaorangerTab = CREATIVE_MODE_TABS.register("ssc025", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(GaorangerItems.GAORANGER_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_gaoranger_items.png"))
-                    .title(Component.translatable("tab.powerrangerscraft.gaoranger")).build());
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> LostGalaxyTab = CREATIVE_MODE_TABS.register("prc007", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(LostGalaxyItems.LOST_GALAXY_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_lost_galaxy_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.lost_galaxy")).build());
 
-    public static DeferredHolder<CreativeModeTab, CreativeModeTab> ShinkengerTab = CREATIVE_MODE_TABS.register("ssc033", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(ShinkengerItems.SHINKENGER_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_shinkenger_items.png"))
-                    .title(Component.translatable("tab.powerrangerscraft.shinkenger")).build());
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> WildForceTab = CREATIVE_MODE_TABS.register("prc010", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(WildForceItems.WILD_FORCE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_wild_force_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.wild_force")).build());
 
-    public static DeferredHolder<CreativeModeTab, CreativeModeTab> RyusoulgerTab = CREATIVE_MODE_TABS.register("ssc043", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(RyusoulgerItems.RYUSOULGER_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_ryusoulger_items.png"))
-                    .title(Component.translatable("tab.powerrangerscraft.ryusoulger")).build());
-*/
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> SamuraiTab = CREATIVE_MODE_TABS.register("prc017", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(SamuraiItems.SAMURAI_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_samurai_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.samurai")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> DinoFuryTab = CREATIVE_MODE_TABS.register("prc028", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(DinoFuryItems.DINO_FURY_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_dino_fury_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.dino_fury")).build());
+
+
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> MiscTab = CREATIVE_MODE_TABS.register("prc900", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(OtherItems.POWER_RANGERS_LOGO.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.misc")).build());
@@ -62,15 +63,15 @@ public class RangerTabs {
     public static List<Item> MMPR= new ArrayList<Item>();
 
     public static List<Item> TURBO = new ArrayList<Item>();
-/*
-    public static List<Item> GINGAMAN= new ArrayList<Item>();
 
-    public static List<Item> GAORANGER= new ArrayList<Item>();
+    public static List<Item> LOST_GALAXY= new ArrayList<Item>();
 
-    public static List<Item> SHINKENGER= new ArrayList<Item>();
+    public static List<Item> WILD_FORCE= new ArrayList<Item>();
 
-    public static List<Item> RYUSOULGER= new ArrayList<Item>();
-*/
+    public static List<Item> SAMURAI= new ArrayList<Item>();
+
+    public static List<Item> DINO_FURY= new ArrayList<Item>();
+
     public static List<Item> MISC= new ArrayList<Item>();
 
     public static List<Block> BLOCKS= new ArrayList<Block>();
@@ -94,42 +95,42 @@ public class RangerTabs {
                 event.accept( RangerTabs.TURBO.get(i));
             }
 
-        }/*
-        else if(event.getTab() == RangerTabs.GingamanTab.get()) {
-            for (int i = 0; i < RangerTabs.GINGAMAN.size(); i++)
+        }
+        else if(event.getTab() == RangerTabs.LostGalaxyTab.get()) {
+            for (int i = 0; i < RangerTabs.LOST_GALAXY.size(); i++)
             {
-                event.accept( RangerTabs.GINGAMAN.get(i));
+                event.accept( RangerTabs.LOST_GALAXY.get(i));
             }
 
         }
-        else if(event.getTab() == RangerTabs.GaorangerTab.get()) {
-            for (int i = 0; i < RangerTabs.GAORANGER.size(); i++)
+        else if(event.getTab() == RangerTabs.WildForceTab.get()) {
+            for (int i = 0; i < RangerTabs.WILD_FORCE.size(); i++)
             {
-                event.accept( RangerTabs.GAORANGER.get(i));
+                event.accept( RangerTabs.WILD_FORCE.get(i));
             }
 
         }
-        else if(event.getTab() == RangerTabs.ShinkengerTab.get()) {
-            for (int i = 0; i < RangerTabs.SHINKENGER.size(); i++)
+        else if(event.getTab() == RangerTabs.SamuraiTab.get()) {
+            for (int i = 0; i < RangerTabs.SAMURAI.size(); i++)
             {
-                event.accept( RangerTabs.SHINKENGER.get(i));
+                event.accept( RangerTabs.SAMURAI.get(i));
             }
 
         }
-        else if(event.getTab() == RangerTabs.RyusoulgerTab.get()) {
-            for (int i = 0; i < RangerTabs.RYUSOULGER.size(); i++)
+        else if(event.getTab() == RangerTabs.DinoFuryTab.get()) {
+            for (int i = 0; i < RangerTabs.DINO_FURY.size(); i++)
             {
-                event.accept( RangerTabs.RYUSOULGER.get(i));
+                event.accept( RangerTabs.DINO_FURY.get(i));
             }
 
-        }*/
+        }
         else if(event.getTab() == RangerTabs.MiscTab.get()) {
 
             event.accept(MobsCore.PUTTY_PATROLLERS_SPAWN_EGG);
 
             event.accept(MobsCore.CHROMITES_SPAWN_EGG);
             event.accept(MobsCore.BLUE_SENTURION_EVIL_SPAWN_EGG);
-/*
+
             event.accept(MobsCore.SWABBIES_SPAWN_EGG);
             event.accept(MobsCore.MAGNA_DEFENDER_SPAWN_EGG);
 
@@ -140,7 +141,7 @@ public class RangerTabs {
 
             event.accept(MobsCore.HENGEMEN_SPAWN_EGG);
             event.accept(MobsCore.VOID_KNIGHT_SPAWN_EGG);
-*/
+
             for (int i = 0; i < RangerTabs.MISC.size(); i++)
             {
                 event.accept( RangerTabs.MISC.get(i));

@@ -28,35 +28,27 @@ public class RangerBlocks {
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.NETHERRACK), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
-    public static final DeferredBlock<Block> GAORANGER_ORE = registerBlock("gaoranger_ore",
+    public static final DeferredBlock<Block> ANIMAL_CRYSTAL_ORE = registerBlock("animal_crystal_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
-    public static final DeferredBlock<Block> DEEPSLATE_GAORANGER_ORE = registerBlock("deepslate_gaoranger_ore",
+    public static final DeferredBlock<Block> DEEPSLATE_ANIMAL_CRYSTAL_ORE = registerBlock("deepslate_animal_crystal_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
-    public static final DeferredBlock<Block> SHINKENGER_ORE = registerBlock("shinkenger_ore",
+    public static final DeferredBlock<Block> SAMURAI_DISK_ORE = registerBlock("samurai_disk_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
-    public static final DeferredBlock<Block> DEEPSLATE_SHINKENGER_ORE = registerBlock("deepslate_shinkenger_ore",
+    public static final DeferredBlock<Block> DEEPSLATE_SAMURAI_DISK_ORE = registerBlock("deepslate_samurai_disk_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
-    public static final DeferredBlock<Block> LUPAT_ORE = registerBlock("lupat_ore",
+    public static final DeferredBlock<Block> DINO_KEY_ORE = registerBlock("dino_key_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
-    public static final DeferredBlock<Block> DEEPSLATE_LUPAT_ORE = registerBlock("deepslate_lupat_ore",
-            () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
-                    .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
-
-    public static final DeferredBlock<Block> RYUSOULGER_ORE = registerBlock("ryusoulger_ore",
-            () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
-                    .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
-
-    public static final DeferredBlock<Block> DEEPSLATE_RYUSOULGER_ORE = registerBlock("deepslate_ryusoulger_ore",
+    public static final DeferredBlock<Block> DEEPSLATE_DINO_KEY_ORE = registerBlock("deepslate_dino_key_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 

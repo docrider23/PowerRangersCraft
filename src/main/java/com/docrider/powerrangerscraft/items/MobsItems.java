@@ -17,24 +17,21 @@ public class MobsItems {
 
 	public static final DeferredItem<SwordItem> CHROMITES_SWORD = ITEMS.register("chromites_sword",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
-/*
-	public static final DeferredItem<SwordItem> YARTOTS_SABER = ITEMS.register("yartots_saber",
+
+	public static final DeferredItem<SwordItem> SWABBIES_CUTLASS = ITEMS.register("swabbies_cutlass",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 
-	public static final DeferredItem<SwordItem> ORGETTES_CLUB = ITEMS.register("orgettes_club",
+	public static final DeferredItem<SwordItem> PUTRIDS_CLUB = ITEMS.register("putrids_club",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 
-	public static final DeferredItem<SwordItem> NANASHI_DAO = ITEMS.register("nanashi_dao",
+	public static final DeferredItem<SwordItem> MOOGERS_DAO = ITEMS.register("moogers_dao",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 
-	public static final DeferredItem<SwordItem> PORDERMAN_SWORD = ITEMS.register("porderman_sword",
+	public static final DeferredItem<SwordItem> HENGEMEN_SPEAR = ITEMS.register("hengemen_spear",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
-
-	public static final DeferredItem<SwordItem> DRUNN_SPEAR = ITEMS.register("drunn_spear",
-			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
-    public static final DeferredItem<Item> DRUNN_SHIELD = ITEMS.register("drunn_shield",
+    public static final DeferredItem<Item> HENGEMEN_SHIELD = ITEMS.register("hengemen_shield",
 			() -> new BaseShieldItem(new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
-*/
+
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}

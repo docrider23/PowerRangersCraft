@@ -31,11 +31,34 @@
   "entity.powerrangerscraft.blue_senturion_evil":"Blue Senturion (Evil)",
   "item.powerrangerscraft.chromite_spawn_egg":"Chromites Spawn Egg",
   "item.powerrangerscraft.blue_senturion_evil_spawn_egg":"Blue Senturion (Evil) Spawn Egg",
+
+  "entity.powerrangerscraft.swabbies": "Swabbies",
+  "entity.powerrangerscraft.magna_defender": "Magna Defender",
+  "item.powerrangerscraft.swabbies_spawn_egg": "Swabbies Spawn Egg",
+  "item.powerrangerscraft.magna_defender_spawn_egg": "Magna Defender Spawn Egg",
+
+  "entity.powerrangerscraft.putrids": "Putrids",
+  "entity.powerrangerscraft.zen_aku": "Zen-Aku",
+  "item.powerrangerscraft.putrids_spawn_egg": "Putrids Spawn Egg",
+  "item.powerrangerscraft.zen_aku_spawn_egg": "Zen-Aku Spawn Egg",
+
+  "entity.powerrangerscraft.mooger": "Moogers",
+  "item.powerrangerscraft.mooger_spawn_egg": "Moogers Spawn Egg",
+
+  "entity.powerrangerscraft.hengemen": "Hengemen",
+  "entity.powerrangerscraft.void_knight": "Void Knight",
+  "item.powerrangerscraft.hengemen_spawn_egg": "Hengemen Spawn Egg",
+  "item.powerrangerscraft.void_knight_spawn_egg": "Void Knight Spawn Egg",
   
   "item.powerrangerscraft.power_rangers_logo": "Power Rangers Logo",
 
   //00 Mobs Weapon
   "item.powerrangerscraft.chromites_sword":"Chromites Sword",
+  "item.powerrangerscraft.swabbies_cutlass": "Swabbies Cutlass",
+  "item.powerrangerscraft.putrids_club": "Putrids Club",
+  "item.powerrangerscraft.moogers_dao": "Moogers Dao",
+  "item.powerrangerscraft.hengemen_spear": "Hengemen Spear",
+  "item.powerrangerscraft.hengemen_shield": "Hengemen Shield",
   
   //01-02 MMPR
   "tab.powerrangerscraft.mmpr": "Mighty Morphin Power Rangers",
@@ -108,7 +131,42 @@
   "item.powerrangerscraft.in_space_logo": "In Space Logo",
 
   //07 Lost Galaxy
+  "tab.powerrangerscraft.lost_galaxy": "Power Rangers Lost Galaxy",
+
   "item.powerrangerscraft.lost_galaxy_logo": "Lost Galaxy Logo",
+
+  "item.powerrangerscraft.lost_galaxy_head": "Lost Galaxy Helmet",
+  "item.powerrangerscraft.lost_galaxy_torso": "Lost Galaxy Chestplate",
+  "item.powerrangerscraft.lost_galaxy_legs": "Lost Galaxy Leggings",
+
+  "item.powerrangerscraft.red_transmorpher":"Transmorpher (Red Ranger)",
+  "item.powerrangerscraft.green_transmorpher":"Transmorpher (Green Ranger)",
+  "item.powerrangerscraft.blue_transmorpher":"Transmorpher (Blue Ranger)",
+  "item.powerrangerscraft.yellow_transmorpher":"Transmorpher (Yellow Ranger)",
+  "item.powerrangerscraft.pink_transmorpher":"Transmorpher (Pink Ranger)",
+  "item.powerrangerscraft.magna_defender_morpher": "Magna Defender Morpher",
+
+  "item.powerrangerscraft.lion_mirinoi_medal":"Lion Mirinoi Medal",
+  "item.powerrangerscraft.eagle_mirinoi_medal":"Eagle Mirinoi Medal",
+  "item.powerrangerscraft.gorilla_mirinoi_medal":"Gorilla Mirinoi Medal",
+  "item.powerrangerscraft.wolf_mirinoi_medal":"Wolf Mirinoi Medal",
+  "item.powerrangerscraft.wildcat_mirinoi_medal":"Wildcat Mirinoi Medal",
+  "item.powerrangerscraft.magna_defender_core": "Magna Defender Core",
+  "item.powerrangerscraft.lights_of_orion": "Lights of Orion",
+  "item.powerrangerscraft.galactic_key": "Galactic Key",
+
+  "item.powerrangerscraft.quasar_saber": "Quasar Saber",
+  "item.powerrangerscraft.magna_talon": "Magna Talon",
+  "item.powerrangerscraft.cosma_claw": "Cosma Claw",
+  "item.powerrangerscraft.trans_blaster": "Trans Blaster",
+  "item.powerrangerscraft.delta_dagger": "Delta Dagger",
+  "item.powerrangerscraft.beta_bow": "Beta Bow",
+  "item.powerrangerscraft.quasar_launcher_red": "Quasar Launcher (Red Ranger)",
+  "item.powerrangerscraft.quasar_launcher_blue": "Quasar Launcher (Blue Ranger)",
+  "item.powerrangerscraft.quasar_launcher_green": "Quasar Launcher (Green Ranger)",
+  "item.powerrangerscraft.quasar_launcher_yellow": "Quasar Launcher (Yellow Ranger)",
+  "item.powerrangerscraft.quasar_launcher_pink": "Quasar Launcher (Pink Ranger)",
+  "item.powerrangerscraft.magna_sword": "Magna Sword",
 
   //08 Lightspeed Rescue
   "item.powerrangerscraft.lightspeed_rescue_logo": "Lightspeed Rescue Logo",
@@ -117,7 +175,13 @@
   "item.powerrangerscraft.time_force_logo": "Time Force Logo",
 
   //10 Wild Force
+  "tab.powerrangerscraft.wild_force": "Power Rangers Wild Force",
+
   "item.powerrangerscraft.wild_force_logo": "Wild Force Logo",
+
+  "item.powerrangerscraft.wild_force_head": "Wild Force Helmet",
+  "item.powerrangerscraft.wild_force_torso": "Wild Force Chestplate",
+  "item.powerrangerscraft.wild_force_legs": "Wild Force Leggings",
 
   //11 Ninja Storm
   "item.powerrangerscraft.ninja_storm_logo": "Ninja Storm Logo",
@@ -141,7 +205,13 @@
   "item.powerrangerscraft.rpm_logo": "RPM Logo",
 
   //18-19 Samurai/Super Samurai
+  "tab.powerrangerscraft.samurai": "Power Rangers (Super) Samurai",
+
   "item.powerrangerscraft.samurai_logo": "Samurai Logo",
+
+  "item.powerrangerscraft.samurai_head": "Samurai Helmet",
+  "item.powerrangerscraft.samurai_torso": "Samurai Chestplate",
+  "item.powerrangerscraft.samurai_legs": "Samurai Leggings",
 
   //20 Megaforce
   "item.powerrangerscraft.megaforce_logo": "Megaforce Logo",
@@ -159,7 +229,13 @@
   "item.powerrangerscraft.beast_morphers_logo": "Beast Morphers Logo",
 
   //28 Dino Fury
+  "tab.powerrangerscraft.dino_fury": "Power Rangers Dino Fury",
+
   "item.powerrangerscraft.dino_fury_logo": "Dino Fury Logo",
+
+  "item.powerrangerscraft.dino_fury_head": "Dino Fury Helmet",
+  "item.powerrangerscraft.dino_fury_torso": "Dino Fury Chestplate",
+  "item.powerrangerscraft.dino_fury_legs": "Dino Fury Leggings",
 
   //29 Cosmic Fury
   "item.powerrangerscraft.cosmic_fury_logo": "Cosmic Fury Logo",
@@ -173,5 +249,11 @@
 
   "item.powerrangerscraft.mecha_gear":"Mecha Gear",
   "block.powerrangerscraft.mecha_nether_ore":"Mecha Nether Ore",
-  "block.powerrangerscraft.deepslate_mecha_ore":"Deepslate Mecha Ore"
+  "block.powerrangerscraft.deepslate_mecha_ore":"Deepslate Mecha Ore",
+  "block.powerrangerscraft.animal_crystal_ore": "Animal Crystal Ore",
+  "block.powerrangerscraft.deepslate_animal_crystal_ore": "Deepslate Animal Crystal Ore",
+  "block.powerrangerscraft.samurai_disk_ore": "Samurai Disk Ore",
+  "block.powerrangerscraft.deepslate_samurai_disk_ore": "Deepslate Samurai Disk Ore",
+  "block.powerrangerscraft.dino_key_ore": "Dino Key Ore",
+  "block.powerrangerscraft.deepslate_dino_key_ore": "Deepslate Dino key Ore"
 }
