@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wild_force",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:empty_animal_crystal"
+    },
+	{
+      "item": "minecraft:paper",
+	  "data": 0
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:wild_force_logo"
+  }
+}

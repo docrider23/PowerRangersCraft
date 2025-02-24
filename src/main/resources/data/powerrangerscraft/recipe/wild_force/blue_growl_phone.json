@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wild_force_blue",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_animal_crystal"
+    },
+	"b": {
+      "item": "powerrangerscraft:shark_animal_crystal"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:blue_growl_phone"
+  }
+}

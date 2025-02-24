@@ -186,6 +186,8 @@
   "item.powerrangerscraft.empty_animal_crystal": "Empty Animal Crystal",
   "item.powerrangerscraft.unfinished_animus_crystal": "Unfinished Animus Animal Crystal",
   "item.powerrangerscraft.empty_animus_crystal": "Empty Animus Animal Crystal",
+  "block.powerrangerscraft.animal_crystal_ore": "Animal Crystal Ore",
+  "block.powerrangerscraft.deepslate_animal_crystal_ore": "Deepslate Animal Crystal Ore",
 
   "item.powerrangerscraft.red_growl_phone":"Growl Phone (Red Ranger)",
   "item.powerrangerscraft.yellow_growl_phone":"Growl Phone (Yellow Ranger)",
@@ -271,7 +273,7 @@
   "item.powerrangerscraft.fin_blade":"Fin Blade",
   "item.powerrangerscraft.elephant_sword":"Elephant Sword",
   "item.powerrangerscraft.elephant_shield":"Elephant Shield",
-  "item.powerrangerscraft.swinging_anchor":"Muscle Anchor",
+  "item.powerrangerscraft.swinging_anchor":"Swinging Anchor",
   "item.powerrangerscraft.gator_staff":"Gator Staff",
   "item.powerrangerscraft.gator_staff_blue_moon":"Gator Staff (Blue Moon)",
 
@@ -305,6 +307,10 @@
   "item.powerrangerscraft.samurai_torso": "Samurai Chestplate",
   "item.powerrangerscraft.samurai_legs": "Samurai Leggings",
 
+  "item.powerrangerscraft.samurai_disc": "Samurai Disc",
+  "block.powerrangerscraft.power_disc_ore": "Power Disc Ore",
+  "block.powerrangerscraft.deepslate_power_disc_ore": "Deepslate Power Disc Ore",
+
   //20 Megaforce
   "item.powerrangerscraft.megaforce_logo": "Megaforce Logo",
 
@@ -329,6 +335,10 @@
   "item.powerrangerscraft.dino_fury_torso": "Dino Fury Chestplate",
   "item.powerrangerscraft.dino_fury_legs": "Dino Fury Leggings",
 
+  "item.powerrangerscraft.blank_dino_key": "Blank Dino Key",
+  "block.powerrangerscraft.dino_key_ore": "Dino Key Ore",
+  "block.powerrangerscraft.deepslate_dino_key_ore": "Deepslate Dino key Ore",
+
   //29 Cosmic Fury
   "item.powerrangerscraft.cosmic_fury_logo": "Cosmic Fury Logo",
 
@@ -341,11 +351,5 @@
 
   "item.powerrangerscraft.mecha_gear":"Mecha Gear",
   "block.powerrangerscraft.mecha_nether_ore":"Mecha Nether Ore",
-  "block.powerrangerscraft.deepslate_mecha_ore":"Deepslate Mecha Ore",
-  "block.powerrangerscraft.animal_crystal_ore": "Animal Crystal Ore",
-  "block.powerrangerscraft.deepslate_animal_crystal_ore": "Deepslate Animal Crystal Ore",
-  "block.powerrangerscraft.samurai_disk_ore": "Samurai Disk Ore",
-  "block.powerrangerscraft.deepslate_samurai_disk_ore": "Deepslate Samurai Disk Ore",
-  "block.powerrangerscraft.dino_key_ore": "Dino Key Ore",
-  "block.powerrangerscraft.deepslate_dino_key_ore": "Deepslate Dino key Ore"
+  "block.powerrangerscraft.deepslate_mecha_ore":"Deepslate Mecha Ore"
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wild_force",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:red_lion_fang"
+    },
+	{
+      "item": "powerrangerscraft:golden_eagle_sword"
+    },
+	{
+      "item": "powerrangerscraft:blue_shark_fighting_fin"
+    },
+	{
+      "item": "powerrangerscraft:black_bison_axe"
+    },
+	{
+      "item": "powerrangerscraft:white_tiger_baton"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:jungle_sword"
+  }
+}

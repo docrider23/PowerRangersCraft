@@ -1,0 +1,16 @@
+{
+  "_comment": "Generated using MiningMark48's JSON Generator.",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "powerrangerscraft:item/lion_blaster"
+  },
+    "overrides": [
+       
+        {
+            "predicate": {
+                "change": 1
+            },
+            "model": "powerrangerscraft:item/lion_blaster_final"
+        }
+    ]
+}

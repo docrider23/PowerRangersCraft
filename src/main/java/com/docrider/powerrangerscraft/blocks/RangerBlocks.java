@@ -36,11 +36,11 @@ public class RangerBlocks {
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
-    public static final DeferredBlock<Block> SAMURAI_DISK_ORE = registerBlock("samurai_disk_ore",
+    public static final DeferredBlock<Block> POWER_DISC_ORE = registerBlock("power_disc_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
-    public static final DeferredBlock<Block> DEEPSLATE_SAMURAI_DISK_ORE = registerBlock("deepslate_samurai_disk_ore",
+    public static final DeferredBlock<Block> DEEPSLATE_POWER_DISC_ORE = registerBlock("deepslate_power_disc_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 

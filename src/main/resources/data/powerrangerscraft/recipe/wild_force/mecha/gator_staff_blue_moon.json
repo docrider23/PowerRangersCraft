@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "predazord_blue_moon",
+  "pattern": [
+    "ama",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_animal_crystal"
+    },
+	"b": {
+      "item": "powerrangerscraft:wolf_animal_crystal"
+    },
+	"c": {
+      "item": "minecraft:diamond_sword"
+    },
+	"m": {
+      "item": "powerrangerscraft:mecha_gear"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:gator_blade_blue_moon"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "animus",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:unfinished_animus_crystal"
+    },
+	{
+      "item": "powerrangerscraft:armadillo_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:deer_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:falcon_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:red_gorilla_animal_crystal"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:empty_animus_crystal"
+  }
+}

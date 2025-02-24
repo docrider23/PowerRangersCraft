@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wild_force_red",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:crystal_saber"
+    },
+	{
+      "item": "powerrangerscraft:lion_animal_crystal"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:lion_crystal_saber"
+  }
+}

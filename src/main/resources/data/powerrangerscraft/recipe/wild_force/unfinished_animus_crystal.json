@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "animus",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:elephant_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:giraffe_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:black_bear_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:polar_bear_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:gorilla_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:wolf_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:hammerhead_shark_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:alligator_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:rhino_animal_crystal"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:unfinished_animus_crystal"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wild_force_megazord",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:wild_force_head"
+    },
+	{
+      "item": "powerrangerscraft:mecha_gear"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:wild_force_megazord_boots"
+  }
+}
