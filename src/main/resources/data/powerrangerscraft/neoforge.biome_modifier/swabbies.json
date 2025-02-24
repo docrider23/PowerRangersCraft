@@ -1,8 +1,8 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "#is_plains",
+  "biomes": "#is_taiga",
   "spawners": {
-    "type": "powerrangerscraft:chromite",
+    "type": "powerrangerscraft:swabbies",
     "weight": 15,
     "minCount": 3,
     "maxCount": 5

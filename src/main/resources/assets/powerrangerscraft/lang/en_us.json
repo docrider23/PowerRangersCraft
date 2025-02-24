@@ -90,7 +90,7 @@
   "item.powerrangerscraft.zeo_logo": "Zeo Logo",
 
   //05 Turbo
-  "tab.powerrangerscraft.turbo": "Power Rangers Turbo",
+  "tab.powerrangerscraft.turbo": "Turbo",
 
   "item.powerrangerscraft.turbo_logo": "Turbo Logo",
 
@@ -131,7 +131,7 @@
   "item.powerrangerscraft.in_space_logo": "In Space Logo",
 
   //07 Lost Galaxy
-  "tab.powerrangerscraft.lost_galaxy": "Power Rangers Lost Galaxy",
+  "tab.powerrangerscraft.lost_galaxy": "Lost Galaxy",
 
   "item.powerrangerscraft.lost_galaxy_logo": "Lost Galaxy Logo",
 
@@ -175,13 +175,105 @@
   "item.powerrangerscraft.time_force_logo": "Time Force Logo",
 
   //10 Wild Force
-  "tab.powerrangerscraft.wild_force": "Power Rangers Wild Force",
+  "tab.powerrangerscraft.wild_force": "Wild Force",
 
   "item.powerrangerscraft.wild_force_logo": "Wild Force Logo",
 
   "item.powerrangerscraft.wild_force_head": "Wild Force Helmet",
   "item.powerrangerscraft.wild_force_torso": "Wild Force Chestplate",
   "item.powerrangerscraft.wild_force_legs": "Wild Force Leggings",
+
+  "item.powerrangerscraft.empty_animal_crystal": "Empty Animal Crystal",
+  "item.powerrangerscraft.unfinished_animus_crystal": "Unfinished Animus Animal Crystal",
+  "item.powerrangerscraft.empty_animus_crystal": "Empty Animus Animal Crystal",
+
+  "item.powerrangerscraft.red_growl_phone":"Growl Phone (Red Ranger)",
+  "item.powerrangerscraft.yellow_growl_phone":"Growl Phone (Yellow Ranger)",
+  "item.powerrangerscraft.blue_growl_phone":"Growl Phone (Blue Ranger)",
+  "item.powerrangerscraft.black_growl_phone":"Growl Phone (Black Ranger)",
+  "item.powerrangerscraft.white_growl_phone":"Growl Phone (White Ranger)",
+  "item.powerrangerscraft.lunar_caller": "Lunar Caller",
+
+  "item.powerrangerscraft.lion_animal_crystal": "Lion Animal Crystal",
+  "item.powerrangerscraft.eagle_animal_crystal": "Lion Animal Crystal",
+  "item.powerrangerscraft.shark_animal_crystal": "Lion Animal Crystal",
+  "item.powerrangerscraft.bison_animal_crystal": "Lion Animal Crystal",
+  "item.powerrangerscraft.tiger_animal_crystal": "Lion Animal Crystal",
+  "item.powerrangerscraft.wolf_animal_crystal": "Lion Animal Crystal",
+
+  "item.powerrangerscraft.elephant_animal_crystal":"Elephant Animal Crystal",
+  "item.powerrangerscraft.giraffe_animal_crystal":"Giraffe Animal Crystal",
+  "item.powerrangerscraft.black_bear_animal_crystal":"Black Bear Animal Crystal",
+  "item.powerrangerscraft.polar_bear_animal_crystal":"Polar Bear Animal Crystal",
+  "item.powerrangerscraft.gorilla_animal_crystal":"Gorilla Animal Crystal",
+  "item.powerrangerscraft.hammerhead_shark_animal_crystal":"Hammerhead Shark Animal Crystal",
+  "item.powerrangerscraft.alligator_animal_crystal":"Alligator Animal Crystal",
+  "item.powerrangerscraft.rhino_animal_crystal":"Rhino Animal Crystal",
+  "item.powerrangerscraft.armadillo_animal_crystal":"Armadillo Animal Crystal",
+  "item.powerrangerscraft.deer_animal_crystal":"Deer Animal Crystal",
+  "item.powerrangerscraft.falcon_animal_crystal":"Falcon Animal Crystal",
+  "item.powerrangerscraft.black_lion_animal_crystal":"Black Lion Animal Crystal",
+  "item.powerrangerscraft.condor_animal_crystal":"Condor Animal Crystal",
+  "item.powerrangerscraft.sawshark_animal_crystal":"Sawshark Animal Crystal",
+  "item.powerrangerscraft.buffalo_animal_crystal":"Buffalo Animal Crystal",
+  "item.powerrangerscraft.jaguar_animal_crystal":"Jaguar Animal Crystal",
+  "item.powerrangerscraft.red_gorilla_animal_crystal":"Red Gorilla Animal Crystal",
+  "item.powerrangerscraft.panda_animal_crystal":"Panda Animal Crystal",
+
+  "item.powerrangerscraft.lion_blue_animal_crystal":"Lion Animal Crystal (Blue)",
+  "item.powerrangerscraft.lion_black_animal_crystal":"Lion Animal Crystal (Black)",
+  "item.powerrangerscraft.lion_white_animal_crystal":"Lion Animal Crystal (White)",
+  "item.powerrangerscraft.ape_animal_crystal":"Ape Animal Crystal",
+
+  "item.powerrangerscraft.animarium_buckle": "Animarium Buckle",
+
+  "item.powerrangerscraft.crystal_saber":"Crystal Saber",
+  "item.powerrangerscraft.lion_crystal_saber":"Crystal Saber (Red)",
+  "item.powerrangerscraft.eagle_crystal_saber":"Crystal Saber (Yellow)",
+  "item.powerrangerscraft.shark_crystal_saber":"Crystal Saber (Blue)",
+  "item.powerrangerscraft.bison_crystal_saber":"Crystal Saber (Black)",
+  "item.powerrangerscraft.tiger_crystal_saber":"Crystal Saber (White)",
+  "item.powerrangerscraft.jungle_sword":"Jungle Sword",
+  "item.powerrangerscraft.red_lion_fang":"Red Lion Fang",
+  "item.powerrangerscraft.red_lion_fang_claw":"Red Lion Fang (Claw)",
+  "item.powerrangerscraft.red_lion_fang_claw1":"Red Lion Fang (Claw)",
+  "item.powerrangerscraft.lion_blaster":"Lion Blaster",
+  "item.powerrangerscraft.golden_eagle_sword":"Golden Eagle Sword",
+  "item.powerrangerscraft.blue_shark_fighting_fin":"Blue Shark Fighting Fin",
+  "item.powerrangerscraft.black_bison_axe":"Black Bison Axe",
+  "item.powerrangerscraft.white_tiger_baton":"White Tiger Baton",
+  "item.powerrangerscraft.lunar_cue":"Lunar Cue",
+  "item.powerrangerscraft.falcon_summoner":"Falcon Summoner",
+
+  "item.powerrangerscraft.jungle_blaster":"Jungle Blaster",
+  "item.powerrangerscraft.falconator":"Falconator",
+  "item.powerrangerscraft.armadillo_puck":"Armadillo Puck",
+  "item.powerrangerscraft.sword_of_pardolis":"Sword of Pardolis",
+  "item.powerrangerscraft.rhino_shooter":"Rhino Shooter",
+  "item.powerrangerscraft.deer_clutcher":"Deer Shooter",
+
+  "item.powerrangerscraft.crescent_blade":"Crescent Blade",
+  "item.powerrangerscraft.flute_knife":"Flute Knife",
+
+  "item.powerrangerscraft.wild_force_megazord_head":"Wild Force Megazord Helmet",
+
+  "item.powerrangerscraft.wild_force_megazord_torso":"Wild Force Megazord Chestplate",
+  "item.powerrangerscraft.wild_force_megazord_legs":"Wild Force Megazord Leggings",
+  "item.powerrangerscraft.wild_force_megazord_boots":"Wild Force Megazord Boots",
+
+  "item.powerrangerscraft.kongazord_head":"Kongazord Helmet",
+  "item.powerrangerscraft.predazord_head":"Predazord Helmet",
+  "item.powerrangerscraft.predazord_blue_moon_head":"Predazord Blue Moon Helmet",
+  "item.powerrangerscraft.isis_megazord_head":"Isis Megazord Helmet",
+  "item.powerrangerscraft.animus_head":"Animus Helmet",
+  "item.powerrangerscraft.ultimus_megazord_head":"Ulitmus Megazord Helmet",
+
+  "item.powerrangerscraft.fin_blade":"Fin Blade",
+  "item.powerrangerscraft.elephant_sword":"Elephant Sword",
+  "item.powerrangerscraft.elephant_shield":"Elephant Shield",
+  "item.powerrangerscraft.swinging_anchor":"Muscle Anchor",
+  "item.powerrangerscraft.gator_staff":"Gator Staff",
+  "item.powerrangerscraft.gator_staff_blue_moon":"Gator Staff (Blue Moon)",
 
   //11 Ninja Storm
   "item.powerrangerscraft.ninja_storm_logo": "Ninja Storm Logo",
@@ -205,7 +297,7 @@
   "item.powerrangerscraft.rpm_logo": "RPM Logo",
 
   //18-19 Samurai/Super Samurai
-  "tab.powerrangerscraft.samurai": "Power Rangers (Super) Samurai",
+  "tab.powerrangerscraft.samurai": "(Super) Samurai",
 
   "item.powerrangerscraft.samurai_logo": "Samurai Logo",
 
@@ -229,7 +321,7 @@
   "item.powerrangerscraft.beast_morphers_logo": "Beast Morphers Logo",
 
   //28 Dino Fury
-  "tab.powerrangerscraft.dino_fury": "Power Rangers Dino Fury",
+  "tab.powerrangerscraft.dino_fury": "Dino Fury",
 
   "item.powerrangerscraft.dino_fury_logo": "Dino Fury Logo",
 

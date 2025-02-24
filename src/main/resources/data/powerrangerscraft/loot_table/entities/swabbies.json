@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lion_mirinoi_medal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:eagle_mirinoi_medal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:gorilla_mirinoi_medal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:wolf_mirinoi_medal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:wildcat_mirinoi_medal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lost_galaxy_logo",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lost_galaxy_logo"
+        }
+      ]
+    }
+  ]
+}
