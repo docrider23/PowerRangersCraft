@@ -73,8 +73,7 @@ public class SamuraiItems {
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
 			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.SAMURAI));
 
-	public static final DeferredItem<Item> MEGA_MODE_DISC = ITEMS.register("mega_mode_disc",
-			() -> new SecretDiscItem(new Item.Properties(),0,"_mega_mode","","samurai_belt").ChangeSlot(2).BackToBase().AddCompatibilityList(SAMURAI).AddToTabList(RangerTabs.SAMURAI));
+
     
 	public static final DeferredItem<Item> BLACK_BOX = ITEMS.register("black_box",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.SAMURAI));
@@ -97,9 +96,27 @@ public class SamuraiItems {
             		new MobEffectInstance(EffectCore.FLYING, 40, 5,true,false))
             .ChangeSlot(2).BackToBase().AddCompatibilityList(SAMURAI).AddToTabList(RangerTabs.SAMURAI));
 
+	public static final DeferredItem<Item> SHARK_ATTACK_MEGA_MODE_DISC = ITEMS.register("shark_attack_mega_mode_disc",
+			() -> new SecretDiscItem(new Item.Properties(),0,"_shark_attack_mega_mode","","samurai_super_mega_mode_belt").ChangeSlot(2).BackToBase().addNeedForm(SHARK_DISC.get(),2).AddCompatibilityList(SAMURAI));
+	public static final DeferredItem<Item> SUPER_MEGA_MODE_DISC = ITEMS.register("super_mega_mode_disc",
+			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","","samurai_super_mega_mode_belt")
+					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbelt.geo.json").AddCompatibilityList(SAMURAI));
+	public static final DeferredItem<Item> MEGA_MODE_DISC = ITEMS.register("mega_mode_disc",
+			() -> new SecretDiscItem(new Item.Properties(),0,"_mega_mode","","samurai_belt").addAlternative(SUPER_MEGA_MODE_DISC.get()).ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddCompatibilityList(SAMURAI).AddToTabList(RangerTabs.SAMURAI));
+/*
+	public static final DeferredItem<Item> SHOGUN_DISC_GOLD = ITEMS.register("shogun_disc_gold",
+			() -> new SecretDiscItem(new Item.Properties(),0,"_shogun_mode","samurai_gold","shogun_gold_belt").BackToBase());
+	public static final DeferredItem<Item> SHOGUN_DISC_YELLOW = ITEMS.register("shogun_disc_yellow",
+			() -> new SecretDiscItem(new Item.Properties(),0,"_shogun_mode","samurai_yellow","shogun_yellow_belt").BackToBase());
+	public static final DeferredItem<Item> SHOGUN_DISC_GREEN = ITEMS.register("shogun_disc_green",
+			() -> new SecretDiscItem(new Item.Properties(),0,"_shogun_mode","samurai_green","shogun_green_belt").BackToBase());
+	public static final DeferredItem<Item> SHOGUN_DISC_PINK = ITEMS.register("shogun_disc_pink",
+			() -> new SecretDiscItem(new Item.Properties(),0,"_shogun_mode","samurai_pink","shogun_pink_belt").BackToBase());
+	public static final DeferredItem<Item> SHOGUN_DISC_BLUE = ITEMS.register("shogun_disc_blue",
+			() -> new SecretDiscItem(new Item.Properties(),0,"_shogun_mode","samurai_blue","shogun_blue_belt").BackToBase());
 	public static final DeferredItem<Item> SHOGUN_DISC = ITEMS.register("shogun_disc",
-			() -> new SecretDiscItem(new Item.Properties(),0,"_shogun_mode","","shogun_belt").ChangeSlot(2).BackToBase().AddCompatibilityList(SAMURAI).AddToTabList(RangerTabs.SAMURAI));
-    
+			() -> new SecretDiscItem(new Item.Properties(),0,"_shogun_mode","samurai_red","shogun_red_belt").BackToBase().addNeedForm(SUPER_MEGA_MODE_DISC.get(),2).addAlternative(SHOGUN_DISC_PINK.get()).addAlternative(SHOGUN_DISC_BLUE.get()).addAlternative(SHOGUN_DISC_GREEN.get()).addAlternative(SHOGUN_DISC_YELLOW.get()).addAlternative(SHOGUN_DISC_GOLD.get()).AddToTabList(RangerTabs.SAMURAI));
+    */
     public static final DeferredItem<Item> SAMURAI_HELMET = ITEMS.register("samurai_head",
     		() -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
     public static final DeferredItem<Item> SAMURAI_CHESTPLATE = ITEMS.register("samurai_torso",

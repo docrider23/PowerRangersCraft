@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#is_swamp",
+  "spawners": {
+    "type": "powerrangerscraft:mooger",
+    "weight": 15,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}

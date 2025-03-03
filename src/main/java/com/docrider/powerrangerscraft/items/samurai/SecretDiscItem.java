@@ -34,11 +34,12 @@ public class SecretDiscItem extends RangerFormChangeItem {
 
 				if (this == SamuraiItems.SHARK_DISC.get())
 				{
-					if (belt==SamuraiItems.SAMURAI_MORPHER.get())
 					{
-						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.BARRACUDA_BLADE.get()) RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
+						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
 					}
-					else
+				}
+				else if (this == SamuraiItems.MEGA_MODE_DISC.get())
+				{
 					{
 						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
 					}
