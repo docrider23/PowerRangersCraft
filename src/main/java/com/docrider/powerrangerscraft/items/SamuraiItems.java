@@ -97,12 +97,16 @@ public class SamuraiItems {
             .ChangeSlot(2).BackToBase().AddCompatibilityList(SAMURAI).AddToTabList(RangerTabs.SAMURAI));
 
 	public static final DeferredItem<Item> SHARK_ATTACK_MEGA_MODE_DISC = ITEMS.register("shark_attack_mega_mode_disc",
-			() -> new SecretDiscItem(new Item.Properties(),0,"_shark_attack_mega_mode","","samurai_super_mega_mode_belt").ChangeSlot(2).BackToBase().addNeedForm(SHARK_DISC.get(),2).AddCompatibilityList(SAMURAI));
+			() -> new SecretDiscItem(new Item.Properties(),0,"_shark_attack_mega_mode","","samurai_super_mega_mode_belt")
+					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).addNeedForm(SHARK_DISC.get(),2).AddCompatibilityList(SAMURAI));
 	public static final DeferredItem<Item> SUPER_MEGA_MODE_DISC = ITEMS.register("super_mega_mode_disc",
 			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","","samurai_super_mega_mode_belt")
-					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbelt.geo.json").AddCompatibilityList(SAMURAI));
+					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbelt.geo.json")
+					.addNeedForm(SUPER_SAMURAI_DISC.get(),2).addAlternative(SHARK_ATTACK_MEGA_MODE_DISC.get()).AddCompatibilityList(SAMURAI));
 	public static final DeferredItem<Item> MEGA_MODE_DISC = ITEMS.register("mega_mode_disc",
-			() -> new SecretDiscItem(new Item.Properties(),0,"_mega_mode","","samurai_belt").addAlternative(SUPER_MEGA_MODE_DISC.get()).ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddCompatibilityList(SAMURAI).AddToTabList(RangerTabs.SAMURAI));
+			() -> new SecretDiscItem(new Item.Properties(),0,"_mega_mode","","samurai_belt")
+					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).addAlternative(SUPER_MEGA_MODE_DISC.get()).addNeedForm(OtherItems.BLANK_FORM.get(),2)
+					.ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddCompatibilityList(SAMURAI).AddToTabList(RangerTabs.SAMURAI));
 /*
 	public static final DeferredItem<Item> SHOGUN_DISC_GOLD = ITEMS.register("shogun_disc_gold",
 			() -> new SecretDiscItem(new Item.Properties(),0,"_shogun_mode","samurai_gold","shogun_gold_belt").BackToBase());
