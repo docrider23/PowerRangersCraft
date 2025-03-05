@@ -42,6 +42,7 @@ public class RangerFormChangeItem extends BaseItem {
     private RangerFormChangeItem NEED_FORM_SLOT_2;
     private RangerFormChangeItem NEED_FORM_SLOT_3;
     private RangerFormChangeItem NEED_FORM_SLOT_4;
+    private RangerFormChangeItem NEED_FORM_SLOT_5;
 
 
     public RangerFormChangeItem( Properties properties,int belt,String formName,String rangername,String beltTex, MobEffectInstance... effects) {
@@ -148,6 +149,7 @@ public class RangerFormChangeItem extends BaseItem {
         else if (slot==2)NEED_FORM_SLOT_2=((RangerFormChangeItem)item);
         else if (slot==3)NEED_FORM_SLOT_3=((RangerFormChangeItem)item);
         else if (slot==4)NEED_FORM_SLOT_4=((RangerFormChangeItem)item);
+        else if (slot==5)NEED_FORM_SLOT_5=((RangerFormChangeItem)item);
         return this;
     }
 
@@ -209,6 +211,7 @@ public class RangerFormChangeItem extends BaseItem {
         if (NEED_FORM_SLOT_2!=null )if (RangerChangerItem.get_Form_Item(stack, 2)!=NEED_FORM_SLOT_2)return false;
         if (NEED_FORM_SLOT_3!=null )if (RangerChangerItem.get_Form_Item(stack, 3)!=NEED_FORM_SLOT_3)return false;
         if (NEED_FORM_SLOT_4!=null )if (RangerChangerItem.get_Form_Item(stack, 4)!=NEED_FORM_SLOT_4)return false;
+        if (NEED_FORM_SLOT_5!=null )if (RangerChangerItem.get_Form_Item(stack, 5)!=NEED_FORM_SLOT_5)return false;
 
         if  (HAS_NEED_ITEM_LIST) {
             for (int i = 0; i < needItemList.size(); i++)
@@ -241,6 +244,7 @@ public class RangerFormChangeItem extends BaseItem {
         if (NEED_FORM_SLOT_2!=null )if (MechaGattaiItem.get_Form_Item(stack, 2)!=NEED_FORM_SLOT_2)return false;
         if (NEED_FORM_SLOT_3!=null )if (MechaGattaiItem.get_Form_Item(stack, 3)!=NEED_FORM_SLOT_3)return false;
         if (NEED_FORM_SLOT_4!=null )if (MechaGattaiItem.get_Form_Item(stack, 4)!=NEED_FORM_SLOT_4)return false;
+        if (NEED_FORM_SLOT_5!=null )if (MechaGattaiItem.get_Form_Item(stack, 5)!=NEED_FORM_SLOT_5)return false;
 
         if  (HAS_NEED_ITEM_LIST) {
             for (int i = 0; i < needItemList.size(); i++)

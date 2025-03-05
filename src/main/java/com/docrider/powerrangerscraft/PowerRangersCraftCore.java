@@ -96,8 +96,8 @@ public class PowerRangersCraftCore {
         //NinjaSteelItems.register(modEventBus);
         //BeastMorphersItems.register(modEventBus);
         DinoFuryItems.register(modEventBus);
-//        CosmicFuryItems.register(modEventBus);
-//        HyperforceItems.register(modEventBus);
+        CosmicFuryItems.register(modEventBus);
+        HyperforceItems.register(modEventBus);
         //ComicsItems.register(modEventBus);
 
         RangerBlocks.register(modEventBus);
