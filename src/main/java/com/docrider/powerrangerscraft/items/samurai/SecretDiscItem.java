@@ -11,9 +11,9 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-public class SecretDiskItem extends RangerFormChangeItem {
+public class SecretDiscItem extends RangerFormChangeItem {
 
-	public SecretDiskItem( Properties properties,int belt,String formName,String ridername,String beltTex, MobEffectInstance... effects) {
+	public SecretDiscItem(Properties properties, int belt, String formName, String ridername, String beltTex, MobEffectInstance... effects) {
 		super( properties, belt, formName, ridername, beltTex, effects);
 	}
 	
@@ -32,13 +32,14 @@ public class SecretDiskItem extends RangerFormChangeItem {
 				if (alsoChange2ndSlot !=null)RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
 				if (RESET_FORM)RangerChangerItem.reset_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET));
 
-				if (this == SamuraiItems.SHARK_DISK.get())
+				if (this == SamuraiItems.SHARK_DISC.get())
 				{
-					if (belt==SamuraiItems.SAMURAI_MORPHER.get())
 					{
-						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.BARRACUDA_BLADE.get()) RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
+						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
 					}
-					else
+				}
+				else if (this == SamuraiItems.MEGA_MODE_DISC.get())
+				{
 					{
 						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
 					}

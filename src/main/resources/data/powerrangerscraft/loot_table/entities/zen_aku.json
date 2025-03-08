@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:empty_animal_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:crescent_blade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:flute_knife"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:wolf_animal_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:alligator_animal_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:hammerhead_shark_animal_crystal"
+        }
+      ]
+    }
+  ]
+}

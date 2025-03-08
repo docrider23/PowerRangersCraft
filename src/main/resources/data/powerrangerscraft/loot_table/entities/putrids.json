@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lion_animal_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:eagle_animal_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:shark_animal_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:bison_animal_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:tiger_animal_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:empty_animal_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:empty_animal_crystal"
+        }
+      ]
+    }
+  ]
+}

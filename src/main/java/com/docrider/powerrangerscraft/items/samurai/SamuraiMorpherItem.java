@@ -26,8 +26,7 @@ public class SamuraiMorpherItem extends RangerChangerItem{
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
 				if (rider.getMainHandItem().getItem()==SamuraiItems.BARRACUDA_BLADE.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.SHARK_SWORD.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.BARRACUDA_BLADE_SHARK_ATTACK.get()) {
+						rider.getMainHandItem().getItem()==SamuraiItems.SHARK_SWORD.get()) {
 					belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
 				}
 				else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {

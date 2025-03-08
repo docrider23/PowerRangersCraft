@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ultimus_megazord",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:eagle_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:shark_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:bison_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:tiger_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:elephant_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:red_gorilla_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:mecha_gear"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:ultimus_megazord_head"
+  }
+}

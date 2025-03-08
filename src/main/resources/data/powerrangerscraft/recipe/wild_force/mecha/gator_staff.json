@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "predazord",
+  "pattern": [
+    "ama",
+    "bad",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_animal_crystal"
+    },
+	"b": {
+      "item": "powerrangerscraft:alligator_animal_crystal"
+    },
+	"d": {
+      "item": "powerrangerscraft:hammerhead_shark_animal_crystal"
+    },
+	"c": {
+      "item": "minecraft:diamond_sword"
+    },
+	"m": {
+      "item": "powerrangerscraft:mecha_gear"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:gator_staff"
+  }
+}

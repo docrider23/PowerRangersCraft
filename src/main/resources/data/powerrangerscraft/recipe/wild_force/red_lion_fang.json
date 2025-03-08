@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wild_force_red",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:red_lion_fang_claw"
+    },
+	{
+      "item": "powerrangerscraft:red_lion_fang_claw1"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:red_lion_fang"
+  }
+}

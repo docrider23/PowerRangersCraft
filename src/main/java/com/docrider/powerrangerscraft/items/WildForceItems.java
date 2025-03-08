@@ -291,17 +291,17 @@ public class WildForceItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
     
     public static final DeferredItem<Item> RED_GROWL_PHONE = ITEMS.register("red_growl_phone",
-    		() -> new GrowlPhoneItem(ArmorMaterials.DIAMOND,"red", LION_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
+    		() -> new GrowlPhoneItem(ArmorMaterials.DIAMOND,"wild_force_red", LION_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
 	public static final DeferredItem<Item> YELLOW_GROWL_PHONE = ITEMS.register("yellow_growl_phone",
-			() -> new GrowlPhoneItem(ArmorMaterials.DIAMOND,"yellow", EAGLE_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
+			() -> new GrowlPhoneItem(ArmorMaterials.DIAMOND,"wild_force_yellow", EAGLE_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
 	public static final DeferredItem<Item> BLUE_GROWL_PHONE = ITEMS.register("blue_growl_phone",
-			() -> new GrowlPhoneItem(ArmorMaterials.DIAMOND,"blue", SHARK_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
+			() -> new GrowlPhoneItem(ArmorMaterials.DIAMOND,"wild_force_blue", SHARK_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
 	public static final DeferredItem<Item> BLACK_GROWL_PHONE = ITEMS.register("black_growl_phone",
-			() -> new GrowlPhoneItem(ArmorMaterials.DIAMOND,"black", BISON_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
+			() -> new GrowlPhoneItem(ArmorMaterials.DIAMOND,"wild_force_black", BISON_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
 	public static final DeferredItem<Item> WHITE_GROWL_PHONE = ITEMS.register("white_growl_phone",
-			() -> new GrowlPhoneItem(ArmorMaterials.DIAMOND,"white", TIGER_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
+			() -> new GrowlPhoneItem(ArmorMaterials.DIAMOND,"wild_force_white", TIGER_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
 	public static final DeferredItem<Item> LUNAR_CALLER = ITEMS.register("lunar_caller",
-			() -> new LunarCallerItem(ArmorMaterials.DIAMOND,"silver", WOLF_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
+			() -> new LunarCallerItem(ArmorMaterials.DIAMOND,"wild_force_silver", WOLF_ANIMAL_CRYSTAL, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
 
     public static final DeferredItem<SwordItem> CRYSTAL_SABER = ITEMS.register("crystal_saber",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));

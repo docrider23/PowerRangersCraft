@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "animus",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:black_lion_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:condor_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:sawshark_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:buffalo_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:jaguar_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:mecha_gear"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:animus_head"
+  }
+}

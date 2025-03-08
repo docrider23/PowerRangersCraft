@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wild_force_red",
+  "pattern": [
+    " a ",
+    "acb",
+	" a "
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_animal_crystal"
+    },
+	"b": {
+	  "item": "powerrangerscraft:lion_animal_crystal"
+	},
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:red_lion_fang_claw1"
+  }
+}

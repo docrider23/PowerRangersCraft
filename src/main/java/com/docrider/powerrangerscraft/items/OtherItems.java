@@ -79,12 +79,6 @@ public class OtherItems {
     public static final DeferredItem<Item> BEAST_MORPHERS_LOGO = ITEMS.register("beast_morphers_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
-    public static final DeferredItem<Item> COSMIC_FURY_LOGO = ITEMS.register("cosmic_fury_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> HYPERFORCE_LOGO = ITEMS.register("hyperforce_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

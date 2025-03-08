@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "animus",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:eagle_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:empty_animus_crystal"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:condor_animal_crystal"
+  }
+}

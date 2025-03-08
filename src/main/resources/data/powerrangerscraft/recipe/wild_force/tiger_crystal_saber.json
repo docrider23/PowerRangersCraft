@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wild_force_white",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:crystal_saber"
+    },
+	{
+      "item": "powerrangerscraft:tiger_animal_crystal"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:tiger_crystal_saber"
+  }
+}

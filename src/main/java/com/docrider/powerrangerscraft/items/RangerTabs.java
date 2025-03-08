@@ -51,6 +51,15 @@ public class RangerTabs {
             CreativeModeTab.builder().icon(() -> new ItemStack(DinoFuryItems.DINO_FURY_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_dino_fury_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.dino_fury")).build());
 
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> CosmicFuryTab = CREATIVE_MODE_TABS.register("prc029", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(CosmicFuryItems.COSMIC_FURY_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
+             (PowerRangersCraftCore.MODID,"textures/gui/tab_cosmic_fury_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.cosmic_fury")).build());
+
+   public static DeferredHolder<CreativeModeTab, CreativeModeTab> HyperforceTab = CREATIVE_MODE_TABS.register("prc030", () ->
+           CreativeModeTab.builder().icon(() -> new ItemStack(HyperforceItems.HYPERFORCE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
+                          (PowerRangersCraftCore.MODID,"textures/gui/tab_hyperforce_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.hyperforce")).build());
 
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> MiscTab = CREATIVE_MODE_TABS.register("prc900", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(OtherItems.POWER_RANGERS_LOGO.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png"))
@@ -71,6 +80,10 @@ public class RangerTabs {
     public static List<Item> SAMURAI= new ArrayList<Item>();
 
     public static List<Item> DINO_FURY= new ArrayList<Item>();
+
+    public static List<Item> COSMIC_FURY= new ArrayList<Item>();
+
+    public static List<Item> HYPERFORCE= new ArrayList<Item>();
 
     public static List<Item> MISC= new ArrayList<Item>();
 
@@ -121,6 +134,20 @@ public class RangerTabs {
             for (int i = 0; i < RangerTabs.DINO_FURY.size(); i++)
             {
                 event.accept( RangerTabs.DINO_FURY.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.CosmicFuryTab.get()) {
+            for (int i = 0; i < RangerTabs.COSMIC_FURY.size(); i++)
+            {
+                event.accept( RangerTabs.COSMIC_FURY.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.HyperforceTab.get()) {
+            for (int i = 0; i < RangerTabs.HYPERFORCE.size(); i++)
+            {
+                event.accept( RangerTabs.HYPERFORCE.get(i));
             }
 
         }

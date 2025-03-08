@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "isis_megazord",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:giraffe_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:rhino_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:armadillo_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:deer_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:falcon_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:mecha_gear"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:isis_megazord_head"
+  }
+}

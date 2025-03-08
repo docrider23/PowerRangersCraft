@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "animus",
+  "ingredients": [
+	{
+      "item": "supersentaicraft:tiger_animal_crystal"
+    },
+	{
+      "item": "supersentaicraft:empty_animus_crystal"
+    }
+  ],
+  "result": {
+    "id": "supersentaicraft:jaguar_animal_crystal"
+  }
+}

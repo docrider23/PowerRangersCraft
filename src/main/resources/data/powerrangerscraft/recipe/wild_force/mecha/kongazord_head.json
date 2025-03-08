@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kongazord",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:bison_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:eagle_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:bear_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:polar_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:gorilla_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:mecha_gear"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:kongazord_head"
+  }
+}

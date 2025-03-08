@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wild_force_megazord",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:lion_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:eagle_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:shark_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:bison_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:tiger_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:mecha_gear"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:wild_force_megazord_head"
+  }
+}

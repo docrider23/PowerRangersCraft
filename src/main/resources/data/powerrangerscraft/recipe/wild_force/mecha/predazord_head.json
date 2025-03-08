@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "predazord",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:wolf_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:hammerhead_shark_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:alligator_animal_crystal"
+    },
+	{
+      "item": "powerrangerscraft:mecha_gear"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:predazord_head"
+  }
+}

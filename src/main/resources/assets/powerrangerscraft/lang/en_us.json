@@ -186,6 +186,8 @@
   "item.powerrangerscraft.empty_animal_crystal": "Empty Animal Crystal",
   "item.powerrangerscraft.unfinished_animus_crystal": "Unfinished Animus Animal Crystal",
   "item.powerrangerscraft.empty_animus_crystal": "Empty Animus Animal Crystal",
+  "block.powerrangerscraft.animal_crystal_ore": "Animal Crystal Ore",
+  "block.powerrangerscraft.deepslate_animal_crystal_ore": "Deepslate Animal Crystal Ore",
 
   "item.powerrangerscraft.red_growl_phone":"Growl Phone (Red Ranger)",
   "item.powerrangerscraft.yellow_growl_phone":"Growl Phone (Yellow Ranger)",
@@ -195,11 +197,11 @@
   "item.powerrangerscraft.lunar_caller": "Lunar Caller",
 
   "item.powerrangerscraft.lion_animal_crystal": "Lion Animal Crystal",
-  "item.powerrangerscraft.eagle_animal_crystal": "Lion Animal Crystal",
-  "item.powerrangerscraft.shark_animal_crystal": "Lion Animal Crystal",
-  "item.powerrangerscraft.bison_animal_crystal": "Lion Animal Crystal",
-  "item.powerrangerscraft.tiger_animal_crystal": "Lion Animal Crystal",
-  "item.powerrangerscraft.wolf_animal_crystal": "Lion Animal Crystal",
+  "item.powerrangerscraft.eagle_animal_crystal": "Eagle Animal Crystal",
+  "item.powerrangerscraft.shark_animal_crystal": "Shark Animal Crystal",
+  "item.powerrangerscraft.bison_animal_crystal": "Bison Animal Crystal",
+  "item.powerrangerscraft.tiger_animal_crystal": "Tiger Animal Crystal",
+  "item.powerrangerscraft.wolf_animal_crystal": "Wolf Animal Crystal",
 
   "item.powerrangerscraft.elephant_animal_crystal":"Elephant Animal Crystal",
   "item.powerrangerscraft.giraffe_animal_crystal":"Giraffe Animal Crystal",
@@ -271,7 +273,7 @@
   "item.powerrangerscraft.fin_blade":"Fin Blade",
   "item.powerrangerscraft.elephant_sword":"Elephant Sword",
   "item.powerrangerscraft.elephant_shield":"Elephant Shield",
-  "item.powerrangerscraft.swinging_anchor":"Muscle Anchor",
+  "item.powerrangerscraft.swinging_anchor":"Swinging Anchor",
   "item.powerrangerscraft.gator_staff":"Gator Staff",
   "item.powerrangerscraft.gator_staff_blue_moon":"Gator Staff (Blue Moon)",
 
@@ -305,6 +307,45 @@
   "item.powerrangerscraft.samurai_torso": "Samurai Chestplate",
   "item.powerrangerscraft.samurai_legs": "Samurai Leggings",
 
+  "item.powerrangerscraft.samurai_disc": "Samurai Disc",
+  "block.powerrangerscraft.power_disc_ore": "Power Disc Ore",
+  "block.powerrangerscraft.deepslate_power_disc_ore": "Deepslate Power Disc Ore",
+
+  "item.powerrangerscraft.red_samuraizer":"Samuraizer (Red Ranger)",
+  "item.powerrangerscraft.blue_samuraizer":"Samuraizer (Blue Ranger)",
+  "item.powerrangerscraft.pink_samuraizer":"Samuraizer (Pink Ranger)",
+  "item.powerrangerscraft.green_samuraizer":"Samuraizer (Black Ranger)",
+  "item.powerrangerscraft.yellow_samuraizer":"Samuraizer (Yellow Ranger)",
+  "item.powerrangerscraft.samurai_morpher": "Samurai Morpher",
+  "item.powerrangerscraft.princess_samuraizer": "Samuraizer (Female Red Ranger)",
+
+  "item.powerrangerscraft.lion_disc": "Lion Disc",
+  "item.powerrangerscraft.dragon_disc": "Dragon Disc",
+  "item.powerrangerscraft.turtle_disc": "Turtle Disc",
+  "item.powerrangerscraft.bear_disc": "Bear Disc",
+  "item.powerrangerscraft.ape_disc": "Ape Disc",
+  "item.powerrangerscraft.coral_disc": "Coral Disc",
+
+  "item.powerrangerscraft.mega_mode_disc": "Mega Mode Disc",
+  "item.powerrangerscraft.super_samurai_disc": "Super Samurai Disc",
+  "item.powerrangerscraft.shark_disc": "Shark Disc",
+  "item.powerrangerscraft.shogun_disc": "Shogun Disc",
+
+  "item.powerrangerscraft.black_box": "Black Box",
+
+  "item.powerrangerscraft.spin_sword": "Spin Sword",
+  "item.powerrangerscraft.mega_blade": "Mega Blade",
+  "item.powerrangerscraft.fire_smasher": "Fire Smasher",
+  "item.powerrangerscraft.hydro_bow": "Hydro Bow",
+  "item.powerrangerscraft.sky_fan": "Sky Fan",
+  "item.powerrangerscraft.forest_spear": "Forest Spear",
+  "item.powerrangerscraft.earth_slicer": "Earth Slicer",
+  "item.powerrangerscraft.barracuda_blade": "Barracuda Blade",
+
+  "item.powerrangerscraft.super_spin_sword": "Super Spin Sword",
+  "item.powerrangerscraft.super_mega_blade": "Super Mega Blade",
+  "item.powerrangerscraft.shark_sword": "Shark Sword",
+
   //20 Megaforce
   "item.powerrangerscraft.megaforce_logo": "Megaforce Logo",
 
@@ -329,6 +370,10 @@
   "item.powerrangerscraft.dino_fury_torso": "Dino Fury Chestplate",
   "item.powerrangerscraft.dino_fury_legs": "Dino Fury Leggings",
 
+  "item.powerrangerscraft.blank_dino_key": "Blank Dino Key",
+  "block.powerrangerscraft.dino_key_ore": "Dino Key Ore",
+  "block.powerrangerscraft.deepslate_dino_key_ore": "Deepslate Dino Key Ore",
+
   //29 Cosmic Fury
   "item.powerrangerscraft.cosmic_fury_logo": "Cosmic Fury Logo",
 
@@ -341,11 +386,5 @@
 
   "item.powerrangerscraft.mecha_gear":"Mecha Gear",
   "block.powerrangerscraft.mecha_nether_ore":"Mecha Nether Ore",
-  "block.powerrangerscraft.deepslate_mecha_ore":"Deepslate Mecha Ore",
-  "block.powerrangerscraft.animal_crystal_ore": "Animal Crystal Ore",
-  "block.powerrangerscraft.deepslate_animal_crystal_ore": "Deepslate Animal Crystal Ore",
-  "block.powerrangerscraft.samurai_disk_ore": "Samurai Disk Ore",
-  "block.powerrangerscraft.deepslate_samurai_disk_ore": "Deepslate Samurai Disk Ore",
-  "block.powerrangerscraft.dino_key_ore": "Dino Key Ore",
-  "block.powerrangerscraft.deepslate_dino_key_ore": "Deepslate Dino key Ore"
+  "block.powerrangerscraft.deepslate_mecha_ore":"Deepslate Mecha Ore"
 }
