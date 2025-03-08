@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "shark_attack",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:shark_disc"
+    },
+	{
+      "item": "powerrangerscraft:spin_sword"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:shark_sword"
+  }
+}

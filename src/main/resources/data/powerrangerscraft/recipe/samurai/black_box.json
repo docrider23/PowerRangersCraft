@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "super_samurai",
+  "pattern": [
+    "bcd",
+    "aaa",
+	"efg"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:samurai_disc"
+    },
+	"b": {
+      "item": "powerrangerscraft:lion_disc"
+    },
+	"c": {
+      "item": "powerrangerscraft:dragon_disc"
+    },
+	"d": {
+      "item": "powerrangerscraft:turtle_disc"
+    },
+	"e": {
+      "item": "powerrangerscraft:bear_disc"
+    },
+	"f": {
+      "item": "powerrangerscraft:ape_disc"
+    },
+	"g": {
+      "item": "powerrangerscraft:coral_disc"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:black_box"
+  }
+}

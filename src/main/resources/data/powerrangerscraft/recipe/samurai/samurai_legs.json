@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "samurai",
+  "pattern": [
+    "aaa",
+    "a a",
+	"a a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:samurai_disc"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:samurai_legs"
+  }
+}

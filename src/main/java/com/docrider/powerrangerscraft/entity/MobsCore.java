@@ -44,7 +44,7 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     
     //06 In Space
 
-    //07 Gingaman
+    //07 Lost Galaxy
     public static final DeferredHolder<EntityType<?>, EntityType<SwabbiesEntity>> SWABBIES = MOBLIST.register("swabbies",
             () -> EntityType.Builder.of(SwabbiesEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":swabbies"));
 

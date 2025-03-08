@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "samurai_red",
+  "ingredients": [
+    {
+	  "item": "powerrangerscraft:samurai_disc"
+	},
+	{
+      "item": "powerrangerscraft:lion_disc"
+    },
+	{
+      "item": "powerrangerscraft:spin_sword"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:fire_smasher"
+  }
+}

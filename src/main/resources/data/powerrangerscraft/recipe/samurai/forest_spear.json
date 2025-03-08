@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "samurai_green",
+  "ingredients": [
+    {
+	  "item": "powerrangerscraft:samurai_disc"
+	},
+	{
+      "item": "powerrangerscraft:bear_disc"
+    },
+	{
+      "item": "powerrangerscraft:spin_sword"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:forest_spear"
+  }
+}

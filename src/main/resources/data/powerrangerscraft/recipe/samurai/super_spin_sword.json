@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "super_samurai",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:black_box"
+    },
+	{
+      "item": "powerrangerscraft:spin_sword"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:super_spin_sword"
+  }
+}

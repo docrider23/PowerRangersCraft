@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "samurai",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:samurai_disc"
+    },
+	"b": [
+	  {
+	    "item": "powerrangerscraft:lion_disc"
+	  },
+	  {
+	    "item": "powerrangerscraft:dragon_disc"
+	  },
+	  {
+	    "item": "powerrangerscraft:turtle_disc"
+	  },
+	  {
+	    "item": "powerrangerscraft:bear_disc"
+	  },
+	  {
+	    "item": "powerrangerscraft:ape_disc"
+	  }
+	],
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:spin_sword"
+  }
+}
