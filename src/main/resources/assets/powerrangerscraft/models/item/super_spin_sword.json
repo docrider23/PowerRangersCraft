@@ -2,7 +2,7 @@
   "_comment": "Generated using MiningMark48's JSON Generator.",
   "parent": "item/handheld",
   "textures": {
-    "layer0": "supersentaicraft:item/super_shinkenmaru"
+    "layer0": "powerrangerscraft:item/super_spin_sword"
   },
 	"display": {
 		"thirdperson_righthand": {

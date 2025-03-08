@@ -314,7 +314,7 @@
   "item.powerrangerscraft.red_samuraizer":"Samuraizer (Red Ranger)",
   "item.powerrangerscraft.blue_samuraizer":"Samuraizer (Blue Ranger)",
   "item.powerrangerscraft.pink_samuraizer":"Samuraizer (Pink Ranger)",
-  "item.powerrangerscraft.green_samuraizer":"Samuraizer (Black Ranger)",
+  "item.powerrangerscraft.green_samuraizer":"Samuraizer (Green Ranger)",
   "item.powerrangerscraft.yellow_samuraizer":"Samuraizer (Yellow Ranger)",
   "item.powerrangerscraft.samurai_morpher": "Samurai Morpher",
   "item.powerrangerscraft.princess_samuraizer": "Samuraizer (Female Red Ranger)",
@@ -375,9 +375,13 @@
   "block.powerrangerscraft.deepslate_dino_key_ore": "Deepslate Dino Key Ore",
 
   //29 Cosmic Fury
+  "tab.powerrangerscraft.cosmic_fury": "Cosmic Fury",
+
   "item.powerrangerscraft.cosmic_fury_logo": "Cosmic Fury Logo",
 
   //EX Hyperforce
+  "tab.powerrangerscraft.hyperforce": "Hyperforce",
+
   "item.powerrangerscraft.hyperforce_logo": "Hyperforce Logo",
   
   //Misc
