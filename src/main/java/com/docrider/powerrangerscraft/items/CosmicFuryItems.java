@@ -96,7 +96,10 @@ public class CosmicFuryItems {
     public static final DeferredItem<Item> ORANGE_COSMIC_MORPHER = ITEMS.register("orange_cosmic_morpher",
             () -> new CosmicMorpherItem(ArmorMaterials.DIAMOND,"cosmic_fury_orange", SOLONO_COSMIC_ORB,COSMIC_FURY_HELMET,COSMIC_FURY_CHESTPLATE,COSMIC_FURY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
     public static final DeferredItem<Item> ZENITH_COSMIC_MORPHER = ITEMS.register("zenith_cosmic_morpher",
-            () -> new CosmicMorpherItem(ArmorMaterials.DIAMOND,"cosmic_fury_zenith", T_REX_COSMIC_ORB,COSMIC_FURY_HELMET,COSMIC_FURY_CHESTPLATE,COSMIC_FURY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"cosmic_fury_zenith", T_REX_COSMIC_ORB,COSMIC_FURY_HELMET,COSMIC_FURY_CHESTPLATE,COSMIC_FURY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
+
+    public static final DeferredItem<BaseBlasterItem> COSMIC_BLASTER = ITEMS.register("cosmic_blaster",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
 
     public static final DeferredItem<SwordItem> ANKYLO_HAMMER = ITEMS.register("ankylo_hammer",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));

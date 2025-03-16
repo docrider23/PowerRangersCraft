@@ -1,0 +1,26 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "powerrangerscraft:item/tricera_blaster"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-46, -90, 0],
+			"translation": [0, 0, -2.75],
+			"scale": [0.75, 0.75, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-46, 90, 0],
+			"translation": [0, 0, -2.75],
+			"scale": [0.75, 0.75, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-40.75, -90, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-40.75, 90, 0]
+		}
+	},
+	"_comment": "Generated using MiningMark48's JSON Generator."
+}

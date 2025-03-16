@@ -29,10 +29,7 @@ public class CosmicMorpherItem extends RangerChangerItem {
             }
             return "belts/"+belt;
         }
-        else if (equipmentSlot == EquipmentSlot.HEAD) {
-            if (get_Form_Item(itemstack,0).getRangerName(rangerName)=="cosmic_fury_zenith") return "cosmic_fury_zenith_armor";
-            else return "cosmic_fury_armor";
-        }
+        else if (equipmentSlot == EquipmentSlot.HEAD) return "cosmic_fury_armor";
 
         else return get_Form_Item(itemstack,1).getRangerName(rangerName)+get_Form_Item(itemstack,1).getFormName(fly);
     }

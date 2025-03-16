@@ -216,7 +216,7 @@ public class PowerRangersCraftCore {
 
         @SubscribeEvent
         public static void entityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-            event.registerEntityRenderer(MobsCore.PUTTY_PATROLLERS.get(), BasicEntityRenderer::new);
+            //event.registerEntityRenderer(MobsCore.PUTTY_PATROLLERS.get(), BasicEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.CHROMITES.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.PIRANHATRONS.get(), BasicEntityRenderer::new);

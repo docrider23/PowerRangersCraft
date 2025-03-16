@@ -19,11 +19,11 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     public static final DeferredRegister<EntityType<?>> MOBLIST = DeferredRegister.create(BuiltInRegistries.ENTITY_TYPE, PowerRangersCraftCore.MODID);
 
     //01-02 MMPR
-    public static final DeferredHolder<EntityType<?>, EntityType<PuttyPatrollersEntity>> PUTTY_PATROLLERS = MOBLIST.register("putty_patroller",
+    /*public static final DeferredHolder<EntityType<?>, EntityType<PuttyPatrollersEntity>> PUTTY_PATROLLERS = MOBLIST.register("putty_patroller",
             () -> EntityType.Builder.of(PuttyPatrollersEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":putty_patroller"));
 
     public static final DeferredItem<DeferredSpawnEggItem> PUTTY_PATROLLERS_SPAWN_EGG = ITEMS.register("putty_patroller_spawn_egg",
-            () -> new DeferredSpawnEggItem(PUTTY_PATROLLERS, 0x121212, 0xa1a1a1, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(PUTTY_PATROLLERS, 0x121212, 0xa1a1a1, new Item.Properties()));*/
 
     //03 Alien
 
