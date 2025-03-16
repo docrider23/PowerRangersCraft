@@ -180,11 +180,11 @@ public class SamuraiItems {
     
     public static final DeferredItem<SwordItem> SHARK_SWORD = ITEMS.register("shark_sword",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 16, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
-
+/*
 	public static final DeferredItem<BaseBlasterItem> BULLZOOKA = ITEMS.register("bullzooka",
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 16, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
 	public static final DeferredItem<BaseBlasterItem> SUPER_BULLZOOKA = ITEMS.register("super_bullzooka",
-			() -> new BaseBlasterItem(Tiers.NETHERITE, 20, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
+			() -> new BaseBlasterItem(Tiers.NETHERITE, 20, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));*/
     
     public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
