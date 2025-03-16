@@ -12,6 +12,8 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import javax.print.attribute.standard.MediaSize;
+
 public class LostGalaxyItems {
 
 	public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
@@ -78,7 +80,7 @@ public class LostGalaxyItems {
             .AddCompatibilityList(new String[] {"galaxy_green","galaxy_blue","galaxy_yellow","galaxy_pink"}).AddToTabList(RangerTabs.LOST_GALAXY));
 
 	public static final DeferredItem<Item> GALACTIC_KEY = ITEMS.register("galactic_key",
-			() -> new RangerFormChangeItem(new Item.Properties(),0,"_armored","galaxy_red","lights_of_orion_belt").ChangeSlot(2).ChangeModel("geo/galactic_ranger.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"_armored","galaxy_red","lights_of_orion_belt").ChangeModel("geo/dino_master.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
     
     public static final DeferredItem<Item> LOST_GALAXY_HELMET = ITEMS.register("lost_galaxy_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.LOST_GALAXY).ChangeRepairItem(LOST_GALAXY_LOGO.get()));

@@ -1,7 +1,18 @@
 {
-  "_comment": "Generated using MiningMark48's JSON Generator.",
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "powerrangerscraft:item/red_lion_fang"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "powerrangerscraft:item/red_lion_fang"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [7.4, -90, 52],
+			"translation": [0, -2.2, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-42.75, -90, 0]
+		}
+	},
+	"_comment": "Generated using MiningMark48's JSON Generator."
 }

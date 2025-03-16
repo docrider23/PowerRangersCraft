@@ -281,7 +281,7 @@ public class WildForceItems {
 
 	public static final DeferredItem<Item> ANIMARIUM_BUCKLE = ITEMS.register("animarium_buckle",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"_savage","wild_force_red","wild_force_red_belt")
-					.ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
+					.ChangeModel("geo/dino_master.geo.json").ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> WILD_FORCE_HELMET = ITEMS.register("wild_force_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));

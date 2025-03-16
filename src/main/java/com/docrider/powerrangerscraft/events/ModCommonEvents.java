@@ -103,9 +103,11 @@ public class ModCommonEvents {public static class EventHandler {
         event.put(MobsCore.PUTTY_PATROLLERS.get(), PuttyPatrollersEntity.setAttributes().build());
 
         event.put(MobsCore.CHROMITES.get(), ChromitesEntity.setAttributes().build());
+        event.put(MobsCore.PIRANHATRONS.get(), PiranhatronsEntity.setAttributes().build());
         event.put(MobsCore.BLUE_SENTURION_EVIL.get(), BlueSenturionEvilEntity.setAttributes().build());
 
         event.put(MobsCore.SWABBIES.get(), SwabbiesEntity.setAttributes().build());
+        event.put(MobsCore.STINGWINGERS.get(), StingwingersEntity.setAttributes().build());
         event.put(MobsCore.MAGNA_DEFENDER.get(), MagnaDefenderEntity.setAttributes().build());
 
         event.put(MobsCore.PUTRIDS.get(), PutridsEntity.setAttributes().build());
@@ -115,6 +117,11 @@ public class ModCommonEvents {public static class EventHandler {
 
         event.put(MobsCore.HENGEMEN.get(), HengemenEntity.setAttributes().build());
         event.put(MobsCore.VOID_KNIGHT.get(), VoidKnightEntity.setAttributes().build());
+
+        event.put(MobsCore.ZENTINELS.get(), ZentinelEntity.setAttributes().build());
+        event.put(MobsCore.EVIL_BLUE_DINO_FURY_RANGER.get(), EvilBlueDinoFuryEntity.setAttributes().build());
+
+        event.put(MobsCore.SILVER_SENTRIES.get(), SilverSentryEntity.setAttributes().build());
     }
 
     @SubscribeEvent
@@ -123,12 +130,20 @@ public class ModCommonEvents {public static class EventHandler {
 
         event.register(MobsCore.CHROMITES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
+        event.register(MobsCore.PIRANHATRONS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
         event.register(MobsCore.SWABBIES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+        event.register(MobsCore.STINGWINGERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.PUTRIDS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.MOOGERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.HENGEMEN.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+        event.register(MobsCore.ZENTINELS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+        event.register(MobsCore.SILVER_SENTRIES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
     }
 }
