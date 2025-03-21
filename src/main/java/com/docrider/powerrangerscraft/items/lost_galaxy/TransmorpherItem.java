@@ -45,10 +45,17 @@ public class TransmorpherItem extends RangerChangerItem {
 			}
 			return "belts/"+belt;
 		}
-		else if (equipmentSlot == EquipmentSlot.HEAD) return rangerName+get_Form_Item(itemstack,2).getFormName(fly);
+		else if (equipmentSlot == EquipmentSlot.HEAD) {
+			if (get_Form_Item(itemstack,2).getFormName(fly)=="_armored") return "blank";
+			else if (get_Form_Item(itemstack, 2).getFormName(fly)=="_lights_of_orion")
+			{
+				return get_Form_Item(itemstack,2).getRangerName(rangerName)+get_Form_Item(itemstack,2).getFormName(fly);
+			}
+		}
 
-		else return rangerName+get_Form_Item(itemstack,1).getFormName(fly);
-	}
+		return get_Form_Item(itemstack,1).getRangerName(rangerName)+get_Form_Item(itemstack,1).getFormName(fly);
+
+    }
 	
 	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
 

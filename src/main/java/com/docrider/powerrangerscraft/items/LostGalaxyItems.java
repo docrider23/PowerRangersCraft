@@ -76,11 +76,11 @@ public class LostGalaxyItems {
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
             		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 4,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 400, 3,true,false))
-            .ChangeSlot(2).ChangeBeltModel("geo/rangerbeltextra.geo.json")
+            .ChangeSlot(2).ChangeBeltModel("geo/rangerbeltextra.geo.json").BackToBase()
             .AddCompatibilityList(new String[] {"galaxy_green","galaxy_blue","galaxy_yellow","galaxy_pink"}).AddToTabList(RangerTabs.LOST_GALAXY));
 
 	public static final DeferredItem<Item> GALACTIC_KEY = ITEMS.register("galactic_key",
-			() -> new RangerFormChangeItem(new Item.Properties(),0,"_armored","galaxy_red","lights_of_orion_belt").ChangeModel("geo/dino_master.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"_armored","galaxy_red","lights_of_orion_belt").ChangeModel("geo/dino_master.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json").alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).addNeedForm(LIGHTS_OF_ORION.get(),2).AddToTabList(RangerTabs.LOST_GALAXY));
     
     public static final DeferredItem<Item> LOST_GALAXY_HELMET = ITEMS.register("lost_galaxy_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.LOST_GALAXY).ChangeRepairItem(LOST_GALAXY_LOGO.get()));
