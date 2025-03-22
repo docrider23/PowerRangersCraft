@@ -1,0 +1,10 @@
+{
+  "go_go_power_rangers": {
+    "sounds": [
+      {
+        "name": "powerrangerscraft:go_go_power_rangers",
+        "stream": true
+      }
+    ]
+  }
+}

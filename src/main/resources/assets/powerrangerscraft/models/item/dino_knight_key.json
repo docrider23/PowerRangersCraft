@@ -3,4 +3,5 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "powerrangerscraft:item/dino_knight_key"
+  }
 }

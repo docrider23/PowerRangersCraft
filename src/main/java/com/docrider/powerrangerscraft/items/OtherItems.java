@@ -4,6 +4,7 @@ import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.BaseItem;
 import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
+import com.docrider.powerrangerscraft.sounds.ModSounds;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -78,6 +79,9 @@ public class OtherItems {
 
     public static final DeferredItem<Item> BEAST_MORPHERS_LOGO = ITEMS.register("beast_morphers_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
+
+    public static final DeferredItem<Item> GO_GO_POWER_RANGERS_MUSIC_DISC = ITEMS.register("go_go_power_rangers_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.GO_GO_POWER_RANGERS_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

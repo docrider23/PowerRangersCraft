@@ -1,0 +1,20 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "powerrangerscraft:item/mosa_blaster"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "change": 1
+      },
+      "model": "powerrangerscraft:item/gold_mosa_blaster"
+    },
+    {
+      "predicate": {
+        "change": 2
+      },
+      "model": "powerrangerscraft:item/mosa_blaster_electro"
+    }
+  ]
+}

@@ -8,6 +8,7 @@ import com.docrider.powerrangerscraft.blocks.RangerBlocks;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.events.ModCommonEvents;
+import com.docrider.powerrangerscraft.sounds.ModSounds;
 import com.docrider.powerrangerscraft.items.*;
 import com.docrider.powerrangerscraft.items.dino_fury.DinoFuryMorpherItem;
 import com.docrider.powerrangerscraft.items.dino_fury.MosaBlasterItem;
@@ -107,6 +108,7 @@ public class PowerRangersCraftCore {
         MobsItems.register(modEventBus);
         RangerTabs.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

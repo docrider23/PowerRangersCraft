@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:t_rex_dino_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:tricera_dino_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:ankylo_dino_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:tiger_dino_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:stego_dino_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:mosa_dino_key"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "powerrangerscraft:blank_dino_key",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:blank_dino_key"
+        }
+      ]
+    }
+  ]
+}

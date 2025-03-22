@@ -1,0 +1,30 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "powerrangerscraft:item/red_samuraizer"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [-44.45, 90, 0],
+      "translation": [0, 0.75, 0],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [-44.45, -90, 0],
+      "translation": [0, 0.75, 0],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "firstperson_righthand": {
+      "rotation": [-75.95, 90, 0],
+      "translation": [0, 0.75, 0],
+      "scale": [0.75, 0.75, 0.75]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-75.95, -90, 0],
+      "translation": [0, 0.75, 0],
+      "scale": [0.75, 0.75, 0.75]
+    }
+  },
+  "_comment": "Generated using MiningMark48's JSON Generator."
+}

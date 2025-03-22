@@ -19,15 +19,31 @@ public class DinoFuryMorpherItem extends RangerChangerItem{
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
 	}
-	
+
 	@Override
 	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider, String rangerName)
 	{
 		String belt = ((RangerChangerItem)itemstack.getItem()).BELT_TEXT;
-		
+
 		boolean fly = !rider.onGround();
-		
-		return get_Form_Item(itemstack,1).getRangerName(rangerName)+get_Form_Item(itemstack,1).getFormName(fly);
+
+		if (equipmentSlot == EquipmentSlot.FEET) {
+			if (rider.getMainHandItem().getItem()==DinoFuryItems.CHROMAFURY_SABER.get()) {
+				belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
+			}
+			else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
+				belt = get_Form_Item(itemstack,1).getBeltTex();
+			}
+			return "belts/"+belt;
+		}
+		else if (equipmentSlot == EquipmentSlot.HEAD) {
+			if (get_Form_Item(itemstack,2).getFormName(fly)=="") return "blank";
+			{
+				return get_Form_Item(itemstack,2).getFormName(fly);
+			}
+		}
+
+		else return get_Form_Item(itemstack,1).getRangerName(rangerName)+get_Form_Item(itemstack,1).getFormName(fly);
 	}
 	
 	public ResourceLocation getModelResource(ItemStack itemstack,RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {

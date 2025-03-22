@@ -27,6 +27,9 @@ public class DinoFuryItems {
 	public static final DeferredItem<Item> DINO_KEY = ITEMS.register("dino_key",
     		() -> new BlankDinoKeyItem(new Item.Properties()));
 
+	public static final DeferredItem<Item> T_REX_DINO_KEY_ZENITH = ITEMS.register("t_rex_dino_key_zenith",
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_fury_zenith","dino_fury_red_belt").alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").ChangeModel("geo/dino_master.geo.json"));
+
 	public static final DeferredItem<Item> T_REX_DINO_KEY = ITEMS.register("t_rex_dino_key",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_fury_red","dino_fury_red_belt",
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
@@ -34,8 +37,8 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
-			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.DINO_FURY));
-    
+			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).addAlternative(T_REX_DINO_KEY_ZENITH.get()).ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.DINO_FURY));
+
 	public static final DeferredItem<Item> TRICERA_DINO_KEY = ITEMS.register("tricera_dino_key",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_fury_blue","dino_fury_blue_belt",
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
@@ -81,6 +84,13 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
 			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).AddToTabList(RangerTabs.DINO_FURY));
+
+	public static final DeferredItem<Item> EVIL_TRICERA_DINO_KEY = ITEMS.register("evil_tricera_dino_key",
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"","evil_dino_fury_blue","evil_dino_fury_blue_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+					new MobEffectInstance(EffectCore.SLASH, 40, 3,true,false))
+					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.DINO_FURY));
     
 	public static final DeferredItem<Item> HYPER_DINO_KEY = ITEMS.register("hyper_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"hyper_boost","","blank",
@@ -161,7 +171,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.SATURATION, 40, 3,true,false))
             .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
-	public static final DeferredItem<Item> SLICK_DINO_KEY = ITEMS.register("slick_dino_kkey",
+	public static final DeferredItem<Item> SLICK_DINO_KEY = ITEMS.register("slick_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"slick_boost","","blank",
             		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2,true,false))
             .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
@@ -287,6 +297,13 @@ public class DinoFuryItems {
 
 	public static final DeferredItem<Item> UNFINISHED_DINO_MASTER_SABER = ITEMS.register("unfinished_dino_master_saber",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.DINO_FURY));
+
+	public static final DeferredItem<Item> ROBOTIC_ARM = ITEMS.register("robotic_arm",
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"_robotic_arm","dino_fury_black","dino_fury_black_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+					new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
+					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.DINO_FURY));
     
     public static final DeferredItem<Item> DINO_FURY_HELMET = ITEMS.register("dino_fury_head",
     		() -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
@@ -313,6 +330,12 @@ public class DinoFuryItems {
     public static final DeferredItem<Item> GOLD_MOSA_BLASTER = ITEMS.register("gold_mosa_blaster",
     		() -> new MosaBlasterItem(ArmorMaterials.DIAMOND,"dino_fury_gold", MOSA_DINO_KEY,DINO_FURY_HELMET,DINO_FURY_CHESTPLATE,DINO_FURY_LEGGINGS,new Item.Properties())
     		.Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
+	public static final DeferredItem<Item> ZENITH_DINO_FURY_MORPHER = ITEMS.register("zenith_dino_fury_morpher",
+			() -> new DinoFuryMorpherItem(ArmorMaterials.DIAMOND,"dino_fury_zenith", T_REX_DINO_KEY_ZENITH,DINO_FURY_HELMET,DINO_FURY_CHESTPLATE,DINO_FURY_LEGGINGS,new Item.Properties())
+					.Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
+	public static final DeferredItem<Item> CORRUPTED_BLUE_DINO_FURY_MORPHER = ITEMS.register("corrupted_blue_dino_fury_morpher",
+			() -> new DinoFuryMorpherItem(ArmorMaterials.DIAMOND,"evil_dino_fury_blue",EVIL_TRICERA_DINO_KEY,DINO_FURY_HELMET,DINO_FURY_CHESTPLATE,DINO_FURY_LEGGINGS,new Item.Properties())
+					.Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
     
     public static final DeferredItem<Item> VOID_KNIGHT_CHANGER = ITEMS.register("void_knight_changer",
     		() -> new VoidSaberItem(ArmorMaterials.DIAMOND,"void_knight", VOID_KNIGHT_KEY,DINO_FURY_HELMET,DINO_FURY_CHESTPLATE,DINO_FURY_LEGGINGS,new Item.Properties())
@@ -338,6 +361,9 @@ public class DinoFuryItems {
     
     public static final DeferredItem<BaseSwordItem> DINO_MASTER_SABER = ITEMS.register("dino_master_saber",
 			() -> new DinoMasterSaberItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
+
+	public static final DeferredItem<BaseSwordItem> MEGA_FURY_SABER = ITEMS.register("mega_fury_saber",
+			() -> new BaseSwordItem(Tiers.NETHERITE,10,-2.4F, new Item.Properties()).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
 
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);

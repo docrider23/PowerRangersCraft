@@ -176,6 +176,8 @@ public class RangerTabs {
 
             event.accept(MobsCore.SILVER_SENTRY_SPAWN_EGG);
 
+            event.accept(OtherItems.GO_GO_POWER_RANGERS_MUSIC_DISC);
+
             for (int i = 0; i < RangerTabs.MISC.size(); i++)
             {
                 event.accept( RangerTabs.MISC.get(i));

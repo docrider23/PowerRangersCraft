@@ -541,5 +541,8 @@
 
   "item.powerrangerscraft.mecha_gear":"Mecha Gear",
   "block.powerrangerscraft.mecha_nether_ore":"Mecha Nether Ore",
-  "block.powerrangerscraft.deepslate_mecha_ore":"Deepslate Mecha Ore"
+  "block.powerrangerscraft.deepslate_mecha_ore":"Deepslate Mecha Ore",
+
+  "item.powerrangerscraft.go_go_power_rangers_music_disc": "Go! Go! Power Rangers Music Disc",
+  "item.powerrangerscraft.go_go_power_rangers.desc": "HosephHoestar - Go! Go! Power Rangers"
 }

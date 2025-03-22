@@ -2,10 +2,6 @@
   "_comment": "Generated using MiningMark48's JSON Generator.",
   "parent": "item/generated",
   "textures": {
-<<<<<<<< HEAD:src/main/resources/assets/powerrangerscraft/models/item/flare_dino_key.json
-    "layer0": "powerrangerscraft:item/flare_dino_key"
-========
     "layer0": "powerrangerscraft:item/bull_disc"
->>>>>>>> origin/main:src/main/resources/assets/powerrangerscraft/models/item/bull_disc.json
   }
 }
