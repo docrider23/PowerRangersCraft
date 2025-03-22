@@ -216,12 +216,14 @@ public class PowerRangersCraftCore {
 
         @SubscribeEvent
         public static void entityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-            event.registerEntityRenderer(MobsCore.PUTTY_PATROLLERS.get(), BasicEntityRenderer::new);
+            //event.registerEntityRenderer(MobsCore.PUTTY_PATROLLERS.get(), BasicEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.CHROMITES.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.PIRANHATRONS.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.BLUE_SENTURION_EVIL.get(), BasicEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.SWABBIES.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.STINGWINGERS.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.MAGNA_DEFENDER.get(), BasicEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.PUTRIDS.get(), BasicEntityRenderer::new);
@@ -231,6 +233,11 @@ public class PowerRangersCraftCore {
 
             event.registerEntityRenderer(MobsCore.HENGEMEN.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.VOID_KNIGHT.get(), BasicEntityRenderer::new);
+
+            event.registerEntityRenderer(MobsCore.ZENTINELS.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.EVIL_BLUE_DINO_FURY_RANGER.get(), BasicEntityRenderer::new);
+
+            event.registerEntityRenderer(MobsCore.SILVER_SENTRIES.get(), BasicEntityRenderer::new);
 
             //event.registerEntityRenderer(MobsCore.EXPLOSIVE_PROJECTILE.get(), ThrownItemRenderer::new);
             event.registerEntityRenderer(MobsCore.WEAPON_PROJECTILE.get(), ThrownWeaponRenderer::new);

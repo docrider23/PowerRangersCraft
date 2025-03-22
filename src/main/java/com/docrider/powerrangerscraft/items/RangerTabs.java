@@ -153,12 +153,14 @@ public class RangerTabs {
         }
         else if(event.getTab() == RangerTabs.MiscTab.get()) {
 
-            event.accept(MobsCore.PUTTY_PATROLLERS_SPAWN_EGG);
+            //event.accept(MobsCore.PUTTY_PATROLLERS_SPAWN_EGG);
 
             event.accept(MobsCore.CHROMITES_SPAWN_EGG);
+            event.accept(MobsCore.PIRANHATRONS_SPAWN_EGG);
             event.accept(MobsCore.BLUE_SENTURION_EVIL_SPAWN_EGG);
 
             event.accept(MobsCore.SWABBIES_SPAWN_EGG);
+            event.accept(MobsCore.STINGWINGERS_SPAWN_EGG);
             event.accept(MobsCore.MAGNA_DEFENDER_SPAWN_EGG);
 
             event.accept(MobsCore.PUTRIDS_SPAWN_EGG);
@@ -168,6 +170,11 @@ public class RangerTabs {
 
             event.accept(MobsCore.HENGEMEN_SPAWN_EGG);
             event.accept(MobsCore.VOID_KNIGHT_SPAWN_EGG);
+
+            event.accept(MobsCore.ZENTINEL_SPAWN_EGG);
+            event.accept(MobsCore.EVIL_BLUE_DINO_FURY_RANGER_SPAWN_EGG);
+
+            event.accept(MobsCore.SILVER_SENTRY_SPAWN_EGG);
 
             for (int i = 0; i < RangerTabs.MISC.size(); i++)
             {

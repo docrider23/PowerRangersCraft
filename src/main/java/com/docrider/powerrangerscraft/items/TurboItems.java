@@ -121,8 +121,8 @@ public class TurboItems {
 	public static final DeferredItem<BaseBlasterItem> SENTURION_SYNERGIZER = ITEMS.register("senturion_synergizer",
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 
-	public static final DeferredItem<BaseBlasterItem> PHANTOM_LASER = ITEMS.register("phantom_laser",
-			() -> new BaseBlasterItem(Tiers.DIAMOND,5,-2.4F, new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
+	/*public static final DeferredItem<BaseBlasterItem> PHANTOM_LASER = ITEMS.register("phantom_laser",
+			() -> new BaseBlasterItem(Tiers.DIAMOND,5,-2.4F, new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));*/
 
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);

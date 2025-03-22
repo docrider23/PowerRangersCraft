@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "powerrangerscraft:item/iapetus_blaster"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [0, -2.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, -2.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 45]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -45]
+		}
+	},
+	"_comment": "Generated using MiningMark48's JSON Generator."
+}

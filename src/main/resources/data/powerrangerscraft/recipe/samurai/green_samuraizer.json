@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "samurai_green",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:samurai_disc"
+    },
+	"b": {
+      "item": "powerrangerscraft:bear_disc"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:green_samuraizer"
+  }
+}

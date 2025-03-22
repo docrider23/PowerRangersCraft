@@ -19,11 +19,11 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     public static final DeferredRegister<EntityType<?>> MOBLIST = DeferredRegister.create(BuiltInRegistries.ENTITY_TYPE, PowerRangersCraftCore.MODID);
 
     //01-02 MMPR
-    public static final DeferredHolder<EntityType<?>, EntityType<PuttyPatrollersEntity>> PUTTY_PATROLLERS = MOBLIST.register("putty_patroller",
+    /*public static final DeferredHolder<EntityType<?>, EntityType<PuttyPatrollersEntity>> PUTTY_PATROLLERS = MOBLIST.register("putty_patroller",
             () -> EntityType.Builder.of(PuttyPatrollersEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":putty_patroller"));
 
     public static final DeferredItem<DeferredSpawnEggItem> PUTTY_PATROLLERS_SPAWN_EGG = ITEMS.register("putty_patroller_spawn_egg",
-            () -> new DeferredSpawnEggItem(PUTTY_PATROLLERS, 0x121212, 0xa1a1a1, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(PUTTY_PATROLLERS, 0x121212, 0xa1a1a1, new Item.Properties()));*/
 
     //03 Alien
 
@@ -36,6 +36,12 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     public static final DeferredItem<DeferredSpawnEggItem> CHROMITES_SPAWN_EGG = ITEMS.register("chromite_spawn_egg",
             () -> new DeferredSpawnEggItem(CHROMITES, 0x03a9f4, 0xbd66a6, new Item.Properties()));
 
+    public static final DeferredHolder<EntityType<?>, EntityType<PiranhatronsEntity>> PIRANHATRONS = MOBLIST.register("piranhatron",
+            () -> EntityType.Builder.of(PiranhatronsEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":piranhatrons"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> PIRANHATRONS_SPAWN_EGG = ITEMS.register("piranhatron_spawn_egg",
+            () -> new DeferredSpawnEggItem(PIRANHATRONS, 0x8b7a82, 0x8f6462, new Item.Properties()));
+
     public static final DeferredHolder<EntityType<?>, EntityType<BlueSenturionEvilEntity>> BLUE_SENTURION_EVIL = MOBLIST.register("blue_senturion_evil",
             () -> EntityType.Builder.of(BlueSenturionEvilEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":blue_senturion_evil"));
 
@@ -44,12 +50,18 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     
     //06 In Space
 
-    //07 Gingaman
+    //07 Lost Galaxy
     public static final DeferredHolder<EntityType<?>, EntityType<SwabbiesEntity>> SWABBIES = MOBLIST.register("swabbies",
             () -> EntityType.Builder.of(SwabbiesEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":swabbies"));
 
     public static final DeferredItem<DeferredSpawnEggItem> SWABBIES_SPAWN_EGG = ITEMS.register("swabbies_spawn_egg",
             () -> new DeferredSpawnEggItem(SWABBIES, 0xde7002, 0x2e1100, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<StingwingersEntity>> STINGWINGERS = MOBLIST.register("stingwinger",
+            () -> EntityType.Builder.of(StingwingersEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":stingwinger"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> STINGWINGERS_SPAWN_EGG = ITEMS.register("stingwingers_spawn_egg",
+            () -> new DeferredSpawnEggItem(STINGWINGERS, 0x49513e, 0x4a3a56, new Item.Properties()));
 
     public static final DeferredHolder<EntityType<?>, EntityType<MagnaDefenderEntity>> MAGNA_DEFENDER = MOBLIST.register("magna_defender",
             () -> EntityType.Builder.of(MagnaDefenderEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":magna_defender"));
@@ -119,8 +131,27 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
             () -> new DeferredSpawnEggItem(VOID_KNIGHT, 0x56007f, 0x9c9c9c, new Item.Properties()));
 
     //29 Cosmic Fury
+    public static final DeferredHolder<EntityType<?>, EntityType<ZentinelEntity>> ZENTINELS = MOBLIST.register("zentinel",
+            () -> EntityType.Builder.of(ZentinelEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8)
+                    .build(PowerRangersCraftCore.MODID + ":zentinel"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> ZENTINEL_SPAWN_EGG = ITEMS.register("zentinel_spawn_egg",
+            () -> new DeferredSpawnEggItem(ZENTINELS, 0xa3a2a2, 0x414242, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<EvilBlueDinoFuryEntity>> EVIL_BLUE_DINO_FURY_RANGER = MOBLIST.register("evil_blue_dino_fury_ranger",
+            () -> EntityType.Builder.of(EvilBlueDinoFuryEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8)
+                    .build(PowerRangersCraftCore.MODID + ":evil_blue_dino_fury"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> EVIL_BLUE_DINO_FURY_RANGER_SPAWN_EGG = ITEMS.register("evil_blue_dino_fury_ranger_spawn_egg",
+            () -> new DeferredSpawnEggItem(EVIL_BLUE_DINO_FURY_RANGER, 0x0a21f2, 0x000000, new Item.Properties()));
     
     //EX Hyperforce
+    public static final DeferredHolder<EntityType<?>, EntityType<SilverSentryEntity>> SILVER_SENTRIES = MOBLIST.register("silver_sentry",
+            () -> EntityType.Builder.of(SilverSentryEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8)
+                    .build(PowerRangersCraftCore.MODID + ":silver_sentry"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> SILVER_SENTRY_SPAWN_EGG = ITEMS.register("silver_sentry_spawn_egg",
+            () -> new DeferredSpawnEggItem(SILVER_SENTRIES, 0x8ca9a4, 0x272727, new Item.Properties()));
 
     //Projectiles
     /*public static final DeferredHolder<EntityType<?>, EntityType<ExplosiveProjectileEntity>> EXPLOSIVE_PROJECTILE =

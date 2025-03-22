@@ -28,13 +28,17 @@
   "item.powerrangerscraft.putty_patroller_spawn_egg":"Putty Patrollers Spawn Egg",
 
   "entity.powerrangerscraft.chromite":"Chromites",
+  "entity.powerrangerscraft.piranhatrons": "Piranhatrons",
   "entity.powerrangerscraft.blue_senturion_evil":"Blue Senturion (Evil)",
   "item.powerrangerscraft.chromite_spawn_egg":"Chromites Spawn Egg",
+  "item.powerrangerscraft.piranhatron_spawn_egg": "Piranhatrons Spawn Egg",
   "item.powerrangerscraft.blue_senturion_evil_spawn_egg":"Blue Senturion (Evil) Spawn Egg",
 
   "entity.powerrangerscraft.swabbies": "Swabbies",
+  "entity.powerrangerscraft.stingwinger": "Stingwingers",
   "entity.powerrangerscraft.magna_defender": "Magna Defender",
   "item.powerrangerscraft.swabbies_spawn_egg": "Swabbies Spawn Egg",
+  "item.powerrangerscraft.stingwingers_spawn_egg": "Stingwingers Spawn Egg",
   "item.powerrangerscraft.magna_defender_spawn_egg": "Magna Defender Spawn Egg",
 
   "entity.powerrangerscraft.putrids": "Putrids",
@@ -49,16 +53,26 @@
   "entity.powerrangerscraft.void_knight": "Void Knight",
   "item.powerrangerscraft.hengemen_spawn_egg": "Hengemen Spawn Egg",
   "item.powerrangerscraft.void_knight_spawn_egg": "Void Knight Spawn Egg",
+
+  "entity.powerrangerscraft.zentinel": "Zentinels",
+  "entity.powerrangerscraft.evil_blue_dino_fury_ranger": "Blue Dino Fury Ranger (Evil)",
+  "item.powerrangerscraft.zentinal_spawn_egg": "Zentinels Spawn Egg",
+  "item.powerrangerscraft.evil_blue_dino_fury_ranger_spawn_egg": "Blue Dino Fury Ranger (Evil) Spawn Egg",
+
+  "entity.powerrangerscraft.silver_sentry": "Silver Sentries",
+  "item.powerrangerscraft.silver_sentry_spawn_egg": "Silver Sentries Spawn Egg",
   
   "item.powerrangerscraft.power_rangers_logo": "Power Rangers Logo",
 
   //00 Mobs Weapon
   "item.powerrangerscraft.chromites_sword":"Chromites Sword",
   "item.powerrangerscraft.swabbies_cutlass": "Swabbies Cutlass",
+  "item.powerrangerscraft.stingwingers_stinger": "Stingwingers Stinger",
   "item.powerrangerscraft.putrids_club": "Putrids Club",
   "item.powerrangerscraft.moogers_dao": "Moogers Dao",
   "item.powerrangerscraft.hengemen_spear": "Hengemen Spear",
   "item.powerrangerscraft.hengemen_shield": "Hengemen Shield",
+  "item.powerrangerscraft.zentinels_khopesh_rifle": "Zentinels Khopesh Rifle",
   
   //01-02 MMPR
   "tab.powerrangerscraft.mmpr": "Mighty Morphin Power Rangers",
@@ -252,7 +266,7 @@
   "item.powerrangerscraft.armadillo_puck":"Armadillo Puck",
   "item.powerrangerscraft.sword_of_pardolis":"Sword of Pardolis",
   "item.powerrangerscraft.rhino_shooter":"Rhino Shooter",
-  "item.powerrangerscraft.deer_clutcher":"Deer Shooter",
+  "item.powerrangerscraft.deer_clutcher":"Deer Clutcher",
 
   "item.powerrangerscraft.crescent_blade":"Crescent Blade",
   "item.powerrangerscraft.flute_knife":"Flute Knife",
@@ -314,7 +328,7 @@
   "item.powerrangerscraft.red_samuraizer":"Samuraizer (Red Ranger)",
   "item.powerrangerscraft.blue_samuraizer":"Samuraizer (Blue Ranger)",
   "item.powerrangerscraft.pink_samuraizer":"Samuraizer (Pink Ranger)",
-  "item.powerrangerscraft.green_samuraizer":"Samuraizer (Black Ranger)",
+  "item.powerrangerscraft.green_samuraizer":"Samuraizer (Green Ranger)",
   "item.powerrangerscraft.yellow_samuraizer":"Samuraizer (Yellow Ranger)",
   "item.powerrangerscraft.samurai_morpher": "Samurai Morpher",
   "item.powerrangerscraft.princess_samuraizer": "Samuraizer (Female Red Ranger)",
@@ -329,6 +343,7 @@
   "item.powerrangerscraft.mega_mode_disc": "Mega Mode Disc",
   "item.powerrangerscraft.super_samurai_disc": "Super Samurai Disc",
   "item.powerrangerscraft.shark_disc": "Shark Disc",
+  "item.powerrangerscraft.bull_disc": "Bull Disc",
   "item.powerrangerscraft.shogun_disc": "Shogun Disc",
 
   "item.powerrangerscraft.black_box": "Black Box",
@@ -345,6 +360,8 @@
   "item.powerrangerscraft.super_spin_sword": "Super Spin Sword",
   "item.powerrangerscraft.super_mega_blade": "Super Mega Blade",
   "item.powerrangerscraft.shark_sword": "Shark Sword",
+  "item.powerrangerscraft.bullzooka": "Bullzooka",
+  "item.powerrangerscraft.super_bullzooka": "Super Bullzooka",
 
   //20 Megaforce
   "item.powerrangerscraft.megaforce_logo": "Megaforce Logo",
@@ -374,11 +391,149 @@
   "block.powerrangerscraft.dino_key_ore": "Dino Key Ore",
   "block.powerrangerscraft.deepslate_dino_key_ore": "Deepslate Dino Key Ore",
 
+  "item.powerrangerscraft.red_dino_fury_morpher": "Dino Fury Morpher (Red Ranger)",
+  "item.powerrangerscraft.blue_dino_fury_morpher": "Dino Fury Morpher (Blue Ranger)",
+  "item.powerrangerscraft.pink_dino_fury_morpher": "Dino Fury Morpher (Pink Ranger)",
+  "item.powerrangerscraft.green_dino_fury_morpher": "Dino Fury Morpher (Green Ranger)",
+  "item.powerrangerscraft.black_dino_fury_morpher": "Dino Fury Morpher (Black Ranger)",
+  "item.powerrangerscraft.gold_mosa_blaster": "Gold Mosa Blaster (Gold Ranger)",
+  "item.powerrangerscraft.zenith_dino_fury_morpher": "Dino Fury Morpher (Zenith Ranger)",
+  "item.powerrangerscraft.corrupted_blue_dino_fury_morpher": "Corrupted Dino Fury Morpher (Evil Blue Ranger)",
+  "item.powerrangerscraft.void_knight_changer": "Void Saber (Void Knight)",
+
+  "item.powerrangerscraft.t_rex_dino_key": "T-Rex Dino Key",
+  "item.powerrangerscraft.tricera_dino_key": "Tricera Dino Key",
+  "item.powerrangerscraft.ankylo_dino_key": "Ankylo Dino Key",
+  "item.powerrangerscraft.tiger_dino_key": "Tiger Dino Key",
+  "item.powerrangerscraft.stego_dino_key": "Stego Dino Key",
+  "item.powerrangerscraft.mosa_dino_key": "Mosa Dino Key",
+  "item.powerrangerscraft.void_knight_key": "Void Knight Key",
+  "item.powerrangerscraft.evil_tricera_dino_key": "Evil Tricera Dino Key",
+
+  "item.powerrangerscraft.hyper_dino_key": "Hyper Dino Key",
+  "item.powerrangerscraft.elasto_dino_key": "Elasto Dino Key",
+  "item.powerrangerscraft.gravi_dino_key": "Gravi Dino Key",
+  "item.powerrangerscraft.sprint_dino_key": "Sprint Dino Key",
+  "item.powerrangerscraft.shield_dino_key": "Shield Dino Key",
+  "item.powerrangerscraft.sonic_dino_key": "Sonic Dino Key",
+  "item.powerrangerscraft.stink_dino_key": "Stink Dino Key",
+  "item.powerrangerscraft.vision_dino_key": "Vision Dino Key",
+  "item.powerrangerscraft.muscle_dino_key": "Muscle Dino Key",
+  "item.powerrangerscraft.grow_dino_key": "Grow Dino Key",
+  "item.powerrangerscraft.flare_dino_key": "Flare Dino Key",
+  "item.powerrangerscraft.mist_dino_key": "Mist Dino Key",
+  "item.powerrangerscraft.hover_dino_key": "Hover Dino Key",
+  "item.powerrangerscraft.fix_it_dino_key": "Fix-It Dino Key",
+  "item.powerrangerscraft.slick_dino_key": "Slick Dino Key",
+  "item.powerrangerscraft.balloon_dino_key": "Balloon Dino Key",
+  "item.powerrangerscraft.invisi_dino_key": "Invisi Dino Key",
+  "item.powerrangerscraft.double_dino_key": "Double Dino Key",
+  "item.powerrangerscraft.snooze_dino_key": "Snooze Dino Key",
+  "item.powerrangerscraft.spin_dino_key": "Spin Dino Key",
+  "item.powerrangerscraft.cushion_dino_key": "Cushion Dino Key",
+
+  "item.powerrangerscraft.blazing_dino_key": "Blazing Dino Key",
+  "item.powerrangerscraft.electro_dino_key": "Electro Dino Key",
+  "item.powerrangerscraft.shadow_dino_key": "Shadow Dino Key",
+  "item.powerrangerscraft.light_dino_key": "Light Dino Key",
+  "item.powerrangerscraft.cosmic_dino_key": "Cosmic Dino Key",
+  "item.powerrangerscraft.smash_dino_key": "Smash Dino Key",
+  "item.powerrangerscraft.freeze_dino_key": "Freeze Dino Key",
+
+  "item.powerrangerscraft.dino_knight_key": "Dino Knight Key",
+
+  "item.powerrangerscraft.unfinished_dino_master_saber": "Unfinished Dino Master Saber",
+
+  "item.powerrangerscraft.robotic_arm": "Javi's Robotic Arm",
+
+  "item.powerrangerscraft.chromafury_saber": "Chromafury Saber",
+  "item.powerrangerscraft.mosa_blaster": "Mosa Blaster",
+  "item.powerrangerscraft.mosa_blade": "Mosa Blade",
+  "item.powerrangerscraft.gold_fury_blade_blaster": "Gold Fury Blade Blaster",
+  "item.powerrangerscraft.void_saber": "Void Saber",
+  "item.powerrangerscraft.dino_knight_shield": "Dino Knight Shield",
+  "item.powerrangerscraft.dino_knight_morpher": "Dino Knight Morpher",
+  "item.powerrangerscraft.dino_master_saber": "Dino Master Saber",
+  "item.powerrangerscraft.mega_fury_saber": "Mega Fury Saber",
+
   //29 Cosmic Fury
+  "tab.powerrangerscraft.cosmic_fury": "Cosmic Fury",
+
   "item.powerrangerscraft.cosmic_fury_logo": "Cosmic Fury Logo",
 
+  "item.powerrangerscraft.cosmic_fury_head": "Cosmic Fury Helmet",
+  "item.powerrangerscraft.cosmic_fury_torso": "Cosmic Fury Chestplate",
+  "item.powerrangerscraft.cosmic_fury_legs": "Cosmic Fury Leggings",
+
+  "item.powerrangerscraft.empty_cosmic_orb": "Empty Cosmic Orb",
+
+  "item.powerrangerscraft.red_cosmic_morpher": "Cosmic Morpher (Red Ranger)",
+  "item.powerrangerscraft.blue_cosmic_morpher": "Cosmic Morpher (Blue Ranger)",
+  "item.powerrangerscraft.green_cosmic_morpher": "Cosmic Morpher (Green Ranger)",
+  "item.powerrangerscraft.black_cosmic_morpher": "Cosmic Morpher (Black Ranger)",
+  "item.powerrangerscraft.gold_cosmic_morpher": "Cosmic Morpher (Gold Ranger)",
+  "item.powerrangerscraft.orange_cosmic_morpher": "Cosmic Morpher (Orange Ranger)",
+  "item.powerrangerscraft.zenith_cosmic_morpher": "Cosmic Morpher (Zenith Ranger)",
+
+  "item.powerrangerscraft.ankylo_cosmic_orb": "Ankylo Cosmic Orb",
+  "item.powerrangerscraft.tricera_cosmic_orb": "Tricera Cosmic Orb",
+  "item.powerrangerscraft.tiger_cosmic_orb": "Tiger Cosmic Orb",
+  "item.powerrangerscraft.stego_cosmic_orb": "Stego Cosmic Orb",
+  "item.powerrangerscraft.mosa_cosmic_orb": "Mosa Cosmic Orb",
+  "item.powerrangerscraft.solono_cosmic_orb": "Solono Cosmic Orb",
+  "item.powerrangerscraft.t_rex_cosmic_orb": "T-Rex Cosmic Orb",
+
+  "item.powerrangerscraft.cosmic_blaster": "Cosmic Blaster",
+  "item.powerrangerscraft.ankylo_hammer": "Ankylo Hammer",
+  "item.powerrangerscraft.tricera_blaster": "Tricera Blaster",
+  "item.powerrangerscraft.tiger_claw_dagger": "Tiger Claw Dagger",
+  "item.powerrangerscraft.stego_spike_axe": "Stego Spike Axe",
+  "item.powerrangerscraft.mosa_razor_blaster": "Mosa Razor Blaster",
+  "item.powerrangerscraft.solono_claw": "Solono Claw",
+  "item.powerrangerscraft.solono_claw_extended": "Solono Claw (Extended)",
+
+  "item.powerrangerscraft.masters_staff": "Masters' Staff",
+
   //EX Hyperforce
+  "tab.powerrangerscraft.hyperforce": "Hyperforce",
+
   "item.powerrangerscraft.hyperforce_logo": "Hyperforce Logo",
+
+  "item.powerrangerscraft.hyperforce_head": "Hyperforce Helmet",
+  "item.powerrangerscraft.hyperforce_torso": "Hyperforce Chestplate",
+  "item.powerrangerscraft.hyperforce_legs": "Hyperforce Leggings",
+
+  "item.powerrangerscraft.hyperforce_die": "Hyperforce Die",
+
+  "item.powerrangerscraft.red_hyperforce_morpher": "Hyperforce Morpher (Red Ranger)",
+  "item.powerrangerscraft.blue_hyperforce_morpher": "Hyperforce Morpher (Blue Ranger)",
+  "item.powerrangerscraft.yellow_hyperforce_morpher": "Hyperforce Morpher (Yellow Ranger)",
+  "item.powerrangerscraft.black_hyperforce_morpher": "Hyperforce Morpher (Black Ranger)",
+  "item.powerrangerscraft.pink_hyperforce_morpher": "Hyperforce Morpher (Pink Ranger)",
+  "item.powerrangerscraft.green_hyperforce_morpher": "Hyperforce Morpher (Green Ranger)",
+
+  "item.powerrangerscraft.lion_hyperforce_card": "Lion Hyperforce Card",
+  "item.powerrangerscraft.serpent_hyperforce_card": "Serpent Hyperforce Card",
+  "item.powerrangerscraft.ram_hyperforce_card": "Ram Hyperforce Card",
+  "item.powerrangerscraft.cerberus_hyperforce_card": "Cerberus Hyperforce Card",
+  "item.powerrangerscraft.phoenix_hyperforce_card": "Phoenix Hyperforce Card",
+  "item.powerrangerscraft.hydra_hyperforce_card": "Hydra Hyperforce Card",
+
+  "item.powerrangerscraft.pink_power_gem": "Pink Power Gem",
+
+  "item.powerrangerscraft.hyperforce_blade_blaster": "Hyperforce Blade Blaster",
+  "item.powerrangerscraft.iapetus_blaster": "Iapetus Blaster",
+  "item.powerrangerscraft.iapetus_claw": "Iapetus Claw",
+  "item.powerrangerscraft.iapetus_claw1": "Iapetus Claw",
+  "item.powerrangerscraft.oceanus_trident": "Oceanus Trident",
+  "item.powerrangerscraft.oceanus_blade": "Oceanus Blade",
+  "item.powerrangerscraft.crius_hammer": "Crius Hammer",
+  "item.powerrangerscraft.crius_cannon": "Crius Cannon",
+  "item.powerrangerscraft.coeus_axe": "Coeus Axe",
+  "item.powerrangerscraft.coeus_shield": "Coeus Shield",
+  "item.powerrangerscraft.hyperion_bow": "Hyperion Bow",
+  "item.powerrangerscraft.hyperion_scythe": "Hyperion Scythe",
+  "item.powerrangerscraft.rhea_sword": "Rhea Sword",
   
   //Misc
   "tab.powerrangerscraft.misc": "Ranger Items",

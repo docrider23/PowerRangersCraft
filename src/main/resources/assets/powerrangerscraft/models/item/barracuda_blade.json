@@ -2,6 +2,6 @@
   "_comment": "Generated using MiningMark48's JSON Generator.",
   "parent": "item/handheld",
   "textures": {
-    "layer0": "supersentaicraft:item/sakanamaru"
+    "layer0": "powerrangerscraft:item/barracuda_blade"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "super_mega_mode",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+	"a": {
+      "item": "powerrangerscraft:super_mega_blade"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:black_box"
+  }
+}

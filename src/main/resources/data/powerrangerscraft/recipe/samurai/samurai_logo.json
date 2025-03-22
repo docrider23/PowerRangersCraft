@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "samurai",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:samurai_disc"
+    },
+	{
+      "item": "minecraft:paper",
+	  "data": 0
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:samurai_logo"
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "powerrangerscraft:item/masters_staff"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, -5.5, 0],
+			"scale": [1.75, 1.75, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, -90, 0],
+			"translation": [0, -5.5, 0],
+			"scale": [1.75, 1.75, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 0, 2.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 0, 2.5]
+		}
+	},
+	"_comment": "Generated using MiningMark48's JSON Generator."
+}

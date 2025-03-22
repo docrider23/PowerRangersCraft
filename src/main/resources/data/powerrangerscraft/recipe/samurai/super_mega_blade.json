@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "super_mega_mode",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:black_box"
+    },
+	{
+      "item": "powerrangerscraft:mega_blade"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:super_mega_blade"
+  }
+}
