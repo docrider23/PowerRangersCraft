@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cosmic_fury_blue",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_cosmic_orb"
+    },
+	"b": [
+	  {
+	    "item": "powerrangerscraft:tricera_cosmic_orb"
+	  },
+	  {
+	    "item": "powerrangerscraft:evil_tricera_dino_key"
+	  }
+	],
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:tricera_blaster"
+  }
+}

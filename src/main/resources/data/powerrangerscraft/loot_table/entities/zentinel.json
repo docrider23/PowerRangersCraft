@@ -6,36 +6,41 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:lion_animal_crystal",
+          "name": "powerrangerscraft:ankylo_cosmic_orb",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:eagle_animal_crystal",
+          "name": "powerrangerscraft:tricera_cosmic_orb",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:shark_animal_crystal",
+          "name": "powerrangerscraft:tiger_cosmic_orb",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:bison_animal_crystal",
+          "name": "powerrangerscraft:stego_cosmic_orb",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:tiger_animal_crystal",
+          "name": "powerrangerscraft:mosa_cosmic_orb",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:animarium_buckle"
+          "name": "powerrangerscraft:solono_cosmic_orb",
+          "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:empty_animal_crystal",
+          "name": "powerrangerscraft:t_rex_cosmic_orb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:empty_cosmic_orb",
           "weight": 5,
           "functions": [
             {
@@ -51,7 +56,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:empty_animal_crystal"
+          "name": "powerrangerscraft:empty_cosmic_orb"
         }
       ]
     }

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cosmic_fury",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:ankylo_hammer"
+    },
+    {
+      "item": "powerrangerscraft:tricera_blaster"
+    },
+    {
+      "item": "powerrangerscraft:tiger_claw_dagger"
+    },
+    {
+      "item": "powerrangerscraft:stego_spike_axe"
+    },
+    {
+      "item": "powerrangerscraft:mosa_razor_blaster"
+    },
+    {
+      "item": "powerrangerscraft:solono_claw"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:cosmic_blaster"
+  }
+}

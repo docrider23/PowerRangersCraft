@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cosmic_fury_blue",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_cosmic_orb"
+    },
+	"b": {
+      "item": "powerrangerscraft:tricera_cosmic_orb"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:blue_cosmic_morpher"
+  }
+}

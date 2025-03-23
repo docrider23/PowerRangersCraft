@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cosmic_fury_green",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_cosmic_orb"
+    },
+	"b": {
+	  "item": "powerrangerscraft:tiger_cosmic_orb"
+	},
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:tiger_claw_dagger"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cosmic_fury",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_cosmic_orb"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:cosmic_fury_head"
+  }
+}

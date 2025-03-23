@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cosmic_fury",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:empty_cosmic_orb"
+    },
+    {
+      "item": "minecraft:paper",
+      "data": 0
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:cosmic_fury_logo"
+  }
+}

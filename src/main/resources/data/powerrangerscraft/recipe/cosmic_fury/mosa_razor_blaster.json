@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cosmic_fury_gold",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_cosmic_orb"
+    },
+	"b": {
+	  "item": "powerrangerscraft:mosa_cosmic_orb"
+	},
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:mosa_razor_blaster"
+  }
+}
