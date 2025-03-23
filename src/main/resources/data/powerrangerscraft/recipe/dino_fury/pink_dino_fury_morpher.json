@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_fury_pink",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_dino_key"
+    },
+	"b": {
+      "item": "powerrangerscraft:ankylo_dino_key"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:pink_dino_fury_morpher"
+  }
+}

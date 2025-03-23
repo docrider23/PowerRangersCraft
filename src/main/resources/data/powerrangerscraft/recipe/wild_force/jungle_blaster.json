@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wild_force",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:falconator"
+    },
+	{
+      "item": "powerrangerscraft:armadillo_puck"
+    },
+	{
+      "item": "powerrangerscraft:sword_of_pardolis"
+    },
+	{
+      "item": "powerrangerscraft:rhino_shooter"
+    },
+	{
+      "item": "powerrangerscraft:deer_clutcher"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:jungle_blaster"
+  }
+}

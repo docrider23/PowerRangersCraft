@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "evil_dino_fury_blue",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_dino_key"
+    },
+	"b": {
+      "item": "powerrangerscraft:evil_tricera_dino_key"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:corrupted_blue_dino_fury_morpher"
+  }
+}

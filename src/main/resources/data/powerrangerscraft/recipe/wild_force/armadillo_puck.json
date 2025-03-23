@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wild_force_yellow",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_animal_crystal"
+    },
+	"b": {
+	  "item": "powerrangerscraft:armadillo_animal_crystal"
+	},
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:armadillo_puck"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_fury",
+  "pattern": [
+    "abc",
+    "dei",
+	"fgh"
+  ],
+  "key": {
+    "d": {
+      "item": "powerrangerscraft:blank_dino_key"
+    },
+	"a": {
+	    "item": "powerrangerscraft:t_rex_dino_key"
+	  },
+	"b": {
+	    "item": "powerrangerscraft:tricera_dino_key"
+	  },
+	"c": {
+	    "item": "powerrangerscraft:ankylo_dino_key"
+	  },
+	"f": {
+	    "item": "powerrangerscraft:tiger_dino_key"
+	  },
+	"g": {
+	    "item": "powerrangerscraft:stego_dino_key"
+	  },
+	"h": {
+      "item": "powerrangerscraft:mosa_dino_key"
+    },
+	  "e": {
+		  "item": "powerrangerscraft:chromafury_saber"
+	  },
+	  "i": {
+		  "item": "powerrangerscraft:mecha_gear"
+	  }
+  },
+  "result": {
+    "id": "powerrangerscraft:mega_fury_saber"
+  }
+}

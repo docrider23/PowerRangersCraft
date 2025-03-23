@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_fury_zenith",
+  "pattern": [
+    "aaa",
+    "cba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_dino_key"
+    },
+	"b": {
+      "item": "powerrangerscraft:t_rex_dino_key"
+    },
+    "c": {
+      "item": "powerrangerscraft:masters_staff"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:zenith_dino_fury_morpher"
+  }
+}

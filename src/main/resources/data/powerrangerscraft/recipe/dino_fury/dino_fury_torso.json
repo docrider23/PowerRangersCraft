@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_fury",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_dino_key"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:dino_fury_torso"
+  }
+}

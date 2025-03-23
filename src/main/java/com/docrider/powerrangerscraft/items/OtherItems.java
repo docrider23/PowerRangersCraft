@@ -21,6 +21,9 @@ public class OtherItems {
     public static final DeferredItem<Item> MECHA_GEAR = ITEMS.register("mecha_gear",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
+    public static final DeferredItem<Item> TRANSPORTAL_DEVICE = ITEMS.register("transportal_device",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
+
     public static final DeferredItem<Item> BLANK_FORM = ITEMS.register("blank_form",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","",""));
 

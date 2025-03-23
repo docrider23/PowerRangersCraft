@@ -115,7 +115,7 @@ public class CosmicFuryItems {
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
 
     public static final DeferredItem<BaseBlasterItem> MASTERS_STAFF = ITEMS.register("masters_staff",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.COSMIC_FURY).KeepItem().ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

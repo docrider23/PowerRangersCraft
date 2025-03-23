@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_fury",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_dino_key"
+    },
+	"b": [
+	  {
+	    "item": "powerrangerscraft:t_rex_dino_key"
+	  },
+	  {
+	    "item": "powerrangerscraft:tricera_dino_key"
+	  },
+	  {
+	    "item": "powerrangerscraft:ankylo_dino_key"
+	  },
+	  {
+	    "item": "powerrangerscraft:tiger_dino_key"
+	  },
+	  {
+	    "item": "powerrangerscraft:stego_dino_key"
+	  }
+	],
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:chromafury_saber"
+  }
+}

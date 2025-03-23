@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_fury_red_dino_knight",
+  "pattern": [
+    "aaa",
+    "dbe",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_dino_key"
+    },
+	"b": {
+	  "item": "powerrangerscraft:dino_knight_key"
+	},
+	"c": {
+      "item": "minecraft:iron_sword"
+    },
+	"d": {
+	  "item": "powerrangerscraft:t_rex_dino_key"
+	},
+	"e": {
+	  "item": "powerrangerscraft:void_knight_key"
+	}
+  },
+  "result": {
+    "id": "powerrangerscraft:dino_knight_morpher"
+  }
+}

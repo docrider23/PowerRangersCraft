@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_fury_green",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_dino_key"
+    },
+	"b": {
+      "item": "powerrangerscraft:tiger_dino_key"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:green_dino_fury_morpher"
+  }
+}

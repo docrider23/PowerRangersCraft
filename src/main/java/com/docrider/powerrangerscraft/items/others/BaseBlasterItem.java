@@ -40,6 +40,7 @@ public class BaseBlasterItem extends BowItem {
 
 	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
 	private Item ChangerItem = MMPRItems.MMPR_LOGO.get();
+	private Item craftingRemainingItem = null;
 
 	private Boolean LFB = false;
 	private int LFBB = 1;
@@ -57,6 +58,33 @@ public class BaseBlasterItem extends BowItem {
 		ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 		this.defaultModifiers = builder.build();
 
+	}
+
+	public BaseBlasterItem KeepDifItem(Item Dif) {
+		craftingRemainingItem=Dif;
+		return this;
+	}
+
+	public BaseBlasterItem KeepItem() {
+		craftingRemainingItem=this;
+		return this;
+	}
+
+	public ItemStack getCraftingRemainingItem(ItemStack stack)
+	{
+		if (stack.getItem() instanceof BaseBlasterItem) {
+			if (!hasCraftingRemainingItem(stack))
+			{
+				return ItemStack.EMPTY;
+			}
+			return new ItemStack(craftingRemainingItem);
+		} else  return new ItemStack(this.getCraftingRemainingItem());
+	}
+
+
+	public boolean hasCraftingRemainingItem(ItemStack stack)
+	{
+		return ((BaseBlasterItem)stack.getItem()).craftingRemainingItem!=null;
 	}
 
 	public float getDamage() {

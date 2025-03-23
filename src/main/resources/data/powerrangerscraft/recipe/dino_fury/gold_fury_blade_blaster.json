@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dino_fury_gold",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:mosa_blaster"
+    },
+	{
+      "item": "powerrangerscraft:mosa_blade"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:gold_fury_blade_blaster"
+  }
+}
