@@ -280,7 +280,12 @@ public class WildForceItems {
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> ANIMARIUM_BUCKLE = ITEMS.register("animarium_buckle",
-			() -> new RangerFormChangeItem(new Item.Properties(),0,"_savage","wild_force_red","wild_force_red_belt")
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"_savage","wild_force_red","wild_force_red_belt",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
+					new MobEffectInstance(EffectCore.FLYING, 40, 0,true,false))
 					.ChangeModel("geo/dino_master.geo.json").ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> WILD_FORCE_HELMET = ITEMS.register("wild_force_head",
