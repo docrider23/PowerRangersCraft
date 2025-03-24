@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hyperforce_yellow",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:hyperforce_die"
+    },
+	"b": {
+      "item": "powerrangerscraft:ram_hyperforce_card"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:yellow_hyperforce_morpher"
+  }
+}

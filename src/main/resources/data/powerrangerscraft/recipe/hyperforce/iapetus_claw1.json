@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hyperforce_red",
+  "pattern": [
+    " a ",
+    "acb",
+	" a "
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:hyperforce_die"
+    },
+	"b": {
+	  "item": "powerrangerscraft:lion_hyperforce_card"
+	},
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:iapetus_claw1"
+  }
+}

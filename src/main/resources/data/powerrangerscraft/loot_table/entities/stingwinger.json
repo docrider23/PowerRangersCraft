@@ -6,37 +6,36 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:lion_disc",
+          "name": "powerrangerscraft:lion_mirinoi_medal",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:dragon_disc",
+          "name": "powerrangerscraft:eagle_mirinoi_medal",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:turtle_disc",
+          "name": "powerrangerscraft:gorilla_mirinoi_medal",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:bear_disc",
+          "name": "powerrangerscraft:wolf_mirinoi_medal",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:ape_disc",
+          "name": "powerrangerscraft:wildcat_mirinoi_medal",
           "weight": 6
         },
         {
-          "type": "minecraft:item",
-          "name": "powerrangerscraft:coral_disc"
+          "type": "minecraft_item",
+          "name": "powerrangerscraft:galactic_key"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "powerrangerscraft:samurai_disc",
+          "name": "powerrangerscraft:lost_galaxy_logo",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -51,7 +50,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:samurai_disc"
+          "name": "powerrangerscraft:lost_galaxy_logo"
         }
       ]
     }

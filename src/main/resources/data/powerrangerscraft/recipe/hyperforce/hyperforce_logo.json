@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hyperforce",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:hyperforce_die"
+    },
+    {
+      "item": "minecraft:paper",
+      "data": 0
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:hyperforce_logo"
+  }
+}

@@ -154,22 +154,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "powerrangerscraft:super_samurai_disc"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ],
-          "name": "powerrangerscraft:shark_disc"
+          "name": "powerrangerscraft:mega_mode_disc"
         }
       ],
       "conditions": [

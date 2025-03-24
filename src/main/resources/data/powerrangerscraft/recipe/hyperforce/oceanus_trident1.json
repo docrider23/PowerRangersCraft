@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hyperforce_blue",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:oceanus_trident"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:oceanus_blade"
+  }
+}

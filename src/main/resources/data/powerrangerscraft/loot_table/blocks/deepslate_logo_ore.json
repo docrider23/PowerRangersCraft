@@ -2,6 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1,
       "bonus_rolls": 0,
       "entries": [
         {
@@ -9,6 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
+              "name": "powerrangerscraft:deepslate_logo_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -25,166 +27,116 @@
                     }
                   }
                 }
-              ],
-              "name": "powerrangerscraft:deepslate_power_disc_ore"
+              ]
             }
           ]
         }
-      ],
-      "rolls": 1
+      ]
     },
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 25,
+          "name": "powerrangerscraft:ninja_storm_logo",
           "functions": [
             {
+              "function": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
+              "formula": "minecraft:ore_drops"
             },
             {
               "function": "minecraft:explosion_decay"
             }
-          ],
-          "name": "powerrangerscraft:samurai_disc"
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
+          "name": "powerrangerscraft:dino_thunder_logo",
           "functions": [
             {
+              "function": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
+              "formula": "minecraft:ore_drops"
             },
             {
               "function": "minecraft:explosion_decay"
             }
-          ],
-          "name": "powerrangerscraft:lion_disc"
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
+          "name": "powerrangerscraft:spd_logo",
           "functions": [
             {
+              "function": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
+              "formula": "minecraft:ore_drops"
             },
             {
               "function": "minecraft:explosion_decay"
             }
-          ],
-          "name": "powerrangerscraft:dragon_disc"
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
+          "name": "powerrangerscraft:mystic_force_logo",
           "functions": [
             {
+              "function": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
+              "formula": "minecraft:ore_drops"
             },
             {
               "function": "minecraft:explosion_decay"
             }
-          ],
-          "name": "powerrangerscraft:turtle_disc"
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
+          "name": "powerrangerscraft:operation_overdrive_logo",
           "functions": [
             {
+              "function": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
+              "formula": "minecraft:ore_drops"
             },
             {
               "function": "minecraft:explosion_decay"
             }
-          ],
-          "name": "powerrangerscraft:bear_disc"
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
+          "name": "powerrangerscraft:jungle_fury_logo",
           "functions": [
             {
+              "function": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
+              "formula": "minecraft:ore_drops"
             },
             {
               "function": "minecraft:explosion_decay"
             }
-          ],
-          "name": "powerrangerscraft:ape_disc"
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "name": "powerrangerscraft:rpm_logo",
           "functions": [
-            {
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
-            },
             {
               "function": "minecraft:explosion_decay"
             }
-          ],
-          "name": "powerrangerscraft:coral_disc"
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "name": "powerrangerscraft:beast_morphers_logo",
           "functions": [
-            {
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
-            },
             {
               "function": "minecraft:explosion_decay"
             }
-          ],
-          "name": "powerrangerscraft:super_samurai_disc"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ],
-          "name": "powerrangerscraft:shark_disc"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ],
-          "name": "powerrangerscraft:shogun_disc"
+          ]
         }
       ],
       "conditions": [
@@ -209,5 +161,5 @@
       ]
     }
   ],
-  "random_sequence": "powerrangerscraft:blocks/deepslate_power_disc_ore"
+  "random_sequence": "powerrangerscraft:blocks/deepslate_logo_ore"
 }

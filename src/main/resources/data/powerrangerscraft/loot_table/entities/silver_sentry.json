@@ -6,37 +6,41 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:lion_disc",
+          "name": "powerrangerscraft:lion_hyperforce_card",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:dragon_disc",
+          "name": "powerrangerscraft:serpent_hyperforce_card",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:turtle_disc",
+          "name": "powerrangerscraft:ram_hyperforce_card",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:bear_disc",
+          "name": "powerrangerscraft:cerberus_hyperforce_card",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:ape_disc",
+          "name": "powerrangerscraft:phoenix_hyperforce_card",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:coral_disc"
+          "name": "powerrangerscraft:hydra_hyperforce_card"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:pink_power_gem"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "powerrangerscraft:samurai_disc",
+          "name": "powerrangerscraft:hyperforce_die",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -51,7 +55,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:samurai_disc"
+          "name": "powerrangerscraft:hyperforce_die"
         }
       ]
     }

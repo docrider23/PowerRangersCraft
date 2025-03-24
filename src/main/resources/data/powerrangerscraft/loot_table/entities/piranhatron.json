@@ -6,37 +6,41 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:lion_disc",
+          "name": "powerrangerscraft:red_turbo_key",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:dragon_disc",
+          "name": "powerrangerscraft:blue_turbo_key",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:turtle_disc",
+          "name": "powerrangerscraft:green_turbo_key",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:bear_disc",
+          "name": "powerrangerscraft:yellow_turbo_key",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:ape_disc",
+          "name": "powerrangerscraft:pink_turbo_key",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:coral_disc"
+          "name": "powerrangerscraft:blue_senturion_badge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:power_ruby"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "powerrangerscraft:samurai_disc",
+          "name": "powerrangerscraft:turbo_logo",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -51,7 +55,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:samurai_disc"
+          "name": "powerrangerscraft:turbo_logo"
         }
       ]
     }

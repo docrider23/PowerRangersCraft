@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hyperforce_pink",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:hyperion_bow"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:hyperion_scythe"
+  }
+}

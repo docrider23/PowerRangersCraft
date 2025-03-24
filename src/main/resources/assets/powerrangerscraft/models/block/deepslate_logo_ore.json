@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "powerrangerscraft:block/deepslate_logo_ore"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hyperforce_yellow",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:crius_cannon"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:crius_hammer"
+  }
+}

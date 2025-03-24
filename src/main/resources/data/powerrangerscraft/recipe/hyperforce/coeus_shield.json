@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hyperforce_black",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:coeus_axe"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:coeus_shield"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hyperforce_yellow",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:crius_hammer"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:crius_cannon"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hyperforce",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:hyperforce_die"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:hyperforce_torso"
+  }
+}

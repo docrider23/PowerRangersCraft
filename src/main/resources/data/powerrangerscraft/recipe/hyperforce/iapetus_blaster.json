@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hyperforce_red",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:iapetus_claw"
+    },
+	{
+      "item": "powerrangerscraft:iapetus_claw1"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:iapetus_blaster"
+  }
+}

@@ -66,7 +66,7 @@ public class RangerTabs {
                     .title(Component.translatable("tab.powerrangerscraft.misc")).build());
 
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> BlockTab = CREATIVE_MODE_TABS.register("prc901", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(RangerBlocks.DEEPSLATE_MECHA_ORE.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png"))
+            CreativeModeTab.builder().icon(() -> new ItemStack(RangerBlocks.LOGO_ORE.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.block")).build());
 
     public static List<Item> MMPR= new ArrayList<Item>();

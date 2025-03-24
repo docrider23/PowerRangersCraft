@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hyperforce",
+  "pattern": [
+    "aaa",
+    "acb",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:hyperforce_die"
+    },
+	"b": [ 
+	  {
+        "item": "powerrangerscraft:lion_hyperforce_card"
+      },
+	  {
+        "item": "powerrangerscraft:serpent_hyperforce_card"
+      },
+	  {
+        "item": "powerrangerscraft:ram_hyperforce_card"
+      },
+	  {
+        "item": "powerrangerscraft:cerberus_hyperforce_card"
+      },
+	  {
+        "item": "powerrangerscraft:phoenix_hyperforce_card"
+      }
+	],
+	"c": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:hyperforce_blade_blaster"
+  }
+}
