@@ -369,7 +369,7 @@ public class WildForceItems {
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
 
 	public static final DeferredItem<BaseBlasterItem> JUNGLE_BLASTER = ITEMS.register("jungle_blaster",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 30, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
 
 	public static final DeferredItem<SwordItem> CRESCENT_BLADE = ITEMS.register("crescent_blade",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));

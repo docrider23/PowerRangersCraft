@@ -99,7 +99,7 @@ public class CosmicFuryItems {
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"cosmic_fury_zenith", T_REX_COSMIC_ORB,COSMIC_FURY_HELMET,COSMIC_FURY_CHESTPLATE,COSMIC_FURY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
 
     public static final DeferredItem<BaseBlasterItem> COSMIC_BLASTER = ITEMS.register("cosmic_blaster",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 30, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
 
     public static final DeferredItem<SwordItem> ANKYLO_HAMMER = ITEMS.register("ankylo_hammer",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
