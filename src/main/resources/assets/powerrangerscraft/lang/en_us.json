@@ -590,6 +590,14 @@
   "item.powerrangerscraft.solono_cosmic_orb": "Solono Cosmic Orb",
   "item.powerrangerscraft.t_rex_cosmic_orb": "T-Rex Cosmic Orb",
 
+  "powerrangerscraft:ankylo_cosmic_orb.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:tricera_cosmic_orb.form": "Ranger: §9Blue Ranger",
+  "powerrangerscraft:tiger_cosmic_orb.form": "Ranger: §2Green Ranger",
+  "powerrangerscraft:stego_cosmic_orb.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:mosa_cosmic_orb.form": "Ranger: §6Gold Ranger",
+  "powerrangerscraft:solono_cosmic_orb.form": "Ranger: §6Orange Ranger",
+  "powerrangerscraft:t_rex_cosmic_orb.form": "Ranger: Zenith Ranger",
+
   "item.powerrangerscraft.cosmic_blaster": "Cosmic Blaster",
   "item.powerrangerscraft.ankylo_hammer": "Ankylo Hammer",
   "item.powerrangerscraft.tricera_blaster": "Tricera Blaster",
@@ -627,6 +635,15 @@
   "item.powerrangerscraft.hydra_hyperforce_card": "Hydra Hyperforce Card",
 
   "item.powerrangerscraft.pink_power_gem": "Pink Power Gem",
+
+  "powerrangerscraft:lion_hyperforce_card.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:serpent_hyperforce_card.form": "Ranger: §9Blue Ranger",
+  "powerrangerscraft:ram_hyperforce_card.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:cerberus_hyperforce_card.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:phoenix_hyperforce_card.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:hydra_hyperforce_card.form": "Ranger: §2Green Ranger",
+
+  "powerrangerscraft:pink_power_gem.form": "Ranger: §dPink Battle Warrior",
 
   "item.powerrangerscraft.hyperforce_blade_blaster": "Hyperforce Blade Blaster",
   "item.powerrangerscraft.iapetus_blaster": "Iapetus Blaster",
