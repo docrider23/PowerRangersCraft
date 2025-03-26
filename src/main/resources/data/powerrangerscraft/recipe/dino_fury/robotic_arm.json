@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_fury",
+  "pattern": [
+    "a  ",
+    "b  ",
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": [
+      {
+        "item": "powerrangerscraft:stego_cosmic_orb"
+      },
+      {
+        "item": "powerrangerscraft:stego_dino_key"
+      }
+    ]
+  },
+  "result": {
+    "id": "powerrangerscraft:robotic_arm"
+  }
+}
