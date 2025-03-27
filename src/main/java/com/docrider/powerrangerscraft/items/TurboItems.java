@@ -58,12 +58,18 @@ public class TurboItems {
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
 					.ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
 
+	public static final DeferredItem<Item> BLUE_SENTURION_BADGE_EVIL = ITEMS.register("blue_senturion_badge_evil",
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"","blue_senturion_evil","blank",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)));
 	public static final DeferredItem<Item> BLUE_SENTURION_BADGE = ITEMS.register("blue_senturion_badge",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","blue_senturion","blank",
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).AddToTabList(RangerTabs.TURBO));
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).addAlternative(BLUE_SENTURION_BADGE_EVIL.get()).AddToTabList(RangerTabs.TURBO));
 
 	public static final DeferredItem<Item> POWER_RUBY = ITEMS.register("power_ruby",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","phantom_ranger","blank",
@@ -93,7 +99,7 @@ public class TurboItems {
 	public static final DeferredItem<Item> SIGNAL_WHISTLE = ITEMS.register("signal_whistle",
 			() -> new RangerChangerItem(ArmorMaterials.DIAMOND, "blue_senturion",BLUE_SENTURION_BADGE,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 	public static final DeferredItem<Item> SIGNAL_WHISTLE_EVIL = ITEMS.register("signal_whistle_evil",
-			() -> new RangerChangerItem(ArmorMaterials.DIAMOND, "blue_senturion_evil",BLUE_SENTURION_BADGE,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
+			() -> new RangerChangerItem(ArmorMaterials.DIAMOND, "blue_senturion_evil",BLUE_SENTURION_BADGE_EVIL,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 	public static final DeferredItem<Item> PHANTOM_RANGER_MODULE = ITEMS.register("phantom_ranger_module",
 		() -> new RangerChangerItem(ArmorMaterials.DIAMOND, "phantom_ranger",POWER_RUBY,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 

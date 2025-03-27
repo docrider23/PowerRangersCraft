@@ -131,6 +131,15 @@
   "item.powerrangerscraft.blue_senturion_badge": "Blue Senturion Badge",
   "item.powerrangerscraft.power_ruby": "Power Ruby",
 
+  "powerrangerscraft:red_turbo_key.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:blue_turbo_key.form": "Ranger: §9Blue Ranger",
+  "powerrangerscraft:green_turbo_key.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft:yellow_turbo_key.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:pink_turbo_key.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:blue_senturion_badge.form": "Extra Hero: §9Blue Senturion",
+  "powerrangerscraft:blue_senturion_badge_evil.form": "Villain: §9Blue Senturion (Evil)",
+  "powerrangerscraft:power_ruby.form": "Extra Hero: §8Phantom Ranger",
+
   "item.powerrangerscraft.auto_blaster": "Auto Blaster",
   "item.powerrangerscraft.turbo_blade": "Turbo Blade",
   "item.powerrangerscraft.turbo_lightning_sword": "Turbo Lightning Sword",
@@ -253,6 +262,15 @@
   "item.powerrangerscraft.ape_animal_crystal":"Ape Animal Crystal",
 
   "item.powerrangerscraft.animarium_buckle": "Animarium Buckle",
+
+  "powerrangerscraft:lion_animal_crystal.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:eagle_animal_crystal.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:shark_animal_crystal.form": "Ranger: §9Blue Ranger",
+  "powerrangerscraft:bison_animal_crystal.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:tiger_animal_crystal.form": "Ranger: White Ranger",
+  "powerrangerscraft:wolf_animal_crystal.form": "Ranger: §7Silver Ranger",
+
+  "powerrangerscraft:animarium_buckle.form": "Ranger: §cRed Savage Warrior",
 
   "item.powerrangerscraft.crystal_saber":"Crystal Saber",
   "item.powerrangerscraft.lion_crystal_saber":"Crystal Saber (Red)",
