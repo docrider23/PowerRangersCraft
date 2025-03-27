@@ -365,6 +365,9 @@ public class DinoFuryItems {
 	public static final DeferredItem<BaseSwordItem> MEGA_FURY_SABER = ITEMS.register("mega_fury_saber",
 			() -> new BaseSwordItem(Tiers.NETHERITE,10,-2.4F, new Item.Properties()).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
 
+	public static final DeferredItem<SwordItem> CORRUPTED_CHROMAFURY_SABER = ITEMS.register("corrputed_chromafury_saber",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
+
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}

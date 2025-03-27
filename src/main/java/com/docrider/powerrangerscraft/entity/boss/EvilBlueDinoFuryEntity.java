@@ -31,7 +31,8 @@ public class EvilBlueDinoFuryEntity extends BaseFootsoldierEntity {
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(DinoFuryItems.DINO_FURY_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(DinoFuryItems.DINO_FURY_LEGGINGS.get()));
         this.setItemSlot(EquipmentSlot.FEET, new ItemStack(DinoFuryItems.CORRUPTED_BLUE_DINO_FURY_MORPHER.get()));
-        this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(CosmicFuryItems.TRICERA_BLASTER.get()));
+        this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(CosmicFuryItems.TRICERA_BLASTER.get()));
+        this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(DinoFuryItems.CORRUPTED_CHROMAFURY_SABER.get()));
     }
 
 
