@@ -138,7 +138,7 @@
   "powerrangerscraft:pink_turbo_key.form": "Ranger: §dPink Ranger",
   "powerrangerscraft:blue_senturion_badge.form": "Extra Hero: §9Blue Senturion",
   "powerrangerscraft:blue_senturion_badge_evil.form": "Villain: §9Blue Senturion (Evil)",
-  "powerrangerscraft:power_ruby.form": "Extra Hero: §8Phantom Ranger",
+  "powerrangerscraft:power_ruby.form": "Ranger: §8Phantom Ranger",
 
   "item.powerrangerscraft.auto_blaster": "Auto Blaster",
   "item.powerrangerscraft.turbo_blade": "Turbo Blade",
@@ -150,7 +150,6 @@
   "item.powerrangerscraft.turbo_navigator": "Turbo Navigator",
   "item.powerrangerscraft.auto_blast_defender": "Auto Blast Defender",
   "item.powerrangerscraft.senturion_synergizer": "Senturion Synergizer",
-  "item.powerrangerscraft.phantom_laser": "Phantom Laser",
 
   //06 In Space
   "item.powerrangerscraft.in_space_logo": "In Space Logo",

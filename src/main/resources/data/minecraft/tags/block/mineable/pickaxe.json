@@ -1,14 +1,14 @@
 {
 	"replace": false,
 	"values": [
-	"powerrangerscraft:deepslate_mecha_ore",
-	"powerrangerscraft:mecha_nether_ore",
-	"powerrangerscraft:animal_crystal_ore",
-	"powerrangerscraft:deepslate_animal_crystal_ore",
-	"powerrangerscraft:power_disc_ore",
-	"powerrangerscraft:deepslate_power_disc_ore",
-	"powerrangerscraft:dino_key_ore",
-	"powerrangerscraft:deepslate_dino_key_ore",
+		"powerrangerscraft:deepslate_mecha_ore",
+		"powerrangerscraft:mecha_nether_ore",
+		"powerrangerscraft:animal_crystal_ore",
+		"powerrangerscraft:deepslate_animal_crystal_ore",
+		"powerrangerscraft:power_disc_ore",
+		"powerrangerscraft:deepslate_power_disc_ore",
+		"powerrangerscraft:dino_key_ore",
+		"powerrangerscraft:deepslate_dino_key_ore",
 		"powerrangerscraft:logo_ore",
 		"powerrangerscraft:deepslate_logo_ore"
 	]

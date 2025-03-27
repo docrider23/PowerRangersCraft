@@ -1,8 +1,8 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "#is_swamp",
+  "biomes": "#c:is_plains",
   "spawners": {
-    "type": "powerrangerscraft:putrids",
+    "type": "powerrangerscraft:chromite",
     "weight": 15,
     "minCount": 3,
     "maxCount": 5

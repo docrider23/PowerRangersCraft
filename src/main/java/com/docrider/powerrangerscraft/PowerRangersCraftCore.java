@@ -16,7 +16,6 @@ import com.docrider.powerrangerscraft.items.lost_galaxy.TransmorpherItem;
 import com.docrider.powerrangerscraft.items.others.BaseBlasterItem;
 import com.docrider.powerrangerscraft.loot.ModLootModifiers;
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -63,7 +62,7 @@ public class PowerRangersCraftCore {
     public PowerRangersCraftCore(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-        //NeoForge.EVENT_BUS.register(new ModCommonEvents.CommonEvents());
+        NeoForge.EVENT_BUS.register(new ModCommonEvents.CommonEvents());
         NeoForge.EVENT_BUS.register(new ModCommonEvents.EventHandler());
 
         // Register ourselves for server and other game events we are interested in.

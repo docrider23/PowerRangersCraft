@@ -1,8 +1,8 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "#is_taiga",
+  "biomes": "#c:is_plains",
   "spawners": {
-    "type": "powerrangerscraft:hengemen",
+    "type": "powerrangerscraft:silver_sentry",
     "weight": 15,
     "minCount": 3,
     "maxCount": 5

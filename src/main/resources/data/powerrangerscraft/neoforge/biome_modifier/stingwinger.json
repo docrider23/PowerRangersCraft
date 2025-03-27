@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_desert",
+  "spawners": {
+    "type": "powerrangerscraft:stingwinger",
+    "weight": 15,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}

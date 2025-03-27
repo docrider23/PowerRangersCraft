@@ -18,6 +18,7 @@ import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
 import com.docrider.powerrangerscraft.entity.MobsCore;
+import net.neoforged.neoforge.event.village.VillagerTradesEvent;
 
 import java.util.Objects;
 
@@ -82,21 +83,13 @@ public class ModCommonEvents {public static class EventHandler {
     }
 }
 
-    /*public static class CommonEvents {
+    public static class CommonEvents {
 
         @SubscribeEvent
         public void addCustomTrades(VillagerTradesEvent event) {
-            if (event.getType() == VillagerProfession.LIBRARIAN) {
-                Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
-                ItemStack stack = new ItemStack(OtherItems.SUPER_SENTAI_BOOK.get(), 1);
-                int villagerLevel = 1;
 
-                trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                        new ItemCost(Items.EMERALD, 2),
-                        stack, 10, 8, 0.02F));
-            }
         }
-    }*/
+    }
 
     @SubscribeEvent
     public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
