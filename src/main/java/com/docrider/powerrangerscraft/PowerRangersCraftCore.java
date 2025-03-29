@@ -187,6 +187,34 @@ public class PowerRangersCraftCore {
                                 if (TransmorpherItem.get_Form_Item(belt, 2).getBeltTex()=="lights_of_orion_belt") return 1;
                                 else return 0;
                             }
+                            /*if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof VSChangerItem) {
+                                if ($itemStack.getItem() == LuPatRangerItems.VS_CHANGER.get()) {
+                                    if (VSChangerItem.get_Form_Item(belt,2).getFormName(false)=="_tricolor") return 7;
+                                    else if (VSChangerItem.get_Form_Item(belt,2).getFormName(false)=="_ugou") return 8;
+                                    else if (VSChangerItem.get_Form_Item(belt,2).getFormName(false)=="lupat_scissor") return 9;
+                                    else if (VSChangerItem.get_Form_Item(belt,2).getFormName(false)=="lupat_crane") return 10;
+                                    else if (VSChangerItem.get_Form_Item(belt,2).getFormName(false)=="lupat_magic") return 11;
+                                    else if (VSChangerItem.get_Form_Item(belt,2).getFormName(false)=="lupat_splash") return 12;
+                                    else if (VSChangerItem.get_Form_Item(belt,2).getFormName(false)=="_super") return 13;
+                                    else if (VSChangerItem.get_Form_Item(belt,2).getFormName(false)=="lupat_siren") return 14;
+                                    else if (VSChangerItem.get_Form_Item(belt,2).getFormName(false)=="lupat_gold") return 15;
+                                    else if (VSChangerItem.get_Form_Item(belt,2).getFormName(false)=="") {
+                                        if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem()==LuPatRangerItems.RED_VS_CHANGER.get()) return 1;
+                                        else if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem()==LuPatRangerItems.BLUE_VS_CHANGER.get()) return 2;
+                                        else if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem()==LuPatRangerItems.YELLOW_VS_CHANGER.get()) return 3;
+                                        else if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem()==LuPatRangerItems.ICHIGOU_VS_CHANGER.get()) return 4;
+                                        else if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem()==LuPatRangerItems.NIGOU_VS_CHANGER.get()) return 5;
+                                        else if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem()==LuPatRangerItems.SANGOU_VS_CHANGER.get()) return 6;
+                                    }
+                                    else return 0;
+                                }
+                            }
+                            if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem()==LuPatRangerItems.LUPAT_X_CHANGER.get()) {
+                                if ($itemStack.getItem() == LuPatRangerItems.X_CHANGER.get()){
+                                    if (RangerChangerItem.get_Form_Item(belt, 1).getBeltTex()=="lupinranger_belt") return 1;
+                                    else return 0;
+                                }
+                            }*/
                         }
                         if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof DinoFuryMorpherItem) {
                             if ($itemStack.getItem() == DinoFuryItems.DINO_KNIGHT_MORPHER.get()) {

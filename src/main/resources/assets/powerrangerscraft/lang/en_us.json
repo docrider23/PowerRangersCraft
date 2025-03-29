@@ -29,10 +29,10 @@
 
   "entity.powerrangerscraft.chromite":"Chromites",
   "entity.powerrangerscraft.piranhatrons": "Piranhatrons",
-  "entity.powerrangerscraft.blue_senturion_evil":"Blue Senturion (Evil)",
+  "entity.powerrangerscraft.blue_senturion_evil":"Reprogrammed Blue Senturion",
   "item.powerrangerscraft.chromite_spawn_egg":"Chromites Spawn Egg",
   "item.powerrangerscraft.piranhatron_spawn_egg": "Piranhatrons Spawn Egg",
-  "item.powerrangerscraft.blue_senturion_evil_spawn_egg":"Blue Senturion (Evil) Spawn Egg",
+  "item.powerrangerscraft.blue_senturion_evil_spawn_egg":"Reprogrammed Blue Senturion Spawn Egg",
 
   "entity.powerrangerscraft.swabbies": "Swabbies",
   "entity.powerrangerscraft.stingwinger": "Stingwingers",
@@ -120,7 +120,7 @@
   "item.powerrangerscraft.yellow_turbo_morpher":"Turbo Morpher (Yellow Ranger)",
   "item.powerrangerscraft.pink_turbo_morpher":"Turbo Morpher (Pink Ranger)",
   "item.powerrangerscraft.signal_whistle": "Signal Whistle",
-  "item.powerrangerscraft.signal_whistle_evil": "Signal Whistle (Blue Senturion Evil)",
+  "item.powerrangerscraft.signal_whistle_evil": "Signal Whistle (Reprogrammed Blue Senturion)",
   "item.powerrangerscraft.phantom_ranger_module": "Phantom Ranger Module",
 
   "item.powerrangerscraft.red_turbo_key":"Red Turbo Key",
@@ -137,7 +137,7 @@
   "powerrangerscraft:yellow_turbo_key.form": "Ranger: §eYellow Ranger",
   "powerrangerscraft:pink_turbo_key.form": "Ranger: §dPink Ranger",
   "powerrangerscraft:blue_senturion_badge.form": "Extra Hero: §9Blue Senturion",
-  "powerrangerscraft:blue_senturion_badge_evil.form": "Villain: §9Blue Senturion (Evil)",
+  "powerrangerscraft:blue_senturion_badge_evil.form": "Villain: §9Reprogrammed Blue Senturion",
   "powerrangerscraft:power_ruby.form": "Ranger: §8Phantom Ranger",
 
   "item.powerrangerscraft.auto_blaster": "Auto Blaster",
