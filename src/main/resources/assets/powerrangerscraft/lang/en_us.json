@@ -675,6 +675,41 @@
   "item.powerrangerscraft.hyperion_bow": "Hyperion Bow",
   "item.powerrangerscraft.hyperion_scythe": "Hyperion Scythe",
   "item.powerrangerscraft.rhea_sword": "Rhea Sword",
+
+  //Starranger
+  "tab.powerrangerscraft.starranger": "Zodiac Sentai Starranger",
+
+  "item.powerrangerscraft.starranger_logo": "Starranger Logo",
+
+  "item.powerrangerscraft.starranger_head": "Starranger Helmet",
+  "item.powerrangerscraft.starranger_torso": "Starranger Chestplate",
+  "item.powerrangerscraft.starranger_legs": "Starranger Leggings",
+
+  "block.powerrangerscraft.end_starranger_ore": "End Starranger Ore",
+
+  "item.powerrangerscraft.red_zodiac_brace": "Zodiac Brace (StarRed/Red Ranger)",
+  "item.powerrangerscraft.blue_zodiac_brace": "Zodiac Brace (StarBlue/Blue Ranger)",
+  "item.powerrangerscraft.green_zodiac_brace": "Zodiac Brace (StarGreen/Green Ranger)",
+  "item.powerrangerscraft.white_zodiac_brace": "Zodiac Brace (StarWhite/White Ranger)",
+  "item.powerrangerscraft.yellow_lightning_brace": "Lightning Brace (StarLightning/Yellow Ranger)",
+  "item.powerrangerscraft.ophiuchus_staff_mastar": "Ophiuchus Staff (ZodiacMaStar/Ophiuchus Ranger)",
+  "item.powerrangerscraft.cosmic_staff_mastar": "Cosmic Staff (CosmicMaStar/Cosmic Master)",
+
+  "item.powerrangerscraft.fire_constellation_card": "Fire Constellation Card",
+  "item.powerrangerscraft.water_constellation_card": "Water Constellation Card",
+  "item.powerrangerscraft.earth_constellation_card": "Earth Consttellation Card",
+  "item.powerrangerscraft.air_constellation_card": "Air Constellation Card",
+  "item.powerrangerscraft.lightning_constellation_card": "Lightning Constellation Card",
+  "item.powerrangerscraft.ophiuchus_constellation_card": "Ophiuchus Constellation Card",
+  "item.powerrangerscraft.cosmic_heart": "Cosmic Heart",
+
+  "powerrangerscraft:fire_constellation_card.form": "Ranger: §cRed Ranger§r/§cStarRed",
+  "powerrangerscraft:water_constellation_card.form": "Ranger: §1Blue Ranger§r/§1StarBlue",
+  "powerrangerscraft:earth_constellation_card.form": "Ranger: §aGreen Ranger§r/§aStarGreen",
+  "powerrangerscraft:air_constellation_card.form": "Ranger: White Ranger/StarWhite",
+  "powerrangerscraft:lightning_constellation_card.form": "Ranger: §eYellow Ranger§r/§eStarLightning",
+  "powerrangerscraft:ophiuchus_constellation_card.form": "Ranger: §3Ophiuchus Ranger§r/§3ZodiacMaStar",
+  "powerrangerscraft:cosmic_heart.form": "God: §1Cosmic Master§r/§1CosmicMaStar",
   
   //Misc
   "tab.powerrangerscraft.misc": "Ranger Items",

@@ -69,6 +69,9 @@ public class RangerTabs {
             CreativeModeTab.builder().icon(() -> new ItemStack(RangerBlocks.LOGO_ORE.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.block")).build());
 
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> StarrangerTab = CREATIVE_MODE_TABS.register("prc999", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(StarrangerItems.STARRANGER_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png")).title(Component.translatable("tab.powerrangerscraft.starranger")).build());
+
     public static List<Item> MMPR= new ArrayList<Item>();
 
     public static List<Item> TURBO = new ArrayList<Item>();
@@ -88,6 +91,8 @@ public class RangerTabs {
     public static List<Item> MISC= new ArrayList<Item>();
 
     public static List<Block> BLOCKS= new ArrayList<Block>();
+
+    public static List<Item> STARRANGER= new ArrayList<Item>();
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
@@ -148,6 +153,13 @@ public class RangerTabs {
             for (int i = 0; i < RangerTabs.HYPERFORCE.size(); i++)
             {
                 event.accept( RangerTabs.HYPERFORCE.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.StarrangerTab.get()) {
+            for (int i = 0; i < RangerTabs.STARRANGER.size(); i++)
+            {
+                event.accept( RangerTabs.STARRANGER.get(i));
             }
 
         }

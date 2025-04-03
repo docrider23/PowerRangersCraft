@@ -99,6 +99,7 @@ public class PowerRangersCraftCore {
         CosmicFuryItems.register(modEventBus);
         HyperforceItems.register(modEventBus);
         //ComicsItems.register(modEventBus);
+        StarrangerItems.register(modEventBus);
 
         RangerBlocks.register(modEventBus);
 
