@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "starranger",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:blank_constellation_card"
+    },
+    {
+      "item": "minecraft:paper",
+      "data": 0
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:starranger_logo"
+  }
+}

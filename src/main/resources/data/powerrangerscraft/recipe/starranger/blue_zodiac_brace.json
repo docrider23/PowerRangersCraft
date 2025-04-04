@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "star_blue",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_constellation_card"
+    },
+	"b": {
+      "item": "powerrangerscraft:water_constellation_card"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:blue_zodiac_brace"
+  }
+}

@@ -685,6 +685,7 @@
   "item.powerrangerscraft.starranger_torso": "Starranger Chestplate",
   "item.powerrangerscraft.starranger_legs": "Starranger Leggings",
 
+  "item.powerrangerscraft.blank_constellation_card": "Blank Constellation Card",
   "block.powerrangerscraft.end_starranger_ore": "End Starranger Ore",
 
   "item.powerrangerscraft.red_zodiac_brace": "Zodiac Brace (StarRed/Red Ranger)",
@@ -692,6 +693,8 @@
   "item.powerrangerscraft.green_zodiac_brace": "Zodiac Brace (StarGreen/Green Ranger)",
   "item.powerrangerscraft.white_zodiac_brace": "Zodiac Brace (StarWhite/White Ranger)",
   "item.powerrangerscraft.yellow_lightning_brace": "Lightning Brace (StarLightning/Yellow Ranger)",
+  //"item.powerrangerscraft.cosmo_saber_gold": "Cosmo Saber (TaiyouGold/Gold Ranger),
+  //"item.powerrangerscraft.cosmo_buster_silver": "Cosmo Buster (TsukiSilver/Silver Ranger),
   "item.powerrangerscraft.ophiuchus_staff_mastar": "Ophiuchus Staff (ZodiacMaStar/Ophiuchus Ranger)",
   "item.powerrangerscraft.cosmic_staff_mastar": "Cosmic Staff (CosmicMaStar/Cosmic Master)",
 
@@ -700,6 +703,8 @@
   "item.powerrangerscraft.earth_constellation_card": "Earth Consttellation Card",
   "item.powerrangerscraft.air_constellation_card": "Air Constellation Card",
   "item.powerrangerscraft.lightning_constellation_card": "Lightning Constellation Card",
+  //"item.powerrangerscraft.solar_constellation_card": "Solar Constellation Card",
+  //"item.powerrangerscraft.lunar_constellation_card": "Lunar Constellation Card",
   "item.powerrangerscraft.ophiuchus_constellation_card": "Ophiuchus Constellation Card",
   "item.powerrangerscraft.cosmic_heart": "Cosmic Heart",
 
@@ -708,6 +713,8 @@
   "powerrangerscraft:earth_constellation_card.form": "Ranger: §aGreen Ranger§r/§aStarGreen",
   "powerrangerscraft:air_constellation_card.form": "Ranger: White Ranger/StarWhite",
   "powerrangerscraft:lightning_constellation_card.form": "Ranger: §eYellow Ranger§r/§eStarLightning",
+  //"powerrangerscraft:solar_constellation_card.form": "Ranger: §6Gold Ranger§r/§6TaiyouGold",
+  //"powerrangerscraft:lunar_constellation_card.form": "Ranger: §7Silver Ranger§r/§7TsukiSilver",
   "powerrangerscraft:ophiuchus_constellation_card.form": "Ranger: §3Ophiuchus Ranger§r/§3ZodiacMaStar",
   "powerrangerscraft:cosmic_heart.form": "God: §1Cosmic Master§r/§1CosmicMaStar",
   

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "starranger",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_constellation_card"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:starranger_head"
+  }
+}
