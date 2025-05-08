@@ -105,6 +105,8 @@
   //04 Zeo
   "item.powerrangerscraft.zeo_logo": "Zeo Logo",
 
+  "item.powerrangerscraft.yellow_zeo_sub_crystal": "Yellow Zeo Sub-Crystal",
+
   //05 Turbo
   "tab.powerrangerscraft.turbo": "Turbo",
 
@@ -153,6 +155,8 @@
 
   //06 In Space
   "item.powerrangerscraft.in_space_logo": "In Space Logo",
+
+  "item.powerrangerscraft.red_space_disk": "Red Space Disk",
 
   //07 Lost Galaxy
   "tab.powerrangerscraft.lost_galaxy": "Lost Galaxy",
@@ -322,6 +326,8 @@
   //11 Ninja Storm
   "item.powerrangerscraft.ninja_storm_logo": "Ninja Storm Logo",
 
+  "item.powerrangerscraft.green_samurai_ninja_disk": "Green Samurai Ninja Disk",
+
   //12 Dino Thunder
   "item.powerrangerscraft.dino_thunder_logo": "Dino Thunder Logo",
 
@@ -448,9 +454,25 @@
   "item.powerrangerscraft.super_megaforce_logo": "Super Megaforce Logo",
 
   //22-23 Dino Charge/Dino Supercharge
+  "tab.powerrangerscraft.dino_charge": "Dino (Super)Charge",
+
   "item.powerrangerscraft.dino_charge_logo": "Dino Charge Logo",
 
+  "item.powerrangerscraft.dino_charge_head": "Dino Charge Helmet",
+  "item.powerrangerscraft.dino_charge_torso": "Dino Charge Chestplate",
+  "item.powerrangerscraft.dino_charge_legs": "Dino Charge Leggings",
+
+  "item.powerrangerscraft.dark_spino_boomerang": "Spino Boomerang (Dark Ranger)",
+
+  "item.powerrangerscraft.spinosaurus_dino_charger": "Spinosaurus Dino Charger",
+
+  "powerrangerscraft:spinosaurus_dino_charger.form": "Ranger: §1Dark Ranger",
+
+  "item.powerrangerscraft.spino_boomerang": "Spino Boomerang",
+
   //24-25 Ninja Steel
+  "tab.powerrangerscraft.ninja_steel": "(Super) Ninja Steel",
+
   "item.powerrangerscraft.ninja_steel_logo": "Ninja Steel Logo",
 
   //26-27 Beast Morphers
@@ -676,7 +698,7 @@
   "item.powerrangerscraft.hyperion_scythe": "Hyperion Scythe",
   "item.powerrangerscraft.rhea_sword": "Rhea Sword",
 
-  //Starranger
+  //EX Starranger
   "tab.powerrangerscraft.starranger": "Zodiac Sentai Starranger",
 
   "item.powerrangerscraft.starranger_logo": "Starranger Logo",
@@ -717,6 +739,47 @@
   //"powerrangerscraft:lunar_constellation_card.form": "Ranger: §7Silver Ranger§r/§7TsukiSilver",
   "powerrangerscraft:ophiuchus_constellation_card.form": "Ranger: §3Ophiuchus Ranger§r/§3ZodiacMaStar",
   "powerrangerscraft:cosmic_heart.form": "God: §1Cosmic Master§r/§1CosmicMaStar",
+
+  //EX Comics
+  "tab.powerrangerscraft.comics": "Comic-Exclusive Ranger Teams",
+
+  //EX Comics: Shattered Grid
+  "item.powerrangerscraft.ranger_slayer_power_coin": "Ranger Slayer Power Coin",
+
+  //EX Comics: Solar Rangers
+  "item.powerrangerscraft.solar_logo": "Solar Ranger Logo",
+
+  "item.powerrangerscraft.solar_head": "Solar Ranger Helmet",
+  "item.powerrangerscraft.solar_torso": "Solar Ranger Chestplate",
+  "item.powerrangerscraft.solar_legs": "Solar Ranger Leggings",
+
+  "item.powerrangerscraft.blank_solar_crystal": "Blank Solar Crystal",
+
+  "item.powerrangerscraft.purple_solarix": "Solarix Glove (Purple Ranger)",
+  "item.powerrangerscraft.orange_solarix": "Solarix Glove (Orange Ranger)",
+  "item.powerrangerscraft.red_solarix": "Solarix Glove (Red Ranger)",
+  "item.powerrangerscraft.black_solarix": "Solarix Glove (Black Ranger)",
+  "item.powerrangerscraft.blue_solarix": "Solarix Glove (Blue Ranger)",
+  "item.powerrangerscraft.yellow_solarix": "Solarix Glove (Yellow Ranger)",
+  "item.powerrangerscraft.green_solarix": "Solarix Glove (Green Ranger)",
+  "item.powerrangerscraft.pink_solarix": "Solarix Glove (Pink Ranger)",
+
+  "item.powerrangerscraft.purple_solar_crystal": "Purple Solar Crystal",
+  "item.powerrangerscraft.orange_solar_crystal": "Orange Solar Crystal",
+
+  "powerrangerscraft:purple_solar_crystal.form": "Ranger: §5Purple Ranger",
+  "powerrangerscraft:orange_solar_crystal.form": "Ranger: §6Orange Ranger",
+  "powerrangerscraft:red_space_disk.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:magna_defender_core_solar.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:spinosaurus_dino_charger_solar.form": "Ranger: §1Blue Ranger",
+  "powerrangerscraft:yellow_zeo_sub_crystal.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:green_samurai_ninja_disk.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft:ranger_slayer_power_coin.form": "Ranger: §dPink Ranger",
+
+  "item.powerrangerscraft.solar_chakram": "Solar Chakram",
+
+  //EX 2017 Reboot
+  "tab.powerrangerscraft.reboot": "Power Rangers (2017)",
   
   //Misc
   "tab.powerrangerscraft.misc": "Ranger Items",

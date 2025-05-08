@@ -75,14 +75,14 @@ public class PowerRangersCraftCore {
 
         MMPRItems.register(modEventBus);
         //AlienItems.register(modEventBus);
-        //ZeoItems.register(modEventBus);
+        ZeoItems.register(modEventBus);
         TurboItems.register(modEventBus);
-        //InSpaceItems.register(modEventBus);
+        InSpaceItems.register(modEventBus);
         LostGalaxyItems.register(modEventBus);
         //LightspeedRescueItems.register(modEventBus);
         //TimeForceItems.register(modEventBus);
         WildForceItems.register(modEventBus);
-        //NinjaStormItems.register(modEventBus);
+        NinjaStormItems.register(modEventBus);
         //DinoThunderItems.register(modEventBus);
         //SPDItems.register(modEventBus);
         //MysticForceItems.register(modEventBus);
@@ -92,13 +92,14 @@ public class PowerRangersCraftCore {
         SamuraiItems.register(modEventBus);
         //MegaforceItems.register(modEventBus);
         //SuperMegaforceItems.register(modEventBus);
-        //DinoChargeItems.register(modEventBus);
-        //NinjaSteelItems.register(modEventBus);
+        DinoChargeItems.register(modEventBus);
+        NinjaSteelItems.register(modEventBus);
         //BeastMorphersItems.register(modEventBus);
         DinoFuryItems.register(modEventBus);
         CosmicFuryItems.register(modEventBus);
         HyperforceItems.register(modEventBus);
-        //ComicsItems.register(modEventBus);
+        ComicsItems.register(modEventBus);
+        RebootItems.register(modEventBus);
         StarrangerItems.register(modEventBus);
 
         RangerBlocks.register(modEventBus);

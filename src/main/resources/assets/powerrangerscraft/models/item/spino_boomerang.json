@@ -1,0 +1,17 @@
+{
+  "_comment": "Generated using MiningMark48's JSON Generator.",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "powerrangerscraft:item/spino_boomerang"
+  },
+    "overrides": [
+       
+        {
+            "predicate": {
+                "pull": 1
+            },
+            "model": "powerrangerscraft:item/spino_boomerang_boomerang"
+        }
+    ]
+  }
+}

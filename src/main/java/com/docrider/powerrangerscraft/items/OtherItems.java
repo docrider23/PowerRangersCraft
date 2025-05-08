@@ -35,19 +35,10 @@ public class OtherItems {
     public static final DeferredItem<Item> ALIEN_LOGO = ITEMS.register("alien_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
-    public static final DeferredItem<Item> ZEO_LOGO = ITEMS.register("zeo_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> IN_SPACE_LOGO = ITEMS.register("in_space_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
     public static final DeferredItem<Item> LIGHTSPEED_RESCUE_LOGO = ITEMS.register("lightspeed_rescue_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> TIME_FORCE_LOGO = ITEMS.register("time_force_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> NINJA_STORM_LOGO = ITEMS.register("ninja_storm_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> DINO_THUNDER_LOGO = ITEMS.register("dino_thunder_logo",
@@ -72,12 +63,6 @@ public class OtherItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> SUPER_MEGAFORCE_LOGO = ITEMS.register("super_megaforce_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> DINO_CHARGE_LOGO = ITEMS.register("dino_charge_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> NINJA_STEEL_LOGO = ITEMS.register("ninja_steel_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> BEAST_MORPHERS_LOGO = ITEMS.register("beast_morphers_logo",
