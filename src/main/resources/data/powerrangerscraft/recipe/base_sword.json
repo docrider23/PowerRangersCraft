@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "powerrangerscraft:power_rangers_logo"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "L",
+    "L",
+    "I"
+  ],
+  "result": {
+    "id": "powerrangerscraft:base_sword"
+  }
+}

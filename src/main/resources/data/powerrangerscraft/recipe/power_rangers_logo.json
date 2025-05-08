@@ -1,16 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "power_rangers",
-  "ingredients": [
-	{
-      "item": "powerrangerscraft:mecha_gear"
-    },
-	{
-      "item": "minecraft:paper",
-	  "data": 0
-    }
-  ],
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "powerrangerscraft:blanks"
+  },
   "result": {
     "id": "powerrangerscraft:power_rangers_logo"
-  }
+  },
+  "experience": 5,
+  "cookingtime": 200
 }

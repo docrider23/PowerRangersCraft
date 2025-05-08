@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "star_white",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:air_staff_chuck_mode"
+    },
+    {
+      "item": "powerrangerscraft:air_staff_chuck_mode"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:air_staff"
+  }
+}

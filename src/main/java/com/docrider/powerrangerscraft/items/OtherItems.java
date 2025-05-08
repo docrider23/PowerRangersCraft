@@ -18,7 +18,13 @@ public class OtherItems {
     public static String[] SentaiRobo = new String[] {"wild_force_megazord","kongazord","predazord","predazord_blue_moon",
             "isis_megazord","animus","ultimus_megazord"};
 
+    public static final DeferredItem<Item> BASE_SWORD = ITEMS.register("base_sword",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
+
     public static final DeferredItem<Item> MECHA_GEAR = ITEMS.register("mecha_gear",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
+
+    public static final DeferredItem<Item> BASE_MECHA_SWORD = ITEMS.register("base_mecha_sword",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> TRANSPORTAL_DEVICE = ITEMS.register("transportal_device",

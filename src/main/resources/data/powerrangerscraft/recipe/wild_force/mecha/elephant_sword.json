@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "group": "ultimus_megazord",
   "pattern": [
-    "ama",
+    "aaa",
     "aba",
 	"aca"
   ],
@@ -14,10 +14,7 @@
       "item": "powerrangerscraft:elephant_animal_crystal"
     },
 	"c": {
-      "item": "minecraft:diamond_sword"
-    },
-	"m": {
-      "item": "powerrangerscraft:mecha_gear"
+      "item": "powerrangerscraft:base_mecha_sword"
     }
   },
   "result": {

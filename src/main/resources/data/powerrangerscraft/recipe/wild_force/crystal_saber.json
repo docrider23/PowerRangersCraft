@@ -11,7 +11,7 @@
       "item": "powerrangerscraft:empty_animal_crystal"
     },
 	"b": {
-	  "item": "minecraft:iron_sword"
+	  "item": "powerrangerscraft:base_sword"
     }
   },
   "result": {

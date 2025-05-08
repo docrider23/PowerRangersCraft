@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "group": "wild_force_megazord",
   "pattern": [
-    "ama",
+    "aaa",
     "aba",
 	"aca"
   ],
@@ -13,11 +13,8 @@
 	"b": {
       "item": "powerrangerscraft:shark_animal_crystal"
     },
-	"c": {
-      "item": "minecraft:diamond_sword"
-    },
-	"m": {
-      "item": "powerrangerscraft:mecha_gear"
+    "c": {
+      "item": "powerrangerscraft:base_mecha_sword"
     }
   },
   "result": {
