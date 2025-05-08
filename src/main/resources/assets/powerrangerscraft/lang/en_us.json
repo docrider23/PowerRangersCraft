@@ -740,6 +740,16 @@
   "powerrangerscraft:ophiuchus_constellation_card.form": "Ranger: §3Ophiuchus Ranger§r/§3ZodiacMaStar",
   "powerrangerscraft:cosmic_heart.form": "God: §1Cosmic Master§r/§1CosmicMaStar",
 
+  "item.powerrangerscraft.flame_sword": "Flame Sword",
+  "item.powerrangerscraft.water_bow": "Water Bow",
+  "item.powerrangerscraft.earth_axe": "Earth Axe",
+  "item.powerrangerscraft.air_staff": "Air Staff",
+  "item.powerrangerscraft.air_staff_chuck_mode": "Air Staff: Nunchuck Mode",
+  //"item.powerrangerscraft.cosmo_saber": "Cosmo Saber",
+  //"item.powerrangerscraft.cosmo_buster": "Cosmo Buster",
+  "item.powerrangerscraft.ophiuchus_staff": "Ophiuchus Staff",
+  "item.powerrangerscraft.cosmic_staff": "Cosmic Staff",
+
   //EX Comics
   "tab.powerrangerscraft.comics": "Comic-Exclusive Ranger Teams",
 
@@ -776,7 +786,14 @@
   "powerrangerscraft:green_samurai_ninja_disk.form": "Ranger: §aGreen Ranger",
   "powerrangerscraft:ranger_slayer_power_coin.form": "Ranger: §dPink Ranger",
 
-  "item.powerrangerscraft.solar_chakram": "Solar Chakram",
+  "item.powerrangerscraft.solar_chakram": "Void Chakram",
+  "item.powerrangerscraft.solar_baton": "Solar Baton",
+  "item.powerrangerscraft.solar_sword": "Solar Sword",
+  "item.powerrangerscraft.solar_greatsword": "Solar Greatsword",
+  "item.powerrangerscraft.solar_katana": "Solar Katana",
+  "item.powerrangerscraft.solar_energy_boomerang": "Solar Energy Boomerang",
+  "item.powerrangerscraft.solar_energy_bow": "Solar Energy Bow",
+  "item.powerrangerscraft.solar_chuks": "Solar Chuks",
 
   //EX 2017 Reboot
   "tab.powerrangerscraft.reboot": "Power Rangers (2017)",

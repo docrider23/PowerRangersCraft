@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "solar_pink",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_solar_crystal"
+    },
+    "b": {
+      "item": "powerrangerscraft:ranger_slayer_power_coin"
+    },
+    "c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:solar_energy_bow"
+  }
+}

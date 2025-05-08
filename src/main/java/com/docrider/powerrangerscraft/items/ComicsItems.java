@@ -2,10 +2,7 @@ package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.items.others.*;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterials;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Tiers;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -58,9 +55,26 @@ public class ComicsItems {
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_pink", RANGER_SLAYER_POWER_COIN, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
 
     public static final DeferredItem<BaseSwordItem> SOLAR_CHAKRAM = ITEMS.register("solar_chakram",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+    public static final DeferredItem<BaseSwordItem> SOLAR_BATON = ITEMS.register("solar_baton",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 7, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+    public static final DeferredItem<BaseSwordItem> SOLAR_SWORD = ITEMS.register("solar_sword",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+    public static final DeferredItem<BaseSwordItem> SOLAR_GREATSWORD = ITEMS.register("solar_greatsword",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+    public static final DeferredItem<BaseSwordItem> SOLAR_KATANA = ITEMS.register("solar_katana",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+    public static final DeferredItem<SwordItem> SOLAR_ENERGY_BOOMERANG = ITEMS.register("solar_energy_boomerang",
+            () -> new BaseThrowableItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+    public static final DeferredItem<BaseBlasterItem> SOLAR_ENERGY_BOW = ITEMS.register("solar_energy_bow",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+    public static final DeferredItem<BaseSwordItem> SOLAR_CHUKS = ITEMS.register("solar_chuks",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+
+    //Omega Rangers
 
 
+    //Prime Rangers
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

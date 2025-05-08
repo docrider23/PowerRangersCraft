@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "powerrangerscraft:item/solar_energy_boomerang"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-71.5, -90, 0],
+			"translation": [0, 4.5, 0.75],
+			"scale": [1.25, 1.25, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-71.5, 90, 0],
+			"translation": [0, 4.5, 0.75],
+			"scale": [1.25, 1.25, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [113.25, 90, 0],
+			"translation": [0, 4.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [113.25, -90, 0],
+			"translation": [0, 4.25, 0]
+		}
+	}
+}

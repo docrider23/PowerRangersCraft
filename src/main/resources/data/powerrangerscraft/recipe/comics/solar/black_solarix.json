@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "solar_black",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_solar_crystal"
+    },
+	"b": {
+      "item": "powerrangerscraft:magna_defender_core"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:black_solarix"
+  }
+}

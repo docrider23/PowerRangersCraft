@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "solar",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:blank_solar_crystal"
+    },
+	{
+      "item": "minecraft:paper",
+	  "data": 0
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:solar_logo"
+  }
+}

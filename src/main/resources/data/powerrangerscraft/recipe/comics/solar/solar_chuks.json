@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "solar_yellow",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_solar_crystal"
+    },
+    "b": {
+      "item": "powerrangerscraft:yellow_zeo_sub_crystal"
+    },
+    "c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:solar_chuks"
+  }
+}

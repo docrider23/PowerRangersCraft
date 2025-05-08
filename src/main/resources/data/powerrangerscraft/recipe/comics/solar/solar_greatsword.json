@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "solar_black",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_solar_crystal"
+    },
+    "b": {
+      "item": "powerrangerscraft:magna_defender_core"
+    },
+    "c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:solar_greatsword"
+  }
+}

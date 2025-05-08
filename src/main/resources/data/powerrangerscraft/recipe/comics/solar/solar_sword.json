@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "solar_red",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_solar_crystal"
+    },
+    "b": {
+      "item": "powerrangerscraft:red_space_disk"
+    },
+    "c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:solar_sword"
+  }
+}
