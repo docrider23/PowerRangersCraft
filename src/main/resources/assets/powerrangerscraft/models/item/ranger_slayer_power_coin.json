@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "powerrangerscraft:item/ranger_slayer_power_coin"
+  }
+}

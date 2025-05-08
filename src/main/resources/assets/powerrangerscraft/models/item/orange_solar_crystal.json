@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "powerrangerscraft:item/orange_solar_crystal"
+  }
+}

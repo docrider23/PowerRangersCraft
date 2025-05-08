@@ -61,14 +61,21 @@ public class LostGalaxyItems {
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
 			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
-    
+
+	public static final DeferredItem<Item> MAGNA_DEFENDER_CORE_SOLAR = ITEMS.register("magna_defender_core_solar",
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_black","blank",
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+					new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false)));
+
 	public static final DeferredItem<Item> MAGNA_DEFENDER_CORE = ITEMS.register("magna_defender_core",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","magna_defender","magna_defender_belt",
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
-            .ChangeModel("geo/magna_defender.geo.json").ChangeBeltModel("geo/magna_defender_belt.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
+					.addAlternative(MAGNA_DEFENDER_CORE_SOLAR.get()).ChangeModel("geo/magna_defender.geo.json").ChangeBeltModel("geo/magna_defender_belt.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
     
     public static final DeferredItem<Item> LIGHTS_OF_ORION = ITEMS.register("lights_of_orion",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_lights_of_orion","galaxy_red","lights_of_orion_belt",

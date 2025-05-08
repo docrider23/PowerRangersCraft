@@ -16,24 +16,24 @@ public class MMPRItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> TYRANNOSAURUS_POWER_COIN = ITEMS.register("tyrannosaurus_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_red","mmpr_belt")
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MMPR));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_red","mmpr_red_belt")
+                    .AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> MASTODON_POWER_COIN = ITEMS.register("mastodon_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_black","mmpr_belt")
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MMPR));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_black","mmpr_black_belt")
+                    .AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> TRICERATOPS_POWER_COIN = ITEMS.register("triceratops_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_blue","mmpr_belt")
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MMPR));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_blue","mmpr_blue_belt")
+                    .AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> SABERTOOTH_TIGER_POWER_COIN = ITEMS.register("sabertooth_tiger_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_yellow","mmpr_belt")
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MMPR));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_yellow","mmpr_yellow_belt")
+                    .AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> PTERADACTYL_POWER_COIN = ITEMS.register("pteradactyl_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_pink","mmpr_belt")
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MMPR));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_pink","mmpr_pink_belt")
+                    .AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> MMPR_HELMET = ITEMS.register("mmpr_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
