@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "powerrangerscraft:item/reboot_yellow_power_morpher"
+  }
+}
