@@ -230,6 +230,7 @@ public class RangerTabs {
             event.accept(MobsCore.SILVER_SENTRY_SPAWN_EGG);
 
             event.accept(OtherItems.GO_GO_POWER_RANGERS_MUSIC_DISC);
+            event.accept(OtherItems.GO_GO_ALIEN_RANGERS_MUSIC_DISC);
 
             for (int i = 0; i < RangerTabs.MISC.size(); i++)
             {

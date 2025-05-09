@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "powerrangerscraft:item/go_go_alien_rangers_music_disc"
+	}
+}

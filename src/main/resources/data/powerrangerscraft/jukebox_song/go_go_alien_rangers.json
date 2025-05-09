@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.powerrangerscraft.go_go_alien_rangers.desc"
+  },
+  "length_in_seconds": 62.0,
+  "sound_event": "powerrangerscraft:go_go_alien_rangers"
+}

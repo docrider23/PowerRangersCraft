@@ -6,5 +6,13 @@
         "stream": true
       }
     ]
+  },
+  "go_go_alien_rangers": {
+    "sounds": [
+      {
+        "name": "powerrangerscraft:go_go_alien_rangers",
+        "stream": true
+      }
+    ]
   }
 }

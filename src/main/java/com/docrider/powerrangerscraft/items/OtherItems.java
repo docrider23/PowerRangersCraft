@@ -77,6 +77,9 @@ public class OtherItems {
     public static final DeferredItem<Item> GO_GO_POWER_RANGERS_MUSIC_DISC = ITEMS.register("go_go_power_rangers_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.GO_GO_POWER_RANGERS_KEY).stacksTo(1)));
 
+    public static final DeferredItem<Item> GO_GO_ALIEN_RANGERS_MUSIC_DISC = ITEMS.register("go_go_alien_rangers_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.GO_GO_ALIEN_RANGERS_KEY).stacksTo(1)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

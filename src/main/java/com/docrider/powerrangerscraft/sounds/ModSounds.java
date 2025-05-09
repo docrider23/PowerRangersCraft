@@ -19,6 +19,9 @@ public class ModSounds {
     public static final Supplier<SoundEvent> GO_GO_POWER_RANGERS = registerSoundEvent("go_go_power_rangers");
     public static final ResourceKey<JukeboxSong> GO_GO_POWER_RANGERS_KEY = createSong("go_go_power_rangers");
 
+    public static final Supplier<SoundEvent> GO_GO_ALIEN_RANGERS = registerSoundEvent("go_go_alien_rangers");
+    public static final ResourceKey<JukeboxSong> GO_GO_ALIEN_RANGERS_KEY = createSong("go_go_alien_rangers");
+
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, name));
     }
