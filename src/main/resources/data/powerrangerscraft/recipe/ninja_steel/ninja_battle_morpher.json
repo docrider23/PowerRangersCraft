@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ninja_steel",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:ninja_steel_logo"
+    },
+	"b": {
+	    "item": "powerrangerscraft:red_ninja_power_star_silver"
+	  },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:ninja_battle_morpher"
+  }
+}

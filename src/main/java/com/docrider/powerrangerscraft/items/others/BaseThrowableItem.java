@@ -8,6 +8,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
@@ -17,6 +18,7 @@ import java.util.List;
 public class BaseThrowableItem extends SwordItem {
 
 	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+	private Item Changer = null;
 	private boolean Shuriken = false;
 	  
 	public BaseThrowableItem(Tier toolTier, int Atk, float Spd, Properties prop) {
@@ -28,9 +30,13 @@ public class BaseThrowableItem extends SwordItem {
 		ItemStack itemstack = pPlayer.getItemInHand(pUsedHand);
 		pLevel.playSound((Player)null, pPlayer.getX(), pPlayer.getY(), pPlayer.getZ(), 
 				SoundEvents.SNOWBALL_THROW, SoundSource.NEUTRAL, 0.5F, 0.4F / (pLevel.getRandom().nextFloat() * 0.4F + 0.8F));
-		
+
 		if (!pLevel.isClientSide) {
-			if (Shuriken)
+			if (Changer != null && pPlayer.getItemBySlot(EquipmentSlot.FEET)==ItemStack.EMPTY) {
+				pPlayer.setItemSlot(EquipmentSlot.FEET, new ItemStack(Changer));
+				if (pPlayer.getItemBySlot(EquipmentSlot.OFFHAND).getItem() instanceof RangerFormChangeItem formItem) formItem.use(pLevel, pPlayer, InteractionHand.OFF_HAND);
+			}
+			else if (Shuriken)
 			{
 				ShurikenProjectileEntity shuriken = new ShurikenProjectileEntity(pLevel, pPlayer);
 				shuriken.setItem(itemstack);
@@ -70,6 +76,11 @@ public class BaseThrowableItem extends SwordItem {
 	
 	public BaseThrowableItem IsShuriken() {
 		Shuriken=true;
+		return this;
+	}
+
+	public BaseThrowableItem isChanger(Item item) {
+		Changer=item;
 		return this;
 	}
 }

@@ -51,6 +51,10 @@ public class RangerTabs {
             CreativeModeTab.builder().icon(() -> new ItemStack(DinoChargeItems.DINO_CHARGE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_dino_charge_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.dino_charge")).build());
 
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> NinjaSteelTab = CREATIVE_MODE_TABS.register("prc023", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(NinjaSteelItems.NINJA_STEEL_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_ninja_steel_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.ninja_steel")).build());
+
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> DinoFuryTab = CREATIVE_MODE_TABS.register("prc028", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(DinoFuryItems.DINO_FURY_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_dino_fury_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.dino_fury")).build());
@@ -97,6 +101,8 @@ public class RangerTabs {
     public static List<Item> SAMURAI= new ArrayList<Item>();
 
     public static List<Item> DINO_CHARGE= new ArrayList<Item>();
+
+    public static List<Item> NINJA_STEEL= new ArrayList<Item>();
 
     public static List<Item> DINO_FURY= new ArrayList<Item>();
 
@@ -159,6 +165,13 @@ public class RangerTabs {
             for (int i = 0; i < RangerTabs.DINO_CHARGE.size(); i++)
             {
                 event.accept( RangerTabs.DINO_CHARGE.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.NinjaSteelTab.get()) {
+            for (int i = 0; i < RangerTabs.NINJA_STEEL.size(); i++)
+            {
+                event.accept( RangerTabs.NINJA_STEEL.get(i));
             }
 
         }

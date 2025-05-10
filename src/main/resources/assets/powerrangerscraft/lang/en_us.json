@@ -96,6 +96,12 @@
   "item.powerrangerscraft.triceratops_power_coin":"Triceratops Power Coin",
   "item.powerrangerscraft.sabertooth_tiger_power_coin":"Sabertooth Tiger Power Coin",
   "item.powerrangerscraft.pteradactyl_power_coin":"Pteradactyl Power Coin",
+
+  "powerrangerscraft:tyrannosaurus_power_coin.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:mastodon_power_coin.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:triceratops_power_coin.form": "Ranger: §1Blue Ranger",
+  "powerrangerscraft:sabertooth_tiger_power_coin.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:pteradactyl_power_coin.form": "Ranger: §dPink Ranger",
   
   "item.powerrangerscraft.blade_blaster": "Blade Blaster",
 
@@ -475,6 +481,21 @@
 
   "item.powerrangerscraft.ninja_steel_logo": "Ninja Steel Logo",
 
+  "item.powerrangerscraft.ninja_steel_head": "Ninja Steel Helmet",
+  "item.powerrangerscraft.ninja_steel_torso": "Ninja Steel Chestplate",
+  "item.powerrangerscraft.ninja_steel_legs": "Ninja Steel Leggings",
+
+  "item.powerrangerscraft.red_ninja_battle_morpher": "Ninja Battle Morpher (Red Ranger)",
+  "item.powerrangerscraft.red_silver_ninja_battle_morpher": "Ninja Battle Morpher (Red Ranger w/ Silver Sash)",
+
+  "item.powerrangerscraft.red_ninja_power_star": "Red Ninja Power Star",
+  "item.powerrangerscraft.red_ninja_power_star_silver": "Red Ninja Power Star (Silver Sash Version)",
+
+  "powerrangerscraft:red_ninja_power_star.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:red_ninja_power_star_silver.form": "Ranger: §cRed Ranger§r w/ §7Silver Sash",
+
+  "item.powerrangerscraft.ninja_battle_morpher": "Ninja Battle Morpher",
+
   //26-27 Beast Morphers
   "item.powerrangerscraft.beast_morphers_logo": "Beast Morphers Logo",
 
@@ -797,10 +818,42 @@
 
   //EX 2017 Reboot
   "tab.powerrangerscraft.reboot": "Power Rangers (2017)",
+
+  "item.powerrangerscraft.reboot_logo": "Power Rangers (2017) Logo",
+
+  "item.powerrangerscraft.reboot_head": "2017 Ranger Helmet",
+  "item.powerrangerscraft.reboot_torso": "2017 Ranger Chestplate",
+  "item.powerrangerscraft.reboot_legs": "2017 Ranger Leggings",
+
+  "item.powerrangerscraft.reboot_red_power_morpher":"Power Morpher (2017) (Red Ranger)",
+  "item.powerrangerscraft.reboot_black_power_morpher":"Power Morpher (2017) (Black Ranger)",
+  "item.powerrangerscraft.reboot_blue_power_morpher":"Power Morpher (2017) (Blue Ranger)",
+  "item.powerrangerscraft.reboot_yellow_power_morpher":"Power Morpher (2017) (Yellow Ranger)",
+  "item.powerrangerscraft.reboot_pink_power_morpher":"Power Morpher (2017) (Pink Ranger)",
+  "item.powerrangerscraft.reboot_green_power_morpher":"Power Morpher (2017) (Green Ranger)",
+
+  "item.powerrangerscraft.reboot_red_power_coin":"Red Power Coin (2017)",
+  "item.powerrangerscraft.reboot_black_power_coin":"Black Power Coin (2017)",
+  "item.powerrangerscraft.reboot_blue_power_coin":"Blue Power Coin (2017)",
+  "item.powerrangerscraft.reboot_yellow_power_coin":"Yellow Power Coin (2017)",
+  "item.powerrangerscraft.reboot_pink_power_coin":"Pink Power Coin (2017)",
+  "item.powerrangerscraft.reboot_green_power_coin":"Green Power Coin (2017)",
+
+  "powerrangerscraft:reboot_red_power_coin.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:reboot_black_power_coin.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:reboot_blue_power_coin.form": "Ranger: §1Blue Ranger",
+  "powerrangerscraft:reboot_yellow_power_coin.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:reboot_pink_power_coin.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:reboot_green_power_coin.form": "Ranger: §aGreen Ranger",
+
+  "item.powerrangerscraft.reboot_power_sword": "Power Sword (2017)",
   
   //Misc
   "tab.powerrangerscraft.misc": "Ranger Items",
   "tab.powerrangerscraft.block": "Ranger Blocks",
+
+  "item.powerrangerscraft.base_sword": "Base Weapon",
+  "item.powerrangerscraft:base_mecha_sword": "Base Mecha Weapon",
 
   "item.powerrangerscraft.mecha_gear":"Mecha Gear",
   "block.powerrangerscraft.mecha_nether_ore":"Mecha Nether Ore",

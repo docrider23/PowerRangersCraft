@@ -1,10 +1,13 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.BaseItem;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -55,7 +58,15 @@ public class StarrangerItems {
                     .AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> COSMIC_HEART = ITEMS.register("cosmic_heart",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_mastar","starranger_mastar_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_mastar","starranger_mastar_belt",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false),
+                    new MobEffectInstance(EffectCore.SLASH, 40, 4,true,false),
+                    new MobEffectInstance(EffectCore.FLYING, 40, 5,true,false),
+                    new MobEffectInstance(EffectCore.FROSTWALKER, 40, 5,true,false))
                     .AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> STARRANGER_HELMET = ITEMS.register("starranger_head",

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ninja_steel",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:ninja_steel_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:ninja_steel_torso"
+  }
+}

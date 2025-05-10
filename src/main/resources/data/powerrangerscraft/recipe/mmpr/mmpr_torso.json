@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mmpr",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:mmpr_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:mmpr_torso"
+  }
+}

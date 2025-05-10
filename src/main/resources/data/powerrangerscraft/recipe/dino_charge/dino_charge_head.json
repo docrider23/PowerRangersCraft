@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_charge",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:dino_charge_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:dino_charge_head"
+  }
+}

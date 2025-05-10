@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_charge_dark",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:dino_charge_logo"
+    },
+	"b": {
+	    "item": "powerrangerscraft:spinosaurus_dino_charger"
+	  },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:spino_boomerang"
+  }
+}

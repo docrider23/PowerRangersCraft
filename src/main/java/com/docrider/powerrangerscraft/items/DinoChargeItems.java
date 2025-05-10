@@ -31,7 +31,7 @@ public class DinoChargeItems {
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"dino_charge_dark", SPINOSAURUS_DINO_CHARGER,DINO_CHARGE_HELMET,DINO_CHARGE_CHESTPLATE,DINO_CHARGE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
 
     public static final DeferredItem<SwordItem> SPINO_BOOMERANG = ITEMS.register("spino_boomerang",
-            () -> new BaseThrowableItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
+            () -> new BaseThrowableItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).isChanger(DARK_SPINO_BOOMERANG.get()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

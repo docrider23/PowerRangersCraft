@@ -48,6 +48,21 @@
               "count": 2
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:triceratops_power_coin",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:spinosaurus_dino_charger",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:red_ninja_power_star_silver",
+          "weight": 3
         }
       ]
     },

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mmpr_blue",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:mmpr_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:triceratops_power_coin"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:blue_power_morpher"
+  }
+}
