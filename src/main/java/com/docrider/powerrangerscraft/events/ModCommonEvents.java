@@ -115,6 +115,9 @@ public class ModCommonEvents {public static class EventHandler {
         event.put(MobsCore.EVIL_BLUE_DINO_FURY_RANGER.get(), EvilBlueDinoFuryEntity.setAttributes().build());
 
         event.put(MobsCore.SILVER_SENTRIES.get(), SilverSentryEntity.setAttributes().build());
+
+        event.put(MobsCore.REBOOT_PUTTY.get(), RebootPuttyEntity.setAttributes().build());
+        event.put(MobsCore.REBOOT_RITA.get(), RebootRitaEntity.setAttributes().build());
     }
 
     @SubscribeEvent
@@ -138,5 +141,7 @@ public class ModCommonEvents {public static class EventHandler {
         event.register(MobsCore.ZENTINELS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.SILVER_SENTRIES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+        event.register(MobsCore.REBOOT_PUTTY.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
     }
 }

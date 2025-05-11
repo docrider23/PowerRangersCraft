@@ -46,21 +46,26 @@
   "item.powerrangerscraft.putrids_spawn_egg": "Putrids Spawn Egg",
   "item.powerrangerscraft.zen_aku_spawn_egg": "Zen-Aku Spawn Egg",
 
-  "entity.powerrangerscraft.mooger": "Moogers",
-  "item.powerrangerscraft.mooger_spawn_egg": "Moogers Spawn Egg",
+  "entity.powerrangerscraft.mooger": "Mooger",
+  "item.powerrangerscraft.mooger_spawn_egg": "Mooger Spawn Egg",
 
   "entity.powerrangerscraft.hengemen": "Hengemen",
   "entity.powerrangerscraft.void_knight": "Void Knight",
   "item.powerrangerscraft.hengemen_spawn_egg": "Hengemen Spawn Egg",
   "item.powerrangerscraft.void_knight_spawn_egg": "Void Knight Spawn Egg",
 
-  "entity.powerrangerscraft.zentinel": "Zentinels",
+  "entity.powerrangerscraft.zentinel": "Zentinel",
   "entity.powerrangerscraft.evil_blue_dino_fury_ranger": "Blue Dino Fury Ranger (Evil)",
-  "item.powerrangerscraft.zentinel_spawn_egg": "Zentinels Spawn Egg",
+  "item.powerrangerscraft.zentinel_spawn_egg": "Zentinel Spawn Egg",
   "item.powerrangerscraft.evil_blue_dino_fury_ranger_spawn_egg": "Blue Dino Fury Ranger (Evil) Spawn Egg",
 
-  "entity.powerrangerscraft.silver_sentry": "Silver Sentries",
-  "item.powerrangerscraft.silver_sentry_spawn_egg": "Silver Sentries Spawn Egg",
+  "entity.powerrangerscraft.silver_sentry": "Silver Sentry",
+  "item.powerrangerscraft.silver_sentry_spawn_egg": "Silver Sentry Spawn Egg",
+
+  "entity.powerrangerscraft.reboot_putty": "Putty Patroller (2017)",
+  "entity.powerrangerscraft.reboot_rita": "Rita Repulsa (2017)",
+  "item.powerrangerscraft.reboot_putty_spawn_egg": "Putty Patroller (2017) Spawn Egg",
+  "item.powerrangerscraft.reboot_rita_spawn_egg": "Rira Repulsa (2017) Spawn Egg",
   
   "item.powerrangerscraft.power_rangers_logo": "Power Rangers Logo",
   "block.powerrangerscraft.logo_ore": "Power Rangers Logo Ore",
@@ -75,6 +80,8 @@
   "item.powerrangerscraft.hengemen_spear": "Hengemen Spear",
   "item.powerrangerscraft.hengemen_shield": "Hengemen Shield",
   "item.powerrangerscraft.zentinels_khopesh_rifle": "Zentinels Khopesh Rifle",
+  "item.powerrangerscraft.no_entry_sign": "No Entry Sign",
+  "item.powerrangerscraft.ritas_staff": "Rita Repulsa's Staff (2017)",
   
   //01-02 MMPR
   "tab.powerrangerscraft.mmpr": "Mighty Morphin Power Rangers",

@@ -270,6 +270,9 @@ public class PowerRangersCraftCore {
 
             event.registerEntityRenderer(MobsCore.SILVER_SENTRIES.get(), BasicEntityRenderer::new);
 
+            event.registerEntityRenderer(MobsCore.REBOOT_PUTTY.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.REBOOT_RITA.get(), BasicEntityRenderer::new);
+
             //event.registerEntityRenderer(MobsCore.EXPLOSIVE_PROJECTILE.get(), ThrownItemRenderer::new);
             event.registerEntityRenderer(MobsCore.WEAPON_PROJECTILE.get(), ThrownWeaponRenderer::new);
             event.registerEntityRenderer(MobsCore.SHURIKEN_PROJECTILE.get(), ThrownShurikenRenderer::new);

@@ -153,6 +153,21 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     public static final DeferredItem<DeferredSpawnEggItem> SILVER_SENTRY_SPAWN_EGG = ITEMS.register("silver_sentry_spawn_egg",
             () -> new DeferredSpawnEggItem(SILVER_SENTRIES, 0x8ca9a4, 0x272727, new Item.Properties()));
 
+    //EX Power Rangers (2017)
+    public static final DeferredHolder<EntityType<?>, EntityType<RebootPuttyEntity>> REBOOT_PUTTY = MOBLIST.register("reboot_putty",
+            () -> EntityType.Builder.of(RebootPuttyEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8)
+                    .build(PowerRangersCraftCore.MODID + ":reboot_putty"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> REBOOT_PUTTY_SPAWN_EGG = ITEMS.register("reboot_putty_spawn_egg",
+            () -> new DeferredSpawnEggItem(REBOOT_PUTTY, 0xa3a2a2, 0x414242, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<RebootRitaEntity>> REBOOT_RITA = MOBLIST.register("reboot_rita",
+            () -> EntityType.Builder.of(RebootRitaEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8)
+                    .build(PowerRangersCraftCore.MODID + ":reboot_rita"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> REBOOT_RITA_SPAWN_EGG = ITEMS.register("reboot_rita_spawn_egg",
+            () -> new DeferredSpawnEggItem(REBOOT_RITA, 0x17350e, 0xfc9804, new Item.Properties()));
+
     //Projectiles
     /*public static final DeferredHolder<EntityType<?>, EntityType<ExplosiveProjectileEntity>> EXPLOSIVE_PROJECTILE =
             MOBLIST.register("explosive_projectile",() -> EntityType.Builder.<ExplosiveProjectileEntity>of(ExplosiveProjectileEntity::new, MobCategory.MISC)
