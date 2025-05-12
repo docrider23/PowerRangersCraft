@@ -823,6 +823,31 @@
   "item.powerrangerscraft.solar_energy_bow": "Solar Energy Bow",
   "item.powerrangerscraft.solar_chuks": "Solar Chuks",
 
+  //EX Comics: Omega Rangers
+  "item.powerrangerscraft.omega_logo": "Omega Rangers Logo",
+
+  "item.powerrangerscraft.omega_head": "Omega Ranger Helmet",
+  "item.powerrangerscraft.omega_torso": "Omega Ranger Chestplate",
+  "item.powerrangerscraft.omega_legs": "Omega Ranger Leggings",
+
+  "item.powerrangerscraft.omega_red_morpher": "Omega Morpher (Red Ranger)",
+  "item.powerrangerscraft.omega_blue_morpher": "Omega Morpher (Blue Ranger)",
+  "item.powerrangerscraft.omega_yellow_morpher": "Omega Morpher (Yellow Ranger)",
+  "item.powerrangerscraft.omega_black_morpher": "Omega Morpher (Black Ranger)",
+  "item.powerrangerscraft.omega_gold_morpher": "Omega Morpher (Gold Ranger)",
+
+  "item.powerrangerscraft.omega_red_logo": "Red Omega Logo",
+  "item.powerrangerscraft.omega_blue_logo": "Blue Omega Logo",
+  "item.powerrangerscraft.omega_yellow_logo": "Yellow Omega Logo",
+  "item.powerrangerscraft.omega_black_logo": "Black Omega Logo",
+  "item.powerrangerscraft.omega_gold_logo": "Gold Omega Logo",
+
+  "powerrangerscraft:omega_red_logo.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:omega_blue_logo.form": "Ranger: §bBlue Ranger",
+  "powerrangerscraft:omega_yellow_logo.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:omega_black_logo.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:omega_gold_logo.form": "Ranger: §6Gold Ranger",
+
   //EX 2017 Reboot
   "tab.powerrangerscraft.reboot": "Power Rangers (2017)",
 

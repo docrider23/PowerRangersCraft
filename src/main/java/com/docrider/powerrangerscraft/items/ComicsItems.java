@@ -72,7 +72,42 @@ public class ComicsItems {
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
 
     //Omega Rangers
+    public static final DeferredItem<Item> OMEGA_LOGO = ITEMS.register("omega_logo",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.COMICS));
 
+    public static final DeferredItem<Item> OMEGA_RED_LOGO = ITEMS.register("omega_red_logo",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_red","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+    public static final DeferredItem<Item> OMEGA_BLUE_LOGO = ITEMS.register("omega_blue_logo",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_blue","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+    public static final DeferredItem<Item> OMEGA_YELLOW_LOGO = ITEMS.register("omega_yellow_logo",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_yellow","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+    public static final DeferredItem<Item> OMEGA_BLACK_LOGO = ITEMS.register("omega_black_logo",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_black","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+    public static final DeferredItem<Item> OMEGA_GOLD_LOGO = ITEMS.register("omega_gold_logo",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_gold","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+
+    public static final DeferredItem<Item> OMEGA_HELMET = ITEMS.register("omega_head",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+    public static final DeferredItem<Item> OMEGA_CHESTPLATE = ITEMS.register("omega_torso",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+    public static final DeferredItem<Item> OMEGA_LEGGINGS = ITEMS.register("omega_legs",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+
+    public static final DeferredItem<Item> OMEGA_RED_MORPHER = ITEMS.register("omega_red_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_red", OMEGA_RED_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+    public static final DeferredItem<Item> OMEGA_BLUE_MORPHER = ITEMS.register("omega_blue_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_blue", OMEGA_BLUE_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+    public static final DeferredItem<Item> OMEGA_YELLOW_MORPHER = ITEMS.register("omega_yellow_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_yellow", OMEGA_YELLOW_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+    public static final DeferredItem<Item> OMEGA_BLACK_MORPHER = ITEMS.register("omega_black_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_black", OMEGA_BLACK_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+    public static final DeferredItem<Item> OMEGA_GOLD_MORPHER = ITEMS.register("omega_gold_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_gold", OMEGA_GOLD_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
 
     //Prime Rangers
 
