@@ -2,6 +2,7 @@ package com.docrider.powerrangerscraft.entity.footsoldier;
 
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.items.MobsItems;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
@@ -35,6 +36,7 @@ public class ZentinelEntity extends BaseFootsoldierEntity {
 
                         if (this.getLastAttacker()instanceof Player){
                             Player playerIn = (Player) this.getLastAttacker();
+                            playerIn.sendSystemMessage(Component.translatable("change.powerrangerscraft.evil_dino_fury_blue"));
 
                         }
                     }

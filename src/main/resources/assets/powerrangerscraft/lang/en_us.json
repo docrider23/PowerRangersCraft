@@ -41,6 +41,8 @@
   "item.powerrangerscraft.stingwingers_spawn_egg": "Stingwingers Spawn Egg",
   "item.powerrangerscraft.magna_defender_spawn_egg": "Magna Defender Spawn Egg",
 
+  "change.powerrangerscraft.magna_defender": "MAGNA POWER!",
+
   "entity.powerrangerscraft.putrids": "Putrids",
   "entity.powerrangerscraft.zen_aku": "Zen-Aku",
   "item.powerrangerscraft.putrids_spawn_egg": "Putrids Spawn Egg",
@@ -58,6 +60,8 @@
   "entity.powerrangerscraft.evil_blue_dino_fury_ranger": "Blue Dino Fury Ranger (Evil)",
   "item.powerrangerscraft.zentinel_spawn_egg": "Zentinel Spawn Egg",
   "item.powerrangerscraft.evil_blue_dino_fury_ranger_spawn_egg": "Blue Dino Fury Ranger (Evil) Spawn Egg",
+
+  "change.powerrangerscraft.evil_dino_fury_blue": "§9Link to Morphin Grid!",
 
   "entity.powerrangerscraft.silver_sentry": "Silver Sentry",
   "item.powerrangerscraft.silver_sentry_spawn_egg": "Silver Sentry Spawn Egg",
@@ -847,6 +851,7 @@
   "powerrangerscraft:omega_yellow_logo.form": "Ranger: §eYellow Ranger",
   "powerrangerscraft:omega_black_logo.form": "Ranger: §8Black Ranger",
   "powerrangerscraft:omega_gold_logo.form": "Ranger: §6Gold Ranger",
+  "powerrangerscraft:omega_gold_logo_death.form": "Villain: §6Death Ranger",
 
   //EX 2017 Reboot
   "tab.powerrangerscraft.reboot": "Power Rangers (2017)",

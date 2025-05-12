@@ -168,6 +168,21 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     public static final DeferredItem<DeferredSpawnEggItem> REBOOT_RITA_SPAWN_EGG = ITEMS.register("reboot_rita_spawn_egg",
             () -> new DeferredSpawnEggItem(REBOOT_RITA, 0x17350e, 0xfc9804, new Item.Properties()));
 
+    //EX Comics: Omega Rangers
+    public static final DeferredHolder<EntityType<?>, EntityType<HorridEntity>> HORRID = MOBLIST.register("horrid",
+            () -> EntityType.Builder.of(HorridEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8)
+                    .build(PowerRangersCraftCore.MODID + ":horrid"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> HORRID_SPAWN_EGG = ITEMS.register("horrid_spawn_egg",
+            () -> new DeferredSpawnEggItem(HORRID, 0x9b9aca, 0xb46383, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<DeathRangerEntity>> DEATH_RANGER = MOBLIST.register("death_ranger",
+            () -> EntityType.Builder.of(DeathRangerEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8)
+                    .build(PowerRangersCraftCore.MODID + ":death_ranger"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> DEATH_RANGER_SPAWN_EGG = ITEMS.register("death_ranger_spawn_egg",
+            () -> new DeferredSpawnEggItem(DEATH_RANGER, 0x4b4e49, 0xf1a622, new Item.Properties()));
+
     //Projectiles
     /*public static final DeferredHolder<EntityType<?>, EntityType<ExplosiveProjectileEntity>> EXPLOSIVE_PROJECTILE =
             MOBLIST.register("explosive_projectile",() -> EntityType.Builder.<ExplosiveProjectileEntity>of(ExplosiveProjectileEntity::new, MobCategory.MISC)

@@ -87,9 +87,11 @@ public class ComicsItems {
     public static final DeferredItem<Item> OMEGA_BLACK_LOGO = ITEMS.register("omega_black_logo",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_black","blank")
                     .AddToTabList(RangerTabs.COMICS));
+    public static final DeferredItem<Item> OMEGA_GOLD_LOGO_DEATH = ITEMS.register("omega_gold_logo_death",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_death","omega_gold","blank"));
     public static final DeferredItem<Item> OMEGA_GOLD_LOGO = ITEMS.register("omega_gold_logo",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_gold","blank")
-                    .AddToTabList(RangerTabs.COMICS));
+                    .addSwitchForm(OMEGA_GOLD_LOGO_DEATH.get()).AddToTabList(RangerTabs.COMICS));
 
     public static final DeferredItem<Item> OMEGA_HELMET = ITEMS.register("omega_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
