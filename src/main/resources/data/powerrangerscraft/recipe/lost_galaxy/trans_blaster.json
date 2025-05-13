@@ -8,16 +8,16 @@
   ],
   "key": {
     "a": {
-      "item": "supersentaicraft:lost_galaxy_logo"
+      "item": "powerrangerscraft:lost_galaxy_logo"
     },
 	"b": {
-      "item": "supersentaicraft:eagle_mirinoi_medal"
+      "item": "powerrangerscraft:eagle_mirinoi_medal"
     },
 	"c": {
       "item": "powerrangerscraft:base_sword"
     }
   },
   "result": {
-    "id": "supersentaicraft:trans_blaster"
+    "id": "powerrangerscraft:trans_blaster"
   }
 }
