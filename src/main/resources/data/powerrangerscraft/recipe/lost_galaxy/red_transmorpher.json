@@ -8,13 +8,13 @@
   ],
   "key": {
     "a": {
-      "item": "supersentaicraft:lost_galaxy_logo"
+      "item": "powerrangerscraft:lost_galaxy_logo"
     },
 	"b": {
-      "item": "supersentaicraft:lion_mirinoi_medal"
+      "item": "powerrangerscraft:lion_mirinoi_medal"
     }
   },
   "result": {
-    "id": "supersentaicraft:red_transmorpher"
+    "id": "powerrangerscraft:red_transmorpher"
   }
 }
