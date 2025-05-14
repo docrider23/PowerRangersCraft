@@ -118,6 +118,9 @@ public class ModCommonEvents {public static class EventHandler {
 
         event.put(MobsCore.REBOOT_PUTTY.get(), RebootPuttyEntity.setAttributes().build());
         event.put(MobsCore.REBOOT_RITA.get(), RebootRitaEntity.setAttributes().build());
+
+        event.put(MobsCore.HORRID.get(), RebootPuttyEntity.setAttributes().build());
+        event.put(MobsCore.DEATH_RANGER.get(), RebootRitaEntity.setAttributes().build());
     }
 
     @SubscribeEvent
