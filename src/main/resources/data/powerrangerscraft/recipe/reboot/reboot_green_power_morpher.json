@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reboot_green",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:reboot_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:reboot_green_power_coin"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:reboot_green_power_morpher"
+  }
+}

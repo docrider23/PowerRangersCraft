@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reboot",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:reboot_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:reboot_torso"
+  }
+}
