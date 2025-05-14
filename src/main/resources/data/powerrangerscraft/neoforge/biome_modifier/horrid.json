@@ -2,7 +2,7 @@
   "type": "neoforge:add_spawns",
   "biomes": "#c:is_nether",
   "spawners": {
-    "type": "powerrangerscraft:reboot_putty",
+    "type": "powerrangerscraft:horrid",
     "weight": 15,
     "minCount": 3,
     "maxCount": 5

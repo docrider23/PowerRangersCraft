@@ -70,6 +70,6 @@ public class DeathRangerEntity extends BaseFootsoldierEntity {
                 .add(Attributes.MOVEMENT_SPEED,(double)0.4F)
                 .add(Attributes.ATTACK_DAMAGE, 15.0D)
                 .add(Attributes.ARMOR, 8.0D)
-                .add(Attributes.MAX_HEALTH, 500.0D);
+                .add(Attributes.MAX_HEALTH, 250.0D);
     }
 }
