@@ -69,7 +69,12 @@
   "entity.powerrangerscraft.reboot_putty": "Putty Patroller (2017)",
   "entity.powerrangerscraft.reboot_rita": "Rita Repulsa (2017)",
   "item.powerrangerscraft.reboot_putty_spawn_egg": "Putty Patroller (2017) Spawn Egg",
-  "item.powerrangerscraft.reboot_rita_spawn_egg": "Rira Repulsa (2017) Spawn Egg",
+  "item.powerrangerscraft.reboot_rita_spawn_egg": "Rita Repulsa (2017) Spawn Egg",
+
+  "entity.powerrangerscraft.horrid": "Horrid",
+  "entity.powerrangerscraft.death_ranger": "Death Ranger",
+  "item.powerrangerscraft.horrid_spawn_egg": "Horrid Spawn Egg",
+  "item.powerrangerscraft.death_ranger_spawn_egg": "Death Ranger Spawn Egg",
   
   "item.powerrangerscraft.power_rangers_logo": "Power Rangers Logo",
   "block.powerrangerscraft.logo_ore": "Power Rangers Logo Ore",
