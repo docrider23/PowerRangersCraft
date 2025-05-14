@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "#is_nether",
+  "biomes": "#c:is_nether",
   "spawners": {
     "type": "powerrangerscraft:horrid",
     "weight": 15,
