@@ -52,9 +52,6 @@ public class WildForceItems {
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
 					.addAlternative(LION_ANIMAL_CRYSTAL_MEGAZORD.get()).ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
 
-	public static final DeferredItem<Item> EAGLE_ANIMAL_CRYSTAL_MEGAZORD = ITEMS.register("eagle_animal_crystal_megazord",
-			() -> new BaseItem(new Item.Properties()));
-
 	public static final DeferredItem<Item> EAGLE_ANIMAL_CRYSTAL = ITEMS.register("eagle_animal_crystal",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","wild_force_yellow","wild_force_yellow_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),

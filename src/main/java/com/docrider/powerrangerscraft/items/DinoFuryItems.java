@@ -272,7 +272,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 4,true,false),
             		new MobEffectInstance(EffectCore.FLYING, 40, 5,true,false),
-            		new MobEffectInstance(EffectCore.FROSTWALKER, 40, 5,true,false))
+            		new MobEffectInstance(EffectCore.FROSTWALKER, 40, 0,true,false))
             .ChangeSlot(2).BackToBase().ChangeModel("geo/rangerwing.geo.json").ifFlyingModelResource("geo/rangerwing.geo.json").AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
     
 	public static final DeferredItem<Item> DINO_KNIGHT_KEY = ITEMS.register("dino_knight_key",

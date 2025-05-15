@@ -6,15 +6,13 @@ import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -34,6 +32,9 @@ public class MechaGattaiItem extends MechaArmorItem{
     public Item BOOTS;
     public int Num_Base_Form_Item = 1;
     public String BELT_TEXT;
+
+    public Boolean Has_basic_belt_info = true;
+    public Boolean Show_belt_form_info = true;
 
     public int Unlimited_Textures = 0;
 
@@ -205,6 +206,8 @@ public class MechaGattaiItem extends MechaArmorItem{
             Base_Form_Item =belt.Extra_Base_Form_Item.get(1);
         }else if (SLOT == 4) {
             Base_Form_Item =belt.Extra_Base_Form_Item.get(2);
+        }else if (SLOT == 5) {
+            Base_Form_Item =belt.Extra_Base_Form_Item.get(3);
         }
 
         if (itemstack.getComponents().has(DataComponents.CUSTOM_DATA)) {
@@ -218,7 +221,19 @@ public class MechaGattaiItem extends MechaArmorItem{
         return Base_Form_Item;
     }
 
+    @Override
+    public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
 
+        if (Has_basic_belt_info) {
+            if (Show_belt_form_info) {
+                {
+                    Item formItem = this.get_Form_Item(stack, 1);
+                    tooltipComponents.add(Component.translatable(formItem.toString() + ".form"));
+                }
+            }
+        }
+        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+    }
 
 
 }

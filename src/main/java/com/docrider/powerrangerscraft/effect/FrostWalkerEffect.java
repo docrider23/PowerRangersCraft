@@ -1,6 +1,7 @@
 package com.docrider.powerrangerscraft.effect;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.Mth;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
@@ -8,6 +9,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FrostedIceBlock;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.CollisionContext;
 
 public class FrostWalkerEffect extends MobEffect {
@@ -19,25 +21,23 @@ public class FrostWalkerEffect extends MobEffect {
 
     @Override
     public boolean applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
-        if (pLivingEntity.onGround()) {
-            BlockPos pos = pLivingEntity.blockPosition();
+        if (!pLivingEntity.level().isClientSide()) {
+            if (pLivingEntity.level() instanceof ServerLevel) {
 
-            BlockState blockstate = Blocks.FROSTED_ICE.defaultBlockState();
-            int i = Math.min(16, 2);
-            BlockPos.MutableBlockPos blockpos$mutableblockpos = new BlockPos.MutableBlockPos();
+                Vec3 look = pLivingEntity.getLookAngle();
+                BlockPos pos = new BlockPos(pLivingEntity.getBlockX(), pLivingEntity.getBlockY() -1, pLivingEntity.getBlockZ());
+                BlockPos pos2 = new BlockPos(pLivingEntity.getBlockX()+1, pLivingEntity.getBlockY() -1, pLivingEntity.getBlockZ());
+                BlockPos pos3 = new BlockPos(pLivingEntity.getBlockX()-1, pLivingEntity.getBlockY() -1, pLivingEntity.getBlockZ());
+                BlockPos pos4 = new BlockPos(pLivingEntity.getBlockX(), pLivingEntity.getBlockY() -1, pLivingEntity.getBlockZ()+1);
+                BlockPos pos5 = new BlockPos(pLivingEntity.getBlockX(), pLivingEntity.getBlockY() -1, pLivingEntity.getBlockZ()-1);
 
-            for(BlockPos blockpos : BlockPos.betweenClosed(pos.offset(-i, -1, -i), pos.offset(i, -1, i))) {
-                if (blockpos.closerToCenterThan(pLivingEntity.position(), (double)i)) {
-                    blockpos$mutableblockpos.set(blockpos.getX(), blockpos.getY() + 1, blockpos.getZ());
-                    BlockState blockstate1 = pLivingEntity.level().getBlockState(blockpos$mutableblockpos);
-                    if (blockstate1.isAir()) {
-                        BlockState blockstate2 = pLivingEntity.level().getBlockState(blockpos);
-                        if (blockstate2 == FrostedIceBlock.meltsInto() && blockstate.canSurvive(pLivingEntity.level(), blockpos) && pLivingEntity.level().isUnobstructed(blockstate, blockpos, CollisionContext.empty()) && !net.neoforged.neoforge.event.EventHooks.onBlockPlace(pLivingEntity, net.neoforged.neoforge.common.util.BlockSnapshot.create(pLivingEntity.level().dimension(), pLivingEntity.level(), blockpos), net.minecraft.core.Direction.UP)) {
-                            pLivingEntity.level().setBlockAndUpdate(blockpos, blockstate);
-                            pLivingEntity.level().scheduleTick(blockpos, Blocks.FROSTED_ICE, Mth.nextInt(pLivingEntity.getRandom(), 60, 120));
-                        }
-                    }
-                }
+                if (pLivingEntity.level().getBlockState(pos)==Blocks.WATER.defaultBlockState())pLivingEntity.level().setBlockAndUpdate(pos, Blocks.ICE.defaultBlockState());
+                if (pLivingEntity.level().getBlockState(pos2)==Blocks.WATER.defaultBlockState())pLivingEntity.level().setBlockAndUpdate(pos2, Blocks.ICE.defaultBlockState());
+                if (pLivingEntity.level().getBlockState(pos3)==Blocks.WATER.defaultBlockState())pLivingEntity.level().setBlockAndUpdate(pos3, Blocks.ICE.defaultBlockState());
+                if (pLivingEntity.level().getBlockState(pos4)==Blocks.WATER.defaultBlockState())pLivingEntity.level().setBlockAndUpdate(pos4, Blocks.ICE.defaultBlockState());
+                if (pLivingEntity.level().getBlockState(pos5)==Blocks.WATER.defaultBlockState())pLivingEntity.level().setBlockAndUpdate(pos5, Blocks.ICE.defaultBlockState());
+
+
             }
         }
         return true;
