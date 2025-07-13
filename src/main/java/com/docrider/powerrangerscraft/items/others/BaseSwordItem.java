@@ -8,6 +8,9 @@ import java.util.List;
 public class BaseSwordItem extends SwordItem {
 
 	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+	private Item ChangerItem = MMPRItems.MMPR_LOGO.get();
+
+	private Boolean Changer = false;
 	
 	public BaseSwordItem(Tier toolTier, int Atk, float Spd, Properties prop) {
 		super(toolTier, prop.attributes(SwordItem.createAttributes(Tiers.DIAMOND, Atk, Spd)));
@@ -25,6 +28,12 @@ public class BaseSwordItem extends SwordItem {
 
 	public BaseSwordItem AddToTabList(List<Item> TabList) {
 		TabList.add(this);
+		return this;
+	}
+
+	public BaseSwordItem isChanger(Item item) {
+		ChangerItem = item;
+		Changer = true;
 		return this;
 	}
 }

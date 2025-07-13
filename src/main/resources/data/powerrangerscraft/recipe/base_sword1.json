@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "powerrangerscraft:mob_sword"
+  },
+  "result": {
+    "id": "powerrangerscraft:base_sword"
+  },
+  "experience": 5,
+  "cookingtime": 200
+}

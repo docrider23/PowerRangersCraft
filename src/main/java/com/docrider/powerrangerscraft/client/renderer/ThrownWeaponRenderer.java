@@ -46,7 +46,7 @@ public class ThrownWeaponRenderer<T extends Entity & ItemSupplier> extends Entit
 	         p_116088_.mulPose(this.entityRenderDispatcher.cameraOrientation());
 	         p_116088_.mulPose(Axis.YP.rotationDegrees(-90.0F));
 	         p_116088_.mulPose(Axis.ZP.rotationDegrees(rotation));
-	         this.itemRenderer.renderStatic(p_116085_.getItem(), ItemDisplayContext.GUI, p_116090_, OverlayTexture.NO_OVERLAY, p_116088_, p_116089_, p_116085_.level(), p_116085_.getId());
+	         this.itemRenderer.renderStatic(p_116085_.getItem(), ItemDisplayContext.FIXED, p_116090_, OverlayTexture.NO_OVERLAY, p_116088_, p_116089_, p_116085_.level(), p_116085_.getId());
 	         p_116088_.popPose();
 	         super.render(p_116085_, p_116086_, p_116087_, p_116088_, p_116089_, p_116090_);
 	      }

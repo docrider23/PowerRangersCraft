@@ -112,6 +112,47 @@ public class ComicsItems {
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_gold", OMEGA_GOLD_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
 
     //Prime Rangers
+    public static final DeferredItem<Item> PRIME_RITAS_WAND = ITEMS.register("prime_ritas_wand",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.COMICS));
+
+    public static final DeferredItem<Item> RED_RIB = ITEMS.register("red_rib",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_red","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+    public static final DeferredItem<Item> BLACK_SCALE = ITEMS.register("black_scale",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_black","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+    public static final DeferredItem<Item> BLUE_BONE = ITEMS.register("blue_bone",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_blue","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+    public static final DeferredItem<Item> YELLOW_TALON = ITEMS.register("yellow_talon",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_yellow","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+    public static final DeferredItem<Item> PINK_GEM = ITEMS.register("pink_gem",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_pink","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+    public static final DeferredItem<Item> GREEN_SPHERE = ITEMS.register("green_sphere",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_green","blank")
+                    .AddToTabList(RangerTabs.COMICS));
+
+    public static final DeferredItem<Item> PRIME_HELMET = ITEMS.register("prime_head",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<Item> PRIME_CHESTPLATE = ITEMS.register("prime_torso",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<Item> PRIME_LEGGINGS = ITEMS.register("prime_legs",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+
+    public static final DeferredItem<Item> RED_PRIME_COIN = ITEMS.register("red_prime_coin",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_red", RED_RIB, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<Item> BLACK_PRIME_COIN = ITEMS.register("black_prime_coin",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_black", BLACK_SCALE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<Item> BLUE_PRIME_COIN = ITEMS.register("blue_prime_coin",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_blue", BLUE_BONE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<Item> YELLOW_PRIME_COIN = ITEMS.register("yellow_prime_coin",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_yellow", YELLOW_TALON, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<Item> PINK_PRIME_COIN = ITEMS.register("pink_prime_coin",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_pink", PINK_GEM, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<Item> GREEN_PRIME_COIN = ITEMS.register("green_prime_coin",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_green", GREEN_SPHERE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
