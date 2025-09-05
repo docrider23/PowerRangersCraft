@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:predazord_head"
+    },
+    "title": "Predazord, Awaken!",
+    "description": "Combine into the Light Predazord",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:wild_force/kongazord",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:predazord_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

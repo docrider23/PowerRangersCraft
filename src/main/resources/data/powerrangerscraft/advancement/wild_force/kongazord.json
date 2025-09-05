@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:kongazord_head"
+    },
+    "title": "Monkeying Around!",
+    "description": "Combine into the KongaZord",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:wild_force/wild_force_megazord",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:kongazord_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

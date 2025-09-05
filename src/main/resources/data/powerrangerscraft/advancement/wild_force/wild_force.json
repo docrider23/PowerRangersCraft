@@ -1,0 +1,190 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:wild_force_logo"
+    },
+    "title": "Power Rangers Wild Force",
+    "description": "Change into each member of the Wild Force Rangers",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:root",
+  "criteria": {
+    "ranger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:wild_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_growl_phone"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:wild_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_growl_phone"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:wild_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_growl_phone"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:wild_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_growl_phone"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:wild_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:white_growl_phone"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:wild_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:lunar_caller"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

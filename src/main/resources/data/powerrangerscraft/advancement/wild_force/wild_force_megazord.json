@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:wild_force_megazord_head"
+    },
+    "title": "Wildzords! Combine!",
+    "description": "Combine into the Wild Force Megazord",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:wild_force/wild_force",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

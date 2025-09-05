@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:isis_megazord_head"
+    },
+    "title": "The Wings of Animaria!",
+    "description": "Combine into the Isis Megazord",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:wild_force/animus",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:isis_megazord_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:wild_force_megazord_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

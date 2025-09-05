@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:blue_growl_phone"
+    },
+    "title": "Surging Shark!",
+    "description": "Change into the Blue Wild Force Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:wild_force/wild_force_yellow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:wild_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_growl_phone"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

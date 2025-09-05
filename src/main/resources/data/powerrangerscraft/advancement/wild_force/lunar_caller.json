@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:lunar_caller"
+    },
+    "title": "Wild Access!",
+    "description": "Obtain the Silver Ranger's Lunar Caller",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:wild_force/growl_phone",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:lunar_caller"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

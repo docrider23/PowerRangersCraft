@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:black_growl_phone"
+    },
+    "title": "Iron Bison!",
+    "description": "Change into the Black Wild Force Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:wild_force/wild_force_blue",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:wild_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_growl_phone"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
