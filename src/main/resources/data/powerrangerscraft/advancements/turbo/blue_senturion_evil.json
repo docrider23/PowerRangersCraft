@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:signal_whistle"
+    },
+    "title": "The Millennium Message",
+    "description": "Change into the Blue Senturion (Evil)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:turbo/blue_senturion",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:turbo_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:turbo_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:turbo_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:signal_whistle_evil"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

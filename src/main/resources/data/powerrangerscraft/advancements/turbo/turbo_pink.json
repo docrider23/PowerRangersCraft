@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_turbo_morpher"
+    },
+    "title": "Pink Turbo Ranger!",
+    "description": "Change into the Pink Turbo Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:turbo/turbo_yellow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:turbo_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:turbo_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:turbo_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:pink_turbo_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

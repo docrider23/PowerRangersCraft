@@ -1,0 +1,190 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:lost_galaxy_logo"
+    },
+    "title": "Power Rangers Lost Galaxy",
+    "description": "Change into each member of the Galaxy Rangers",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:root",
+  "criteria": {
+    "galaxy_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_transmorpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "galaxy_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:green_transmorpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "galaxy_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_transmorpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "galaxy_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_transmorpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "galaxy_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:pink_transmorpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "black_knight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:magna_defender_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

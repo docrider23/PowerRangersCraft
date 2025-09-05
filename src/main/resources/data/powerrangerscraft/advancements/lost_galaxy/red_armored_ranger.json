@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:galactic_key"
+    },
+    "title": "Red! Armored! Power! Ranger!",
+    "description": "Transform into the Red Armored Ranger",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:lost_galaxy/lost_galaxy",
+  "criteria": {
+    "galaxy_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_transmorpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:armored\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

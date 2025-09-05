@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_transmorpher"
+    },
+    "title": "Go Galactic!",
+    "description": "Obtain any Transmorpher",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:lost_galaxy/lost_galaxy",
+  "criteria": {
+    "galaxy_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:red_transmorpher"
+            ]
+          }
+        ]
+      }
+    },
+    "galaxy_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:green_transmorpher"
+            ]
+          }
+        ]
+      }
+    },
+    "galaxy_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:blue_transmorpher"
+            ]
+          }
+        ]
+      }
+    },
+    "galaxy_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:yellow_transmorpher"
+            ]
+          }
+        ]
+      }
+    },
+    "galaxy_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:pink_transmorpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "galaxy_red",
+      "galaxy_green",
+      "galaxy_blue",
+      "galaxy_yellow",
+      "galaxy_pink"
+    ]
+  ]
+}

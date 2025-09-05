@@ -1,0 +1,19 @@
+{
+  "display": {
+	"icon": {
+	  "id": "powerrangerscraft:power_rangers_logo"
+	},
+	"title": "Power Rangers Craft",
+	"description": "This is the moment where your story begins!",
+	"background": "minecraft:textures/block/polished_andesite.png",
+	"frame": "task",
+	"show_toast": false,
+	"announce_to_chat": false,
+	"hidden": false
+  },
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:tick"
+	}
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:magna_defender_morpher"
+    },
+    "title": "Magna Power!",
+    "description": "Change into the Magna Defender",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:lost_galaxy/galaxy_pink",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:magna_defender_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

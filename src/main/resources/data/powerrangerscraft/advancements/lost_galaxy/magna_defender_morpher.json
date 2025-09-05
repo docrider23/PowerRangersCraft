@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:magna_defender_morpher"
+    },
+    "title": "My Power is Now Yours!",
+    "description": "Obtain the Magna Defender's Morpher",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:lost_galaxy/transmorpher",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:magna_defender_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

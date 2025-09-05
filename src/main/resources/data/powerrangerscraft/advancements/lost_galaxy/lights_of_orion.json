@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:lights_of_orion"
+    },
+    "title": "Lights of Orion! Activate!",
+    "description": "Obtain the Lights of Orion",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:lost_galaxy/magna_defender_morpher",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:lights_of_orion"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

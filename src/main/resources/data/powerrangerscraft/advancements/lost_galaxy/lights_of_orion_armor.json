@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:lights_of_orion"
+    },
+    "title": "Orion Returns",
+    "description": "Change into the Lights of Orion Armor",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:lost_galaxy/lost_galaxy",
+  "criteria": {
+    "galaxy_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_transmorpher",
+                "powerrangerscraft:green_transmorpher",
+                "powerrangerscraft:blue_transmorpher",
+                "powerrangerscraft:yellow_transmorpher",
+                "powerrangerscraft:pink_transmorpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:lights_of_orion\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
