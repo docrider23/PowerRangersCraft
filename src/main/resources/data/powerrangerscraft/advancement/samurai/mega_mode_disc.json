@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:mega_mode_disc"
+    },
+    "title": "The First Cockpit Form!",
+    "description": "Obtain the Mega Mode Disc",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:samurai/samurai_morpher",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:mega_mode_disc"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:shark_disc"
+    },
+    "title": "Clash of the Red Rangers",
+    "description": "Change into Shark Attack Mode",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:samurai/super_mega_mode",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_samuraizer",
+                "powerrangerscraft:blue_samuraizer",
+                "powerrangerscraft:pink_samuraizer",
+                "powerrangerscraft:green_samuraizer",
+                "powerrangerscraft:yellow_samuraizer",
+                "powerrangerscraft:samurai_morpher",
+                "powerrangerscraft:princess_samuraizer"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:shark_disc\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

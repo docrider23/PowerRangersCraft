@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:samurai_morpher"
+    },
+    "title": "Samurai Morpher, Gold Power!",
+    "description": "Obtain the Gold Ranger's Samurai Morpher",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:samurai/samuraizer",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:samurai_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

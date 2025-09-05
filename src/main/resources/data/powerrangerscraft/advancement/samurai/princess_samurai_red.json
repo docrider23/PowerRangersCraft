@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:princess_samuraizer"
+    },
+    "title": "I am the Red Ranger, and your downfall!",
+    "description": "Change into the Female Red Samurai Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:samurai/samurai_gold",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:princess_samuraizer"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

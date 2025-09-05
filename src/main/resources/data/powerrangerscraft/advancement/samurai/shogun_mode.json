@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:shogun_disc"
+    },
+    "title": "Shogun Mode! Power of the Ancestors!",
+    "description": "Change into Shogun Mode",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:samurai/shark_attack_mega_mode",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_samuraizer",
+                "powerrangerscraft:blue_samuraizer",
+                "powerrangerscraft:pink_samuraizer",
+                "powerrangerscraft:green_samuraizer",
+                "powerrangerscraft:yellow_samuraizer",
+                "powerrangerscraft:samurai_morpher",
+                "powerrangerscraft:princess_samuraizer"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:shogun_disc\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

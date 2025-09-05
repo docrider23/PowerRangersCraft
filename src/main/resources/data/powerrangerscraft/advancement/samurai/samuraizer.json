@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_samuraizer"
+    },
+    "title": "Samuraizer! Go Go Samurai!",
+    "description": "Obtain any Samuraizer",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:samurai/samurai",
+  "criteria": {
+    "samurai_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:red_samuraizer",
+              "powerrangerscraft:blue_samuraizer",
+              "powerrangerscraft:pink_samuraizer",
+              "powerrangerscraft:green_samuraizer",
+              "powerrangerscraft:yellow_samuraizer",
+              "powerrangerscraft:princess_samuraizer"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

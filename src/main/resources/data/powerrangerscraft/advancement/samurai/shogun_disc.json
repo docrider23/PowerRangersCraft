@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:shogun_disc"
+    },
+    "title": "Power of the Ancestors",
+    "description": "Obtain the Shogun Disc",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:samurai/shark_disc",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:shogun_disc"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

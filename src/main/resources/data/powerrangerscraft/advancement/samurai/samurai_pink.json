@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:pink_samuraizer"
+    },
+    "title": "Pink Ranger, ready",
+    "description": "Change into the Pink Samurai Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:samurai/samurai_blue",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:pink_samuraizer"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

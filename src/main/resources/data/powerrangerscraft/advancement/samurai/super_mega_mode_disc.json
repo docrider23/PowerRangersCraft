@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:super_mega_mode_disc"
+    },
+    "title": "The First Cockpit Form, Just SUPER!",
+    "description": "Obtain the Super Mega Mode Disc",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:samurai/black_box",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:super_mega_mode_disc"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

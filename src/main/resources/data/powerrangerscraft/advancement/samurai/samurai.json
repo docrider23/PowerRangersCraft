@@ -1,0 +1,220 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:samurai_logo",
+      "nbt": "{Damage:0}"
+    },
+    "title": "Power Rangers Samurai",
+    "description": "Change into each member of the Samurai Rangers",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:root",
+  "criteria": {
+    "samurai_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_samuraizer"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "samurai_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_samuraizer"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "samurai_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:pink_samuraizer"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "samurai_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:green_samuraizer"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "samurai_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_samuraizer"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "samurai_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:samurai_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "princess_samurai_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:samurai_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:samurai_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:samurai_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:princess_samuraizer"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
