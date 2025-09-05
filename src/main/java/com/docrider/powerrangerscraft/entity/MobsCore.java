@@ -183,6 +183,14 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     public static final DeferredItem<DeferredSpawnEggItem> DEATH_RANGER_SPAWN_EGG = ITEMS.register("death_ranger_spawn_egg",
             () -> new DeferredSpawnEggItem(DEATH_RANGER, 0x4b4e49, 0xf1a622, new Item.Properties()));
 
+    //EX Comics: Prime Rangers
+    public static final DeferredHolder<EntityType<?>, EntityType<EltarianGuardEntity>> ELTARIAN_GUARD = MOBLIST.register("eltarian_guard",
+            () -> EntityType.Builder.of(EltarianGuardEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8)
+                    .build(PowerRangersCraftCore.MODID + ":eltarian_guard"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> ELTARIAN_GUARD_SPAWN_EGG = ITEMS.register("eltarian_guard_spawn_egg",
+            () -> new DeferredSpawnEggItem(ELTARIAN_GUARD, 0x9b9aca, 0xb46383, new Item.Properties()));
+
     //Projectiles
     /*public static final DeferredHolder<EntityType<?>, EntityType<ExplosiveProjectileEntity>> EXPLOSIVE_PROJECTILE =
             MOBLIST.register("explosive_projectile",() -> EntityType.Builder.<ExplosiveProjectileEntity>of(ExplosiveProjectileEntity::new, MobCategory.MISC)

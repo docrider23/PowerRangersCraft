@@ -75,6 +75,9 @@
   "entity.powerrangerscraft.death_ranger": "Death Ranger",
   "item.powerrangerscraft.horrid_spawn_egg": "Horrid Spawn Egg",
   "item.powerrangerscraft.death_ranger_spawn_egg": "Death Ranger Spawn Egg",
+
+  "entity.powerrangerscraft.eltarian_guard": "Eltarian Guard",
+  "item.powerrangerscraft.eltarian_guard_spawn_egg": "Eltarian Guard Spawn Egg",
   
   "item.powerrangerscraft.power_rangers_logo": "Power Rangers Logo",
   "block.powerrangerscraft.logo_ore": "Power Rangers Logo Ore",
@@ -91,6 +94,7 @@
   "item.powerrangerscraft.zentinels_khopesh_rifle": "Zentinels Khopesh Rifle",
   "item.powerrangerscraft.no_entry_sign": "No Entry Sign",
   "item.powerrangerscraft.ritas_staff": "Rita Repulsa's Staff (2017)",
+  "item.powerrangerscraft.eltarian_stunstick": "Eltarian Stunstick",
   
   //01-02 MMPR
   "tab.powerrangerscraft.mmpr": "Mighty Morphin Power Rangers",
@@ -849,6 +853,7 @@
   "item.powerrangerscraft.solar_legs": "Solar Ranger Leggings",
 
   "item.powerrangerscraft.blank_solar_crystal": "Blank Solar Crystal",
+  "block.powerrangerscraft.end_solar_crystal_ore": "End Solar Crystal Ore",
 
   "item.powerrangerscraft.purple_solarix": "Solarix Glove",
   "item.powerrangerscraft.orange_solarix": "Solarix Glove",
@@ -971,7 +976,7 @@
   "tab.powerrangerscraft.block": "Ranger Blocks",
 
   "item.powerrangerscraft.base_sword": "Base Weapon",
-  "item.powerrangerscraft:base_mecha_sword": "Base Mecha Weapon",
+  "item.powerrangerscraft.base_mecha_sword": "Base Mecha Weapon",
 
   "item.powerrangerscraft.mecha_gear":"Mecha Gear",
   "block.powerrangerscraft.mecha_nether_ore":"Mecha Nether Ore",

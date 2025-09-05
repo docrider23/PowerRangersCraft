@@ -276,6 +276,8 @@ public class PowerRangersCraftCore {
             event.registerEntityRenderer(MobsCore.HORRID.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.DEATH_RANGER.get(), BasicEntityRenderer::new);
 
+            event.registerEntityRenderer(MobsCore.ELTARIAN_GUARD.get(), BasicEntityRenderer::new);
+
             //event.registerEntityRenderer(MobsCore.EXPLOSIVE_PROJECTILE.get(), ThrownItemRenderer::new);
             event.registerEntityRenderer(MobsCore.WEAPON_PROJECTILE.get(), ThrownWeaponRenderer::new);
             event.registerEntityRenderer(MobsCore.SHURIKEN_PROJECTILE.get(), ThrownShurikenRenderer::new);

@@ -245,6 +245,11 @@ public class RangerTabs {
             event.accept(MobsCore.REBOOT_PUTTY_SPAWN_EGG);
             event.accept(MobsCore.REBOOT_RITA_SPAWN_EGG);
 
+            event.accept(MobsCore.HORRID_SPAWN_EGG);
+            event.accept(MobsCore.DEATH_RANGER_SPAWN_EGG);
+
+            event.accept(MobsCore.ELTARIAN_GUARD_SPAWN_EGG);
+
             event.accept(OtherItems.GO_GO_POWER_RANGERS_MUSIC_DISC);
             event.accept(OtherItems.GO_GO_ALIEN_RANGERS_MUSIC_DISC);
 

@@ -116,22 +116,22 @@ public class ComicsItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.COMICS));
 
     public static final DeferredItem<Item> RED_RIB = ITEMS.register("red_rib",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_red","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_red","prime_red_belt")
                     .AddToTabList(RangerTabs.COMICS));
     public static final DeferredItem<Item> BLACK_SCALE = ITEMS.register("black_scale",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_black","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_black","prime_black_belt")
                     .AddToTabList(RangerTabs.COMICS));
     public static final DeferredItem<Item> BLUE_BONE = ITEMS.register("blue_bone",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_blue","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_blue","prime_blue_belt")
                     .AddToTabList(RangerTabs.COMICS));
     public static final DeferredItem<Item> YELLOW_TALON = ITEMS.register("yellow_talon",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_yellow","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_yellow","prime_yellow_belt")
                     .AddToTabList(RangerTabs.COMICS));
     public static final DeferredItem<Item> PINK_GEM = ITEMS.register("pink_gem",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_pink","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_pink","prime_pink_belt")
                     .AddToTabList(RangerTabs.COMICS));
     public static final DeferredItem<Item> GREEN_SPHERE = ITEMS.register("green_sphere",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_green","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_green","prime_green_belt")
                     .AddToTabList(RangerTabs.COMICS));
 
     public static final DeferredItem<Item> PRIME_HELMET = ITEMS.register("prime_head",

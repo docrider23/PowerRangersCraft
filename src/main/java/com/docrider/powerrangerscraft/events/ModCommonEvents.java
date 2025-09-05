@@ -119,8 +119,11 @@ public class ModCommonEvents {public static class EventHandler {
         event.put(MobsCore.REBOOT_PUTTY.get(), RebootPuttyEntity.setAttributes().build());
         event.put(MobsCore.REBOOT_RITA.get(), RebootRitaEntity.setAttributes().build());
 
-        event.put(MobsCore.HORRID.get(), RebootPuttyEntity.setAttributes().build());
-        event.put(MobsCore.DEATH_RANGER.get(), RebootRitaEntity.setAttributes().build());
+        event.put(MobsCore.HORRID.get(), HorridEntity.setAttributes().build());
+        event.put(MobsCore.DEATH_RANGER.get(), DeathRangerEntity.setAttributes().build());
+
+        event.put(MobsCore.ELTARIAN_GUARD.get(), EltarianGuardEntity.setAttributes().build());
+
     }
 
     @SubscribeEvent
@@ -148,5 +151,7 @@ public class ModCommonEvents {public static class EventHandler {
         event.register(MobsCore.REBOOT_PUTTY.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.HORRID.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+        event.register(MobsCore.ELTARIAN_GUARD.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
     }
 }

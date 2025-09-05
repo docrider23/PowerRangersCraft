@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_plains",
+  "spawners": {
+    "type": "powerrangerscraft:eltarian_guard",
+    "weight": 15,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}
