@@ -1,0 +1,27 @@
+{
+  "parent": "supersentaicraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "supersentaicraft:gingaman/green_transmorpher",
+      "supersentaicraft:gingaman/trans_blaster",
+      "supersentaicraft:gingaman/quasar_launcher_green"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "supersentaicraft:eagle_mirinoi_medal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}

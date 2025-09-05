@@ -1,0 +1,28 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:samurai/mega_blade",
+      "powerrangerscraft:samurai/mega_blade1",
+      "powerrangerscraft:samurai/super_mega_blade",
+      "powerrangerscraft:samurai/super_mega_blade1"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:mega_mode_disc"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

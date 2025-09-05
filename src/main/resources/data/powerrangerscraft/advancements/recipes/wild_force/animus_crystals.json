@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:wild_force/black_lion_animal_crystal",
+      "powerrangerscraft:wild_force/condor_animal_crystal",
+      "powerrangerscraft:wild_force/sawshark_animal_crystal",
+      "powerrangerscraft:wild_force/buffalo_animal_crystal",
+      "powerrangerscraft:wild_force/jaguar_animal_crystal"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:empty_animus_crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

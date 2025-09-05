@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:wild_force/red_growl_phone",
+      "powerrangerscraft:wild_force/lion_crystal_saber",
+      "powerrangerscraft:wild_force/red_lion_fang",
+      "powerrangerscraft:wild_force/red_lion_fang_claw",
+      "powerrangerscraft:wild_force/red_lion_fang_claw1",
+      "powerrangerscraft:wild_force/lion_blaster"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:lion_animal_crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:wild_force/wild_force_head",
+      "powerrangerscraft:wild_force/wild_force_torso",
+      "powerrangerscraft:wild_force/wild_force_legs",
+      "powerrangerscraft:wild_force/wild_force_logo",
+      "powerrangerscraft:wild_force/crystal_saber",
+      "powerrangerscraft:wild_force/jungle_sword",
+      "powerrangerscraft:wild_force/unfinished_animus_crystal"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:empty_animal_crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}

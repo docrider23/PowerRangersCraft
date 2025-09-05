@@ -1,0 +1,29 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:dino_fury/dino_fury_head",
+      "powerrangerscraft:dino_fury/dino_fury_torso",
+      "powerrangerscraft:dino_fury/dino_fury_legs",
+      "powerrangerscraft:dino_fury/dino_fury_logo",
+      "powerrangerscraft:dino_fury/chromafury_saber"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:blank_dino_key"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}

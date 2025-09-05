@@ -1,0 +1,29 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:samurai/samurai_head",
+      "powerrangerscraft:samurai/samurai_torso",
+      "powerrangerscraft:samurai/samurai_legs",
+      "powerrangerscraft:samurai/spin_sword",
+      "powerrangerscraft:samurai/samurai_logo"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:samurai_disc"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}
