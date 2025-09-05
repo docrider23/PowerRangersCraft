@@ -1,0 +1,28 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:comics/solar/solar_head",
+      "powerrangerscraft:comics/solar/solar_torso",
+      "powerrangerscraft:comics/solar/solar_legs",
+      "powerrangerscraft:comics/solar/solar_logo"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:blank_solar_crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}

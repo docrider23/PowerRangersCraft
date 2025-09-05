@@ -1,0 +1,29 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:hyperforce/hyperforce_head",
+      "powerrangerscraft:hyperforce/hyperforce_torso",
+      "powerrangerscraft:hyperforce/hyperforce_legs",
+      "powerrangerscraft:hyperforce/hyperforce_logo",
+      "powerrangerscraft:hyperforce/hyperforce_blade_blaster"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:hyperforce_die"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}
