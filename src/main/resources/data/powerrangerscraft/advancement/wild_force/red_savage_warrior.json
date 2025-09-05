@@ -1,14 +1,14 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:galactic_key"
+      "id": "powerrangerscraft:animarium_buckle"
     },
-    "title": "Red! Armored! Power! Ranger!",
-    "description": "Transform into the Red Armored Ranger",
+    "title": "Animarium Armor! Activate",
+    "description": "Transform into the Red Savage Warrior",
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "powerrangerscraft:lost_galaxy/lost_galaxy",
+  "parent": "powerrangerscraft:wild_force/wild_force",
   "criteria": {
     "galaxy_red": {
       "trigger": "minecraft:inventory_changed",
@@ -17,25 +17,25 @@
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:lost_galaxy_head"
+                "powerrangerscraft:wild_force_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:lost_galaxy_torso"
+                "powerrangerscraft:wild_force_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:lost_galaxy_legs"
+                "powerrangerscraft:wild_force_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:red_transmorpher"
+                "powerrangerscraft:red_growl_phone"
               ],
               "predicates": {
-                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:galactic_key\"}"
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:animarium_buckle\"}"
               }
             }
           }
