@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "prime_green",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:prime_ritas_wand"
+    },
+	"b": {
+      "item": "powerrangerscraft:green_sphere"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:green_prime_coin"
+  }
+}

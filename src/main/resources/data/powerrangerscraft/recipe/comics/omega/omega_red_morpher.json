@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "omega_red",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:omega_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:omega_red_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:omega_red_morpher"
+  }
+}

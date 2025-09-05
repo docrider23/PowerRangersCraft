@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "omega",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:omega_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:omega_head"
+  }
+}
