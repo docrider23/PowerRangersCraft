@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:reboot_pink_power_morpher"
+    },
+    "title": "A Whole New World!",
+    "description": "Change into the 2017 Pink Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:reboot/reboot_yellow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:reboot_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:reboot_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:reboot_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:reboot_pink_power_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

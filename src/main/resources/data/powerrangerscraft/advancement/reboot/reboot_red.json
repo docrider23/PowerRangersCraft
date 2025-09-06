@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:reboot_red_power_morpher"
+    },
+    "title": "You're Breaking House Arrest!",
+    "description": "Change into the 2017 Red Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:reboot/reboot",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:reboot_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:reboot_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:reboot_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:reboot_red_power_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

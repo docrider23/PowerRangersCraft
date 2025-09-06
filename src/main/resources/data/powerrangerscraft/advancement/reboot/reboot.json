@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:turbo_logo"
+      "id": "powerrangerscraft:reboot_logo"
     },
-    "title": "Power Rangers Turbo",
-    "description": "Change into each member of the Turbo Rangers",
+    "title": "Power Rangers (2017)",
+    "description": "Change into each member of the Movie Rangers",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,232 +12,174 @@
   },
   "parent": "powerrangerscraft:root",
   "criteria": {
-    "red_turbo": {
+    "reboot_red": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:reboot_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:reboot_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:reboot_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:red_turbo_morpher"
+                "powerrangerscraft:reboot_red_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "blue_turbo": {
+    "reboot_blue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:reboot_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:reboot_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:reboot_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:blue_turbo_morpher"
+                "powerrangerscraft:reboot_blue_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "green_turbo": {
+    "reboot_black": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:reboot_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:reboot_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:reboot_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:green_turbo_morpher"
+                "powerrangerscraft:reboot_black_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "yellow_turbo": {
+    "reboot_yellow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:reboot_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:reboot_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:reboot_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:yellow_turbo_morpher"
+                "powerrangerscraft:reboot_yellow_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "pink_turbo": {
+    "reboot_pink": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:reboot_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:reboot_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:reboot_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:pink_turbo_morpher"
+                "powerrangerscraft:reboot_pink_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "blue_senturion": {
+    "reboot_green": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:reboot_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:reboot_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:reboot_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:signal_whistle"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "blue_senturion_evil": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "player": {
-          "equipment": {
-            "head": {
-              "items": [
-                "powerrangerscraft:turbo_head"
-              ]
-            },
-            "chest": {
-              "items": [
-                "powerrangerscraft:turbo_torso"
-              ]
-            },
-            "legs": {
-              "items": [
-                "powerrangerscraft:turbo_legs"
-              ]
-            },
-            "feet": {
-              "items": [
-                "powerrangerscraft:signal_whistle_evil"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "phantom_ranger": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "player": {
-          "equipment": {
-            "head": {
-              "items": [
-                "powerrangerscraft:turbo_head"
-              ]
-            },
-            "chest": {
-              "items": [
-                "powerrangerscraft:turbo_torso"
-              ]
-            },
-            "legs": {
-              "items": [
-                "powerrangerscraft:turbo_legs"
-              ]
-            },
-            "feet": {
-              "items": [
-                "powerrangerscraft:phantom_ranger_module"
+                "powerrangerscraft:reboot_green_power_morpher"
               ]
             }
           }

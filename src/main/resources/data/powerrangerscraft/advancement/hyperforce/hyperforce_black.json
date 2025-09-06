@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_hyperforce_morpher"
+    },
+    "title": "Black Hyperforce Ranger!",
+    "description": "Change into the Black Hyperforce Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:hyperforce/hyperforce_yellow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:hyperforce_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:hyperforce_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:hyperforce_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_hyperforce_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

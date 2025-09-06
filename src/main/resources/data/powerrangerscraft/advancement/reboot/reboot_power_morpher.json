@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:reboot_red_power_morpher"
+    },
+    "title": "Billy's Sacrifice!",
+    "description": "Obtain any 2017 Power Morpher",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:reboot/reboot",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:reboot_red_power_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:reboot_blue_power_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:reboot_black_power_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:reboot_yellow_power_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:reboot_pink_power_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:reboot_green_power_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item",
+      "item2",
+      "item3",
+      "item4",
+      "item5",
+      "item6"
+    ]
+  ]
+}

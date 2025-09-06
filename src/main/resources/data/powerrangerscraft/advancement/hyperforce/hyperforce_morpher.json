@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_hyperforce_morpher"
+    },
+    "title": "Hyperforce, ready! Power Up!",
+    "description": "Obtain any Hyperforce Morpher",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:hyperforce/hyperforce",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:red_hyperforce_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:blue_hyperforce_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:yellow_hyperforce_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:black_hyperforce_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:pink_hyperforce_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:green_hyperforce_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item",
+      "item2",
+      "item3",
+      "item4",
+      "item5",
+      "item6"
+    ]
+  ]
+}

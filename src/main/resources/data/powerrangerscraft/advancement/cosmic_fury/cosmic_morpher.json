@@ -1,0 +1,111 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_cosmic_morpher"
+    },
+    "title": "Link to Morphin' Grid!",
+    "description": "Obtain any Cosmic Morpher",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:cosmic_fury/cosmic_fury",
+  "criteria": {
+    "cosmic_fury_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:red_cosmic_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "cosmic_fury_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:blue_cosmic_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "cosmic_fury_orange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:orange_cosmic_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "cosmic_fury_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:green_cosmic_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "cosmic_fury_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:black_cosmic_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "cosmic_fury_zenith": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:zenith_cosmic_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "cosmic_fury_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:gold_cosmic_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cosmic_fury_red",
+      "cosmic_fury_blue",
+      "cosmic_fury_orange",
+      "cosmic_fury_green",
+      "cosmic_fury_black",
+      "cosmic_fury_zenith",
+      "cosmic_fury_gold"
+    ]
+  ]
+}

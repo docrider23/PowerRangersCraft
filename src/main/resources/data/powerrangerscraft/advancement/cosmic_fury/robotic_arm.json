@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:robotic_arm"
+    },
+    "title": "Consequences of the Altar",
+    "description": "Provide the Black Dino Fury Ranger with the Robotic Arm",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:cosmic_fury/cosmic_fury",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:robotic_arm\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

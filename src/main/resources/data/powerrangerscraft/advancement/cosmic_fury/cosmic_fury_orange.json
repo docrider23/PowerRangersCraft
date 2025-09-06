@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:orange_cosmic_morpher"
+    },
+    "title": "Solono Fury, Orange Ranger!",
+    "description": "Change into the Orange Cosmic Fury Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:cosmic_fury/cosmic_fury_gold",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:cosmic_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:cosmic_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:cosmic_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:orange_cosmic_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

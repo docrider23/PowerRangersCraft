@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:turbo_logo"
+      "id": "powerrangerscraft:cosmic_fury_logo"
     },
-    "title": "Power Rangers Turbo",
-    "description": "Change into each member of the Turbo Rangers",
+    "title": "Power Rangers Cosmic Fury",
+    "description": "Change into each member of the Cosmic Fury Rangers",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,232 +12,203 @@
   },
   "parent": "powerrangerscraft:root",
   "criteria": {
-    "red_turbo": {
+    "cosmic_fury_red": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:cosmic_fury_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:cosmic_fury_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:cosmic_fury_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:red_turbo_morpher"
+                "powerrangerscraft:red_cosmic_morpher"
               ]
             }
           }
         }
       }
     },
-    "blue_turbo": {
+    "cosmic_fury_blue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:cosmic_fury_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:cosmic_fury_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:cosmic_fury_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:blue_turbo_morpher"
+                "powerrangerscraft:blue_cosmic_morpher"
               ]
             }
           }
         }
       }
     },
-    "green_turbo": {
+    "cosmic_fury_green": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:cosmic_fury_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:cosmic_fury_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:cosmic_fury_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:green_turbo_morpher"
+                "powerrangerscraft:green_cosmic_morpher"
               ]
             }
           }
         }
       }
     },
-    "yellow_turbo": {
+    "cosmic_fury_black": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:cosmic_fury_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:cosmic_fury_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:cosmic_fury_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:yellow_turbo_morpher"
+                "powerrangerscraft:black_cosmic_morpher"
               ]
             }
           }
         }
       }
     },
-    "pink_turbo": {
+    "cosmic_fury_orange": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:cosmic_fury_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:cosmic_fury_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:cosmic_fury_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:pink_turbo_morpher"
+                "powerrangerscraft:orange_cosmic_morpher"
               ]
             }
           }
         }
       }
     },
-    "blue_senturion": {
+    "cosmic_fury_gold": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:cosmic_fury_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:cosmic_fury_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:cosmic_fury_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:signal_whistle"
+                "powerrangerscraft:gold_cosmic_morpher"
               ]
             }
           }
         }
       }
     },
-    "blue_senturion_evil": {
+    "cosmic_fury_zenith": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:cosmic_fury_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:cosmic_fury_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:cosmic_fury_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:signal_whistle_evil"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "phantom_ranger": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "player": {
-          "equipment": {
-            "head": {
-              "items": [
-                "powerrangerscraft:turbo_head"
-              ]
-            },
-            "chest": {
-              "items": [
-                "powerrangerscraft:turbo_torso"
-              ]
-            },
-            "legs": {
-              "items": [
-                "powerrangerscraft:turbo_legs"
-              ]
-            },
-            "feet": {
-              "items": [
-                "powerrangerscraft:phantom_ranger_module"
+                "powerrangerscraft:zenith_cosmic_morpher"
               ]
             }
           }
