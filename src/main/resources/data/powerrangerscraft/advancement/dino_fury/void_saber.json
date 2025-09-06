@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:void_saber"
+    },
+    "title": "Void Change!",
+    "description": "Obtain Void Knight's Void Saber",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:dino_fury/mosa_blaster",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:void_saber"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

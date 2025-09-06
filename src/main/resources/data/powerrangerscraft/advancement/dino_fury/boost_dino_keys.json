@@ -1,0 +1,771 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:stink_dino_key"
+    },
+    "title": "Got Boost!",
+    "description": "Use every Boost Dino Key",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:dino_fury/dino_fury",
+  "criteria": {
+    "stink_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:stink_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "gravi_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:gravi_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "hyper_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:hyper_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "sonic_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:sonic_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "hover_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:hover_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "fix_it_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:fix_it_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "sprint_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:sprint_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "shield_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:shield_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "elasto_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:elasto_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "muscle_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:muscle_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "flare_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:flare_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "mist_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:mist_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "slick_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:slick_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "balloon_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:balloon_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "double_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:double_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "spin_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:spin_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "invisi_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:invisi_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "vision_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:vision_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "grow_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:grow_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "snooze_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:snooze_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "cushion_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:cushion_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

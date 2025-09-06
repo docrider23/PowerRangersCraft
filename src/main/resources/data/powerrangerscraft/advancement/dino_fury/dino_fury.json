@@ -1,0 +1,248 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:dino_fury_logo"
+    },
+    "title": "Power Rangers Dino Fury",
+    "description": "Change into each member of the Dino Fury Rangers",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:root",
+  "criteria": {
+    "dino_fury_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dino_fury_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_dino_fury_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dino_fury_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:pink_dino_fury_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dino_fury_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:green_dino_fury_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dino_fury_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_dino_fury_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dino_fury_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:gold_mosa_changer"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "void_knight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:gaisorg_changer"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dino_fury_zenith": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:zenith_dino_fury_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:gold_mosa_blaster"
+    },
+    "title": "Link to Morphin Grid!",
+    "description": "Obtain the Gold Ranger's Mosa Blaster",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:dino_fury/dino_fury_morpher",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:gold_mosa_blaster"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

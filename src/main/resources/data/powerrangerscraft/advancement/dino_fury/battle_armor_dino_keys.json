@@ -1,0 +1,274 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:blazing_dino_key"
+    },
+    "title": "Fury Unleashed!!",
+    "description": "Use every Battle Armor Dino Key",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:dino_fury/dino_fury",
+  "criteria": {
+    "blazing_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher",
+                "powerrangerscraft:gold_mosa_blaster"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:blazing_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "electro_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher",
+                "powerrangerscraft:gold_mosa_blaster"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:electro_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "shadow_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher",
+                "powerrangerscraft:gold_mosa_blaster"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:shadow_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "light_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher",
+                "powerrangerscraft:gold_mosa_blaster"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:light_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "cosmic_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher",
+                "powerrangerscraft:gold_mosa_blaster"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:cosmic_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "smash_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher",
+                "powerrangerscraft:gold_mosa_blaster"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:smash_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "freeze_dino_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher",
+                "powerrangerscraft:gold_mosa_blaster"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:freeze_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

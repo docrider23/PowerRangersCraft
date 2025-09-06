@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:light_dino_key"
+    },
+    "title": "Missing Pieces",
+    "description": "Use the Light Battle Armor",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:dino_fury/shadow_dino_key",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_fury_morpher",
+                "powerrangerscraft:blue_dino_fury_morpher",
+                "powerrangerscraft:pink_dino_fury_morpher",
+                "powerrangerscraft:green_dino_fury_morpher",
+                "powerrangerscraft:black_dino_fury_morpher",
+                "powerrangerscraft:gold_mosa_blaster"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:light_dino_key\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

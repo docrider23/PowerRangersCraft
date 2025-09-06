@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:void_saber_morpher"
+    },
+    "title": "Knock-Off Mr. Freeze!",
+    "description": "Change into Void Knight",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:dino_fury/dino_fury_gold",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:void_saber_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

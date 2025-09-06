@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_dino_fury_morpher"
+    },
+    "title": "Link to Morphin' Grid!",
+    "description": "Obtain any Dino Fury Morpher",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:dino_fury/dino_fury",
+  "criteria": {
+    "dino_fury_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:red_dino_fury_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "dino_fury_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:blue_dino_fury_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "dino_fury_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:pink_dino_fury_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "dino_fury_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:green_dino_fury_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "dino_fury_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:black_dino_fury_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "dino_fury_zenith": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:zenith_dino_fury_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dino_fury_red",
+      "dino_fury_blue",
+      "dino_fury_pink",
+      "dino_fury_green",
+      "dino_fury_black",
+      "dino_fury_zenith"
+    ]
+  ]
+}

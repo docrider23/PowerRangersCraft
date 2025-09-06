@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:zenith_dino_fury_morpher"
+    },
+    "title": "T-Rex Fury, Zenith Ranger!",
+    "description": "Change into the Zenith Dino Fury Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:dino_fury/void_knight",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:zenith_dino_fury_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
