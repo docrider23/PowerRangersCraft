@@ -1,0 +1,248 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:solar_logo"
+    },
+    "title": "Beyond the Grid",
+    "description": "Change into each member of the Solar Ranger team",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:root",
+  "criteria": {
+    "solar_purple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:solar_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:solar_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:solar_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:purple_solarix"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "solar_orange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:solar_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:solar_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:solar_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:orange_solarix"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "solar_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:solar_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:solar_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:solar_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_solarix"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "solar_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:solar_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:solar_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:solar_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_solarix"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "solar_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:solar_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:solar_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:solar_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:pink_solarix"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "solar_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:solar_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:solar_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:solar_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:green_solarix"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "solar_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:solar_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:solar_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:solar_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_solarix"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "solar_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:solar_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:solar_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:solar_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_solarix"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

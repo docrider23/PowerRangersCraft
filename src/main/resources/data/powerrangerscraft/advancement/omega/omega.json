@@ -1,0 +1,161 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:omega_logo"
+    },
+    "title": "Omega Rangers",
+    "description": "Change into each member of the Omega Rangers",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:root",
+  "criteria": {
+    "omega_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:omega_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:omega_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:omega_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:omega_red_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "omega_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:omega_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:omega_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:omega_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:omega_blue_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "omega_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:omega_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:omega_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:omega_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:omega_black_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "omega_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:omega_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:omega_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:omega_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:omega_yellow_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "omega_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:omega_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:omega_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:omega_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:omega_gold_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

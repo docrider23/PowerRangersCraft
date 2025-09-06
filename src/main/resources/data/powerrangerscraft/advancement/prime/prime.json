@@ -1,0 +1,190 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_prime_coin"
+    },
+    "title": "Power Rangers Prime",
+    "description": "Change into each member of the Prime Rangers",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:root",
+  "criteria": {
+    "prime_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:prime_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:prime_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:prime_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_prime_coin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "prime_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:prime_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:prime_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:prime_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_prime_coin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "prime_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:prime_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:prime_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:prime_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_prime_coin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "prime_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:prime_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:prime_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:prime_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_prime_coin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "prime_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:prime_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:prime_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:prime_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:pink_prime_coin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "prime_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:prime_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:prime_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:prime_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:green_prime_coin"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

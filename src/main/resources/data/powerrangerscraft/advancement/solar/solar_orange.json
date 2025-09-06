@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:orange_solarix"
+    },
+    "title": "Lesbians!",
+    "description": "Change into the Orange Solar Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:solar/solar_purple",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:solar_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:solar_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:solar_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:orange_solarix"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:omega_blue_morpher"
+    },
+    "title": "Omega Water Power!",
+    "description": "Change into the Blue Omega Ranger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:omega/omega_yellow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:omega_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:omega_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:omega_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:omega_blue_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
