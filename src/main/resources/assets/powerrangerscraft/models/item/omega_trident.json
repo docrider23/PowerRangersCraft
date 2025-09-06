@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "powerrangerscraft:item/omega_trident"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [0, 1, 2],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -55],
+			"translation": [0, 1, 2],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [148.29, -70.85, 168.33],
+			"translation": [0, 0.25, 1],
+			"scale": [2.5, 2.5, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [57.49, 75.28, -170.58],
+			"translation": [0, 3, 1],
+			"scale": [2.5, 2.5, 0.75]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, 13, 7]
+		}
+	},
+	"_comment": "Generated using MiningMark48's JSON Generator."
+}

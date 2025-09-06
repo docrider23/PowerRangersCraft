@@ -2,7 +2,8 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:comics/prime/red_prime_coin"
+      "powerrangerscraft:comics/prime/red_prime_coin",
+      "powerrangerscraft:comics/prime/prime_red_sword_blade"
     ]
   },
   "criteria": {

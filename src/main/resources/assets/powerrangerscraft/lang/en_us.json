@@ -232,6 +232,8 @@
   "item.powerrangerscraft.magna_sword": "Magna Sword",
 
   //08 Lightspeed Rescue
+  "tab.powerrangerscraft.lightspeed_rescue": "Lightspeed Rescue",
+
   "item.powerrangerscraft.lightspeed_rescue_logo": "Lightspeed Rescue Logo",
 
   //09 Time Force
@@ -911,6 +913,11 @@
   "powerrangerscraft:omega_gold_logo.form": "Ranger: §6Gold Ranger",
   "powerrangerscraft:omega_gold_logo_death.form": "Villain: §6Death Ranger",
 
+  "item.powerrangerscraft.omega_katana": "Omega Katana",
+  "item.powerrangerscraft.omega_kama": "Omega Kama",
+  "item.powerrangerscraft.omega_hammer": "Omega Hammer",
+  "item.powerrangerscraft.omega_trident": "Omega Trident",
+
   //EX Comics: Prime Rangers
   "item.powerrangerscraft.prime_ritas_wand": "Rita Replusa (Prime)'s Wand",
 
@@ -938,6 +945,12 @@
   "powerrangerscraft:yellow_talon.form": "Ranger: §eYellow Ranger",
   "powerrangerscraft:pink_gem.form": "Ranger: §dPink Ranger",
   "powerrangerscraft:green_sphere.form": "Ranger: §aGreen Ranger",
+
+  "item.powerrangerscraft.prime_red_sword_blade": "Prime Sword Blade",
+  "item.powerrangerscraft.prime_yellow_dagger_blade": "Prime Dagger Blade",
+  "item.powerrangerscraft.prime_black_staff": "Prime Staff",
+  "item.powerrangerscraft.prime_pink_mace": "Prime Mace",
+  "item.powerrangerscraft.prime_rita_staff": "Prime Rita's Staff",
 
   //EX 2017 Reboot
   "tab.powerrangerscraft.reboot": "Power Rangers (2017)",

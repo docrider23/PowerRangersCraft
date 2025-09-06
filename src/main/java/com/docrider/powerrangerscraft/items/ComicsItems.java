@@ -111,6 +111,15 @@ public class ComicsItems {
     public static final DeferredItem<Item> OMEGA_GOLD_MORPHER = ITEMS.register("omega_gold_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_gold", OMEGA_GOLD_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
 
+    public static final DeferredItem<BaseSwordItem> OMEGA_KATANA = ITEMS.register("omega_katana",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+    public static final DeferredItem<BaseSwordItem> OMEGA_HAMMER = ITEMS.register("omega_hammer",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+    public static final DeferredItem<BaseSwordItem> OMEGA_KAMA = ITEMS.register("omega_kama",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+    public static final DeferredItem<SwordItem> OMEGA_TRIDENT = ITEMS.register("omega_trident",
+            () -> new BaseThrowableItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(OMEGA_LOGO.get()));
+
     //Prime Rangers
     public static final DeferredItem<Item> PRIME_RITAS_WAND = ITEMS.register("prime_ritas_wand",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.COMICS));
@@ -153,6 +162,17 @@ public class ComicsItems {
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_pink", PINK_GEM, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<Item> GREEN_PRIME_COIN = ITEMS.register("green_prime_coin",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_green", GREEN_SPHERE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+
+    public static final DeferredItem<BaseSwordItem> PRIME_RED_SWORD_BLADE = ITEMS.register("priem_red_sword_blade",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<BaseSwordItem> PRIME_YELLOW_DAGGER_BLADE = ITEMS.register("prime_yellow_dagger_blade",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<BaseSwordItem> PRIME_BLACK_STAFF = ITEMS.register("prime_black_staff",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<BaseSwordItem> PRIME_PINK_MACE = ITEMS.register("prime_pink_mace",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<BaseBlasterItem> PRIME_RITA_STAFF = ITEMS.register("prime_rita_staff",
+            () -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).setProjectileFireball().ChangeRepairItem(PRIME_RITAS_WAND.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

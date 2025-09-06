@@ -2,7 +2,8 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:comics/omega/omega_yellow_morpher"
+      "powerrangerscraft:comics/omega/omega_yellow_morpher",
+      "powerrangerscraft:comics/omega/omega_hammer"
     ]
   },
   "criteria": {

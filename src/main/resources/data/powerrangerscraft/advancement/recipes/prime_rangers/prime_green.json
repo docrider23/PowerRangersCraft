@@ -2,7 +2,8 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:comics/prime/green_prime_coin"
+      "powerrangerscraft:comics/prime/green_prime_coin",
+      "powerrangerscraft:comics/prime/prime_rita_staff"
     ]
   },
   "criteria": {
