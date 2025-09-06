@@ -3,13 +3,19 @@ package com.docrider.powerrangerscraft.events;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.entity.boss.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.*;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.npc.VillagerTrades;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.trading.ItemCost;
+import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.level.GameRules;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.levelgen.Heightmap;
@@ -19,7 +25,9 @@ import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import net.neoforged.neoforge.event.village.VillagerTradesEvent;
+import net.neoforged.neoforge.event.village.WandererTradesEvent;
 
+import java.util.List;
 import java.util.Objects;
 
 public class ModCommonEvents {public static class EventHandler {
@@ -85,7 +93,16 @@ public class ModCommonEvents {public static class EventHandler {
 
     public static class CommonEvents {
 
-        @SubscribeEvent
+    @SubscribeEvent
+    public void addCustomWandererTrades(WandererTradesEvent event) {
+        List<VillagerTrades.ItemListing> trades = event.getGenericTrades();
+        trades.add((trader,rand) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 5),
+                new ItemStack(OtherItems.BATTLE_FOR_THE_GRID_GAME.get(), 1), 10, 8, 0.02F
+        ));
+    }
+
+    @SubscribeEvent
         public void addCustomTrades(VillagerTradesEvent event) {
 
         }

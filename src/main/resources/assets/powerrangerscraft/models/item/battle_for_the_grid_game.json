@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "powerrangerscraft:item/battle_for_the_grid_game"
+	},
+	"display": {
+		"gui": {
+			"scale": [0.75, 1, 1]
+		}
+	},
+	"_comment": "Generated using MiningMark48's JSON Generator."
+}

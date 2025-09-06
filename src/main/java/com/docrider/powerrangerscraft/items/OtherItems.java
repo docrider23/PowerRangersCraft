@@ -6,6 +6,7 @@ import com.docrider.powerrangerscraft.items.others.BaseItem;
 import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
 import com.docrider.powerrangerscraft.sounds.ModSounds;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -17,6 +18,9 @@ public class OtherItems {
 
     public static String[] SentaiRobo = new String[] {"wild_force_megazord","kongazord","predazord","predazord_blue_moon",
             "isis_megazord","animus","ultimus_megazord"};
+
+    public static final DeferredItem<Item> BLANK_FORM = ITEMS.register("blank_form",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","",""));
 
     public static final DeferredItem<Item> BASE_SWORD = ITEMS.register("base_sword",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
@@ -30,8 +34,21 @@ public class OtherItems {
     public static final DeferredItem<Item> TRANSPORTAL_DEVICE = ITEMS.register("transportal_device",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
-    public static final DeferredItem<Item> BLANK_FORM = ITEMS.register("blank_form",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","",""));
+    public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME_REBOOT_BLUE = ITEMS.register("battle_for_the_grid_game_reboot_blue",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","reboot_blue","reboot_blue_belt"));
+    public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME_MAGNA_DEFENDER = ITEMS.register("battle_for_the_grid_game_magna_defender",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","magna_defender","magna_defender_belt_game",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+                    new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false)).ChangeModel("geo/magna_defender.geo.json").ChangeBeltModel("geo/magna_defender_belt.geo.json").addAlternative(BATTLE_FOR_THE_GRID_GAME_REBOOT_BLUE.get()));
+    public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME = ITEMS.register("battle_for_the_grid_game",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","princess_samurai_red","samurai_belt",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 2,true,false),
+                    new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false),
+                    new MobEffectInstance(EffectCore.FIRESLASH, 40, 2,true,false)).alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltweapon.geo.json").addAlternative(BATTLE_FOR_THE_GRID_GAME_MAGNA_DEFENDER.get()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> POWER_RANGERS_LOGO = ITEMS.register("power_rangers_logo",
             () -> new RangerFormChangeItem(new Item.Properties(), 0, "", "", "",
@@ -39,9 +56,6 @@ public class OtherItems {
                     .ChangeSlot(2).addSwitchForm(BLANK_FORM.get()).AddCompatibilityList(SentaiRobo).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> ALIEN_LOGO = ITEMS.register("alien_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> LIGHTSPEED_RESCUE_LOGO = ITEMS.register("lightspeed_rescue_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> TIME_FORCE_LOGO = ITEMS.register("time_force_logo",
