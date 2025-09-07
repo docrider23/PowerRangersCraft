@@ -5,7 +5,13 @@
 		"layer0": "powerrangerscraft:item/battle_for_the_grid_game"
 	},
 	"display": {
+		"ground": {
+			"scale": [0.75, 1, 1]
+		},
 		"gui": {
+			"scale": [0.75, 1, 1]
+		},
+		"fixed": {
 			"scale": [0.75, 1, 1]
 		}
 	},

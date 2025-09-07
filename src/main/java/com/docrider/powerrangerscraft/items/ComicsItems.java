@@ -163,7 +163,7 @@ public class ComicsItems {
     public static final DeferredItem<Item> GREEN_PRIME_COIN = ITEMS.register("green_prime_coin",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_green", GREEN_SPHERE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
 
-    public static final DeferredItem<BaseSwordItem> PRIME_RED_SWORD_BLADE = ITEMS.register("priem_red_sword_blade",
+    public static final DeferredItem<BaseSwordItem> PRIME_RED_SWORD_BLADE = ITEMS.register("prime_red_sword_blade",
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<BaseSwordItem> PRIME_YELLOW_DAGGER_BLADE = ITEMS.register("prime_yellow_dagger_blade",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
