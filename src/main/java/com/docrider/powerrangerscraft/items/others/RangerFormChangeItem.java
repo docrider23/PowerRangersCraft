@@ -27,6 +27,7 @@ public class RangerFormChangeItem extends BaseItem {
     private String BELT_TEX;
     private String UPDATED_MODEL;
     private String UPDATED_BELT;
+    private String UPDATED_ANIMATION;
     private String FLYING_MODEL;
     private Boolean FLYING_TEXT = false;
     public Item SHIFT_ITEM = Items.APPLE;
@@ -92,6 +93,10 @@ public class RangerFormChangeItem extends BaseItem {
         return "geo/rangerbelt.geo.json";
     }
 
+    public String get_Animation() {
+        return (UPDATED_ANIMATION!=null ? "animations/"+UPDATED_ANIMATION : "animations/ranger.animation.json");
+    }
+
     public String getRangerName(String name) {
         return (OVERRIDE_RANGER_NAME!=null ? OVERRIDE_RANGER_NAME : name);
     }
@@ -110,6 +115,11 @@ public class RangerFormChangeItem extends BaseItem {
 
     public RangerFormChangeItem ChangeModel(String model) {
         UPDATED_MODEL=model;
+        return this;
+    }
+
+    public RangerFormChangeItem ChangeAnimation(String animation) {
+        UPDATED_ANIMATION=animation;
         return this;
     }
 

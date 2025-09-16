@@ -151,7 +151,8 @@ public class StarrangerItems {
     public static final DeferredItem<SwordItem> OPHIUCHUS_STAFF = ITEMS.register("ophiuchus_staff",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).isChanger(OPHIUCHUS_STAFF_MASTAR.get()).ChangeRepairItem(STARRANGER_LOGO.get()));
     public static final DeferredItem<BaseBlasterItem> COSMIC_STAFF = ITEMS.register("cosmic_staff",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).isChanger(COSMIC_STAFF_MASTAR.get()).setProjectileFireball().AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).isChanger(COSMIC_STAFF_MASTAR.get()).setProjectile(BaseBlasterItem
+					.BlasterProjectile.SMALL_FIREBALL).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -50,7 +50,7 @@ public class ComicsItems {
     public static final DeferredItem<Item> YELLOW_SOLARIX = ITEMS.register("yellow_solarix",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_yellow", ZeoItems.YELLOW_ZEO_SUB_CRYSTAL, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> GREEN_SOLARIX = ITEMS.register("green_solarix",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_green", NinjaStormItems.GREEN_SAMURAI_NINJA_DISK, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_green", NinjaStormItems.GREEN_SAMURAI_NINJA_POWER_DISK, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> PINK_SOLARIX = ITEMS.register("pink_solarix",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_pink", RANGER_SLAYER_POWER_COIN, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
 
@@ -172,7 +172,7 @@ public class ComicsItems {
     public static final DeferredItem<BaseSwordItem> PRIME_PINK_MACE = ITEMS.register("prime_pink_mace",
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<BaseBlasterItem> PRIME_RITA_STAFF = ITEMS.register("prime_rita_staff",
-            () -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).setProjectileFireball().ChangeRepairItem(PRIME_RITAS_WAND.get()));
+            () -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(PRIME_RITAS_WAND.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -113,7 +113,8 @@ public class TurboItems {
 	public static final DeferredItem<BaseBlasterItem> TURBO_HAND_BLASTER = ITEMS.register("turbo_hand_blaster",
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 	public static final DeferredItem<BaseBlasterItem> TURBO_THUNDER_CANNON = ITEMS.register("turbo_thunder_cannon",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).setProjectileLargeFireball(1).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem
+					.BlasterProjectile.LARGE_FIREBALL).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 	public static final DeferredItem<SwordItem> TURBO_STAR_CHARGER = ITEMS.register("turbo_star_charger",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 	public static final DeferredItem<BaseBlasterItem> TURBO_WIND_FIRE = ITEMS.register("turbo_wind_fire",

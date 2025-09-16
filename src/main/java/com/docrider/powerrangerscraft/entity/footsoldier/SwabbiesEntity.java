@@ -27,7 +27,7 @@ public class SwabbiesEntity extends BaseFootsoldierEntity {
 
                     if (this.getLastAttacker()instanceof Player){
                         Player playerIn = (Player) this.getLastAttacker();
-                        playerIn.sendSystemMessage(Component.translatable("change.powerrangerscraftt.magna_defender"));
+                        playerIn.sendSystemMessage(Component.translatable("change.powerrangerscraft.magna_defender"));
                     }
                 }
             }

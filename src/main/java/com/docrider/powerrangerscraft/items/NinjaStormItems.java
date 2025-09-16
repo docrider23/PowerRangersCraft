@@ -14,7 +14,7 @@ public class NinjaStormItems {
     public static final DeferredItem<Item> NINJA_STORM_LOGO = ITEMS.register("ninja_storm_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
-    public static final DeferredItem<Item> GREEN_SAMURAI_NINJA_DISK = ITEMS.register("green_samurai_ninja_disk",
+    public static final DeferredItem<Item> GREEN_SAMURAI_NINJA_POWER_DISK = ITEMS.register("green_samurai_ninja_power_disk",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_green","blank")
                     .AddToTabList(RangerTabs.COMICS));
 

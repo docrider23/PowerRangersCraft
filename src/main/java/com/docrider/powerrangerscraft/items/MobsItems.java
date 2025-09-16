@@ -44,7 +44,8 @@ public class MobsItems {
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 
 	public static final DeferredItem<BaseBlasterItem> RITAS_STAFF = ITEMS.register("ritas_staff",
-			() -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).setProjectileFireball().ChangeRepairItem(Items.GOLD_INGOT));
+			() -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).setProjectile(BaseBlasterItem
+					.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(Items.GOLD_INGOT));
 
 	public static final DeferredItem<SwordItem> ELTARIAN_STUNSTICK = ITEMS.register("eltarian_stunstick",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));

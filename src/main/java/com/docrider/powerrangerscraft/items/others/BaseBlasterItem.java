@@ -1,10 +1,10 @@
 package com.docrider.powerrangerscraft.items.others;
 
-import com.docrider.powerrangerscraft.items.MMPRItems;
 import com.google.common.collect.ImmutableMultimap;
-import com.google.common.collect.Multimap;
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
+import com.docrider.powerrangerscraft.items.MMPRItems;
+import net.minecraft.core.BlockPos;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;
@@ -27,6 +27,7 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
 import net.neoforged.neoforge.event.EventHooks;
 
@@ -34,30 +35,71 @@ import javax.annotation.Nullable;
 import java.util.List;
 
 public class BaseBlasterItem extends BowItem {
-
-	private final float attackDamage;
-	private final Multimap<Attribute, AttributeModifier> defaultModifiers;
-
 	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
-	private Item ChangerItem = MMPRItems.MMPR_LOGO.get();
+	private Item Changer = null;
+	private Boolean Charged = false;
+	private Boolean SuperGun = false;
+	private static int LFBB = 1;
 	private Item craftingRemainingItem = null;
 
-	private Boolean LFB = false;
-	private int LFBB = 1;
-	private Boolean SFB = false;
-	private Boolean EP = false;
-	private Boolean WS = false;
-	private Boolean CK = false;
-	private Boolean DFB = false;
-	private Boolean Changer = false;
-	private Boolean Charged = false;
-	
+	public enum BlasterProjectile {
+		ARROW,
+		SMALL_FIREBALL {
+			public void fire(LivingEntity user, Vec3 movement) {
+				SmallFireball smallfireball = new SmallFireball(user.level(), user, movement.normalize());
+				smallfireball.setPos(smallfireball.getX(), user.getY(0.5) + 0.5, smallfireball.getZ());
+				user.level().addFreshEntity(smallfireball);
+			}
+		},
+		LARGE_FIREBALL {
+			public void fire(LivingEntity user, Vec3 movement) {
+				LargeFireball largefireball = new LargeFireball(user.level(), user, movement.normalize(), LFBB);
+				largefireball.setPos(largefireball.getX(), user.getY(0.5) + 0.5, largefireball.getZ());
+				user.level().addFreshEntity(largefireball);
+			}
+		},
+		ENDER_PEARL {
+			public void fire(LivingEntity user, Vec3 movement) {
+				ThrownEnderpearl fireball = new ThrownEnderpearl(user.level(),user);
+				fireball.setPos(fireball.getX(), user.getY(0.5D) + 0.5D, fireball.getZ());
+				fireball.addDeltaMovement(movement.scale(3));
+				user.level().addFreshEntity(fireball);
+			}
+		},
+		WITHER_SKULL {
+			public void fire(LivingEntity user, Vec3 movement) {
+				WitherSkull fireball = new WitherSkull(user.level(), user,movement.normalize());
+				fireball.setPos(fireball.getX(), user.getY(0.5D) + 0.5D, fireball.getZ());
+				user.level().addFreshEntity(fireball);
+			}
+		},
+		EGG {
+			public void fire(LivingEntity user, Vec3 movement) {
+				ThrownEgg fireball = new ThrownEgg(user.level(),user);
+				fireball.setPos(fireball.getX(), user.getY(0.5D) + 0.5D, fireball.getZ());
+				fireball.addDeltaMovement(movement.scale(3));
+				user.level().addFreshEntity(fireball);
+			}
+		},
+		DRAGON_FIREBALL {
+			public void fire(LivingEntity user, Vec3 movement) {
+				DragonFireball dragonfireball = new DragonFireball(user.level(), user, movement.normalize());
+				dragonfireball.setPos(dragonfireball.getX(), user.getY(0.5D) + 0.5D, dragonfireball.getZ());
+				user.level().addFreshEntity(dragonfireball);
+			}
+		};
+
+		public void fire(LivingEntity player, Vec3 vec3) {}
+	}
+	private BlasterProjectile projectile = BlasterProjectile.ARROW;
+
 	public BaseBlasterItem(Tier toolTier, int Atk, float Spd, Properties prop) {
 		super(prop.durability(toolTier.getUses()).attributes(SwordItem.createAttributes(Tiers.DIAMOND, Atk, Spd)));
-		this.attackDamage = (float)Atk;
 		ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
-		this.defaultModifiers = builder.build();
-
+	}
+	public BaseBlasterItem AddToTabList(List<Item> TabList) {
+		TabList.add(this);
+		return this;
 	}
 
 	public BaseBlasterItem KeepDifItem(Item Dif) {
@@ -87,73 +129,40 @@ public class BaseBlasterItem extends BowItem {
 		return ((BaseBlasterItem)stack.getItem()).craftingRemainingItem!=null;
 	}
 
-	public float getDamage() {
-		return this.attackDamage;
+
+	@Override
+	public boolean canAttackBlock(BlockState state, Level level, BlockPos pos, Player player) {
+		return !player.isCreative();
 	}
 
 	public void releaseUsing(ItemStack stack, Level level, LivingEntity entityLiving, int timeLeft) {
-		if (entityLiving instanceof Player player) {
-			ItemStack itemstack = new ItemStack(Items.ARROW, 1);
-			itemstack.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
-
-			List<ItemStack> list = draw(stack, itemstack, player);
-			if (level instanceof ServerLevel) {
-				if (Changer && player.getItemBySlot(EquipmentSlot.FEET)==ItemStack.EMPTY) {
-					player.setItemSlot(EquipmentSlot.FEET, new ItemStack(ChangerItem));
-					if (player.getItemBySlot(EquipmentSlot.OFFHAND).getItem() instanceof RangerFormChangeItem) player.getItemBySlot(EquipmentSlot.OFFHAND).getItem().use(level, player, InteractionHand.OFF_HAND);
-				}
-				ServerLevel serverlevel = (ServerLevel)level;
-				if (!list.isEmpty()) {
-
-					Vec3 vec3 = player.getLookAngle();
-					if (SFB){
-						SmallFireball smallfireball = new SmallFireball(player.level(), player, vec3.normalize());
-						smallfireball.setPos(smallfireball.getX(), player.getY(0.5) + 0.5, smallfireball.getZ());
-						player.level().addFreshEntity(smallfireball);
-						stack.hurtAndBreak(1, player, LivingEntity.getSlotForHand(player.getUsedItemHand()));
-					}else if (LFB){
-						LargeFireball largefireball = new LargeFireball(player.level(), player, vec3.normalize(),LFBB);
-						largefireball.setPos(largefireball.getX(), player.getY(0.5) + 0.5, largefireball.getZ());
-						player.level().addFreshEntity(largefireball);
-						stack.hurtAndBreak(1, player, LivingEntity.getSlotForHand(player.getUsedItemHand()));
-					}else if (DFB) {
-						DragonFireball dragonfireball = new DragonFireball(player.level(), player, vec3.normalize());
-						dragonfireball.setPos(dragonfireball.getX(), player.getY(0.5D) + 0.5D, dragonfireball.getZ());
-						player.level().addFreshEntity(dragonfireball);
-						stack.hurtAndBreak(1, player, LivingEntity.getSlotForHand(player.getUsedItemHand()));
-					}else if (CK) {
-						ThrownEgg fireball = new ThrownEgg(player.level(),player);
-						fireball.setPos(fireball.getX(), player.getY(0.5D) + 0.5D, fireball.getZ());
-						fireball.setDeltaMovement( fireball.getDeltaMovement().add(vec3.x*3, vec3.y*3, vec3.z*3));
-						player.level().addFreshEntity(fireball);
-						stack.hurtAndBreak(1, player, LivingEntity.getSlotForHand(player.getUsedItemHand()));
-					}else if (WS) {
-						WitherSkull fireball = new WitherSkull(player.level(), player,vec3.normalize());
-						fireball.setPos(fireball.getX(), player.getY(0.5D) + 0.5D, fireball.getZ());
-						player.level().addFreshEntity(fireball);
-						stack.hurtAndBreak(1, player, LivingEntity.getSlotForHand(player.getUsedItemHand()));
-					}
-					else if (EP) {
-						ThrownEnderpearl fireball = new ThrownEnderpearl(player.level(),player);
-						fireball.setPos(fireball.getX(), player.getY(0.5D) + 0.5D, fireball.getZ());
-						fireball.setDeltaMovement( fireball.getDeltaMovement().add(vec3.x*3, vec3.y*3, vec3.z*3));
-						player.level().addFreshEntity(fireball);
-						stack.hurtAndBreak(1, player, LivingEntity.getSlotForHand(player.getUsedItemHand()));
-					}
-					else if (Charged) {
-						if (get_mode(stack)<30) set_mode(stack,get_mode(stack)+1);
-						else if (get_mode(stack)==30) {
-							player.addEffect(new MobEffectInstance(EffectCore.EXPLOSIONSHOT, 40, 2,true,false));
-						}
-
-						this.shoot(serverlevel, player, player.getUsedItemHand(), stack, list, 3, 1.0F, true, (LivingEntity)null);
-					}
-
-					else this.shoot(serverlevel, player, player.getUsedItemHand(), stack, list, 3, 1.0F, true, (LivingEntity)null);
-				}
-				level.playSound((Player)null, player.getX(), player.getY(), player.getZ(), SoundEvents.BLAZE_SHOOT, SoundSource.PLAYERS, 1.0F, 1.0F / (level.getRandom().nextFloat() * 0.4F + 1.2F) + 1 * 0.5F);
-				player.awardStat(Stats.ITEM_USED.get(this));
+		if (entityLiving instanceof Player player && level instanceof ServerLevel serverlevel) {
+			if (Changer != null && player.getItemBySlot(EquipmentSlot.FEET)==ItemStack.EMPTY) {
+				player.setItemSlot(EquipmentSlot.FEET, new ItemStack(Changer));
+				if (player.getItemBySlot(EquipmentSlot.OFFHAND).getItem() instanceof RangerFormChangeItem formItem) formItem.use(level, player, InteractionHand.OFF_HAND);
 			}
+			else if (projectile != BlasterProjectile.ARROW) {
+				projectile.fire(player, player.getLookAngle());
+				stack.hurtAndBreak(1, player, LivingEntity.getSlotForHand(player.getUsedItemHand()));
+			}
+			else if (SuperGun) {
+				ItemStack arrow = new ItemStack(Items.ARROW, 1);
+				arrow.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
+				this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 2 * 3.0F, 1.0F, true, (LivingEntity)null);
+			}
+			else {
+				if (Charged) {
+					if (get_mode(stack) < 30) set_mode(stack, get_mode(stack) + 1);
+					else if (get_mode(stack) == 30) {
+						player.addEffect(new MobEffectInstance(EffectCore.EXPLOSIONSHOT, 40, 2, true, false));
+					}
+				}
+				ItemStack arrow = new ItemStack(Items.ARROW, 1);
+				arrow.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
+				this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 3, 1.0F, true, (LivingEntity)null);
+			}
+			level.playSound((Player)null, player.getX(), player.getY(), player.getZ(), SoundEvents.BLAZE_SHOOT, SoundSource.PLAYERS, 1.0F, 1.0F / (level.getRandom().nextFloat() * 0.4F + 1.2F) + 1 * 0.5F);
+			player.awardStat(Stats.ITEM_USED.get(this));
 		}
 
 	}
@@ -176,13 +185,12 @@ public class BaseBlasterItem extends BowItem {
 		}
 	}
 
-	public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-		return true;
-	}
 
 	public int getDefaultProjectileRange() {
 		return 30;
 	}
+
+
 
 	public BaseBlasterItem ChangeRepairItem(Item item) {
 		RepairItem = item;
@@ -193,8 +201,8 @@ public class BaseBlasterItem extends BowItem {
 		return p_40393_.getItem()== RepairItem;
 	}
 
-	public BaseBlasterItem IsSwordGun() {
-		PowerRangersCraftCore.SWORD_GUN_ITEM.add(this);
+	public BaseBlasterItem isChanger(Item item) {
+		Changer =item;
 		return this;
 	}
 
@@ -204,41 +212,41 @@ public class BaseBlasterItem extends BowItem {
 		return this;
 	}
 
-	public BaseBlasterItem setProjectileLargeFireball(int blast) {
-		LFB=true;
+	public BaseBlasterItem IsSwordGun() {
+		PowerRangersCraftCore.SWORD_GUN_ITEM.add(this);
+		return this;
+	}
+
+	public BaseBlasterItem IsSuperGun() {
+		SuperGun = true;
+		return this;
+	}
+
+	public BaseBlasterItem setProjectile(BlasterProjectile type) {
+		projectile = type;
+		return this;
+	}
+
+	public BaseBlasterItem setExplosionPower(int blast) {
 		LFBB=blast;
 		return this;
 	}
-	public BaseBlasterItem setProjectileDragonFireball() {
-		DFB=true;
-		return this;
-	}
-	public BaseBlasterItem setProjectileFireball() {
-		SFB=true;
-		return this;
+
+	public BlasterProjectile getProjectile() {
+		return this.projectile;
 	}
 
-	public BaseBlasterItem setProjectileWitherSkull() {
-		WS=true;
-		return this;
-	}
-	public BaseBlasterItem setProjectileEnderpearl() {
-		EP=true;
-		return this;
-	}
-	public BaseBlasterItem setProjectileEgg() {
-		CK=true;
-		return this;
-	}
-	public BaseBlasterItem AddToTabList(List<Item> TabList) {
-		TabList.add(this);
-		return this;
+	public int getExplosionPower() {
+		return LFBB;
 	}
 
-	public BaseBlasterItem isChanger(Item item) {
-		ChangerItem = item;
-		Changer = true;
-		return this;
+	public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+		return true;
+	}
+
+	@Override
+	public void postHurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+		stack.hurtAndBreak(1, attacker, EquipmentSlot.MAINHAND);
 	}
 
 	public static void set_mode(ItemStack itemstack, int flag)
@@ -265,5 +273,4 @@ public class BaseBlasterItem extends BowItem {
 	public static ItemAttributeModifiers createAttributes(Tier p_330371_, float p_331976_, float p_332104_) {
 		return ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, (double)(p_331976_ + p_330371_.getAttackDamageBonus()), AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, (double)p_332104_, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build();
 	}
-
 }
