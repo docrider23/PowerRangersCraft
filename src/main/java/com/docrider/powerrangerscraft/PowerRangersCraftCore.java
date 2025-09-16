@@ -79,7 +79,7 @@ public class PowerRangersCraftCore {
         TurboItems.register(modEventBus);
         InSpaceItems.register(modEventBus);
         LostGalaxyItems.register(modEventBus);
-        //LightspeedRescueItems.register(modEventBus);
+        LightspeedRescueItems.register(modEventBus);
         //TimeForceItems.register(modEventBus);
         WildForceItems.register(modEventBus);
         NinjaStormItems.register(modEventBus);

@@ -39,6 +39,10 @@ public class RangerTabs {
             CreativeModeTab.builder().icon(() -> new ItemStack(LostGalaxyItems.LOST_GALAXY_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_lost_galaxy_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.lost_galaxy")).build());
 
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> LightspeedRescueTab = CREATIVE_MODE_TABS.register("prc008", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(LightspeedRescueItems.LIGHTSPEED_RESCUE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_lightspeed_rescue_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.lightspeed_rescue")).build());
+
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> WildForceTab = CREATIVE_MODE_TABS.register("prc010", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(WildForceItems.WILD_FORCE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_wild_force_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.wild_force")).build());
@@ -96,6 +100,8 @@ public class RangerTabs {
 
     public static List<Item> LOST_GALAXY= new ArrayList<Item>();
 
+    public static List<Item> LIGHTSPEED_RESCUE= new ArrayList<Item>();
+
     public static List<Item> WILD_FORCE= new ArrayList<Item>();
 
     public static List<Item> SAMURAI= new ArrayList<Item>();
@@ -146,6 +152,12 @@ public class RangerTabs {
                 event.accept( RangerTabs.LOST_GALAXY.get(i));
             }
 
+        }
+        else if(event.getTab() == RangerTabs.LightspeedRescueTab.get()) {
+            for (int i = 0; i < RangerTabs.LIGHTSPEED_RESCUE.size(); i++)
+            {
+                event.accept(RangerTabs.LIGHTSPEED_RESCUE.get(i));
+            }
         }
         else if(event.getTab() == RangerTabs.WildForceTab.get()) {
             for (int i = 0; i < RangerTabs.WILD_FORCE.size(); i++)
