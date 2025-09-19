@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lightspeed_rescue",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:rescue_claw"
+    },
+	{
+      "item": "powerrangerscraft:rescue_spray"
+    },
+	{
+      "item": "powerrangerscraft:rescue_cutter"
+    },
+	{
+      "item": "powerrangerscraft:rescue_drill"
+    },
+	{
+      "item": "powerrangerscraft:rescue_injector"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:rescue_bird_unilaser_mode"
+  }
+}

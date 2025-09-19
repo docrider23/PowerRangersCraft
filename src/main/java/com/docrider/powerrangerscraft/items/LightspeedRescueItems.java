@@ -2,7 +2,7 @@ package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.items.lightspeed_rescue.RescueMorpherItem;
-import com.docrider.powerrangerscraft.items.lightspeed_rescue.TailInjectorItem;
+import com.docrider.powerrangerscraft.items.lightspeed_rescue.RescueInjectorItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -52,7 +52,8 @@ public class LightspeedRescueItems {
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","titanium_ranger","titanium_ranger_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false))
+                    .AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_RESCUE_HELMET = ITEMS.register("lightspeed_rescue_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
@@ -71,6 +72,9 @@ public class LightspeedRescueItems {
             () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_yellow",LIGHTSPEED_YELLOW_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
     public static final DeferredItem<Item> PINK_RESCUE_MORPHER = ITEMS.register("pink_rescue_morpher",
             () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_pink",LIGHTSPEED_PINK_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+
+    public static final DeferredItem<Item> TITANIUM_MORPHER = ITEMS.register("titanium_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"titanium_ranger",TITANIUM_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
     public static final DeferredItem<Item> BLASTER_GRIP_RED = ITEMS.register("blaster_grip_red",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
@@ -105,19 +109,66 @@ public class LightspeedRescueItems {
     public static final DeferredItem<BaseThrowableItem> V_BOOMERANG_PINK = ITEMS.register("v_boomerang_pink",
             () -> new BaseThrowableItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
-    public static final DeferredItem<SwordItem> CLAW_ANCHOR = ITEMS.register("claw_anchor",
+    public static final DeferredItem<SwordItem> V_LANCER_RED = ITEMS.register("v_lancer_red",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<SwordItem> V_LANCER_BLUE = ITEMS.register("v_lancer_blue",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<SwordItem> V_LANCER_GREEN = ITEMS.register("v_lancer_green",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<SwordItem> V_LANCER_YELLOW = ITEMS.register("v_lancer_yellow",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<SwordItem> V_LANCER_PINK = ITEMS.register("v_lancer_pink",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> V_BLASTER_RED = ITEMS.register("v_blaster_red",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.LARGE_FIREBALL).KeepDifItem(V_LANCER_RED.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> V_BLASTER_BLUE = ITEMS.register("v_blaster_blue",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.LARGE_FIREBALL).KeepDifItem(V_LANCER_BLUE.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> V_BLASTER_GREEN = ITEMS.register("v_blaster_green",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.LARGE_FIREBALL).KeepDifItem(V_LANCER_GREEN.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> V_BLASTER_YELLOW = ITEMS.register("v_blaster_yellow",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.LARGE_FIREBALL).KeepDifItem(V_LANCER_YELLOW.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> V_BLASTER_PINK = ITEMS.register("v_blaster_pink",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.LARGE_FIREBALL).KeepDifItem(V_LANCER_PINK.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> THERMO_BLASTER_RED = ITEMS.register("thermo_blaster",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> THERMO_BLASTER_BLUE = ITEMS.register("thermo_blaster_blue",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> THERMO_BLASTER_GREEN = ITEMS.register("thermo_blaster_green",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> THERMO_BLASTER_YELLOW = ITEMS.register("thermo_blaster_yellow",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> THERMO_BLASTER_PINK = ITEMS.register("thermo_blaster_pink",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> THERMO_BLASTER_HYPER_RED = ITEMS.register("thermo_blaster_hyper",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().KeepDifItem(THERMO_BLASTER_RED.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> THERMO_BLASTER_HYPER_BLUE = ITEMS.register("thermo_blaster_hyper_blue",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().KeepDifItem(THERMO_BLASTER_BLUE.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> THERMO_BLASTER_HYPER_GREEN = ITEMS.register("thermo_blaster_hyper_green",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().KeepDifItem(THERMO_BLASTER_GREEN.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> THERMO_BLASTER_HYPER_YELLOW = ITEMS.register("thermo_blaster_hyper_yellow",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().KeepDifItem(THERMO_BLASTER_YELLOW.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> THERMO_BLASTER_HYPER_PINK = ITEMS.register("thermo_blaster_hyper_pink",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().KeepDifItem(THERMO_BLASTER_PINK.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+
+    public static final DeferredItem<SwordItem> RESCUE_CLAW = ITEMS.register("rescue_claw",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
-    public static final DeferredItem<BaseBlasterItem> BUILD_DISCHARGER = ITEMS.register("build_discharger",
+    public static final DeferredItem<BaseBlasterItem> RESCUE_SPRAY = ITEMS.register("rescue_spray",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
-    public static final DeferredItem<SwordItem> WING_SPREADER = ITEMS.register("wing_spreader",
+    public static final DeferredItem<SwordItem> RESCUE_CUTTER = ITEMS.register("rescue_cutter",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
-    public static final DeferredItem<PickaxeItem> BEAK_DRILLER = ITEMS.register("beak_driller",
+    public static final DeferredItem<PickaxeItem> RESCUE_DRILL = ITEMS.register("rescue_drill",
             () -> new BasePickaxeItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
-    public static final DeferredItem<BaseBlasterItem> TAIL_INJECTOR = ITEMS.register("tail_injector",
-            () -> new TailInjectorItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> RESCUE_INJECTOR = ITEMS.register("rescue_injector",
+            () -> new RescueInjectorItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
     public static final DeferredItem<BaseBlasterItem> RESCUE_BIRD_UNILASER_MODE = ITEMS.register("rescue_bird_unilaser_mode",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 10, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.LARGE_FIREBALL).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> TITANIUM_AXE = ITEMS.register("titanium_axe",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 10, -2.4F, new Item.Properties()).IsSwordGun().setProjectile(BaseBlasterItem.BlasterProjectile.LARGE_FIREBALL).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

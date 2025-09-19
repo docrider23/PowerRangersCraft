@@ -13,9 +13,9 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.event.EventHooks;
 
-public class TailInjectorItem extends BaseBlasterItem {
+public class RescueInjectorItem extends BaseBlasterItem {
 
-	public TailInjectorItem(Tier toolTier, int Atk, float Spd, Item.Properties prop) {
+	public RescueInjectorItem(Tier toolTier, int Atk, float Spd, Item.Properties prop) {
 		super(toolTier, Atk, Spd, prop);
 	}
 

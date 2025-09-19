@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "supersentaicraft:block/life_bird" },
+        "facing=south": { "model": "supersentaicraft:block/life_bird", "y": 180 },
+        "facing=west":  { "model": "supersentaicraft:block/life_bird", "y": 270 },
+        "facing=east":  { "model": "supersentaicraft:block/life_bird", "y": 90 }
+    }
+}

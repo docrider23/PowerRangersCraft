@@ -28,7 +28,7 @@
   "item.powerrangerscraft.putty_patroller_spawn_egg":"Putty Patrollers Spawn Egg",
 
   "entity.powerrangerscraft.chromite":"Chromites",
-  "entity.powerrangerscraft.piranhatrons": "Piranhatrons",
+  "entity.powerrangerscraft.piranhatron": "Piranhatrons",
   "entity.powerrangerscraft.blue_senturion_evil":"Reprogrammed Blue Senturion",
   "item.powerrangerscraft.chromite_spawn_egg":"Chromites Spawn Egg",
   "item.powerrangerscraft.piranhatron_spawn_egg": "Piranhatrons Spawn Egg",
@@ -236,6 +236,84 @@
 
   "item.powerrangerscraft.lightspeed_rescue_logo": "Lightspeed Rescue Logo",
 
+  "item.powerrangerscraft.lightspeed_rescue_head": "Lightspeed Rescue Helmet",
+  "item.powerrangerscraft.lightspeed_rescue_torso": "Lightspeed Rescue Chestplate",
+  "item.powerrangerscraft.lightspeed_rescue_legs": "Lightspeed Rescue Leggings",
+
+  "item.powerrangerscraft.red_rescue_morpher": "Rescue Morpher",
+  "item.powerrangerscraft.blue_rescue_morpher": "Rescue Morpher",
+  "item.powerrangerscraft.green_rescue_morpher": "Rescue Morpher",
+  "item.powerrangerscraft.yellow_rescue_morpher": "Rescue Morpher",
+  "item.powerrangerscraft.pink_rescue_morpher": "Rescue Morpher",
+  "item.powerrangerscraft.titanium_morpher": "Titanium Morpher",
+
+  "item.powerrangerscraft.lightspeed_red_badge":"Lightspeed Red Badge",
+  "item.powerrangerscraft.lightspeed_blue_badge":"Lightspeed Blue Badge",
+  "item.powerrangerscraft.lightspeed_green_badge":"Lightspeed Green Badge",
+  "item.powerrangerscraft.lightspeed_yellow_badge":"Lightspeed Yellow Badge",
+  "item.powerrangerscraft.lightspeed_pink_badge":"Lightspeed Pink Badge",
+  "item.powerrangerscraft.titanium_badge": "Titanium Ranger Badge",
+
+  "powerrangerscraft:lightspeed_red_badge.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:lightspeed_blue_badge.form": "Ranger: §9Blue Ranger",
+  "powerrangerscraft:lightspeed_green_badge.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft:lightspeed_yellow_badge.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:lightspeed_pink_badge.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:titanium_badge.form": "Ranger: §7Titanium Ranger",
+
+  "item.powerrangerscraft.blaster_grip_red": "Blaster Grip (Red Ranger)",
+  "item.powerrangerscraft.blaster_grip_blue": "Blaster Grip (Blue Ranger)",
+  "item.powerrangerscraft.blaster_grip_green": "Blaster Grip (Green Ranger)",
+  "item.powerrangerscraft.blaster_grip_yellow": "Blaster Grip (Yellow Ranger)",
+  "item.powerrangerscraft.blaster_grip_pink": "Blaster Grip (Pink Ranger)",
+
+  "item.powerrangerscraft.rescue_blaster_red": "Rescue Blaster (Red Ranger)",
+  "item.powerrangerscraft.rescue_blaster_blue": "Rescue Blaster (Blue Ranger)",
+  "item.powerrangerscraft.rescue_blaster_green": "Rescue Blaster (Green Ranger)",
+  "item.powerrangerscraft.rescue_blaster_yellow": "Rescue Blaster (Yellow Ranger)",
+  "item.powerrangerscraft.rescue_blaster_pink": "Rescue Blaster (Pink Ranger)",
+
+  "item.powerrangerscraft.v_boomerang_red": "V Boomerang (Red Ranger)",
+  "item.powerrangerscraft.v_boomerang_blue": "V Boomerang (Blue Ranger)",
+  "item.powerrangerscraft.v_boomerang_green": "V Boomerang (Green Ranger)",
+  "item.powerrangerscraft.v_boomerang_yellow": "V Boomerang (Yellow Ranger)",
+  "item.powerrangerscraft.v_boomerang_pink": "V Boomerang (Pink Ranger)",
+
+  "item.powerrangerscraft.v_lancer_red": "V Lancer (Red Ranger)",
+  "item.powerrangerscraft.v_lancer_blue": "V Lancer (Blue Ranger)",
+  "item.powerrangerscraft.v_lancer_green": "V Lancer (Green Ranger)",
+  "item.powerrangerscraft.v_lancer_yellow": "V Lancer (Yellow Ranger)",
+  "item.powerrangerscraft.v_lancer_pink": "V Lancer (Pink Ranger)",
+
+  "item.powerrangerscraft.v_blaster_red": "V Blaster (Red Ranger)",
+  "item.powerrangerscraft.v_blaster_blue": "V Blaster (Blue Ranger)",
+  "item.powerrangerscraft.v_blaster_green": "V Blaster (Green Ranger)",
+  "item.powerrangerscraft.v_blaster_yellow": "V Blaster (Yellow Ranger)",
+  "item.powerrangerscraft.v_blaster_pink": "V Blaster (Pink Ranger)",
+
+  "item.powerrangerscraft.thermo_blaster": "Thermo Blaster (Red Ranger)",
+  "item.powerrangerscraft.thermo_blaster_blue": "Thermo Blaster (Blue Ranger)",
+  "item.powerrangerscraft.thermo_blaster_green": "Thermo Blaster (Green Ranger)",
+  "item.powerrangerscraft.thermo_blaster_yellow": "Thermo Blaster (Yellow Ranger)",
+  "item.powerrangerscraft.thermo_blaster_pink": "Thermo Blaster (Pink Ranger)",
+
+  "item.powerrangerscraft.thermo_blaster_hyper": "Thermo Blaster (Hyper Mode) (Red Ranger)",
+  "item.powerrangerscraft.thermo_blaster_hyper_blue": "Thermo Blaster (Hyper Mode) (Blue Ranger)",
+  "item.powerrangerscraft.thermo_blaster_hyper_green": "Thermo Blaster (Hyper Mode) (Green Ranger)",
+  "item.powerrangerscraft.thermo_blaster_hyper_yellow": "Thermo Blaster (Hyper Mode) (Yellow Ranger)",
+  "item.powerrangerscraft.thermo_blaster_hyper_pink": "Thermo Blaster (Hyper Mode) (Pink Ranger)",
+
+  "item.supersentaicraft.rescue_claw": "Rescue Claw",
+  "item.supersentaicraft.rescue_spray": "Rescue Spray",
+  "item.supersentaicraft.rescue_cutter": "Rescue Cutter",
+  "item.supersentaicraft.rescue_drill": "Rescue Drill",
+  "item.supersentaicraft.rescue_injector": "Rescue Injector",
+
+  "block.supersentaicraft.rescue_bird": "Rescue Bird",
+  "item.supersentaicraft.rescue_bird_unilaser_mode": "Rescue Bird (Unilaser Mode)",
+
+  "item.powerrangerscraft.titanium_axe": "Titanium Axe",
+
   //09 Time Force
   "item.powerrangerscraft.time_force_logo": "Time Force Logo",
 
@@ -349,11 +427,11 @@
   "powerrangerscraft:animarium_buckle.form": "Ranger: §cRed Savage Warrior",
 
   "item.powerrangerscraft.crystal_saber":"Crystal Saber",
-  "item.powerrangerscraft.lion_crystal_saber":"Crystal Saber (Red)",
-  "item.powerrangerscraft.eagle_crystal_saber":"Crystal Saber (Yellow)",
-  "item.powerrangerscraft.shark_crystal_saber":"Crystal Saber (Blue)",
-  "item.powerrangerscraft.bison_crystal_saber":"Crystal Saber (Black)",
-  "item.powerrangerscraft.tiger_crystal_saber":"Crystal Saber (White)",
+  "item.powerrangerscraft.lion_crystal_saber":"Crystal Saber (Red Ranger)",
+  "item.powerrangerscraft.eagle_crystal_saber":"Crystal Saber (Yellow Ranger)",
+  "item.powerrangerscraft.shark_crystal_saber":"Crystal Saber (Blue Ranger)",
+  "item.powerrangerscraft.bison_crystal_saber":"Crystal Saber (Black Ranger)",
+  "item.powerrangerscraft.tiger_crystal_saber":"Crystal Saber (White Ranger)",
   "item.powerrangerscraft.jungle_sword":"Jungle Sword",
   "item.powerrangerscraft.red_lion_fang":"Red Lion Fang",
   "item.powerrangerscraft.red_lion_fang_claw":"Red Lion Fang (Claw)",
@@ -397,21 +475,66 @@
   "item.powerrangerscraft.gator_staff_blue_moon":"Gator Staff (Blue Moon)",
 
   //11 Ninja Storm
+  "tab.powerrangerscraft.ninja_storm": "Ninja Storm",
+
   "item.powerrangerscraft.ninja_storm_logo": "Ninja Storm Logo",
 
-  "item.powerrangerscraft.green_samurai_ninja_disk": "Green Samurai Ninja Disk",
+  "item.powerrangerscraft.ninja_storm_head": "Ninja Storm Helmet",
+  "item.powerrangerscraft.ninja_storm_torso": "Ninja Storm Chestplate",
+  "item.powerrangerscraft.ninja_storm_legs": "Ninja Storm Leggings",
+
+  "item.powerrangerscraft.blue_wind_morpher": "Wind Morpher",
+
+  "item.powerrangerscraft.blue_wind_ninja_power_disk": "Blue Wind Ninja Power Disk",
+  "item.powerrangerscraft.green_samurai_ninja_power_disk": "Green Samurai Ninja Power Disk",
 
   //12 Dino Thunder
+  "tab.powerrangerscraft.dino_thunder": "Dino Thunder",
+
   "item.powerrangerscraft.dino_thunder_logo": "Dino Thunder Logo",
 
+  "item.powerrangerscraft.dino_thunder_head": "Dino Thunder Helmet",
+  "item.powerrangerscraft.dino_thunder_torso": "Dino Thunder Chestplate",
+  "item.powerrangerscraft.dino_thunder_legs": "Dino Thunder Leggings",
+
+  "item.powerrangerscraft.yellow_dino_morpher": "Dino Morpher",
+
+  "item.powerrangerscraft.yellow_dino_gem": "Yellow Dino Gem",
+
   //13 SPD
+  "tab.powerrangerscraft.spd": "SPD (Space Patrol Delta)",
+
   "item.powerrangerscraft.spd_logo": "SPD Logo",
 
+  "item.powerrangerscraft.spd_head": "SPD Helmet",
+  "item.powerrangerscraft.spd_torso": "SPD Chestplate",
+  "item.powerrangerscraft.spd_legs": "SPD Leggings",
+
+  "item.powerrangerscraft.red_delta_morpher": "Delta Morpher",
+
+  "item.powerrangerscraft.spd_red_badge": "SPD B-Squad Red Badge",
+
   //14 Mystic Force
+  "tab.powerrangerscraft.mystic_force": "Mystic Force",
+
   "item.powerrangerscraft.mystic_force_logo": "Mystic Force Logo",
 
+  "item.powerrangerscraft.mystic_force_head": "Mystic Force Helmet",
+  "item.powerrangerscraft.mystic_force_torso": "Mystic Force Chestplate",
+  "item.powerrangerscraft.mystic_force_legs": "Mystic Force Leggings",
+
+  "item.powerrangerscraft.green_mystic_morpher": "Mystic Morpher",
+
+  "item.powerrangerscraft.green_mystic_morpher_plate": "Green Mystic Morpher Plate",
+
   //15 Operation Overdrive
+  "tab.powerrangerscraft.operation_overdrive": "Operation Overdrive",
+
   "item.powerrangerscraft.operation_overdrive_logo": "Operation Overdrive Logo",
+
+  "item.powerrangerscraft.operation_overdrive_head": "Operation Overdrive Helmet",
+  "item.powerrangerscraft.operation_overdrive_torso": "Operation Overdrive Chestplate",
+  "item.powerrangerscraft.operation_overdrive_legs": "Operation Overdrive Leggings",
 
   //16 Jungle Fury
   "item.powerrangerscraft.jungle_fury_logo": "Jungle Fury Logo",

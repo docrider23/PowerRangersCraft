@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lightspeed_rescue",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+	"a": {
+      "item": "powerrangerscraft:rescue_bird"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:rescue_bird_unilaser_mode"
+  }
+}
