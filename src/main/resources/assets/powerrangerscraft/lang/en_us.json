@@ -488,6 +488,8 @@
   "item.powerrangerscraft.blue_wind_ninja_power_disk": "Blue Wind Ninja Power Disk",
   "item.powerrangerscraft.green_samurai_ninja_power_disk": "Green Samurai Ninja Power Disk",
 
+  "powerrangerscraft:blue_wind_ninja_power_disk.form": "Ranger: §bBlue Ranger",
+
   //12 Dino Thunder
   "tab.powerrangerscraft.dino_thunder": "Dino Thunder",
 
@@ -501,6 +503,8 @@
 
   "item.powerrangerscraft.yellow_dino_gem": "Yellow Dino Gem",
 
+  "powerrangerscraft:yellow_dino_gem.form": "Ranger: §eYellow Ranger",
+
   //13 SPD
   "tab.powerrangerscraft.spd": "SPD (Space Patrol Delta)",
 
@@ -512,7 +516,9 @@
 
   "item.powerrangerscraft.red_delta_morpher": "Delta Morpher",
 
-  "item.powerrangerscraft.spd_red_badge": "SPD B-Squad Red Badge",
+  "item.powerrangerscraft.spd_red_badge": "SPD Red Badge",
+
+  "powerrangerscraft:spd_red_badge.form": "Ranger: §cRed Ranger",
 
   //14 Mystic Force
   "tab.powerrangerscraft.mystic_force": "Mystic Force",
@@ -526,6 +532,8 @@
   "item.powerrangerscraft.green_mystic_morpher": "Mystic Morpher",
 
   "item.powerrangerscraft.green_mystic_morpher_plate": "Green Mystic Morpher Plate",
+
+  "powerrangerscraft:green_mystic_morpher_plate.form": "Ranger: §aGreen Ranger",
 
   //15 Operation Overdrive
   "tab.powerrangerscraft.operation_overdrive": "Operation Overdrive",
@@ -561,7 +569,7 @@
   "item.powerrangerscraft.green_samuraizer":"Samuraizer",
   "item.powerrangerscraft.yellow_samuraizer":"Samuraizer",
   "item.powerrangerscraft.samurai_morpher": "Samurai Morpher",
-  "item.powerrangerscraft.princess_samuraizer": "Samuraizer (Female Red Ranger)",
+  "item.powerrangerscraft.princess_samuraizer": "Samuraizer",
 
   "item.powerrangerscraft.lion_disc": "Lion Disc",
   "item.powerrangerscraft.dragon_disc": "Dragon Disc",
@@ -998,7 +1006,7 @@
   "powerrangerscraft:magna_defender_core_solar.form": "Ranger: §8Black Ranger",
   "powerrangerscraft:spinosaurus_dino_charger_solar.form": "Ranger: §1Blue Ranger",
   "powerrangerscraft:yellow_zeo_sub_crystal.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:green_samurai_ninja_disk.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft:green_samurai_ninja_power_disk.form": "Ranger: §aGreen Ranger",
   "powerrangerscraft:ranger_slayer_power_coin.form": "Ranger: §dPink Ranger",
 
   "item.powerrangerscraft.solar_chakram": "Void Chakram",

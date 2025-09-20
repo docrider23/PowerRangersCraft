@@ -8,13 +8,13 @@
   ],
   "key": {
     "a": {
-      "item": "supersentaicraft:turbo_logo"
+      "item": "powerrangerscraft:turbo_logo"
     },
 	"b": {
-      "item": "supersentaicraft:blue_senturion_badge"
+      "item": "powerrangerscraft:blue_senturion_badge"
     }
   },
   "result": {
-    "id": "supersentaicraft:signal_whistle"
+    "id": "powerrangerscraft:signal_whistle"
   }
 }
