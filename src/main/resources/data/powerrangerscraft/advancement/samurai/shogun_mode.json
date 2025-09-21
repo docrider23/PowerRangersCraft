@@ -42,7 +42,7 @@
                 "powerrangerscraft:princess_samuraizer"
               ],
               "predicates": {
-                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:shogun_disc\"}"
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:shogun_disc\"}"
               }
             }
           }

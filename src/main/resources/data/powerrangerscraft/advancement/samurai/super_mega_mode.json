@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:super_mega_mode_disc"
+      "id": "powerrangerscraft:mega_mode_disc"
     },
     "title": "Mega Mode Power, Just SUPER!",
     "description": "Change into Super Mega Mode",
@@ -42,7 +42,7 @@
                 "powerrangerscraft:princess_samuraizer"
               ],
               "predicates": {
-                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:super_mega_mode_disc\"}"
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:super_mega_mode_disc\"}"
               }
             }
           }

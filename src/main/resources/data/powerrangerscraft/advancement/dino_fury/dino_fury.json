@@ -179,7 +179,7 @@
             },
             "feet": {
               "items": [
-                "powerrangerscraft:gold_mosa_changer"
+                "powerrangerscraft:gold_mosa_blaster"
               ]
             }
           }
@@ -208,7 +208,7 @@
             },
             "feet": {
               "items": [
-                "powerrangerscraft:gaisorg_changer"
+                "powerrangerscraft:void_knight_changer"
               ]
             }
           }

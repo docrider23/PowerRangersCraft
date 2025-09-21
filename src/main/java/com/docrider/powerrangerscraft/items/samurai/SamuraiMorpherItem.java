@@ -39,7 +39,7 @@ public class SamuraiMorpherItem extends RangerChangerItem{
 		}
 		else if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
 		else {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem2.toString() + ".form").getString()));
+			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
 			tooltipComponents.add(Component.literal(Component.translatable(formItem2.toString() + ".form").getString()));
 		}
 		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);

@@ -35,7 +35,7 @@
                 "powerrangerscraft:red_transmorpher"
               ],
               "predicates": {
-                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:galactic_key\"}"
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:galactic_key\"}"
               }
             }
           }

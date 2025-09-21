@@ -35,7 +35,7 @@
                 "powerrangerscraft:red_growl_phone"
               ],
               "predicates": {
-                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:animarium_buckle\"}"
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:animarium_buckle\"}"
               }
             }
           }

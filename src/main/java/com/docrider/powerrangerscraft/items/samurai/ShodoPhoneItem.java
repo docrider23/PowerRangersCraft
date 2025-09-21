@@ -40,7 +40,7 @@ public class ShodoPhoneItem extends RangerChangerItem{
 			}
 			else if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + "_f.form").getString()));
 			else {
-				tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem2.toString() + "_f.form").getString()));
+				tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + "_f.form").getString()));
 				tooltipComponents.add(Component.literal(Component.translatable(formItem2.toString() + ".form").getString()));
 			}
 		}

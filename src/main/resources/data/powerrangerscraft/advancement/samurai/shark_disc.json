@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:samurai/super_mega_mode_disc",
+  "parent": "powerrangerscraft:samurai/mega_mode_disc",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
