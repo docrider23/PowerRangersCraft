@@ -28,7 +28,7 @@ public class DinoFuryItems {
     		() -> new BlankDinoKeyItem(new Item.Properties()));
 
 	public static final DeferredItem<Item> T_REX_DINO_KEY_ZENITH = ITEMS.register("t_rex_dino_key_zenith",
-			() -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_fury_zenith","dino_fury_red_belt").alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").ChangeModel("geo/dino_master.geo.json"));
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_fury_zenith","dino_fury_red_belt").alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").ChangeModel("dino_master.geo.json"));
 
 	public static final DeferredItem<Item> T_REX_DINO_KEY = ITEMS.register("t_rex_dino_key",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_fury_red","dino_fury_red_belt",
@@ -96,113 +96,113 @@ public class DinoFuryItems {
             () -> new DinoKeyItem(new Item.Properties(),0,"hyper_boost","","blank",
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 4,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> ELASTO_DINO_KEY = ITEMS.register("elasto_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"elasto_boost","","blank",
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.REGENERATION, 40, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> GRAVI_DINO_KEY = ITEMS.register("gravi_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"gravi_boost","","blank",
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> SPRINT_DINO_KEY = ITEMS.register("sprint_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"sprint_boost","","blank",
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false),
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> SHIELD_DINO_KEY = ITEMS.register("shield_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"shield_boost","","blank",
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
             		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.REGENERATION, 40, 1,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> SONIC_DINO_KEY = ITEMS.register("sonic_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"sonic_boost","","blank")
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> STINK_DINO_KEY = ITEMS.register("stink_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"stink_boost","","blank",
             		new MobEffectInstance(EffectCore.SMOKE, 40, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> VISION_DINO_KEY = ITEMS.register("vision_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"vision_boost","","blank",
             		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> MUSCLE_DINO_KEY = ITEMS.register("muscle_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"muscle_boost","","blank",
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> GROW_DINO_KEY = ITEMS.register("grow_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"grow_boost","","blank",
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.SMALL, 40, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> FLARE_DINO_KEY = ITEMS.register("flare_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"flare_boost","","blank",
             		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> MIST_DINO_KEY = ITEMS.register("mist_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"mist_boost","","blank",
             		new MobEffectInstance(EffectCore.SMOKE, 40, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> HOVER_DINO_KEY = ITEMS.register("hover_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"hover_boost","","blank",
             		new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.SLOW_FALLING, 40, 3,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> FIX_IT_DINO_KEY = ITEMS.register("fix_it_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"fix_it_boost","","blank",
             		new MobEffectInstance(MobEffects.REGENERATION, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.SATURATION, 40, 3,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> SLICK_DINO_KEY = ITEMS.register("slick_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"slick_boost","","blank",
             		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> BALLOON_DINO_KEY = ITEMS.register("balloon_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"balloon_boost","","blank",
             		new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.SLOW_FALLING, 40, 3,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> INVISI_DINO_KEY = ITEMS.register("invisi_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"invisi_boost","","blank",
             		new MobEffectInstance(MobEffects.INVISIBILITY, 40, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> DOUBLE_DINO_KEY = ITEMS.register("double_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"double_boost","","blank")
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> SNOOZE_DINO_KEY = ITEMS.register("snooze_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"snooze_boost","","blank")
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> SPIN_DINO_KEY = ITEMS.register("spin_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"spin_boost","","blank",
             		new MobEffectInstance(MobEffects.CONFUSION, 40, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> CUSHION_DINO_KEY = ITEMS.register("cushion_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"cushion_boost","","blank")
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY).AddToTabList(BlankDinoKeyItem.DINO_KEY, 1));
     
 	public static final DeferredItem<Item> BLAZING_DINO_KEY = ITEMS.register("blazing_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"blazing_battle_armor","","blank",
@@ -212,7 +212,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.FIREPUNCH, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.FIRESLASH, 40, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
     
 	public static final DeferredItem<Item> ELECTRO_DINO_KEY = ITEMS.register("electro_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"electro_battle_armor","","blank",
@@ -221,7 +221,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.FIRESLASH, 40, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
     
 	public static final DeferredItem<Item> SHADOW_DINO_KEY = ITEMS.register("shadow_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"shadow_battle_armor","","blank",
@@ -232,7 +232,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.REGENERATION, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.SHOTBOOST, 40, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
     
 	public static final DeferredItem<Item> LIGHT_DINO_KEY = ITEMS.register("light_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"light_battle_armor","","blank",
@@ -243,7 +243,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.REGENERATION, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.SATURATION, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.SHOTBOOST, 40, 2,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
     
 	public static final DeferredItem<Item> COSMIC_DINO_KEY = ITEMS.register("cosmic_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"cosmic_battle_armor","","blank",
@@ -254,7 +254,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.REGENERATION, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.SATURATION, 40, 3,true,false),
             		new MobEffectInstance(EffectCore.SHOTBOOST, 40, 3,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
     
 	public static final DeferredItem<Item> SMASH_DINO_KEY = ITEMS.register("smash_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"smash_battle_armor","","blank",
@@ -263,7 +263,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.REGENERATION, 40, 3,true,false),
             		new MobEffectInstance(EffectCore.PUNCH, 40, 5,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
     
 	public static final DeferredItem<Item> FREEZE_DINO_KEY = ITEMS.register("freeze_dino_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"freeze_battle_armor","","blank",
@@ -273,7 +273,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(EffectCore.SLASH, 40, 4,true,false),
             		new MobEffectInstance(EffectCore.FLYING, 40, 5,true,false),
             		new MobEffectInstance(EffectCore.FROSTWALKER, 40, 0,true,false))
-            .ChangeSlot(2).BackToBase().ChangeModel("geo/rangerwing.geo.json").ifFlyingModelResource("geo/rangerwing.geo.json").AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
+            .ChangeSlot(2).ResetFormToBase().ChangeModel("rangerwing.geo.json").hasFlyingWings("rangerwing.geo.json").AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.DINO_FURY));
     
 	public static final DeferredItem<Item> DINO_KNIGHT_KEY = ITEMS.register("dino_knight_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"_dino_knight","dino_fury_red","dino_fury_red_belt",
@@ -293,7 +293,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 5,true,false),
             		new MobEffectInstance(MobEffects.REGENERATION, 40, 5,true,false))
-            .ChangeSlot(2).BackToBase().AddCompatibilityList(DINO_FURY).ChangeModel("geo/dino_master.geo.json"));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(DINO_FURY).ChangeModel("dino_master.geo.json"));
 
 	public static final DeferredItem<Item> UNFINISHED_DINO_MASTER_SABER = ITEMS.register("unfinished_dino_master_saber",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.DINO_FURY));

@@ -1,4 +1,4 @@
-package com.docrider.powerrangerscraft.items.wild_force;
+/*package com.docrider.powerrangerscraft.items.wild_force;
 
 import com.docrider.powerrangerscraft.items.WildForceItems;
 import com.docrider.powerrangerscraft.items.others.MechaGattaiItem;
@@ -132,3 +132,5 @@ public class WildForceMegazordItem extends MechaGattaiItem {
 		return false;
 	}
 }
+
+ */

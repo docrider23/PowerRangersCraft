@@ -25,32 +25,32 @@ public class SecretDiscItem extends RangerFormChangeItem {
 
 		if (BELT.getItem() instanceof RangerChangerItem belt) {
 
-			if (SHIFT_ITEM instanceof RangerFormChangeItem& p_41129_.isShiftKeyDown()) {
-				((RangerFormChangeItem)SHIFT_ITEM).use(p_41128_, p_41129_, p_41130_);
+			if (getSHIFT_ITEM() instanceof RangerFormChangeItem & p_41129_.isShiftKeyDown()) {
+				((RangerFormChangeItem)getSHIFT_ITEM()).use(p_41128_, p_41129_, p_41130_);
 			}
 			else if (CanChange(p_41129_,belt,BELT)) {
-				if (alsoChange2ndSlot !=null)RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
-				if (RESET_FORM)RangerChangerItem.reset_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET));
+				if (getAlsoChange2ndSlot() !=null)RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),getAlsoChange2ndSlot(), 2);
+				if (getRESET_FORM())RangerChangerItem.reset_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET));
 
 				if (this == SamuraiItems.SHARK_DISC.get())
 				{
 					{
-						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
+						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
 					}
 				}
 				else if (this == SamuraiItems.MEGA_MODE_DISC.get())
 				{
 					{
-						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
+						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
 					}
 				}
-				else RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, Slot);
+				else RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
 			
-			}else if(!alternative.isEmpty()){
+			}else if(!getAlternative().isEmpty()){
 
-				for (int i = 0; i < alternative.size(); i++)
+				for (int i = 0; i < getAlternative().size(); i++)
 				{
-					RangerFormChangeItem alternativeItem_form_change = alternative.get(i);
+					RangerFormChangeItem alternativeItem_form_change = getAlternative().get(i);
 					alternativeItem_form_change.use(p_41128_, p_41129_, p_41130_);
 				}
 			}

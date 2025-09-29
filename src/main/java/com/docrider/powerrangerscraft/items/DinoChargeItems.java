@@ -14,7 +14,7 @@ public class DinoChargeItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE));
 
     public static final DeferredItem<Item> SPINOSAURUS_DINO_CHARGER_SOLAR = ITEMS.register("spinosaurus_dino_charger_solar",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_blue","blank"));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_blue","blank").IsGlowing());
 
     public static final DeferredItem<Item> SPINOSAURUS_DINO_CHARGER = ITEMS.register("spinosaurus_dino_charger",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_charge_dark","dino_charge_belt")

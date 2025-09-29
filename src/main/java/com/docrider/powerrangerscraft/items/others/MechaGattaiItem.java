@@ -134,11 +134,11 @@ public class MechaGattaiItem extends MechaArmorItem{
     }
 
     public ResourceLocation getModelResource(ItemStack itemstack, MechaArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
-        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, get_Form_Item(itemstack, 1).get_Model());
+        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, get_Form_Item(itemstack, 1).get_Model(this.Rider));
     }
 
     public ResourceLocation getBeltModelResource(ItemStack itemstack,MechaArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
-        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, get_Form_Item(itemstack, 1).getBeltModel());
+        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, get_Form_Item(itemstack, 1).get_Belt_Model());
     }
 
     public ResourceLocation getAnimationResource(ItemStack itemstack,MechaArmorItem animatable, EquipmentSlot slot) {
@@ -194,7 +194,7 @@ public class MechaGattaiItem extends MechaArmorItem{
 
 
 
-    public static RangerFormChangeItem get_Form_Item(ItemStack itemstack,int SLOT)
+    public static RangerFormChangeItem get_Form_Item(ItemStack itemstack, int SLOT)
     {
 
         MechaGattaiItem belt = (MechaGattaiItem)itemstack.getItem();

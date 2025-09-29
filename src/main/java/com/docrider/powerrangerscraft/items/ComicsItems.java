@@ -14,7 +14,7 @@ public class ComicsItems {
     //Shattered Grid
     public static final DeferredItem<Item> RANGER_SLAYER_POWER_COIN = ITEMS.register("ranger_slayer_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_pink","blank")
-                    .AddToTabList(RangerTabs.COMICS));
+                    .IsGlowing().AddToTabList(RangerTabs.COMICS));
 
     //Solar Rangers
     public static final DeferredItem<Item> SOLAR_LOGO = ITEMS.register("solar_logo",
@@ -25,10 +25,10 @@ public class ComicsItems {
 
     public static final DeferredItem<Item> PURPLE_SOLAR_CRYSTAL = ITEMS.register("purple_solar_crystal",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_purple","blank")
-                    .AddToTabList(RangerTabs.COMICS));
+                    .IsGlowing().AddToTabList(RangerTabs.COMICS));
     public static final DeferredItem<Item> ORANGE_SOLAR_CRYSTAL = ITEMS.register("orange_solar_crystal",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_orange","blank")
-                    .AddToTabList(RangerTabs.COMICS));
+                    .IsGlowing().AddToTabList(RangerTabs.COMICS));
 
     public static final DeferredItem<Item> SOLAR_HELMET = ITEMS.register("solar_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));

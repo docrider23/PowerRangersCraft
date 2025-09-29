@@ -16,7 +16,7 @@ public class InSpaceItems {
 
     public static final DeferredItem<Item> RED_SPACE_DISK = ITEMS.register("red_space_disk",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_red","blank")
-                    .AddToTabList(RangerTabs.COMICS));
+                    .IsGlowing().AddToTabList(RangerTabs.COMICS));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

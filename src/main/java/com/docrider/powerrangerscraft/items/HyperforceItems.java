@@ -6,7 +6,6 @@ import com.docrider.powerrangerscraft.items.hyperforce.HyperforceMorpherItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -59,7 +58,7 @@ public class HyperforceItems {
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4, true, false),
                     new MobEffectInstance(MobEffects.JUMP, 40, 4, true, false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40 ,3, true, false))
-                    .ChangeModel("geo/rangerwing.geo.json").AddToTabList(RangerTabs.HYPERFORCE));
+                    .ChangeModel("rangerwing.geo.json").AddToTabList(RangerTabs.HYPERFORCE));
 
     public static final DeferredItem<Item> HYPERFORCE_HELMET = ITEMS.register("hyperforce_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));

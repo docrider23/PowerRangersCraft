@@ -22,38 +22,38 @@ public class LightspeedRescueItems {
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_red","lightspeed_red_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).IsGlowing().ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_BLUE_BADGE = ITEMS.register("lightspeed_blue_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_blue","lightspeed_blue_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).IsGlowing().ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_GREEN_BADGE = ITEMS.register("lightspeed_green_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_green","lightspeed_green_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).IsGlowing().ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_YELLOW_BADGE = ITEMS.register("lightspeed_yellow_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_yellow","lightspeed_yellow_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).IsGlowing().ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_PINK_BADGE = ITEMS.register("lightspeed_pink_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_pink","lightspeed_pink_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).IsGlowing().ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> TITANIUM_BADGE = ITEMS.register("titanium_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","titanium_ranger","titanium_ranger_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false))
-                    .AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    .IsGlowing().AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_RESCUE_HELMET = ITEMS.register("lightspeed_rescue_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));

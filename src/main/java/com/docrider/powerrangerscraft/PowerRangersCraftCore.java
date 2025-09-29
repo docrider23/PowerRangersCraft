@@ -8,6 +8,9 @@ import com.docrider.powerrangerscraft.blocks.RangerBlocks;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.events.ModCommonEvents;
+import com.docrider.powerrangerscraft.events.ModServerEvents;
+import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
+import com.docrider.powerrangerscraft.particle.*;
 import com.docrider.powerrangerscraft.sounds.ModSounds;
 import com.docrider.powerrangerscraft.items.*;
 import com.docrider.powerrangerscraft.items.dino_fury.DinoFuryMorpherItem;
@@ -16,9 +19,13 @@ import com.docrider.powerrangerscraft.items.lost_galaxy.TransmorpherItem;
 import com.docrider.powerrangerscraft.items.others.BaseBlasterItem;
 import com.docrider.powerrangerscraft.loot.ModLootModifiers;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.model.PlayerModel;
 import net.minecraft.client.renderer.item.ItemProperties;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.api.distmarker.Dist;
@@ -31,6 +38,9 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
+import net.neoforged.neoforge.client.event.RenderLivingEvent;
+import net.neoforged.neoforge.client.event.RenderPlayerEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -83,10 +93,10 @@ public class PowerRangersCraftCore {
         //TimeForceItems.register(modEventBus);
         WildForceItems.register(modEventBus);
         NinjaStormItems.register(modEventBus);
-        //DinoThunderItems.register(modEventBus);
-        //SPDItems.register(modEventBus);
-        //MysticForceItems.register(modEventBus);
-        //OperationOverdriveItems.register(modEventBus);
+        DinoThunderItems.register(modEventBus);
+        SPDItems.register(modEventBus);
+        MysticForceItems.register(modEventBus);
+        OperationOverdriveItems.register(modEventBus);
         //JungleFuryItems.register(modEventBus);
         //RPMItems.register(modEventBus);
         SamuraiItems.register(modEventBus);
@@ -110,6 +120,7 @@ public class PowerRangersCraftCore {
         RangerTabs.register(modEventBus);
         ModLootModifiers.register(modEventBus);
         ModSounds.register(modEventBus);
+        ModParticles.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -134,6 +145,160 @@ public class PowerRangersCraftCore {
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
+        NeoForge.EVENT_BUS.register(new ModServerEvents.ServerEvents());
+    }
+
+    @SubscribeEvent
+    public void addRenderLivingEvent(RenderLivingEvent.Pre event) {
+
+        if (event.getRenderer().getModel()instanceof PlayerModel model) {
+
+            if (event.getEntity().getItemBySlot(EquipmentSlot.FEET).getItem() instanceof ArmorItem belt) {
+                if (belt instanceof RangerChangerItem driver && driver.isTransformed(event.getEntity())) {
+                    double tag = RangerChangerItem.getRenderType(event.getEntity().getItemBySlot(EquipmentSlot.FEET));
+                    if (tag != 0) {
+                        if (tag != 2) {
+                            model.head.visible = false;
+                        } else {
+                            model.head.visible = true;
+                        }
+
+                        if (tag != 3) {
+                            model.leftLeg.visible = false;
+                            model.rightLeg.visible = false;
+                            model.leftArm.visible = false;
+                            model.rightArm.visible = false;
+                            model.body.visible = false;
+                        } else {
+                            model.head.visible = true;
+                            model.leftLeg.visible = true;
+                            model.rightLeg.visible = true;
+                            model.leftArm.visible = true;
+                            model.rightArm.visible = true;
+                            model.body.visible = true;
+                        }
+
+                        model.hat.visible = false;
+                        model.leftSleeve.visible = false;
+                        model.rightSleeve.visible = false;
+                        model.leftPants.visible = false;
+                        model.rightPants.visible = false;
+                        model.jacket.visible = false;
+                    } else {
+                        model.head.visible = true;
+                        model.hat.visible = true;
+                        model.leftLeg.visible = true;
+                        model.rightLeg.visible = true;
+                        model.leftArm.visible = true;
+                        model.rightArm.visible = true;
+                        model.body.visible = true;
+                        model.leftSleeve.visible = true;
+                        model.rightSleeve.visible = true;
+                        model.leftPants.visible = true;
+                        model.rightPants.visible = true;
+                        model.jacket.visible = true;
+                    }
+                } else if (event.getEntity().getItemBySlot(EquipmentSlot.FEET).has(DataComponents.CUSTOM_DATA)) {
+                    CompoundTag tag = event.getEntity().getItemBySlot(EquipmentSlot.FEET).get(DataComponents.CUSTOM_DATA).getUnsafe();
+                    if (tag.getDouble("render_type") != 0) {
+                        if (tag.getDouble("render_type") != 2) {
+                            model.head.visible = false;
+                        } else {
+                            model.head.visible = true;
+                        }
+
+                        if (tag.getDouble("render_type") != 3) {
+                            model.leftLeg.visible = false;
+                            model.rightLeg.visible = false;
+                            model.leftArm.visible = false;
+                            model.rightArm.visible = false;
+                            model.body.visible = false;
+                        } else {
+                            model.head.visible = true;
+                            model.leftLeg.visible = true;
+                            model.rightLeg.visible = true;
+                            model.leftArm.visible = true;
+                            model.rightArm.visible = true;
+                            model.body.visible = true;
+                        }
+
+                        model.hat.visible = false;
+                        model.leftSleeve.visible = false;
+                        model.rightSleeve.visible = false;
+                        model.leftPants.visible = false;
+                        model.rightPants.visible = false;
+                        model.jacket.visible = false;
+                    } else {
+                        model.head.visible = true;
+                        model.hat.visible = true;
+                        model.leftLeg.visible = true;
+                        model.rightLeg.visible = true;
+                        model.leftArm.visible = true;
+                        model.rightArm.visible = true;
+                        model.body.visible = true;
+                        model.leftSleeve.visible = true;
+                        model.rightSleeve.visible = true;
+                        model.leftPants.visible = true;
+                        model.rightPants.visible = true;
+                        model.jacket.visible = true;
+                    }
+
+
+                }else {
+                    {
+                        model.head.visible = true;
+                        model.hat.visible = true;
+                        model.leftLeg.visible = true;
+                        model.rightLeg.visible = true;
+                        model.leftArm.visible = true;
+                        model.rightArm.visible = true;
+                        model.body.visible = true;
+                        model.leftSleeve.visible = true;
+                        model.rightSleeve.visible = true;
+                        model.leftPants.visible = true;
+                        model.rightPants.visible = true;
+                        model.jacket.visible = true;
+                    }}}
+            else {
+                {
+                    model.head.visible = true;
+                    model.hat.visible = true;
+                    model.leftLeg.visible = true;
+                    model.rightLeg.visible = true;
+                    model.leftArm.visible = true;
+                    model.rightArm.visible = true;
+                    model.body.visible = true;
+                    model.leftSleeve.visible = true;
+                    model.rightSleeve.visible = true;
+                    model.leftPants.visible = true;
+                    model.rightPants.visible = true;
+                    model.jacket.visible = true;
+                }
+            }
+        }
+
+        float size = 1;
+
+        if (event.getEntity().hasEffect(EffectCore.STRETCH)) {
+            size = size + ((event.getEntity().getEffect(EffectCore.STRETCH).getAmplifier()) +1f);
+        }
+
+        float size2 = event.getEntity().hasEffect(EffectCore.STRETCH) ? 1 : size;
+
+        if (event.getEntity().hasEffect(EffectCore.FLAT)) {
+            size2 = 0.04f;
+        }
+        float size3 = event.getEntity().hasEffect(EffectCore.STRETCH) ? 1 : size;
+        if (event.getEntity().hasEffect(EffectCore.WIDE)) {
+            size2 = (float) (size2 * 3);
+            size3 = (float) (size3 * 3);
+        }
+        event.getPoseStack().scale(size3, size, size2);
+    }
+
+    @SubscribeEvent
+    public void addRenderPlayerEvent(RenderPlayerEvent.Pre event) {
+
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
@@ -281,6 +446,44 @@ public class PowerRangersCraftCore {
             //event.registerEntityRenderer(MobsCore.EXPLOSIVE_PROJECTILE.get(), ThrownItemRenderer::new);
             event.registerEntityRenderer(MobsCore.WEAPON_PROJECTILE.get(), ThrownWeaponRenderer::new);
             event.registerEntityRenderer(MobsCore.SHURIKEN_PROJECTILE.get(), ThrownShurikenRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
+            event.registerSpriteSet(ModParticles.WHITE_SPARK_PARTICLES.get(), WhiteSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.GREY_SPARK_PARTICLES.get(), GreySparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.RED_SPARK_PARTICLES.get(), Red2SparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.DARK_RED_SPARK_PARTICLES.get(), DarkRedSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.ORANGE_SPARK_PARTICLES.get(), OrangeSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.BLUE_SPARK_PARTICLES.get(), BlueSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.DARK_BLUE_SPARK_PARTICLES.get(), DarkBlueSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.CYAN_SPARK_PARTICLES.get(), CyanSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.GREEN_SPARK_PARTICLES.get(), GreenSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.BROWN_SPARK_PARTICLES.get(), BrownSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.DARK_GREEN_SPARK_PARTICLES.get(), DarkGreenSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.PURPLE_SPARK_PARTICLES.get(), PurpleSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.PINK_SPARK_PARTICLES.get(), PinkSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.YELLOW_SPARK_PARTICLES.get(), YellowSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.GOLD_SPARK_PARTICLES.get(), GoldSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.BLACK_SPARK_PARTICLES.get(), BlackSparkParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.RANDOM_SPARK_PARTICLES.get(), RandomSparkParticles.Provider::new);
+
+            event.registerSpriteSet(ModParticles.GLASS_PARTICLES.get(), GlassParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.CHAIN_PARTICLES.get(), ChainParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.GOLD_BAT_PARTICLES.get(), GoldBatParticles.Provider::new);
+
+            event.registerSpriteSet(ModParticles.HIT_PARTICLES.get(), HitParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.GUMMI_PARTICLES.get(), GummiParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.GUMMI_PARTICLES2.get(), GummiParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.GUMMI_PARTICLES3.get(), GummiParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.SNACK_PARTICLES.get(), GummiParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.CHOCO_PARTICLES.get(), GummiParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.CANDY_PARTICLES.get(), GummiParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.CANDY_PARTICLES2.get(), GummiParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.CANDY_PARTICLES3.get(), GummiParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.CANDY_PARTICLES4.get(), GummiParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.REALIZING_PARTICLES.get(), realizingParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.WIZARD_PARTICLES.get(), WizardParticles.Provider::new);
         }
     }
 }

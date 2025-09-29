@@ -4,14 +4,20 @@ import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.*;
 import com.docrider.powerrangerscraft.items.starranger.CosmoSaberItem;
+import com.docrider.powerrangerscraft.particle.ModParticles;
+import net.minecraft.core.particles.BlockParticleOption;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LightningBolt;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-
-import static com.docrider.powerrangerscraft.items.HyperforceItems.HYPERFORCE_DIE;
 
 public class StarrangerItems {
 
@@ -28,16 +34,36 @@ public class StarrangerItems {
                     new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 3, true, false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
-                    new MobEffectInstance(MobEffects.JUMP, 40, 1,true, false))
-                    .ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    new MobEffectInstance(MobEffects.JUMP, 40, 1,true, false)){
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack, player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 300, 0, 0, 0, 0.1);
+                    ((ServerLevel) player.level()).sendParticles(ParticleTypes.FLAME,
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 300, 0, 0, 0, 0.2);
+                }
+            }
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> WATER_CONSTELLATION_CARD = ITEMS.register("water_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_blue","starranger_belt",
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
-                    new MobEffectInstance(MobEffects.JUMP, 40, 1,true, false))
-                    .ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    new MobEffectInstance(MobEffects.JUMP, 40, 1,true, false)){
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack, player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 300, 0, 0, 0, 0.1);
+                    ((ServerLevel) player.level()).sendParticles(ParticleTypes.SPLASH,
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 300, 0, 0, 0, 0.2);
+                }
+            }
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> EARTH_CONSTELLATION_CARD = ITEMS.register("earth_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_green","starranger_belt",
@@ -46,25 +72,56 @@ public class StarrangerItems {
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.JUMP, 40, 1,true, false),
                     new MobEffectInstance(EffectCore.FLYING, 40, 5, true, false),
-                    new MobEffectInstance(MobEffects.NIGHT_VISION, 200, 2, true, false))
-                    .ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 200, 2, true, false)){
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack, player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 300, 0, 0, 0, 0.1);
+                    ((ServerLevel) player.level()).sendParticles(new BlockParticleOption(ParticleTypes.BLOCK, Blocks.DIRT.defaultBlockState()),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 300, 0, 0, 0, 0.2);
+                }
+            }
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> AIR_CONSTELLATION_CARD = ITEMS.register("air_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_white","starranger_belt",
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
-                    new MobEffectInstance(MobEffects.JUMP, 40, 1,true, false))
-                    .ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    new MobEffectInstance(MobEffects.JUMP, 40, 1,true, false)){
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack, player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 300, 0, 0, 0, 0.1);
+                    ((ServerLevel) player.level()).sendParticles(ParticleTypes.GUST,
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 300, 0, 0, 0, 0.2);
+                }
+            }
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> LIGHTNING_CONSTELLATION_CARD = ITEMS.register("lightning_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_lightning","starranger_lightning_belt",
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
-                    new MobEffectInstance(MobEffects.JUMP, 40, 1,true, false))
-                    .ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    new MobEffectInstance(MobEffects.JUMP, 40, 1,true, false)){
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack, player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 300, 0, 0, 0, 0.1);
+                    LightningBolt thunder = new LightningBolt(EntityType.LIGHTNING_BOLT,player.level());
+                    thunder.setVisualOnly(true);
+                    thunder.setPos( player.getX(),  -1 + player.getY(),  player.getZ() );
+                    player.level().addFreshEntity(thunder);
 
+                }
+            }
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> SOLAR_CONSTELLATION_CARD = ITEMS.register("solar_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","taiyou_gold","starranger_equinox_belt",
@@ -72,14 +129,14 @@ public class StarrangerItems {
                     new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 3, true, false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST,40,5,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN,40,1,true,false))
-                    .ChangeModel("geo/dino_master.geo.json").ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeModel("dino_master.geo.json").ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> LUNAR_CONSTELLATION_CARD = ITEMS.register("lunar_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","taiyou_gold","starranger_equinox_belt",
                     new MobEffectInstance(EffectCore.FROSTWALKER, 40, 5,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST,40,3,true,false))
-                    .ChangeBeltModel("geo/rangerbeltweapon.geo.json").ChangeRangerName("tsuki_silver").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltweapon.geo.json").ChangeRangerName("tsuki_silver").AddToTabList(RangerTabs.STARRANGER));
 
 
     public static final DeferredItem<Item> OPHIUCHUS_CONSTELLATION_CARD = ITEMS.register("ophiuchus_constellation_card",
@@ -90,7 +147,7 @@ public class StarrangerItems {
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 5,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 4,true,false))
-                    .AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> COSMIC_HEART = ITEMS.register("cosmic_heart",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_mastar","starranger_mastar_belt",
@@ -102,7 +159,7 @@ public class StarrangerItems {
                     new MobEffectInstance(EffectCore.SLASH, 40, 4,true,false),
                     new MobEffectInstance(EffectCore.FLYING, 40, 5,true,false),
                     new MobEffectInstance(EffectCore.FROSTWALKER, 40, 5,true,false))
-                    .AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> STARRANGER_HELMET = ITEMS.register("starranger_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
@@ -123,7 +180,7 @@ public class StarrangerItems {
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"star_lightning", LIGHTNING_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static final DeferredItem<Item> COSMO_SABER_GOLD = ITEMS.register("cosmo_saber_gold",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"taiyou_gold", SOLAR_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).CanChangeTexture().AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"taiyou_gold", SOLAR_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static final DeferredItem<Item> OPHIUCHUS_STAFF_MASTAR = ITEMS.register("ophiuchus_staff_mastar",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"zodiac_mastar", OPHIUCHUS_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));

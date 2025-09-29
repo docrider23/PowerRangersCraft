@@ -24,7 +24,7 @@ public class FluteKnifeItem extends BaseSwordItem {
 
 		ItemStack BELT = p_41129_.getItemBySlot(EquipmentSlot.HEAD);
 
-		if (BELT.getItem() instanceof MechaGattaiItem belt) {
+		/*if (BELT.getItem() instanceof MechaGattaiItem belt) {
 			
 			if (this==WildForceItems.FLUTE_KNIFE.get())
 			{
@@ -45,7 +45,7 @@ public class FluteKnifeItem extends BaseSwordItem {
 					}
 				}
 			}
-		}
+		}*/
 		return InteractionResultHolder.sidedSuccess(itemstack, p_41128_.isClientSide());
 	}
 }

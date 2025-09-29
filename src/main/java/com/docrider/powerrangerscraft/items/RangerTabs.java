@@ -47,6 +47,26 @@ public class RangerTabs {
             CreativeModeTab.builder().icon(() -> new ItemStack(WildForceItems.WILD_FORCE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_wild_force_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.wild_force")).build());
 
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> NinjaStormTab = CREATIVE_MODE_TABS.register("prc011", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(NinjaStormItems.NINJA_STORM_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_ninja_storm_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.ninja_storm")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> DinoThunderTab = CREATIVE_MODE_TABS.register("prc012", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(DinoThunderItems.DINO_THUNDER_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_dino_thunder_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.dino_thunder")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> SPDTab = CREATIVE_MODE_TABS.register("prc013", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(SPDItems.SPD_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_spd_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.spd")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> MysticForceTab = CREATIVE_MODE_TABS.register("prc014", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(MysticForceItems.MYSTIC_FORCE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_mystic_force_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.mystic_force")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> OperationOverdriveTab = CREATIVE_MODE_TABS.register("prc015", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(OperationOverdriveItems.OPERATION_OVERDRIVE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_operation_overdrive_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.operation_overdrive")).build());
+
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> SamuraiTab = CREATIVE_MODE_TABS.register("prc017", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(SamuraiItems.SAMURAI_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_samurai_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.samurai")).build());
@@ -103,6 +123,16 @@ public class RangerTabs {
     public static List<Item> LIGHTSPEED_RESCUE= new ArrayList<Item>();
 
     public static List<Item> WILD_FORCE= new ArrayList<Item>();
+
+    public static List<Item> NINJA_STORM= new ArrayList<Item>();
+
+    public static List<Item> DINO_THUNDER= new ArrayList<Item>();
+
+    public static List<Item> SPD= new ArrayList<Item>();
+
+    public static List<Item> MYSTIC_FORCE= new ArrayList<Item>();
+
+    public static List<Item> OPERATION_OVERDRIVE= new ArrayList<Item>();
 
     public static List<Item> SAMURAI= new ArrayList<Item>();
 
@@ -163,6 +193,42 @@ public class RangerTabs {
             for (int i = 0; i < RangerTabs.WILD_FORCE.size(); i++)
             {
                 event.accept( RangerTabs.WILD_FORCE.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.NinjaStormTab.get()) {
+            for (int i = 0; i < RangerTabs.NINJA_STORM.size(); i++)
+            {
+                event.accept( RangerTabs.NINJA_STORM.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.DinoThunderTab.get()) {
+            for (int i = 0; i < RangerTabs.DINO_THUNDER.size(); i++)
+            {
+                event.accept( RangerTabs.DINO_THUNDER.get(i));
+            }
+
+        }
+
+        else if(event.getTab() == RangerTabs.SPDTab.get()) {
+            for (int i = 0; i < RangerTabs.SPD.size(); i++)
+            {
+                event.accept( RangerTabs.SPD.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.MysticForceTab.get()) {
+            for (int i = 0; i < RangerTabs.MYSTIC_FORCE.size(); i++)
+            {
+                event.accept( RangerTabs.MYSTIC_FORCE.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.OperationOverdriveTab.get()) {
+            for (int i = 0; i < RangerTabs.OPERATION_OVERDRIVE.size(); i++)
+            {
+                event.accept( RangerTabs.OPERATION_OVERDRIVE.get(i));
             }
 
         }

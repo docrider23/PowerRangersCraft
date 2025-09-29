@@ -35,7 +35,7 @@ public class OtherItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME_REBOOT_BLUE = ITEMS.register("battle_for_the_grid_game_reboot_blue",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","reboot_blue","reboot_blue_belt"));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","reboot_blue","reboot_blue_belt").IsGlowing().IsBeltGlowing());
     public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME_MAGNA_DEFENDER = ITEMS.register("battle_for_the_grid_game_magna_defender",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","magna_defender","magna_defender_belt_game",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
@@ -59,18 +59,6 @@ public class OtherItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> TIME_FORCE_LOGO = ITEMS.register("time_force_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> DINO_THUNDER_LOGO = ITEMS.register("dino_thunder_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> SPD_LOGO = ITEMS.register("spd_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> MYSTIC_FORCE_LOGO = ITEMS.register("mystic_force_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> OPERATION_OVERDRIVE_LOGO = ITEMS.register("operation_overdrive_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> JUNGLE_FURY_LOGO = ITEMS.register("jungle_fury_logo",

@@ -1,7 +1,6 @@
 package com.docrider.powerrangerscraft.items.ninja_steel;
 
 import com.docrider.powerrangerscraft.items.NinjaSteelItems;
-import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;

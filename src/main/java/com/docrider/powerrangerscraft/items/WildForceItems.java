@@ -283,7 +283,7 @@ public class WildForceItems {
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
 					new MobEffectInstance(EffectCore.FLYING, 40, 0,true,false))
-					.ChangeModel("geo/dino_master.geo.json").ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
+					.ChangeModel("dino_master.geo.json").ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> WILD_FORCE_HELMET = ITEMS.register("wild_force_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
@@ -373,7 +373,7 @@ public class WildForceItems {
 	public static final DeferredItem<SwordItem> FLUTE_KNIFE = ITEMS.register("flute_knife",
 			() -> new FluteKnifeItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
 
-	public static final DeferredItem<Item> WILD_FORCE_MEGAZORD_BOOTS = ITEMS.register("wild_force_megazord_boots",
+	/*public static final DeferredItem<Item> WILD_FORCE_MEGAZORD_BOOTS = ITEMS.register("wild_force_megazord_boots",
             () -> new MechaArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.BOOTS, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(OtherItems.MECHA_GEAR.get()));
     public static final DeferredItem<Item> WILD_FORCE_MEGAZORD_LEGGINGS = ITEMS.register("wild_force_megazord_legs",
             () -> new MechaArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(OtherItems.MECHA_GEAR.get()));
@@ -420,7 +420,7 @@ public class WildForceItems {
 	public static final DeferredItem<SwordItem> GATOR_STAFF = ITEMS.register("gator_staff",
 			() -> new BaseSwordItem(Tiers.NETHERITE, 30, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(OtherItems.MECHA_GEAR.get()));
 	public static final DeferredItem<SwordItem> GATOR_STAFF_BLUE_MOON = ITEMS.register("gator_staff_blue_moon",
-			() -> new BaseSwordItem(Tiers.NETHERITE, 30, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(OtherItems.MECHA_GEAR.get()));
+			() -> new BaseSwordItem(Tiers.NETHERITE, 30, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(OtherItems.MECHA_GEAR.get()));*/
 
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);

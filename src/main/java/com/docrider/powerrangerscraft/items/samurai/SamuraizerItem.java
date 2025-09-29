@@ -2,7 +2,6 @@ package com.docrider.powerrangerscraft.items.samurai;
 
 import com.docrider.powerrangerscraft.items.*;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
-import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EquipmentSlot;

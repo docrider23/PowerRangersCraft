@@ -24,7 +24,7 @@ public class TurboItems {
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
-			.ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
+					.IsGlowing().ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
 
 	public static final DeferredItem<Item> BLUE_TURBO_KEY = ITEMS.register("blue_turbo_key",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","turbo_blue","turbo_belt",
@@ -32,7 +32,7 @@ public class TurboItems {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
-					.ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
+					.IsGlowing().ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
 
 	public static final DeferredItem<Item> GREEN_TURBO_KEY = ITEMS.register("green_turbo_key",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","turbo_green","turbo_belt",
@@ -40,7 +40,7 @@ public class TurboItems {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
-					.ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
+					.IsGlowing().ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
 
 	public static final DeferredItem<Item> YELLOW_TURBO_KEY = ITEMS.register("yellow_turbo_key",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","turbo_yellow","turbo_belt",
@@ -48,7 +48,7 @@ public class TurboItems {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
-					.ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
+					.IsGlowing().ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
 
 	public static final DeferredItem<Item> PINK_TURBO_KEY = ITEMS.register("pink_turbo_key",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","turbo_pink","turbo_belt",
@@ -56,7 +56,7 @@ public class TurboItems {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
-					.ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
+					.IsGlowing().ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.TURBO));
 
 	public static final DeferredItem<Item> BLUE_SENTURION_BADGE_EVIL = ITEMS.register("blue_senturion_badge_evil",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","blue_senturion_evil","blank",
@@ -69,7 +69,7 @@ public class TurboItems {
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).addAlternative(BLUE_SENTURION_BADGE_EVIL.get()).AddToTabList(RangerTabs.TURBO));
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).addAlternative(BLUE_SENTURION_BADGE_EVIL.get()).IsGlowing().AddToTabList(RangerTabs.TURBO));
 
 	public static final DeferredItem<Item> POWER_RUBY = ITEMS.register("power_ruby",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","phantom_ranger","blank",

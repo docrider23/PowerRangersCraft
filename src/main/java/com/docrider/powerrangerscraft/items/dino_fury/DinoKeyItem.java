@@ -25,23 +25,23 @@ public class DinoKeyItem extends RangerFormChangeItem {
 
 		if (BELT.getItem() instanceof RangerChangerItem belt) {
 
-			if (SHIFT_ITEM instanceof RangerFormChangeItem& p_41129_.isShiftKeyDown()) {
-				((RangerFormChangeItem)SHIFT_ITEM).use(p_41128_, p_41129_, p_41130_);
+			if (getSHIFT_ITEM() instanceof RangerFormChangeItem & p_41129_.isShiftKeyDown()) {
+				((RangerFormChangeItem)getSHIFT_ITEM()).use(p_41128_, p_41129_, p_41130_);
 			}
 			else if (CanChange(p_41129_,belt,BELT)) {
-				if (alsoChange2ndSlot !=null)RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
-				if (RESET_FORM)RangerChangerItem.reset_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET));
+				if (getAlsoChange2ndSlot() !=null)RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),getAlsoChange2ndSlot(), 2);
+				if (getRESET_FORM())RangerChangerItem.reset_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET));
 
 				if (this == DinoFuryItems.DINO_KNIGHT_KEY.get())
 				{
 					if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==DinoFuryItems.DINO_KNIGHT_MORPHER.get())
 					{
-						if (BELT.getItem() == DinoFuryItems.RED_DINO_FURY_MORPHER.get()) RangerChangerItem.set_Form_Item(BELT,this, Slot);
+						if (BELT.getItem() == DinoFuryItems.RED_DINO_FURY_MORPHER.get()) RangerChangerItem.set_Form_Item(BELT,this, getSlot());
 					}
 				}
 				else if (this == DinoFuryItems.DINO_MASTER_KEY.get())
 				{
-					RangerChangerItem.set_Form_Item(BELT,this, Slot);
+					RangerChangerItem.set_Form_Item(BELT,this, getSlot());
 				}
 				else if (BELT.getItem() == DinoFuryItems.RED_DINO_FURY_MORPHER.get() |
 						BELT.getItem() == DinoFuryItems.BLUE_DINO_FURY_MORPHER.get() | 
@@ -51,16 +51,16 @@ public class DinoKeyItem extends RangerFormChangeItem {
 					
 					if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==DinoFuryItems.CHROMAFURY_SABER.get())
 					{
-						RangerChangerItem.set_Form_Item(BELT,this, Slot);
+						RangerChangerItem.set_Form_Item(BELT,this, getSlot());
 					}
 				}
-				else RangerChangerItem.set_Form_Item(BELT,this, Slot);
+				else RangerChangerItem.set_Form_Item(BELT,this, getSlot());
 			
-			}else if(!alternative.isEmpty()){
+			}else if(!getAlternative().isEmpty()){
 
-				for (int i = 0; i < alternative.size(); i++)
+				for (int i = 0; i < getAlternative().size(); i++)
 				{
-					RangerFormChangeItem alternativeItem_form_change = alternative.get(i);
+					RangerFormChangeItem alternativeItem_form_change = getAlternative().get(i);
 					alternativeItem_form_change.use(p_41128_, p_41129_, p_41130_);
 				}
 			}

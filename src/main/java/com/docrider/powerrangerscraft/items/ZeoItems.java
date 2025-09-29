@@ -17,7 +17,7 @@ public class ZeoItems {
 
     public static final DeferredItem<Item> YELLOW_ZEO_SUB_CRYSTAL = ITEMS.register("yellow_zeo_sub_crystal",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_yellow","blank")
-                    .AddToTabList(RangerTabs.COMICS));
+                    .IsGlowing().AddToTabList(RangerTabs.COMICS));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
