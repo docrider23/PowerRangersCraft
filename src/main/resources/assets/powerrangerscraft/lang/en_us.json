@@ -544,6 +544,27 @@
   "item.powerrangerscraft.operation_overdrive_torso": "Operation Overdrive Chestplate",
   "item.powerrangerscraft.operation_overdrive_legs": "Operation Overdrive Leggings",
 
+  "item.powerrangerscraft.red_overdrive_tracker": "Overdrive Tracker",
+  "item.powerrangerscraft.black_overdrive_tracker": "Overdrive Tracker",
+  "item.powerrangerscraft.blue_overdrive_tracker": "Overdrive Tracker",
+  "item.powerrangerscraft.yellow_overdrive_tracker": "Overdrive Tracker",
+  "item.powerrangerscraft.pink_overdrive_tracker": "Overdrive Tracker",
+  "item.powerrangerscraft.mercury_morpher": "Mercury Morpher",
+
+  "item.powerrangerscraft.overdrive_red_logo": "Overdrive Red Logo",
+  "item.powerrangerscraft.overdrive_black_logo": "Overdrive Black Logo",
+  "item.powerrangerscraft.overdrive_blue_logo": "Overdrive Blue Logo",
+  "item.powerrangerscraft.overdrive_yellow_logo": "Overdrive Yellow Logo",
+  "item.powerrangerscraft.overdrive_pink_logo": "Overdrive Pink Logo",
+  "item.powerrangerscraft.mercury_ranger_logo": "Mercury Ranger Logo",
+
+  "powerrangerscraft:overdrive_red_logo.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:overdrive_black_logo.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:overdrive_blue_logo.form": "Ranger: §9Blue Ranger",
+  "powerrangerscraft:overdrive_yellow_logo.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:overdrive_pink_logo.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:mercury_ranger_logo.form": "Ranger: §7Mercury Ranger",
+
   //16 Jungle Fury
   "item.powerrangerscraft.jungle_fury_logo": "Jungle Fury Logo",
 
