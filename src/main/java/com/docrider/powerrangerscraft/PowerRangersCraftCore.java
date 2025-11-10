@@ -422,6 +422,8 @@ public class PowerRangersCraftCore {
             event.registerEntityRenderer(MobsCore.STINGWINGERS.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.MAGNA_DEFENDER.get(), BasicEntityRenderer::new);
 
+            event.registerEntityRenderer(MobsCore.BATLINGS.get(), BasicEntityRenderer::new);
+
             event.registerEntityRenderer(MobsCore.PUTRIDS.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.ZEN_AKU.get(), BasicEntityRenderer::new);
 

@@ -25,6 +25,9 @@ public class MobsItems {
 	public static final DeferredItem<SwordItem> STINGWINGERS_STINGER = ITEMS.register("stingwingers_stinger",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 
+	public static final DeferredItem<SwordItem> BATLINGS_SWORD = ITEMS.register("batlings_sword",
+			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
+
 	public static final DeferredItem<SwordItem> PUTRIDS_CLUB = ITEMS.register("putrids_club",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 

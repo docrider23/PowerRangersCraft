@@ -307,6 +307,8 @@ public class RangerTabs {
             event.accept(MobsCore.STINGWINGERS_SPAWN_EGG);
             event.accept(MobsCore.MAGNA_DEFENDER_SPAWN_EGG);
 
+            event.accept(MobsCore.BATLINGS_SPAWN_EGG);
+
             event.accept(MobsCore.PUTRIDS_SPAWN_EGG);
             event.accept(MobsCore.ZEN_AKU_SPAWN_EGG);
 

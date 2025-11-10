@@ -120,6 +120,8 @@ public class ModCommonEvents {public static class EventHandler {
         event.put(MobsCore.STINGWINGERS.get(), StingwingersEntity.setAttributes().build());
         event.put(MobsCore.MAGNA_DEFENDER.get(), MagnaDefenderEntity.setAttributes().build());
 
+        event.put(MobsCore.BATLINGS.get(), BatlingsEntity.setAttributes().build());
+
         event.put(MobsCore.PUTRIDS.get(), PutridsEntity.setAttributes().build());
         event.put(MobsCore.ZEN_AKU.get(), ZenAkuEntity.setAttributes().build());
 
@@ -154,6 +156,8 @@ public class ModCommonEvents {public static class EventHandler {
         event.register(MobsCore.SWABBIES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.STINGWINGERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+        event.register(MobsCore.BATLINGS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.PUTRIDS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 

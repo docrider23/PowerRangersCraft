@@ -70,6 +70,11 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
             () -> new DeferredSpawnEggItem(MAGNA_DEFENDER, 0x0b0b0b, 0xff9900, new Item.Properties()));
     
     //08 Lightspeed Rescue
+    public static final DeferredHolder<EntityType<?>, EntityType<BatlingsEntity>> BATLINGS = MOBLIST.register("batlings",
+            () -> EntityType.Builder.of(BatlingsEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":imps"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> BATLINGS_SPAWN_EGG = ITEMS.register("batlings_spawn_egg",
+            () -> new DeferredSpawnEggItem(BATLINGS,0xffffff, 0x151515, new Item.Properties()));
     
     //09 Time Force
 

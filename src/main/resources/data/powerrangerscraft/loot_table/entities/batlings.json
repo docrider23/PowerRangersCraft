@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lightspeed_red_badge",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lightspeed_blue_badge",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lightspeed_green_badge",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lightspeed_yellow_badge",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lightspeed_pink_badge",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:titanium_badge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lightspeed_rescue_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lightspeed_rescue_logo"
+        }
+      ]
+    }
+  ]
+}
