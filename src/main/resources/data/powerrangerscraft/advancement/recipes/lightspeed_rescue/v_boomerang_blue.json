@@ -1,0 +1,27 @@
+{
+  "parent": "supersentaicraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "supersentaicraft:gogo_v/v_lancer_blue",
+      "supersentaicraft:gogo_v/v_machine_gun_blue",
+      "supersentaicraft:gogo_v/v_machine_gun_blue1"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "supersentaicraft:v_boomerang_blue"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}
