@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lightspeed_rescue",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:lightspeed_rescue_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:lightspeed_rescue_torso"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lightspeed_pink",
+  "pattern": [
+    "aba",
+    "ca "
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:lightspeed_rescue_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:lightspeed_pink_badge"
+    },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:v_boomerang_pink"
+  }
+}

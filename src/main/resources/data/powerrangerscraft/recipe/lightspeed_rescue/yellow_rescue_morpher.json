@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lightspeed_yellow",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:lightspeed_rescue_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:lightspeed_yellow_badge"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:yellow_rescue_morpher"
+  }
+}

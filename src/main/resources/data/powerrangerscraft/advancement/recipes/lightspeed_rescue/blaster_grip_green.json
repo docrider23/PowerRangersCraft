@@ -2,9 +2,8 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:lightspeed_rescue/v_lancer_blue",
-      "powerrangerscraft:lightspeed_rescue/v_blaster_blue",
-      "powerrangerscraft:lightspeed_rescue/v_blaster_blue1"
+      "powerrangerscraft:lightspeed_rescue/rescue_blaster_green",
+      "powerrangerscraft:lightspeed_rescue/rescue_cutter"
     ]
   },
   "criteria": {
@@ -13,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "items": "powerrangerscraft:v_boomerang_blue"
+            "items": "powerrangerscraft:blaster_grip_green"
           }
         ]
       }

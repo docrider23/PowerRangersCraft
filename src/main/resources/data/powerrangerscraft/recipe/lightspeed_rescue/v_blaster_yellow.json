@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lightspeed_yellow",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:v_lancer_yellow"
+    },
+	{
+      "item": "powerrangerscraft:blaster_grip_yellow"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:v_blaster_yellow"
+  }
+}

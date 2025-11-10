@@ -1,0 +1,190 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:lightspeed_rescue_logo"
+    },
+    "title": "Power Rangers Lightspeed Rescue",
+    "description": "Change into each member of the Lightspeed Rangers",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:root",
+  "criteria": {
+    "ranger1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_rescue_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_rescue_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:green_rescue_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_rescue_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:pink_rescue_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:titanium_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

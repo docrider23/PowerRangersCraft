@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lightspeed_green",
+  "pattern": [
+    "a",
+    "a",
+	"b"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:lightspeed_rescue_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:lightspeed_green_badge"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:blaster_grip_green"
+  }
+}

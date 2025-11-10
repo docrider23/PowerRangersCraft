@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lightspeed_pink",
+  "pattern": [
+    "aaa",
+    "acb",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:lightspeed_rescue_logo"
+    },
+	"b": {
+	  "item": "powerrangerscraft:lightspeed_pink_badge"
+	},
+	"c": {
+      "item": "powerrangerscraft:blaster_grip_pink"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:rescue_injector"
+  }
+}

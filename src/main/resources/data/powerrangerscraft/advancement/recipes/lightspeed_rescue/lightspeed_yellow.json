@@ -1,0 +1,28 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:lightspeed_rescue/yellow_rescue_morpher",
+      "powerrangerscraft:lightspeed_rescue/blaster_grip_yellow",
+      "powerrangerscraft:lightspeed_rescue/v_boomerang_yellow",
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_yellow"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:lightspeed_yellow_badge"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

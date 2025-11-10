@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lightspeed_red",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+	"a": {
+      "item": "powerrangerscraft:v_blaster_red"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:blaster_grip_red"
+  }
+}

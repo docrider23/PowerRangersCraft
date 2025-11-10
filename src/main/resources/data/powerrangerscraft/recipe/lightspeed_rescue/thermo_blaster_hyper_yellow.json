@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lightspeed_yellow",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:thermo_blaster_yellow"
+    },
+	{
+      "item": "powerrangerscraft:battle_booster"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:thermo_blaster_hyper_yellow"
+  }
+}

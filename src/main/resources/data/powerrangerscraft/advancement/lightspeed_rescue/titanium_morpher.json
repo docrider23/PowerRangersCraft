@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:titanium_morpher"
+    },
+    "title": "From Demon Raised to Hero Forged!",
+    "description": "Obtain the Titanium Morpher",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:lightspeed_rescue/rescue_morpher",
+  "criteria": {
+    "ranger1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:titanium_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ranger1"
+    ]
+  ]
+}
