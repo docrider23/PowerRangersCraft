@@ -43,6 +43,9 @@
 
   "change.powerrangerscraft.magna_defender": "MAGNA POWER!",
 
+  "entity.powerrangerscraft.batlings": "Batlings",
+  "item.powerrangerscraft.batlings_spawn_egg": "Batlings Spawn Egg",
+
   "entity.powerrangerscraft.putrids": "Putrids",
   "entity.powerrangerscraft.zen_aku": "Zen-Aku",
   "item.powerrangerscraft.putrids_spawn_egg": "Putrids Spawn Egg",
@@ -87,6 +90,7 @@
   "item.powerrangerscraft.chromites_sword":"Chromites Sword",
   "item.powerrangerscraft.swabbies_cutlass": "Swabbies Cutlass",
   "item.powerrangerscraft.stingwingers_stinger": "Stingwingers Stinger",
+  "item.powerrangerscraft.batlings_sword": "Batlings Sword",
   "item.powerrangerscraft.putrids_club": "Putrids Club",
   "item.powerrangerscraft.moogers_dao": "Moogers Dao",
   "item.powerrangerscraft.hengemen_spear": "Hengemen Spear",
@@ -261,6 +265,8 @@
   "powerrangerscraft:lightspeed_pink_badge.form": "Ranger: §dPink Ranger",
   "powerrangerscraft:titanium_badge.form": "Ranger: §7Titanium Ranger",
 
+  "item.powerrangerscraft.battle_booster": "Battle Booster",
+
   "item.powerrangerscraft.blaster_grip_red": "Blaster Grip (Red Ranger)",
   "item.powerrangerscraft.blaster_grip_blue": "Blaster Grip (Blue Ranger)",
   "item.powerrangerscraft.blaster_grip_green": "Blaster Grip (Green Ranger)",
@@ -303,14 +309,14 @@
   "item.powerrangerscraft.thermo_blaster_hyper_yellow": "Thermo Blaster (Hyper Mode) (Yellow Ranger)",
   "item.powerrangerscraft.thermo_blaster_hyper_pink": "Thermo Blaster (Hyper Mode) (Pink Ranger)",
 
-  "item.supersentaicraft.rescue_claw": "Rescue Claw",
-  "item.supersentaicraft.rescue_spray": "Rescue Spray",
-  "item.supersentaicraft.rescue_cutter": "Rescue Cutter",
-  "item.supersentaicraft.rescue_drill": "Rescue Drill",
-  "item.supersentaicraft.rescue_injector": "Rescue Injector",
+  "item.powerrangerscraft.rescue_claw": "Rescue Claw",
+  "item.powerrangerscraft.rescue_spray": "Rescue Spray",
+  "item.powerrangerscraft.rescue_cutter": "Rescue Cutter",
+  "item.powerrangerscraft.rescue_drill": "Rescue Drill",
+  "item.powerrangerscraft.rescue_injector": "Rescue Injector",
 
-  "block.supersentaicraft.rescue_bird": "Rescue Bird",
-  "item.supersentaicraft.rescue_bird_unilaser_mode": "Rescue Bird (Unilaser Mode)",
+  "block.powerrangerscraft.rescue_bird": "Rescue Bird",
+  "item.powerrangerscraft.rescue_bird_unilaser_mode": "Rescue Bird (Unilaser Mode)",
 
   "item.powerrangerscraft.titanium_axe": "Titanium Axe",
 
@@ -389,11 +395,11 @@
   "powerrangerscraft:clutcher_mode.form": " §aClutcher Mode",
   "powerrangerscraft:predator_mode_isis.form": " §5Pred§8ator §7Mode",
 
-  "supersentaicraft:lion_blue_animal_crystal.form": "Megazord: Wild Force Megazord",
-  "supersentaicraft:lion_black_animal_crystal.form": "Megazord: Wild Force Megazord",
-  "supersentaicraft:lion_white_animal_crystal.form": "Megazord: Wild Force Megazord",
-  "supersentaicraft:ape_animal_crystal.form": "Megazord: Ultimus Megazord",
-  "supersentaicraft:lion_wildzord_blue.form": "Body: §bLion Wildzord (Blue ver.)",
+  "powerrangerscraft:lion_blue_animal_crystal.form": "Megazord: Wild Force Megazord",
+  "powerrangerscraft:lion_black_animal_crystal.form": "Megazord: Wild Force Megazord",
+  "powerrangerscraft:lion_white_animal_crystal.form": "Megazord: Wild Force Megazord",
+  "powerrangerscraft:ape_animal_crystal.form": "Megazord: Ultimus Megazord",
+  "powerrangerscraft:lion_wildzord_blue.form": "Body: §bLion Wildzord (Blue ver.)",
   "powerrangerscraft:lion_wildzord_black.form": "Body: §8Lion Wildzord (Black ver.)",
   "powerrangerscraft:lion_wildzord_white.form": "Body: Lion Wildzord (White ver.)",
   "powerrangerscraft:ape_animal_crystal.form": "Body: §7Ape Wildzord",

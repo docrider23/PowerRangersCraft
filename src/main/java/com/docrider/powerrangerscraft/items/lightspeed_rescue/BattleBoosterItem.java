@@ -1,5 +1,6 @@
 package com.docrider.powerrangerscraft.items.lightspeed_rescue;
 
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.BaseItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -24,6 +25,7 @@ public class BattleBoosterItem extends BaseItem {
 
                 player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,4,true,false));
                 player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST,40,4,true,false));
+                player.addEffect(new MobEffectInstance(EffectCore.PUNCH,40,4,true,false));
             }
         }
     }

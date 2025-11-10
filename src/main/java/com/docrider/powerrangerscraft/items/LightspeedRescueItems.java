@@ -1,6 +1,7 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.items.lightspeed_rescue.BattleBoosterItem;
 import com.docrider.powerrangerscraft.items.lightspeed_rescue.RescueMorpherItem;
 import com.docrider.powerrangerscraft.items.lightspeed_rescue.RescueInjectorItem;
 import com.docrider.powerrangerscraft.items.others.*;
@@ -75,6 +76,9 @@ public class LightspeedRescueItems {
 
     public static final DeferredItem<Item> TITANIUM_MORPHER = ITEMS.register("titanium_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"titanium_ranger",TITANIUM_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+
+    public static final DeferredItem<Item> BATTLE_BOOSTER = ITEMS.register("battle_booster",
+            () -> new BattleBoosterItem(new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> BLASTER_GRIP_RED = ITEMS.register("blaster_grip_red",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));

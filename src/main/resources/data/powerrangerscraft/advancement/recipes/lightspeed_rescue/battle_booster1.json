@@ -1,0 +1,34 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_hyper",
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_hyper_blue",
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_hyper_green",
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_hyper_yellow",
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_hyper_pink",
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_hyper1",
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_hyper_blue1",
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_hyper_green1",
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_hyper_yellow1",
+      "powerrangerscraft:lightspeed_rescue/thermo_blaster_hyper_pink1"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:battle_booster"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}
