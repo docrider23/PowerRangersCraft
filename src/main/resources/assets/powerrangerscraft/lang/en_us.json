@@ -54,6 +54,8 @@
   "entity.powerrangerscraft.mooger": "Mooger",
   "item.powerrangerscraft.mooger_spawn_egg": "Mooger Spawn Egg",
 
+  "entity.powerrangerscraft.dino_cycle": "Dino Cycle",
+
   "entity.powerrangerscraft.hengemen": "Hengemen",
   "entity.powerrangerscraft.void_knight": "Void Knight",
   "item.powerrangerscraft.hengemen_spawn_egg": "Hengemen Spawn Egg",
@@ -696,6 +698,7 @@
   "item.powerrangerscraft.dark_spino_boomerang": "Spino Boomerang",
 
   "item.powerrangerscraft.spinosaurus_dino_charger": "Spinosaurus Dino Charger",
+  "item.powerrangerscraft.dino_cycle_charger": "Dino Cycle Charger",
 
   "powerrangerscraft:spinosaurus_dino_charger.form": "Ranger: §1Dark Ranger",
 

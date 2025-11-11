@@ -1,8 +1,6 @@
 package com.docrider.powerrangerscraft;
 
-import com.docrider.powerrangerscraft.client.renderer.BasicEntityRenderer;
-import com.docrider.powerrangerscraft.client.renderer.ThrownShurikenRenderer;
-import com.docrider.powerrangerscraft.client.renderer.ThrownWeaponRenderer;
+import com.docrider.powerrangerscraft.client.renderer.*;
 import com.docrider.powerrangerscraft.events.ModClientEvents;
 import com.docrider.powerrangerscraft.blocks.RangerBlocks;
 import com.docrider.powerrangerscraft.effect.EffectCore;
@@ -428,6 +426,8 @@ public class PowerRangersCraftCore {
             event.registerEntityRenderer(MobsCore.ZEN_AKU.get(), BasicEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.MOOGERS.get(), BasicEntityRenderer::new);
+
+            event.registerEntityRenderer(MobsCore.DINO_CYCLE.get(), BikeRenderer::new);
 
             event.registerEntityRenderer(MobsCore.HENGEMEN.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.VOID_KNIGHT.get(), BasicEntityRenderer::new);

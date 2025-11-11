@@ -83,7 +83,7 @@ public class LostGalaxyItems {
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
-					.addAlternative(MAGNA_DEFENDER_CORE_SOLAR.get()).ChangeModel("geo/magna_defender.geo.json").ChangeAnimation("magna_defender.animation.json").ChangeBeltModel("geo/magna_defender_belt.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
+					.addAlternative(MAGNA_DEFENDER_CORE_SOLAR.get()).ChangeModel("magna_defender.geo.json").ChangeAnimation("magna_defender.animation.json").ChangeBeltModel("geo/magna_defender_belt.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
     
     public static final DeferredItem<Item> LIGHTS_OF_ORION = ITEMS.register("lights_of_orion",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_lights_of_orion","galaxy_red","lights_of_orion_belt",

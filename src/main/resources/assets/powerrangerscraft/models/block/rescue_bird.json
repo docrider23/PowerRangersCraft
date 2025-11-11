@@ -2,13 +2,13 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "supersentaicraft:item/wing_spreader",
-		"2": "supersentaicraft:item/build_discharger",
-		"3": "supersentaicraft:item/claw_anchor",
-		"4": "supersentaicraft:item/tail_injector",
-		"5": "supersentaicraft:item/beak_driller",
-		"6": "supersentaicraft:item/laser_grip",
-		"particle": "supersentaicraft:item/build_discharger"
+		"1": "powerrangerscraft:item/rescue_cutter",
+		"2": "powerrangerscraft:item/rescue_spray",
+		"3": "powerrangerscraft:item/rescue_claw",
+		"4": "powerrangerscraft:item/rescue_injector",
+		"5": "powerrangerscraft:item/rescue_drill",
+		"6": "powerrangerscraft:item/blaster_grip",
+		"particle": "powerrangerscraft:item/rescue_spray"
 	},
 	"elements": [
 		{
@@ -737,37 +737,37 @@
 	},
 	"groups": [
 		{
-			"name": "beak_driller",
+			"name": "rescue_drill",
 			"origin": [5, 5, 7],
 			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5, 6, 7]
 		},
 		{
-			"name": "tail_injector",
+			"name": "rescue_injector",
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [8, 9, 10, 11]
 		},
 		{
-			"name": "claw_anchor",
+			"name": "rescue_claw",
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
 		},
 		{
-			"name": "build_discharger",
+			"name": "rescue_spray",
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [28, 29, 30, 31, 32, 33, 34, 35]
 		},
 		{
-			"name": "wing_spreader",
+			"name": "rescue_cutter",
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]
 		},
 		{
-			"name": "laser_grip",
+			"name": "blaster_grip",
 			"origin": [0, 0, 0],
 			"color": 0,
 			"children": [49, 50, 51, 52]
