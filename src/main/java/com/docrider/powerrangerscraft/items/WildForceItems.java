@@ -176,17 +176,18 @@ public class WildForceItems {
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
 					new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false)).ChangeBeltModel("geo/predazord.geo.json"));
+					new MobEffectInstance(MobEffects.JUMP, 40, 3,true,false))
+					.ChangeBeltModel("geo/predazord.geo.json"));
 
 	public static final DeferredItem<Item> RHINO_ANIMAL_CRYSTAL = ITEMS.register("rhino_animal_crystal",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"striker_mode","wild_force_megazord","blank",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 6,true,false))
-					.ChangeSlot(5).AddCompatibilityList(ARMS).AddToList(GaoStriker).AddToTabList(RangerTabs.WILD_FORCE));
+					.ChangeSlot(5).AddCompatibilityList(LEGS).AddToList(GaoStriker).AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> ARMADILLO_ANIMAL_CRYSTAL = ITEMS.register("armadillo_animal_crystal",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"striker_mode","wild_force_megazord","blank",
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 6,true,false))
-					.ChangeSlot(5).AddCompatibilityList(ARMS).AddToList(GaoStriker).AddToTabList(RangerTabs.WILD_FORCE));
+					.ChangeSlot(5).AddCompatibilityList(LEGS).AddToList(GaoStriker).AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> RED_GORILLA_ANIMAL_CRYSTAL = ITEMS.register("red_gorilla_animal_crystal",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","ultimus_megazord", "blank",

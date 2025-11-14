@@ -40,6 +40,14 @@ public class RangerBlocks {
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.NETHERRACK), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
+    //public static final DeferredBlock<Block> POWER_COIN_FORGE = registerBlock("power_coin_forge",
+    //        () -> new BaseBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).lightLevel((glow) -> 0).strength(2f).dynamicShape()).AddToTabList(RangerTabs.BLOCKS));
+
+    public static final DeferredBlock<Block> RESCUE_BIRD = registerBlock("rescue_bird",
+            () -> new RescueBird(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .strength(5.0F, 6.0F).dynamicShape().lightLevel((p_152632_) -> {
+                        return 10;}),Block.box(4, 0, 4, 12,16, 12)).AddToTabList(RangerTabs.BLOCKS));
+
     public static final DeferredBlock<Block> ANIMAL_CRYSTAL_ORE = registerBlock("animal_crystal_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
@@ -71,11 +79,6 @@ public class RangerBlocks {
     public static final DeferredBlock<Block> END_STARRANGER_ORE = registerBlock("end_starranger_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2,6)).AddToTabList(RangerTabs.BLOCKS));
-
-    public static final DeferredBlock<Block> LIFE_BIRD = registerBlock("life_bird",
-            () -> new RescueBird(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
-                    .strength(5.0F, 6.0F).dynamicShape().lightLevel((p_152632_) -> {
-                        return 10;}),Block.box(4, 0, 4, 12,16, 12)).AddToTabList(RangerTabs.BLOCKS));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

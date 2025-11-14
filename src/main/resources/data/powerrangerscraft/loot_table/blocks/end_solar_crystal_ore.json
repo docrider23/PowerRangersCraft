@@ -127,7 +127,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:green_samurai_ninja_disk",
+          "name": "powerrangerscraft:green_samurai_ninja_power_disk",
           "functions": [
             {
               "function": "minecraft:apply_bonus",

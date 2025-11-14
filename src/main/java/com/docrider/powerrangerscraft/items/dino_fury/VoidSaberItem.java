@@ -46,11 +46,7 @@ public class VoidSaberItem extends RangerChangerItem{
 		boolean fly = !rider.onGround();
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
-			if (rider.getMainHandItem().getItem()==DinoFuryItems.CHROMAFURY_SABER.get() ||
-					rider.getMainHandItem().getItem()==DinoFuryItems.DINO_MASTER_SABER.get()) {
-				belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
-			}
-			else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
+			if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
 				belt = get_Form_Item(itemstack,1).getBeltTex();
 			}
 			return "belts/"+belt;
