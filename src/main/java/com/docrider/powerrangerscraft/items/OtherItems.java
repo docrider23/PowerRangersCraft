@@ -41,7 +41,7 @@ public class OtherItems {
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false)).ChangeModel("geo/magna_defender.geo.json").ChangeBeltModel("geo/magna_defender_belt.geo.json").addAlternative(BATTLE_FOR_THE_GRID_GAME_REBOOT_BLUE.get()));
+                    new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false)).ChangeModel("magna_defender.geo.json").ChangeBeltModel("geo/magna_defender_belt.geo.json").addAlternative(BATTLE_FOR_THE_GRID_GAME_REBOOT_BLUE.get()));
     public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME = ITEMS.register("battle_for_the_grid_game",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","princess_samurai_red","samurai_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
