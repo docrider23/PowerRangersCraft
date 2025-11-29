@@ -81,7 +81,7 @@ public class SamuraiItems {
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
-			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.SAMURAI));
+			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltweapon1.geo.json").AddToTabList(RangerTabs.SAMURAI));
 
 
     
@@ -120,27 +120,27 @@ public class SamuraiItems {
 					.ChangeBeltModel("geo/rangerbelt.geo.json").ChangeModel("dino_master.geo.json")
 					.addNeedForm(SUPER_SAMURAI_DISC.get(),2).addAlternative(SHARK_ATTACK_MEGA_MODE_DISC.get()));
 	public static final DeferredItem<Item> SUPER_MEGA_MODE_DISC_GOLD = ITEMS.register("super_mega_mode_disc_gold",
-			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","samurai_gold","samurai_super_mega_mode_belt")
+			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","samurai_gold","samurai_gold_super_mega_mode_belt")
 					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get())
 					.ChangeBeltModel("geo/rangerbelt.geo.json").ChangeModel("dino_master.geo.json")
 					.addNeedForm(SUPER_SAMURAI_DISC.get(),2).addAlternative(SUPER_MEGA_MODE_DISC_PRINCESS.get()));
 	public static final DeferredItem<Item> SUPER_MEGA_MODE_DISC_YELLOW = ITEMS.register("super_mega_mode_disc_yellow",
-			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","samurai_yellow","samurai_super_mega_mode_belt")
+			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","samurai_yellow","samurai_yellow_super_mega_mode_belt")
 					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get())
 					.ChangeBeltModel("geo/rangerbelt.geo.json").ChangeModel("dino_master.geo.json")
 					.addNeedForm(SUPER_SAMURAI_DISC.get(),2).addAlternative(SUPER_MEGA_MODE_DISC_GOLD.get()));
 	public static final DeferredItem<Item> SUPER_MEGA_MODE_DISC_GREEN = ITEMS.register("super_mega_mode_disc_green",
-			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","samurai_green","samurai_super_mega_mode_belt")
+			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","samurai_green","samurai_green_super_mega_mode_belt")
 					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get())
 					.ChangeBeltModel("geo/rangerbelt.geo.json").ChangeModel("dino_master.geo.json")
 					.addNeedForm(SUPER_SAMURAI_DISC.get(),2).addAlternative(SUPER_MEGA_MODE_DISC_YELLOW.get()));
 	public static final DeferredItem<Item> SUPER_MEGA_MODE_DISC_PINK = ITEMS.register("super_mega_mode_disc_pink",
-			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","samurai_pink","samurai_super_mega_mode_belt")
+			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","samurai_pink","samurai_pink_super_mega_mode_belt")
 					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get())
 					.ChangeBeltModel("geo/rangerbelt.geo.json").ChangeModel("dino_master.geo.json")
 					.addNeedForm(SUPER_SAMURAI_DISC.get(),2).addAlternative(SUPER_MEGA_MODE_DISC_GREEN.get()));
 	public static final DeferredItem<Item> SUPER_MEGA_MODE_DISC_BLUE = ITEMS.register("super_mega_mode_disc_blue",
-			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","samurai_blue","samurai_super_mega_mode_belt")
+			() -> new SecretDiscItem(new Item.Properties(),0,"_super_mega_mode","samurai_blue","samurai_blue_super_mega_mode_belt")
 					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get())
 					.ChangeBeltModel("geo/rangerbelt.geo.json").ChangeModel("dino_master.geo.json")
 					.addNeedForm(SUPER_SAMURAI_DISC.get(),2).addAlternative(SUPER_MEGA_MODE_DISC_PINK.get()));
@@ -158,12 +158,11 @@ public class SamuraiItems {
 					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).addAlternative(SUPER_MEGA_MODE_DISC.get()).addNeedForm(OtherItems.BLANK_FORM.get(),2).ChangeModel("dino_master.geo.json")
 					.ChangeBeltModel("geo/rangerbeltweapon.geo.json"));
 	public static final DeferredItem<Item> MEGA_MODE_DISC_GOLD = ITEMS.register("mega_mode_disc_gold",
-			() -> new SecretDiscItem(new Item.Properties(),0,"_mega_mode","samurai_gold","samurai_belt",
+			() -> new SecretDiscItem(new Item.Properties(),0,"_mega_mode","samurai_gold","samurai_gold_mega_mode_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
 					new MobEffectInstance(EffectCore.SLASH, 40, 3,true,false))
-					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).addAlternative(MEGA_MODE_DISC_PRINCESS.get()).addNeedForm(OtherItems.BLANK_FORM.get(),2).ChangeModel("dino_master.geo.json")
-					.ChangeBeltModel("geo/rangerbeltweapon.geo.json"));
+					.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).addAlternative(MEGA_MODE_DISC_PRINCESS.get()).addNeedForm(OtherItems.BLANK_FORM.get(),2).ChangeModel("dino_master.geo.json"));
 	public static final DeferredItem<Item> MEGA_MODE_DISC_YELLOW = ITEMS.register("mega_mode_disc_yellow",
 			() -> new SecretDiscItem(new Item.Properties(),0,"_mega_mode","samurai_yellow","samurai_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),

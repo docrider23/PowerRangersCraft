@@ -45,7 +45,7 @@ public class StarrangerItems {
                             player.getZ(), 300, 0, 0, 0, 0.2);
                 }
             }
-                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> WATER_CONSTELLATION_CARD = ITEMS.register("water_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_blue","starranger_belt",
@@ -63,7 +63,7 @@ public class StarrangerItems {
                             player.getZ(), 300, 0, 0, 0, 0.2);
                 }
             }
-                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> EARTH_CONSTELLATION_CARD = ITEMS.register("earth_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_green","starranger_belt",
@@ -83,7 +83,7 @@ public class StarrangerItems {
                             player.getZ(), 300, 0, 0, 0, 0.2);
                 }
             }
-                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> AIR_CONSTELLATION_CARD = ITEMS.register("air_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_white","starranger_belt",
@@ -101,7 +101,7 @@ public class StarrangerItems {
                             player.getZ(), 300, 0, 0, 0, 0.2);
                 }
             }
-                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> LIGHTNING_CONSTELLATION_CARD = ITEMS.register("lightning_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_lightning","starranger_lightning_belt",
@@ -121,7 +121,7 @@ public class StarrangerItems {
 
                 }
             }
-                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> SOLAR_CONSTELLATION_CARD = ITEMS.register("solar_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","taiyou_gold","starranger_equinox_belt",
