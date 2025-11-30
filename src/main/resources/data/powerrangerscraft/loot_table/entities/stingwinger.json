@@ -30,7 +30,7 @@
           "weight": 6
         },
         {
-          "type": "minecraft_item",
+          "type": "minecraft:item",
           "name": "powerrangerscraft:galactic_key"
         },
         {

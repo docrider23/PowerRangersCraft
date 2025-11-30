@@ -37,7 +37,7 @@
                 "powerrangerscraft:black_dino_fury_morpher"
               ],
               "predicates": {
-                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:robotic_arm\"}"
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:robotic_arm\"}"
               }
             }
           }

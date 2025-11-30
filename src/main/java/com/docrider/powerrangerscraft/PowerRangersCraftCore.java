@@ -110,6 +110,8 @@ public class PowerRangersCraftCore {
         RebootItems.register(modEventBus);
         StarrangerItems.register(modEventBus);
 
+        //CivilianItems.register(modEventBus);
+
         RangerBlocks.register(modEventBus);
 
         MobsCore.register(modEventBus);

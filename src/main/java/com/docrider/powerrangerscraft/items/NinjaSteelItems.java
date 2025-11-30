@@ -15,10 +15,10 @@ public class NinjaSteelItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.NINJA_STEEL));
 
     public static final DeferredItem<Item> RED_NINJA_POWER_STAR = ITEMS.register("red_ninja_power_star",
-            () -> new NinjaPowerStarItem(new Item.Properties(),0,"","ninja_steel_red","ninja_steel_belt")
+            () -> new NinjaPowerStarItem(new Item.Properties(),0,"","ninja_steel_red","ninja_steel_red_belt")
                     .AddToTabList(RangerTabs.NINJA_STEEL));
     public static final DeferredItem<Item> RED_NINJA_POWER_STAR_SILVER = ITEMS.register("red_ninja_power_star_silver",
-            () -> new NinjaPowerStarItem(new Item.Properties(),0,"","ninja_steel_red_silver","ninja_steel_belt")
+            () -> new NinjaPowerStarItem(new Item.Properties(),0,"","ninja_steel_red_silver","ninja_steel_red_alternate_belt")
                     .AddToTabList(RangerTabs.NINJA_STEEL));
 
     public static final DeferredItem<Item> NINJA_STEEL_HELMET = ITEMS.register("ninja_steel_head",

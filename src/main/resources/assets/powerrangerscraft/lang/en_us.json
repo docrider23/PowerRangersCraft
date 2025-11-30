@@ -559,6 +559,8 @@
   "item.powerrangerscraft.pink_overdrive_tracker": "Overdrive Tracker",
   "item.powerrangerscraft.mercury_morpher": "Mercury Morpher",
 
+  "item.powerrangerscraft.sentinel_sword_knight": "Sentinel Sword",
+
   "item.powerrangerscraft.overdrive_red_logo": "Overdrive Red Logo",
   "item.powerrangerscraft.overdrive_black_logo": "Overdrive Black Logo",
   "item.powerrangerscraft.overdrive_blue_logo": "Overdrive Blue Logo",
@@ -566,12 +568,38 @@
   "item.powerrangerscraft.overdrive_pink_logo": "Overdrive Pink Logo",
   "item.powerrangerscraft.mercury_ranger_logo": "Mercury Ranger Logo",
 
-  "powerrangerscraft:overdrive_red_logo.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:overdrive_black_logo.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:overdrive_blue_logo.form": "Ranger: §9Blue Ranger",
-  "powerrangerscraft:overdrive_yellow_logo.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:overdrive_pink_logo.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:mercury_ranger_logo.form": "Ranger: §7Mercury Ranger",
+  "item.powerrangerscraft.unfinished_sentinel_sword": "Unfinished Sentinel Sword",
+
+  "item.powerrangerscraft.dragon_scale": "Dragon Scale",
+
+  "item.powerrangerscraft.defender_vest": "Defender Vest",
+
+  "powerrangerscraft:overdrive_red_logo.form": "§cRed Ranger",
+  "powerrangerscraft:overdrive_black_logo.form": "§8Black Ranger",
+  "powerrangerscraft:overdrive_blue_logo.form": "§9Blue Ranger",
+  "powerrangerscraft:overdrive_yellow_logo.form": "§eYellow Ranger",
+  "powerrangerscraft:overdrive_pink_logo.form": "§dPink Ranger",
+  "powerrangerscraft:mercury_ranger_logo.form": "§7Mercury Ranger",
+
+  "powerrangerscraft:unfinished_sentinel_sword.form": "Ally: §6Sentinel Knight",
+
+  "powerrangerscraft:defender_vest.form": "§rw/ Defender Vest",
+  "powerrangerscraft:defender_vest_mmpr.form": "Ranger: §8Black Ranger §rw/ Defender Vest",
+
+  "item.powerrangerscraft.brownbeards_lucky_pearl": "Brownbeard's Lucky Pearl",
+  "item.powerrangerscraft.toru_diamond": "Toru Diamond",
+  "item.powerrangerscraft.blue_sapphire": "Blue Sapphire",
+  "item.powerrangerscraft.star_of_isis": "Star of Isis",
+  "item.powerrangerscraft.pink_emerald": "Pink Emerald",
+
+  "item.powerrangerscraft.black_jewel": "Black Corona Aurora Jewel",
+  "item.powerrangerscraft.yellow_jewel": "Yellow Corona Aurora Jewel",
+  "item.powerrangerscraft.blue_jewel": "Blue Corona Aurora Jewel",
+  "item.powerrangerscraft.red_jewel": "Red Corona Aurora Jewel",
+  "item.powerrangerscraft.pink_jewel": "Pink Corona Aurora Jewel",
+
+  "item.powerrangerscraft.corona_aurora_crown": "Corona Aurora Crown Piece",
+  "item.powerrangerscraft.corona_aurora": "Corona Aurora",
 
   //16 Jungle Fury
   "item.powerrangerscraft.jungle_fury_logo": "Jungle Fury Logo",
