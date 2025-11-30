@@ -349,6 +349,12 @@ public class RangerFormChangeItem extends BaseItem {
     NEED_FORM_SLOT_1=((RangerFormChangeItem)item);
         return this;
     }
+
+    public RangerFormChangeItem BackToBase() {
+        RESET_FORM=true;
+        return this;
+    }
+
     public RangerFormChangeItem addNeedForm(Item  item, int slot) {
 
         if (slot==1)NEED_FORM_SLOT_1=((RangerFormChangeItem)item);
