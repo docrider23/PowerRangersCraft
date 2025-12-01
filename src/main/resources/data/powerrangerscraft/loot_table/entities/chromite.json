@@ -35,10 +35,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:power_ruby"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 5,
           "name": "powerrangerscraft:turbo_logo",
           "functions": [

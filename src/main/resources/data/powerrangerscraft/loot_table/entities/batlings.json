@@ -31,7 +31,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:titanium_badge"
+          "name": "powerrangerscraft:titanium_badge",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:trans_armor_badge",
+          "weight": 1
         },
         {
           "type": "minecraft:item",

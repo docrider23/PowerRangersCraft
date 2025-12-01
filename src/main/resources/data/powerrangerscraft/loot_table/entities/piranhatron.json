@@ -31,10 +31,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:blue_senturion_badge"
-        },
-        {
-          "type": "minecraft:item",
           "name": "powerrangerscraft:power_ruby"
         },
         {

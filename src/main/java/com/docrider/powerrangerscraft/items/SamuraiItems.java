@@ -83,8 +83,6 @@ public class SamuraiItems {
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
 			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltweapon1.geo.json").AddToTabList(RangerTabs.SAMURAI));
 
-
-    
 	public static final DeferredItem<Item> BLACK_BOX = ITEMS.register("black_box",
     		() -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.SAMURAI));
 	

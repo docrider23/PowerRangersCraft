@@ -31,7 +31,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:green_sphere"
+          "name": "powerrangerscraft:green_sphere",
+          "weight": 2
         },
         {
           "type": "minecraft:item",

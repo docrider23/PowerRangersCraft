@@ -31,11 +31,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:hydra_hyperforce_card"
+          "name": "powerrangerscraft:hydra_hyperforce_card",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:pink_power_gem"
+          "name": "powerrangerscraft:pink_power_gem",
+          "weight": 2
         },
         {
           "type": "minecraft:item",

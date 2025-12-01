@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lightspeed_red_trans_armor",
+  "pattern": [
+    "aaa",
+    "aca",
+	"aba"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:lightspeed_rescue_logo"
+    },
+	"b": {
+	  "item": "powerrangerscraft:trans_armor_badge"
+	},
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:trans_armor_gauntlet_blaster1"
+  }
+}

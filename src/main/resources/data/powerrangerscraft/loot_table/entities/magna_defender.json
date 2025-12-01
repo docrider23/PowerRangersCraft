@@ -21,7 +21,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:lights_of_orion"
+          "name": "powerrangerscraft:lights_of_orion",
+          "weight": 2
         },
         {
           "type": "minecraft:empty",

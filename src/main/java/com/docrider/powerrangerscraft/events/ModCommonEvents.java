@@ -1,8 +1,10 @@
 package com.docrider.powerrangerscraft.events;
 
 import com.docrider.powerrangerscraft.effect.EffectCore;
+import com.docrider.powerrangerscraft.entity.bikes.DinoCycleEntity;
 import com.docrider.powerrangerscraft.entity.boss.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.*;
+import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.entity.EntityType;
@@ -97,9 +99,11 @@ public class ModCommonEvents {public static class EventHandler {
     public void addCustomWandererTrades(WandererTradesEvent event) {
         List<VillagerTrades.ItemListing> trades = event.getGenericTrades();
         trades.add((trader,rand) -> new MerchantOffer(
-                new ItemCost(Items.EMERALD, 5),
-                new ItemStack(OtherItems.BATTLE_FOR_THE_GRID_GAME.get(), 1), 10, 8, 0.02F
-        ));
+                new ItemCost(Items.EMERALD, 2),
+                new ItemStack(OtherItems.BATTLE_FOR_THE_GRID_GAME.get(), 1), 10, 8, 0.02F));
+        trades.add((trader,rand) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD,5),
+                new ItemStack(OperationOverdriveItems.DRAGON_SCALE.get(), 1), 10, 8, 0.02F));
     }
 
     @SubscribeEvent
@@ -126,6 +130,8 @@ public class ModCommonEvents {public static class EventHandler {
         event.put(MobsCore.ZEN_AKU.get(), ZenAkuEntity.setAttributes().build());
 
         event.put(MobsCore.MOOGERS.get(), MoogersEntity.setAttributes().build());
+
+        event.put(MobsCore.DINO_CYCLE.get(), DinoCycleEntity.setAttributes().build());
 
         event.put(MobsCore.HENGEMEN.get(), HengemenEntity.setAttributes().build());
         event.put(MobsCore.VOID_KNIGHT.get(), VoidKnightEntity.setAttributes().build());

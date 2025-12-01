@@ -36,7 +36,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:t_rex_cosmic_orb"
+          "name": "powerrangerscraft:t_rex_cosmic_orb",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
