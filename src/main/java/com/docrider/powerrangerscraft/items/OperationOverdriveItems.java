@@ -4,6 +4,7 @@ import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.operation_overdrive.MercuryMorpherItem;
 import com.docrider.powerrangerscraft.items.operation_overdrive.OverdriveTrackerItem;
+import com.docrider.powerrangerscraft.items.operation_overdrive.SentinelSwordItem;
 import com.docrider.powerrangerscraft.items.others.BaseItem;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
@@ -100,18 +101,6 @@ public class OperationOverdriveItems {
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(DEFENDER_VEST_MMPR.get()).AddCompatibilityList(OVERDRIVE_RANGERS).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
-    public static final DeferredItem<Item> SENTINEL_MORPHER_HYPERFORCE = ITEMS.register("sentinel_morpher_hyperforce",
-            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_sentinel","hyperforce_black","blank",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
-                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
-                    .ChangeModel("sentinel_ranger.geo.json"));
-    public static final DeferredItem<Item> SENTINEL_MORPHER = ITEMS.register("sentinel_morpher",
-            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_sentinel","overdrive_red","blank",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
-                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
-                    .BackToBase().addAlternative(SENTINEL_MORPHER_HYPERFORCE.get())
-                    .ChangeModel("sentinel_ranger.geo.json").AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-
     public static final DeferredItem<Item> OPERATION_OVERDRIVE_HELMET = ITEMS.register("operation_overdrive_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
     public static final DeferredItem<Item> OPERATION_OVERDRIVE_CHESTPLATE = ITEMS.register("operation_overdrive_torso",
@@ -138,8 +127,20 @@ public class OperationOverdriveItems {
             () -> new MercuryMorpherItem(ArmorMaterials.DIAMOND,"mercury_ranger", MERCURY_RANGER_LOGO, OPERATION_OVERDRIVE_HELMET, OPERATION_OVERDRIVE_CHESTPLATE, OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties())
                     .Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
     public static final DeferredItem<Item> SENTINEL_SWORD_KNIGHT = ITEMS.register("sentinel_sword_knight",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"sentinel_knight",UNFINISHED_SENTINEL_SWORD,OPERATION_OVERDRIVE_HELMET,OPERATION_OVERDRIVE_CHESTPLATE,OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties())
-                    .AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+            () -> new SentinelSwordItem(ArmorMaterials.DIAMOND,"sentinel_knight",UNFINISHED_SENTINEL_SWORD,OPERATION_OVERDRIVE_HELMET,OPERATION_OVERDRIVE_CHESTPLATE,OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties())
+                    .KeepItem().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+
+    public static final DeferredItem<Item> SENTINEL_MORPHER_HYPERFORCE = ITEMS.register("sentinel_morpher_hyperforce",
+            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_sentinel","hyperforce_black","blank",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
+                    .ChangeModel("sentinel_ranger.geo.json"));
+    public static final DeferredItem<Item> SENTINEL_MORPHER = ITEMS.register("sentinel_morpher",
+            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_sentinel","overdrive_red","blank",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
+                    .BackToBase().addAlternative(SENTINEL_MORPHER_HYPERFORCE.get())
+                    .ChangeModel("sentinel_ranger.geo.json").AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
 //weapons
 

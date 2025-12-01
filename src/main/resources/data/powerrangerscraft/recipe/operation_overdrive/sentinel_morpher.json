@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "operation_overdrive",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:sentinel_sword_knight"
+    },
+    [
+      {
+        "item": "powerrangerscraft:overdrive_red_logo"
+      },
+      {
+        "item": "powerrangerscraft:cerberus_hyperforce_card"
+      }
+    ]
+  ],
+  "result": {
+    "id": "powerrangerscraft:sentinel_morpher"
+  }
+}

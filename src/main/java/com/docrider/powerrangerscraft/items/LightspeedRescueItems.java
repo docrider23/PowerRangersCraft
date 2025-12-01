@@ -1,6 +1,7 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.lightspeed_rescue.BattleBoosterItem;
 import com.docrider.powerrangerscraft.items.lightspeed_rescue.RescueMorpherItem;
 import com.docrider.powerrangerscraft.items.lightspeed_rescue.RescueInjectorItem;
@@ -55,6 +56,11 @@ public class LightspeedRescueItems {
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false))
                     .IsGlowing().AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+
+    public static final DeferredItem<Item> TRANS_ARMOR_BADGE = ITEMS.register("trans_armor_badge",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_trans_armor","lightspeed_red","lightspeed_red_belt",
+                    new MobEffectInstance(EffectCore.SHOTBOOST,40,2,true,false))
+                    .ChangeModel("trans_armor.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_RESCUE_HELMET = ITEMS.register("lightspeed_rescue_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));

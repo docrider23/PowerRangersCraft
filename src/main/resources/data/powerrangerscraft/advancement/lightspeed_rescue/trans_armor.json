@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:trans_armor_badge"
+    },
+    "title": "Trans Armor Cycle! Armor Mode!",
+    "description": "Equip the Trans Armor",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:lightspeed_rescue/lightspeed_rescue",
+  "criteria": {
+    "lightspeed_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_rescue_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:trans_armor_badge\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

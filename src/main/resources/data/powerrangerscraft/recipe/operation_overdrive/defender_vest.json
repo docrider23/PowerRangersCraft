@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "operation_overdrive",
+  "pattern": [
+    "aca",
+    "cbc",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:operation_overdrive_logo"
+    },
+    "b": {
+      "item": "powerrangerscraft:dragon_scale"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:defender_vest"
+  }
+}
