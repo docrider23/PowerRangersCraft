@@ -100,32 +100,17 @@ public class OperationOverdriveItems {
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(DEFENDER_VEST_MMPR.get()).AddCompatibilityList(OVERDRIVE_RANGERS).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
-    public static final DeferredItem<Item> BROWNBEARDS_LUCKY_PEARL = ITEMS.register("brownbeards_lucky_pearl",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-    public static final DeferredItem<Item> TORU_DIAMOND = ITEMS.register("toru_diamond",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-    public static final DeferredItem<Item> BLUE_SAPPHIRE = ITEMS.register("blue_sapphire",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-    public static final DeferredItem<Item> STAR_OF_ISIS = ITEMS.register("star_of_isis",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-    public static final DeferredItem<Item> PINK_EMERALD = ITEMS.register("pink_emerald",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-
-    public static final DeferredItem<Item> BLACK_JEWEL = ITEMS.register("black_jewel",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-    public static final DeferredItem<Item> YELLOW_JEWEL = ITEMS.register("yellow_jewel",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-    public static final DeferredItem<Item> BLUE_JEWEL = ITEMS.register("blue_jewel",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-    public static final DeferredItem<Item> RED_JEWEL = ITEMS.register("red_jewel",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-    public static final DeferredItem<Item> PINK_JEWEL = ITEMS.register("pink_jewel",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-
-    public static final DeferredItem<Item> CORONA_AURORA_CROWN = ITEMS.register("corona_aurora_crown",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
-    public static final DeferredItem<Item> CORONA_AURORA = ITEMS.register("corona_aurora",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+    public static final DeferredItem<Item> SENTINEL_MORPHER_HYPERFORCE = ITEMS.register("sentinel_morpher_hyperforce",
+            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_sentinel","hyperforce_black","blank",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
+                    .ChangeModel("sentinel_ranger.geo.json"));
+    public static final DeferredItem<Item> SENTINEL_MORPHER = ITEMS.register("sentinel_morpher",
+            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_sentinel","overdrive_red","blank",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
+                    .BackToBase().addAlternative(SENTINEL_MORPHER_HYPERFORCE.get())
+                    .ChangeModel("sentinel_ranger.geo.json").AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
     public static final DeferredItem<Item> OPERATION_OVERDRIVE_HELMET = ITEMS.register("operation_overdrive_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
@@ -156,6 +141,29 @@ public class OperationOverdriveItems {
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"sentinel_knight",UNFINISHED_SENTINEL_SWORD,OPERATION_OVERDRIVE_HELMET,OPERATION_OVERDRIVE_CHESTPLATE,OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties())
                     .AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
+//weapons
+
+    public static final DeferredItem<Item> BROWNBEARDS_LUCKY_PEARL = ITEMS.register("brownbeards_lucky_pearl",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+    public static final DeferredItem<Item> TORU_DIAMOND = ITEMS.register("toru_diamond",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+    public static final DeferredItem<Item> BLUE_SAPPHIRE = ITEMS.register("blue_sapphire",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+    public static final DeferredItem<Item> STAR_OF_ISIS = ITEMS.register("star_of_isis",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+    public static final DeferredItem<Item> PINK_EMERALD = ITEMS.register("pink_emerald",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+
+    public static final DeferredItem<Item> BLACK_JEWEL = ITEMS.register("black_jewel",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+    public static final DeferredItem<Item> YELLOW_JEWEL = ITEMS.register("yellow_jewel",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+    public static final DeferredItem<Item> BLUE_JEWEL = ITEMS.register("blue_jewel",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+    public static final DeferredItem<Item> RED_JEWEL = ITEMS.register("red_jewel",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+    public static final DeferredItem<Item> PINK_JEWEL = ITEMS.register("pink_jewel",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

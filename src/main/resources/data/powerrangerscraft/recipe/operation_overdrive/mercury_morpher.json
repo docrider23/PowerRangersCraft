@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mercury_ranger",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:operation_overdrive_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:mercury_ranger_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:mercury_morpher"
+  }
+}

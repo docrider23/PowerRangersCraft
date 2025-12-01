@@ -573,6 +573,7 @@
   "item.powerrangerscraft.dragon_scale": "Dragon Scale",
 
   "item.powerrangerscraft.defender_vest": "Defender Vest",
+  "item.powerrangerscraft.sentinel_morpher": "Sentinel Morpher",
 
   "powerrangerscraft:overdrive_red_logo.form": "§cRed Ranger",
   "powerrangerscraft:overdrive_black_logo.form": "§8Black Ranger",
@@ -586,6 +587,9 @@
   "powerrangerscraft:defender_vest.form": "§rw/ Defender Vest",
   "powerrangerscraft:defender_vest_mmpr.form": "Ranger: §8Black Ranger §rw/ Defender Vest",
 
+  "powerrangerscraft:sentinel_morpher.form": "§cRed §6Sentinel §cRanger",
+  "powerrangerscraft:sentinel_morpher_hyperforce.form": "Ranger: §8Black §6Sentinel §8Ranger",
+
   "item.powerrangerscraft.brownbeards_lucky_pearl": "Brownbeard's Lucky Pearl",
   "item.powerrangerscraft.toru_diamond": "Toru Diamond",
   "item.powerrangerscraft.blue_sapphire": "Blue Sapphire",
@@ -598,8 +602,8 @@
   "item.powerrangerscraft.red_jewel": "Red Corona Aurora Jewel",
   "item.powerrangerscraft.pink_jewel": "Pink Corona Aurora Jewel",
 
-  "item.powerrangerscraft.corona_aurora_crown": "Corona Aurora Crown Piece",
-  "item.powerrangerscraft.corona_aurora": "Corona Aurora",
+  "block.powerrangerscraft.corona_aurora_crown": "Corona Aurora Crown Piece",
+  "block.powerrangerscraft.corona_aurora": "Corona Aurora",
 
   //16 Jungle Fury
   "item.powerrangerscraft.jungle_fury_logo": "Jungle Fury Logo",

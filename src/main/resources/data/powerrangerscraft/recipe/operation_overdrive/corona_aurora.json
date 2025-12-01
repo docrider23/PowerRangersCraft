@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "operation_overdrive",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:corona_aurora_crown"
+    },
+    {
+      "item": "powerrangerscraft:black_jewel"
+    },
+    {
+      "item": "powerrangerscraft:blue_jewel"
+    },
+    {
+      "item": "powerrangerscraft:red_jewel"
+    },
+    {
+      "item": "powerrangerscraft:pink_jewel"
+    },
+    {
+      "item": "powerrangerscraft:yellow_jewel"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:corona_aurora"
+  }
+}

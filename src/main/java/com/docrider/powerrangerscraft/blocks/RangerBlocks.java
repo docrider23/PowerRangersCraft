@@ -2,6 +2,7 @@ package com.docrider.powerrangerscraft.blocks;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.blocks.custom.RescueBird;
+import com.docrider.powerrangerscraft.blocks.machineBlocks.CoronaAuroraCrown;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.RangerTabs;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -15,7 +16,6 @@ import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
-import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
@@ -55,6 +55,16 @@ public class RangerBlocks {
     public static final DeferredBlock<Block> DEEPSLATE_ANIMAL_CRYSTAL_ORE = registerBlock("deepslate_animal_crystal_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
+
+    public static final DeferredBlock<Block> CORONA_AURORA_CROWN = registerBlock("corona_aurora_crown",
+            () -> new CoronaAuroraCrown(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.CHIME)
+                    .strength(5.0F,6.0F).dynamicShape().lightLevel((p_152632_) -> {
+                        return 10;}),Block.box(0,0,0,16,16,16)).AddToTabList(RangerTabs.BLOCKS));
+
+    public static final DeferredBlock<Block> CORONA_AURORA = registerBlock("corona_aurora",
+            () -> new HatBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.CHIME)
+                    .strength(5.0F,6.0F).dynamicShape().lightLevel((p_152632_) -> {
+                        return 10;}),Block.box(0,0,0,16,16,16)).AddToTabList(RangerTabs.BLOCKS));
 
     public static final DeferredBlock<Block> POWER_DISC_ORE = registerBlock("power_disc_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)

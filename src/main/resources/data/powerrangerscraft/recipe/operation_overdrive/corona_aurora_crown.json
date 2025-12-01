@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "operation_overdrive",
+  "pattern": [
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:corona_aurora_crown"
+  }
+}
