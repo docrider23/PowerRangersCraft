@@ -597,14 +597,17 @@
   "powerrangerscraft:sentinel_morpher.form": "§cRed §6Sentinel §cRanger",
   "powerrangerscraft:sentinel_morpher_hyperforce.form": "Ranger: §8Black §6Sentinel §8Ranger",
 
-  "item.powerrangerscraft.drive_defender_sword": "Drive Defender",
+  "item.powerrangerscraft.drive_defender": "Drive Defender",
   "item.powerrangerscraft.drive_lance": "Drive Lance",
   "item.powerrangerscraft.drive_slammer": "Drive Slammer",
   "item.powerrangerscraft.drive_vortex": "Drive Vortex",
-  "item.powerrangerscraft.drive_claws": "Drive Claws",
+  "item.powerrangerscraft.drive_claw": "Drive Claw",
+  "item.powerrangerscraft.drive_claw1": "Drive Claw",
   "item.powerrangerscraft.drive_geyser": "Drive Geyser",
   "item.powerrangerscraft.drive_detector_spear": "Drive Detector",
-  "item.powerrangerscraft.drill_crusher_mixer": "Drill Crusher",
+  "item.powerrangerscraft.drill_blaster_mixer": "Drill Blaster",
+
+  "item.powerrangerscraft.sentinel_sword": "Sentinel Sword",
 
   "item.powerrangerscraft.brownbeards_lucky_pearl": "Brownbeard's Lucky Pearl",
   "item.powerrangerscraft.toru_diamond": "Toru Diamond",

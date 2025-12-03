@@ -5,16 +5,10 @@ import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.operation_overdrive.MercuryMorpherItem;
 import com.docrider.powerrangerscraft.items.operation_overdrive.OverdriveTrackerItem;
 import com.docrider.powerrangerscraft.items.operation_overdrive.SentinelSwordItem;
-import com.docrider.powerrangerscraft.items.others.BaseItem;
-import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
-import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
-import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
+import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterials;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -142,7 +136,34 @@ public class OperationOverdriveItems {
                     .BackToBase().addAlternative(SENTINEL_MORPHER_HYPERFORCE.get())
                     .ChangeModel("sentinel_ranger.geo.json").AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
-//weapons
+    public static final DeferredItem<BaseBlasterItem> DRIVE_DEFENDER = ITEMS.register("drive_defender",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+
+    public static final DeferredItem<SwordItem> DRIVE_LANCE = ITEMS.register("drive_lance",
+            () -> new BaseDualSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).IsDualWeapon().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+
+    public static final DeferredItem<SwordItem> DRIVE_SLAMMER = ITEMS.register("drive_slammer",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> DRIVE_VORTEX = ITEMS.register("drive_vortex",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.WIND_CHARGE).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+
+    public static final DeferredItem<SwordItem> DRIVE_CLAW = ITEMS.register("drive_claw",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+    public static final DeferredItem<SwordItem> DRIVE_CLAW1 = ITEMS.register("drive_claw1",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> DRIVE_GEYSER = ITEMS.register("drive_geyser",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> DRIVE_DETECTOR = ITEMS.register("drive_detector_spear",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> DRILL_BLASTER = ITEMS.register("drill_blaster_mixer",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).IsSuperGun().IsDualWeapon().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+
+    public static final DeferredItem<SwordItem> SENTINEL_SWORD = ITEMS.register("sentinel_sword",
+            () -> new BaseDualSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
     public static final DeferredItem<Item> BROWNBEARDS_LUCKY_PEARL = ITEMS.register("brownbeards_lucky_pearl",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));

@@ -1,7 +1,7 @@
 package com.docrider.powerrangerscraft.items.operation_overdrive;
 
+import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
-import com.docrider.powerrangerscraft.items.SamuraiItems;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
@@ -45,14 +45,7 @@ public class OverdriveTrackerItem extends RangerChangerItem{
 		boolean fly = !rider.onGround();
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
-				if (rider.getMainHandItem().getItem()==SamuraiItems.SPIN_SWORD.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.FIRE_SMASHER.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.HYDRO_BOW.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.SKY_FAN.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.FOREST_SPEAR.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.EARTH_SLICER.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.SUPER_SPIN_SWORD.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.SHARK_SWORD.get()) {
+				if (rider.getMainHandItem().getItem()== OperationOverdriveItems.DRIVE_DEFENDER.get()) {
 					belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
 				}
 				else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {

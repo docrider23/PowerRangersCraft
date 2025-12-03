@@ -21,8 +21,10 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.monster.breeze.Breeze;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.*;
+import net.minecraft.world.entity.projectile.windcharge.BreezeWindCharge;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
@@ -41,6 +43,7 @@ public class BaseBlasterItem extends BowItem {
 	private Boolean SuperGun = false;
 	private static int LFBB = 1;
 	private Item craftingRemainingItem = null;
+	private Boolean Dual = false;
 
 	public enum BlasterProjectile {
 		ARROW,
@@ -86,6 +89,13 @@ public class BaseBlasterItem extends BowItem {
 				DragonFireball dragonfireball = new DragonFireball(user.level(), user, movement.normalize());
 				dragonfireball.setPos(dragonfireball.getX(), user.getY(0.5D) + 0.5D, dragonfireball.getZ());
 				user.level().addFreshEntity(dragonfireball);
+			}
+		},
+		WIND_CHARGE {
+			public void fire(LivingEntity user, Vec3 movement) {
+				BreezeWindCharge fireball = new BreezeWindCharge((Breeze) user,user.level());
+				fireball.setPos(fireball.getX(), user.getY(0.5D) + 0.5D, fireball.getZ());
+				user.level().addFreshEntity(fireball);
 			}
 		};
 
@@ -177,6 +187,17 @@ public class BaseBlasterItem extends BowItem {
 		ItemStack itemstack = player.getItemInHand(hand);
 		boolean flag = !player.getProjectile(itemstack).isEmpty();
 		InteractionResultHolder<ItemStack> ret = EventHooks.onArrowNock(itemstack, level, player, hand, flag);
+
+		if (player.isShiftKeyDown()) {
+			if (Dual) {
+				if (get_mode(itemstack)==1) {
+					set_mode(itemstack,0);
+				}
+				else {
+					set_mode(itemstack,1);
+				}
+			}
+		}
 
 		if (ret != null) return ret;
 		else {
@@ -272,5 +293,11 @@ public class BaseBlasterItem extends BowItem {
 	}
 	public static ItemAttributeModifiers createAttributes(Tier p_330371_, float p_331976_, float p_332104_) {
 		return ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, (double)(p_331976_ + p_330371_.getAttackDamageBonus()), AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, (double)p_332104_, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build();
+	}
+
+	public BaseBlasterItem IsDualWeapon() {
+		Dual = true;
+		PowerRangersCraftCore.MULTI_WEAPON_ITEM.add(this);
+		return this;
 	}
 }

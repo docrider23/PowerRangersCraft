@@ -29,7 +29,7 @@ import java.util.List;
 
 public class CoronaAuroraCrown extends MachineBlock implements Equipable {
 	
-	  public static List<Item> CORONA_AURORA = new ArrayList<>();
+	  public static List<Item> CORONA_AURORA_CROWN = new ArrayList<>();
 		 
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 

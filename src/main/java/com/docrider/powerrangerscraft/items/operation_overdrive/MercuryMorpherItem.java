@@ -1,5 +1,6 @@
 package com.docrider.powerrangerscraft.items.operation_overdrive;
 
+import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.SamuraiItems;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
@@ -45,8 +46,7 @@ public class MercuryMorpherItem extends RangerChangerItem{
 		boolean fly = !rider.onGround();
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
-				if (rider.getMainHandItem().getItem()==SamuraiItems.BARRACUDA_BLADE.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.SHARK_SWORD.get()) {
+				if (rider.getMainHandItem().getItem()== OperationOverdriveItems.DRIVE_DETECTOR.get()) {
 					belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
 				}
 				else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
