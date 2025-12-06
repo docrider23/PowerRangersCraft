@@ -165,14 +165,16 @@ public class ComicsItems {
 
     public static final DeferredItem<BaseSwordItem> PRIME_RED_SWORD_BLADE = ITEMS.register("prime_red_sword_blade",
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
-    public static final DeferredItem<BaseSwordItem> PRIME_YELLOW_DAGGER_BLADE = ITEMS.register("prime_yellow_dagger_blade",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<BaseBlasterItem> PRIME_BLUE_BOW = ITEMS.register("prime_blue_bow",
+            () -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).setProjectile(BaseBlasterItem.BlasterProjectile.ARROW).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<BaseSwordItem> PRIME_BLACK_STAFF = ITEMS.register("prime_black_staff",
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+    public static final DeferredItem<BaseSwordItem> PRIME_YELLOW_DAGGER_BLADE = ITEMS.register("prime_yellow_dagger_blade",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<BaseSwordItem> PRIME_PINK_MACE = ITEMS.register("prime_pink_mace",
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<BaseBlasterItem> PRIME_RITA_STAFF = ITEMS.register("prime_rita_staff",
-            () -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+            () -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COMICS).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(PRIME_RITAS_WAND.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

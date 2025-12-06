@@ -79,7 +79,7 @@ public class CoronaAuroraCrown extends MachineBlock implements Equipable {
 		TabList.add(this);
 		return this;
 	}
-    public static VoxelShape SHAPE = Block.box(4, 0, 6, 12,16, 10);
+    public static VoxelShape SHAPE = Block.box(4,0,4,12,2.5,12);
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {

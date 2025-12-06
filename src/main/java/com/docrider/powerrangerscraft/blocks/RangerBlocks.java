@@ -59,12 +59,12 @@ public class RangerBlocks {
     public static final DeferredBlock<Block> CORONA_AURORA_CROWN = registerBlock("corona_aurora_crown",
             () -> new CoronaAuroraCrown(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.CHIME)
                     .strength(5.0F,6.0F).dynamicShape().lightLevel((p_152632_) -> {
-                        return 10;}),Block.box(0,0,0,16,16,16)).AddToTabList(RangerTabs.BLOCKS));
+                        return 10;}),Block.box(0,0,0,15,2,15)).AddToTabList(RangerTabs.BLOCKS));
 
     public static final DeferredBlock<Block> CORONA_AURORA = registerBlock("corona_aurora",
             () -> new HatBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.CHIME)
                     .strength(5.0F,6.0F).dynamicShape().lightLevel((p_152632_) -> {
-                        return 10;}),Block.box(0,0,0,16,16,16)).AddToTabList(RangerTabs.BLOCKS));
+                        return 10;}),Block.box(4,0,4,12,3,12)).AddToTabList(RangerTabs.BLOCKS));
 
     public static final DeferredBlock<Block> POWER_DISC_ORE = registerBlock("power_disc_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)

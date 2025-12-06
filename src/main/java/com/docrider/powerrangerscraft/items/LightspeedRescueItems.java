@@ -183,7 +183,7 @@ public class LightspeedRescueItems {
     public static final DeferredItem<BaseBlasterItem> TRANS_ARMOR_GAUNTLET_BLASTER = ITEMS.register("trans_armor_gauntlet_blaster",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
     public static final DeferredItem<BaseBlasterItem> TRANS_ARMOR_GAUNTLET_BLASTER1 = ITEMS.register("trans_armor_gauntlet_blaster1",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).setProjectile(BaseBlasterItem.BlasterProjectile.WIND_CHARGE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

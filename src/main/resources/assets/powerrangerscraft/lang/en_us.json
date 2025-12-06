@@ -131,6 +131,13 @@
   
   "item.powerrangerscraft.blade_blaster": "Blade Blaster",
 
+  "item.powerrangerscraft.power_sword": "Power Sword",
+  "item.powerrangerscraft.power_axe": "Power Axe",
+  "item.powerrangerscraft.power_lance": "Power Lance",
+  "item.powerrangerscraft.power_lance_trident": "Power Lance Trident",
+  "item.powerrangerscraft.power_dagger": "Power Dagger",
+  "item.powerrangerscraft.power_bow": "Power Bow",
+
   //03 Alien
   "item.powerrangerscraft.alien_logo": "Alien Logo",
 
@@ -1159,6 +1166,7 @@
   "powerrangerscraft:green_sphere.form": "Ranger: §aGreen Ranger",
 
   "item.powerrangerscraft.prime_red_sword_blade": "Prime Sword Blade",
+  "item.powerrangerscraft.prime_blue_bow": "Prime Blue Bow",
   "item.powerrangerscraft.prime_yellow_dagger_blade": "Prime Dagger Blade",
   "item.powerrangerscraft.prime_black_staff": "Prime Staff",
   "item.powerrangerscraft.prime_pink_mace": "Prime Mace",

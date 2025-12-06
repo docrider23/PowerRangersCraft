@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "overdrive_yellow",
+  "pattern": [
+    "aba",
+    "aca",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:operation_overdrive_logo"
+    },
+	"b": {
+	  "item": "powerrangerscraft:overdrive_yellow_logo"
+	},
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:drive_claw"
+  }
+}

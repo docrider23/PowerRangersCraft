@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "operation_overdrive",
+  "pattern": [
+    "RBU",
+    "LSL",
+    "YPM"
+  ],
+  "key": {
+    "R": {
+      "item": "powerrangerscraft:overdrive_red_logo"
+    },
+    "B": {
+      "item": "powerrangerscraft:overdrive_black_logo"
+    },
+    "U": {
+      "item": "powerrangerscraft:overdrive_blue_logo"
+    },
+    "L": {
+      "item": "powerrangerscraft:operation_overdrive_logo"
+    },
+    "S": {
+      "item": "powerrangerscraft:unfinished_sentinel_sword"
+    },
+    "Y": {
+      "item": "powerrangerscraft:overdrive_yellow_logo"
+    },
+    "P": {
+      "item": "powerrangerscraft:overdrive_pink_logo"
+    },
+    "M": {
+      "item": "powerrangerscraft:mercury_ranger_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:sentinel_sword"
+  }
+}
