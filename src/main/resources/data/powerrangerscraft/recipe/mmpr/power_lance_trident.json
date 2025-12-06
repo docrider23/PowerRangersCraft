@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mmpr_blue",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:power_lance"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:power_lance_trident"
+  }
+}
