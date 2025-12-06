@@ -59,19 +59,17 @@ public class MMPRItems {
             () -> new BasePickaxeItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
     public static final DeferredItem<BaseBlasterItem> SILVER_SHOT = ITEMS.register("silver_shot",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
+*/
+    public static final DeferredItem<BaseBlasterItem> POWER_AXE = ITEMS.register("power_axe",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 
-    public static final DeferredItem<BaseBlasterItem> BLUE_CHERRY = ITEMS.register("blue_cherry",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
-    public static final DeferredItem<BaseBlasterItem> ULTRA_BLUE_CHERRY = ITEMS.register("ultra_blue_cherry",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
 
-    public static final DeferredItem<SwordItem> KI_STICKER = ITEMS.register("ki_sticker",
-            () -> new BaseDualSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).IsTripleWeapon().AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
-    public static final DeferredItem<SwordItem> KI_STICKER_SHORT = ITEMS.register("ki_sticker_short",
-            () -> new BaseDualSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).IsTripleWeapon().AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
-    public static final DeferredItem<Item> YTC = ITEMS.register("ytc",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.GORANGER));
+    public static final DeferredItem<SwordItem> POWER_LANCE = ITEMS.register("power_lance",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+    public static final DeferredItem<SwordItem> POWER_LANCE_TRIDENT = ITEMS.register("power_lance_trident",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 
+/*
     public static final DeferredItem<BaseThrowableItem> MOMO_CARD = ITEMS.register("momo_card",
             () -> new BaseThrowableItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsShuriken().AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
     public static final DeferredItem<BaseExplosiveItem> EARRING_BOMB = ITEMS.register("earring_bomb",
