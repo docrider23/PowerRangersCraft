@@ -1,6 +1,7 @@
 package com.docrider.powerrangerscraft.entity;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.entity.bikes.DinoCycleEntity;
 import com.docrider.powerrangerscraft.entity.boss.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.*;
 import com.docrider.powerrangerscraft.entity.projectile.ShurikenProjectileEntity;
@@ -71,7 +72,7 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     
     //08 Lightspeed Rescue
     public static final DeferredHolder<EntityType<?>, EntityType<BatlingsEntity>> BATLINGS = MOBLIST.register("batlings",
-            () -> EntityType.Builder.of(BatlingsEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":imps"));
+            () -> EntityType.Builder.of(BatlingsEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":batlings"));
 
     public static final DeferredItem<DeferredSpawnEggItem> BATLINGS_SPAWN_EGG = ITEMS.register("batlings_spawn_egg",
             () -> new DeferredSpawnEggItem(BATLINGS,0xffffff, 0x151515, new Item.Properties()));
@@ -117,6 +118,8 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     //21 Super Megaforce
     
     //22-23 Dino Charge/Dino Supercharge
+    public static final DeferredHolder<EntityType<?>, EntityType<DinoCycleEntity>> DINO_CYCLE = MOBLIST.register("dino_cycle",
+            () -> EntityType.Builder.of(DinoCycleEntity::new, MobCategory.MISC).clientTrackingRange(10).sized(0.6F, 1.25F).build( PowerRangersCraftCore.MODID + ":dino_cycle"));
     
     //24-25 Ninja Steel/Super Ninja Steel
     

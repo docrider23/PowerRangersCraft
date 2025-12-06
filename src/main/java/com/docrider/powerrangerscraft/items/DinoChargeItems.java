@@ -2,6 +2,7 @@ package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.items.others.*;
+import com.docrider.powerrangerscraft.entity.MobsCore;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -19,6 +20,9 @@ public class DinoChargeItems {
     public static final DeferredItem<Item> SPINOSAURUS_DINO_CHARGER = ITEMS.register("spinosaurus_dino_charger",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_charge_dark","dino_charge_belt")
                     .addAlternative(SPINOSAURUS_DINO_CHARGER_SOLAR.get()).AddToTabList(RangerTabs.DINO_CHARGE));
+    public static final DeferredItem<Item> DINO_CYCLE_CHARGER = ITEMS.register("dino_cycle_charger",
+            () -> new SummonBikeItem(new Item.Properties(), MobsCore.DINO_CYCLE)
+                    .AddToList(RangerTabs.DINO_CHARGE));
 
     public static final DeferredItem<Item> DINO_CHARGE_HELMET = ITEMS.register("dino_charge_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
@@ -32,6 +36,8 @@ public class DinoChargeItems {
 
     public static final DeferredItem<SwordItem> SPINO_BOOMERANG = ITEMS.register("spino_boomerang",
             () -> new BaseThrowableItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).isChanger(DARK_SPINO_BOOMERANG.get()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
