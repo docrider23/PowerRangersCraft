@@ -6,37 +6,37 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:red_turbo_key",
-          "weight": 8
+          "name": "powerrangerscraft:overdrive_red_logo",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:blue_turbo_key",
-          "weight": 8
+          "name": "powerrangerscraft:overdrive_black_logo",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:green_turbo_key",
-          "weight": 8
+          "name": "powerrangerscraft:overdrive_blue_logo",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:yellow_turbo_key",
-          "weight": 8
+          "name": "powerrangerscraft:overdrive_yellow_logo",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:pink_turbo_key",
-          "weight": 8
+          "name": "powerrangerscraft:overdrive_pink_logo",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:blue_senturion_badge"
+          "name": "powerrangerscraft:mercury_ranger_logo"
         },
         {
           "type": "minecraft:item",
+          "name": "powerrangerscraft:operation_overdrive_logo",
           "weight": 5,
-          "name": "powerrangerscraft:turbo_logo",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:turbo_logo"
+          "name": "powerrangerscraft:operation_overdrive_logo"
         }
       ]
     }

@@ -101,6 +101,23 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     //14 Mystic Force
     
     //15 Operation Overdrive
+    public static final DeferredHolder<EntityType<?>, EntityType<ChillersEntity>> CHILLERS = MOBLIST.register("chiller",
+            () -> EntityType.Builder.of(ChillersEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":chiller"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> CHILLERS_SPAWN_EGG = ITEMS.register("chiller_spawn_egg",
+            () -> new DeferredSpawnEggItem(CHILLERS,0xffffff, 0x151515, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<LavaLizardsEntity>> LAVA_LIZARDS = MOBLIST.register("lava_lizard",
+            () -> EntityType.Builder.of(LavaLizardsEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":lava_lizard"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> LAVA_LIZARDS_SPAWN_EGG = ITEMS.register("lava_lizard_spawn_egg",
+            () -> new DeferredSpawnEggItem(LAVA_LIZARDS,0xffffff, 0x151515, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<MoltorEntity>> MOLTOR = MOBLIST.register("moltor",
+            () -> EntityType.Builder.of(MoltorEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":moltor"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> MOLTOR_SPAWN_EGG = ITEMS.register("moltor_spawn_egg",
+            () -> new DeferredSpawnEggItem(MOLTOR,0xffffff, 0x151515, new Item.Properties()));
     
     //16 Jungle Fury
     

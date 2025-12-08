@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#powerrangerscraft:chiller",
+  "spawners": {
+    "type": "powerrangerscraft:chiller",
+    "weight": 15,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}

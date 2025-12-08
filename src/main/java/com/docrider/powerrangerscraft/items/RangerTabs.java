@@ -312,6 +312,10 @@ public class RangerTabs {
             event.accept(MobsCore.PUTRIDS_SPAWN_EGG);
             event.accept(MobsCore.ZEN_AKU_SPAWN_EGG);
 
+            event.accept(MobsCore.CHILLERS_SPAWN_EGG);
+            event.accept(MobsCore.LAVA_LIZARDS_SPAWN_EGG);
+            event.accept(MobsCore.MOLTOR_SPAWN_EGG);
+
             event.accept(MobsCore.MOOGERS_SPAWN_EGG);
 
             event.accept(MobsCore.HENGEMEN_SPAWN_EGG);

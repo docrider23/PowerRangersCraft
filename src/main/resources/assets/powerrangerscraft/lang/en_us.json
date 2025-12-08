@@ -51,6 +51,13 @@
   "item.powerrangerscraft.putrids_spawn_egg": "Putrids Spawn Egg",
   "item.powerrangerscraft.zen_aku_spawn_egg": "Zen-Aku Spawn Egg",
 
+  "entity.powerrangerscraft.chiller": "Chillers",
+  "entity.powerrangerscraft.lava_lizard": "Lava Lizards",
+  "entity.powerrangerscraft.moltor": "Moltor",
+  "item.powerrangerscraft.chiller_spawn_egg": "Chillers Spawn Egg",
+  "item.powerrangerscraft.lava_lizard_spawn_egg": "Lava Lizards Spawn Egg",
+  "item.powerrangerscraft.moltor_spawn_egg": "Moltor Spawn Egg",
+
   "entity.powerrangerscraft.mooger": "Mooger",
   "item.powerrangerscraft.mooger_spawn_egg": "Mooger Spawn Egg",
 
@@ -94,6 +101,9 @@
   "item.powerrangerscraft.stingwingers_stinger": "Stingwingers Stinger",
   "item.powerrangerscraft.batlings_sword": "Batlings Sword",
   "item.powerrangerscraft.putrids_club": "Putrids Club",
+  "item.powerrangerscraft.chillers_sickle": "Chillers Sickle",
+  "item.powerrangerscraft.lava_lizards_sword": "Lava Lizards Sword",
+  "item.powerrangerscraft.moltor_sword": "Moltor's Sword",
   "item.powerrangerscraft.moogers_dao": "Moogers Dao",
   "item.powerrangerscraft.hengemen_spear": "Hengemen Spear",
   "item.powerrangerscraft.hengemen_shield": "Hengemen Shield",
