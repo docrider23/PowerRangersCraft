@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:defender_vest"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.defender_vest.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.defender_vest.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:operation_overdrive/operation_overdrive",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_overdrive_tracker",
+                "powerrangerscraft:black_overdrive_tracker",
+                "powerrangerscraft:blue_overdrive_tracker",
+                "powerrangerscraft:yellow_overdrive_tracker",
+                "powerrangerscraft:pink_overdrive_tracker",
+                "powerrangerscraft:mercury_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:defender_vest\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

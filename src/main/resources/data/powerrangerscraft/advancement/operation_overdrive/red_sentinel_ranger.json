@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:sentinel_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.red_sentinel_ranger.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.red_sentinel_ranger.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:operation_overdrive/operation_overdrive",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_overdrive_tracker"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:sentinel_morpher\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

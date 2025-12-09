@@ -2,8 +2,8 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:mmpr/blue_power_morpher",
-      "powerrangerscraft:mmpr/power_lance"
+      "powerrangerscraft:operation_overdrive/defender_vest",
+      "powerrangerscraft:operation_overdrive/drill_blaster_mixer"
     ]
   },
   "criteria": {
@@ -12,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "items": "powerrangerscraft:triceratops_power_coin"
+            "items": "powerrangerscraft:dragon_scale"
           }
         ]
       }

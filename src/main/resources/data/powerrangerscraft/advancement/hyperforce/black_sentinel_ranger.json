@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:sentinel_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.black_sentinel_ranger.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.black_sentinel_ranger.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:hyperforce/pink_battle_warrior",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:hyperforce_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:hyperforce_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:hyperforce_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_hyperforce_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:sentinel_morpher_hyperforce\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

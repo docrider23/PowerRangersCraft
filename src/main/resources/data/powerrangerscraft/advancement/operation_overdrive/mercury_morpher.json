@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:mercury_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.mercury_morpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.mercury_morpher.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:operation_overdrive/overdrive_tracker",
+  "criteria": {
+    "ranger1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:mercury_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ranger1"
+    ]
+  ]
+}

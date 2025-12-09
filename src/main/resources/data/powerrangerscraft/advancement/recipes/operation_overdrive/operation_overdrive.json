@@ -1,0 +1,28 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:operation_overdrive/operation_overdrive_head",
+      "powerrangerscraft:operation_overdrive/operation_overdrive_torso",
+      "powerrangerscraft:operation_overdrive/operation_overdrive_legs",
+      "powerrangerscraft:operation_overdrive/drive_defender"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:operation_overdrive_logo"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}

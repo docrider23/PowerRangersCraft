@@ -1,9 +1,10 @@
+
 {
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:mmpr/blue_power_morpher",
-      "powerrangerscraft:mmpr/power_lance"
+      "powerrangerscraft:operation_overdrive/black_overdrive_tracker",
+      "powerrangerscraft:operation_overdrive/drive_slammer"
     ]
   },
   "criteria": {
@@ -12,7 +13,7 @@
       "conditions": {
         "items": [
           {
-            "items": "powerrangerscraft:triceratops_power_coin"
+            "items": "powerrangerscraft:overdrive_black_logo"
           }
         ]
       }

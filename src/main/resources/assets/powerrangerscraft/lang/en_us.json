@@ -599,19 +599,19 @@
   "item.powerrangerscraft.defender_vest": "Defender Vest",
   "item.powerrangerscraft.sentinel_morpher": "Sentinel Morpher",
 
-  "powerrangerscraft:overdrive_red_logo.form": "§cRed Ranger",
-  "powerrangerscraft:overdrive_black_logo.form": "§8Black Ranger",
-  "powerrangerscraft:overdrive_blue_logo.form": "§9Blue Ranger",
-  "powerrangerscraft:overdrive_yellow_logo.form": "§eYellow Ranger",
-  "powerrangerscraft:overdrive_pink_logo.form": "§dPink Ranger",
-  "powerrangerscraft:mercury_ranger_logo.form": "§7Mercury Ranger",
+  "powerrangerscraft:overdrive_red_logo.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:overdrive_black_logo.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:overdrive_blue_logo.form": "Ranger: §9Blue Ranger",
+  "powerrangerscraft:overdrive_yellow_logo.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:overdrive_pink_logo.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:mercury_ranger_logo.form": "Ranger: §7Mercury Ranger",
 
   "powerrangerscraft:unfinished_sentinel_sword.form": "Ally: §6Sentinel Knight",
 
   "powerrangerscraft:defender_vest.form": "§rw/ Defender Vest",
   "powerrangerscraft:defender_vest_mmpr.form": "Ranger: §8Black Ranger §rw/ Defender Vest",
 
-  "powerrangerscraft:sentinel_morpher.form": "§cRed §6Sentinel §cRanger",
+  "powerrangerscraft:sentinel_morpher.form": "Ranger: §cRed §6Sentinel §cRanger",
   "powerrangerscraft:sentinel_morpher_hyperforce.form": "Ranger: §8Black §6Sentinel §8Ranger",
 
   "item.powerrangerscraft.drive_defender": "Drive Defender",
@@ -1236,5 +1236,57 @@
   "item.powerrangerscraft.go_go_power_rangers.desc": "HosephHoestar - Go! Go! Power Rangers",
 
   "item.powerrangerscraft.go_go_alien_rangers_music_disc": "Go! Go! Alien Rangers Music Disc",
-  "item.powerrangerscraft.go_go_alien_rangers.desc": "HosephHoestar - Go! Go! Alien Rangers"
+  "item.powerrangerscraft.go_go_alien_rangers.desc": "HosephHoestar - Go! Go! Alien Rangers",
+
+  "item.powerrangercraft.":"",
+  
+  //Advancements
+  "advancements.powerrangerscraft.title": "Power Rangers Craft",
+  "advancements.powerrangerscraft.desc": "May the Power Protect You!",
+
+  "advancements.powerrangerscraft.operation_overdrive.desc": "Change into each member of the Overdrive Ranger Team",
+  "advancements.powerrangerscraft.operation_overdrive.title": "Power Rangers Operation Overdrive",
+  "advancements.powerrangerscraft.overdrive_red.desc": "Change into Overdrive Red",
+  "advancements.powerrangerscraft.overdrive_red.title": "Kick into Overdrive! Red Ranger!",
+  "advancements.powerrangerscraft.overdrive_black.desc": "Change into Overdrive Black",
+  "advancements.powerrangerscraft.overdrive_black.title": "Kick into Overdrive! Black Ranger!",
+  "advancements.powerrangerscraft.overdrive_blue.desc": "Change into Overdrive Blue",
+  "advancements.powerrangerscraft.overdrive_blue.title": "Kick into Overdrive! Blue Ranger!",
+  "advancements.powerrangerscraft.overdrive_yellow.desc": "Change into Overdrive Yellow",
+  "advancements.powerrangerscraft.overdrive_yellow.title": "Kick into Overdrive! Yellow Ranger!",
+  "advancements.powerrangerscraft.overdrive_pink.desc": "Change into Overdrive Pink",
+  "advancements.powerrangerscraft.overdrive_pink.title": "Kick into Overdrive! Pink Ranger!",
+  "advancements.powerrangerscraft.mercury_ranger.desc": "Change into the Mercury Ranger",
+  "advancements.powerrangerscraft.mercury_ranger.title": "Kick into Overdrive! Mercury Ranger!",
+  "advancements.powerrangerscraft.sentinel_knight.desc": "Change into Sentinel Knight",
+  "advancements.powerrangerscraft.sentinel_knight.title": "Protector of the Corona Aurora!",
+  "advancements.powerrangerscraft.defender_vest.desc": "Equip the Defender Vest",
+  "advancements.powerrangerscraft.defender_vest.title": "At All Cost",
+  "advancements.powerrangerscraft.overdrive_tracker.desc": "Obtain any Overdrive Tracker",
+  "advancements.powerrangerscraft.overdrive_tracker.title": "Overdrive! Accelerate!",
+  "advancements.powerrangerscraft.mercury_morpher.desc": "Obtain the Mercury Ranger's Mercury Morpher",
+  "advancements.powerrangerscraft.mercury_morpher.title": "Overdrive! Accelerate!",
+  "advancements.powerrangerscraft.red_sentinel_ranger.desc": "Turn into the Red Sentinel Ranger",
+  "advancements.powerrangerscraft.red_sentinel_ranger.title": "Red Sentinel Ranger! Activate!",
+
+  "advancements.powerrangerscraft.once_a_ranger.desc": "Change into each member of the Once a Ranger Ranger Team",
+  "advancements.powerrangerscraft.once_a_ranger.title": "Once a Ranger, Always a Ranger",
+  "advancements.powerrangerscraft.mmpr_black.desc": "Change into the MMPR Black Ranger",
+  "advancements.powerrangerscraft.mmpr_black.title": "Mastodon!",
+  "advancements.powerrangerscraft.spd_red.desc": "Change into SPD Red",
+  "advancements.powerrangerscraft.spd_red.title": "1! SPD Red Ranger!",
+  "advancements.powerrangerscraft.ninja_storm_blue.desc": "Change into Ninja Storm Blue",
+  "advancements.powerrangerscraft.ninja_storm_blue.title": "Power of Water!",
+  "advancements.powerrangerscraft.dino_thunder_yellow.desc": "Change into Dino Thnder Yellow",
+  "advancements.powerrangerscraft.dino_thunder_yellow.title": "Ptera Power! Yellow Ranger!",
+  "advancements.powerrangerscraft.mystic_force_green.desc": "Change into Mystic Force Green",
+  "advancements.powerrangerscraft.mystic_force_green.title": "Strong as a Tree, Green Mystic Ranger!",
+  "advancements.powerrangerscraft.defender_vest_mmpr.desc": "Equip the MMPR Black Ranger with the Defender Vest",
+  "advancements.powerrangerscraft.defender_vest_mmpr.title": "Another Black Ranger Upgrade",
+
+  "advancements.powerrangerscraft.black_sentinel_ranger.desc": "Turn into the Black Sentinel Ranger",
+  "advancements.powerrangerscraft.black_sentinel_ranger.title": "Black Sentinel Ranger! Activate!",
+
+  "advancements.powerrangerscraft..desc": "",
+  "advancements.powerrangerscraft..title": ""
 }

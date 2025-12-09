@@ -1,0 +1,165 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:mastodon_power_coin"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.once_a_ranger.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.once_a_ranger.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:operation_overdrive/operation_overdrive",
+  "criteria": {
+    "ranger1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:mmpr_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:mmpr_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:mmpr_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_power_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:spd_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:spd_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:spd_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_delta_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ninja_storm_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ninja_storm_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ninja_storm_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_wind_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_thunder_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_thunder_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_thunder_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_dino_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:mystic_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:mystic_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:mystic_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:green_mystic_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

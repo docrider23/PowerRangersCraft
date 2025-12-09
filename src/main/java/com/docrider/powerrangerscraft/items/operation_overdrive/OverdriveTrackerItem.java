@@ -29,9 +29,9 @@ public class OverdriveTrackerItem extends RangerChangerItem{
 		Item formItem = this.get_Form_Item(stack, 1);
 		Item formItem2 = this.get_Form_Item(stack, 2);
 
-		if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
+		if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form").getString()));
 		else {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()
+			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form").getString()
 					+ " " + Component.translatable(formItem2.toString() + ".form").getString()));
 		}
 		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);

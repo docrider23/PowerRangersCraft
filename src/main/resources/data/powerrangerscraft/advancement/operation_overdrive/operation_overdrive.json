@@ -1,0 +1,223 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:operation_overdrive_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.operation_overdrive.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.operation_overdrive.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:root",
+  "criteria": {
+    "ranger1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_overdrive_tracker"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_overdrive_tracker"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_overdrive_tracker"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_overdrive_tracker"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:pink_overdrive_tracker"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:mercury_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:operation_overdrive_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:sentinel_sword_knight"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

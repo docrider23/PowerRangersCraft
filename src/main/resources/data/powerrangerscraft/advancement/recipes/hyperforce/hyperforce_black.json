@@ -3,7 +3,8 @@
   "rewards": {
     "recipes": [
       "powerrangerscraft:hyperforce/black_hyperforce_morpher",
-      "powerrangerscraft:hyperforce/coeus_axe"
+      "powerrangerscraft:hyperforce/coeus_axe",
+      "powerrangerscraft:operation_overdrive/sentinel_morpher"
     ]
   },
   "criteria": {

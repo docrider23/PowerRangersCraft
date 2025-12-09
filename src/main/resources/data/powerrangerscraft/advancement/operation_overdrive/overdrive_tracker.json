@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_overdrive_tracker"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.overdrive_tracker.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.overdrive_tracker.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:operation_overdrive/operation_overdrive",
+  "criteria": {
+    "ranger1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:red_overdrive_tracker"
+            ]
+          }
+        ]
+      }
+    },
+    "ranger2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:black_overdrive_tracker"
+            ]
+          }
+        ]
+      }
+    },
+    "ranger3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:blue_overdrive_tracker"
+            ]
+          }
+        ]
+      }
+    },
+    "ranger4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:yellow_overdrive_tracker"
+            ]
+          }
+        ]
+      }
+    },
+    "ranger5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:pink_overdrive_tracker"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ranger1",
+      "ranger2",
+      "ranger3",
+      "ranger4",
+      "ranger5"
+    ]
+  ]
+}
