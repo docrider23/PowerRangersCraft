@@ -385,7 +385,7 @@ public class PowerRangersCraftCore {
                         }
                         if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof DinoFuryMorpherItem) {
                             if ($itemStack.getItem() == DinoFuryItems.DINO_KNIGHT_MORPHER.get()) {
-                                if (DinoFuryMorpherItem.get_Form_Item(belt, 2).getFormName(false)=="_dino_knight") return 1;
+                                if (DinoFuryMorpherItem.get_Form_Item(belt, 1).getFormName(false)=="_dino_knight") return 1;
                                 else return 0;
                             }
                         }
