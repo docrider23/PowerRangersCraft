@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:mastodon_power_coin",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:spd_red_badge",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:blue_wind_ninja_power_disk",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:yellow_dino_gem",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:green_mystic_morpher_plate",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:operation_overdrive_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:operation_overdrive_logo"
+        }
+      ]
+    }
+  ]
+}

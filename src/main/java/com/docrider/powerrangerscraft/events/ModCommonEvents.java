@@ -132,6 +132,10 @@ public class ModCommonEvents {public static class EventHandler {
         event.put(MobsCore.CHILLERS.get(), ChillersEntity.setAttributes().build());
         event.put(MobsCore.LAVA_LIZARDS.get(), LavaLizardsEntity.setAttributes().build());
         event.put(MobsCore.MOLTOR.get(), MoltorEntity.setAttributes().build());
+        event.put(MobsCore.FLURIOUS.get(), FluriousEntity.setAttributes().build());
+        event.put(MobsCore.KAMDOR.get(), KamdorEntity.setAttributes().build());
+        event.put(MobsCore.FEARCATS.get(), FearcatsEntity.setAttributes().build());
+        event.put(MobsCore.THRAX.get(), ThraxEntity.setAttributes().build());
 
         event.put(MobsCore.MOOGERS.get(), MoogersEntity.setAttributes().build());
 

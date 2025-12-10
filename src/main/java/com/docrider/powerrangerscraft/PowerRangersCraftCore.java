@@ -8,6 +8,7 @@ import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.events.ModCommonEvents;
 import com.docrider.powerrangerscraft.events.ModServerEvents;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
+import com.docrider.powerrangerscraft.level.ModGameRules;
 import com.docrider.powerrangerscraft.particle.*;
 import com.docrider.powerrangerscraft.sounds.ModSounds;
 import com.docrider.powerrangerscraft.items.*;
@@ -121,6 +122,7 @@ public class PowerRangersCraftCore {
         ModLootModifiers.register(modEventBus);
         ModSounds.register(modEventBus);
         ModParticles.register(modEventBus);
+        ModGameRules.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -430,6 +432,10 @@ public class PowerRangersCraftCore {
             event.registerEntityRenderer(MobsCore.CHILLERS.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.LAVA_LIZARDS.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.MOLTOR.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.FLURIOUS.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.KAMDOR.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.FEARCATS.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.THRAX.get(), BasicEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.MOOGERS.get(), BasicEntityRenderer::new);
 

@@ -118,6 +118,30 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
 
     public static final DeferredItem<DeferredSpawnEggItem> MOLTOR_SPAWN_EGG = ITEMS.register("moltor_spawn_egg",
             () -> new DeferredSpawnEggItem(MOLTOR,0xffffff, 0x151515, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<FluriousEntity>> FLURIOUS = MOBLIST.register("flurious",
+            () -> EntityType.Builder.of(FluriousEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":flurious"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> FLURIOUS_SPAWN_EGG = ITEMS.register("flurious_spawn_egg",
+            () -> new DeferredSpawnEggItem(FLURIOUS,0xffffff, 0x151515, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<KamdorEntity>> KAMDOR = MOBLIST.register("kamdor",
+            () -> EntityType.Builder.of(KamdorEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":kamdor"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> KAMDOR_SPAWN_EGG = ITEMS.register("kamdor_spawn_egg",
+            () -> new DeferredSpawnEggItem(KAMDOR,0xffffff, 0x151515, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<FearcatsEntity>> FEARCATS = MOBLIST.register("fearcats",
+            () -> EntityType.Builder.of(FearcatsEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":fearcats"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> FEARCATS_SPAWN_EGG = ITEMS.register("fearcats_spawn_egg",
+            () -> new DeferredSpawnEggItem(FEARCATS,0xffffff, 0x151515, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<ThraxEntity>> THRAX = MOBLIST.register("thrax",
+            () -> EntityType.Builder.of(ThraxEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":thrax"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> THRAX_SPAWN_EGG = ITEMS.register("thrax_spawn_egg",
+            () -> new DeferredSpawnEggItem(THRAX,0xffffff, 0x151515, new Item.Properties()));
     
     //16 Jungle Fury
     

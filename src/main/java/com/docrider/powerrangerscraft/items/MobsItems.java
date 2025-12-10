@@ -40,6 +40,15 @@ public class MobsItems {
 	public static final DeferredItem<SwordItem> MOLTOR_SWORD = ITEMS.register("moltor_sword",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 
+	public static final DeferredItem<BaseBlasterItem> FLURIOUS_STAFF = ITEMS.register("flurious_staff",
+			() -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
+
+	public static final DeferredItem<SwordItem> KAMDOR_KATANA = ITEMS.register("kamdor_katana",
+			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
+
+	public static final DeferredItem<BaseBlasterItem> Z_STAFF_THRAX = ITEMS.register("z_staff_thrax",
+			() -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(Items.IRON_INGOT));
+
 	public static final DeferredItem<SwordItem> MOOGERS_DAO = ITEMS.register("moogers_dao",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 
