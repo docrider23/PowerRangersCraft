@@ -1,0 +1,28 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:ninja_storm/ninja_storm_head",
+      "powerrangerscraft:ninja_storm/ninja_storm_torso",
+      "powerrangerscraft:ninja_storm/ninja_storm_legs",
+      "powerrangerscraft:ninja_storm/ninja_sword"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:ninja_storm_logo"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}

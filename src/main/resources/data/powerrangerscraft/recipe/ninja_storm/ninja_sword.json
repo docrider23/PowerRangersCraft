@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ninja_storm",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:ninja_storm_logo"
+    },
+	"b":
+      {
+	    "item": "powerrangerscraft:blue_wind_ninja_power_disk"
+	  },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:ninja_sword"
+  }
+}

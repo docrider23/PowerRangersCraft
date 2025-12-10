@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:blue_wind_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.ninja_storm_blue.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.ninja_storm_blue.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:operation_overdrive/spd_red",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ninja_storm_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ninja_storm_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ninja_storm_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_wind_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

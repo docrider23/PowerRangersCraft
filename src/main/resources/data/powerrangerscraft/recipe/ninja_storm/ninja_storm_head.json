@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ninja_storm",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:ninja_storm_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:ninja_storm_head"
+  }
+}
