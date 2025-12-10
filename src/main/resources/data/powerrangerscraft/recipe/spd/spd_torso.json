@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spd",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:spd_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:spd_torso"
+  }
+}

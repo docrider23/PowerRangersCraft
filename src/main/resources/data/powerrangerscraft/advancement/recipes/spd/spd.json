@@ -1,0 +1,27 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:spd/spd_head",
+      "powerrangerscraft:spd/spd_torso",
+      "powerrangerscraft:spd/spd_legs"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:spd_logo"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spd_red",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:delta_blaster_1"
+    },
+	{
+      "item": "powerrangerscraft:delta_blaster_2"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:delta_blaster_combo"
+  }
+}

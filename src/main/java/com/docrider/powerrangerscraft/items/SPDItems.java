@@ -1,13 +1,11 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
-import com.docrider.powerrangerscraft.items.others.BaseItem;
-import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
-import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
-import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
+import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -31,6 +29,13 @@ public class SPDItems {
 
     public static final DeferredItem<Item> RED_DELTA_MORPHER = ITEMS.register("red_delta_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"spd_red",SPD_RED_BADGE,SPD_HELMET,SPD_CHESTPLATE,SPD_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> DELTA_BLASTER_1 = ITEMS.register("delta_blaster_1",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> DELTA_BLASTER_2 = ITEMS.register("delta_blaster_2",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> DELTA_BLASTER_COMBO = ITEMS.register("delta_blaster_combo",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 10, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -2,18 +2,18 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "powerrangerscraft:item/auto_blaster_turbo"
+		"layer0": "powerrangerscraft:item/delta_blaster_1"
 	},
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [-45, -90, 0],
-			"translation": [0, 3, -0.25],
-			"scale": [1.25, 1.25, 0.85]
+			"translation": [0, 1.25, 0.5],
+			"scale": [1, 1, 0.85]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [-45, 90, 0],
-			"translation": [0, 3, -0.25],
-			"scale": [1.25, 1.25, 0.85]
+			"translation": [0, 1.25, 0.5],
+			"scale": [1, 1, 0.85]
 		},
 		"firstperson_righthand": {
 			"rotation": [-25.5, -85, 0],

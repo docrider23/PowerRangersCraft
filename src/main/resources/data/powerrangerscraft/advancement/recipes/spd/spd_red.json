@@ -1,0 +1,27 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:spd/red_delta_morpher",
+      "powerrangerscraft:spd/delta_blaster_1",
+      "powerrangerscraft:spd/delta_blaster_2"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:spd_red_badge"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

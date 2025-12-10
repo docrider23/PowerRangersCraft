@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_delta_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.spd_red.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.spd_red.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:operation_overdrive/mmpr_black",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:spd_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:spd_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:spd_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_delta_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
