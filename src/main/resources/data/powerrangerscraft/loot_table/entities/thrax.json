@@ -31,7 +31,51 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:operation_overdrive_logo",
+          "name": "powerrangerscraft:mmpr_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:spd_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:ninja_storm_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:dino_thunder_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:mystic_force_logo",
           "weight": 5,
           "functions": [
             {
