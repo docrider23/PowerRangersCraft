@@ -38,7 +38,13 @@ public class SecretDiscItem extends RangerFormChangeItem {
 						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
 					}
 				}
-				else if (this == SamuraiItems.MEGA_MODE_DISC.get())
+				else if (this == SamuraiItems.MEGA_MODE_DISC.get() ||
+						this == SamuraiItems.MEGA_MODE_DISC_BLUE.get() ||
+						this == SamuraiItems.MEGA_MODE_DISC_PINK.get() ||
+						this == SamuraiItems.MEGA_MODE_DISC_GREEN.get() ||
+						this == SamuraiItems.MEGA_MODE_DISC_YELLOW.get() ||
+						this == SamuraiItems.MEGA_MODE_DISC_GOLD.get() ||
+						this == SamuraiItems.MEGA_MODE_DISC_PRINCESS.get())
 				{
 					{
 						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
