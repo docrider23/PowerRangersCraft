@@ -2,25 +2,25 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "powerrangerscraft:item/tiger_claw_dagger"
+		"layer0": "powerrangerscraft:item/ptera_grip"
 	},
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-45, -90, 0],
-			"translation": [0, 3.5, 1.5],
+			"rotation": [45, 90, 0],
+			"translation": [0, 4.5, 1.5],
 			"scale": [0.75, 0.75, 0.85]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [-45, 90, 0],
-			"translation": [0, 3.5, 1.5],
+			"rotation": [45, -90, 0],
+			"translation": [0, 4.5, 1.5],
 			"scale": [0.75, 0.75, 0.85]
 		},
 		"firstperson_righthand": {
-			"rotation": [-60, -90, 0],
+			"rotation": [30, 90, 0],
 			"scale": [0.75, 0.75, 0.85]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-60, 90, 0],
+			"rotation": [30, -90, 0],
 			"scale": [0.75, 0.75, 0.85]
 		}
 	},

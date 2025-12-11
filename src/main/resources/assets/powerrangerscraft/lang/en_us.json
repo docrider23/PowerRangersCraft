@@ -552,6 +552,11 @@
 
   "powerrangerscraft:yellow_dino_gem.form": "Ranger: §eYellow Ranger",
 
+  "item.powerrangerscraft.thundermax_saber": "Thundermax Saber",
+  "item.powerrangerscraft.tyranno_staff": "Tyranno Staff",
+  "item.powerrangerscraft.tricera_shield": "Tricera Shield",
+  "item.powerrangerscraft.ptera_grip": "Ptera Grip",
+
   //13 SPD
   "tab.powerrangerscraft.spd": "SPD (Space Patrol Delta)",
 
@@ -585,6 +590,10 @@
   "item.powerrangerscraft.green_mystic_morpher_plate": "Green Mystic Morpher Plate",
 
   "powerrangerscraft:green_mystic_morpher_plate.form": "Ranger: §aGreen Ranger",
+
+  "item.powerrangerscraft.magi_wand_green": "Green Magi Wand",
+  "item.powerrangerscraft.magi_wand_green_axe": "Green Magi Wand (Axe Mode)",
+  "item.powerrangerscraft.mystic_fighter": "Mystic Fighter",
 
   //15 Operation Overdrive
   "tab.powerrangerscraft.operation_overdrive": "Operation Overdrive",

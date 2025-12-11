@@ -1,0 +1,28 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:dino_thunder/dino_thunder_head",
+      "powerrangerscraft:dino_thunder/dino_thunder_torso",
+      "powerrangerscraft:dino_thunder/dino_thunder_legs",
+      "powerrangerscraft:dino_thunder/thundermax_saber"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:dino_thunder_logo"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}

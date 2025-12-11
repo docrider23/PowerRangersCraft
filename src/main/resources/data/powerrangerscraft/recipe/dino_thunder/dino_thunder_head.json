@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_thunder",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:dino_thunder_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:dino_thunder_head"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_thunder",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:dino_thunder_logo"
+    },
+	"b":
+      {
+	    "item": "powerrangerscraft:yellow_dino_gem"
+	  },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:thundermax_saber"
+  }
+}

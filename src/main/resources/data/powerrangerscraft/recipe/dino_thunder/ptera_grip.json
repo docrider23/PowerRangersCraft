@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_thunder_yellow",
+  "pattern": [
+    "aaa",
+    "aca",
+	"aba"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:dino_thunder_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:yellow_dino_gem"
+    },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:ptera_grip"
+  }
+}

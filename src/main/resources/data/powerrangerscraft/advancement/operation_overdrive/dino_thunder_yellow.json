@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:yellow_dino_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_thunder_yellow.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.dino_thunder_yellow.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:operation_overdrive/ninja_storm_blue",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_thunder_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_thunder_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_thunder_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_dino_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
