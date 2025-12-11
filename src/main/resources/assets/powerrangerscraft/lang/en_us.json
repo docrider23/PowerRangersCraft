@@ -593,7 +593,8 @@
 
   "item.powerrangerscraft.magi_wand_green": "Green Magi Wand",
   "item.powerrangerscraft.magi_wand_green_axe": "Green Magi Wand (Axe Mode)",
-  "item.powerrangerscraft.mystic_fighter": "Mystic Fighter",
+  "item.powerrangerscraft.mystic_force_fighter_l": "Mystic Force Fighter",
+  "item.powerrangerscraft.mystic_force_fighter_r": "Mystic Force Fighter",
 
   //15 Operation Overdrive
   "tab.powerrangerscraft.operation_overdrive": "Operation Overdrive",
