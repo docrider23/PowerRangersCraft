@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mystic_force_green",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:mystic_force_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:green_mystic_morpher_plate"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:green_mystic_morpher"
+  }
+}

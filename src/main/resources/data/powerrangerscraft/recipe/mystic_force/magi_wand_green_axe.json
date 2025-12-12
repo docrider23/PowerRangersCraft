@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mystic_force_green",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:magi_wand_green"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:magi_wand_green_axe"
+  }
+}

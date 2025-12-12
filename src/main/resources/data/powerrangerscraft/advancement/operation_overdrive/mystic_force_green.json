@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:green_mystic_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.mystic_force_green.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.mystic_force_green.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:operation_overdrive/dino_thunder_yellow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:mystic_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:mystic_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:mystic_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:green_mystic_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

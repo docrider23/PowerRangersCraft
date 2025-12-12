@@ -1,7 +1,7 @@
 package com.docrider.powerrangerscraft.blocks;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
-import com.docrider.powerrangerscraft.blocks.custom.RescueBird;
+import com.docrider.powerrangerscraft.blocks.custom.*;
 import com.docrider.powerrangerscraft.blocks.machineBlocks.CoronaAuroraCrown;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.RangerTabs;
@@ -65,6 +65,9 @@ public class RangerBlocks {
             () -> new HatBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.CHIME)
                     .strength(5.0F,6.0F).dynamicShape().lightLevel((p_152632_) -> {
                         return 10;}),Block.box(4,0,4,12,3,12)).AddToTabList(RangerTabs.BLOCKS));
+
+    public static final DeferredBlock<Block> SWORD_STATUE = registerBlock("sword_statue",
+            () -> new SwordStatueBlock(BlockBehaviour.Properties.of().noOcclusion()).AddToTabList(RangerTabs.BLOCKS));
 
     public static final DeferredBlock<Block> POWER_DISC_ORE = registerBlock("power_disc_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)

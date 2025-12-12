@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mystic_force_green",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:magi_wand_green_axe"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:magi_wand_green"
+  }
+}

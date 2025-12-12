@@ -1,5 +1,6 @@
 package com.docrider.powerrangerscraft;
 
+import com.docrider.powerrangerscraft.blocks.entity.ModBlockEntities;
 import com.docrider.powerrangerscraft.client.renderer.*;
 import com.docrider.powerrangerscraft.events.ModClientEvents;
 import com.docrider.powerrangerscraft.blocks.RangerBlocks;
@@ -123,6 +124,7 @@ public class PowerRangersCraftCore {
         ModSounds.register(modEventBus);
         ModParticles.register(modEventBus);
         ModGameRules.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

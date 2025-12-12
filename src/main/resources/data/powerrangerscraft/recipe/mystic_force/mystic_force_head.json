@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mystic_force",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:mystic_force_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:mystic_force_head"
+  }
+}
