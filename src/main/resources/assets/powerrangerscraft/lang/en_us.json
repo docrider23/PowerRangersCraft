@@ -58,6 +58,7 @@
   "entity.powerrangerscraft.kamdor": "Kamdor",
   "entity.powerrangerscraft.fearcats": "Fearcats",
   "entity.powerrangerscraft.thrax": "Thrax",
+  "entity.powerrangerscraft.sentinel_knight": "Sentinel Knight",
   "item.powerrangerscraft.chiller_spawn_egg": "Chillers Spawn Egg",
   "item.powerrangerscraft.lava_lizard_spawn_egg": "Lava Lizards Spawn Egg",
   "item.powerrangerscraft.moltor_spawn_egg": "Moltor Spawn Egg",
@@ -65,6 +66,7 @@
   "item.powerrangerscraft.kamdor_spawn_egg": "Kamdor Spawn Egg",
   "item.powerrangerscraft.fearcats_spawn_egg": "Fearcats Spawn Egg",
   "item.powerrangerscraft.thrax_spawn_egg": "Thrax Spawn Egg",
+  "item.powerrangerscraft.sentinel_knight_spawn_egg": "Sentinel Knight Spawn Egg",
 
   "entity.powerrangerscraft.mooger": "Mooger",
   "item.powerrangerscraft.mooger_spawn_egg": "Mooger Spawn Egg",
@@ -612,7 +614,7 @@
   "item.powerrangerscraft.pink_overdrive_tracker": "Overdrive Tracker",
   "item.powerrangerscraft.mercury_morpher": "Mercury Morpher",
 
-  "item.powerrangerscraft.sentinel_sword_knight": "Sentinel Sword",
+  "item.powerrangerscraft.sentinel_knight_chestpiece": "Sentinel Knight's Chestpiece",
 
   "item.powerrangerscraft.overdrive_red_logo": "Overdrive Red Logo",
   "item.powerrangerscraft.overdrive_black_logo": "Overdrive Black Logo",

@@ -1,6 +1,7 @@
 package com.docrider.powerrangerscraft.events;
 
 import com.docrider.powerrangerscraft.effect.EffectCore;
+import com.docrider.powerrangerscraft.entity.ally.*;
 import com.docrider.powerrangerscraft.entity.bikes.DinoCycleEntity;
 import com.docrider.powerrangerscraft.entity.boss.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.*;
@@ -136,6 +137,7 @@ public class ModCommonEvents {public static class EventHandler {
         event.put(MobsCore.KAMDOR.get(), KamdorEntity.setAttributes().build());
         event.put(MobsCore.FEARCATS.get(), FearcatsEntity.setAttributes().build());
         event.put(MobsCore.THRAX.get(), ThraxEntity.setAttributes().build());
+        event.put(MobsCore.SENTINEL_KNIGHT.get(), SentinelKnightEntity.setAttributes().build());
 
         event.put(MobsCore.MOOGERS.get(), MoogersEntity.setAttributes().build());
 

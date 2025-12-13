@@ -38,7 +38,7 @@ public class BaseFootsoldierEntity extends Monster implements RangedAttackMob {
 
     public int BOW_COOLDOWN = 40;
     public int HARD_BOW_COOLDOWN = 20;
-    private boolean swordgunMelee = false;
+    private boolean swordgunMeleeOnly = false;
     private final RangedBowAttackGoal<BaseFootsoldierEntity> bowGoal = new RangedBowAttackGoal<>(this, 1.0D, 20, 15.0F);
     private final MeleeAttackGoal meleeGoal = new  MeleeAttackGoal(this, 1.0D, false) {
         public void stop() {
@@ -90,7 +90,7 @@ public class BaseFootsoldierEntity extends Monster implements RangedAttackMob {
             boolean swordgunMeleeCheck = (((this.getTarget() instanceof Player player && player.getAbilities().flying && player.distanceToSqr(this) < 10.0D)
                     || (this.getTarget() instanceof FlyingMob fly && fly.distanceToSqr(this) < 20.0D)
                     || this.getTarget().distanceToSqr(this) < 40.0D));
-            if (swordgunMelee != swordgunMeleeCheck) this.setSwordgunMelee(swordgunMeleeCheck);
+            if (swordgunMeleeOnly != swordgunMeleeCheck) this.setSwordgunMeleeOnly(swordgunMeleeCheck);
         }
         super.aiStep();
         if (this.swinging) this.updateSwingTime();
@@ -183,7 +183,7 @@ public class BaseFootsoldierEntity extends Monster implements RangedAttackMob {
 
 
 
-    public void setSwordgunMelee(boolean melee) {
+    public void setSwordgunMeleeOnly(boolean melee) {
         if (this.level() != null && !this.level().isClientSide) {
             if (melee) {
                 this.goalSelector.removeGoal(this.bowGoal);
@@ -193,7 +193,7 @@ public class BaseFootsoldierEntity extends Monster implements RangedAttackMob {
                 this.goalSelector.removeGoal(this.meleeGoal);
                 this.goalSelector.addGoal(2, this.bowGoal);
             }
-            swordgunMelee = melee;
+            swordgunMeleeOnly = melee;
         }
     }
 
@@ -234,5 +234,14 @@ public class BaseFootsoldierEntity extends Monster implements RangedAttackMob {
 
     public boolean canFireProjectileWeapon(ProjectileWeaponItem p_32144_) {
         return p_32144_ instanceof BowItem;
+    }
+
+    public boolean getMeleeOnly() {
+        return this.swordgunMeleeOnly;
+    }
+
+    public void addAdditionalSaveData(CompoundTag p_30418_) {
+        super.addAdditionalSaveData(p_30418_);
+        p_30418_.putBoolean("SwordgunMeleeOnly", this.swordgunMeleeOnly);
     }
 }

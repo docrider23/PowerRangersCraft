@@ -2,9 +2,8 @@ package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
-import com.docrider.powerrangerscraft.items.operation_overdrive.MercuryMorpherItem;
-import com.docrider.powerrangerscraft.items.operation_overdrive.OverdriveTrackerItem;
-import com.docrider.powerrangerscraft.items.operation_overdrive.SentinelSwordItem;
+import com.docrider.powerrangerscraft.entity.MobsCore;
+import com.docrider.powerrangerscraft.items.operation_overdrive.*;
 import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -120,9 +119,9 @@ public class OperationOverdriveItems {
     public static final DeferredItem<Item> MERCURY_MORPHER = ITEMS.register("mercury_morpher",
             () -> new MercuryMorpherItem(ArmorMaterials.DIAMOND,"mercury_ranger", MERCURY_RANGER_LOGO, OPERATION_OVERDRIVE_HELMET, OPERATION_OVERDRIVE_CHESTPLATE, OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties())
                     .Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
-    public static final DeferredItem<Item> SENTINEL_SWORD_KNIGHT = ITEMS.register("sentinel_sword_knight",
-            () -> new SentinelSwordItem(ArmorMaterials.DIAMOND,"sentinel_knight",UNFINISHED_SENTINEL_SWORD,OPERATION_OVERDRIVE_HELMET,OPERATION_OVERDRIVE_CHESTPLATE,OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties())
-                    .KeepItem().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+    public static final DeferredItem<Item> SENTINEL_KNIGHT_CHESTPIECE = ITEMS.register("sentinel_knight_chestpiece",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"sentinel_knight",UNFINISHED_SENTINEL_SWORD,OPERATION_OVERDRIVE_HELMET,OPERATION_OVERDRIVE_CHESTPLATE,OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties())
+                    .AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
     public static final DeferredItem<Item> SENTINEL_MORPHER_HYPERFORCE = ITEMS.register("sentinel_morpher_hyperforce",
             () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_sentinel","hyperforce_black","blank",
@@ -163,7 +162,7 @@ public class OperationOverdriveItems {
             () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).IsSuperGun().IsDualWeapon().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
     public static final DeferredItem<SwordItem> SENTINEL_SWORD = ITEMS.register("sentinel_sword",
-            () -> new BaseDualSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).isChanger(SENTINEL_SWORD_KNIGHT.get()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+            () -> new SentinelSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties(), MobsCore.SENTINEL_KNIGHT).KeepItem().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
     public static final DeferredItem<Item> BROWNBEARDS_LUCKY_PEARL = ITEMS.register("brownbeards_lucky_pearl",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
@@ -186,6 +185,12 @@ public class OperationOverdriveItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
     public static final DeferredItem<Item> PINK_JEWEL = ITEMS.register("pink_jewel",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+
+    public static final DeferredItem<Item> Z_EMBLEM_THRAX = ITEMS.register("z_emblem_thrax",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","thrax","blank")
+                    .ChangeModel("thrax.geo.json"));
+    public static final DeferredItem<Item> THRAX_CODPIECE = ITEMS.register("thrax_codpiece",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"thrax", Z_EMBLEM_THRAX, OPERATION_OVERDRIVE_HELMET, OPERATION_OVERDRIVE_CHESTPLATE, OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties()).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

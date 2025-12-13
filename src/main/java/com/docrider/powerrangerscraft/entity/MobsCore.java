@@ -1,6 +1,7 @@
 package com.docrider.powerrangerscraft.entity;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.entity.ally.*;
 import com.docrider.powerrangerscraft.entity.bikes.DinoCycleEntity;
 import com.docrider.powerrangerscraft.entity.boss.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.*;
@@ -142,6 +143,12 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
 
     public static final DeferredItem<DeferredSpawnEggItem> THRAX_SPAWN_EGG = ITEMS.register("thrax_spawn_egg",
             () -> new DeferredSpawnEggItem(THRAX,0x8a1e34, 0xc0c0c0, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<SentinelKnightEntity>> SENTINEL_KNIGHT = MOBLIST.register("sentinel_knight",
+            () -> EntityType.Builder.of(SentinelKnightEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":sentinel_knight"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> SENTINEL_KNIGHT_SPAWN_EGG = ITEMS.register("sentinel_knight_spawn_egg",
+            () -> new DeferredSpawnEggItem(SENTINEL_KNIGHT,0xffffff, 0x151515, new Item.Properties()));
     
     //16 Jungle Fury
     

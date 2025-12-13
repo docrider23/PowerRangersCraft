@@ -2,12 +2,14 @@ package com.docrider.powerrangerscraft;
 
 import com.docrider.powerrangerscraft.blocks.entity.ModBlockEntities;
 import com.docrider.powerrangerscraft.client.renderer.*;
+import com.docrider.powerrangerscraft.entity.footsoldier.BaseFootsoldierEntity;
 import com.docrider.powerrangerscraft.events.ModClientEvents;
 import com.docrider.powerrangerscraft.blocks.RangerBlocks;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.events.ModCommonEvents;
 import com.docrider.powerrangerscraft.events.ModServerEvents;
+import com.docrider.powerrangerscraft.items.others.MechaGattaiItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.level.ModGameRules;
 import com.docrider.powerrangerscraft.particle.*;
@@ -156,132 +158,40 @@ public class PowerRangersCraftCore {
     public void addRenderLivingEvent(RenderLivingEvent.Pre event) {
 
         if (event.getRenderer().getModel()instanceof PlayerModel model) {
-
-            if (event.getEntity().getItemBySlot(EquipmentSlot.FEET).getItem() instanceof ArmorItem belt) {
-                if (belt instanceof RangerChangerItem driver && driver.isTransformed(event.getEntity())) {
-                    double tag = RangerChangerItem.getRenderType(event.getEntity().getItemBySlot(EquipmentSlot.FEET));
-                    if (tag != 0) {
-                        if (tag != 2) {
-                            model.head.visible = false;
-                        } else {
-                            model.head.visible = true;
-                        }
-
-                        if (tag != 3) {
-                            model.leftLeg.visible = false;
-                            model.rightLeg.visible = false;
-                            model.leftArm.visible = false;
-                            model.rightArm.visible = false;
-                            model.body.visible = false;
-                        } else {
-                            model.head.visible = true;
-                            model.leftLeg.visible = true;
-                            model.rightLeg.visible = true;
-                            model.leftArm.visible = true;
-                            model.rightArm.visible = true;
-                            model.body.visible = true;
-                        }
-
-                        model.hat.visible = false;
-                        model.leftSleeve.visible = false;
-                        model.rightSleeve.visible = false;
-                        model.leftPants.visible = false;
-                        model.rightPants.visible = false;
-                        model.jacket.visible = false;
-                    } else {
-                        model.head.visible = true;
-                        model.hat.visible = true;
+            if (event.getEntity().getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RangerChangerItem
+                    && event.getEntity().getItemBySlot(EquipmentSlot.FEET).has(DataComponents.CUSTOM_DATA)) {
+                double tag = event.getEntity().getItemBySlot(EquipmentSlot.FEET).get(DataComponents.CUSTOM_DATA).copyTag().getDouble("render_type");
+                if (tag != 0) {
+                    model.setAllVisible(false);
+                    if (tag != 1) model.head.visible = true;
+                    else if (event.getEntity() instanceof BaseFootsoldierEntity) model.head.visible = false;
+                    if (tag == 3) {
                         model.leftLeg.visible = true;
                         model.rightLeg.visible = true;
                         model.leftArm.visible = true;
                         model.rightArm.visible = true;
                         model.body.visible = true;
-                        model.leftSleeve.visible = true;
-                        model.rightSleeve.visible = true;
-                        model.leftPants.visible = true;
-                        model.rightPants.visible = true;
-                        model.jacket.visible = true;
+                    } else if (event.getEntity() instanceof BaseFootsoldierEntity) {
+                        model.leftLeg.visible = false;
+                        model.rightLeg.visible = false;
+                        model.leftArm.visible = false;
+                        model.rightArm.visible = false;
+                        model.body.visible = false;
                     }
-                } else if (event.getEntity().getItemBySlot(EquipmentSlot.FEET).has(DataComponents.CUSTOM_DATA)) {
-                    CompoundTag tag = event.getEntity().getItemBySlot(EquipmentSlot.FEET).get(DataComponents.CUSTOM_DATA).getUnsafe();
-                    if (tag.getDouble("render_type") != 0) {
-                        if (tag.getDouble("render_type") != 2) {
-                            model.head.visible = false;
-                        } else {
-                            model.head.visible = true;
-                        }
-
-                        if (tag.getDouble("render_type") != 3) {
-                            model.leftLeg.visible = false;
-                            model.rightLeg.visible = false;
-                            model.leftArm.visible = false;
-                            model.rightArm.visible = false;
-                            model.body.visible = false;
-                        } else {
-                            model.head.visible = true;
-                            model.leftLeg.visible = true;
-                            model.rightLeg.visible = true;
-                            model.leftArm.visible = true;
-                            model.rightArm.visible = true;
-                            model.body.visible = true;
-                        }
-
-                        model.hat.visible = false;
-                        model.leftSleeve.visible = false;
-                        model.rightSleeve.visible = false;
-                        model.leftPants.visible = false;
-                        model.rightPants.visible = false;
-                        model.jacket.visible = false;
-                    } else {
-                        model.head.visible = true;
-                        model.hat.visible = true;
-                        model.leftLeg.visible = true;
-                        model.rightLeg.visible = true;
-                        model.leftArm.visible = true;
-                        model.rightArm.visible = true;
-                        model.body.visible = true;
-                        model.leftSleeve.visible = true;
-                        model.rightSleeve.visible = true;
-                        model.leftPants.visible = true;
-                        model.rightPants.visible = true;
-                        model.jacket.visible = true;
-                    }
-
-
-                }else {
-                    {
-                        model.head.visible = true;
-                        model.hat.visible = true;
-                        model.leftLeg.visible = true;
-                        model.rightLeg.visible = true;
-                        model.leftArm.visible = true;
-                        model.rightArm.visible = true;
-                        model.body.visible = true;
-                        model.leftSleeve.visible = true;
-                        model.rightSleeve.visible = true;
-                        model.leftPants.visible = true;
-                        model.rightPants.visible = true;
-                        model.jacket.visible = true;
-                    }}}
-            else {
-                {
-                    model.head.visible = true;
-                    model.hat.visible = true;
-                    model.leftLeg.visible = true;
-                    model.rightLeg.visible = true;
-                    model.leftArm.visible = true;
-                    model.rightArm.visible = true;
-                    model.body.visible = true;
-                    model.leftSleeve.visible = true;
-                    model.rightSleeve.visible = true;
-                    model.leftPants.visible = true;
-                    model.rightPants.visible = true;
-                    model.jacket.visible = true;
-                }
+                } else if (event.getEntity() instanceof BaseFootsoldierEntity) model.setAllVisible(true);
             }
+            else if (event.getEntity().getItemBySlot(EquipmentSlot.HEAD).getItem() instanceof MechaGattaiItem
+                    && event.getEntity().getItemBySlot(EquipmentSlot.HEAD).has(DataComponents.CUSTOM_DATA)) {
+                double tag = event.getEntity().getItemBySlot(EquipmentSlot.HEAD).get(DataComponents.CUSTOM_DATA).copyTag().getDouble("render_type2");
+                if (tag != 0) {
+                    model.setAllVisible(false);
+                } else if (event.getEntity() instanceof BaseFootsoldierEntity) model.setAllVisible(true);
+            } else if (event.getEntity() instanceof BaseFootsoldierEntity) model.setAllVisible(true);
+            else if (event.getEntity() instanceof BaseFootsoldierEntity) model.setAllVisible(true);
         }
 
         float size = 1;
+        boolean Tall = event.getEntity().hasEffect(EffectCore.STRETCH);
 
         if (event.getEntity().hasEffect(EffectCore.STRETCH)) {
             size = size + ((event.getEntity().getEffect(EffectCore.STRETCH).getAmplifier()) +1f);
@@ -438,6 +348,7 @@ public class PowerRangersCraftCore {
             event.registerEntityRenderer(MobsCore.KAMDOR.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.FEARCATS.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.THRAX.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.SENTINEL_KNIGHT.get(), AllyEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.MOOGERS.get(), BasicEntityRenderer::new);
 

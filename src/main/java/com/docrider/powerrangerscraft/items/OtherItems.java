@@ -17,7 +17,7 @@ public class OtherItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
 
     public static String[] SentaiRobo = new String[] {"wild_force_megazord","kongazord","predazord","predazord_blue_moon",
-            "isis_megazord","animus","ultimus_megazord"};
+            "isis_megazord","animus","ultimus_megazord","sentinel_knight"};
 
     public static final DeferredItem<Item> BLANK_FORM = ITEMS.register("blank_form",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","",""));
