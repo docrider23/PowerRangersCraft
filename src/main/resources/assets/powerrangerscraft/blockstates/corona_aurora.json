@@ -1,7 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "powerrangerscraft:block/corona_aurora"
-    }
+    "facing=north": { "model": "powerrangerscraft:block/corona_aurora" },
+    "facing=south": { "model": "powerrangerscraft:block/corona_aurora", "y": 180 },
+    "facing=west":  { "model": "powerrangerscraft:block/corona_aurora", "y": 270 },
+    "facing=east":  { "model": "powerrangerscraft:block/corona_aurora", "y": 90 }
   }
 }

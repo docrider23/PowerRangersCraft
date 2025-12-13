@@ -1,6 +1,8 @@
 package com.docrider.powerrangerscraft;
 
 import com.docrider.powerrangerscraft.blocks.entity.ModBlockEntities;
+import com.docrider.powerrangerscraft.blocks.entity.SwordStatueBlockEntity;
+import com.docrider.powerrangerscraft.blocks.entity.renderer.SwordStatueBlockEntityRenderer;
 import com.docrider.powerrangerscraft.client.renderer.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.BaseFootsoldierEntity;
 import com.docrider.powerrangerscraft.events.ModClientEvents;
@@ -322,6 +324,11 @@ public class PowerRangersCraftCore {
                     //return p_174637_.getUseItem() != p_174635_ ? 0.0F : (float)(p_174635_.getUseDuration() - p_174637_.getUseItemRemainingTicks()) / 1.0F;
                 });
             }
+        }
+
+        @SubscribeEvent
+        public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
+            event.registerBlockEntityRenderer(ModBlockEntities.SWORD_STATUE_BE.get(), SwordStatueBlockEntityRenderer::new);
         }
 
         @SubscribeEvent

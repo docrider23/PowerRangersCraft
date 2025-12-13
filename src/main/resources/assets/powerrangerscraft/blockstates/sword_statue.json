@@ -1,7 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "powerrangerscraft:block/sword_statue"
-    }
+    "facing=north": { "model": "powerrangerscraft:block/sword_statue" },
+    "facing=south": { "model": "powerrangerscraft:block/sword_statue", "y": 180 },
+    "facing=west":  { "model": "powerrangerscraft:block/sword_statue", "y": 270 },
+    "facing=east":  { "model": "powerrangerscraft:block/sword_statue", "y": 90 }
   }
 }
