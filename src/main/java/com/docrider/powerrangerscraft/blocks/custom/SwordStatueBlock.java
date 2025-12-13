@@ -37,7 +37,7 @@ import java.util.List;
 
 public class SwordStatueBlock extends BaseEntityBlock {
 
-	public static VoxelShape SHAPE = Block.box(2, 0, 4, 12,2, 8);
+	public static VoxelShape SHAPE = Block.box(2, 0, 4, 14,32, 12);
 	public static final MapCodec<SwordStatueBlock> CODEC = simpleCodec(SwordStatueBlock::new);
 	public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 
