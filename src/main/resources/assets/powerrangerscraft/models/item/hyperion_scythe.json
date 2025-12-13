@@ -4,6 +4,9 @@
   "textures": {
     "layer0": "powerrangerscraft:item/hyperion_scythe"
   },
+  "overrides": [
+    {"predicate": {"change": 1}, "model": "powerrangerscraft:item/hyperion_bow"}
+  ],
     "display": {
 "ground": {
 "rotation": [ 0, 0, 0 ],

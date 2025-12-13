@@ -2,30 +2,27 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "powerrangerscraft:item/solono_claw"
+		"layer0": "powerrangerscraft:item/rhea_whip_sword"
 	},
-	"overrides": [
-		{"predicate": {"change": 1}, "model": "powerrangerscraft:item/solono_claw_extended"}
-	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, -90, 55],
-			"translation": [0, 2.5, 1],
+			"rotation": [0, 90, 55],
+			"translation": [0, 13.25, 4],
 			"scale": [1.7, 1.7, 0.85]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [0, 90, -55],
-			"translation": [0, 2.5, 1],
+			"rotation": [0, -90, -55],
+			"translation": [0, 13.25, 4],
 			"scale": [1.7, 1.7, 0.85]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, -90, 25],
-			"translation": [1.13, 3.2, 1.13],
+			"rotation": [-50.25, -90, 0],
+			"translation": [1.13, 7.45, 1.13],
 			"scale": [1.36, 1.36, 0.68]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 90, -25],
-			"translation": [1.13, 3.2, 1.13],
+			"rotation": [50.25, -90, 0],
+			"translation": [1.13, 7.45, 1.13],
 			"scale": [1.36, 1.36, 0.68]
 		}
 	},

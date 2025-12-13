@@ -4,6 +4,9 @@
   "textures": {
     "layer0": "powerrangerscraft:item/crius_hammer"
   },
+  "overrides": [
+    {"predicate": {"change": 1}, "model": "powerrangerscraft:item/crius_cannon"}
+  ],
     "display": {
 "ground": {
 "rotation": [ 0, 0, 0 ],

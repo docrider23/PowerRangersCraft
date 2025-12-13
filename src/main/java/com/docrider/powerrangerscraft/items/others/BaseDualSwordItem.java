@@ -1,12 +1,11 @@
 package com.docrider.powerrangerscraft.items.others;
 
-import com.docrider.powerrangerscraft.items.MMPRItems;
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.items.MMPRItems;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.CustomData;
@@ -44,7 +43,7 @@ public class BaseDualSwordItem extends SwordItem {
 
 		ItemStack itemstack = p_41129_.getItemInHand(p_41130_);
 
-				if (p_41129_.isShiftKeyDown()) {
+		if (p_41129_.isShiftKeyDown()) {
 			if (Triple) {
 				if (get_mode(itemstack)==1) {
 					set_mode(itemstack,2);

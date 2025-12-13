@@ -112,7 +112,7 @@ public class CosmicFuryItems {
     public static final DeferredItem<BaseBlasterItem> MOSA_RAZOR_BLASTER = ITEMS.register("mosa_razor_blaster",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
     public static final DeferredItem<SwordItem> SOLONO_CLAW = ITEMS.register("solono_claw",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
+            () -> new BaseDualSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsDualWeapon().AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
 
     public static final DeferredItem<BaseBlasterItem> MASTERS_STAFF = ITEMS.register("masters_staff",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.COSMIC_FURY).KeepItem().ChangeRepairItem(EMPTY_COSMIC_ORB.get()));

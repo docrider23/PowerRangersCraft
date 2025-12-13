@@ -11,6 +11,7 @@ import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.events.ModCommonEvents;
 import com.docrider.powerrangerscraft.events.ModServerEvents;
+import com.docrider.powerrangerscraft.items.others.BaseDualSwordItem;
 import com.docrider.powerrangerscraft.items.others.MechaGattaiItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.level.ModGameRules;
@@ -241,11 +242,11 @@ public class PowerRangersCraftCore {
                 });
             }
 
-            /*for (int i = 0; i < MULTI_WEAPON_ITEM.size(); i++) {
+            for (int i = 0; i < MULTI_WEAPON_ITEM.size(); i++) {
                 ItemProperties.register(MULTI_WEAPON_ITEM.get(i), ResourceLocation.parse("change"), ($itemStack, $level, $entity, $seed) -> {
                     return BaseDualSwordItem.get_mode($itemStack);
                 });
-            }*/
+            }
 
             for (int i = 0; i < CHARGED_WEAPON.size(); i++) {
                 ItemProperties.register(CHARGED_WEAPON.get(i), ResourceLocation.parse("change"), ($itemStack, $level, $entity, $seed) -> {

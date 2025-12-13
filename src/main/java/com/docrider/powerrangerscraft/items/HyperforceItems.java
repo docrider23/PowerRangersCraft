@@ -95,23 +95,19 @@ public class HyperforceItems {
     public static final DeferredItem<SwordItem> OCEANUS_BLADE = ITEMS.register("oceanus_blade",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
 
-    public static final DeferredItem<SwordItem> CRIUS_HAMMER = ITEMS.register("crius_hammer",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
-    public static final DeferredItem<BaseBlasterItem> CRIUS_CANNON = ITEMS.register("crius_cannon",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
+    public static final DeferredItem<BaseBlasterItem> CRIUS_HAMMER = ITEMS.register("crius_hammer",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
 
     public static final DeferredItem<SwordItem> COEUS_AXE = ITEMS.register("coeus_axe",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
     public static final DeferredItem<ShieldItem> COEUS_SHIELD = ITEMS.register("coeus_shield",
             () -> new BaseShieldItem(new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
 
-    public static final DeferredItem<BaseBlasterItem> HYPERION_BOW = ITEMS.register("hyperion_bow",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
-    public static final DeferredItem<SwordItem> HYPERION_SCYTHE = ITEMS.register("hyperion_scythe",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
+    public static final DeferredItem<BaseBlasterItem> HYPERION_SCYTHE = ITEMS.register("hyperion_scythe",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
 
     public static final DeferredItem<SwordItem> RHEA_SWORD = ITEMS.register("rhea_sword",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
+            () -> new BaseDualSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsDualWeapon().AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

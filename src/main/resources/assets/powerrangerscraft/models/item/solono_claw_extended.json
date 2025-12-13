@@ -2,11 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "powerrangerscraft:item/solono_claw"
+		"layer0": "powerrangerscraft:item/solono_claw_extended"
 	},
-	"overrides": [
-		{"predicate": {"change": 1}, "model": "powerrangerscraft:item/solono_claw_extended"}
-	],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 55],

@@ -4,6 +4,9 @@
 	"textures": {
 		"layer0": "powerrangerscraft:item/magi_wand_green"
 	},
+	"overrides": [
+		{"predicate": {"change": 1}, "model": "powerrangerscraft:item/magi_wand_green_axe"}
+	],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [45, 90, 0],

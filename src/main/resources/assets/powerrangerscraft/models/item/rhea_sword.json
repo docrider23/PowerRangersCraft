@@ -4,6 +4,9 @@
 	"textures": {
 		"layer0": "powerrangerscraft:item/rhea_sword"
 	},
+	"overrides": [
+		{"predicate": {"change": 1}, "model": "powerrangerscraft:item/rhea_whip_sword"}
+	],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 90, 55],
