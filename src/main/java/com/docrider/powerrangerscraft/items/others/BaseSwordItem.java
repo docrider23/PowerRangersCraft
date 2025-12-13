@@ -8,9 +8,6 @@ import java.util.List;
 public class BaseSwordItem extends SwordItem {
 
 	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
-	private Item ChangerItem = MMPRItems.MMPR_LOGO.get();
-
-	private Boolean Changer = false;
 
 	private Item craftingRemainingItem = null;
 	
@@ -58,11 +55,5 @@ public class BaseSwordItem extends SwordItem {
 	public boolean hasCraftingRemainingItem(ItemStack stack)
 	{
 		return ((BaseSwordItem)stack.getItem()).craftingRemainingItem!=null;
-	}
-
-	public BaseSwordItem isChanger(Item item) {
-		ChangerItem = item;
-		Changer = true;
-		return this;
 	}
 }

@@ -4,6 +4,7 @@ import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.*;
 import com.docrider.powerrangerscraft.items.starranger.CosmoSaberItem;
+import com.docrider.powerrangerscraft.items.starranger.MastarChangeItem;
 import com.docrider.powerrangerscraft.particle.ModParticles;
 import net.minecraft.core.particles.BlockParticleOption;
 import net.minecraft.core.particles.ParticleTypes;
@@ -140,7 +141,7 @@ public class StarrangerItems {
 
 
     public static final DeferredItem<Item> OPHIUCHUS_CONSTELLATION_CARD = ITEMS.register("ophiuchus_constellation_card",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","zodiac_mastar","starranger_mastar_belt",
+            () -> new MastarChangeItem(new Item.Properties(),0,"","zodiac_mastar","starranger_mastar_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2,true,false),
@@ -150,7 +151,7 @@ public class StarrangerItems {
                     .IsGlowing().AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> COSMIC_HEART = ITEMS.register("cosmic_heart",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_mastar","starranger_mastar_belt",
+            () -> new MastarChangeItem(new Item.Properties(),0,"","cosmic_mastar","starranger_mastar_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2,true,false),
@@ -206,9 +207,9 @@ public class StarrangerItems {
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static final DeferredItem<SwordItem> OPHIUCHUS_STAFF = ITEMS.register("ophiuchus_staff",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).isChanger(OPHIUCHUS_STAFF_MASTAR.get()).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
     public static final DeferredItem<BaseBlasterItem> COSMIC_STAFF = ITEMS.register("cosmic_staff",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).isChanger(COSMIC_STAFF_MASTAR.get()).setProjectile(BaseBlasterItem
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem
 					.BlasterProjectile.SMALL_FIREBALL).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static void register(IEventBus eventBus) {

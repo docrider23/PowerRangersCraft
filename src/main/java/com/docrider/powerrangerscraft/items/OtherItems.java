@@ -2,12 +2,15 @@ package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
+import com.docrider.powerrangerscraft.items.others.BaseDropItem;
 import com.docrider.powerrangerscraft.items.others.BaseItem;
 import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
 import com.docrider.powerrangerscraft.sounds.ModSounds;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -81,6 +84,9 @@ public class OtherItems {
 
     public static final DeferredItem<Item> GO_GO_ALIEN_RANGERS_MUSIC_DISC = ITEMS.register("go_go_alien_rangers_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.GO_GO_ALIEN_RANGERS_KEY).stacksTo(1)));
+
+    public static final DeferredItem<Item> GIFT = ITEMS.register("gift",
+            () -> new BaseDropItem(new Item.Properties().rarity(Rarity.UNCOMMON), ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "items/gift")).AddToList(RangerTabs.MISC));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

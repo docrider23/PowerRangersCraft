@@ -18,8 +18,6 @@ public class BaseDualSwordItem extends SwordItem {
 
 	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
 
-	private Item Changer = null;
-
 	private Boolean Dual = false;
 	private Boolean Triple = false;
 
@@ -46,15 +44,7 @@ public class BaseDualSwordItem extends SwordItem {
 
 		ItemStack itemstack = p_41129_.getItemInHand(p_41130_);
 
-		if (!p_41128_.isClientSide) {
-			if (Changer != null && p_41129_.getItemBySlot(EquipmentSlot.FEET) == ItemStack.EMPTY) {
-				p_41129_.setItemSlot(EquipmentSlot.FEET, new ItemStack(Changer));
-				if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem() instanceof RangerFormChangeItem formItem)
-					formItem.use(p_41128_, p_41129_, InteractionHand.OFF_HAND);
-			}
-		}
-
-		if (p_41129_.isShiftKeyDown()) {
+				if (p_41129_.isShiftKeyDown()) {
 			if (Triple) {
 				if (get_mode(itemstack)==1) {
 					set_mode(itemstack,2);
@@ -105,11 +95,6 @@ public class BaseDualSwordItem extends SwordItem {
 	public BaseDualSwordItem IsTripleWeapon() {
 		Triple = true;
 		PowerRangersCraftCore.MULTI_WEAPON_ITEM.add(this);
-		return this;
-	}
-
-	public BaseDualSwordItem isChanger(Item item) {
-		Changer = item;
 		return this;
 	}
 

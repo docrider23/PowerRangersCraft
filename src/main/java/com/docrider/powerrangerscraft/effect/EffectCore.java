@@ -80,6 +80,9 @@ public class EffectCore {
     public static final Holder<MobEffect>  WIDE= EFFECT.register("wide",
             () -> new 	BasicEffect(MobEffectCategory.NEUTRAL, 0x87ce87));
 
+    public static final Holder<MobEffect>  CHRISTMAS= EFFECT.register("christmas",
+            () -> new ChristmasEffect(MobEffectCategory.BENEFICIAL, 0x4eff00));
+
     public static void register(IEventBus eventBus) {
         EFFECT.register(eventBus);
     }

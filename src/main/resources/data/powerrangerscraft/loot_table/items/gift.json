@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:reindeer_power_coin",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "powerrangerscraft:gift"
+}
