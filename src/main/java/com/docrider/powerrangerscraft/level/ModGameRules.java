@@ -8,6 +8,6 @@ public class ModGameRules {
 
     public static void register(IEventBus eventBus) {
                 RULE_BOSS_SPAWN_PERCENTAGE = GameRules.register(
-                "bossSpawnPercentage", GameRules.Category.SPAWNING, GameRules.IntegerValue.create(10));
+                "bossSpawnPercentage_PRC", GameRules.Category.SPAWNING, GameRules.IntegerValue.create(10));
     }
 }
