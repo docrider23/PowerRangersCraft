@@ -2,6 +2,7 @@ package com.docrider.powerrangerscraft.entity.boss;
 
 import com.docrider.powerrangerscraft.entity.footsoldier.BaseFootsoldierEntity;
 import com.docrider.powerrangerscraft.items.MobsItems;
+import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -14,7 +15,11 @@ public class ThraxEntity extends BaseFootsoldierEntity {
 
     public ThraxEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="thrax";
+        NAME="dr_thrax";
+        this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(OperationOverdriveItems.OPERATION_OVERDRIVE_HELMET.get()));
+        this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(OperationOverdriveItems.OPERATION_OVERDRIVE_CHESTPLATE.get()));
+        this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(OperationOverdriveItems.OPERATION_OVERDRIVE_LEGGINGS.get()));
+        this.setItemSlot(EquipmentSlot.FEET, new ItemStack(OperationOverdriveItems.THRAX_CODPIECE.get()));
         this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(MobsItems.Z_STAFF_THRAX.get()));
     }
 

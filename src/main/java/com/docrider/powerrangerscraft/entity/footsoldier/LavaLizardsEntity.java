@@ -34,7 +34,7 @@ public class LavaLizardsEntity extends BaseFootsoldierEntity {
                 }
                         break;
                     case 1:
-                        boss = MobsCore.KAMDOR.get().create(this.level());
+                        boss = MobsCore.FEARCATS.get().create(this.level());
                         if (boss != null) {
                             boss.moveTo(this.getX(), this.getY(), this.getZ(), this.getYRot(), 0.0F);
                             this.level().addFreshEntity(boss);
