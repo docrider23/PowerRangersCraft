@@ -8,6 +8,7 @@ import com.docrider.powerrangerscraft.entity.footsoldier.*;
 import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import net.minecraft.world.damagesource.DamageTypes;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.LivingEntity;
@@ -27,13 +28,24 @@ import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
 import com.docrider.powerrangerscraft.entity.MobsCore;
+import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.event.village.VillagerTradesEvent;
 import net.neoforged.neoforge.event.village.WandererTradesEvent;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Objects;
 
 public class ModCommonEvents {public static class EventHandler {
+
+    @SubscribeEvent
+    public void onPlayerTick(PlayerTickEvent.Post event) {
+        LocalDate localdate = LocalDate.now();
+        int day = localdate.getDayOfMonth();
+        if (localdate.getMonthValue() == 12 && day >= 22 && day <= 28) {
+            event.getEntity().addEffect(new MobEffectInstance(EffectCore.CHRISTMAS, 30, 0, false, false));
+        }
+    }
 
     @SubscribeEvent
     public void addLivingDamageEvent(LivingDamageEvent.Post event) {
