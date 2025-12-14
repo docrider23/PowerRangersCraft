@@ -19,6 +19,11 @@
           "type": "minecraft:item",
           "name": "powerrangerscraft:reindeer_power_coin",
           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:orange_morph_x_key",
+          "weight": 1
         }
       ]
     }

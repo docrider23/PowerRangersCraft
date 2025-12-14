@@ -295,7 +295,7 @@ public class PowerRangersCraftCore {
                             }*/
                             if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem()==StarrangerItems.COSMO_SABER_GOLD.get()) {
                                 if ($itemStack.getItem() == StarrangerItems.COSMO_SABER.get()){
-                                    if (RangerChangerItem.get_Form_Item(belt, 1).getBeltTex()=="starranger_equinox_belt") return 1;
+                                    if (RangerChangerItem.get_Form_Item(belt, 1) == StarrangerItems.LUNAR_CONSTELLATION_CARD.get()) return 1;
                                     else return 0;
                                 }
                             }
@@ -331,7 +331,7 @@ public class PowerRangersCraftCore {
                         return 0.0F;
                     } else {
                         if ($itemStack.getItem() == StarrangerItems.COSMO_SABER_GOLD.get()) {
-                            if (RangerChangerItem.get_Form_Item($itemStack, 1).getBeltTex() == "starranger_equinox_belt") return 1;
+                            if (RangerChangerItem.get_Form_Item($itemStack, 1) == StarrangerItems.LUNAR_CONSTELLATION_CARD.get()) return 1;
                             else return 0;
                         }
                     }

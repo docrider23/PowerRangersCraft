@@ -3,7 +3,6 @@ package com.docrider.powerrangerscraft.items;
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.*;
-import com.docrider.powerrangerscraft.items.starranger.CosmoSaberItem;
 import com.docrider.powerrangerscraft.items.starranger.MastarChangeItem;
 import com.docrider.powerrangerscraft.particle.ModParticles;
 import net.minecraft.core.particles.BlockParticleOption;
@@ -200,7 +199,7 @@ public class StarrangerItems {
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static final DeferredItem<BaseBlasterItem> COSMO_SABER = ITEMS.register("cosmo_saber",
-            () -> new CosmoSaberItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).isChanger(COSMO_SABER_GOLD.get()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).isChanger(COSMO_SABER_GOLD.get()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
     public static final DeferredItem<BaseSwordItem> SOLAR_BATTLEAXE = ITEMS.register("solar_battleaxe",
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
     public static final DeferredItem<BaseSwordItem> LUNAR_SCYTHE = ITEMS.register("lunar_scythe",
