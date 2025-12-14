@@ -5,12 +5,7 @@
 		"layer0": "powerrangerscraft:item/cosmo_saber"
 	},
 	"overrides": [
-		{
-			"predicate": {
-				"change": 1
-			},
-			"model": "powerrangerscraft:item/cosmo_buster"
-		}
+		{"predicate": {"change": 1},"model": "powerrangerscraft:item/cosmo_buster"}
 	],
 	"display": {
 		"thirdperson_righthand": {

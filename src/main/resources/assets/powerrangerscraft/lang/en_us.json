@@ -828,7 +828,34 @@
   "item.powerrangerscraft.ninja_battle_morpher": "Ninja Battle Morpher",
 
   //26-27 Beast Morphers
+  "tab.powerrangerscraft.beast_morphers": "Beast Morphers",
+
   "item.powerrangerscraft.beast_morphers_logo": "Beast Morphers Logo",
+
+  "item.powerrangerscraft.beast_morphers_head": "Beast Morphers Helmet",
+  "item.powerrangerscraft.beast_morphers_torso": "Beast Morphers Chestplate",
+  "item.powerrangerscraft.beast_morphers_legs": "Beast Morphers Leggings",
+
+  "item.powerrangerscraft.red_beast_x_morpher": "Beast-X Morpher",
+  "item.powerrangerscraft.blue_beast_x_morpher": "Beast-X Morpher",
+  "item.powerrangerscraft.yellow_beast_x_morpher": "Beast-X Morpher",
+  "item.powerrangerscraft.gold_striker_morpher": "Striker Morpher",
+  "item.powerrangerscraft.silver_striker_morpher": "Striker Morpher",
+  "item.powerrangerscraft.orange_beast_x_morpher": "Beast-X Morpher",
+
+  "item.powerrangerscraft.red_morph_x_key": "Red Morph-X Key",
+  "item.powerrangerscraft.blue_morph_x_key": "Blue Morph-X Key",
+  "item.powerrangerscraft.yellow_morph_x_key": "Yellow Morph-X Key",
+  "item.powerrangerscraft.gold_morph_x_key": "Gold Morph-X Key",
+  "item.powerrangerscraft.silver_morph_x_key": "Silver Morph-X Key",
+  "item.powerrangerscraft.orange_morph_x_key": "Orange Morph-X Key",
+
+  "powerrangerscraft:red_morph_x_key.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:blue_morph_x_key.form": "Ranger: §9Blue Ranger",
+  "powerrangerscraft:yellow_morph_x_key.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:gold_morph_x_key.form": "Ranger: §6Gold Ranger",
+  "powerrangerscraft:silver_morph_x_key.form": "Ranger: §7Silver Ranger",
+  "powerrangerscraft:orange_morph_x_key.form": "Ranger: §6Orange Ranger",
 
   //28 Dino Fury
   "tab.powerrangerscraft.dino_fury": "Dino Fury",

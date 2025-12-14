@@ -1,5 +1,6 @@
 package com.docrider.powerrangerscraft.items.ninja_steel;
 
+import com.docrider.powerrangerscraft.items.BeastMorphersItems;
 import com.docrider.powerrangerscraft.items.NinjaSteelItems;
 import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
 import net.minecraft.world.InteractionHand;
@@ -21,7 +22,7 @@ public class NinjaPowerStarItem extends RangerFormChangeItem {
 
         ItemStack BELT = p_41129_.getItemBySlot(EquipmentSlot.FEET);
 
-        if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==NinjaSteelItems.NINJA_BATTLE_MORPHER.get())
+        if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()== NinjaSteelItems.NINJA_BATTLE_MORPHER.get())
         {
             if (BELT.isEmpty())
             {

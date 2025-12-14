@@ -356,6 +356,11 @@ public class RangerChangerItem extends RangerArmorItem{
         return false;
     }
 
+    public RangerChangerItem CanChangeTexture() {
+        PowerRangersCraftCore.CHANGE_CHANGER_TEXTURE.add(this);
+        return this;
+    }
+
     @Override
     public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
 

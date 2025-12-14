@@ -109,7 +109,7 @@ public class PowerRangersCraftCore {
         //SuperMegaforceItems.register(modEventBus);
         DinoChargeItems.register(modEventBus);
         NinjaSteelItems.register(modEventBus);
-        //BeastMorphersItems.register(modEventBus);
+        BeastMorphersItems.register(modEventBus);
         DinoFuryItems.register(modEventBus);
         CosmicFuryItems.register(modEventBus);
         HyperforceItems.register(modEventBus);
@@ -292,13 +292,13 @@ public class PowerRangersCraftCore {
                                     }
                                     else return 0;
                                 }
-                            }
-                            if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem()==LuPatRangerItems.LUPAT_X_CHANGER.get()) {
-                                if ($itemStack.getItem() == LuPatRangerItems.X_CHANGER.get()){
-                                    if (RangerChangerItem.get_Form_Item(belt, 1).getBeltTex()=="lupinranger_belt") return 1;
+                            }*/
+                            if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem()==StarrangerItems.COSMO_SABER_GOLD.get()) {
+                                if ($itemStack.getItem() == StarrangerItems.COSMO_SABER.get()){
+                                    if (RangerChangerItem.get_Form_Item(belt, 1).getBeltTex()=="starranger_equinox_belt") return 1;
                                     else return 0;
                                 }
-                            }*/
+                            }
                         }
                         if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof DinoFuryMorpherItem) {
                             if ($itemStack.getItem() == DinoFuryItems.DINO_KNIGHT_MORPHER.get()) {
@@ -320,6 +320,20 @@ public class PowerRangersCraftCore {
                             return $entity.getUseItem() != $itemStack ? 0.0F : 1.0F;
                         }
                         return $entity.getUseItem() != $itemStack ? 0.0F : 1.0F;
+                    }
+                    return $entity.getUseItem() != $itemStack ? 0.0F : 1.0F;
+                    //return p_174637_.getUseItem() != p_174635_ ? 0.0F : (float)(p_174635_.getUseDuration() - p_174637_.getUseItemRemainingTicks()) / 1.0F;
+                });
+            }
+            for (int i = 0; i < CHANGE_CHANGER_TEXTURE.size(); i++) {
+                ItemProperties.register(CHANGE_CHANGER_TEXTURE.get(i), ResourceLocation.parse("change"), ($itemStack, $level, $entity, $seed) -> {
+                    if ($entity == null) {
+                        return 0.0F;
+                    } else {
+                        if ($itemStack.getItem() == StarrangerItems.COSMO_SABER_GOLD.get()) {
+                            if (RangerChangerItem.get_Form_Item($itemStack, 1).getBeltTex() == "starranger_equinox_belt") return 1;
+                            else return 0;
+                        }
                     }
                     return $entity.getUseItem() != $itemStack ? 0.0F : 1.0F;
                     //return p_174637_.getUseItem() != p_174635_ ? 0.0F : (float)(p_174635_.getUseDuration() - p_174637_.getUseItemRemainingTicks()) / 1.0F;
