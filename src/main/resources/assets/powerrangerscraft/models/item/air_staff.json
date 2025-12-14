@@ -4,6 +4,9 @@
 	"textures": {
 		"layer0": "powerrangerscraft:item/air_staff"
 	},
+	"overrides": [
+		{"predicate": {"change": 1}, "model": "powerrangerscraft:item/air_staff_chuck_mode"}
+	],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [-45, -90, 0],
