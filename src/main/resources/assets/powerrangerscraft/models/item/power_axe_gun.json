@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"0": "powerrangerscraft:item/power_axe_gun",
-		"particle": "powerrangerscraft:item/power_axe_gun"
+		"layer0": "powerrangerscraft:item/power_axe_gun"
 	},
 	"display": {
 		"thirdperson_righthand": {
