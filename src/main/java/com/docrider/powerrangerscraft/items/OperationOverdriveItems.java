@@ -121,7 +121,7 @@ public class OperationOverdriveItems {
                     .Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
     public static final DeferredItem<Item> SENTINEL_KNIGHT_CHESTPIECE = ITEMS.register("sentinel_knight_chestpiece",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"sentinel_knight",UNFINISHED_SENTINEL_SWORD,OPERATION_OVERDRIVE_HELMET,OPERATION_OVERDRIVE_CHESTPLATE,OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties())
-                    .AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+                    .Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
     public static final DeferredItem<Item> SENTINEL_MORPHER_HYPERFORCE = ITEMS.register("sentinel_morpher_hyperforce",
             () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_sentinel","hyperforce_black","blank",
