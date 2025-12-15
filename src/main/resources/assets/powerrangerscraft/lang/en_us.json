@@ -843,6 +843,11 @@
   "item.powerrangerscraft.silver_striker_morpher": "Striker Morpher",
   "item.powerrangerscraft.orange_beast_x_morpher": "Beast-X Morpher",
 
+  "item.powerrangerscraft.blaze_evox_beast_x_morpher": "Evox's Beast-X Morpher",
+  "item.powerrangerscraft.roxy_evox_beast_x_morpher": "Evox's Beast-X Morpher",
+  "item.powerrangerscraft.robo_blaze_evox_beast_x_morpher": "Evox's Beast-X Morpher",
+  "item.powerrangerscraft.robo_roxy_evox_beast_x_morpher": "Evox's Beast-X Morpher",
+
   "item.powerrangerscraft.red_morph_x_key": "Red Morph-X Key",
   "item.powerrangerscraft.blue_morph_x_key": "Blue Morph-X Key",
   "item.powerrangerscraft.yellow_morph_x_key": "Yellow Morph-X Key",
@@ -850,12 +855,24 @@
   "item.powerrangerscraft.silver_morph_x_key": "Silver Morph-X Key",
   "item.powerrangerscraft.orange_morph_x_key": "Orange Morph-X Key",
 
+  "item.powerrangerscraft.blaze_morph_x_key": "Blaze Morph-X Key",
+  "item.powerrangerscraft.roxy_morph_x_key": "Roxy Morph-X Key",
+  "item.powerrangerscraft.robo_blaze_morph_x_key": "Robo-Blaze Morph-X Key",
+  "item.powerrangerscraft.robo_roxy_morph_x_key": "Robo-Roxy Morph-X Key",
+
   "powerrangerscraft:red_morph_x_key.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:blue_morph_x_key.form": "Ranger: §9Blue Ranger",
   "powerrangerscraft:yellow_morph_x_key.form": "Ranger: §eYellow Ranger",
   "powerrangerscraft:gold_morph_x_key.form": "Ranger: §6Gold Ranger",
   "powerrangerscraft:silver_morph_x_key.form": "Ranger: §7Silver Ranger",
   "powerrangerscraft:orange_morph_x_key.form": "Ranger: §6Orange Ranger",
+
+  "powerrangerscraft:blaze_morph_x_key.form": "Villian: §4Cybervillain Blaze",
+  "powerrangerscraft:roxy_morph_x_key.form": "Villian: §6Cybervillain Roxy",
+  "powerrangerscraft:robo_blaze_morph_x_key.form": "Villian: §6Cybervillain Robo-Blaze",
+  "powerrangerscraft:robo_roxy_morph_x_key.form": "Villian: §5Cybervillain Robo-Roxy",
+
+  "item.powerrangerscraft.striker_morpher": "Striker Morpher",
 
   //28 Dino Fury
   "tab.powerrangerscraft.dino_fury": "Dino Fury",
