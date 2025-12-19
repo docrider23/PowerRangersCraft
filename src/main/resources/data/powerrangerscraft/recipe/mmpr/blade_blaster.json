@@ -13,10 +13,19 @@
 	"b":
     [
       {
+        "item": "powerrangerscraft:tyrannosaurus_power_coin"
+      },
+      {
 	    "item": "powerrangerscraft:triceratops_power_coin"
 	  },
       {
         "item": "powerrangerscraft:mastodon_power_coin"
+      },
+      {
+        "item": "powerrangerscraft:sabertooth_tiger_power_coin"
+      },
+      {
+        "item": "powerrangerscraft:pteradactyl_power_coin"
       }
     ],
 	"c": {

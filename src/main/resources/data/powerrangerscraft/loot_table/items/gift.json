@@ -24,6 +24,11 @@
           "type": "minecraft:item",
           "name": "powerrangerscraft:orange_morph_x_key",
           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:white_tiger_power_coin",
+          "weight": 1
         }
       ]
     }

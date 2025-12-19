@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mmpr_red",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:mmpr_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:tyrannosaurus_power_coin"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:red_power_morpher"
+  }
+}

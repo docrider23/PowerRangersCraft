@@ -310,7 +310,7 @@ public class RangerTabs {
         }
         else if(event.getTab() == RangerTabs.MiscTab.get()) {
 
-            //event.accept(MobsCore.PUTTY_PATROLLERS_SPAWN_EGG);
+            event.accept(MobsCore.PUTTY_PATROLLERS_SPAWN_EGG);
 
             event.accept(MobsCore.CHROMITES_SPAWN_EGG);
             event.accept(MobsCore.PIRANHATRONS_SPAWN_EGG);

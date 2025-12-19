@@ -140,6 +140,8 @@
   "item.powerrangerscraft.blue_power_morpher": "Power Morpher",
   "item.powerrangerscraft.yellow_power_morpher": "Power Morpher",
   "item.powerrangerscraft.pink_power_morpher": "Power Morpher",
+  "item.powerrangerscraft.green_power_morpher": "Power Morpher",
+  "item.powerrangerscraft.white_power_morpher": "Power Morpher",
   "item.powerrangerscraft.santa_power_morpher": "Power Morpher",
 
   "item.powerrangerscraft.tyrannosaurus_power_coin": "Tyrannosaurus Power Coin",
@@ -147,6 +149,8 @@
   "item.powerrangerscraft.triceratops_power_coin": "Triceratops Power Coin",
   "item.powerrangerscraft.sabertooth_tiger_power_coin": "Sabertooth Tiger Power Coin",
   "item.powerrangerscraft.pteradactyl_power_coin": "Pteradactyl Power Coin",
+  "item.powerrangerscraft.dragon_power_coin": "Dragon Power Coin",
+  "item.powerrangerscraft.white_tiger_power_coin": "White Tiger Power Coin",
   "item.powerrangerscraft.reindeer_power_coin": "Reindeer Power Coin",
 
   "powerrangerscraft:tyrannosaurus_power_coin.form": "Ranger: §cRed Ranger",
@@ -154,7 +158,11 @@
   "powerrangerscraft:triceratops_power_coin.form": "Ranger: §1Blue Ranger",
   "powerrangerscraft:sabertooth_tiger_power_coin.form": "Ranger: §eYellow Ranger",
   "powerrangerscraft:pteradactyl_power_coin.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:dragon_power_coin.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft:white_tiger_power_coin.form": "Ranger: White Ranger",
   "powerrangerscraft:reindeer_power_coin.form": "Ally: §cSanta §aRanger",
+
+  "powerrangerscraft:dragon_power_coin_others.form": "w/ §6Dragon Shield",
   
   "item.powerrangerscraft.blade_blaster": "Blade Blaster",
 
@@ -164,6 +172,9 @@
   "item.powerrangerscraft.power_lance_trident": "Power Lance Trident",
   "item.powerrangerscraft.power_dagger": "Power Dagger",
   "item.powerrangerscraft.power_bow": "Power Bow",
+
+  "item.powerrangerscraft.dragon_dagger": "Dragon Dagger",
+  "item.powerrangerscraft.saba": "Saba",
 
   //03 Alien
   "item.powerrangerscraft.alien_logo": "Alien Logo",
@@ -848,6 +859,8 @@
   "item.powerrangerscraft.robo_blaze_evox_beast_x_morpher": "Evox's Beast-X Morpher",
   "item.powerrangerscraft.robo_roxy_evox_beast_x_morpher": "Evox's Beast-X Morpher",
 
+  "block.powerrangerscraft.animal_dna_repository": "Animal DNA Repository",
+
   "item.powerrangerscraft.red_morph_x_key": "Red Morph-X Key",
   "item.powerrangerscraft.blue_morph_x_key": "Blue Morph-X Key",
   "item.powerrangerscraft.yellow_morph_x_key": "Yellow Morph-X Key",
@@ -1152,6 +1165,10 @@
   //EX Comics: Shattered Grid
   "item.powerrangerscraft.ranger_slayer_power_coin": "Ranger Slayer Power Coin",
 
+  "item.powerrangerscraft.pink_power_morpher_ranger_slayer": "Power Morpher",
+
+  "powerrangerscraft:ranger_slayer_power_coin.form": "Ranger/Villain: §dRanger Slayer",
+
   //EX Comics: Solar Rangers
   "item.powerrangerscraft.solar_logo": "Solar Ranger Logo",
 
@@ -1181,7 +1198,7 @@
   "powerrangerscraft:spinosaurus_dino_charger_solar.form": "Ranger: §1Blue Ranger",
   "powerrangerscraft:yellow_zeo_sub_crystal.form": "Ranger: §eYellow Ranger",
   "powerrangerscraft:green_samurai_ninja_power_disk.form": "Ranger: §aGreen Ranger",
-  "powerrangerscraft:ranger_slayer_power_coin.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:ranger_slayer_power_coin_solar.form": "Ranger: §dPink Ranger",
 
   "item.powerrangerscraft.solar_chakram": "Void Chakram",
   "item.powerrangerscraft.solar_baton": "Solar Baton",
@@ -1230,19 +1247,19 @@
   "item.powerrangerscraft.prime_torso": "Prime Ranger Chestplate",
   "item.powerrangerscraft.prime_legs": "Prime Ranger Leggings",
 
-  "item.powerrangerscraft.red_prime_coin": "Prime Coin",
-  "item.powerrangerscraft.black_prime_coin": "Prime Coin",
-  "item.powerrangerscraft.blue_prime_coin": "Prime Coin",
-  "item.powerrangerscraft.yellow_prime_coin": "Prime Coin",
-  "item.powerrangerscraft.pink_prime_coin": "Prime Coin",
-  "item.powerrangerscraft.green_prime_coin": "Prime Coin",
+  "item.powerrangerscraft.red_prime_coin": "Tyrannosaurus Power Coin (Prime)",
+  "item.powerrangerscraft.black_prime_coin": "Basilisk Power Coin",
+  "item.powerrangerscraft.blue_prime_coin": "Unicorn Power Coin",
+  "item.powerrangerscraft.yellow_prime_coin": "Griffin Power Coin",
+  "item.powerrangerscraft.pink_prime_coin": "Velociraptor Power Coin",
+  "item.powerrangerscraft.green_prime_coin": "Dragon Power Coin (Prime)",
 
-  "item.powerrangerscraft.red_rib": "Red Rib Fossil",
-  "item.powerrangerscraft.black_scale": "Black Scale Fossil",
-  "item.powerrangerscraft.blue_bone": "Blue Bone Fossil",
-  "item.powerrangerscraft.yellow_talon": "Yellow Talon Fossil",
-  "item.powerrangerscraft.pink_gem": "Pink Gem Fossil",
-  "item.powerrangerscraft.green_sphere": "Green Sphere Fossil",
+  "item.powerrangerscraft.red_rib": "Red Jasper Fossil",
+  "item.powerrangerscraft.black_scale": "Black Obsidian Fossil",
+  "item.powerrangerscraft.blue_bone": "Blue Sapphire Fossil",
+  "item.powerrangerscraft.yellow_talon": "Yellow Tiger's Eye Fossil",
+  "item.powerrangerscraft.pink_gem": "Pink Amethyst Fossil",
+  "item.powerrangerscraft.green_sphere": "Green Jade Fossil",
 
   "powerrangerscraft:red_rib.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:black_scale.form": "Ranger: §8Black Ranger",
@@ -1304,10 +1321,21 @@
   "item.powerrangerscraft.transportal_device": "Transportal Device",
   "item.powerrangerscraft.gift": "Gift",
 
+  "item.powerrangerscraft.game_controller_16_bit": "Game Controller",
+  "powerrangerscraft:game_controller_16_bit.form": "Ranger: §1Blue Ranger",
+  "powerrangerscraft:game_controller_16_bit_mmpr_black.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:game_controller_16_bit_mmpr_yellow.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:game_controller_16_bit_mmpr_pink.form": "Ranger: §dPink Ranger",
+
   "item.powerrangerscraft.battle_for_the_grid_game": "Power Rangers: Battle for the Grid",
   "powerrangerscraft:battle_for_the_grid_game_f.form": "§cRed Ranger (Female)§r\nBattle for the Grid Alt Skin",
   "powerrangerscraft:battle_for_the_grid_game_magna_defender.form": "Extra Hero: §8Magna Defender§r\nBattle for the Grid Alt Skin",
   "powerrangerscraft:battle_for_the_grid_game_reboot_blue.form": "Ranger: §1Blue Ranger§r\nBattle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_mmpr_red.form": "Ranger: §cRed Ranger§r\nBattle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_mmpr_pink.form": "Ranger: §dPink Ranger§r\nBattle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_mmpr_green.form": "Ranger: §aGreen Ranger§r\nBattle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_mmpr_white.form": "Ranger: White Ranger\nBattle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_ranger_slayer.form": "Villain: §dRanger Slayer§r\nBattle for the Grid Alt Skin",
 
   "item.powerrangerscraft.go_go_power_rangers_music_disc": "Go! Go! Power Rangers Music Disc",
   "item.powerrangerscraft.go_go_power_rangers.desc": "HosephHoestar - Go! Go! Power Rangers",

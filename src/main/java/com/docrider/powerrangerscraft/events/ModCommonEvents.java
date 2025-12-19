@@ -5,6 +5,7 @@ import com.docrider.powerrangerscraft.entity.ally.*;
 import com.docrider.powerrangerscraft.entity.bikes.DinoCycleEntity;
 import com.docrider.powerrangerscraft.entity.boss.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.*;
+import com.docrider.powerrangerscraft.items.GamesItems;
 import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import net.minecraft.world.damagesource.DamageTypes;
@@ -113,7 +114,10 @@ public class ModCommonEvents {public static class EventHandler {
         List<VillagerTrades.ItemListing> trades = event.getGenericTrades();
         trades.add((trader,rand) -> new MerchantOffer(
                 new ItemCost(Items.EMERALD, 2),
-                new ItemStack(OtherItems.BATTLE_FOR_THE_GRID_GAME.get(), 1), 10, 8, 0.02F));
+                new ItemStack(GamesItems.BATTLE_FOR_THE_GRID_GAME.get(), 1), 10, 8, 0.02F));
+        trades.add((trader,rand) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 2),
+                new ItemStack(GamesItems.GAME_CONTROLLER_16_BIT.get(), 1), 10, 8, 0.02F));
         trades.add((trader,rand) -> new MerchantOffer(
                 new ItemCost(Items.EMERALD,5),
                 new ItemStack(OperationOverdriveItems.DRAGON_SCALE.get(), 1), 10, 8, 0.02F));
@@ -127,7 +131,7 @@ public class ModCommonEvents {public static class EventHandler {
 
     @SubscribeEvent
     public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
-        //event.put(MobsCore.PUTTY_PATROLLERS.get(), PuttyPatrollersEntity.setAttributes().build());
+        event.put(MobsCore.PUTTY_PATROLLERS.get(), PuttyPatrollersEntity.setAttributes().build());
 
         event.put(MobsCore.CHROMITES.get(), ChromitesEntity.setAttributes().build());
         event.put(MobsCore.PIRANHATRONS.get(), PiranhatronsEntity.setAttributes().build());
@@ -175,7 +179,7 @@ public class ModCommonEvents {public static class EventHandler {
 
     @SubscribeEvent
     public static void entitySpawnRestriction(RegisterSpawnPlacementsEvent event) {
-        //event.register(MobsCore.PUTTY_PATROLLERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+        event.register(MobsCore.PUTTY_PATROLLERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.CHROMITES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
         event.register(MobsCore.PIRANHATRONS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);

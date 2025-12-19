@@ -5,6 +5,7 @@ import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.mmpr.MMPRBeltItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -13,6 +14,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class MMPRItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
+
+    public static String[] RANGERS= new String[] {"mmpr_red","mmpr_blue","mmpr_pink","mmpr_black","mmpr_yellow","samurai_green"};
 
     public static final DeferredItem<Item> MMPR_LOGO = ITEMS.register("mmpr_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MMPR));
@@ -37,6 +40,22 @@ public class MMPRItems {
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_pink","mmpr_pink_belt")
                     .ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
+    public static final DeferredItem<Item> DRAGON_POWER_COIN_OTHERS = ITEMS.register("dragon_power_coin_others",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"dragon_shield","","blank",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,1,true,true))
+                    .ChangeSlot(2).AddCompatibilityList(RANGERS));
+    public static final DeferredItem<Item> DRAGON_POWER_COIN_NO_SHIELD = ITEMS.register("dragon_power_coin_no_shield",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_no_shield","mmpr_green","mmpr_green_belt")
+                    .ChangeBeltModel("geo/mmpr_belt.geo.json").addAlternative(DRAGON_POWER_COIN_OTHERS.get()));
+    public static final DeferredItem<Item> DRAGON_POWER_COIN = ITEMS.register("dragon_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_green","mmpr_green_belt",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,1,true,true))
+                    .ChangeBeltModel("geo/mmpr_belt.geo.json").addAlternative(DRAGON_POWER_COIN_NO_SHIELD.get()).AddToTabList(RangerTabs.MMPR));
+
+    public static final DeferredItem<Item> WHITE_TIGER_POWER_COIN = ITEMS.register("white_tiger_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_white","mmpr_white_belt")
+                    .AddToTabList(RangerTabs.MMPR));
+
     public static final DeferredItem<Item> REINDEER_POWER_COIN = ITEMS.register("reindeer_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","santa_ranger","santa_ranger_belt",
                     new MobEffectInstance(EffectCore.CHRISTMAS,40,1,true,true))
@@ -59,6 +78,10 @@ public class MMPRItems {
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_yellow", SABERTOOTH_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<Item> PINK_POWER_MORPHER = ITEMS.register("pink_power_morpher",
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_pink", PTERADACTYL_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+    public static final DeferredItem<Item> GREEN_POWER_MORPHER = ITEMS.register("green_power_morpher",
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_green", DRAGON_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+    public static final DeferredItem<Item> WHITE_POWER_MORPHER = ITEMS.register("white_power_morpher",
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_white", WHITE_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<Item> SANTA_POWER_MORPHER = ITEMS.register("santa_power_morpher",
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"santa_ranger", REINDEER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 

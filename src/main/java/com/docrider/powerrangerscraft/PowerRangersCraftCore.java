@@ -11,6 +11,7 @@ import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.events.ModCommonEvents;
 import com.docrider.powerrangerscraft.events.ModServerEvents;
+//import com.docrider.powerrangerscraft.fluid.RangerFluids;
 import com.docrider.powerrangerscraft.items.others.BaseDualSwordItem;
 import com.docrider.powerrangerscraft.items.others.MechaGattaiItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
@@ -118,8 +119,10 @@ public class PowerRangersCraftCore {
         StarrangerItems.register(modEventBus);
 
         //CivilianItems.register(modEventBus);
+        GamesItems.register(modEventBus);
 
         RangerBlocks.register(modEventBus);
+        //RangerFluids.register(modEventBus);
 
         MobsCore.register(modEventBus);
         MobsCore.MOBLIST.register(modEventBus);
@@ -348,7 +351,7 @@ public class PowerRangersCraftCore {
 
         @SubscribeEvent
         public static void entityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-            //event.registerEntityRenderer(MobsCore.PUTTY_PATROLLERS.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.PUTTY_PATROLLERS.get(), BasicEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.CHROMITES.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.PIRANHATRONS.get(), BasicEntityRenderer::new);
