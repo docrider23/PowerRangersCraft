@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zeo_red",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:zeo_crystal_shard"
+    },
+    "b": {
+      "item": "powerrangerscraft:red_zeo_sub_crystal"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:red_zeonizer"
+  }
+}

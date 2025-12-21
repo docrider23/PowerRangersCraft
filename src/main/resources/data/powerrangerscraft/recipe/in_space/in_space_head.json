@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "in_space",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:in_space_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:in_space_head"
+  }
+}

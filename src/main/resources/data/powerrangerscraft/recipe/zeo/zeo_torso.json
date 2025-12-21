@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zeo",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:zeo_crystal_shard"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:zeo_torso"
+  }
+}

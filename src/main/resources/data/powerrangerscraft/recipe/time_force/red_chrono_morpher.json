@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "time_force_red",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:time_force_logo"
+    },
+    "b": {
+      "item": "powerrangerscraft:time_force_red_badge"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:red_chrono_morpher"
+  }
+}

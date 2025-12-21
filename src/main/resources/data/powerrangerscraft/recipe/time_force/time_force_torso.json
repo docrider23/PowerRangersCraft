@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "time_force",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:time_force_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:time_force_torso"
+  }
+}
