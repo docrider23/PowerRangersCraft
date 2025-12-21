@@ -28,6 +28,9 @@
   "entity.powerrangerscraft.putty_patroller":"Putty Patrollers",
   "item.powerrangerscraft.putty_patroller_spawn_egg":"Putty Patrollers Spawn Egg",
 
+  "entity.powerrangerscraft.cog":"Cogs",
+  "item.powerrangerscraft.cog_spawn_egg":"Cogs Spawn Egg",
+
   "entity.powerrangerscraft.chromite":"Chromites",
   "entity.powerrangerscraft.piranhatron": "Piranhatrons",
   "entity.powerrangerscraft.blue_senturion_evil":"Reprogrammed Blue Senturion",
@@ -49,8 +52,10 @@
 
   "entity.powerrangerscraft.putrids": "Putrids",
   "entity.powerrangerscraft.zen_aku": "Zen-Aku",
+  "entity.powerrangerscraft.general_venjix":"General Venjix",
   "item.powerrangerscraft.putrids_spawn_egg": "Putrids Spawn Egg",
   "item.powerrangerscraft.zen_aku_spawn_egg": "Zen-Aku Spawn Egg",
+  "item.powerrangerscraft.general_venjix_spawn_egg":"General Venjix Spawn Egg",
 
   "entity.powerrangerscraft.chiller": "Chillers",
   "entity.powerrangerscraft.lava_lizard": "Lava Lizards",
@@ -158,11 +163,11 @@
   "powerrangerscraft:triceratops_power_coin.form": "Ranger: §1Blue Ranger",
   "powerrangerscraft:sabertooth_tiger_power_coin.form": "Ranger: §eYellow Ranger",
   "powerrangerscraft:pteradactyl_power_coin.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:dragon_power_coin.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft:dragon_power_coin_base.form": "Ranger: §aGreen Ranger",
   "powerrangerscraft:white_tiger_power_coin.form": "Ranger: White Ranger",
   "powerrangerscraft:reindeer_power_coin.form": "Ally: §cSanta §aRanger",
 
-  "powerrangerscraft:dragon_power_coin_others.form": "w/ §6Dragon Shield",
+  "powerrangerscraft:dragon_power_coin.form": "w/ §6Dragon Shield",
   
   "item.powerrangerscraft.blade_blaster": "Blade Blaster",
 
@@ -177,12 +182,37 @@
   "item.powerrangerscraft.saba": "Saba",
 
   //03 Alien
+  "tab.powerrangerscraft.alien": "Mighty Morphin Alien Rangers",
+
   "item.powerrangerscraft.alien_logo": "Alien Logo",
 
+  "item.powerrangerscraft.alien_head": "Alien Helmet",
+  "item.powerrangerscraft.alien_torso": "Alien Chestplate",
+  "item.powerrangerscraft.alien_legs": "Alien Leggings",
+
+  "item.powerrangerscraft.red_alien_morpher": "Alien Morpher",
+
+  "item.powerrangerscraft.red_alien_power_coin": "Red Alien Power Coin",
+
+  "powerrangerscraft:red_alien_power_coin.form": "Ranger: §cRed Ranger",
+
   //04 Zeo
+  "tab.powerrangerscraft.zeo": "Zeo",
+
   "item.powerrangerscraft.zeo_logo": "Zeo Logo",
 
+  "item.powerrangerscraft.zeo_head": "Zeo Helmet",
+  "item.powerrangerscraft.zeo_torso": "Zeo Chestplate",
+  "item.powerrangerscraft.zeo_legs": "Zeo Leggings",
+
+  "item.powerrangerscraft.red_zeonizer": "Zeonizer",
+  "item.powerrangerscraft.yellow_zeonizer": "Zeonizer",
+
+  "item.powerrangerscraft.red_zeo_sub_crystal": "Red Zeo Sub-Crystal",
   "item.powerrangerscraft.yellow_zeo_sub_crystal": "Yellow Zeo Sub-Crystal",
+
+  "powerrangerscraft:red_zeo_sub_crystal.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:yellow_zeo_sub_crystal.form": "Ranger: §eYellow Ranger",
 
   //05 Turbo
   "tab.powerrangerscraft.turbo": "Turbo",
@@ -231,9 +261,19 @@
   "item.powerrangerscraft.senturion_synergizer": "Senturion Synergizer",
 
   //06 In Space
+  "tab.powerrangerscraft.in_space": "In Space",
+
   "item.powerrangerscraft.in_space_logo": "In Space Logo",
 
+  "item.powerrangerscraft.in_space_head": "In Space Helmet",
+  "item.powerrangerscraft.in_space_torso": "In Space Chestplate",
+  "item.powerrangerscraft.in_space_legs": "In Space Leggings",
+
+  "item.powerrangerscraft.red_astro_morpher": "Astro Morpher",
+
   "item.powerrangerscraft.red_space_disk": "Red Space Disk",
+
+  "powerrangerscraft:red_space_disk.form": "Ranger: §cRed Ranger",
 
   //07 Lost Galaxy
   "tab.powerrangerscraft.lost_galaxy": "Lost Galaxy",
@@ -375,7 +415,22 @@
   "item.powerrangerscraft.trans_armor_gauntlet_blaster1": "Trans Armor Gauntlet Blaster",
 
   //09 Time Force
+  "tab.powerrangerscraft.time_force": "Time Force",
+
   "item.powerrangerscraft.time_force_logo": "Time Force Logo",
+
+  "item.powerrangerscraft.time_force_head": "Time Force Helmet",
+  "item.powerrangerscraft.time_force_torso": "Time Force Chestplate",
+  "item.powerrangerscraft.time_force_legs": "Time Force Leggings",
+
+  "item.powerrangerscraft.red_chrono_morpher": "Chrono Morpher",
+  "item.powerrangerscraft.quantum_morpher": "Quantum Morpher",
+
+  "item.powerrangerscraft.time_force_red_badge": "Time Force Red Badge",
+  "item.powerrangerscraft.quantum_ranger_badge": "Quantum Ranger Badge",
+
+  "powerrangerscraft:time_force_red_badge.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:quantum_ranger_badge.form": "Ranger: §4Quantum Ranger",
 
   //10 Wild Force
   "tab.powerrangerscraft.wild_force": "Wild Force",
@@ -811,7 +866,7 @@
 
   "item.powerrangerscraft.dark_spino_boomerang": "Spino Boomerang",
 
-  "item.powerrangerscraft.spinosaurus_dino_charger": "Spinosaurus Dino Charger",
+  "item.powerrangerscraft.spinosaurus_dino_charger": "Spino Dino Charger",
   "item.powerrangerscraft.dino_cycle_charger": "Dino Cycle Charger",
 
   "powerrangerscraft:spinosaurus_dino_charger.form": "Ranger: §1Dark Ranger",
@@ -1160,9 +1215,9 @@
   "item.powerrangerscraft.cosmic_staff": "Cosmic Staff",
 
   //EX Comics
-  "tab.powerrangerscraft.comics": "Comic-Exclusive Ranger Teams",
-
   //EX Comics: Shattered Grid
+  "tab.powerrangerscraft.shattered_grid": "Shattered Grid",
+
   "item.powerrangerscraft.ranger_slayer_power_coin": "Ranger Slayer Power Coin",
 
   "item.powerrangerscraft.pink_power_morpher_ranger_slayer": "Power Morpher",
@@ -1170,6 +1225,8 @@
   "powerrangerscraft:ranger_slayer_power_coin.form": "Ranger/Villain: §dRanger Slayer",
 
   //EX Comics: Solar Rangers
+  "tab.powerrangerscraft.solar": "Beyond the Grid",
+
   "item.powerrangerscraft.solar_logo": "Solar Ranger Logo",
 
   "item.powerrangerscraft.solar_head": "Solar Ranger Helmet",
@@ -1193,11 +1250,11 @@
 
   "powerrangerscraft:purple_solar_crystal.form": "Ranger: §5Purple Ranger",
   "powerrangerscraft:orange_solar_crystal.form": "Ranger: §6Orange Ranger",
-  "powerrangerscraft:red_space_disk.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:red_space_disk_solar.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:magna_defender_core_solar.form": "Ranger: §8Black Ranger",
   "powerrangerscraft:spinosaurus_dino_charger_solar.form": "Ranger: §1Blue Ranger",
-  "powerrangerscraft:yellow_zeo_sub_crystal.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:green_samurai_ninja_power_disk.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft:yellow_zeo_sub_crystal_solar.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:green_samurai_ninja_power_disk_solar.form": "Ranger: §aGreen Ranger",
   "powerrangerscraft:ranger_slayer_power_coin_solar.form": "Ranger: §dPink Ranger",
 
   "item.powerrangerscraft.solar_chakram": "Void Chakram",
@@ -1210,6 +1267,8 @@
   "item.powerrangerscraft.solar_chuks": "Solar Chuks",
 
   //EX Comics: Omega Rangers
+  "tab.powerrangerscraft.omega": "Omega",
+
   "item.powerrangerscraft.omega_logo": "Omega Rangers Logo",
 
   "item.powerrangerscraft.omega_head": "Omega Ranger Helmet",
@@ -1241,6 +1300,8 @@
   "item.powerrangerscraft.omega_trident": "Omega Trident",
 
   //EX Comics: Prime Rangers
+  "tab.powerrangerscraft.prime": "Prime",
+
   "item.powerrangerscraft.prime_ritas_wand": "Rita Replusa (Prime)'s Wand",
 
   "item.powerrangerscraft.prime_head": "Prime Ranger Helmet",

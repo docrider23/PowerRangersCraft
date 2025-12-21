@@ -90,13 +90,13 @@ public class PowerRangersCraftCore {
         OtherItems.register(modEventBus);
 
         MMPRItems.register(modEventBus);
-        //AlienItems.register(modEventBus);
+        AlienItems.register(modEventBus);
         ZeoItems.register(modEventBus);
         TurboItems.register(modEventBus);
         InSpaceItems.register(modEventBus);
         LostGalaxyItems.register(modEventBus);
         LightspeedRescueItems.register(modEventBus);
-        //TimeForceItems.register(modEventBus);
+        TimeForceItems.register(modEventBus);
         WildForceItems.register(modEventBus);
         NinjaStormItems.register(modEventBus);
         DinoThunderItems.register(modEventBus);
@@ -353,6 +353,8 @@ public class PowerRangersCraftCore {
         public static void entityRenderers(EntityRenderersEvent.RegisterRenderers event) {
             event.registerEntityRenderer(MobsCore.PUTTY_PATROLLERS.get(), BasicEntityRenderer::new);
 
+            event.registerEntityRenderer(MobsCore.COGS.get(), BasicEntityRenderer::new);
+
             event.registerEntityRenderer(MobsCore.CHROMITES.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.PIRANHATRONS.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.BLUE_SENTURION_EVIL.get(), BasicEntityRenderer::new);
@@ -365,6 +367,7 @@ public class PowerRangersCraftCore {
 
             event.registerEntityRenderer(MobsCore.PUTRIDS.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.ZEN_AKU.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.GENERAL_VENJIX.get(), BasicEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.CHILLERS.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.LAVA_LIZARDS.get(), BasicEntityRenderer::new);

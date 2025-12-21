@@ -15,7 +15,7 @@ public class DinoThunderItems {
 
     public static final DeferredItem<Item> YELLOW_DINO_GEM = ITEMS.register("yellow_dino_gem",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_thunder_yellow","dino_thunder_yellow_belt")
-                    .ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.DINO_THUNDER));
+                    .ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.DINO_THUNDER));
 
     public static final DeferredItem<Item> DINO_THUNDER_HELMET = ITEMS.register("dino_thunder_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.DINO_THUNDER).ChangeRepairItem(DINO_THUNDER_LOGO.get()));

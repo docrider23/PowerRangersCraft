@@ -133,6 +133,8 @@ public class ModCommonEvents {public static class EventHandler {
     public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
         event.put(MobsCore.PUTTY_PATROLLERS.get(), PuttyPatrollersEntity.setAttributes().build());
 
+        event.put(MobsCore.COGS.get(), CogEntity.setAttributes().build());
+
         event.put(MobsCore.CHROMITES.get(), ChromitesEntity.setAttributes().build());
         event.put(MobsCore.PIRANHATRONS.get(), PiranhatronsEntity.setAttributes().build());
         event.put(MobsCore.BLUE_SENTURION_EVIL.get(), BlueSenturionEvilEntity.setAttributes().build());
@@ -145,6 +147,7 @@ public class ModCommonEvents {public static class EventHandler {
 
         event.put(MobsCore.PUTRIDS.get(), PutridsEntity.setAttributes().build());
         event.put(MobsCore.ZEN_AKU.get(), ZenAkuEntity.setAttributes().build());
+        event.put(MobsCore.GENERAL_VENJIX.get(), GeneralVenjixEntity.setAttributes().build());
 
         event.put(MobsCore.CHILLERS.get(), ChillersEntity.setAttributes().build());
         event.put(MobsCore.LAVA_LIZARDS.get(), LavaLizardsEntity.setAttributes().build());
@@ -180,6 +183,8 @@ public class ModCommonEvents {public static class EventHandler {
     @SubscribeEvent
     public static void entitySpawnRestriction(RegisterSpawnPlacementsEvent event) {
         event.register(MobsCore.PUTTY_PATROLLERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+        event.register(MobsCore.COGS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.CHROMITES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
         event.register(MobsCore.PIRANHATRONS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);

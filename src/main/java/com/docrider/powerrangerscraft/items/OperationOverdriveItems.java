@@ -13,7 +13,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class OperationOverdriveItems {
-    public static String[] OVERDRIVE_RANGERS = new String[] {"overdrive_red","overdrive_black","overdrive_blue","overdrive_yellow","overdrive_pink","mercury_ranger"};
+    public static String[] RANGERS = new String[] {"overdrive_red","overdrive_black","overdrive_blue","overdrive_yellow","overdrive_pink","mercury_ranger","mmpr_black"};
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
 
@@ -83,16 +83,11 @@ public class OperationOverdriveItems {
     public static final DeferredItem<Item> DRAGON_SCALE = ITEMS.register("dragon_scale",
             () -> new BaseItem(new Item.Properties().rarity(Rarity.RARE)).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
-    public static final DeferredItem<Item> DEFENDER_VEST_MMPR = ITEMS.register("defender_vest_mmpr",
-            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_overdrive_defender_vest","mmpr_black","mmpr_black_belt",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
-                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
-                    .ChangeBeltModel("geo/mmpr_belt.geo.json"));
-    public static final DeferredItem<Item> DEFENDER_VEST = ITEMS.register("defender_vest",
+        public static final DeferredItem<Item> DEFENDER_VEST = ITEMS.register("defender_vest",
             () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"overdrive_defender_vest","","operation_overdrive_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
-                    .ChangeSlot(2).BackToBase().addAlternative(DEFENDER_VEST_MMPR.get()).AddCompatibilityList(OVERDRIVE_RANGERS).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+                    .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
     public static final DeferredItem<Item> OPERATION_OVERDRIVE_HELMET = ITEMS.register("operation_overdrive_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));

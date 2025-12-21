@@ -19,9 +19,12 @@ public class NinjaStormItems {
     public static final DeferredItem<Item> BLUE_WIND_NINJA_POWER_DISK = ITEMS.register("blue_wind_ninja_power_disk",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","ninja_storm_blue","ninja_storm_blue_belt")
                     .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.NINJA_STORM));
-    public static final DeferredItem<Item> GREEN_SAMURAI_NINJA_POWER_DISK = ITEMS.register("green_samurai_ninja_power_disk",
+    public static final DeferredItem<Item> GREEN_SAMURAI_NINJA_POWER_DISK_SOLAR = ITEMS.register("green_samurai_ninja_power_disk_solar",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_green","blank")
-                    .IsGlowing().AddToTabList(RangerTabs.NINJA_STORM));
+                    .IsGlowing());
+    public static final DeferredItem<Item> GREEN_SAMURAI_NINJA_POWER_DISK = ITEMS.register("green_samurai_ninja_power_disk",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","green_samurai_ranger","blank")
+                    .addAlternative(GREEN_SAMURAI_NINJA_POWER_DISK_SOLAR.get()).AddToTabList(RangerTabs.NINJA_STORM));
 
     public static final DeferredItem<Item> NINJA_STORM_HELMET = ITEMS.register("ninja_storm_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.NINJA_STORM).ChangeRepairItem(NINJA_STORM_LOGO.get()));

@@ -423,6 +423,11 @@ public class WildForceItems {
 	public static final DeferredItem<SwordItem> GATOR_STAFF_BLUE_MOON = ITEMS.register("gator_staff_blue_moon",
 			() -> new BaseSwordItem(Tiers.NETHERITE, 30, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE).ChangeRepairItem(OtherItems.MECHA_GEAR.get()));*/
 
+	public static final DeferredItem<Item> MACHINE_GEAR_VENJIX = ITEMS.register("machine_gear_venjix",
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"","general_venjix","general_venjix_belt").ChangeModel("general_venjix.geo.json"));
+	public static final DeferredItem<Item> GENERAL_VENJIX_BELT = ITEMS.register("general_venjix_belt",
+			() -> new RangerChangerItem(ArmorMaterials.DIAMOND,"general_venjix", MACHINE_GEAR_VENJIX, WILD_FORCE_HELMET, WILD_FORCE_CHESTPLATE, WILD_FORCE_LEGGINGS,new Item.Properties()).ChangeRepairItem(EMPTY_ANIMAL_CRYSTAL.get()));
+
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}

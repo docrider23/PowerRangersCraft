@@ -36,77 +36,7 @@
     {
       "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "powerrangerscraft:ninja_storm_logo",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "powerrangerscraft:dino_thunder_logo",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "powerrangerscraft:spd_logo",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "powerrangerscraft:mystic_force_logo",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "powerrangerscraft:operation_overdrive_logo",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        },
-        {
+                {
           "type": "minecraft:item",
           "name": "powerrangerscraft:jungle_fury_logo",
           "functions": [

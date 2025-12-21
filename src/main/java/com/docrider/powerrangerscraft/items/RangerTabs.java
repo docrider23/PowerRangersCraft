@@ -31,9 +31,21 @@ public class RangerTabs {
             CreativeModeTab.builder().icon(() -> new ItemStack(MMPRItems.MMPR_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_mmpr_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.mmpr")).build());
 
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> AlienTab = CREATIVE_MODE_TABS.register("prc003", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(AlienItems.ALIEN_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_alien_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.alien")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> ZeoTab = CREATIVE_MODE_TABS.register("prc004", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(ZeoItems.ZEO_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_zeo_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.zeo")).build());
+
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> TurboTab = CREATIVE_MODE_TABS.register("prc005", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(TurboItems.TURBO_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_turbo_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.turbo")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> InSpaceTab = CREATIVE_MODE_TABS.register("prc006", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(InSpaceItems.IN_SPACE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_in_space_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.in_space")).build());
 
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> LostGalaxyTab = CREATIVE_MODE_TABS.register("prc007", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(LostGalaxyItems.LOST_GALAXY_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_lost_galaxy_items.png"))
@@ -42,6 +54,10 @@ public class RangerTabs {
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> LightspeedRescueTab = CREATIVE_MODE_TABS.register("prc008", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(LightspeedRescueItems.LIGHTSPEED_RESCUE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_lightspeed_rescue_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.lightspeed_rescue")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> TimeForceTab = CREATIVE_MODE_TABS.register("prc009", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(TimeForceItems.TIME_FORCE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_time_force_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.time_force")).build());
 
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> WildForceTab = CREATIVE_MODE_TABS.register("prc010", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(WildForceItems.WILD_FORCE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_wild_force_items.png"))
@@ -97,10 +113,25 @@ public class RangerTabs {
                           (PowerRangersCraftCore.MODID,"textures/gui/tab_hyperforce_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.hyperforce")).build());
 
-   public static DeferredHolder<CreativeModeTab, CreativeModeTab> ComicsTab = CREATIVE_MODE_TABS.register("prc031", () ->
+   public static DeferredHolder<CreativeModeTab, CreativeModeTab> ShatteredGridTab = CREATIVE_MODE_TABS.register("prc031", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(ComicsItems.DRAKKON_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
+                            (PowerRangersCraftCore.MODID,"textures/gui/tab_shattered_grid_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.shattered_grid")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> SolarTab = CREATIVE_MODE_TABS.register("prc032", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(ComicsItems.SOLAR_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
+                            (PowerRangersCraftCore.MODID,"textures/gui/tab_solar_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.solar")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> OmegaTab = CREATIVE_MODE_TABS.register("prc033", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(ComicsItems.OMEGA_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
                             (PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png"))
-                    .title(Component.translatable("tab.powerrangerscraft.comics")).build());
+                    .title(Component.translatable("tab.powerrangerscraft.omega")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> PrimeTab = CREATIVE_MODE_TABS.register("prc034", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(ComicsItems.PRIME_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
+                            (PowerRangersCraftCore.MODID,"textures/gui/tab_prime_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.prime")).build());
 
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> RebootTab = CREATIVE_MODE_TABS.register("prc899", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(RebootItems.REBOOT_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
@@ -120,11 +151,19 @@ public class RangerTabs {
 
     public static List<Item> MMPR= new ArrayList<Item>();
 
+    public static List<Item> ALIEN= new ArrayList<Item>();
+
+    public static List<Item> ZEO= new ArrayList<Item>();
+
     public static List<Item> TURBO = new ArrayList<Item>();
+
+    public static List<Item> IN_SPACE= new ArrayList<Item>();
 
     public static List<Item> LOST_GALAXY= new ArrayList<Item>();
 
     public static List<Item> LIGHTSPEED_RESCUE= new ArrayList<Item>();
+
+    public static List<Item> TIME_FORCE= new ArrayList<Item>();
 
     public static List<Item> WILD_FORCE= new ArrayList<Item>();
 
@@ -154,7 +193,13 @@ public class RangerTabs {
 
     public static List<Item> REBOOT= new ArrayList<Item>();
 
-    public static List<Item> COMICS= new ArrayList<Item>();
+    public static List<Item> SHATTERED_GRID = new ArrayList<Item>();
+
+    public static List<Item> SOLAR = new ArrayList<Item>();
+
+    public static List<Item> OMEGA = new ArrayList<Item>();
+
+    public static List<Item> PRIME = new ArrayList<Item>();
 
     public static List<Item> MISC= new ArrayList<Item>();
 
@@ -175,10 +220,31 @@ public class RangerTabs {
             }
 
         }
+        else if(event.getTab() == RangerTabs.AlienTab.get()) {
+            for (int i = 0; i < RangerTabs.ALIEN.size(); i++)
+            {
+                event.accept( RangerTabs.ALIEN.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.ZeoTab.get()) {
+            for (int i = 0; i < RangerTabs.ZEO.size(); i++)
+            {
+                event.accept( RangerTabs.ZEO.get(i));
+            }
+
+        }
         else if(event.getTab() == RangerTabs.TurboTab.get()) {
             for (int i = 0; i < RangerTabs.TURBO.size(); i++)
             {
                 event.accept( RangerTabs.TURBO.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.InSpaceTab.get()) {
+            for (int i = 0; i < RangerTabs.IN_SPACE.size(); i++)
+            {
+                event.accept( RangerTabs.IN_SPACE.get(i));
             }
 
         }
@@ -194,6 +260,13 @@ public class RangerTabs {
             {
                 event.accept(RangerTabs.LIGHTSPEED_RESCUE.get(i));
             }
+        }
+        else if(event.getTab() == RangerTabs.TimeForceTab.get()) {
+            for (int i = 0; i < RangerTabs.TIME_FORCE.size(); i++)
+            {
+                event.accept( RangerTabs.TIME_FORCE.get(i));
+            }
+
         }
         else if(event.getTab() == RangerTabs.WildForceTab.get()) {
             for (int i = 0; i < RangerTabs.WILD_FORCE.size(); i++)
@@ -287,10 +360,31 @@ public class RangerTabs {
             }
 
         }
-        else if(event.getTab() == RangerTabs.ComicsTab.get()) {
-            for (int i = 0; i < RangerTabs.COMICS.size(); i++)
+        else if(event.getTab() == RangerTabs.ShatteredGridTab.get()) {
+            for (int i = 0; i < RangerTabs.SHATTERED_GRID.size(); i++)
             {
-                event.accept( RangerTabs.COMICS.get(i));
+                event.accept( RangerTabs.SHATTERED_GRID.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.SolarTab.get()) {
+            for (int i = 0; i < RangerTabs.SOLAR.size(); i++)
+            {
+                event.accept( RangerTabs.SOLAR.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.OmegaTab.get()) {
+            for (int i = 0; i < RangerTabs.OMEGA.size(); i++)
+            {
+                event.accept( RangerTabs.OMEGA.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.PrimeTab.get()) {
+            for (int i = 0; i < RangerTabs.PRIME.size(); i++)
+            {
+                event.accept( RangerTabs.PRIME.get(i));
             }
 
         }
@@ -312,6 +406,8 @@ public class RangerTabs {
 
             event.accept(MobsCore.PUTTY_PATROLLERS_SPAWN_EGG);
 
+            event.accept(MobsCore.COGS_SPAWN_EGG);
+
             event.accept(MobsCore.CHROMITES_SPAWN_EGG);
             event.accept(MobsCore.PIRANHATRONS_SPAWN_EGG);
             event.accept(MobsCore.BLUE_SENTURION_EVIL_SPAWN_EGG);
@@ -324,6 +420,7 @@ public class RangerTabs {
 
             event.accept(MobsCore.PUTRIDS_SPAWN_EGG);
             event.accept(MobsCore.ZEN_AKU_SPAWN_EGG);
+            event.accept(MobsCore.GENERAL_VENJIX_SPAWN_EGG);
 
             event.accept(MobsCore.CHILLERS_SPAWN_EGG);
             event.accept(MobsCore.LAVA_LIZARDS_SPAWN_EGG);

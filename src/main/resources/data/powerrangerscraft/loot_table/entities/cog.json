@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:red_zeo_sub_crystal",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:yellow_zeo_sub_crystal",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:zeo_crystal_shard",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:zeo_crystal_shard"
+        }
+      ]
+    }
+  ]
+}

@@ -15,42 +15,42 @@ public class MMPRItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
 
-    public static String[] RANGERS= new String[] {"mmpr_red","mmpr_blue","mmpr_pink","mmpr_black","mmpr_yellow","samurai_green"};
+    public static String[] RANGERS= new String[] {"mmpr_red","mmpr_blue","mmpr_pink","mmpr_black","mmpr_yellow","mmpr_green","samurai_green"};
 
     public static final DeferredItem<Item> MMPR_LOGO = ITEMS.register("mmpr_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> TYRANNOSAURUS_POWER_COIN = ITEMS.register("tyrannosaurus_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_red","mmpr_red_belt")
-                    .ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> MASTODON_POWER_COIN = ITEMS.register("mastodon_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_black","mmpr_black_belt")
-                    .ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> TRICERATOPS_POWER_COIN = ITEMS.register("triceratops_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_blue","mmpr_blue_belt")
-                    .ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> SABERTOOTH_TIGER_POWER_COIN = ITEMS.register("sabertooth_tiger_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_yellow","mmpr_yellow_belt")
-                    .ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> PTERADACTYL_POWER_COIN = ITEMS.register("pteradactyl_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_pink","mmpr_pink_belt")
-                    .ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
-    public static final DeferredItem<Item> DRAGON_POWER_COIN_OTHERS = ITEMS.register("dragon_power_coin_others",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"dragon_shield","","blank",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,1,true,true))
-                    .ChangeSlot(2).AddCompatibilityList(RANGERS));
+
+    public static final DeferredItem<Item> DRAGON_POWER_COIN_BASE = ITEMS.register("dragon_power_coin_base",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_green","mmpr_green_belt")
+                    .ChangeBeltModel("geo/mmpr_belt.geo.json"));
     public static final DeferredItem<Item> DRAGON_POWER_COIN_NO_SHIELD = ITEMS.register("dragon_power_coin_no_shield",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_no_shield","mmpr_green","mmpr_green_belt")
-                    .ChangeBeltModel("geo/mmpr_belt.geo.json").addAlternative(DRAGON_POWER_COIN_OTHERS.get()));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"blank","mmpr_green","mmpr_green_belt")
+                    .ChangeSlot(2).ChangeBeltModel("geo/mmpr_belt.geo.json"));
     public static final DeferredItem<Item> DRAGON_POWER_COIN = ITEMS.register("dragon_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_green","mmpr_green_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"dragon_shield","","",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,1,true,true))
-                    .ChangeBeltModel("geo/mmpr_belt.geo.json").addAlternative(DRAGON_POWER_COIN_NO_SHIELD.get()).AddToTabList(RangerTabs.MMPR));
+                    .ChangeSlot(2).addAlternative(DRAGON_POWER_COIN_NO_SHIELD.get()).AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> WHITE_TIGER_POWER_COIN = ITEMS.register("white_tiger_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_white","mmpr_white_belt")
@@ -79,7 +79,7 @@ public class MMPRItems {
     public static final DeferredItem<Item> PINK_POWER_MORPHER = ITEMS.register("pink_power_morpher",
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_pink", PTERADACTYL_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<Item> GREEN_POWER_MORPHER = ITEMS.register("green_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_green", DRAGON_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_green", DRAGON_POWER_COIN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<Item> WHITE_POWER_MORPHER = ITEMS.register("white_power_morpher",
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_white", WHITE_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<Item> SANTA_POWER_MORPHER = ITEMS.register("santa_power_morpher",

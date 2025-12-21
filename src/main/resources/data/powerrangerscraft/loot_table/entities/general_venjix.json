@@ -1,0 +1,164 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:tyrannosaurus_power_coin",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:red_alien_power_coin",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:red_zeo_sub_crystal",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:red_turbo_key",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:red_space_disk",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lion_mirinoi_medal",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lightspeed_red_badge",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:time_force_red_badge",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:quantum_ranger_badge",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lion_animal_crystal",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:mmpr_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:alien_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:zeo_crystal_shard",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:turbo_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:in_space_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lost_galaxy_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:lightspeed_rescue_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:time_force_logo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:empty_animal_crystal",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

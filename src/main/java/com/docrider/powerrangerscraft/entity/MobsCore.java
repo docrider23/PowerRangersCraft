@@ -30,6 +30,11 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     //03 Alien
 
     //04 Zeo
+    public static final DeferredHolder<EntityType<?>, EntityType<CogEntity>> COGS = MOBLIST.register("cog",
+            () -> EntityType.Builder.of(CogEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":cog"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> COGS_SPAWN_EGG = ITEMS.register("cog_spawn_egg",
+            () -> new DeferredSpawnEggItem(COGS, 0xa3a2a2, 0xa1a1a1, new Item.Properties()));
 
     //05 Turbo
     public static final DeferredHolder<EntityType<?>, EntityType<ChromitesEntity>> CHROMITES = MOBLIST.register("chromite",
@@ -92,6 +97,12 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
 
     public static final DeferredItem<DeferredSpawnEggItem> ZEN_AKU_SPAWN_EGG = ITEMS.register("zen_aku_spawn_egg",
             () -> new DeferredSpawnEggItem(ZEN_AKU, 0x0b0b0b, 0x7d7d7d, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<GeneralVenjixEntity>> GENERAL_VENJIX = MOBLIST.register("general_venjix",
+            () -> EntityType.Builder.of(GeneralVenjixEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":general_venjix"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> GENERAL_VENJIX_SPAWN_EGG = ITEMS.register("general_venjix_spawn_egg",
+            () -> new DeferredSpawnEggItem(GENERAL_VENJIX, 0x0b0b0b, 0xd6ba00, new Item.Properties()));
     
     //11 Ninja Storm
     

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_end",
+  "spawners": {
+    "type": "powerrangerscraft:cog",
+    "weight": 15,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}
