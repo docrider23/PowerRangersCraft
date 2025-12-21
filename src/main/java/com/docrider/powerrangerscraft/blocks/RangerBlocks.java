@@ -4,6 +4,7 @@ import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.blocks.custom.*;
 import com.docrider.powerrangerscraft.blocks.machineBlocks.AnimalDNARepository;
 import com.docrider.powerrangerscraft.blocks.machineBlocks.CoronaAuroraCrown;
+import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.RangerTabs;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -104,6 +105,9 @@ public class RangerBlocks {
     public static final DeferredBlock<Block> END_STARRANGER_ORE = registerBlock("end_starranger_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2,6)).AddToTabList(RangerTabs.BLOCKS));
+
+    public static final DeferredBlock<Block> GENERAL_VENJIX_BOSS_BLOCK = registerBlock("general_venjix_boss_block",
+            () -> new BossBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD).strength(2f), MobsCore.GENERAL_VENJIX).AddToTabList(RangerTabs.BLOCKS));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

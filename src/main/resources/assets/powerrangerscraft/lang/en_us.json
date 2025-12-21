@@ -112,6 +112,7 @@
   "block.powerrangerscraft.deepslate_logo_ore": "Deepslate Power Rangers Logo Ore",
 
   //00 Mobs Weapon
+  "item.powerrangerscraft.cog_spear": "Cogs Spear",
   "item.powerrangerscraft.chromites_sword":"Chromites Sword",
   "item.powerrangerscraft.swabbies_cutlass": "Swabbies Cutlass",
   "item.powerrangerscraft.stingwingers_stinger": "Stingwingers Stinger",
@@ -181,6 +182,9 @@
   "item.powerrangerscraft.dragon_dagger": "Dragon Dagger",
   "item.powerrangerscraft.saba": "Saba",
 
+  "block.powerrangerscraft.serpentera_scale_green": "Serpentera Scale (Green)",
+  "block.powerrangerscraft.serpentera_scale_gold": "Serpentera Scale (Gold Face)",
+
   //03 Alien
   "tab.powerrangerscraft.alien": "Mighty Morphin Alien Rangers",
 
@@ -200,6 +204,7 @@
   "tab.powerrangerscraft.zeo": "Zeo",
 
   "item.powerrangerscraft.zeo_logo": "Zeo Logo",
+  "item.powerrangerscraft.zeo_crystal_shard": "Zeo Crystal Shard",
 
   "item.powerrangerscraft.zeo_head": "Zeo Helmet",
   "item.powerrangerscraft.zeo_torso": "Zeo Chestplate",

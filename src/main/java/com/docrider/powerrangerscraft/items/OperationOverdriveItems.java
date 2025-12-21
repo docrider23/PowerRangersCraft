@@ -159,6 +159,11 @@ public class OperationOverdriveItems {
     public static final DeferredItem<SwordItem> SENTINEL_SWORD = ITEMS.register("sentinel_sword",
             () -> new SentinelSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties(), MobsCore.SENTINEL_KNIGHT).KeepItem().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
+    public static final DeferredItem<SwordItem> SENTINEL_RANGER_SWORD_L = ITEMS.register("sentinel_ranger_sword_l",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+    public static final DeferredItem<SwordItem> SENTINEL_RANGER_SWORD_R = ITEMS.register("sentinel_ranger_sword_r",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
+
     public static final DeferredItem<Item> BROWNBEARDS_LUCKY_PEARL = ITEMS.register("brownbeards_lucky_pearl",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
     public static final DeferredItem<Item> TORU_DIAMOND = ITEMS.register("toru_diamond",

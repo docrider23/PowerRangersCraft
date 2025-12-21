@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "alien",
+  "pattern": [
+    "a a",
+    "aaa",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:alien_logo"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:alien_torso"
+  }
+}
