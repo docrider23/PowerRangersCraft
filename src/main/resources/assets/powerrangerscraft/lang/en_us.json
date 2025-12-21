@@ -57,6 +57,8 @@
   "item.powerrangerscraft.zen_aku_spawn_egg": "Zen-Aku Spawn Egg",
   "item.powerrangerscraft.general_venjix_spawn_egg":"General Venjix Spawn Egg",
 
+  "block.powerrangerscraft.general_venjix_boss_block": "General Venjix Boss Block",
+
   "entity.powerrangerscraft.chiller": "Chillers",
   "entity.powerrangerscraft.lava_lizard": "Lava Lizards",
   "entity.powerrangerscraft.moltor": "Moltor",
@@ -731,6 +733,8 @@
   "item.powerrangerscraft.drill_blaster_mixer": "Drill Blaster",
 
   "item.powerrangerscraft.sentinel_sword": "Sentinel Sword",
+  "item.powerrangerscraft.sentinel_ranger_sword_l": "Sentinel Ranger Sword",
+  "item.powerrangerscraft.sentinel_ranger_sword_r": "Sentinel Ranger Sword",
 
   "item.powerrangerscraft.brownbeards_lucky_pearl": "Brownbeard's Lucky Pearl",
   "item.powerrangerscraft.toru_diamond": "Toru Diamond",

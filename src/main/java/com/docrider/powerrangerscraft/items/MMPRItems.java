@@ -4,8 +4,11 @@ import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.mmpr.MMPRBeltItem;
 import com.docrider.powerrangerscraft.items.others.*;
+import com.docrider.powerrangerscraft.particle.ModParticles;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -21,45 +24,152 @@ public class MMPRItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> TYRANNOSAURUS_POWER_COIN = ITEMS.register("tyrannosaurus_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_red","mmpr_red_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_red","mmpr_red_belt"){
+    public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+        super.OnTransformation(itemstack,player);
+        ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_MORPHER_PARTICLES.get(),
+                player.getX(), player.getY()+1,
+                player.getZ(), 1, 0, 0, 0, 1);
+        ((ServerLevel) player.level()).sendParticles(ModParticles.RED_SPARK_PARTICLES.get(),
+                player.getX(), player.getY()+1,
+                player.getZ(), 100, 0, 0, 0, 1);
+        ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                player.getX(), player.getY()+1,
+                player.getZ(), 100, 0, 0, 0, 1);
+    }}
                     .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> MASTODON_POWER_COIN = ITEMS.register("mastodon_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_black","mmpr_black_belt")
-                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.BLACK_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> TRICERATOPS_POWER_COIN = ITEMS.register("triceratops_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_blue","mmpr_blue_belt")
-                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.BLUE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> SABERTOOTH_TIGER_POWER_COIN = ITEMS.register("sabertooth_tiger_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_yellow","mmpr_yellow_belt")
-                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.YELLOW_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> PTERADACTYL_POWER_COIN = ITEMS.register("pteradactyl_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_pink","mmpr_pink_belt")
-                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.PINK_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
 
     public static final DeferredItem<Item> DRAGON_POWER_COIN_BASE = ITEMS.register("dragon_power_coin_base",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_green","mmpr_green_belt")
-                    .ChangeBeltModel("geo/mmpr_belt.geo.json"));
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_GREEN_WHITE_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.GREEN_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.GOLD_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }.ChangeBeltModel("geo/mmpr_belt.geo.json"));
     public static final DeferredItem<Item> DRAGON_POWER_COIN_NO_SHIELD = ITEMS.register("dragon_power_coin_no_shield",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"blank","mmpr_green","mmpr_green_belt")
                     .ChangeSlot(2).ChangeBeltModel("geo/mmpr_belt.geo.json"));
     public static final DeferredItem<Item> DRAGON_POWER_COIN = ITEMS.register("dragon_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"dragon_shield","","",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,1,true,true))
-                    .ChangeSlot(2).addAlternative(DRAGON_POWER_COIN_NO_SHIELD.get()).AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.MMPR));
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.GOLD_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }.ChangeSlot(2).addAlternative(DRAGON_POWER_COIN_NO_SHIELD.get()).AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> WHITE_TIGER_POWER_COIN = ITEMS.register("white_tiger_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_white","mmpr_white_belt")
-                    .AddToTabList(RangerTabs.MMPR));
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_GREEN_WHITE_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }.AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> REINDEER_POWER_COIN = ITEMS.register("reindeer_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","santa_ranger","santa_ranger_belt",
                     new MobEffectInstance(EffectCore.CHRISTMAS,40,1,true,true))
-                    .SetShowUnder().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_SANTA_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.RED_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.GREEN_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }.SetShowUnder().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> MMPR_HELMET = ITEMS.register("mmpr_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));

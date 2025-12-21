@@ -112,6 +112,14 @@ public class ModParticles {
 
     public static final Supplier<SimpleParticleType> WIZARD_PARTICLES =
             PARTICLE_TYPES.register("wizard_particles", () -> new SimpleParticleType(true));
+    public static final Supplier<SimpleParticleType> MMPR_PARTICLES =
+            PARTICLE_TYPES.register("mmpr_particles", () -> new SimpleParticleType(true));
+    public static final Supplier<SimpleParticleType> MMPR_MORPHER_PARTICLES =
+            PARTICLE_TYPES.register("mmpr_morpher_particles", () -> new SimpleParticleType(true));
+    public static final Supplier<SimpleParticleType> MMPR_GREEN_WHITE_MORPHER_PARTICLES =
+            PARTICLE_TYPES.register("mmpr_green_white_morpher_particles", () -> new SimpleParticleType(true));
+    public static final Supplier<SimpleParticleType> MMPR_SANTA_MORPHER_PARTICLES =
+            PARTICLE_TYPES.register("mmpr_santa_morpher_particles", () -> new SimpleParticleType(true));
 
 
     public static void register(IEventBus eventBus) {
