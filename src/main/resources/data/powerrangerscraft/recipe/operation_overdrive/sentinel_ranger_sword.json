@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sentinel_ranger",
+  "pattern": [
+    " a ",
+    "aba",
+	" c "
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:operation_overdrive_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:sentinel_morpher"
+    },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:sentinel_ranger_sword"
+  }
+}

@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "powerrangerscraft:item/sentinel_ranger_sword_r"
+		"layer0": "powerrangerscraft:item/sentinel_ranger_sword1"
 	},
 	"display": {
 		"thirdperson_righthand": {

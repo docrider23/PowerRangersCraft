@@ -128,7 +128,7 @@ public class OperationOverdriveItems {
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
                     .BackToBase().addAlternative(SENTINEL_MORPHER_HYPERFORCE.get())
-                    .ChangeModel("sentinel_ranger.geo.json").AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+                    .ChangeModel("sentinel_ranger.geo.json").KeepItem().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
     public static final DeferredItem<BaseBlasterItem> DRIVE_DEFENDER = ITEMS.register("drive_defender",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
@@ -159,9 +159,9 @@ public class OperationOverdriveItems {
     public static final DeferredItem<SwordItem> SENTINEL_SWORD = ITEMS.register("sentinel_sword",
             () -> new SentinelSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties(), MobsCore.SENTINEL_KNIGHT).KeepItem().AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
-    public static final DeferredItem<SwordItem> SENTINEL_RANGER_SWORD_L = ITEMS.register("sentinel_ranger_sword_l",
+    public static final DeferredItem<SwordItem> SENTINEL_RANGER_SWORD = ITEMS.register("sentinel_ranger_sword",
             () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
-    public static final DeferredItem<SwordItem> SENTINEL_RANGER_SWORD_R = ITEMS.register("sentinel_ranger_sword_r",
+    public static final DeferredItem<SwordItem> SENTINEL_RANGER_SWORD1 = ITEMS.register("sentinel_ranger_sword1",
             () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
     public static final DeferredItem<Item> BROWNBEARDS_LUCKY_PEARL = ITEMS.register("brownbeards_lucky_pearl",

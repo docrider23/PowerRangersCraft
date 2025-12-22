@@ -30,9 +30,9 @@ public class MysticForceItems {
     public static final DeferredItem<Item> MAGI_WAND_GREEN = ITEMS.register("magi_wand_green",
             () -> new BaseDualSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).IsDualWeapon().AddToTabList(RangerTabs.MYSTIC_FORCE).ChangeRepairItem(MYSTIC_FORCE_LOGO.get()));
 
-    public static final DeferredItem<SwordItem> MYSTIC_FORCE_FIGHTER_L = ITEMS.register("mystic_force_fighter_l",
+    public static final DeferredItem<SwordItem> MYSTIC_FORCE_FIGHTER = ITEMS.register("mystic_force_fighter",
             () -> new BaseSwordItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MYSTIC_FORCE).ChangeRepairItem(MYSTIC_FORCE_LOGO.get()));
-    public static final DeferredItem<SwordItem> MYSTIC_FORCE_FIGHTER_R = ITEMS.register("mystic_force_fighter_r",
+    public static final DeferredItem<SwordItem> MYSTIC_FORCE_FIGHTER1 = ITEMS.register("mystic_force_fighter1",
             () -> new BaseSwordItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MYSTIC_FORCE).ChangeRepairItem(MYSTIC_FORCE_LOGO.get()));
 
     public static void register(IEventBus eventBus) {

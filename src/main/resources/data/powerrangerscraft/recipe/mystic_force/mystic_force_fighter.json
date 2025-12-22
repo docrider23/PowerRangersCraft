@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "group": "mystic_force_green",
   "pattern": [
-    "aaa",
-    "acb",
-	"aaa"
+    " a ",
+    "aba",
+    " c "
   ],
   "key": {
     "a": {
@@ -18,6 +18,6 @@
     }
   },
   "result": {
-    "id": "powerrangerscraft:mystic_force_fighter_r"
+    "id": "powerrangerscraft:mystic_force_fighter"
   }
 }

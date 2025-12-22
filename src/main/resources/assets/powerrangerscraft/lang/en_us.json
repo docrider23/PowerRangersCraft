@@ -671,8 +671,8 @@
   "powerrangerscraft:green_mystic_morpher_plate.form": "Ranger: §aGreen Ranger",
 
   "item.powerrangerscraft.magi_wand_green": "Green Magi Wand",
-  "item.powerrangerscraft.mystic_force_fighter_l": "Mystic Force Fighter",
-  "item.powerrangerscraft.mystic_force_fighter_r": "Mystic Force Fighter",
+  "item.powerrangerscraft.mystic_force_fighter": "Mystic Force Fighter",
+  "item.powerrangerscraft.mystic_force_fighter1": "Mystic Force Fighter",
 
   //15 Operation Overdrive
   "tab.powerrangerscraft.operation_overdrive": "Operation Overdrive",
@@ -733,8 +733,8 @@
   "item.powerrangerscraft.drill_blaster_mixer": "Drill Blaster",
 
   "item.powerrangerscraft.sentinel_sword": "Sentinel Sword",
-  "item.powerrangerscraft.sentinel_ranger_sword_l": "Sentinel Ranger Sword",
-  "item.powerrangerscraft.sentinel_ranger_sword_r": "Sentinel Ranger Sword",
+  "item.powerrangerscraft.sentinel_ranger_sword": "Sentinel Ranger Sword",
+  "item.powerrangerscraft.sentinel_ranger_sword1": "Sentinel Ranger Sword",
 
   "item.powerrangerscraft.brownbeards_lucky_pearl": "Brownbeard's Lucky Pearl",
   "item.powerrangerscraft.toru_diamond": "Toru Diamond",
