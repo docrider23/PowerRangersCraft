@@ -202,6 +202,8 @@
 
   "powerrangerscraft:red_alien_power_coin.form": "Ranger: §cRed Ranger",
 
+  "item.powerrangerscraft.aquitian_saber": "Aquitian Saber",
+
   //04 Zeo
   "tab.powerrangerscraft.zeo": "Zeo",
 
@@ -442,6 +444,10 @@
 
   "powerrangerscraft:time_force_red_badge.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:quantum_ranger_badge.form": "Ranger: §4Quantum Ranger",
+
+  "item.powerrangerscraft.chrono_saber_red_1": "Red Chrono Saber",
+  "item.powerrangerscraft.chrono_saber_red_2": "Red Chrono Saber",
+  "item.powerrangerscraft.quantum_defender": "Quantum Defender",
 
   //10 Wild Force
   "tab.powerrangerscraft.wild_force": "Wild Force",

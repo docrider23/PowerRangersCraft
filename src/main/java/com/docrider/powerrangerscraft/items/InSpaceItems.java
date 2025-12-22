@@ -31,7 +31,7 @@ public class InSpaceItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
 
     public static final DeferredItem<Item> RED_ASTRO_MORPHER = ITEMS.register("red_astro_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"in_space_red",RED_SPACE_DISK,IN_SPACE_HELMET,IN_SPACE_CHESTPLATE,IN_SPACE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"in_space_red",RED_SPACE_DISK,IN_SPACE_HELMET,IN_SPACE_CHESTPLATE,IN_SPACE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
 
     public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER_1 = ITEMS.register("astro_blaster_1",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));

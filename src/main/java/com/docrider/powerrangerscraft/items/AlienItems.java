@@ -1,13 +1,8 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
-import com.docrider.powerrangerscraft.items.others.BaseItem;
-import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
-import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
-import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterials;
-import net.minecraft.world.item.Item;
+import com.docrider.powerrangerscraft.items.others.*;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -31,6 +26,9 @@ public class AlienItems {
 
     public static final DeferredItem<Item> RED_ALIEN_MORPHER = ITEMS.register("red_alien_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_red",RED_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(ALIEN_LOGO.get()));
+
+    public static final DeferredItem<SwordItem> AQUITIAN_SABER = ITEMS.register("aquitian_saber",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(ALIEN_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
