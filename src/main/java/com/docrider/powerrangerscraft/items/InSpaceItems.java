@@ -1,13 +1,11 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
-import com.docrider.powerrangerscraft.items.others.BaseItem;
-import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
-import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
-import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
+import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -34,6 +32,13 @@ public class InSpaceItems {
 
     public static final DeferredItem<Item> RED_ASTRO_MORPHER = ITEMS.register("red_astro_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"in_space_red",RED_SPACE_DISK,IN_SPACE_HELMET,IN_SPACE_CHESTPLATE,IN_SPACE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE));
+
+    public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER_1 = ITEMS.register("astro_blaster_1",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER_2 = ITEMS.register("astro_blaster_2",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER_COMBO = ITEMS.register("astro_blaster_combo",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 10, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -282,6 +282,10 @@
 
   "powerrangerscraft:red_space_disk.form": "Ranger: §cRed Ranger",
 
+  "item.powerrangerscraft.astro_blaster_1": "Astro Blaster",
+  "item.powerrangerscraft.astro_blaster_2": "Astro Blaster",
+  "item.powerrangerscraft.astro_blaster_combo": "Astro Blaster (Combo Mode)",
+
   //07 Lost Galaxy
   "tab.powerrangerscraft.lost_galaxy": "Lost Galaxy",
 
