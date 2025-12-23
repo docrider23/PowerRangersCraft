@@ -50,14 +50,14 @@ public class WildForceItems {
             		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
-					.addAlternative(LION_ANIMAL_CRYSTAL_MEGAZORD.get()).ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
+					.addAlternative(LION_ANIMAL_CRYSTAL_MEGAZORD.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> EAGLE_ANIMAL_CRYSTAL = ITEMS.register("eagle_animal_crystal",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","wild_force_yellow","wild_force_yellow_belt",
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
 					new MobEffectInstance(EffectCore.FLYING, 40, 0,true,false),
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> SHARK_ANIMAL_CRYSTAL_MEGAZORD = ITEMS.register("shark_animal_crystal_megazord",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"shark_wildzord","wild_force_megazord","blank")
@@ -69,7 +69,7 @@ public class WildForceItems {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 0,true,false))
-					.addAlternative(SHARK_ANIMAL_CRYSTAL_MEGAZORD.get()).ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
+					.addAlternative(SHARK_ANIMAL_CRYSTAL_MEGAZORD.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> BISON_ANIMAL_CRYSTAL_MEGAZORD = ITEMS.register("bison_animal_crystal_megazord",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"bison_wildzord","wild_force_megazord","blank")
@@ -85,7 +85,7 @@ public class WildForceItems {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
 					.addAlternative(BISON_ANIMAL_CRYSTAL_MEGAZORD.get()).addAlternative(BISON_ANIMAL_CRYSTAL_OTHERS.get())
-					.ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
+					.ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> TIGER_ANIMAL_CRYSTAL_MEGAZORD = ITEMS.register("tiger_animal_crystal_megazord",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"tiger_wildzord","wild_force_megazord","blank")
@@ -96,7 +96,7 @@ public class WildForceItems {
 					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
-					.addAlternative(TIGER_ANIMAL_CRYSTAL_MEGAZORD.get()).ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
+					.addAlternative(TIGER_ANIMAL_CRYSTAL_MEGAZORD.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> WOLF_ANIMAL_CRYSTAL_MEGAZORD = ITEMS.register("wolf_animal_crystal_megazord",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"wolf_wildzord","wild_force_megazord","blank")

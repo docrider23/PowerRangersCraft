@@ -103,8 +103,8 @@ public class PowerRangersCraftCore {
         SPDItems.register(modEventBus);
         MysticForceItems.register(modEventBus);
         OperationOverdriveItems.register(modEventBus);
-        //JungleFuryItems.register(modEventBus);
-        //RPMItems.register(modEventBus);
+        JungleFuryItems.register(modEventBus);
+        RPMItems.register(modEventBus);
         SamuraiItems.register(modEventBus);
         //MegaforceItems.register(modEventBus);
         //SuperMegaforceItems.register(modEventBus);

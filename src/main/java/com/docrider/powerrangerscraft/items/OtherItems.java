@@ -42,12 +42,6 @@ public class OtherItems {
                     new MobEffectInstance(EffectCore.BIG, 40, 2,true,false))
                     .ChangeSlot(2).addSwitchForm(BLANK_FORM.get()).AddCompatibilityList(SentaiRobo).AddToTabList(RangerTabs.MISC));
 
-    public static final DeferredItem<Item> JUNGLE_FURY_LOGO = ITEMS.register("jungle_fury_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> RPM_LOGO = ITEMS.register("rpm_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
     public static final DeferredItem<Item> MEGAFORCE_LOGO = ITEMS.register("megaforce_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 

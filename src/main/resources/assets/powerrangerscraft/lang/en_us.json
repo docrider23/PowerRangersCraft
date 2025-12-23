@@ -615,12 +615,17 @@
   "item.powerrangerscraft.ninja_storm_torso": "Ninja Storm Chestplate",
   "item.powerrangerscraft.ninja_storm_legs": "Ninja Storm Leggings",
 
+  "item.powerrangerscraft.red_wind_morpher": "Wind Morpher",
   "item.powerrangerscraft.blue_wind_morpher": "Wind Morpher",
+  "item.powerrangerscraft.samurai_cyclone_morpher": "Samurai Cyclone Morpher",
 
+  "item.powerrangerscraft.red_wind_ninja_power_disk": "Red Wind Ninja Power Disk",
   "item.powerrangerscraft.blue_wind_ninja_power_disk": "Blue Wind Ninja Power Disk",
   "item.powerrangerscraft.green_samurai_ninja_power_disk": "Green Samurai Ninja Power Disk",
 
+  "powerrangerscraft:red_wind_ninja_power_disk.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:blue_wind_ninja_power_disk.form": "Ranger: §bBlue Ranger",
+  "powerrangerscraft:green_samurai_ninja_power_disk.form": "Ranger: §aGreen Ranger",
 
   "item.powerrangerscraft.ninja_sword": "Ninja Sword",
   "item.powerrangerscraft.hawk_blaster": "Hawk Blaster",
@@ -635,10 +640,13 @@
   "item.powerrangerscraft.dino_thunder_torso": "Dino Thunder Chestplate",
   "item.powerrangerscraft.dino_thunder_legs": "Dino Thunder Leggings",
 
+  "item.powerrangerscraft.red_dino_morpher": "Dino Morpher",
   "item.powerrangerscraft.yellow_dino_morpher": "Dino Morpher",
 
+  "item.powerrangerscraft.red_dino_gem": "Red Dino Gem",
   "item.powerrangerscraft.yellow_dino_gem": "Yellow Dino Gem",
 
+  "powerrangerscraft:red_dino_gem.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:yellow_dino_gem.form": "Ranger: §eYellow Ranger",
 
   "item.powerrangerscraft.thundermax_saber": "Thundermax Saber",
@@ -674,10 +682,13 @@
   "item.powerrangerscraft.mystic_force_torso": "Mystic Force Chestplate",
   "item.powerrangerscraft.mystic_force_legs": "Mystic Force Leggings",
 
+  "item.powerrangerscraft.red_mystic_morpher": "Mystic Morpher",
   "item.powerrangerscraft.green_mystic_morpher": "Mystic Morpher",
 
+  "item.powerrangerscraft.red_mystic_morpher_plate": "Red Mystic Morpher Plate",
   "item.powerrangerscraft.green_mystic_morpher_plate": "Green Mystic Morpher Plate",
 
+  "powerrangerscraft:red_mystic_morpher_plate.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:green_mystic_morpher_plate.form": "Ranger: §aGreen Ranger",
 
   "item.powerrangerscraft.magi_wand_green": "Green Magi Wand",
@@ -762,10 +773,34 @@
   "block.powerrangerscraft.corona_aurora": "Corona Aurora",
 
   //16 Jungle Fury
+  "tab.powerrangerscraft.jungle_fury": "Jungle Fury",
+
   "item.powerrangerscraft.jungle_fury_logo": "Jungle Fury Logo",
 
+  "item.powerrangerscraft.jungle_fury_head": "Jungle Fury Helmet",
+  "item.powerrangerscraft.jungle_fury_torso": "Jungle Fury Chestplate",
+  "item.powerrangerscraft.jungle_fury_legs": "Jungle Fury Leggings",
+
+  "item.powerrangerscraft.red_solar_morpher": "Solar Morpher",
+
+  "item.powerrangerscraft.tiger_spirit": "Tiger Spirit",
+
+  "powerrangerscraft:tiger_spirit.form": "Ranger: §cRed Ranger",
+
   //17 RPM
+  "tab.powerrangerscraft.rpm": "RPM",
+
   "item.powerrangerscraft.rpm_logo": "RPM Logo",
+
+  "item.powerrangerscraft.rpm_head": "RPM Helmet",
+  "item.powerrangerscraft.rpm_torso": "RPM Chestplate",
+  "item.powerrangerscraft.rpm_legs": "RPM Leggings",
+
+  "item.powerrangerscraft.red_cell_shift_morpher": "Cell Shift Morpher",
+
+  "item.powerrangerscraft.eagle_racer_engine_cell": "Eagle Racer Engine Cell",
+
+  "powerrangerscraft:eagle_racer_engine_cell.form": "Ranger: §cRed Ranger",
 
   //18-19 Samurai/Super Samurai
   "tab.powerrangerscraft.samurai": "(Super) Samurai",

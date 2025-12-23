@@ -83,7 +83,15 @@ public class RangerTabs {
             CreativeModeTab.builder().icon(() -> new ItemStack(OperationOverdriveItems.OPERATION_OVERDRIVE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_operation_overdrive_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.operation_overdrive")).build());
 
-    public static DeferredHolder<CreativeModeTab, CreativeModeTab> SamuraiTab = CREATIVE_MODE_TABS.register("prc017", () ->
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> JungleFuryTab = CREATIVE_MODE_TABS.register("prc016", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(JungleFuryItems.JUNGLE_FURY_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_jungle_fury_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.jungle_fury")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> RPMTab = CREATIVE_MODE_TABS.register("prc017", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(RPMItems.RPM_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_rpm_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.rpm")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> SamuraiTab = CREATIVE_MODE_TABS.register("prc018", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(SamuraiItems.SAMURAI_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_samurai_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.samurai")).build());
 
@@ -176,6 +184,10 @@ public class RangerTabs {
     public static List<Item> MYSTIC_FORCE= new ArrayList<Item>();
 
     public static List<Item> OPERATION_OVERDRIVE= new ArrayList<Item>();
+
+    public static List<Item> JUNGLE_FURY= new ArrayList<Item>();
+
+    public static List<Item> RPM= new ArrayList<Item>();
 
     public static List<Item> SAMURAI= new ArrayList<Item>();
 
@@ -308,6 +320,20 @@ public class RangerTabs {
             for (int i = 0; i < RangerTabs.OPERATION_OVERDRIVE.size(); i++)
             {
                 event.accept( RangerTabs.OPERATION_OVERDRIVE.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.JungleFuryTab.get()) {
+            for (int i = 0; i < RangerTabs.JUNGLE_FURY.size(); i++)
+            {
+                event.accept( RangerTabs.JUNGLE_FURY.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.RPMTab.get()) {
+            for (int i = 0; i < RangerTabs.RPM.size(); i++)
+            {
+                event.accept( RangerTabs.RPM.get(i));
             }
 
         }
