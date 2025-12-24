@@ -5,6 +5,8 @@ import com.docrider.powerrangerscraft.items.others.BaseItem;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
+import com.docrider.powerrangerscraft.items.rpm.CellShiftMorpherItem;
+import com.docrider.powerrangerscraft.items.samurai.SamuraizerItem;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
@@ -30,7 +32,7 @@ public class RPMItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.RPM).ChangeRepairItem(RPM_LOGO.get()));
 
     public static final DeferredItem<Item> RED_CELL_SHIFT_MORPHER = ITEMS.register("red_cell_shift_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"rpm_red", EAGLE_RACER_ENGINE_CELL,RPM_HELMET,RPM_CHESTPLATE,RPM_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RPM).ChangeRepairItem(RPM_LOGO.get()));
+            () -> new CellShiftMorpherItem(ArmorMaterials.DIAMOND,"rpm_red", EAGLE_RACER_ENGINE_CELL,RPM_HELMET,RPM_CHESTPLATE,RPM_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.RPM).ChangeRepairItem(RPM_LOGO.get()));
 
 
     public static void register(IEventBus eventBus) {

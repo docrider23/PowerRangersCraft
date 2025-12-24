@@ -20,6 +20,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class SamuraiItems {
 
 	public static String[] SAMURAI= new String[] {"samurai_red","samurai_blue","samurai_pink","samurai_green","samurai_yellow","princess_samurai_red","samurai_gold"};
+	public static String[] SAMURAI_PLUS= new String[] {"samurai_red","samurai_blue","samurai_pink","samurai_green","samurai_yellow","princess_samurai_red","samurai_gold","rpm_red"};
 
 	public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
     
@@ -102,7 +103,7 @@ public class SamuraiItems {
             		new MobEffectInstance(MobEffects.JUMP, 40, 4,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 5,true,false),
             		new MobEffectInstance(EffectCore.FLYING, 40, 5,true,false))
-            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(SAMURAI).AddToTabList(RangerTabs.SAMURAI));
+            .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(SAMURAI_PLUS).AddToTabList(RangerTabs.SAMURAI));
 
 	public static final DeferredItem<Item> BULL_DISC = ITEMS.register("bull_disc",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.SAMURAI));
