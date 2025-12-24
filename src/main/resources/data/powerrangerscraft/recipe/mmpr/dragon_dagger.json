@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mmpr_green",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:mmpr_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:dragon_power_coin"
+    },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:dragon_dagger"
+  }
+}

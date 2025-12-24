@@ -197,35 +197,25 @@ public class MMPRItems {
 
     public static final DeferredItem<SwordItem> BLADE_BLASTER = ITEMS.register("blade_blaster",
             () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
-/*    public static final DeferredItem<PickaxeItem> DRILL_BUTE = ITEMS.register("drill_bute",
-            () -> new BasePickaxeItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
-    public static final DeferredItem<BaseBlasterItem> SILVER_SHOT = ITEMS.register("silver_shot",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
-*/
+
+    public static final DeferredItem<SwordItem> POWER_SWORD = ITEMS.register("power_sword",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<BaseBlasterItem> POWER_AXE = ITEMS.register("power_axe",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
-
-
     public static final DeferredItem<SwordItem> POWER_LANCE = ITEMS.register("power_lance",
             () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<SwordItem> POWER_LANCE_TRIDENT = ITEMS.register("power_lance_trident",
             () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+    public static final DeferredItem<SwordItem> POWER_DAGGER = ITEMS.register("power_dagger",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> POWER_BOW = ITEMS.register("power_bow",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 
-/*
-    public static final DeferredItem<BaseThrowableItem> MOMO_CARD = ITEMS.register("momo_card",
-            () -> new BaseThrowableItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsShuriken().AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
-    public static final DeferredItem<BaseExplosiveItem> EARRING_BOMB = ITEMS.register("earring_bomb",
-            () -> new BaseExplosiveItem(new Item.Properties(), 1).AddToTabList(RangerTabs.GORANGER));
-    public static final DeferredItem<Item> MOMO_MIRROR = ITEMS.register("momo_mirror",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.GORANGER));
+    public static final DeferredItem<SwordItem> DRAGON_DAGGER = ITEMS.register("dragon_dagger",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+    public static final DeferredItem<SwordItem> SABA = ITEMS.register("saba",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 
-    public static final DeferredItem<BaseBlasterItem> MIDO_PUNCHER = ITEMS.register("mido_puncher",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
-    public static final DeferredItem<BaseThrowableItem> MIDOMERANG = ITEMS.register("midomerang",
-            () -> new BaseThrowableItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
-    public static final DeferredItem<BaseThrowableItem> NEW_MIDOMERANG = ITEMS.register("new_midomerang",
-            () -> new BaseThrowableItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.GORANGER).ChangeRepairItem(GORANGER_LOGO.get()));
-*/
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
