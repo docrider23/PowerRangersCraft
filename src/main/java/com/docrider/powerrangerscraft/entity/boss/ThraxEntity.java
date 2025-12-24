@@ -25,7 +25,7 @@ public class ThraxEntity extends BaseFootsoldierEntity {
 
     public ThraxEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="dr_thrax";
+        NAME="thrax";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(OperationOverdriveItems.OPERATION_OVERDRIVE_HELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(OperationOverdriveItems.OPERATION_OVERDRIVE_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(OperationOverdriveItems.OPERATION_OVERDRIVE_LEGGINGS.get()));

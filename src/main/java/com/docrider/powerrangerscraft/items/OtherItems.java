@@ -42,12 +42,6 @@ public class OtherItems {
                     new MobEffectInstance(EffectCore.BIG, 40, 2,true,false))
                     .ChangeSlot(2).addSwitchForm(BLANK_FORM.get()).AddCompatibilityList(SentaiRobo).AddToTabList(RangerTabs.MISC));
 
-    public static final DeferredItem<Item> MEGAFORCE_LOGO = ITEMS.register("megaforce_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
-    public static final DeferredItem<Item> SUPER_MEGAFORCE_LOGO = ITEMS.register("super_megaforce_logo",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
-
     public static final DeferredItem<Item> GO_GO_POWER_RANGERS_MUSIC_DISC = ITEMS.register("go_go_power_rangers_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.GO_GO_POWER_RANGERS_KEY).stacksTo(1)));
 

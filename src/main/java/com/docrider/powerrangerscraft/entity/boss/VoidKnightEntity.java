@@ -24,7 +24,7 @@ public class VoidKnightEntity extends BaseFootsoldierEntity {
 
     public VoidKnightEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="ld_gaisoulg";
+        NAME="void_knight";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(DinoFuryItems.DINO_FURY_HELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(DinoFuryItems.DINO_FURY_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(DinoFuryItems.DINO_FURY_LEGGINGS.get()));

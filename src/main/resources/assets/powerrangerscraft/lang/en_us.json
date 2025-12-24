@@ -904,10 +904,34 @@
   "item.powerrangerscraft.super_bullzooka": "Super Bullzooka",
 
   //20 Megaforce
+  "tab.powerrangerscraft.megaforce": "Megaforce",
+
   "item.powerrangerscraft.megaforce_logo": "Megaforce Logo",
 
+  "item.powerrangerscraft.megaforce_head": "Megaforce Helmet",
+  "item.powerrangerscraft.megaforce_torso": "Megaforce Chestplate",
+  "item.powerrangerscraft.megaforce_legs": "Megaforce Leggings",
+
+  "item.powerrangerscraft.red_gosei_morpher": "Gosei Morpher",
+
+  "item.powerrangerscraft.red_change_power_card": "Red Change Power Card",
+
+  "powerrangerscraft:red_change_power_card.form": "Ranger: §cRed Ranger",
+
   //21 Super Megaforce
+  "tab.powerrangerscraft.super_megaforce": "Super Megaforce",
+
   "item.powerrangerscraft.super_megaforce_logo": "Super Megaforce Logo",
+
+  "item.powerrangerscraft.super_megaforce_head": "Super Megaforce Helmet",
+  "item.powerrangerscraft.super_megaforce_torso": "Super Megaforce Chestplate",
+  "item.powerrangerscraft.super_megaforce_legs": "Super Megaforce Leggings",
+
+  "item.powerrangerscraft.red_legendary_morpher": "Legendary Morpher",
+
+  "item.powerrangerscraft.super_megaforce_red_key": "Super Megaforce Red Legendary Ranger Key",
+
+  "powerrangerscraft:super_megaforce_red_key.form": "Ranger: §cRed Ranger",
 
   //22-23 Dino Charge/Dino Supercharge
   "tab.powerrangerscraft.dino_charge": "Dino (Super)Charge",
@@ -918,13 +942,18 @@
   "item.powerrangerscraft.dino_charge_torso": "Dino Charge Chestplate",
   "item.powerrangerscraft.dino_charge_legs": "Dino Charge Leggings",
 
+  "item.powerrangerscraft.red_dino_charge_morpher": "Dino Charge Morpher",
   "item.powerrangerscraft.dark_spino_boomerang": "Spino Boomerang",
 
   "item.powerrangerscraft.spinosaurus_dino_charger": "Spino Dino Charger",
+  "item.powerrangerscraft.tyrannosaurus_rex_dino_charger": "T-Rex Dino Charger",
   "item.powerrangerscraft.dino_cycle_charger": "Dino Cycle Charger",
 
+  "powerrangerscraft:tyrannosaurus_rex_dino_charger.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:spinosaurus_dino_charger.form": "Ranger: §1Dark Ranger",
 
+  "item.powerrangerscraft.dino_charge_morpher": "Dino Charge Morpher",
+  "item.powerrangerscraft.t_rex_smasher": "T-Rex Smasher",
   "item.powerrangerscraft.spino_boomerang": "Spino Boomerang",
 
   //24-25 Ninja Steel

@@ -95,6 +95,14 @@ public class RangerTabs {
             CreativeModeTab.builder().icon(() -> new ItemStack(SamuraiItems.SAMURAI_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_samurai_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.samurai")).build());
 
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> MegaforceTab = CREATIVE_MODE_TABS.register("prc019", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(MegaforceItems.MEGAFORCE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_megaforce_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.megaforce")).build());
+
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> SuperMegaforceTab = CREATIVE_MODE_TABS.register("prc020", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(SuperMegaforceItems.SUPER_MEGAFORCE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_super_megaforce_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.super_megaforce")).build());
+
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> DinoChargeTab = CREATIVE_MODE_TABS.register("prc021", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(DinoChargeItems.DINO_CHARGE_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_dino_charge_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.dino_charge")).build());
@@ -190,6 +198,10 @@ public class RangerTabs {
     public static List<Item> RPM= new ArrayList<Item>();
 
     public static List<Item> SAMURAI= new ArrayList<Item>();
+
+    public static List<Item> MEGAFORCE= new ArrayList<Item>();
+
+    public static List<Item> SUPER_MEGAFORCE= new ArrayList<Item>();
 
     public static List<Item> DINO_CHARGE= new ArrayList<Item>();
 
@@ -341,6 +353,20 @@ public class RangerTabs {
             for (int i = 0; i < RangerTabs.SAMURAI.size(); i++)
             {
                 event.accept( RangerTabs.SAMURAI.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.MegaforceTab.get()) {
+            for (int i = 0; i < RangerTabs.MEGAFORCE.size(); i++)
+            {
+                event.accept( RangerTabs.MEGAFORCE.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.SuperMegaforceTab.get()) {
+            for (int i = 0; i < RangerTabs.SUPER_MEGAFORCE.size(); i++)
+            {
+                event.accept( RangerTabs.SUPER_MEGAFORCE.get(i));
             }
 
         }

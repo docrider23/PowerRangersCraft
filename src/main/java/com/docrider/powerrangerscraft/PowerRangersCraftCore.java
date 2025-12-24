@@ -106,8 +106,8 @@ public class PowerRangersCraftCore {
         JungleFuryItems.register(modEventBus);
         RPMItems.register(modEventBus);
         SamuraiItems.register(modEventBus);
-        //MegaforceItems.register(modEventBus);
-        //SuperMegaforceItems.register(modEventBus);
+        MegaforceItems.register(modEventBus);
+        SuperMegaforceItems.register(modEventBus);
         DinoChargeItems.register(modEventBus);
         NinjaSteelItems.register(modEventBus);
         BeastMorphersItems.register(modEventBus);

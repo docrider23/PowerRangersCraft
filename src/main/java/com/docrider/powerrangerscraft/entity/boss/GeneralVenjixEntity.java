@@ -26,7 +26,7 @@ public class GeneralVenjixEntity extends BaseFootsoldierEntity {
 
     public GeneralVenjixEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="dr_general_venjix";
+        NAME="general_venjix";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(WildForceItems.WILD_FORCE_HELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(WildForceItems.WILD_FORCE_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(WildForceItems.WILD_FORCE_LEGGINGS.get()));

@@ -24,7 +24,7 @@ public class BlueSenturionEvilEntity extends BaseFootsoldierEntity {
 
     public BlueSenturionEvilEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="ld_signalman";
+        NAME="evil_blue_senturion";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(TurboItems.TURBO_HELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(TurboItems.TURBO_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(TurboItems.TURBO_LEGGINGS.get()));

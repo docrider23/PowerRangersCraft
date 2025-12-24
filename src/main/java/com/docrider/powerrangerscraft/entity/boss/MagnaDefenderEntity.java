@@ -24,7 +24,7 @@ public class MagnaDefenderEntity extends BaseFootsoldierEntity {
 
     public MagnaDefenderEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="ld_black_knight";
+        NAME="magna_defender";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(LostGalaxyItems.LOST_GALAXY_HELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(LostGalaxyItems.LOST_GALAXY_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(LostGalaxyItems.LOST_GALAXY_LEGGINGS.get()));

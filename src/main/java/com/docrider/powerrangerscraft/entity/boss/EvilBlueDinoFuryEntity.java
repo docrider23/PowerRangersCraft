@@ -26,7 +26,7 @@ public class EvilBlueDinoFuryEntity extends BaseFootsoldierEntity {
 
     public EvilBlueDinoFuryEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="dr_evil_blue_dino_fury";
+        NAME="evil_blue_dino_fury";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(DinoFuryItems.DINO_FURY_HELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(DinoFuryItems.DINO_FURY_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(DinoFuryItems.DINO_FURY_LEGGINGS.get()));

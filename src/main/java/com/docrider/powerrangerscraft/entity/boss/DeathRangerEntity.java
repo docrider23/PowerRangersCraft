@@ -25,7 +25,7 @@ public class DeathRangerEntity extends BaseFootsoldierEntity {
 
     public DeathRangerEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="dr_death_ranger";
+        NAME="death_ranger";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(ComicsItems.OMEGA_HELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(ComicsItems.OMEGA_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(ComicsItems.OMEGA_LEGGINGS.get()));
