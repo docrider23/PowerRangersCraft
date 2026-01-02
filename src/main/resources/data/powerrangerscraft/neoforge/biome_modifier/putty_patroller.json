@@ -1,10 +1,10 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "#powerrangerscraft:putty_patroller",
+  "biomes": "#minecraft:is_overworld",
   "spawners": {
     "type": "powerrangerscraft:putty_patroller",
     "weight": 15,
-    "minCount": 3,
+    "minCount": 1,
     "maxCount": 5
   }
 }
