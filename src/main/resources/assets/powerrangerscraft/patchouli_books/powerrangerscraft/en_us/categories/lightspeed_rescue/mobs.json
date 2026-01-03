@@ -1,7 +1,7 @@
 {
-	"parent": "powerrangerscraft:lost_galaxy/main",
-    "name": "Lost Galaxy Mobs",
-    "description": "Every mob from or relating to the Power Rangers Lost Galaxy series.",
+	"parent": "powerrangerscraft:lightspeed_rescue/main",
+    "name": "Lightspeed Rescue Mobs",
+    "description": "Every mob from or relating to the Power Rangers Lightspeed Rescue series.",
     "icon": "powerrangerscraft:thrax_codpiece",
     "sortnum": 4
 }

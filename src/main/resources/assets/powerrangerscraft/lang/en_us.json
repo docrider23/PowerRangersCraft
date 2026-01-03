@@ -27,6 +27,9 @@
 
   "entity.powerrangerscraft.putty_patroller":"Putty Patrollers",
   "item.powerrangerscraft.putty_patroller_spawn_egg":"Putty Patrollers Spawn Egg",
+  "entity.powerrangerscraft.goldar":"Goldar",
+  "entity.powerrangerscraft.goldar_maximus":"Goldar Maximus",
+  "item.powerrangerscraft.goldar_spawn_egg":"Goldar Spawn Egg",
 
   "entity.powerrangerscraft.cog":"Cogs",
   "item.powerrangerscraft.cog_spawn_egg":"Cogs Spawn Egg",
@@ -114,6 +117,7 @@
   "block.powerrangerscraft.deepslate_logo_ore": "Deepslate Power Rangers Logo Ore",
 
   //00 Mobs Weapon
+  "item.powerrangerscraft.goldar_sword": "Goldar's Sword",
   "item.powerrangerscraft.cog_spear": "Cogs Spear",
   "item.powerrangerscraft.chromites_sword":"Chromites Sword",
   "item.powerrangerscraft.swabbies_cutlass": "Swabbies Cutlass",
@@ -985,6 +989,8 @@
   "item.powerrangerscraft.beast_morphers_torso": "Beast Morphers Chestplate",
   "item.powerrangerscraft.beast_morphers_legs": "Beast Morphers Leggings",
 
+  "item.powerrangerscraft.morph_x_canister": "Morph-X Canister",
+
   "item.powerrangerscraft.red_beast_x_morpher": "Beast-X Morpher",
   "item.powerrangerscraft.blue_beast_x_morpher": "Beast-X Morpher",
   "item.powerrangerscraft.yellow_beast_x_morpher": "Beast-X Morpher",
@@ -1461,6 +1467,8 @@
   "item.powerrangerscraft.mecha_gear":"Mecha Gear",
   "block.powerrangerscraft.mecha_nether_ore":"Mecha Nether Ore",
   "block.powerrangerscraft.deepslate_mecha_ore":"Deepslate Mecha Ore",
+
+  "block.powerrangerscraft.warehouse_siding": "Warehouse Siding",
 
   "item.powerrangerscraft.transportal_device": "Transportal Device",
   "item.powerrangerscraft.gift": "Gift",

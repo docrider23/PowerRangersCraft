@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:time_force/main",
+    "name": "Time Force Ranger Items",
+    "description": "All Time Force-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:time_force_red_badge",
+    "sortnum": 2
+}

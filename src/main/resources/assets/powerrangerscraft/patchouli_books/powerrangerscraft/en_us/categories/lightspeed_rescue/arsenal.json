@@ -1,7 +1,7 @@
 {
-	"parent": "powerrangerscraft:lost_galaxy/main",
-    "name": "Lost Galaxy Arsenal",
-    "description": "Every weapon and tool used by the Galaxy Rangers. These can be repaired in an anvil using $(l:lost_galaxy/items/lost_galaxy_logo)Lost Galaxy Logos$(/l).",
-    "icon": "powerrangerscraft:quasar_saber",
+	"parent": "powerrangerscraft:lightspeed_rescue/main",
+    "name": "Lightspeed Rescue Arsenal",
+    "description": "Every weapon and tool used by the Lightspeed Rangers. These can be repaired in an anvil using $(l:lightspeed_rescue/items/lightspeed_rescue_logo)Lightspeed Rescue Logos$(/l).",
+    "icon": "powerrangerscraft:rescue_blaster_red",
     "sortnum": 3
 }

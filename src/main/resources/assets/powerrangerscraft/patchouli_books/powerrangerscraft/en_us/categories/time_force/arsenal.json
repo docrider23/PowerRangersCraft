@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:time_force/main",
+    "name": "Time Force Arsenal",
+    "description": "Every weapon and tool used by the Time Force Rangers. These can be repaired in an anvil using $(l:time_force/items/time_force_logo)Time Force Logos$(/l).",
+    "icon": "powerrangerscraft:chrono_saber_red_2",
+    "sortnum": 3
+}

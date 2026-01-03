@@ -1,7 +1,7 @@
 {
-	"parent": "powerrangerscraft:lost_galaxy/main",
-    "name": "Lost Galaxy Morphers",
-    "description": "The transformation devices used by the Galaxy Rangers. These can be repaired in an anvil using $(l:lost_galaxy/items/lost_galaxy_logo)Lost Galaxy Logos$(/l).",
-    "icon": "powerrangerscraft:red_transmorpher",
+	"parent": "powerrangerscraft:lightspeed_rescue/main",
+    "name": "Lightspeed Rescue Morphers",
+    "description": "The transformation devices used by the Lightspeed Rangers. These can be repaired in an anvil using $(l:lightspeed_rescue/items/lightspeed_rescue_logo)Lightspeed Rescue Logos$(/l).",
+    "icon": "powerrangerscraft:red_rescue_morpher",
     "sortnum": 1
 }

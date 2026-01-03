@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/saban_era",
+    "name": "Power Rangers Wild Force",
+    "description": "Everything related to the Power Rangers Wild Force series.",
+    "icon": "powerrangerscraft:wild_force_logo",
+    "sortnum": 8
+}

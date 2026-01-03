@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:wild_force/main",
+    "name": "Wild Force Arsenal",
+    "description": "Every weapon and tool used by the Wild Force Rangers. These can be repaired in an anvil using $(l:wild_force/items/animal_crystals#empty_animal_crystal)Empty Animal Crystals$(/l).",
+    "icon": "powerrangerscraft:crystal_saber",
+    "sortnum": 3
+}

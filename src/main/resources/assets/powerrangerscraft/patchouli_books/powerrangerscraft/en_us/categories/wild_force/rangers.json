@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:wild_force/main",
+    "name": "Wild Force Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Wild Force series.",
+    "icon": "powerrangerscraft:wild_force_head",
+    "sortnum": 0
+}
