@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "beast_morphers",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:blank_morph_x_key"
+    },
+	{
+      "item": "minecraft:paper",
+	  "data": 0
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:beast_morphers_logo"
+  }
+}

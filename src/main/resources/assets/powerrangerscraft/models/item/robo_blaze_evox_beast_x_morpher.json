@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "powerrangerscraft:item/robo_blaze_evox_beast_x_morpher"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "powerrangerscraft:item/roxy_morph_x_key"
+  }
+}

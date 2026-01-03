@@ -1,0 +1,93 @@
+package com.docrider.powerrangerscraft.items;
+
+import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.blocks.machineBlocks.AnimalDNARepository;
+import com.docrider.powerrangerscraft.items.beast_morphers.MorphXKeyItem;
+import com.docrider.powerrangerscraft.items.others.*;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterials;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+public class BeastMorphersItems {
+
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
+
+    public static final DeferredItem<Item> BEAST_MORPHERS_LOGO = ITEMS.register("beast_morphers_logo",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS));
+
+    public static final DeferredItem<Item> BLANK_MORPH_X_KEY = ITEMS.register("blank_morph_x_key",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS));
+
+    public static final DeferredItem<Item> RED_MORPH_X_KEY = ITEMS.register("red_morph_x_key",
+            () -> new MorphXKeyItem(new Item.Properties(),0,"","beast_morphers_red","beast_morphers_belt")
+                    .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.BEAST_MORPHERS).AddToList(AnimalDNARepository.ANIMAL_DNA_REPOSITORY, 10));
+    public static final DeferredItem<Item> BLUE_MORPH_X_KEY = ITEMS.register("blue_morph_x_key",
+            () -> new MorphXKeyItem(new Item.Properties(),0,"","beast_morphers_blue","beast_morphers_belt")
+                    .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.BEAST_MORPHERS).AddToList(AnimalDNARepository.ANIMAL_DNA_REPOSITORY, 10));
+    public static final DeferredItem<Item> YELLOW_MORPH_X_KEY = ITEMS.register("yellow_morph_x_key",
+            () -> new MorphXKeyItem(new Item.Properties(),0,"","beast_morphers_yellow","beast_morphers_belt")
+                    .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.BEAST_MORPHERS).AddToList(AnimalDNARepository.ANIMAL_DNA_REPOSITORY, 10));
+    public static final DeferredItem<Item> GOLD_MORPH_X_KEY = ITEMS.register("gold_morph_x_key",
+            () -> new MorphXKeyItem(new Item.Properties(),0,"","beast_morphers_gold","beast_morphers_gold_silver_belt")
+                    .AddToTabList(RangerTabs.BEAST_MORPHERS).AddToList(AnimalDNARepository.ANIMAL_DNA_REPOSITORY, 10));
+    public static final DeferredItem<Item> SILVER_MORPH_X_KEY = ITEMS.register("silver_morph_x_key",
+            () -> new MorphXKeyItem(new Item.Properties(),0,"","beast_morphers_silver","beast_morphers_gold_silver_belt")
+                    .AddToTabList(RangerTabs.BEAST_MORPHERS).AddToList(AnimalDNARepository.ANIMAL_DNA_REPOSITORY, 10));
+    public static final DeferredItem<Item> ORANGE_MORPH_X_KEY = ITEMS.register("orange_morph_x_key",
+            () -> new MorphXKeyItem(new Item.Properties(),0,"","beast_morphers_orange","beast_morphers_belt")
+                    .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.BEAST_MORPHERS).AddToList(AnimalDNARepository.ANIMAL_DNA_REPOSITORY, 1));
+
+    public static final DeferredItem<Item> BLAZE_MORPH_X_KEY = ITEMS.register("blaze_morph_x_key",
+            () -> new MorphXKeyItem(new Item.Properties(),0,"","cybervillain_blaze","cybervillain_blaze_belt")
+                    .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.BEAST_MORPHERS));
+    public static final DeferredItem<Item> ROXY_MORPH_X_KEY = ITEMS.register("roxy_morph_x_key",
+            () -> new MorphXKeyItem(new Item.Properties(),0,"","cybervillain_roxy","blank")
+                    .ChangeModel("roxy.geo.json").AddToTabList(RangerTabs.BEAST_MORPHERS));
+    public static final DeferredItem<Item> ROBO_BLAZE_MORPH_X_KEY = ITEMS.register("robo_blaze_morph_x_key",
+            () -> new MorphXKeyItem(new Item.Properties(),0,"","cybervillain_robo_blaze","blank")
+                    .AddToTabList(RangerTabs.BEAST_MORPHERS));
+    public static final DeferredItem<Item> ROBO_ROXY_MORPH_X_KEY = ITEMS.register("robo_roxy_morph_x_key",
+            () -> new MorphXKeyItem(new Item.Properties(),0,"","cybervillain_robo_roxy","blank")
+                    .ChangeModel("roxy.geo.json").AddToTabList(RangerTabs.BEAST_MORPHERS));
+
+    public static final DeferredItem<Item> BEAST_MORPHERS_HELMET = ITEMS.register("beast_morphers_head",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+    public static final DeferredItem<Item> BEAST_MORPHERS_CHESTPLATE = ITEMS.register("beast_morphers_torso",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+    public static final DeferredItem<Item> BEAST_MORPHERS_LEGGINGS = ITEMS.register("beast_morphers_legs",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+
+    public static final DeferredItem<Item> RED_BEAST_X_MORPHER = ITEMS.register("red_beast_x_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"beast_morphers_red", RED_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+    public static final DeferredItem<Item> BLUE_BEAST_X_MORPHER = ITEMS.register("blue_beast_x_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"beast_morphers_blue", BLUE_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+    public static final DeferredItem<Item> YELLOW_BEAST_X_MORPHER = ITEMS.register("yellow_beast_x_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"beast_morphers_yellow", YELLOW_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+    public static final DeferredItem<Item> GOLD_STRIKER_MORPHER = ITEMS.register("gold_striker_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"beast_morphers_gold", GOLD_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+    public static final DeferredItem<Item> SILVER_STRIKER_MORPHER = ITEMS.register("silver_striker_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"beast_morphers_silver", SILVER_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+    public static final DeferredItem<Item> ORANGE_BEAST_X_MORPHER = ITEMS.register("orange_beast_x_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"beast_morphers_orange", ORANGE_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+
+    public static final DeferredItem<Item> BLAZE_EVOX_BEAST_X_MORPHER = ITEMS.register("blaze_evox_beast_x_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"cybervillain_blaze", BLAZE_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+    public static final DeferredItem<Item> ROXY_EVOX_BEAST_X_MORPHER = ITEMS.register("roxy_evox_beast_x_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"cybervillain_roxy", ROXY_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+    public static final DeferredItem<Item> ROBO_BLAZE_EVOX_BEAST_X_MORPHER = ITEMS.register("robo_blaze_evox_beast_x_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"cybervillain_robo_blaze", ROBO_BLAZE_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+    public static final DeferredItem<Item> ROBO_ROXY_EVOX_BEAST_X_MORPHER = ITEMS.register("robo_roxy_evox_beast_x_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"cybervillain_robo_roxy", ROBO_ROXY_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> STRIKER_MORPHER = ITEMS.register("striker_morpher",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
+}
