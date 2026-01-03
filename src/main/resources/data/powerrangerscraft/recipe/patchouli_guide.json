@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "powerrangerscraft:power_rangers_logo"
+    }
+	],
+	"result": {
+	  "id": "patchouli:guide_book",
+	  "components": {
+		"patchouli:book": "powerrangerscraft:powerrangerscraft"
+	  }
+	}
+  }
+  
