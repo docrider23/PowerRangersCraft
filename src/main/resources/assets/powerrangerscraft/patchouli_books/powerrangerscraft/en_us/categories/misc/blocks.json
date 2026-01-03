@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:misc/misc",
+    "name": "Ranger Blocks",
+    "description": "Every block currently available in Power Rangers Craft.",
+    "icon": "powerrangerscraft:corona_aurora",
+    "sortnum": 1
+}

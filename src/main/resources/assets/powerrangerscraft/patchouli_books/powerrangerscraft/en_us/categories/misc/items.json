@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:misc/misc",
+    "name": "Misc. Ranger Items",
+    "description": "Items that are either connected to multiple Rangers from different series or are not related to any particular Ranger series.",
+    "icon": "powerrangerscraft:battle_for_the_grid_game",
+    "sortnum": 0
+}

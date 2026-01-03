@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:zeo/main",
+    "name": "Zeo Ranger Items",
+    "description": "All Zeo-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:red_zeo_sub_crystal",
+    "sortnum": 2
+}

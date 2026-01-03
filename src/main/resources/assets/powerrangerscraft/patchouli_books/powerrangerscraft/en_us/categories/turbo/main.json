@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/saban_era",
+    "name": "Power Rangers Turbo",
+    "description": "Everything related to the Power Rangers Turbo series.",
+    "icon": "powerrangerscraft:turbo_logo",
+    "sortnum": 3
+}

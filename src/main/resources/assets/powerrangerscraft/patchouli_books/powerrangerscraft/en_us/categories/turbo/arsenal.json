@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:turbo/main",
+    "name": "Turbo Arsenal",
+    "description": "Every weapon and tool used by the Turbo Rangers. These can be repaired in an anvil using $(l:turbo/items/turbo_logo)Turbo Logos$(/l).",
+    "icon": "powerrangerscraft:auto_blaster",
+    "sortnum": 3
+}

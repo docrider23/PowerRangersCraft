@@ -1,0 +1,22 @@
+{
+	"name": "Ranger Villager Trades",
+	"icon": "minecraft:emerald",
+	"category": "powerrangerscraft:misc/misc",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Power Rangers Craft includes new trade offers for existing Villagers."
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "wandering_trader",
+			"entity": "minecraft:wandering_trader",
+			"name": "Wandering Trader"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Trades:$(li)$(l:misc/items/battle_for_the_grid_game)Battle for the Grid Game$(/l) for 2 emeralds$(li)$(l:misc/items/game_controller_16_bit)16-bit Game Controller$(/l) for 2 emeralds$(li)$(l:operation_overdrive/items/dragon_scale)Fireheart's Scale$(/l) for 10 emeralds"
+		}
+	]
+}

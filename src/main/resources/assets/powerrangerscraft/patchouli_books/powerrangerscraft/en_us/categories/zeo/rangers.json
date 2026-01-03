@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:zeo/main",
+    "name": "Zeo Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Zeo series.",
+    "icon": "powerrangerscraft:zeo_head",
+    "sortnum": 0
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:alien/main",
+    "name": "Alien Rangers",
+    "description": "Every Ranger from or relating to the Mighty Morphin' Alien Rangers series.",
+    "icon": "powerrangerscraft:alien_head",
+    "sortnum": 0
+}

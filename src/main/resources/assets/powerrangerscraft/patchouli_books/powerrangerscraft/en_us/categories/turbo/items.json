@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:turbo/main",
+    "name": "Turbo Ranger Items",
+    "description": "All Turbo-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:red_turbo_key",
+    "sortnum": 2
+}

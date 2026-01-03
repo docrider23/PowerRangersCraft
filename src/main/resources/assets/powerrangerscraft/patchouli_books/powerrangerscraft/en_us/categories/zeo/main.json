@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/saban_era",
+    "name": "Power Rangers Zeo",
+    "description": "Everything related to the Power Rangers Zeo series.",
+    "icon": "powerrangerscraft:zeo_logo",
+    "sortnum": 2
+}

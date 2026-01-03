@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:alien/main",
+    "name": "Alien Ranger Items",
+    "description": "All Alien-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:red_alien_power_coin",
+    "sortnum": 2
+}
