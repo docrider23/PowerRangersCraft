@@ -216,6 +216,16 @@ public class MMPRItems {
     public static final DeferredItem<SwordItem> SABA = ITEMS.register("saba",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 
+    public static final DeferredItem<Item> Z_EMBLEM_GOLDAR = ITEMS.register("z_emblem_goldar",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","goldar","blank")
+                    .ChangeModel("goldar.geo.json"));
+    public static final DeferredItem<Item> GOLDAR_BELT = ITEMS.register("goldar_belt",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"goldar", Z_EMBLEM_GOLDAR, MMPR_HELMET, MMPR_CHESTPLATE, MMPR_LEGGINGS,new Item.Properties()).ChangeRepairItem(MMPR_LOGO.get()));
+    public static final DeferredItem<Item> Z_EMBLEM_GOLDAR_MAXIMUS = ITEMS.register("z_emblem_goldar_maximus",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_maximus","goldar","blank")
+                    .ChangeModel("goldar_maximus.geo.json"));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

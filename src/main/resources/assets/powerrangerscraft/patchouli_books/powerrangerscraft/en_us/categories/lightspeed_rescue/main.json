@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/saban_era",
+    "name": "Power Rangers Lightspeed Rescue",
+    "description": "Everything related to the Power Rangers Lightspeed Rescue series.",
+    "icon": "powerrangerscraft:lightspeed_rescue_logo",
+    "sortnum": 6
+}

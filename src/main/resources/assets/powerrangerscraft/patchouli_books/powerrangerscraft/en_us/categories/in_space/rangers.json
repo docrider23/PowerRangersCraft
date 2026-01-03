@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:in_space/main",
+    "name": "Space Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers In Space series.",
+    "icon": "powerrangerscraft:in_space_head",
+    "sortnum": 0
+}

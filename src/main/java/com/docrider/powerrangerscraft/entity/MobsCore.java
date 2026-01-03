@@ -27,6 +27,12 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     public static final DeferredItem<DeferredSpawnEggItem> PUTTY_PATROLLERS_SPAWN_EGG = ITEMS.register("putty_patroller_spawn_egg",
             () -> new DeferredSpawnEggItem(PUTTY_PATROLLERS, 0xa3a2a2, 0xa1a1a1, new Item.Properties()));
 
+    public static final DeferredHolder<EntityType<?>, EntityType<GoldarEntity>> GOLDAR = MOBLIST.register("goldar",
+            () -> EntityType.Builder.of(GoldarEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":goldar"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> GOLDAR_SPAWN_EGG = ITEMS.register("goldar_spawn_egg",
+            () -> new DeferredSpawnEggItem(GOLDAR, 0xff9900, 0x0a21f2, new Item.Properties()));
+
     //03 Alien
 
     //04 Zeo

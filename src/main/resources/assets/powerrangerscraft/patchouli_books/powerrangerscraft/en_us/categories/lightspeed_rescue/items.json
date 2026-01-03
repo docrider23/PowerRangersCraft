@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:lost_galaxy/main",
+    "name": "Galaxy Ranger Items",
+    "description": "All Lost Galaxy-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:lion_mirinoi_medal",
+    "sortnum": 2
+}

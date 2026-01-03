@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:in_space/main",
+    "name": "In Space Arsenal",
+    "description": "Every weapon and tool used by the Space Rangers. These can be repaired in an anvil using $(l:in_space/items/in_space_logo)In Space Logos$(/l).",
+    "icon": "powerrangerscraft:astro_blaster_combo",
+    "sortnum": 3
+}

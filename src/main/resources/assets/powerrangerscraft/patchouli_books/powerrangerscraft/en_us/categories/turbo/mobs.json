@@ -1,7 +1,7 @@
 {
 	"parent": "powerrangerscraft:turbo/main",
     "name": "Turbo Mobs",
-    "description": "Every mob from or relating to the Power rangers Turbo series.",
+    "description": "Every mob from or relating to the Power Rangers Turbo series.",
     "icon": "powerrangerscraft:thrax_codpiece",
     "sortnum": 4
 }

@@ -12,6 +12,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -89,6 +90,10 @@ public class RangerBlocks {
     public static final DeferredBlock<Block> ANIMAL_DNA_REPOSITORY = registerBlock("animal_dna_repository",
             () -> new AnimalDNARepository(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.COW_BELL)
                     .strength(5.0F,6.0F).sound(SoundType.METAL)).AddToTabList(RangerTabs.BLOCKS));
+
+    public static final DeferredBlock<Block> WAREHOUSE_SIDING = registerBlock("warehouse_siding",
+            () -> new BaseFacingBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .strength(2.0F, 6.0F).sound(SoundType.METAL)).AddToTabList(RangerTabs.BLOCKS));
 
     public static final DeferredBlock<Block> DINO_KEY_ORE = registerBlock("dino_key_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
