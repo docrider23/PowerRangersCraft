@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:mmpr/main",
+    "name": "MMPR Arsenal",
+    "description": "Every weapon and tool used by the MMPR Rangers. These can be repaired in an anvil using $(l:mmpr/items/mmpr_logo)MMPR Logos$(/l).",
+    "icon": "powerrangerscraft:blade_blaster",
+    "sortnum": 3
+}

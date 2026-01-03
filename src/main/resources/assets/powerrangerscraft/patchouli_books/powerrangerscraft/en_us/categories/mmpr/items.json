@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:mmpr/main",
+    "name": "MMPR Ranger Items",
+    "description": "All MMPR-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:tyrannosaurus_power_coin",
+    "sortnum": 2
+}

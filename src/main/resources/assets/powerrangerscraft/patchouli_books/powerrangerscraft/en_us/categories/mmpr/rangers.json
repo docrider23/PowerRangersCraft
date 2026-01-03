@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:mmpr/main",
+    "name": "MMPR Rangers",
+    "description": "Every Ranger from or relating to the Mighty Morphin' Power Rangers series.",
+    "icon": "powerrangerscraft:mmpr_head",
+    "sortnum": 0
+}

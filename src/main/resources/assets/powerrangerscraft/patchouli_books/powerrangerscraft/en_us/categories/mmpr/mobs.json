@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:mmpr/main",
+    "name": "MMPR Mobs",
+    "description": "Every mob from or relating to the Mighty Morphin' Power Rangers series.",
+    "icon": "powerrangerscraft:thrax_codpiece",
+    "sortnum": 4
+}
