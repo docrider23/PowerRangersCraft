@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:lightspeed_rescue/main",
+    "name": "Lightspeed Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Lightspeed Rescue series.",
+    "icon": "powerrangerscraft:lightspeed_rescue_head",
+    "sortnum": 0
+}

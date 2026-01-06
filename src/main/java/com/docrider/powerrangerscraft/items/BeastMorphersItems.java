@@ -19,6 +19,8 @@ public class BeastMorphersItems {
     public static final DeferredItem<Item> BEAST_MORPHERS_LOGO = ITEMS.register("beast_morphers_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS));
 
+    public static final DeferredItem<Item> MORPH_X_CANISTER = ITEMS.register("morph_x_canister",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS));
     public static final DeferredItem<Item> BLANK_MORPH_X_KEY = ITEMS.register("blank_morph_x_key",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS));
 

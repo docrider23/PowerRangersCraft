@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/saban_era",
+    "name": "Power Rangers Lost Galaxy",
+    "description": "Everything related to the Power Rangers Lost Galaxy series.",
+    "icon": "powerrangerscraft:lost_galaxy_logo",
+    "sortnum": 5
+}

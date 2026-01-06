@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:wild_force/main",
+    "name": "Wild Force Mobs",
+    "description": "Every mob from or relating to the Power Rangers Wild Force series.",
+    "icon": "powerrangerscraft:general_venjix_belt",
+    "sortnum": 4
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:time_force/main",
+    "name": "Time Force Morphers",
+    "description": "The transformation devices used by the Time Force Rangers. These can be repaired in an anvil using $(l:time_force/items/time_force_logo)Time Force Logos$(/l).",
+    "icon": "powerrangerscraft:red_chrono_morpher",
+    "sortnum": 1
+}

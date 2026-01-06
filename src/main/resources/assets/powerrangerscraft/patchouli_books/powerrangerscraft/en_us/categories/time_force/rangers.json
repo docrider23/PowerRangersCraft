@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:time_force/main",
+    "name": "Time Force Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Time Force series.",
+    "icon": "powerrangerscraft:time_force_head",
+    "sortnum": 0
+}

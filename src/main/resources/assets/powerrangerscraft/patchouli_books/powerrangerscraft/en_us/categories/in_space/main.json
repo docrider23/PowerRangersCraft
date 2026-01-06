@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/saban_era",
+    "name": "Power Rangers In Space",
+    "description": "Everything related to the Power Rangers In Space series.",
+    "icon": "powerrangerscraft:in_space_logo",
+    "sortnum": 4
+}

@@ -49,7 +49,7 @@
 		{
 			"type": "patchouli:entity",
 			"anchor": "mmpr_red_bftg_dragon_shield",
-			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_power_morpher\",components:{custom_data:{slot_tex1: \"powerrangerscraft:battle_for_the_grid_game_mmpr_red\", is_transforming: 0.0d, render_type: 0.0d, Update_form: 1b, slot_tex2: \"powerrangerscraft:dragon_power_coin\"},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_power_morpher\",components:{custom_data:{slot_tex1: \"powerrangerscraft:battle_for_the_grid_game_mmpr_red\", slot_tex2: \"powerrangerscraft:dragon_power_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
 			"name": "MMPR Red Ranger (Battle for the Grid Alt Skin) (w/ Dragon Shield)",

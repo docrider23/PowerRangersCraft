@@ -2,6 +2,7 @@ package com.docrider.powerrangerscraft.entity.footsoldier;
 
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.items.MobsItems;
+import com.docrider.powerrangerscraft.level.ModGameRules;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
@@ -18,7 +19,7 @@ public class PutridsEntity extends BaseFootsoldierEntity {
 
     public void remove(RemovalReason p_149847_) {
         if ( this.isDeadOrDying()) {
-            if (this.random.nextInt(5) == 1) {
+            if (this.random.nextDouble() * 100.0 <= this.level().getGameRules().getInt(ModGameRules.RULE_BOSS_SPAWN_PERCENTAGE)) {
                 BaseFootsoldierEntity boss = MobsCore.ZEN_AKU.get().create(this.level());
                 if (boss != null) {
                     boss.moveTo(this.getX(), this.getY(), this.getZ(), this.getYRot(), 0.0F);

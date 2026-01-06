@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:zeo/main",
+    "name": "Zeo Mobs",
+    "description": "Every mob from or relating to the Power Rangers Zeo series.",
+    "icon": "powerrangerscraft:general_venjix_belt",
+    "sortnum": 4
+}

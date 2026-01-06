@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:in_space/main",
+    "name": "Space Ranger Items",
+    "description": "All In Space-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:red_space_disk",
+    "sortnum": 2
+}

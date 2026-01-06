@@ -16,6 +16,9 @@ public class MobsItems {
 
 	public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
 
+	public static final DeferredItem<SwordItem> GOLDAR_SWORD = ITEMS.register("goldar_sword",
+			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
+
 	public static final DeferredItem<SwordItem> COG_SPEAR = ITEMS.register("cog_spear",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 

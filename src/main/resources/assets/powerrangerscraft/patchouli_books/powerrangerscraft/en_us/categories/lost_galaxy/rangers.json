@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:lost_galaxy/main",
+    "name": "Galaxy Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Lost Galaxy series.",
+    "icon": "powerrangerscraft:lost_galaxy_head",
+    "sortnum": 0
+}

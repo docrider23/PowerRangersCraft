@@ -1,6 +1,6 @@
 {
 	"parent": "powerrangerscraft:zeo/main",
-    "name": "Zeo Transformation Devices",
+    "name": "Zeo Morphers",
     "description": "The transformation devices used by the Zeo Rangers. These can be repaired in an anvil using $(l:zeo/items/zeo_crystal_shard)Zeo Crystal Shards$(/l).",
     "icon": "powerrangerscraft:red_zeonizer",
     "sortnum": 1

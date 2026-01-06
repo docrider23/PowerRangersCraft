@@ -1,6 +1,6 @@
 {
 	"parent": "powerrangerscraft:turbo/main",
-    "name": "Turbo Transformation Devices",
+    "name": "Turbo Morphers",
     "description": "The transformation devices used by the Turbo Rangers. These can be repaired in an anvil using $(l:turbo/items/turbo_logo)Turbo Logos$(/l).",
     "icon": "powerrangerscraft:red_turbo_morpher",
     "sortnum": 1

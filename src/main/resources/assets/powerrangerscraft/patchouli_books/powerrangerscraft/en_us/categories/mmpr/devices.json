@@ -1,6 +1,6 @@
 {
 	"parent": "powerrangerscraft:mmpr/main",
-    "name": "MMPR Transformation Devices",
+    "name": "MMPR Morphers",
     "description": "The transformation devices used by the MMPR Rangers. These can be repaired in an anvil using $(l:mmpr/items/mmpr_logo)MMPR Logos$(/l).",
     "icon": "powerrangerscraft:red_power_morpher",
     "sortnum": 1

@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/saban_era",
+    "name": "Power Rangers Time Force",
+    "description": "Everything related to the Power Rangers Time Force series.",
+    "icon": "powerrangerscraft:time_force_logo",
+    "sortnum": 7
+}

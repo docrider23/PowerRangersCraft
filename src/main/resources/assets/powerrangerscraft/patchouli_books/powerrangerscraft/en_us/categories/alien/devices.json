@@ -1,6 +1,6 @@
 {
 	"parent": "powerrangerscraft:alien/main",
-    "name": "Alien Transformation Devices",
+    "name": "Alien Morphers",
     "description": "The transformation devices used by the Alien Rangers. These can be repaired in an anvil using $(l:alien/items/alien_logo)Alien Ranger Logos$(/l).",
     "icon": "powerrangerscraft:red_alien_morpher",
     "sortnum": 1
