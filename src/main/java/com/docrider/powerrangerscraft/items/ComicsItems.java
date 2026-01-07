@@ -18,7 +18,7 @@ public class ComicsItems {
                     .IsGlowing());
     public static final DeferredItem<Item> RANGER_SLAYER_POWER_COIN = ITEMS.register("ranger_slayer_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_slayer","mmpr_pink_belt")
-                    .ChangeBeltModel("geo/mmpr_belt.geo.json").addAlternative(RANGER_SLAYER_POWER_COIN_SOLAR.get()).AddToTabList(RangerTabs.SHATTERED_GRID));
+                    .ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").addAlternative(RANGER_SLAYER_POWER_COIN_SOLAR.get()).AddToTabList(RangerTabs.SHATTERED_GRID));
 
     public static final DeferredItem<Item> DRAKKON_HELMET = ITEMS.register("drakkon_helmet",
             () -> new BaseItem(new Item.Properties()));

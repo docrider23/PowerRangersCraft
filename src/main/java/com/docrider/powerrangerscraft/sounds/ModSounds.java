@@ -16,6 +16,8 @@ public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
             DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, PowerRangersCraftCore.MODID);
 
+    public static final Supplier<SoundEvent> DRAGON_DAGGER_GOAT_HORN = registerSoundEvent("dragon_dagger_goat_horn");
+
     public static final Supplier<SoundEvent> GO_GO_POWER_RANGERS = registerSoundEvent("go_go_power_rangers");
     public static final ResourceKey<JukeboxSong> GO_GO_POWER_RANGERS_KEY = createSong("go_go_power_rangers");
 

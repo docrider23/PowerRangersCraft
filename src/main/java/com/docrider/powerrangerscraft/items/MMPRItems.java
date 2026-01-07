@@ -2,6 +2,7 @@ package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
+import com.docrider.powerrangerscraft.items.mmpr.DragonDaggerItem;
 import com.docrider.powerrangerscraft.items.mmpr.MMPRBeltItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import com.docrider.powerrangerscraft.particle.ModParticles;
@@ -37,7 +38,7 @@ public class MMPRItems {
                 player.getX(), player.getY()+1,
                 player.getZ(), 100, 0, 0, 0, 1);
     }}
-                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> MASTODON_POWER_COIN = ITEMS.register("mastodon_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_black","mmpr_black_belt")
@@ -54,7 +55,7 @@ public class MMPRItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> TRICERATOPS_POWER_COIN = ITEMS.register("triceratops_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_blue","mmpr_blue_belt")
@@ -71,7 +72,7 @@ public class MMPRItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> SABERTOOTH_TIGER_POWER_COIN = ITEMS.register("sabertooth_tiger_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_yellow","mmpr_yellow_belt")
@@ -88,7 +89,7 @@ public class MMPRItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> PTERADACTYL_POWER_COIN = ITEMS.register("pteradactyl_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_pink","mmpr_pink_belt")
@@ -105,7 +106,7 @@ public class MMPRItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt.geo.json").AddToTabList(RangerTabs.MMPR));
+            }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.MMPR));
 
 
     public static final DeferredItem<Item> DRAGON_POWER_COIN_BASE = ITEMS.register("dragon_power_coin_base",
@@ -123,10 +124,10 @@ public class MMPRItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.ChangeBeltModel("geo/mmpr_belt.geo.json"));
+            }.ChangeBeltModel("geo/mmpr_belt_weapon.geo.json"));
     public static final DeferredItem<Item> DRAGON_POWER_COIN_NO_SHIELD = ITEMS.register("dragon_power_coin_no_shield",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"blank","mmpr_green","mmpr_green_belt")
-                    .ChangeSlot(2).ChangeBeltModel("geo/mmpr_belt.geo.json"));
+                    .ChangeSlot(2).ChangeBeltModel("geo/mmpr_belt_weapon.geo.json"));
     public static final DeferredItem<Item> DRAGON_POWER_COIN = ITEMS.register("dragon_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"dragon_shield","","",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,1,true,true))
@@ -211,8 +212,8 @@ public class MMPRItems {
     public static final DeferredItem<BaseBlasterItem> POWER_BOW = ITEMS.register("power_bow",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 
-    public static final DeferredItem<SwordItem> DRAGON_DAGGER = ITEMS.register("dragon_dagger",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+    public static final DeferredItem<BowItem> DRAGON_DAGGER = ITEMS.register("dragon_dagger",
+            () -> new DragonDaggerItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<SwordItem> SABA = ITEMS.register("saba",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 

@@ -1,4 +1,13 @@
 {
+  "dragon_dagger_goat_horn": {
+    "sounds": [
+      {
+        "name": "powerrangerscraft:dragon_dagger_goat_horn",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
   "go_go_power_rangers": {
     "sounds": [
       {

@@ -56,7 +56,8 @@ public class MMPRBeltItem extends RangerChangerItem {
         boolean fly = !rider.onGround();
 
         if (equipmentSlot == EquipmentSlot.FEET) {
-            if (rider.getMainHandItem().getItem()== MMPRItems.BLADE_BLASTER.get()) {
+            if (rangerName != "mmpr_green" & rider.getMainHandItem().getItem() == MMPRItems.BLADE_BLASTER.get() ||
+                rangerName == "mmpr_green" & rider.getMainHandItem().getItem() == MMPRItems.DRAGON_DAGGER.get()) {
                 belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
             }
             else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
