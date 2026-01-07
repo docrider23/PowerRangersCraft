@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:ninja_storm/main",
+    "name": "Ninja Storm Arsenal",
+    "description": "Every weapon and tool used by the Ninja Storm Rangers. These can be repaired in an anvil using $(l:ninja_storm/items/ninja_storm_logo)Ninja Storm Logos$(/l).",
+    "icon": "powerrangerscraft:ninja_sword",
+    "sortnum": 3
+}

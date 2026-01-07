@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/disney_era",
+    "name": "Power Rangers Mystic Force",
+    "description": "Everything related to the Power Rangers Mystic Force series.",
+    "icon": "powerrangerscraft:mystic_force_logo",
+    "sortnum": 3
+}

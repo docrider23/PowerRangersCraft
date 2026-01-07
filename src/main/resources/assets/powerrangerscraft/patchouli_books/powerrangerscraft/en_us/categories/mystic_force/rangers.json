@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:mystic_force/main",
+    "name": "Mystic Force Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Mystic Force series.",
+    "icon": "powerrangerscraft:mystic_force_head",
+    "sortnum": 0
+}

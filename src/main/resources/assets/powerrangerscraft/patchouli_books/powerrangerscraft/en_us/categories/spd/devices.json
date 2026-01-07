@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:spd/main",
+    "name": "SPD Morphers",
+    "description": "The transformation devices used by the SPD Rangers. These can be repaired in an anvil using $(l:spd/items/spd_logo)SPD Logos$(/l).",
+    "icon": "powerrangerscraft:red_delta_morpher",
+    "sortnum": 1
+}

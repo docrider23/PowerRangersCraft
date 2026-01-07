@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:mystic_force/main",
+    "name": "Mystic Force Ranger Items",
+    "description": "All Mystic Force-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:red_mystic_morpher_plate",
+    "sortnum": 2
+}

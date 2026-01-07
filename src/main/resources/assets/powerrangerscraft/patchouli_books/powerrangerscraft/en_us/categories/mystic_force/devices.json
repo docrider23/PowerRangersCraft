@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:mystic_force/main",
+    "name": "Mystic Force Morphers",
+    "description": "The transformation devices used by the Mystic Force Rangers. These can be repaired in an anvil using $(l:mystic_force/items/mystic_force_logo)Mystic Force Logos$(/l).",
+    "icon": "powerrangerscraft:red_mystic_morpher",
+    "sortnum": 1
+}

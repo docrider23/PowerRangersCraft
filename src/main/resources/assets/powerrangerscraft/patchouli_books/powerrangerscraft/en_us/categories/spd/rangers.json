@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:spd/main",
+    "name": "SPD Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers SPD series.",
+    "icon": "powerrangerscraft:spd_head",
+    "sortnum": 0
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/disney_era",
+    "name": "Power Rangers Dino Thunder",
+    "description": "Everything related to the Power Rangers Dino Thunder series.",
+    "icon": "powerrangerscraft:dino_thunder_logo",
+    "sortnum": 1
+}

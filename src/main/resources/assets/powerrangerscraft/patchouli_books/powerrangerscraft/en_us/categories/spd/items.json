@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:spd/main",
+    "name": "SPD Ranger Items",
+    "description": "All SPD-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:spd_red_badge",
+    "sortnum": 2
+}

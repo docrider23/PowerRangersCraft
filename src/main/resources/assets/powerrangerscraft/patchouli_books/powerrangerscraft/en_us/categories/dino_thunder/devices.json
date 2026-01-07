@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:dino_thunder/main",
+    "name": "Dino Thunder Morphers",
+    "description": "The transformation devices used by the Dino Thunder Rangers. These can be repaired in an anvil using $(l:dino_thunder/items/dino_thunder_logo)Dino Thunder Logos$(/l).",
+    "icon": "powerrangerscraft:red_dino_morpher",
+    "sortnum": 1
+}

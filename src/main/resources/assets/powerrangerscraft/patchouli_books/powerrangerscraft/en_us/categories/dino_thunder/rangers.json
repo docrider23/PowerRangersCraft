@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:dino_thunder/main",
+    "name": "Dino Thunder Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Dino Thunder series.",
+    "icon": "powerrangerscraft:dino_thunder_head",
+    "sortnum": 0
+}

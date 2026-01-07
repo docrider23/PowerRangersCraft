@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/disney_era",
+    "name": "Power Rangers SPD",
+    "description": "Everything related to the Power Rangers SPD series.",
+    "icon": "powerrangerscraft:spd_logo",
+    "sortnum": 2
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:ninja_storm/main",
+    "name": "Ninja Storm Ranger Items",
+    "description": "All Ninja Storm-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:red_wind_ninja_power_disk",
+    "sortnum": 2
+}

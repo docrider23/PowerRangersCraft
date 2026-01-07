@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:dino_thunder/main",
+    "name": "Dino Thunder Ranger Items",
+    "description": "All Dino Thunder-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:red_dino_gem",
+    "sortnum": 2
+}

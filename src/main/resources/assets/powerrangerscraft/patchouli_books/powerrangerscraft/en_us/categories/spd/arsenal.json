@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:spd/main",
+    "name": "SPD Arsenal",
+    "description": "Every weapon and tool used by the SPD Rangers. These can be repaired in an anvil using $(l:spd/items/spd_logo)SPD Logos$(/l).",
+    "icon": "powerrangerscraft:delta_blaster_combo",
+    "sortnum": 3
+}

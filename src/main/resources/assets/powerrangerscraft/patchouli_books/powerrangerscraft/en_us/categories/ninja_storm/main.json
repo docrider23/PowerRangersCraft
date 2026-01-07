@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/disney_era",
+    "name": "Power Rangers Ninja Storm",
+    "description": "Everything related to the Power Rangers Ninja Storm series.",
+    "icon": "powerrangerscraft:ninja_storm_logo",
+    "sortnum": 0
+}

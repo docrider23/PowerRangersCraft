@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:ninja_storm/main",
+    "name": "Ninja Storm Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Ninja Storm series.",
+    "icon": "powerrangerscraft:ninja_storm_head",
+    "sortnum": 0
+}
