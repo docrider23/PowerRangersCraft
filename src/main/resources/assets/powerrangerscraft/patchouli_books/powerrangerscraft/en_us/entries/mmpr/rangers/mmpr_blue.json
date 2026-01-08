@@ -1,0 +1,52 @@
+{
+	"name": "Mighty Morphin' Blue Ranger",
+	"icon": "powerrangerscraft:triceratops_power_coin",
+	"category": "powerrangerscraft:mmpr/rangers",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_blue",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_power_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:triceratops_power_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR Blue Ranger",
+			"text": "Accessed with the $(l:mmpr/items/power_coins#triceratops_power_coin)Triceratops Power Coin$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Blue Ranger",
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#blue_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_blue_dragon_shield",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_power_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:dragon_power_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR Blue Ranger (w/ Dragon Shield)",
+			"text": "Accessed with the $(l:mmpr/items/power_coins#dragon_power_coin)Dragon Power Coin$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Blue Ranger",
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, Toyline)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#blue_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_blue_16_bit",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_power_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:game_controller_16_bit\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR Blue Ranger",
+			"text": "Accessed with the $(l:mmpr/items/game_controller)Game Controller$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Blue Ranger",
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1994, SNES Game)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#blue_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+
+	]
+}

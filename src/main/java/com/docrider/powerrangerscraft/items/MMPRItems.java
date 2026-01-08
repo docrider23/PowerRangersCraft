@@ -154,8 +154,13 @@ public class MMPRItems {
                 }
             }.AddToTabList(RangerTabs.MMPR));
 
+    public static final DeferredItem<Item> NINJOR_COIN_BATTLE_MODE = ITEMS.register("ninjor_coin_battle_mode",
+            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_battle_mode","ninjor","blank",
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
+                    .ChangeSlot(2).BackToBase());
     public static final DeferredItem<Item> NINJOR_COIN = ITEMS.register("ninjor_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ninjor","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ninjor","blank",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false))
             {
                 public void OnTransformation(ItemStack itemstack, LivingEntity player) {
                     super.OnTransformation(itemstack,player);
@@ -166,7 +171,7 @@ public class MMPRItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 90, 0, 0, 0, 1);
                 }
-            }.AddToTabList(RangerTabs.MMPR));
+            }.addSwitchForm(NINJOR_COIN_BATTLE_MODE.get()).AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> REINDEER_POWER_COIN = ITEMS.register("reindeer_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","santa_ranger","santa_ranger_belt",
@@ -208,7 +213,7 @@ public class MMPRItems {
     public static final DeferredItem<Item> WHITE_POWER_MORPHER = ITEMS.register("white_power_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mmpr_white", WHITE_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<Item> NINJOR_MORPHER = ITEMS.register("ninjor_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninjor", NINJOR_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninjor", NINJOR_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<Item> SANTA_POWER_MORPHER = ITEMS.register("santa_power_morpher",
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"santa_ranger", REINDEER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 

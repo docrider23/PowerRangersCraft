@@ -1,0 +1,39 @@
+{
+	"name": "Mighty Morphin' White Ranger",
+	"icon": "powerrangerscraft:white_tiger_power_coin",
+	"category": "powerrangerscraft:mmpr/rangers",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_white",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:white_power_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:white_tiger_power_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR White Ranger",
+			"text": "Accessed with the $(l:mmpr/items/power_coins#white_tiger_power_coin) White Tiger Power Coin$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' White Ranger",
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#white_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+
+
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_white_bftg",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:white_power_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:battle_for_the_grid_game_mmpr_white\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR White Ranger (Battle for the Grid Alt Skin)",
+			"text": "Accessed with the $(l:misc/items/battle_for_the_grid_game)Battle for the Grid Game$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' White Ranger",
+			"text": "Appears in:$(li)Power Rangers: Battle for the Grid (2019, Video Game)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#white_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+
+	]
+}

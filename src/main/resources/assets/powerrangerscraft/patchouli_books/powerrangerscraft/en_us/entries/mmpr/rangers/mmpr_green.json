@@ -1,0 +1,64 @@
+{
+	"name": "Mighty Morphin' Green Ranger",
+	"icon": "powerrangerscraft:dragon_power_coin",
+	"category": "powerrangerscraft:mmpr/rangers",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_green",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_power_morpher\",Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR Green Ranger",
+			"text": "Accessed with the $(l:mmpr/items/power_coins#dragon_power_coin)Dragon Power Coin$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Green Ranger",
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#green_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_green_dragon_shield",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_power_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:dragon_power_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR Green Ranger (w/ Dragon Shield)",
+			"text": "Accessed with the $(l:mmpr/items/power_coins#dragon_power_coin)Dragon Power Coin$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Green Ranger",
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#green_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_green_bftg",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_power_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:battle_for_the_grid_game_mmpr_green\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR Green Ranger (Battle for the Grid Alt Skin)",
+			"text": "Accessed with the $(l:misc/items/battle_for_the_grid_game)Battle for the Grid Game$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Green Ranger",
+			"text": "Appears in:$(li)Power Rangers: Battle for the Grid (2019, Video Game)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#green_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_green_bftg_dragon_shield",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_power_morpher\",components:{custom_data:{slot_tex1: \"powerrangerscraft:battle_for_the_grid_game_mmpr_green\", slot_tex2: \"powerrangerscraft:dragon_power_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR green Ranger (Battle for the Grid Alt Skin) (w/ Dragon Shield)",
+			"text": "Accessed with the $(l:misc/items/battle_for_the_grid_game)Battle for the Grid Game$(/l) and the $(l:mmpr/items/power_coins#dragon_power_coin)Dragon Power Coin$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Green Ranger",
+			"text": "Appears in:$(li)Power Rangers: Battle for the Grid (2019, Video Game)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#green_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+}
