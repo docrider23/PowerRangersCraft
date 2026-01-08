@@ -1,7 +1,7 @@
 {
 	"parent": "powerrangerscraft:rpm/main",
     "name": "RPM Morphers",
-    "description": "The transformation devices used by the RPM Ranger Operators. These can be repaired in an anvil using $(l:rpm/items/rpm_logo)RPM Logos$(/l).",
+    "description": "The transformation devices used by the RPM Ranger Operators. These can be repaired in an anvil using $(l:rpm/items/engine_cells#empty_engine_cell)Empty Engine Cells$(/l).",
     "icon": "powerrangerscraft:red_cell_shift_morpher",
     "sortnum": 1
 }
