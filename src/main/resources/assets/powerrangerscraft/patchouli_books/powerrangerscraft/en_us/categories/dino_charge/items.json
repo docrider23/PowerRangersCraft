@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:dino_charge/main",
+    "name": "Dino Charge Ranger Items",
+    "description": "All Dino (Super)Charge-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:tyrannosaurus_rex_dino_charger",
+    "sortnum": 2
+}

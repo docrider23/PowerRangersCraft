@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:dino_charge/main",
+    "name": "Dino Charge Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Dino Charge and Power Rangers Dino Supercharge series.",
+    "icon": "powerrangerscraft:dino_charge_head",
+    "sortnum": 0
+}

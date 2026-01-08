@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:dino_charge/main",
+    "name": "Dino Charge Morphers",
+    "description": "The transformation devices used by the Dino Charge Rangers. These can be repaired in an anvil using $(l:dino_charge/items/dino_charger#empty_dino_charger)Empty Dino Chargers$(/l).",
+    "icon": "powerrangerscraft:red_dino_charge_morpher",
+    "sortnum": 1
+}

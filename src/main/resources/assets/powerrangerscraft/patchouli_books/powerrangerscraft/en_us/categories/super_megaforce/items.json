@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:super_megaforce/main",
+    "name": "Super Megaforce Ranger Items",
+    "description": "All Super Megaforce-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:super_megaforce_red_key",
+    "sortnum": 2
+}

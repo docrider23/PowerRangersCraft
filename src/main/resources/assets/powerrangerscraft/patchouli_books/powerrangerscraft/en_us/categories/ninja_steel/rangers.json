@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:ninja_steel/main",
+    "name": "Ninja Steel Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Ninja Steel and Power Rangers Super Ninja Steel series.",
+    "icon": "powerrangerscraft:ninja_steel_head",
+    "sortnum": 0
+}

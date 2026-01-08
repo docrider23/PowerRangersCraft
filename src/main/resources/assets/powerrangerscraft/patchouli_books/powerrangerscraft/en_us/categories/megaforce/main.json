@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/neo_saban_era",
+    "name": "Power Rangers Megaforce",
+    "description": "Everything related to the Power Rangers Megaforce series.",
+    "icon": "powerrangerscraft:megaforce_logo",
+    "sortnum": 1
+}

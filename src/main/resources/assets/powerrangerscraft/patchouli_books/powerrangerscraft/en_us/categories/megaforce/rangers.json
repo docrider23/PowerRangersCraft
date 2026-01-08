@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:megaforce/main",
+    "name": "Megaforce Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Megaforce series.",
+    "icon": "powerrangerscraft:megaforce_head",
+    "sortnum": 0
+}

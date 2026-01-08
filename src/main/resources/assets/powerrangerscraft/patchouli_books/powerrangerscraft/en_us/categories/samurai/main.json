@@ -1,7 +1,7 @@
 {
     "parent": "powerrangerscraft:main/neo_saban_era",
     "name": "Power Rangers Samurai",
-    "description": "Everything related to the Power Rangers Samurai series.",
+    "description": "Everything related to the Power Rangers Samurai and Power Rangers Super Samurai series.",
     "icon": "powerrangerscraft:samurai_logo",
     "sortnum": 0
 }

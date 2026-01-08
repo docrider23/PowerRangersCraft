@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:megaforce/main",
+    "name": "Megaforce Morphers",
+    "description": "The transformation devices used by the Megaforce Rangers. These can be repaired in an anvil using $(l:megaforce/items/megaforce_logo)Megaforce Logos$(/l).",
+    "icon": "powerrangerscraft:red_gosei_morpher",
+    "sortnum": 1
+}

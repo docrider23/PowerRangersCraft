@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:ninja_steel/main",
+    "name": "Ninja Steel Arsenal",
+    "description": "Every weapon and tool used by the Ninja Steel Rangers. These can be repaired in an anvil using $(l:ninja_steel/items/ninja_steel_logo)Ninja Steel Logos$(/l).",
+    "icon": "powerrangerscraft:ninja_battle_morpher",
+    "sortnum": 3
+}

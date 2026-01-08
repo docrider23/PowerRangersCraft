@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:ninja_steel/main",
+    "name": "Ninja Steel Ranger Items",
+    "description": "All (Super) Ninja Steel-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:red_ninja_power_star",
+    "sortnum": 2
+}
