@@ -95,26 +95,107 @@ public class GoldarEntity extends BaseFootsoldierEntity {
 
                     Random generator = new Random();
                     int randomInt = generator.nextInt(3);
+                    int randomInt2 = generator.nextInt(3);
 
                     if (randomInt == 0) {
                     ItemEntity key = new ItemEntity(level(), getX(), getY(), getZ(), new ItemStack(MMPRItems.TYRANNOSAURUS_POWER_COIN.get(), 1), 0, 0, 0);
                     key.setPickUpDelay(0);
                     level().addFreshEntity(key);
+                    if (randomInt2 == 0) {
+                        ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(MMPRItems.MMPR_LOGO.get(),2),0,0,0);
+                        key2.setPickUpDelay(0);
+                        level().addFreshEntity(key2);
+                    }
+                    else if (randomInt2 == 1) {
+                        ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoThunderItems.DINO_THUNDER_LOGO.get(),2),0,0,0);
+                        key2.setPickUpDelay(0);
+                        level().addFreshEntity(key2);
+                    }
+                    else if (randomInt2 == 2) {
+                        ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoChargeItems.EMPTY_DINO_CHARGER.get(),2),0,0,0);
+                        key2.setPickUpDelay(0);
+                        level().addFreshEntity(key2);
+                    }
+                    else if (randomInt2 == 3) {
+                        ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoFuryItems.BLANK_DINO_KEY.get(),2),0,0,0);
+                        key2.setPickUpDelay(0);
+                        level().addFreshEntity(key2);
+                    }
                 }
                     else if (randomInt == 1) {
                         ItemEntity key = new ItemEntity(level(), getX(), getY(), getZ(), new ItemStack(DinoThunderItems.RED_DINO_GEM.get(), 1), 0, 0, 0);
                         key.setPickUpDelay(0);
                         level().addFreshEntity(key);
+                        if (randomInt2 == 0) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(MMPRItems.MMPR_LOGO.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
+                        else if (randomInt2 == 1) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoThunderItems.DINO_THUNDER_LOGO.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
+                        else if (randomInt2 == 2) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoChargeItems.EMPTY_DINO_CHARGER.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
+                        else if (randomInt2 == 3) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoFuryItems.BLANK_DINO_KEY.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
                     }
                     else if (randomInt == 2) {
                         ItemEntity key = new ItemEntity(level(), getX(), getY(), getZ(), new ItemStack(DinoChargeItems.TYRANNOSAURUS_REX_DINO_CHARGER.get(), 1), 0, 0, 0);
                         key.setPickUpDelay(0);
                         level().addFreshEntity(key);
+                        if (randomInt2 == 0) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(MMPRItems.MMPR_LOGO.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
+                        else if (randomInt2 == 1) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoThunderItems.DINO_THUNDER_LOGO.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
+                        else if (randomInt2 == 2) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoChargeItems.EMPTY_DINO_CHARGER.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
+                        else if (randomInt2 == 3) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoFuryItems.BLANK_DINO_KEY.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
                     }
                     else if (randomInt == 3) {
                         ItemEntity key = new ItemEntity(level(), getX(), getY(), getZ(), new ItemStack(DinoFuryItems.T_REX_DINO_KEY.get(), 1), 0, 0, 0);
                         key.setPickUpDelay(0);
                         level().addFreshEntity(key);
+                        if (randomInt2 == 0) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(MMPRItems.MMPR_LOGO.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
+                        else if (randomInt2 == 1) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoThunderItems.DINO_THUNDER_LOGO.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
+                        else if (randomInt2 == 2) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoChargeItems.EMPTY_DINO_CHARGER.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
+                        else if (randomInt2 == 3) {
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(DinoFuryItems.BLANK_DINO_KEY.get(),2),0,0,0);
+                            key2.setPickUpDelay(0);
+                            level().addFreshEntity(key2);
+                        }
                     }
                 }
             }
