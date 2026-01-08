@@ -42,7 +42,7 @@
         {
           "type": "minecraft:item",
           "name": "powerrangerscraft:empty_cosmic_orb",
-          "weight": 5,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -73,6 +73,36 @@
         {
           "type": "minecraft:item",
           "name": "powerrangerscraft:empty_cosmic_orb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:mmpr_logo",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:empty_dino_charger",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:ninja_steel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
         }
       ]
     }

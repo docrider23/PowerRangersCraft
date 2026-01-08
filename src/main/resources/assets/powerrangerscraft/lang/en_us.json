@@ -952,6 +952,8 @@
   "item.powerrangerscraft.dino_charge_torso": "Dino Charge Chestplate",
   "item.powerrangerscraft.dino_charge_legs": "Dino Charge Leggings",
 
+  "item.powerrangerscraft.empty_dino_charger": "Empty Dino Charger",
+
   "item.powerrangerscraft.red_dino_charge_morpher": "Dino Charge Morpher",
   "item.powerrangerscraft.dark_spino_boomerang": "Spino Boomerang",
 
@@ -974,6 +976,8 @@
   "item.powerrangerscraft.ninja_steel_head": "Ninja Steel Helmet",
   "item.powerrangerscraft.ninja_steel_torso": "Ninja Steel Chestplate",
   "item.powerrangerscraft.ninja_steel_legs": "Ninja Steel Leggings",
+
+  "item.powerrangerscraft.ninja_steel_ingot": "Ninja Steel Ingot",
 
   "item.powerrangerscraft.red_ninja_battle_morpher": "Ninja Battle Morpher",
   "item.powerrangerscraft.red_silver_ninja_battle_morpher": "Ninja Battle Morpher (Red Ranger w/ Silver Sash)",
