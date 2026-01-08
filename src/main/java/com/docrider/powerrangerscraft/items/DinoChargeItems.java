@@ -14,6 +14,9 @@ public class DinoChargeItems {
     public static final DeferredItem<Item> DINO_CHARGE_LOGO = ITEMS.register("dino_charge_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE));
 
+    public static final DeferredItem<Item> EMPTY_DINO_CHARGER = ITEMS.register("empty_dino_charger",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE));
+
     public static final DeferredItem<Item> SPINOSAURUS_DINO_CHARGER_SOLAR = ITEMS.register("spinosaurus_dino_charger_solar",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_blue","blank").IsGlowing());
     public static final DeferredItem<Item> SPINOSAURUS_DINO_CHARGER = ITEMS.register("spinosaurus_dino_charger",
@@ -27,24 +30,24 @@ public class DinoChargeItems {
                     .AddToList(RangerTabs.DINO_CHARGE));
 
     public static final DeferredItem<Item> DINO_CHARGE_HELMET = ITEMS.register("dino_charge_head",
-            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
     public static final DeferredItem<Item> DINO_CHARGE_CHESTPLATE = ITEMS.register("dino_charge_torso",
-            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
     public static final DeferredItem<Item> DINO_CHARGE_LEGGINGS = ITEMS.register("dino_charge_legs",
-            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
 
     public static final DeferredItem<Item> RED_DINO_CHARGE_MORPHER = ITEMS.register("red_dino_charge_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"dino_charge_red", TYRANNOSAURUS_REX_DINO_CHARGER,DINO_CHARGE_HELMET,DINO_CHARGE_CHESTPLATE,DINO_CHARGE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"dino_charge_red", TYRANNOSAURUS_REX_DINO_CHARGER,DINO_CHARGE_HELMET,DINO_CHARGE_CHESTPLATE,DINO_CHARGE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
     public static final DeferredItem<Item> DARK_SPINO_BOOMERANG = ITEMS.register("dark_spino_boomerang",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"dino_charge_dark", SPINOSAURUS_DINO_CHARGER,DINO_CHARGE_HELMET,DINO_CHARGE_CHESTPLATE,DINO_CHARGE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"dino_charge_dark", SPINOSAURUS_DINO_CHARGER,DINO_CHARGE_HELMET,DINO_CHARGE_CHESTPLATE,DINO_CHARGE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
 
     public static final DeferredItem<BaseBlasterItem> DINO_CHARGE_MORPHER = ITEMS.register("dino_charge_morpher",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).isChanger(RED_DINO_CHARGE_MORPHER.get()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
 
     public static final DeferredItem<SwordItem> T_REX_SMASHER = ITEMS.register("t_rex_smasher",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
     public static final DeferredItem<SwordItem> SPINO_BOOMERANG = ITEMS.register("spino_boomerang",
-            () -> new BaseThrowableItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).isChanger(DARK_SPINO_BOOMERANG.get()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(DINO_CHARGE_LOGO.get()));
+            () -> new BaseThrowableItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).isChanger(DARK_SPINO_BOOMERANG.get()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
 
 
 
