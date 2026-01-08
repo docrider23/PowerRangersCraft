@@ -924,6 +924,8 @@
   "item.powerrangerscraft.megaforce_torso": "Megaforce Chestplate",
   "item.powerrangerscraft.megaforce_legs": "Megaforce Leggings",
 
+  "item.powerrangerscraft.blank_power_card": "Blank Power Card",
+
   "item.powerrangerscraft.red_gosei_morpher": "Gosei Morpher",
 
   "item.powerrangerscraft.red_change_power_card": "Red Change Power Card",
@@ -938,6 +940,8 @@
   "item.powerrangerscraft.super_megaforce_head": "Super Megaforce Helmet",
   "item.powerrangerscraft.super_megaforce_torso": "Super Megaforce Chestplate",
   "item.powerrangerscraft.super_megaforce_legs": "Super Megaforce Leggings",
+
+  "item.powerrangerscraft.blank_ranger_key": "Blank Ranger Key",
 
   "item.powerrangerscraft.red_legendary_morpher": "Legendary Morpher",
 
@@ -1431,9 +1435,9 @@
   "powerrangerscraft:pink_gem.form": "Ranger: §dPink Ranger",
   "powerrangerscraft:green_sphere.form": "Ranger: §aGreen Ranger",
 
-  "item.powerrangerscraft.prime_red_sword_blade": "Prime Sword Blade",
+  "item.powerrangerscraft.prime_red_sword": "Prime Red Sword",
   "item.powerrangerscraft.prime_blue_bow": "Prime Blue Bow",
-  "item.powerrangerscraft.prime_yellow_dagger_blade": "Prime Dagger Blade",
+  "item.powerrangerscraft.prime_yellow_dagger": "Prime Yellow Dagger",
   "item.powerrangerscraft.prime_black_staff": "Prime Staff",
   "item.powerrangerscraft.prime_pink_mace": "Prime Mace",
   "item.powerrangerscraft.prime_rita_staff": "Prime Rita's Staff",

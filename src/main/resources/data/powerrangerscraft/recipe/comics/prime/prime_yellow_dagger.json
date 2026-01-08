@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "prime_red",
+  "group": "prime_yellow",
   "pattern": [
     "aaa",
     "aba",
@@ -11,13 +11,13 @@
       "item": "powerrangerscraft:prime_ritas_wand"
     },
     "b": {
-      "item": "powerrangerscraft:red_rib"
+      "item": "powerrangerscraft:yellow_talon"
     },
     "c": {
       "item": "powerrangerscraft:base_sword"
     }
   },
   "result": {
-    "id": "powerrangerscraft:prime_red_sword_blade"
+    "id": "powerrangerscraft:prime_yellow_dagger"
   }
 }
