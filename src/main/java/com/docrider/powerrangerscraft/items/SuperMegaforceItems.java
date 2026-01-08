@@ -18,19 +18,22 @@ public class SuperMegaforceItems {
     public static final DeferredItem<Item> SUPER_MEGAFORCE_LOGO = ITEMS.register("super_megaforce_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE));
 
+    public static final DeferredItem<Item> BLANK_RANGER_KEY = ITEMS.register("blank_ranger_key",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE));
+
     public static final DeferredItem<Item> SUPER_MEGAFORCE_RED_KEY = ITEMS.register("super_megaforce_red_key",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","super_megaforce_red","super_megaforce_belt")
                     .AddToTabList(RangerTabs.SUPER_MEGAFORCE));
 
     public static final DeferredItem<Item> SUPER_MEGAFORCE_HELMET = ITEMS.register("super_megaforce_head",
-            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(SUPER_MEGAFORCE_LOGO.get()));
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(BLANK_RANGER_KEY.get()));
     public static final DeferredItem<Item> SUPER_MEGAFORCE_CHESTPLATE = ITEMS.register("super_megaforce_torso",
-            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(SUPER_MEGAFORCE_LOGO.get()));
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(BLANK_RANGER_KEY.get()));
     public static final DeferredItem<Item> SUPER_MEGAFORCE_LEGGINGS = ITEMS.register("super_megaforce_legs",
-            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(SUPER_MEGAFORCE_LOGO.get()));
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(BLANK_RANGER_KEY.get()));
 
     public static final DeferredItem<Item> RED_LEGENDARY_MORPHER = ITEMS.register("red_legendary_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"super_megaforce_red", SUPER_MEGAFORCE_RED_KEY,SUPER_MEGAFORCE_HELMET,SUPER_MEGAFORCE_CHESTPLATE,SUPER_MEGAFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(SUPER_MEGAFORCE_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"super_megaforce_red", SUPER_MEGAFORCE_RED_KEY,SUPER_MEGAFORCE_HELMET,SUPER_MEGAFORCE_CHESTPLATE,SUPER_MEGAFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(BLANK_RANGER_KEY.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
