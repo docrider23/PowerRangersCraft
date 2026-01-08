@@ -157,7 +157,21 @@ public class MMPRItems {
     public static final DeferredItem<Item> NINJOR_COIN_BATTLE_MODE = ITEMS.register("ninjor_coin_battle_mode",
             () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_battle_mode","ninjor","blank",
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false))
-                    .ChangeSlot(2).BackToBase());
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.RED_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 10, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.GOLD_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 10, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.BLUE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 80, 0, 0, 0, 1);
+                }
+            }.ChangeSlot(2).BackToBase());
+
     public static final DeferredItem<Item> NINJOR_COIN = ITEMS.register("ninjor_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","ninjor","blank",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false))
