@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:jungle_fury/main",
+    "name": "Jungle Fury Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Jungle Fury series.",
+    "icon": "powerrangerscraft:jungle_fury_head",
+    "sortnum": 0
+}

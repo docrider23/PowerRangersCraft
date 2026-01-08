@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:rpm/main",
+    "name": "RPM Ranger Items",
+    "description": "All RPM-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:eagle_racer_engine_cell",
+    "sortnum": 2
+}

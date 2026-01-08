@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:samurai/main",
+    "name": "Samurai Arsenal",
+    "description": "Every weapon and tool used by the Samurai Rangers. These can be repaired in an anvil using $(l:samurai/items/power_discs#samurai_disc)Samurai Discs$(/l).",
+    "icon": "powerrangerscraft:spin_sword",
+    "sortnum": 3
+}

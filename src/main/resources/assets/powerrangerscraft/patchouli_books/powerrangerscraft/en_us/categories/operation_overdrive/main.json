@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/disney_era",
+    "name": "Power Rangers Operation Overdrive",
+    "description": "Everything related to the Power Rangers Operation Overdrive series.",
+    "icon": "powerrangerscraft:operation_overdrive_logo",
+    "sortnum": 4
+}

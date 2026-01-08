@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:samurai/main",
+    "name": "Samurai Mobs",
+    "description": "Every mob from or relating to the Power Rangers Samurai series.",
+    "icon": "powerrangerscraft:thrax_codpiece",
+    "sortnum": 4
+}

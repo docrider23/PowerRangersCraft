@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:samurai/main",
+    "name": "Samurai Ranger Items",
+    "description": "All Samurai-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:lion_disc",
+    "sortnum": 2
+}

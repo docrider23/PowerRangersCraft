@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:operation_overdrive/main",
+    "name": "Operation Overdrive Ranger Items",
+    "description": "All Operation Overdrive-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:overdrive_red_logo",
+    "sortnum": 2
+}

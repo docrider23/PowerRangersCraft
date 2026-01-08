@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:samurai/main",
+    "name": "Samurai Morphers",
+    "description": "The transformation devices used by the Samurai Rangers. These can be repaired in an anvil using $(l:samurai/items/power_discs#samurai_disc)Samurai Discs$(/l).",
+    "icon": "powerrangerscraft:red_samuraizer",
+    "sortnum": 1
+}

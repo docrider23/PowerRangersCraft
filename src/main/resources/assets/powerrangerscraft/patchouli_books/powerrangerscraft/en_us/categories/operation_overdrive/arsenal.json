@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:operation_overdrive/main",
+    "name": "Operation Overdrive Arsenal",
+    "description": "Every weapon and tool used by the Overdrive Rangers. These can be repaired in an anvil using $(l:operation_overdrive/items/operation_overdrive_logo)Operation Overdrive Logos$(/l).",
+    "icon": "powerrangerscraft:drive_defender",
+    "sortnum": 3
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/disney_era",
+    "name": "Power Rangers RPM",
+    "description": "Everything related to the Power Rangers RPM series.",
+    "icon": "powerrangerscraft:rpm_logo",
+    "sortnum": 6
+}

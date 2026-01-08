@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:operation_overdrive/main",
+    "name": "Operation Overdrive Mobs",
+    "description": "Every mob from or relating to the Power Rangers Operation Overdrive series.",
+    "icon": "powerrangerscraft:thrax_codpiece",
+    "sortnum": 4
+}

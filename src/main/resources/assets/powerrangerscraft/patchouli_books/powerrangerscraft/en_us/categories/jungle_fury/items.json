@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:jungle_fury/main",
+    "name": "Jungle Fury Ranger Items",
+    "description": "All Jungle Fury-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:tiger_spirit",
+    "sortnum": 2
+}

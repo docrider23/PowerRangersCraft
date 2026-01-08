@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:samurai/main",
+    "name": "Samurai Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Samurai series.",
+    "icon": "powerrangerscraft:samurai_head",
+    "sortnum": 0
+}

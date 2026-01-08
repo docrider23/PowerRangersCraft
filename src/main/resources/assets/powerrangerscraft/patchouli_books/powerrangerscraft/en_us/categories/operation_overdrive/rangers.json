@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:operation_overdrive/main",
+    "name": "Overdrive Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Operation Overdrive series.",
+    "icon": "powerrangerscraft:operation_overdrive_head",
+    "sortnum": 0
+}

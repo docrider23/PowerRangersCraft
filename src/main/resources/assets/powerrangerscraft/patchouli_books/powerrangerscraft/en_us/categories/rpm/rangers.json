@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:rpm/main",
+    "name": "RPM Ranger Operators",
+    "description": "Every Ranger from or relating to the Power Rangers RPM series.",
+    "icon": "powerrangerscraft:rpm_head",
+    "sortnum": 0
+}

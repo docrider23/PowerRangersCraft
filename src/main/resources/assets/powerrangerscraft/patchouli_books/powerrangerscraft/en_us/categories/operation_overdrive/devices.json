@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:operation_overdrive/main",
+    "name": "Operation Overdrive Morphers",
+    "description": "The transformation devices used by the Overdrive Rangers. These can be repaired in an anvil using $(l:operation_overdrive/items/operation_overdrive_logo)Operation Overdrive Logos$(/l).",
+    "icon": "powerrangerscraft:red_overdrive_tracker",
+    "sortnum": 1
+}

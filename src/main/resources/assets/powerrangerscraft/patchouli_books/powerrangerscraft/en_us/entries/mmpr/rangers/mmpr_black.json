@@ -7,7 +7,7 @@
 		{
 			"type": "patchouli:entity",
 			"anchor": "mmpr_black",
-			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:black_power_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:tyrannosaurus_power_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:black_power_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:mastodon_power_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
 			"name": "MMPR Black Ranger",

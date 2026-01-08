@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/disney_era",
+    "name": "Power Rangers Jungle Fury",
+    "description": "Everything related to the Power Rangers Jungle Fury series.",
+    "icon": "powerrangerscraft:jungle_fury_logo",
+    "sortnum": 5
+}

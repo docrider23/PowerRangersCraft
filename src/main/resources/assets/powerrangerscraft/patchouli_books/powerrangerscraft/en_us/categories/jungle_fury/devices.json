@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:jungle_fury/main",
+    "name": "Jungle Fury Morphers",
+    "description": "The transformation devices used by the Jungle Fury Rangers. These can be repaired in an anvil using $(l:jungle_fury/items/jungle_fury_logo)Jungle Fury Logos$(/l).",
+    "icon": "powerrangerscraft:red_solar_morpher",
+    "sortnum": 1
+}
