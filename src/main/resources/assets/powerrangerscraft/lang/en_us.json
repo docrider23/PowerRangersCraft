@@ -154,6 +154,7 @@
   "item.powerrangerscraft.pink_power_morpher": "Power Morpher",
   "item.powerrangerscraft.green_power_morpher": "Power Morpher",
   "item.powerrangerscraft.white_power_morpher": "Power Morpher",
+  "item.powerrangerscraft.ninjor_morpher": "Ninjor Urn",
   "item.powerrangerscraft.santa_power_morpher": "Power Morpher",
 
   "item.powerrangerscraft.tyrannosaurus_power_coin": "Tyrannosaurus Power Coin",
@@ -163,6 +164,7 @@
   "item.powerrangerscraft.pteradactyl_power_coin": "Pteradactyl Power Coin",
   "item.powerrangerscraft.dragon_power_coin": "Dragon Power Coin",
   "item.powerrangerscraft.white_tiger_power_coin": "White Tiger Power Coin",
+  "item.powerrangerscraft.ninjor_coin": "Ninjor Coin",
   "item.powerrangerscraft.reindeer_power_coin": "Reindeer Power Coin",
 
   "powerrangerscraft:tyrannosaurus_power_coin.form": "Ranger: §cRed Ranger",
@@ -172,6 +174,7 @@
   "powerrangerscraft:pteradactyl_power_coin.form": "Ranger: §dPink Ranger",
   "powerrangerscraft:dragon_power_coin_base.form": "Ranger: §aGreen Ranger",
   "powerrangerscraft:white_tiger_power_coin.form": "Ranger: White Ranger",
+  "powerrangerscraft:ninjor_coin.form": "Ally: §1Ninjor",
   "powerrangerscraft:reindeer_power_coin.form": "Ally: §cSanta §aRanger",
 
   "powerrangerscraft:dragon_power_coin.form": "w/ §6Dragon Shield",
@@ -187,6 +190,7 @@
 
   "item.powerrangerscraft.dragon_dagger": "Dragon Dagger",
   "item.powerrangerscraft.saba": "Saba",
+  "item.powerrangerscraft.ninjato": "Ninjato",
 
   "block.powerrangerscraft.serpentera_scale_green": "Serpentera Scale (Green)",
   "block.powerrangerscraft.serpentera_scale_gold": "Serpentera Scale (Gold Face)",

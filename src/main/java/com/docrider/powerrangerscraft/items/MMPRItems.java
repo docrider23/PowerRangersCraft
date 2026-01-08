@@ -154,6 +154,20 @@ public class MMPRItems {
                 }
             }.AddToTabList(RangerTabs.MMPR));
 
+    public static final DeferredItem<Item> NINJOR_COIN = ITEMS.register("ninjor_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ninjor","blank")
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.GOLD_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 10, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.BLUE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 90, 0, 0, 0, 1);
+                }
+            }.AddToTabList(RangerTabs.MMPR));
+
     public static final DeferredItem<Item> REINDEER_POWER_COIN = ITEMS.register("reindeer_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","santa_ranger","santa_ranger_belt",
                     new MobEffectInstance(EffectCore.CHRISTMAS,40,1,true,true))
@@ -193,6 +207,8 @@ public class MMPRItems {
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_green", DRAGON_POWER_COIN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<Item> WHITE_POWER_MORPHER = ITEMS.register("white_power_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mmpr_white", WHITE_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+    public static final DeferredItem<Item> NINJOR_MORPHER = ITEMS.register("ninjor_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninjor", NINJOR_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<Item> SANTA_POWER_MORPHER = ITEMS.register("santa_power_morpher",
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"santa_ranger", REINDEER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 
@@ -215,6 +231,9 @@ public class MMPRItems {
     public static final DeferredItem<BowItem> DRAGON_DAGGER = ITEMS.register("dragon_dagger",
             () -> new DragonDaggerItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<SwordItem> SABA = ITEMS.register("saba",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+
+    public static final DeferredItem<SwordItem> NINJATO = ITEMS.register("ninjato",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 
     public static final DeferredItem<Item> Z_EMBLEM_GOLDAR = ITEMS.register("z_emblem_goldar",

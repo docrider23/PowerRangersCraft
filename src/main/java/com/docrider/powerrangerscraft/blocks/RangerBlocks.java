@@ -2,7 +2,7 @@ package com.docrider.powerrangerscraft.blocks;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.blocks.custom.*;
-import com.docrider.powerrangerscraft.blocks.machineBlocks.AnimalDNARepository;
+//import com.docrider.powerrangerscraft.blocks.machineBlocks.AnimalDNARepository;
 import com.docrider.powerrangerscraft.blocks.machineBlocks.CoronaAuroraCrown;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.items.OtherItems;
@@ -87,9 +87,9 @@ public class RangerBlocks {
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
-    public static final DeferredBlock<Block> ANIMAL_DNA_REPOSITORY = registerBlock("animal_dna_repository",
-            () -> new AnimalDNARepository(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.COW_BELL)
-                    .strength(5.0F,6.0F).sound(SoundType.METAL)).AddToTabList(RangerTabs.BLOCKS));
+   // public static final DeferredBlock<Block> ANIMAL_DNA_REPOSITORY = registerBlock("animal_dna_repository",
+          //  () -> new AnimalDNARepository(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.COW_BELL)
+            //        .strength(5.0F,6.0F).sound(SoundType.METAL)).AddToTabList(RangerTabs.BLOCKS));
 
     public static final DeferredBlock<Block> WAREHOUSE_SIDING = registerBlock("warehouse_siding",
             () -> new BaseFacingBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)

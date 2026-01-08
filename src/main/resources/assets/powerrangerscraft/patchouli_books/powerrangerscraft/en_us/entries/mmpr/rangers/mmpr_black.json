@@ -1,0 +1,67 @@
+{
+	"name": "Mighty Morphin' Black Ranger",
+	"icon": "powerrangerscraft:mastodon_power_coin",
+	"category": "powerrangerscraft:mmpr/rangers",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_black",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:black_power_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:tyrannosaurus_power_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR Black Ranger",
+			"text": "Accessed with the $(l:mmpr/items/power_coins#mastodon_power_coin)Mastodon Power Coin$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Black Ranger",
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#black_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_black_dragon_shield",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:black_power_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:dragon_power_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR Black Ranger (w/ Dragon Shield)",
+			"text": "Accessed with the $(l:mmpr/items/power_coins#dragon_power_coin)Dragon Power Coin$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Black Ranger",
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#Black_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_black_defender",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:black_power_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:defender_vest\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR Black Ranger (w/ Defender Vest)",
+			"text": "Accessed with the $(l:mmpr/items/power_coins#overdrive_defender_vest)Defender Vest$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Black Ranger",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#Black_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+
+		{
+			"type": "patchouli:entity",
+			"anchor": "mmpr_black_16_bit",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:black_power_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:game_controller_16_bit_mmpr_black\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "MMPR Black Ranger",
+			"text": "Accessed with the $(l:mmpr/items/game_controller)Game Controller$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mighty Morphin' Black Ranger",
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1994, SNES Game)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#Black_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+
+	]
+}

@@ -385,7 +385,7 @@ public class RangerTabs {
 
         }
         else if(event.getTab() == RangerTabs.BeastMorphersTab.get()) {
-            for (int i = 0; i < RangerTabs.BEAST_MORPHERS.size(); i++)
+           for (int i = 0; i < RangerTabs.BEAST_MORPHERS.size(); i++)
             {
                 event.accept( RangerTabs.BEAST_MORPHERS.get(i));
             }

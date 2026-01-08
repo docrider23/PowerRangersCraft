@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ninjor",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:mmpr_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:ninjor_coin"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:ninjor_morpher"
+  }
+}
