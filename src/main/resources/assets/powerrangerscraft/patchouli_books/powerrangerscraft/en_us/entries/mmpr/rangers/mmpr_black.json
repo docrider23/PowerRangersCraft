@@ -30,9 +30,8 @@
 		{
 			"type": "patchouli:text",
 			"title": "Mighty Morphin' Black Ranger",
-			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#Black_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#black_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
 		},
-
 		{
 			"type": "patchouli:entity",
 			"anchor": "mmpr_black_defender",
@@ -45,9 +44,8 @@
 		{
 			"type": "patchouli:text",
 			"title": "Mighty Morphin' Black Ranger",
-			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#Black_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#black_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
 		},
-
 		{
 			"type": "patchouli:entity",
 			"anchor": "mmpr_black_16_bit",
@@ -60,8 +58,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Mighty Morphin' Black Ranger",
-			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1994, SNES Game)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#Black_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1994, SNES Game)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#black_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
 		}
-
 	]
 }
