@@ -20,6 +20,7 @@ public class MMPRItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
 
     public static String[] RANGERS= new String[] {"mmpr_red","mmpr_blue","mmpr_pink","mmpr_black","mmpr_yellow","mmpr_green","samurai_green"};
+    public static String[] NINJA_RANGERS= new String[] {"mmpr_red","mmpr_blue","mmpr_pink","mmpr_black","mmpr_yellow","mmpr_white"};
 
     public static final DeferredItem<Item> MMPR_LOGO = ITEMS.register("mmpr_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MMPR));
@@ -138,7 +139,7 @@ public class MMPRItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.ChangeSlot(2).addAlternative(DRAGON_POWER_COIN_NO_SHIELD.get()).AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.MMPR));
+            }.ChangeSlot(2).addSwitchForm(DRAGON_POWER_COIN_NO_SHIELD.get()).AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> WHITE_TIGER_POWER_COIN = ITEMS.register("white_tiger_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_white","mmpr_white_belt")
