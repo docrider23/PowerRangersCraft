@@ -128,7 +128,7 @@ public class BeastMorphersItems {
     public static final DeferredItem<BaseBlasterItem> BEAST_X_BLASTER = ITEMS.register("beast_x_blaster",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
     public static final DeferredItem<BaseBlasterItem> BEAST_X_CANNON = ITEMS.register("beast_x_cannon",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().KeepDifItem(BEAST_X_SABER.get()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
 
     public static final DeferredItem<BaseBlasterItem> CHEETAH_BEAST_BLASTER = ITEMS.register("cheetah_beast_blaster",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "beast_morphers",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:morph_x_canister"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:beast_morphers_head"
+  }
+}

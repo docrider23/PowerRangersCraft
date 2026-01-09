@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "beast_morphers_red",
+  "pattern": [
+    "aaa",
+    "abc",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:morph_x_canister"
+    },
+	"b": {
+        "item": "powerrangerscraft:red_morph_x_key"
+      },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:cheetah_beast_blaster"
+  }
+}

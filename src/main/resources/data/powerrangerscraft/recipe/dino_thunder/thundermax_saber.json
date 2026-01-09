@@ -10,10 +10,14 @@
     "a": {
       "item": "powerrangerscraft:dino_thunder_logo"
     },
-	"b":
+	"b":[
       {
 	    "item": "powerrangerscraft:yellow_dino_gem"
 	  },
+      {
+        "item": "powerrangerscraft:red_dino_gem"
+      }
+    ],
 	"c": {
       "item": "powerrangerscraft:base_sword"
     }
