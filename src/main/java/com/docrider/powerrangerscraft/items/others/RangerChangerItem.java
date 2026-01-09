@@ -2,6 +2,7 @@ package com.docrider.powerrangerscraft.items.others;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
+import com.docrider.powerrangerscraft.entity.summon.BaseSummonEntity;
 import com.google.common.collect.Lists;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
@@ -133,13 +134,15 @@ public class RangerChangerItem extends RangerArmorItem{
                 RangerFormChangeItem form = get_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), n + 1);
                 List<MobEffectInstance> potionEffectList = form.getPotionEffectList();
                 for (MobEffectInstance effect : potionEffectList) {
-                    if (effect.getEffect() != MobEffects.DAMAGE_BOOST&
-                            effect.getEffect() != MobEffects.DIG_SPEED&
-                            effect.getEffect() != MobEffects.REGENERATION&
-                            effect.getEffect() != MobEffects.DAMAGE_RESISTANCE&
-                            effect.getEffect() != MobEffects.MOVEMENT_SPEED&
-                            effect.getEffect() != EffectCore.SLASH&
-                            effect.getEffect() != EffectCore.PUNCH
+                    if ((effect.getEffect() != MobEffects.DAMAGE_BOOST&&
+                            effect.getEffect() != MobEffects.DIG_SPEED&&
+                            effect.getEffect() != MobEffects.REGENERATION&&
+                            effect.getEffect() != MobEffects.DAMAGE_RESISTANCE&&
+                            effect.getEffect() != MobEffects.MOVEMENT_SPEED&&
+                            effect.getEffect() != EffectCore.SLASH&&
+                            effect.getEffect() != EffectCore.PUNCH)
+                            ||(player instanceof BaseSummonEntity
+                            &&(effect.getEffect() != MobEffects.DAMAGE_RESISTANCE || effect.getAmplifier() < 3))
                             ||player instanceof Player) {
                         player.addEffect(new MobEffectInstance(effect.getEffect(), effect.getDuration(), effect.getAmplifier(), true, false));
                     }
@@ -290,15 +293,13 @@ public class RangerChangerItem extends RangerArmorItem{
         }
     }
 
-    public static void set_Use_Ability(ItemStack itemstack)
+    public static void setUseAbility(ItemStack itemstack)
     {
         if (!itemstack.has(DataComponents.CUSTOM_DATA)) {
             itemstack.set(DataComponents.CUSTOM_DATA, CustomData.EMPTY);
         }
         if (itemstack.getItem() instanceof RangerChangerItem) {
-            Consumer<CompoundTag> data = form -> {
-                form.putDouble("use_ability", 5);
-            };
+            Consumer<CompoundTag> data = form -> form.putDouble("use_ability", 5);
             CustomData.update(DataComponents.CUSTOM_DATA, itemstack, data);
         }
     }
@@ -333,10 +334,6 @@ public class RangerChangerItem extends RangerArmorItem{
         return false;
     }
     public void openInventory(ServerPlayer player, InteractionHand hand, ItemStack itemstack) {
-    }
-
-    public void setUseAbility(ServerPlayer player, InteractionHand hand, ItemStack itemstack) {
-        set_Use_Ability(itemstack);
     }
 
     public  boolean getPartsForSlot(ItemStack itemstack,EquipmentSlot currentSlot,String  part) {

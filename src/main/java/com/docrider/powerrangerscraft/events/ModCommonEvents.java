@@ -1,5 +1,6 @@
 package com.docrider.powerrangerscraft.events;
 
+import com.docrider.powerrangerscraft.client.KeyBindings;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.entity.ally.*;
 import com.docrider.powerrangerscraft.entity.bikes.DinoCycleEntity;
@@ -8,12 +9,12 @@ import com.docrider.powerrangerscraft.entity.footsoldier.*;
 import com.docrider.powerrangerscraft.items.GamesItems;
 import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
+import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
+import com.docrider.powerrangerscraft.network.payload.AbilityKeyPayload;
+import net.minecraft.client.Minecraft;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.LightningBolt;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.SpawnPlacementTypes;
+import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
@@ -25,21 +26,42 @@ import net.minecraft.world.level.GameRules;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
 import com.docrider.powerrangerscraft.entity.MobsCore;
+import net.neoforged.neoforge.event.tick.EntityTickEvent;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.event.village.VillagerTradesEvent;
 import net.neoforged.neoforge.event.village.WandererTradesEvent;
+import net.neoforged.neoforge.network.PacketDistributor;
 
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Objects;
 
-public class ModCommonEvents {public static class EventHandler {
+public class ModCommonEvents {
+    public static class EventHandler {
 
-    @SubscribeEvent
+        @SubscribeEvent
+        public void clientTick(ClientTickEvent.Post event) {
+            if (Minecraft.getInstance().player != null) {
+                while (KeyBindings.INSTANCE.AbilityKey.consumeClick()) PacketDistributor.sendToServer(new AbilityKeyPayload(0));
+            }
+        }
+
+        @SubscribeEvent
+        public void onEntityTick(EntityTickEvent.Post event) {
+            if (event.getEntity()instanceof LivingEntity entity){
+                if (entity.getItemBySlot(EquipmentSlot.FEET).getItem()instanceof RangerChangerItem belt){
+                    belt.beltTick(entity.getItemBySlot(EquipmentSlot.FEET),entity.level(),entity,36);
+                    belt.giveEffects(entity);
+                }
+            }
+        }
+
+        @SubscribeEvent
     public void onPlayerTick(PlayerTickEvent.Post event) {
         LocalDate localdate = LocalDate.now();
         int day = localdate.getDayOfMonth();

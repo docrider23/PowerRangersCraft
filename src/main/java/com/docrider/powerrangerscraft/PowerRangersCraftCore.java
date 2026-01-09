@@ -3,6 +3,7 @@ package com.docrider.powerrangerscraft;
 import com.docrider.powerrangerscraft.blocks.entity.ModBlockEntities;
 import com.docrider.powerrangerscraft.blocks.entity.SwordStatueBlockEntity;
 import com.docrider.powerrangerscraft.blocks.entity.renderer.SwordStatueBlockEntityRenderer;
+import com.docrider.powerrangerscraft.client.KeyBindings;
 import com.docrider.powerrangerscraft.client.renderer.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.BaseFootsoldierEntity;
 import com.docrider.powerrangerscraft.events.ModClientEvents;
@@ -16,6 +17,8 @@ import com.docrider.powerrangerscraft.items.others.BaseDualSwordItem;
 import com.docrider.powerrangerscraft.items.others.MechaGattaiItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.level.ModGameRules;
+import com.docrider.powerrangerscraft.network.ServerPayloadHandler;
+import com.docrider.powerrangerscraft.network.payload.AbilityKeyPayload;
 import com.docrider.powerrangerscraft.particle.*;
 import com.docrider.powerrangerscraft.sounds.ModSounds;
 import com.docrider.powerrangerscraft.items.*;
@@ -43,13 +46,13 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.client.event.EntityRenderersEvent;
-import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
-import net.neoforged.neoforge.client.event.RenderLivingEvent;
-import net.neoforged.neoforge.client.event.RenderPlayerEvent;
+import net.neoforged.neoforge.client.event.*;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
+import net.neoforged.neoforge.network.registration.HandlerThread;
+import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import org.slf4j.Logger;
 
 import java.util.ArrayList;
@@ -445,6 +448,25 @@ public class PowerRangersCraftCore {
             event.registerSpriteSet(ModParticles.MMPR_MORPHER_PARTICLES.get(), MMPRMorpherParticles.Provider::new);
             event.registerSpriteSet(ModParticles.MMPR_GREEN_WHITE_MORPHER_PARTICLES.get(), MMPRGreenWhiteMorpherParticles.Provider::new);
             event.registerSpriteSet(ModParticles.MMPR_SANTA_MORPHER_PARTICLES.get(), MMPRSantaMorpherParticles.Provider::new);
+        }
+
+        @SubscribeEvent
+        public static void registerKeys(RegisterKeyMappingsEvent event) {
+            event.register(KeyBindings.INSTANCE.AbilityKey);
+        }
+
+        @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD)
+        public static class CommonModEvents {
+            @SubscribeEvent
+            public static void register(final RegisterPayloadHandlersEvent event) {
+                PayloadRegistrar registrar = event.registrar("powerrangerscraft");
+                registrar = registrar.executesOn(HandlerThread.MAIN);
+                registrar.playToServer(
+                        AbilityKeyPayload.TYPE,
+                        AbilityKeyPayload.STREAM_CODEC,
+                        ServerPayloadHandler::handleAbilityKeyPress
+                );
+            }
         }
     }
 }

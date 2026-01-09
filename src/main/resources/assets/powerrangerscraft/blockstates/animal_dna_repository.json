@@ -1,0 +1,8 @@
+{
+    "variants":{   
+    "facing=north": { "model": "powerrangerscraft:block/animal_dna_repository" },
+    "facing=south": { "model": "powerrangerscraft:block/animal_dna_repository", "y": 180 },
+    "facing=west": { "model": "powerrangerscraft:block/animal_dna_repository", "y": 270 },
+    "facing=east": { "model": "powerrangerscraft:block/animal_dna_repository", "y": 90 }
+  }
+ }

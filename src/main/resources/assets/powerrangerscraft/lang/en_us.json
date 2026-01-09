@@ -25,6 +25,9 @@
   "effect.powerrangerscraft.wide":"Wide",
   "effect.powerrangerscraft.christmas": "Christmas",
 
+  "key.categories.powerrangerscraft": "PowerRangersCraft",
+  "key.powerrangerscraft.ability": "Use an Ability",
+
   "entity.powerrangerscraft.putty_patroller":"Putty Patrollers",
   "item.powerrangerscraft.putty_patroller_spawn_egg":"Putty Patrollers Spawn Egg",
   "entity.powerrangerscraft.goldar":"Goldar",
@@ -1046,7 +1049,18 @@
   "powerrangerscraft:robo_blaze_morph_x_key.form": "Villian: §6Cybervillain Robo-Blaze",
   "powerrangerscraft:robo_roxy_morph_x_key.form": "Villian: §5Cybervillain Robo-Roxy",
 
+  "item.powerrangerscraft.beast_x_saber": "Beast-X Saber",
+  "item.powerrangerscraft.beast_x_blaster": "Beast-X Blaster",
+  "item.powerrangerscraft.beast_x_cannon": "Beast-X Cannon",
+
+  "item.powerrangerscraft.cheetah_beast_blaster": "Cheetah Beast Blaster",
+
+  "item.powerrangerscraft.beast_x_ultra_blaster": "Beast-X Ultra Blaster",
+
   "item.powerrangerscraft.striker_morpher": "Striker Morpher",
+  "item.powerrangerscraft.striker_saber": "Striker Saber",
+
+  "item.powerrangerscraft.cybervillain_blaze_sword": "Blaze's Sword",
 
   //28 Dino Fury
   "tab.powerrangerscraft.dino_fury": "Dino Fury",

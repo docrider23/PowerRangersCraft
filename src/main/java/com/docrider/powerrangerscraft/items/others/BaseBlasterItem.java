@@ -42,6 +42,7 @@ public class BaseBlasterItem extends BowItem {
 	private Item Changer = null;
 	private Boolean Charged = false;
 	private Boolean SuperGun = false;
+	private Boolean HyperGun = false;
 	private static int LFBB = 1;
 	private Item craftingRemainingItem = null;
 	private Boolean Dual = false;
@@ -161,6 +162,11 @@ public class BaseBlasterItem extends BowItem {
 				arrow.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
 				this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 2 * 3.0F, 1.0F, true, (LivingEntity)null);
 			}
+			else if (HyperGun) {
+				ItemStack arrow = new ItemStack(Items.ARROW, 1);
+				arrow.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
+				this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 2 * 7.0F, 1.0F, true, (LivingEntity)null);
+			}
 			else if (entityLiving.hasEffect(EffectCore.SHOTBOOST)) {
 				ItemStack arrow = new ItemStack(Items.ARROW, 1);
 				arrow.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
@@ -246,6 +252,11 @@ public class BaseBlasterItem extends BowItem {
 
 	public BaseBlasterItem IsSuperGun() {
 		SuperGun = true;
+		return this;
+	}
+
+	public BaseBlasterItem IsHyperGun() {
+		HyperGun = true;
 		return this;
 	}
 
