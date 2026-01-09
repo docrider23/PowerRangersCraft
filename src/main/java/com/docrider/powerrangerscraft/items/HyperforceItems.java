@@ -83,12 +83,12 @@ public class HyperforceItems {
     public static final DeferredItem<BaseBlasterItem> HYPERFORCE_BLADE_BLASTER = ITEMS.register("hyperforce_blade_blaster",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
 
-    public static final DeferredItem<BaseBlasterItem> IAPETUS_BLASTER = ITEMS.register("iapetus_blaster",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
     public static final DeferredItem<SwordItem> IAPETUS_CLAW = ITEMS.register("iapetus_claw",
             () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
     public static final DeferredItem<SwordItem> IAPETUS_CLAW1 = ITEMS.register("iapetus_claw1",
             () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
+    public static final DeferredItem<BaseBlasterItem> IAPETUS_BLASTER = ITEMS.register("iapetus_blaster",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).KeepDifItem(IAPETUS_CLAW1.get()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
 
     public static final DeferredItem<SwordItem> OCEANUS_TRIDENT = ITEMS.register("oceanus_trident",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));

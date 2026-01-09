@@ -3,7 +3,7 @@
   "group": "beast_morphers",
   "ingredients": [
 	{
-      "item": "powerrangerscraft:blank_morph_x_key"
+      "item": "powerrangerscraft:morph_x_canister"
     },
 	{
       "item": "minecraft:paper",

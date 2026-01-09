@@ -123,7 +123,7 @@ public class TurboItems {
 	public static final DeferredItem<BaseBlasterItem> TURBO_NAVIGATOR = ITEMS.register("turbo_navigator",
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 	public static final DeferredItem<BaseBlasterItem> AUTO_BLAST_DEFENDER = ITEMS.register("auto_blast_defender",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).KeepDifItem(TURBO_NAVIGATOR.get()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 
 	public static final DeferredItem<BaseBlasterItem> SENTURION_SYNERGIZER = ITEMS.register("senturion_synergizer",
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));

@@ -38,7 +38,7 @@ public class InSpaceItems {
     public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER_2 = ITEMS.register("astro_blaster_2",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
     public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER_COMBO = ITEMS.register("astro_blaster_combo",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 10, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 10, -2.4F, new Item.Properties()).KeepDifItem(ASTRO_BLASTER_2.get()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

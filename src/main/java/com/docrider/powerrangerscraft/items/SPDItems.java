@@ -35,7 +35,7 @@ public class SPDItems {
     public static final DeferredItem<BaseBlasterItem> DELTA_BLASTER_2 = ITEMS.register("delta_blaster_2",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));
     public static final DeferredItem<BaseBlasterItem> DELTA_BLASTER_COMBO = ITEMS.register("delta_blaster_combo",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 10, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 10, -2.4F, new Item.Properties()).KeepDifItem(DELTA_BLASTER_2.get()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
