@@ -176,9 +176,18 @@ public class BeastMorphersItems {
 
     public static final DeferredItem<BaseBlasterItem> CHEETAH_BEAST_BLASTER = ITEMS.register("cheetah_beast_blaster",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
+    public static final DeferredItem<SwordItem> CHEETAH_CLAW = ITEMS.register("cheetah_claw",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 7, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
 
     public static final DeferredItem<BaseBlasterItem> BEAST_X_ULTRA_BLASTER = ITEMS.register("beast_x_ultra_blaster",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
+    public static final DeferredItem<BaseBlasterItem> BEAST_X_ULTRA_BOW = ITEMS.register("beast_x_ultra_bow",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsSuperGun().AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
+    public static final DeferredItem<BaseBlasterItem> BEAST_X_ULTRA_CANNON = ITEMS.register("beast_x_ultra_cannon",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).IsHyperGun().AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
+
+    public static final DeferredItem<SwordItem> BEAST_X_KING_SPIN_SABER = ITEMS.register("beast_x_king_spin_saber",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 7, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
 
     public static final DeferredItem<BaseBlasterItem> STRIKER_MORPHER = ITEMS.register("striker_morpher",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
