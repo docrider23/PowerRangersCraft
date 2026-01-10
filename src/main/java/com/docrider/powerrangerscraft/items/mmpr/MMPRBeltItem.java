@@ -38,7 +38,13 @@ public class MMPRBeltItem extends RangerChangerItem {
         Item formItem = this.get_Form_Item(stack, 1);
         Item formItem2 = this.get_Form_Item(stack, 2);
 
-        if (formItem2== MMPRItems.DRAGON_POWER_COIN.get()) {
+        if (formItem2== MMPRItems.DRAGON_POWER_COIN.get()
+                ||formItem2== MMPRItems.METALLIC_ARMOR.get()
+                ||formItem2== MMPRItems.METALLIC_ARMOR_BLACK.get()
+                ||formItem2== MMPRItems.METALLIC_ARMOR_BLUE.get()
+                ||formItem2== MMPRItems.METALLIC_ARMOR_YELLOW.get()
+                ||formItem2== MMPRItems.METALLIC_ARMOR_PINK.get()
+                ||formItem2== MMPRItems.METALLIC_ARMOR_WHITE.get()) {
             tooltipComponents.add(Component.translatable(formItem.toString() + ".form"));
             tooltipComponents.add(Component.translatable(formItem2.toString() + ".form"));
         }

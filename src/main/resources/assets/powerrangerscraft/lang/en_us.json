@@ -170,6 +170,8 @@
   "item.powerrangerscraft.ninjor_coin": "Ninjor Coin",
   "item.powerrangerscraft.reindeer_power_coin": "Reindeer Power Coin",
 
+  "item.powerrangerscraft.metallic_armor_power_coin": "Metallic Power Coin",
+
   "powerrangerscraft:tyrannosaurus_power_coin.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:mastodon_power_coin.form": "Ranger: §8Black Ranger",
   "powerrangerscraft:triceratops_power_coin.form": "Ranger: §1Blue Ranger",
@@ -182,6 +184,12 @@
 
   "powerrangerscraft:dragon_power_coin.form": "w/ §6Dragon Shield",
   "powerrangerscraft:ninjor_coin_battle_mode.form": "Ally: §1Ninjor §cBattle Mode",
+  "powerrangerscraft:metallic_armor_power_coin.form": "w/ §7Metallic Armor",
+  "powerrangerscraft:metallic_armor_power_coin_black.form": "w/ §7Metallic Armor",
+  "powerrangerscraft:metallic_armor_power_coin_blue.form": "w/ §7Metallic Armor",
+  "powerrangerscraft:metallic_armor_power_coin_yellow.form": "w/ §7Metallic Armor",
+  "powerrangerscraft:metallic_armor_power_coin_pink.form": "w/ §7Metallic Armor",
+  "powerrangerscraft:metallic_armor_power_coin_white.form": "Ranger: White Ranger w/ §7Metallic Armor",
   
   "item.powerrangerscraft.blade_blaster": "Blade Blaster",
 
