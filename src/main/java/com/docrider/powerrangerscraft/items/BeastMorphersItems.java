@@ -61,6 +61,34 @@ public class BeastMorphersItems {
                     new MobEffectInstance(EffectCore.FLYING, 40, 2,true,false))
                     .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.BEAST_MORPHERS).AddToList(AnimalDNARepository.ANIMAL_DNA_REPOSITORY, 1));
 
+    public static final DeferredItem<Item> CRUISE_MORPH_X_KEY = ITEMS.register("cruise_morph_x_key",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS));
+    public static final DeferredItem<Item> SMASH_MORPH_X_KEY = ITEMS.register("smash_morph_x_key",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS));
+    public static final DeferredItem<Item> JAX_MORPH_X_KEY = ITEMS.register("jax_morph_x_key",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS));
+
+    public static final DeferredItem<Item> BEAST_X_VISOR_Y = ITEMS.register("beast_x_visor_y",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_beast_x","beast_morphers_yellow","beast_morphers_belt_beast_x_visor",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.JUMP, 40, 4,true,false))
+                    .ChangeBeltModel("geo/rangerbelt1.geo.json"));
+
+    public static final DeferredItem<Item> BEAST_X_VISOR_B = ITEMS.register("beast_x_visor_b",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_beast_x","beast_morphers_blue","beast_morphers_belt_beast_x_visor",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 6,true,false))
+                    .addAlternative(BEAST_X_VISOR_Y.get()).ChangeBeltModel("geo/rangerbelt1.geo.json"));
+
+    public static final DeferredItem<Item> BEAST_X_VISOR = ITEMS.register("beast_x_visor",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_beast_x","beast_morphers_red","beast_morphers_belt_beast_x_visor",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 6,true,false))
+                    .addAlternative(BEAST_X_VISOR_B.get()).ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.BEAST_MORPHERS));
+
     public static final DeferredItem<Item> BLAZE_MORPH_X_KEY = ITEMS.register("blaze_morph_x_key",
             () -> new MorphXKeyItem(new Item.Properties(),0,"","cybervillain_blaze","cybervillain_blaze_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
