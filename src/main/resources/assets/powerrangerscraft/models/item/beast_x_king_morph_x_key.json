@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "powerrangerscraft:item/beast_x_king_morph_x_key"
+  }
+}
