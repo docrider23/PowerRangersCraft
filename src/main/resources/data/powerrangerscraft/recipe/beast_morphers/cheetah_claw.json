@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "beast_morphers_red",
+  "pattern": [
+    "aaa",
+    "dcb",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:morph_x_canister"
+    },
+	"b": {
+        "item": "powerrangerscraft:red_morph_x_key"
+      },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    },
+    "d": {
+      "item": "powerrangerscraft:red_fury_morph_x_key"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:cheetah_claw"
+  }
+}

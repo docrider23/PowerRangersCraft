@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "beast_morphers",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:beast_x_ultra_cannon"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:beast_x_ultra_blaster"
+  }
+}

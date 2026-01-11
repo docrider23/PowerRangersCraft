@@ -662,17 +662,21 @@
 
   "item.powerrangerscraft.red_dino_morpher": "Dino Morpher",
   "item.powerrangerscraft.yellow_dino_morpher": "Dino Morpher",
+  "item.powerrangerscraft.brachio_morpher": "Brachio Morpher",
 
   "item.powerrangerscraft.red_dino_gem": "Red Dino Gem",
   "item.powerrangerscraft.yellow_dino_gem": "Yellow Dino Gem",
+  "item.powerrangerscraft.black_dino_gem": "Black Dino Gem",
 
   "powerrangerscraft:red_dino_gem.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:yellow_dino_gem.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:black_dino_gem.form": "Ranger: §8Black Ranger",
 
   "item.powerrangerscraft.thundermax_saber": "Thundermax Saber",
   "item.powerrangerscraft.tyranno_staff": "Tyranno Staff",
   "item.powerrangerscraft.tricera_shield": "Tricera Shield",
   "item.powerrangerscraft.ptera_grip": "Ptera Grip",
+  "item.powerrangerscraft.brachio_staff": "Brachio Staff",
 
   //13 SPD
   "tab.powerrangerscraft.spd": "SPD (Space Patrol Delta)",
@@ -1049,7 +1053,6 @@
   "item.powerrangerscraft.beast_x_king_morph_x_key": "Beast X King Morph-X Key",
   "item.powerrangerscraft.beast_x_king_activator": "Beast X King Activator",
 
-
   "item.powerrangerscraft.blaze_morph_x_key": "Blaze Morph-X Key",
   "item.powerrangerscraft.roxy_morph_x_key": "Roxy Morph-X Key",
   "item.powerrangerscraft.robo_blaze_morph_x_key": "Robo-Blaze Morph-X Key",
@@ -1067,7 +1070,6 @@
   "powerrangerscraft:robo_blaze_morph_x_key.form": "Villian: §6Cybervillain Robo-Blaze",
   "powerrangerscraft:robo_roxy_morph_x_key.form": "Villian: §5Cybervillain Robo-Roxy",
 
-
   "powerrangerscraft:red_fury_morph_x_key.form": "Ranger: §cRed Ranger Fury Mode",
   "powerrangerscraft:beast_x_visor.form": "Ranger: §cRed Ranger Beast X Mode",
   "powerrangerscraft:beast_x_visor_b.form": "Ranger: §9Blue Ranger Beast X Mode",
@@ -1079,8 +1081,13 @@
   "item.powerrangerscraft.beast_x_cannon": "Beast-X Cannon",
 
   "item.powerrangerscraft.cheetah_beast_blaster": "Cheetah Beast Blaster",
+  "item.powerrangerscraft.cheetah_claw": "Cheetah Claw",
 
   "item.powerrangerscraft.beast_x_ultra_blaster": "Beast-X Ultra Blaster",
+  "item.powerrangerscraft.beast_x_ultra_bow": "Beast-X Ultra Bow",
+  "item.powerrangerscraft.beast_x_ultra_cannon": "Beast-X Ultra Cannon",
+
+  "item.powerrangerscraft.beast_x_king_spin_saber": "Beast-X King Spin Saber",
 
   "item.powerrangerscraft.striker_morpher": "Striker Morpher",
   "item.powerrangerscraft.striker_saber": "Striker Saber",
