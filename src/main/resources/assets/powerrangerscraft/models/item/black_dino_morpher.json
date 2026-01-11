@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "powerrangerscraft:item/black_dino_morpher"
-  }
-}

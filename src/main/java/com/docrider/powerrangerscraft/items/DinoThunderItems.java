@@ -34,7 +34,7 @@ public class DinoThunderItems {
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"dino_thunder_red",RED_DINO_GEM,DINO_THUNDER_HELMET,DINO_THUNDER_CHESTPLATE,DINO_THUNDER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.DINO_THUNDER).ChangeRepairItem(DINO_THUNDER_LOGO.get()));
     public static final DeferredItem<Item> YELLOW_DINO_MORPHER = ITEMS.register("yellow_dino_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"dino_thunder_yellow",YELLOW_DINO_GEM,DINO_THUNDER_HELMET,DINO_THUNDER_CHESTPLATE,DINO_THUNDER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.DINO_THUNDER).ChangeRepairItem(DINO_THUNDER_LOGO.get()));
-    public static final DeferredItem<Item> BLACK_DINO_MORPHER = ITEMS.register("black_dino_morpher",
+    public static final DeferredItem<Item> BRACHIO_MORPHER = ITEMS.register("brachio_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"dino_thunder_black",BLACK_DINO_GEM,DINO_THUNDER_HELMET,DINO_THUNDER_CHESTPLATE,DINO_THUNDER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.DINO_THUNDER).ChangeRepairItem(DINO_THUNDER_LOGO.get()));
 
     public static final DeferredItem<BaseBlasterItem> THUNDERMAX_SABER = ITEMS.register("thundermax_saber",
