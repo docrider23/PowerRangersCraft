@@ -1045,6 +1045,11 @@
   "item.powerrangerscraft.jax_morph_x_key": "Jax Morph-X Key",
   "item.powerrangerscraft.beast_x_visor": "Beast-X Visor",
 
+  "item.powerrangerscraft.red_fury_morph_x_key": "Fury Morph-X Key",
+  "item.powerrangerscraft.beast_x_king_morph_x_key": "Beast X King Morph-X Key",
+  "item.powerrangerscraft.beast_x_king_activator": "Beast X King Activator",
+
+
   "item.powerrangerscraft.blaze_morph_x_key": "Blaze Morph-X Key",
   "item.powerrangerscraft.roxy_morph_x_key": "Roxy Morph-X Key",
   "item.powerrangerscraft.robo_blaze_morph_x_key": "Robo-Blaze Morph-X Key",
@@ -1061,6 +1066,13 @@
   "powerrangerscraft:roxy_morph_x_key.form": "Villian: §6Cybervillain Roxy",
   "powerrangerscraft:robo_blaze_morph_x_key.form": "Villian: §6Cybervillain Robo-Blaze",
   "powerrangerscraft:robo_roxy_morph_x_key.form": "Villian: §5Cybervillain Robo-Roxy",
+
+
+  "powerrangerscraft:red_fury_morph_x_key.form": "Ranger: §cRed Ranger Fury Mode",
+  "powerrangerscraft:beast_x_visor.form": "Ranger: §cRed Ranger Beast X Mode",
+  "powerrangerscraft:beast_x_visor_b.form": "Ranger: §9Blue Ranger Beast X Mode",
+  "powerrangerscraft:beast_x_visor_y.form": "Ranger: §eYellow Ranger Beast X Mode",
+  "powerrangerscraft:beast_x_king_activator.form": "Ranger: §cRed Ranger §9Beast X §eKing Mode",
 
   "item.powerrangerscraft.beast_x_saber": "Beast-X Saber",
   "item.powerrangerscraft.beast_x_blaster": "Beast-X Blaster",
