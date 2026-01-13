@@ -31,16 +31,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:dragon_power_coin",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "powerrangerscraft:white_tiger_power_coin",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
           "name": "powerrangerscraft:ninjor_coin",
           "weight": 2
         },

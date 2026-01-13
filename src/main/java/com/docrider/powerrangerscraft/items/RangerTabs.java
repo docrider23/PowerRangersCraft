@@ -458,6 +458,7 @@ public class RangerTabs {
 
             event.accept(MobsCore.PUTTY_PATROLLERS_SPAWN_EGG);
             event.accept(MobsCore.GOLDAR_SPAWN_EGG);
+            event.accept(MobsCore.EVIL_MMPR_GREEN_SPAWN_EGG);
 
             event.accept(MobsCore.COGS_SPAWN_EGG);
 

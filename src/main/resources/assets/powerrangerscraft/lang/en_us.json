@@ -33,6 +33,8 @@
   "entity.powerrangerscraft.goldar":"Goldar",
   "entity.powerrangerscraft.goldar_maximus":"Goldar Maximus",
   "item.powerrangerscraft.goldar_spawn_egg":"Goldar Spawn Egg",
+  "entity.powerrangerscraft.evil_mmpr_green":"Evil Green Ranger",
+  "item.powerrangerscraft.evil_mmpr_green_spawn_egg":"Evil Green Ranger Spawn Egg",
 
   "entity.powerrangerscraft.cog":"Cogs",
   "item.powerrangerscraft.cog_spawn_egg":"Cogs Spawn Egg",
@@ -215,6 +217,7 @@
   "item.powerrangerscraft.power_bow": "Power Bow",
 
   "item.powerrangerscraft.dragon_dagger": "Dragon Dagger",
+  "item.powerrangerscraft.sword_of_darkness": "Sword Of Darkness",
   "item.powerrangerscraft.saba": "Saba",
   "item.powerrangerscraft.ninjato": "Ninjato",
 

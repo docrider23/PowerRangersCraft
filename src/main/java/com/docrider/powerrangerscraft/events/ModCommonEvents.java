@@ -155,6 +155,7 @@ public class ModCommonEvents {
     public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
         event.put(MobsCore.PUTTY_PATROLLERS.get(), PuttyPatrollersEntity.setAttributes().build());
         event.put(MobsCore.GOLDAR.get(), GoldarEntity.setAttributes().build());
+        event.put(MobsCore.EVILMMPRGREEN.get(), EvilMMPRGreenEntity.setAttributes().build());
 
         event.put(MobsCore.COGS.get(), CogEntity.setAttributes().build());
 
@@ -211,6 +212,7 @@ public class ModCommonEvents {
     public static void entitySpawnRestriction(RegisterSpawnPlacementsEvent event) {
         event.register(MobsCore.PUTTY_PATROLLERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
         event.register(MobsCore.GOLDAR.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+        event.register(MobsCore.EVILMMPRGREEN.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.COGS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 

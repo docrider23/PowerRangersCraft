@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_thunder_black",
+  "pattern": [
+    "aaa",
+    "aca",
+	"aba"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:dino_thunder_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:black_dino_gem"
+    },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:brachio_staff"
+  }
+}

@@ -33,6 +33,13 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     public static final DeferredItem<DeferredSpawnEggItem> GOLDAR_SPAWN_EGG = ITEMS.register("goldar_spawn_egg",
             () -> new DeferredSpawnEggItem(GOLDAR, 0xff9900, 0x0a21f2, new Item.Properties()));
 
+    public static final DeferredHolder<EntityType<?>, EntityType<EvilMMPRGreenEntity>> EVILMMPRGREEN = MOBLIST.register("evil_mmpr_green",
+            () -> EntityType.Builder.of(EvilMMPRGreenEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":evil_mmpr_green"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> EVIL_MMPR_GREEN_SPAWN_EGG = ITEMS.register("evil_mmpr_green_spawn_egg",
+            () -> new DeferredSpawnEggItem(EVILMMPRGREEN, 0x00FF00, 0x000000, new Item.Properties()));
+
+
     //03 Alien
 
     //04 Zeo

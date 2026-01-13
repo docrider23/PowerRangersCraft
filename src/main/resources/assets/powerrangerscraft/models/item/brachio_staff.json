@@ -1,6 +1,28 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "powerrangerscraft:item/brachio_staff"
-  }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "powerrangerscraft:item/brachio_staff"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [60, -90, 98],
+			"translation": [0, 1.25, 0.5],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [60, 90, -98],
+			"translation": [0, 1.25, 0.5],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 94, 0],
+			"translation": [1.75, 2.75, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -94, 0],
+			"translation": [1.75, 2.75, 0]
+		}
+	}
 }

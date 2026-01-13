@@ -315,6 +315,8 @@ public class MMPRItems {
 
     public static final DeferredItem<BowItem> DRAGON_DAGGER = ITEMS.register("dragon_dagger",
             () -> new DragonDaggerItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+    public static final DeferredItem<SwordItem> SWORDOFDARKNESS = ITEMS.register("sword_of_darkness",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
     public static final DeferredItem<SwordItem> SABA = ITEMS.register("saba",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
 

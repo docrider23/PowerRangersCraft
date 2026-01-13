@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/bow",
+	"textures": {
+		"layer0": "powerrangerscraft:item/tronic_claw_blaster"
+	}
+}
