@@ -58,6 +58,21 @@ public class MobsItems {
 	public static final DeferredItem<SwordItem> MOOGERS_DAO = ITEMS.register("moogers_dao",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 
+	public static final DeferredItem<BaseBlasterItem> TRONIC_CLAW_BLASTER = ITEMS.register("tronic_claw_blaster",
+			() -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
+
+	public static final DeferredItem<SwordItem> CYBERVILLAIN_BLAZE_SWORD = ITEMS.register("cybervillain_blaze_sword",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
+
+	public static final DeferredItem<BaseBlasterItem> CYBERVILLAIN_ROXY_BLASTER_1 = ITEMS.register("cybervillain_roxy_blaster_1",
+			() -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
+
+	public static final DeferredItem<BaseBlasterItem> CYBERVILLAIN_ROXY_BLASTER_2 = ITEMS.register("cybervillain_roxy_blaster_2",
+			() -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
+
+	public static final DeferredItem<SwordItem> CYBERVILLAIN_ROBO_BLAZE_RAPIER = ITEMS.register("cybervillain_robo_blaze_rapier",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
+
 	public static final DeferredItem<SwordItem> HENGEMEN_SPEAR = ITEMS.register("hengemen_spear",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 

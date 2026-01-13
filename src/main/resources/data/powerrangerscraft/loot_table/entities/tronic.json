@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:cruise_morph_x_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:smash_morph_x_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:jax_morph_x_key",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:morph_x_canister",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:morph_x_canister"
+        }
+      ]
+    }
+  ]
+}

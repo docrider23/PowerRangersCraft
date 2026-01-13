@@ -94,8 +94,8 @@ public class GoldarEntity extends BaseFootsoldierEntity {
                 ) {
 
                     Random generator = new Random();
-                    int randomInt = generator.nextInt(3);
-                    int randomInt2 = generator.nextInt(3);
+                    int randomInt = generator.nextInt(4);
+                    int randomInt2 = generator.nextInt(4);
 
                     if (randomInt == 0) {
                     ItemEntity key = new ItemEntity(level(), getX(), getY(), getZ(), new ItemStack(MMPRItems.TYRANNOSAURUS_POWER_COIN.get(), 1), 0, 0, 0);

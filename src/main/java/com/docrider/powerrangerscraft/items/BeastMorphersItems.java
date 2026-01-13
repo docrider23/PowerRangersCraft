@@ -194,9 +194,6 @@ public class BeastMorphersItems {
     public static final DeferredItem<SwordItem> STRIKER_SABER = ITEMS.register("striker_saber",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
 
-    public static final DeferredItem<SwordItem> CYBERVILLAIN_BLAZE_SWORD = ITEMS.register("cybervillain_blaze_sword",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(MORPH_X_CANISTER.get()));
-
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

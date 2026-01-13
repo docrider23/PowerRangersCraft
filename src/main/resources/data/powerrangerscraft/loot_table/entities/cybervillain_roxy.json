@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:reboot_green_power_coin"
+          "name": "powerrangerscraft:roxy_morph_x_key"
         }
       ]
     },
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:reboot_logo",
+          "name": "powerrangerscraft:morph_x_canister",
           "functions": [
             {
               "function": "minecraft:set_count",

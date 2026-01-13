@@ -189,6 +189,23 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
     //24-25 Ninja Steel/Super Ninja Steel
     
     //26-27 Beast Morphers
+    public static final DeferredHolder<EntityType<?>, EntityType<TronicsEntity>> TRONICS = MOBLIST.register("tronic",
+            () -> EntityType.Builder.of(TronicsEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":tronic"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> TRONICS_SPAWN_EGG = ITEMS.register("tronic_spawn_egg",
+            () -> new DeferredSpawnEggItem(TRONICS, 0xe60b71, 0x999794, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<CybervillainBlazeEntity>> CYBERVILLAIN_BLAZE = MOBLIST.register("cybervillain_blaze",
+            () -> EntityType.Builder.of(CybervillainBlazeEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":cybervillain_blaze"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> CYBERVILLAIN_BLAZE_SPAWN_EGG = ITEMS.register("cybervillain_blaze_spawn_egg",
+            () -> new DeferredSpawnEggItem(CYBERVILLAIN_BLAZE, 0x591515, 0xbfbfbf, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<CybervillainRoxyEntity>> CYBERVILLAIN_ROXY = MOBLIST.register("cybervillain_roxy",
+            () -> EntityType.Builder.of(CybervillainRoxyEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":cybervillain_roxy"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> CYBERVILLAIN_ROXY_SPAWN_EGG = ITEMS.register("cybervillain_roxy_spawn_egg",
+            () -> new DeferredSpawnEggItem(CYBERVILLAIN_ROXY, 0xcd9603, 0xbfbfbf, new Item.Properties()));
 
     //28 Dino Fury
     public static final DeferredHolder<EntityType<?>, EntityType<HengemenEntity>> HENGEMEN = MOBLIST.register("hengemen",

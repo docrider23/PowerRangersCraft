@@ -87,6 +87,15 @@
 
   "entity.powerrangerscraft.dino_cycle": "Dino Cycle",
 
+  "entity.powerrangerscraft.tronic": "Tronics",
+  "entity.powerrangerscraft.cybervillain_blaze": "Cybervillain Blaze",
+  "entity.powerrangerscraft.cybervillain_robo_blaze": "Cybervillain Robo-Blaze",
+  "entity.powerrangerscraft.cybervillain_roxy": "Cybervillain Roxy",
+  "entity.powerrangerscraft.cybervillain_robo_roxy": "Cybervillain Robo-Roxy",
+  "item.powerrangerscraft.tronic_spawn_egg": "Tronics Spawn Egg",
+  "item.powerrangerscraft.cybervillain_blaze_spawn_egg": "Cybervillain Blaze Spawn Egg",
+  "item.powerrangerscraft.cybervillain_roxy_spawn_egg": "Cybervillain Roxy Spawn Egg",
+
   "entity.powerrangerscraft.hengemen": "Hengemen",
   "entity.powerrangerscraft.void_knight": "Void Knight",
   "item.powerrangerscraft.hengemen_spawn_egg": "Hengemen Spawn Egg",
@@ -134,6 +143,11 @@
   "item.powerrangerscraft.kamdor_katana": "Kamdor's Katana",
   "item.powerrangerscraft.z_staff_thrax": "Z-Staff",
   "item.powerrangerscraft.moogers_dao": "Moogers Dao",
+  "item.powerrangerscraft.tronic_claw_blaster": "Tronics Claw Blaster",
+  "item.powerrangerscraft.cybervillain_blaze_sword": "Blaze's Sword",
+  "item.powerrangerscraft.cybervillain_roxy_blaster_1": "Roxy's Blaster",
+  "item.powerrangerscraft.cybervillain_roxy_blaster_2": "Roxy's Blaster",
+  "item.powerrangerscraft.cybervillain_robo_blaze_rapier": "Robo-Blaze's Rapier",
   "item.powerrangerscraft.hengemen_spear": "Hengemen Spear",
   "item.powerrangerscraft.hengemen_shield": "Hengemen Shield",
   "item.powerrangerscraft.zentinels_khopesh_rifle": "Zentinels Khopesh Rifle",
@@ -1091,8 +1105,6 @@
 
   "item.powerrangerscraft.striker_morpher": "Striker Morpher",
   "item.powerrangerscraft.striker_saber": "Striker Saber",
-
-  "item.powerrangerscraft.cybervillain_blaze_sword": "Blaze's Sword",
 
   //28 Dino Fury
   "tab.powerrangerscraft.dino_fury": "Dino Fury",

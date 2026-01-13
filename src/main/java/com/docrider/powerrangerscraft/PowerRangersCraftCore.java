@@ -113,7 +113,7 @@ public class PowerRangersCraftCore {
         SuperMegaforceItems.register(modEventBus);
         DinoChargeItems.register(modEventBus);
         NinjaSteelItems.register(modEventBus);
-       BeastMorphersItems.register(modEventBus);
+        BeastMorphersItems.register(modEventBus);
         DinoFuryItems.register(modEventBus);
         CosmicFuryItems.register(modEventBus);
         HyperforceItems.register(modEventBus);
@@ -385,6 +385,10 @@ public class PowerRangersCraftCore {
             event.registerEntityRenderer(MobsCore.MOOGERS.get(), BasicEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.DINO_CYCLE.get(), BikeRenderer::new);
+
+            event.registerEntityRenderer(MobsCore.TRONICS.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.CYBERVILLAIN_BLAZE.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.CYBERVILLAIN_ROXY.get(), BasicEntityRenderer::new);
 
             event.registerEntityRenderer(MobsCore.HENGEMEN.get(), BasicEntityRenderer::new);
             event.registerEntityRenderer(MobsCore.VOID_KNIGHT.get(), BasicEntityRenderer::new);

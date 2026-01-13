@@ -185,6 +185,10 @@ public class ModCommonEvents {
 
         event.put(MobsCore.DINO_CYCLE.get(), DinoCycleEntity.setAttributes().build());
 
+        event.put(MobsCore.TRONICS.get(), TronicsEntity.setAttributes().build());
+        event.put(MobsCore.CYBERVILLAIN_BLAZE.get(), CybervillainBlazeEntity.setAttributes().build());
+        event.put(MobsCore.CYBERVILLAIN_ROXY.get(), CybervillainRoxyEntity.setAttributes().build());
+
         event.put(MobsCore.HENGEMEN.get(), HengemenEntity.setAttributes().build());
         event.put(MobsCore.VOID_KNIGHT.get(), VoidKnightEntity.setAttributes().build());
 
@@ -224,6 +228,8 @@ public class ModCommonEvents {
         event.register(MobsCore.LAVA_LIZARDS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.MOOGERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+        event.register(MobsCore.TRONICS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.HENGEMEN.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
