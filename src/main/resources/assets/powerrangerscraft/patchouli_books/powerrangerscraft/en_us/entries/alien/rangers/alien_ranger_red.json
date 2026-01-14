@@ -1,0 +1,23 @@
+{
+	"name": "Red Aquatar Ranger",
+	"icon": "powerrangerscraft:red_alien_power_coin",
+	"category": "powerrangerscraft:alien/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "Red Aquatar Ranger",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_alien_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:alien_red_power_coin\"}},Count:1b},{id:\"powerrangerscraft:alien_legs\",Count:1b},{id:\"powerrangerscraft:alien_torso\",Count:1b},{id:\"powerrangerscraft:alien_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Red Aquatar Ranger",
+			"text": "Accessed with the $(l:alien/items/alien_power_coins#red_alien_power_coin)red alien power coin$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Red Aquatar Ranger",
+			"text": "Appears in:$(li)Mighty Morphin' Alien Rangers (1996, TV show)$(br2)Transforms with the $(l:alien/devices/alien_morphers#red_alien_morpher)Red Alien Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"name": "Blue Senturion",
+	"icon": "powerrangerscraft:blue_senturion_badge",
+	"category": "powerrangerscraft:turbo/rangers",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "Blue Senturion",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:signal_whistle\",components:{custom_data:{slot_tex1:\"powerrangerscraft:turbo_blue_power_coin\"}},Count:1b},{id:\"powerrangerscraft:turbo_legs\",Count:1b},{id:\"powerrangerscraft:turbo_torso\",Count:1b},{id:\"powerrangerscraft:turbo_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Blue Senturion",
+			"text": "Accessed with the $(l:turbo/items/turbo_keys#blue_senturion_badge)Blue Senturion Badge$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Blue Senturion",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, Tv Series)$(br2)Transforms with the $(l:turbo/devices/turbo_morphers#signal_whistle)Signal Whistle$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "Blue Senturion",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:signal_whistle_evil\",components:{custom_data:{slot_tex1:\"powerrangerscraft:turbo_blue_power_coin\"}},Count:1b},{id:\"powerrangerscraft:turbo_legs\",Count:1b},{id:\"powerrangerscraft:turbo_torso\",Count:1b},{id:\"powerrangerscraft:turbo_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Blue Senturion Reprogrammed",
+			"text": "Accessed with the $(l:turbo/items/turbo_keys#blue_senturion_badge)blue senturion badge$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Blue Senturion Reprogramed",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, Tv Series)$(br2)Transforms with the $(l:turbo/devices/turbo_morphers#signal_whistle_evil)Signal Whistle$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Blue Turbo Ranger",
+	"icon": "powerrangerscraft:blue_turbo_key",
+	"category": "powerrangerscraft:turbo/rangers",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "blue turbo Ranger",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_turbo_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:turbo_blue_power_coin\"}},Count:1b},{id:\"powerrangerscraft:turbo_legs\",Count:1b},{id:\"powerrangerscraft:turbo_torso\",Count:1b},{id:\"powerrangerscraft:turbo_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Blue Turbo Ranger",
+			"text": "Accessed with the $(l:turbo/items/turbo_keys#blue_turbo_key)Turbo Blue key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Blue Turbo Ranger",
+			"text": "Appears in:$(li)Turbo: A Power Rangers Movie (1997, Movie)$(br2)Transforms with the $(l:turbo/devices/turbo_morphers#blue_turbo_morpher)Blue Turbo Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Red Turbo Ranger",
+	"icon": "powerrangerscraft:red_turbo_key",
+	"category": "powerrangerscraft:turbo/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "Red turbo Ranger",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_turbo_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:turbo_red_power_coin\"}},Count:1b},{id:\"powerrangerscraft:turbo_legs\",Count:1b},{id:\"powerrangerscraft:turbo_torso\",Count:1b},{id:\"powerrangerscraft:turbo_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Red Turbo Ranger",
+			"text": "Accessed with the $(l:turbo/items/turbo_keys#red_turbo_key)Turbo Red Key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Red Turbo Ranger",
+			"text": "Appears in:$(li)Turbo: A Power Rangers Movie (1997, Movie)$(br2)Transforms with the $(l:turbo/devices/turbo_morphers#red_turbo_morpher)Red Turbo Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+
+	]
+}

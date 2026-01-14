@@ -1,0 +1,23 @@
+{
+	"name": "Pink Turbo Ranger",
+	"icon": "powerrangerscraft:pink_turbo_key",
+	"category": "powerrangerscraft:turbo/rangers",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "pink turbo Ranger",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:pink_turbo_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:turbo_pink_key\"}},Count:1b},{id:\"powerrangerscraft:turbo_legs\",Count:1b},{id:\"powerrangerscraft:turbo_torso\",Count:1b},{id:\"powerrangerscraft:turbo_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Pink Turbo Ranger",
+			"text": "Accessed with the $(l:turbo/items/turbo_power_coins#pink_turbo_key)Turbo Pink Key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Pink Turbo Ranger",
+			"text": "Appears in:$(li)Turbo: A Power Rangers Movie (1997, Movie)$(br2)Transforms with the $(l:turbo/devices/turbo_morphers#pink_turbo_morpher)Pink Turbo Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+
+	]
+}

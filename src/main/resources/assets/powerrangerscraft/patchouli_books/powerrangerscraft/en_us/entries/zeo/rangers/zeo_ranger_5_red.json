@@ -1,0 +1,23 @@
+{
+	"name": "Zeo Ranger 5 Red",
+	"icon": "powerrangerscraft:red_zeo_sub_crystal",
+	"category": "powerrangerscraft:zeo/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "Zeo Ranger 5 Red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_zeonizer\",components:{custom_data:{slot_tex1:\"powerrangerscraft:red_zeo_sub_crystal\"}},Count:1b},{id:\"powerrangerscraft:zeo_legs\",Count:1b},{id:\"powerrangerscraft:zeo_torso\",Count:1b},{id:\"powerrangerscraft:zeo_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Zeo Ranger 5 Red",
+			"text": "Accessed with the $(l:zeo/items/zeo_crystals#red_sub_crystal)Red Zeo Sub Crystal$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Zeo Ranger 5 Red",
+			"text": "Appears in:$(li)Power Rangers ZEO (1996, TV show)$(br2)Transforms with the $(l:zeo/devices/zeonisers#red_zeonizer)Red Zeonizer$(/l)$(br2)Status Effects:TBD"
+		}
+
+	]
+}
