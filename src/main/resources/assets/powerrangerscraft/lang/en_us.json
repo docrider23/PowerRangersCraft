@@ -25,6 +25,13 @@
   "effect.powerrangerscraft.wide":"Wide",
   "effect.powerrangerscraft.christmas": "Christmas",
 
+  "effect.powerrangerscraft.morphin_particle": "Morphin Particles",
+  "effect.powerrangerscraft.beast_morphers_red": "Beast Morphers Red's Super Speed",
+
+  "effect.powerrangerscraft.beast_morphers_red_weakness": "Beast Morphers Red's Weakness",
+  "effect.powerrangerscraft.beast_morphers_blue_weakness": "Beast Morphers Blue's Weakness",
+  "effect.powerrangerscraft.beast_morphers_yellow_weakness": "Beast Morphers Yellow's Weakness",
+
   "key.categories.powerrangerscraft": "PowerRangersCraft",
   "key.powerrangerscraft.ability": "Use an Ability",
 
