@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:beast_morphers/main",
+    "name": "Grid Battleforce Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Beast Morphers series.",
+    "icon": "powerrangerscraft:beast_morphers_head",
+    "sortnum": 0
+}

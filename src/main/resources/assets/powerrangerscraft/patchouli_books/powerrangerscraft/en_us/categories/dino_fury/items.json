@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:dino_fury/main",
+    "name": "Dino Fury Ranger Items",
+    "description": "All Dino Fury-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:t_rex_dino_key",
+    "sortnum": 2
+}

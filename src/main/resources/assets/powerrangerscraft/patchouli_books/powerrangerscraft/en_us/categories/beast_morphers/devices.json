@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:beast_morphers/main",
+    "name": "Beast Morphers Morphers",
+    "description": "The transformation devices used by the Grid Battleforce Rangers. These can be repaired in an anvil using $(l:beast_morphers/items/morph_x_canister)Morph-X Canisters$(/l).",
+    "icon": "powerrangerscraft:red_beast_x_morpher",
+    "sortnum": 1
+}

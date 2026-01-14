@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:operation_overdrive/main",
+    "name": "Excelsior Sword Statue",
+    "description": "",
+    "icon": "powerrangerscraft:sword_statue",
+    "sortnum": 5
+}

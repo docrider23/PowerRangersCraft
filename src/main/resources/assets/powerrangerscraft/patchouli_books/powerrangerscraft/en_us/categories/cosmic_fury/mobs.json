@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:cosmic_fury/main",
+    "name": "Cosmic Fury Mobs",
+    "description": "Every mob from or relating to the Power Rangers Cosmic Fury series.",
+    "icon": "powerrangerscraft:corrupted_blue_dino_fury_morpher",
+    "sortnum": 4
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:beast_morphers/main",
+    "name": "Beast Morphers Mobs",
+    "description": "Every mob from or relating to the Power Rangers Beast Morphers series.",
+    "icon": "powerrangerscraft:blaze_evox_beast_x_morpher",
+    "sortnum": 4
+}

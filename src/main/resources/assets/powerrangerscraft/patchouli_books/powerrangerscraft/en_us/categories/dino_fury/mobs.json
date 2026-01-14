@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:dino_fury/main",
+    "name": "Dino Fury Mobs",
+    "description": "Every mob from or relating to the Power Rangers Dino Fury series.",
+    "icon": "powerrangerscraft:void_knight_changer",
+    "sortnum": 4
+}

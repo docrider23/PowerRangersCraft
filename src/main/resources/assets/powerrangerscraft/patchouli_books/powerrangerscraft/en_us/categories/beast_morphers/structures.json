@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:beast_morphers/main",
+    "name": "Morph-X Warehouse",
+    "description": "",
+    "icon": "powerrangerscraft:animal_dna_repository",
+    "sortnum": 5
+}

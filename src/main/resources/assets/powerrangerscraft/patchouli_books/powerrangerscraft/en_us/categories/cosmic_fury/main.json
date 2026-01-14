@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/hasbro_era",
+    "name": "Power Rangers Cosmic Fury",
+    "description": "Everything related to the Power Rangers Cosmic Fury series.",
+    "icon": "powerrangerscraft:cosmic_fury_logo",
+    "sortnum": 2
+}

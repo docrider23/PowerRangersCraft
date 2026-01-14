@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:dino_fury/main",
+    "name": "Dino Fury Arsenal",
+    "description": "Every weapon and tool used by the Dino Fury Rangers. These can be repaired in an anvil using $(l:dino_fury/items/dino_fury_keys#blank_dino_key)Blank Dino Keys$(/l).",
+    "icon": "powerrangerscraft:chromafury_saber",
+    "sortnum": 3
+}

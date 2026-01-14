@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:beast_morphers/main",
+    "name": "Beast Morphers Ranger Items",
+    "description": "All Beast Morphers-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:red_morph_x_key",
+    "sortnum": 2
+}

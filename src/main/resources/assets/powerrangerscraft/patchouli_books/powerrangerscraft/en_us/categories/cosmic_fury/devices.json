@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:cosmic_fury/main",
+    "name": "Cosmic Fury Morphers",
+    "description": "The transformation devices used by the Cosmic Fury Rangers. These can be repaired in an anvil using $(l:cosmic_fury/items/cosmic_orbs#empty_cosmic_orb)Empty Cosmic Orbs$(/l).",
+    "icon": "powerrangerscraft:red_cosmic_morpher",
+    "sortnum": 1
+}

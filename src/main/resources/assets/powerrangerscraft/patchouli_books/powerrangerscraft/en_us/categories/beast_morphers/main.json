@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/hasbro_era",
+    "name": "Power Rangers Beast Morphers",
+    "description": "Everything related to the Power Rangers Beast Morphers series.",
+    "icon": "powerrangerscraft:beast_morphers_logo",
+    "sortnum": 0
+}

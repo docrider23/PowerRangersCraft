@@ -1,0 +1,7 @@
+{
+    "parent": "powerrangerscraft:main/hasbro_era",
+    "name": "Power Rangers Dino Fury",
+    "description": "Everything related to the Power Rangers Dino Fury series.",
+    "icon": "powerrangerscraft:dino_fury_logo",
+    "sortnum": 1
+}

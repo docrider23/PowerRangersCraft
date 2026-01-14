@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:cosmic_fury/main",
+    "name": "Cosmic Fury Ranger Items",
+    "description": "All Cosmic Fury-related items that are neither an armor piece nor part of an arsenal.",
+    "icon": "powerrangerscraft:ankylo_cosmic_orb",
+    "sortnum": 2
+}

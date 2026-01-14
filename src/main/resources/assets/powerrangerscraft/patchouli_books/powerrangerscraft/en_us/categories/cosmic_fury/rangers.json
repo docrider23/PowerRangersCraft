@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:cosmic_fury/main",
+    "name": "Cosmic Fury Rangers",
+    "description": "Every Ranger from or relating to the Power Rangers Cosmic Fury series.",
+    "icon": "powerrangerscraft:cosmic_fury_head",
+    "sortnum": 0
+}

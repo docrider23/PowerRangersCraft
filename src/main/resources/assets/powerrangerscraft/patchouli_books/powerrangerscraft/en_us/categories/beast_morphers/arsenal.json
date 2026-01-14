@@ -1,0 +1,7 @@
+{
+	"parent": "powerrangerscraft:beast_morphers/main",
+    "name": "Beast Morphers Arsenal",
+    "description": "Every weapon and tool used by the Grid Battleforce Rangers. These can be repaired in an anvil using $(l:beast_morphers/items/morph_x_canister)Morph-X Canisters$(/l).",
+    "icon": "powerrangerscraft:beast_x_saber",
+    "sortnum": 3
+}
