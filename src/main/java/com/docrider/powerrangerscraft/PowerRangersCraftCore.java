@@ -453,6 +453,8 @@ public class PowerRangersCraftCore {
             event.registerSpriteSet(ModParticles.MMPR_MORPHER_PARTICLES.get(), MMPRMorpherParticles.Provider::new);
             event.registerSpriteSet(ModParticles.MMPR_GREEN_WHITE_MORPHER_PARTICLES.get(), MMPRGreenWhiteMorpherParticles.Provider::new);
             event.registerSpriteSet(ModParticles.MMPR_SANTA_MORPHER_PARTICLES.get(), MMPRSantaMorpherParticles.Provider::new);
+
+            event.registerSpriteSet(ModParticles.GREEN_MORPHIN_PARTICLES.get(), GreenMorphinParticles.Provider::new);
         }
 
         @SubscribeEvent

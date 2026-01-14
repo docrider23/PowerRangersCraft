@@ -121,6 +121,9 @@ public class ModParticles {
     public static final Supplier<SimpleParticleType> MMPR_SANTA_MORPHER_PARTICLES =
             PARTICLE_TYPES.register("mmpr_santa_morpher_particles", () -> new SimpleParticleType(true));
 
+    public static final Supplier<SimpleParticleType> GREEN_MORPHIN_PARTICLES =
+            PARTICLE_TYPES.register("green_morphin_particles", () -> new SimpleParticleType(true));
+
 
     public static void register(IEventBus eventBus) {
         PARTICLE_TYPES.register(eventBus);
