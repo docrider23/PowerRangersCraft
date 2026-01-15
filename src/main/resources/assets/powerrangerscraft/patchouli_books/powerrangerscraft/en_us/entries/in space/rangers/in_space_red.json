@@ -1,0 +1,23 @@
+{
+	"name": "Red Space Ranger",
+	"icon": "powerrangerscraft:red_space_disk",
+	"category": "powerrangerscraft:in_space/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "in_space_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_astro_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:red_space_disk\"}},Count:1b},{id:\"powerrangerscraft:in_space_legs\",Count:1b},{id:\"powerrangerscraft:in_space_torso\",Count:1b},{id:\"powerrangerscraft:in_space_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Red Space Ranger",
+			"text": "Accessed with the $(l:in_space/items/in_space_disks#red_space_disk)Red Space Disk$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Red Space Ranger",
+			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Series)$(br2)Transforms with the $(l:in_space/devices/astro_morphers#red_astro_morpher)Red Astro Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}
