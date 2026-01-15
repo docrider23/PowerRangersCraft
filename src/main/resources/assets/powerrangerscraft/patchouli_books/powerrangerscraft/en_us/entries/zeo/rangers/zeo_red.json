@@ -11,12 +11,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Zeo Ranger 5 Red",
-			"text": "Accessed with the $(l:zeo/items/zeo_crystals#red_sub_crystal)Red Zeo Sub Crystal$(/l)"
+			"text": "Accessed with the $(l:zeo/items/zeo_crystals#red_zeo_sub_crystal)Red Zeo Sub Crystal$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Zeo Ranger 5 Red",
-			"text": "Appears in:$(li)Power Rangers ZEO (1996, TV show)$(br2)Transforms with the $(l:zeo/devices/zeonisers#red_zeonizer)Red Zeonizer$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers ZEO (1996, TV show)$(br2)Transforms with the $(l:zeo/devices/zeonizers#red_zeonizer)Red Zeonizer$(/l)$(br2)Status Effects:TBD"
 		}
 
 	]

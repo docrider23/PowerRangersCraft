@@ -1,0 +1,18 @@
+{
+  "name": "Reprogrammed Blue Senturion",
+  "icon": "powerrangerscraft:blue_senturion_badge",
+  "category": "powerrangerscraft:turbo/mobs",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "powerrangerscraft:blue_senturion_evil",
+      "text": "Appears in:$(li)Power Rangers Turbo (1997, TV Series)$(br)Health:250"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Has a chance to spawn from a $(l:turbo/mobs/chromite)Chromite$(/l)$(br2)Drops$(li)5 $(l:turbo/items/turbo_logo)Turbo Logos$(/l)$(li)1 $(l:turbo/devices/turbo_morphers#signal_whistle_evil)Signal Whistle$(/l) (40%)"
+    }
+  ]
+
+}
