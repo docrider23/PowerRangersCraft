@@ -1,0 +1,23 @@
+{
+	"name": "Time Force Red Ranger",
+	"icon": "powerrangerscraft:time_force_red_badge",
+	"category": "powerrangerscraft:time_force/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "time_force_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_chrono_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:time_force_red_badge\"}},Count:1b},{id:\"powerrangerscraft:time_force_legs\",Count:1b},{id:\"powerrangerscraft:time_force_torso\",Count:1b},{id:\"powerrangerscraft:time_force_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Time Force Red Ranger",
+			"text": "Accessed with the $(l:time_force/items/time_force_badges#time_force_red_badge) Time Force Red Badge$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Time Force Red Ranger",
+			"text": "Appears in:$(li)Power Rangers Time Force (2001, TV Series)$(br2)Transforms with the $(l:time_force/devices/chrono_morphers#red_chrono_morpher)Red chrono Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

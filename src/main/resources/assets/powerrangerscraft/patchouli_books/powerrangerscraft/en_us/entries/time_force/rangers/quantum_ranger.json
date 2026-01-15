@@ -1,0 +1,23 @@
+{
+	"name": "Quantum Ranger Ranger",
+	"icon": "powerrangerscraft:quantum_ranger_badge",
+	"category": "powerrangerscraft:time_force/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "quantum_ranger",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:quantum_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:quantum_ranger_badge\"}},Count:1b},{id:\"powerrangerscraft:time_force_legs\",Count:1b},{id:\"powerrangerscraft:time_force_torso\",Count:1b},{id:\"powerrangerscraft:time_force_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Quantum Ranger Ranger",
+			"text": "Accessed with the $(l:time_force/items/time_force_badges#quantum_ranger_badge) Quantum Ranger Badge$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Quantum Ranger Ranger",
+			"text": "Appears in:$(li)Power Rangers Time Force (2001, TV Series)$(br2)Transforms with the $(l:time_force/devices/chrono_morphers#quantum_morpher)Quantum Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

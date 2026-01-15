@@ -1,0 +1,38 @@
+{
+	"name": "Lightspeed Red",
+	"icon": "powerrangerscraft:lightspeed_red_badge",
+	"category": "powerrangerscraft:lightspeed_rescue/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "lightspeed_rescue_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_rescue_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:lightspeed_red_badge\"}},Count:1b},{id:\"powerrangerscraft:lightspeed_rescue_legs\",Count:1b},{id:\"powerrangerscraft:lightspeed_rescue_torso\",Count:1b},{id:\"powerrangerscraft:lightspeed_rescue_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Lightspeed Red",
+			"text": "Accessed with the $(l:lightspeed_rescue/items/lightspeed_rescue_badges#lightspeed_red_badge)Lightspeed Red Badge$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Lightspeed Red",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV Series)$(br2)Transforms with the $(l:lightspeed_rescue/devices/rescue_morphers#red_rescue_morpher)Red Rescue Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+
+		{
+			"type": "patchouli:entity",
+			"anchor": "lightspeed_rescue_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_rescue_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:trans_armor_badge\"}},Count:1b},{id:\"powerrangerscraft:lightspeed_rescue_legs\",Count:1b},{id:\"powerrangerscraft:lightspeed_rescue_torso\",Count:1b},{id:\"powerrangerscraft:lightspeed_rescue_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Lightspeed Red Battlizer",
+			"text": "Accessed with the $(l:lightspeed_rescue/items/lightspeed_rescue_badges#lightspeed_red_badge)Trans Armor Badge$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Lightspeed Red Battlizer",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV Series)$(br2)Transforms with the $(l:lightspeed_rescue/devices/rescue_morphers#red_rescue_morpher)Red Rescue Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Lightspeed Yellow",
+	"icon": "powerrangerscraft:lightspeed_yellow_badge",
+	"category": "powerrangerscraft:lightspeed_rescue/rangers",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "lightspeed_rescue_Yellow",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:yellow_rescue_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:lightspeed_yellow_badge\"}},Count:1b},{id:\"powerrangerscraft:lightspeed_rescue_legs\",Count:1b},{id:\"powerrangerscraft:lightspeed_rescue_torso\",Count:1b},{id:\"powerrangerscraft:lightspeed_rescue_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Lightspeed Yellow",
+			"text": "Accessed with the $(l:lightspeed_rescue/items/lightspeed_rescue_badges#lightspeed_yellow_badge)Lightspeed Yellow Badge$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Lightspeed Yellow",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV Series)$(br2)Transforms with the $(l:lightspeed_rescue/devices/rescue_morphers#yellow_rescue_morpher)Yellow Rescue Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

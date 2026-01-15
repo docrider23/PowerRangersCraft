@@ -1,0 +1,38 @@
+{
+	"name": "Lost Galaxy Blue",
+	"icon": "powerrangerscraft:gorilla_mirinoi_medal",
+	"category": "powerrangerscraft:lost_galaxy/rangers",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "lost_galaxy_blue",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_transmorpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:gorilla_mirinoi_medal\"}},Count:1b},{id:\"powerrangerscraft:lost_galaxy_legs\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_torso\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Lost Galaxy Blue",
+			"text": "Accessed with the $(l:lost_galaxy/items/mirinoi_medals#gorilla_mirinoi_medal)Gorilla Mirinoi Medal $(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Lost Galaxy Blue",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)$(br2)Transforms with the $(l:lost_galaxy/devices/tansmorphers#blue_transmorpher)Blue Transmorpher$(/l)$(br2)Status Effects:TBD"
+		},
+
+		{
+			"type": "patchouli:entity",
+			"anchor": "lost_galaxy_blue",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_transmorpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:lights_of_orion\"}},Count:1b},{id:\"powerrangerscraft:lost_galaxy_legs\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_torso\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Lost Galaxy Blue Lights of Orion",
+			"text": "Accessed with the $(l:lost_galaxy/items/mirinoi_medals#gorilla_mirinoi_medal)Lights Of Orion $(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Lost Galaxy Blue lights of Orion",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)$(br2)Transforms with the $(l:lost_galaxy/devices/tansmorphers#blue_transmorpher)Blue Transmorpher$(/l)$(br2)Status Effects:TBD"
+		}
+
+	]
+}

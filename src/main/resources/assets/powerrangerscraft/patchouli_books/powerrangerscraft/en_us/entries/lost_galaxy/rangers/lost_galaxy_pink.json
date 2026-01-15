@@ -1,0 +1,38 @@
+{
+	"name": "Lost Galaxy Pink",
+	"icon": "powerrangerscraft:wolf_mirinoi_medal",
+	"category": "powerrangerscraft:lost_galaxy/rangers",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "lost_galaxy_pink",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:pink_transmorpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:wolf_mirinoi_medal\"}},Count:1b},{id:\"powerrangerscraft:lost_galaxy_legs\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_torso\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Lost Galaxy Pink",
+			"text": "Accessed with the $(l:lost_galaxy/items/mirinoi_medals#wolf_mirinoi_medal)Wolf Mirinoi Medal $(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Lost Galaxy Pink",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)$(br2)Transforms with the $(l:lost_galaxy/devices/tansmorphers#pink_transmorpher)Pink Transmorpher$(/l)$(br2)Status Effects:TBD"
+		},
+
+		{
+			"type": "patchouli:entity",
+			"anchor": "lost_galaxy_pink",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:pink_transmorpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:lights_of_orion\"}},Count:1b},{id:\"powerrangerscraft:lost_galaxy_legs\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_torso\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Lost Galaxy Pink Lights of Orion",
+			"text": "Accessed with the $(l:lost_galaxy/items/mirinoi_medals#wolf_mirinoi_medal)Lights Of Orion $(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Lost Galaxy Pink lights of Orion",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)$(br2)Transforms with the $(l:lost_galaxy/devices/tansmorphers#pink_transmorpher)Pink Transmorpher$(/l)$(br2)Status Effects:TBD"
+		}
+
+	]
+}
