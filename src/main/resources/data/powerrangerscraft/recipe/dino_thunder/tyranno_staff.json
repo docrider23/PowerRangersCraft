@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_thunder_red",
+  "pattern": [
+    "aaa",
+    "aca",
+	"aba"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:dino_thunder_logo"
+    },
+	"b": {
+      "item": "powerrangerscraft:red_dino_gem"
+    },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:tyranno_staff"
+  }
+}

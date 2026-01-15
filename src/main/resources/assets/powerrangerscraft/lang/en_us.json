@@ -1006,10 +1006,13 @@
   "item.powerrangerscraft.tyrannosaurus_rex_dino_charger": "T-Rex Dino Charger",
   "item.powerrangerscraft.dino_cycle_charger": "Dino Cycle Charger",
 
-  "powerrangerscraft:tyrannosaurus_rex_dino_charger.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:tyrannosaurus_rex_dino_charger.form": "§cRed Ranger",
   "powerrangerscraft:spinosaurus_dino_charger.form": "Ranger: §1Dark Ranger",
 
   "item.powerrangerscraft.dino_charge_morpher": "Dino Charge Morpher",
+  "item.powerrangerscraft.dino_saber": "Dino Saber",
+  "item.powerrangerscraft.dino_blade_blaster": "Dino Blade Blaster",
+
   "item.powerrangerscraft.t_rex_smasher": "T-Rex Smasher",
   "item.powerrangerscraft.spino_boomerang": "Spino Boomerang",
 

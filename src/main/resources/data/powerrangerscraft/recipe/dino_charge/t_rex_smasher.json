@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dino_charge_red",
+  "pattern": [
+    "aaa",
+    "bcb",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:empty_dino_charger"
+    },
+	"b": {
+      "item": "powerrangerscraft:tyrannosaurus_rex_dino_charger"
+    },
+	"c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:t_rex_smasher"
+  }
+}

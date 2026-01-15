@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dino_charge",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:dino_charge_morpher"
+    },
+	{
+      "item": "powerrangerscraft:dino_saber"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:dino_blade_blaster"
+  }
+}

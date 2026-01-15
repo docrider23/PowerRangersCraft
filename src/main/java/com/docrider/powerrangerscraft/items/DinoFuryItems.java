@@ -349,7 +349,7 @@ public class DinoFuryItems {
 	public static final DeferredItem<SwordItem> MOSA_BLADE = ITEMS.register("mosa_blade",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
     public static final DeferredItem<BaseBlasterItem> GOLD_FURY_BLADE_BLASTER = ITEMS.register("gold_fury_blade_blaster",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).KeepDifItem(MOSA_BLADE.get()).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
     
     public static final DeferredItem<SwordItem> VOID_SABER = ITEMS.register("void_saber",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.DINO_FURY).ChangeRepairItem(BLANK_DINO_KEY.get()));
