@@ -1,0 +1,23 @@
+{
+  "display": {
+	"icon": {
+	  "id": "powerrangerscraft:reboot_logo"
+	},
+	  "title": {
+		  "translate": "advancements.powerrangerscraft.others.title"
+	  },
+	  "description": {
+		  "translate": "advancements.powerrangerscraft.others.desc"
+	  },
+	"background": "minecraft:textures/block/calcite.png",
+	"frame": "task",
+	"show_toast": false,
+	"announce_to_chat": false,
+	"hidden": false
+  },
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:tick"
+	}
+  }
+}

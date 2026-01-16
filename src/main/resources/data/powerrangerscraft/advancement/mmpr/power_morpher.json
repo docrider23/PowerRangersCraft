@@ -1,20 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:red_turbo_morpher"
+      "id": "powerrangerscraft:red_power_morpher"
     },
-    "title": {
-      "translate": "advancements.powerrangerscraft.turbo_morpher.title"
-    },
-    "description": {
-      "translate": "advancements.powerrangerscraft.turbo_morpher.desc"
-    },
+    "title": "Shift into Turbo!",
+    "description": "Obtain any Power Morpher",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:turbo/turbo",
+  "parent": "powerrangerscraft:mmpr/mmpr",
   "criteria": {
     "item": {
       "trigger": "minecraft:inventory_changed",
@@ -22,7 +18,7 @@
         "items": [
           {
             "items": [
-              "powerrangerscraft:red_turbo_morpher"
+              "powerrangerscraft:red_power_morpher"
             ]
           }
         ]
@@ -34,7 +30,7 @@
         "items": [
           {
             "items": [
-              "powerrangerscraft:blue_turbo_morpher"
+              "powerrangerscraft:blue_power_morpher"
             ]
           }
         ]
@@ -46,7 +42,7 @@
         "items": [
           {
             "items": [
-              "powerrangerscraft:green_turbo_morpher"
+              "powerrangerscraft:black_power_morpher"
             ]
           }
         ]
@@ -58,7 +54,7 @@
         "items": [
           {
             "items": [
-              "powerrangerscraft:yellow_turbo_morpher"
+              "powerrangerscraft:yellow_power_morpher"
             ]
           }
         ]
@@ -70,7 +66,7 @@
         "items": [
           {
             "items": [
-              "powerrangerscraft:pink_turbo_morpher"
+              "powerrangerscraft:pink_power_morpher"
             ]
           }
         ]

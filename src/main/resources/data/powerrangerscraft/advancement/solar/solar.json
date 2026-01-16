@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:root",
+  "parent": "powerrangerscraft:comics",
   "criteria": {
     "solar_purple": {
       "trigger": "minecraft:inventory_changed",

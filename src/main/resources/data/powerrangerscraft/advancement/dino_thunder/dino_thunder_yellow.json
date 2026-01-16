@@ -1,16 +1,20 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:blue_power_morpher"
+      "id": "powerrangerscraft:yellow_dino_morpher"
     },
-    "title": "Triceratops!",
-    "description": "Change into the Original Blue Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_thunder_yellow.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.dino_thunder_yellow.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:cosmic_fury/cosmic_fury",
+  "parent": "powerrangerscraft:ninja_storm/ninja_storm_blue",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -19,22 +23,22 @@
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:mmpr_head"
+                "powerrangerscraft:dino_thunder_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:mmpr_torso"
+                "powerrangerscraft:dino_thunder_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:mmpr_legs"
+                "powerrangerscraft:dino_thunder_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:blue_power_morpher"
+                "powerrangerscraft:yellow_dino_morpher"
               ]
             }
           }

@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:root",
+  "parent": "powerrangerscraft:saban",
   "criteria": {
     "ranger1": {
       "trigger": "minecraft:inventory_changed",

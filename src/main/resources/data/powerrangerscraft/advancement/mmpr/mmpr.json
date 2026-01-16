@@ -1,243 +1,276 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:dino_fury_logo"
+      "id": "powerrangerscraft:mmpr_logo"
     },
-    "title": "Power Rangers Dino Fury",
-    "description": "Change into each member of the Dino Fury Rangers",
+    "title": {
+      "translate": "advancements.powerrangerscraft.mmpr.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.mmpr.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:hasbro",
+  "parent": "powerrangerscraft:saban",
   "criteria": {
-    "dino_fury_red": {
+    "mmpr_red": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:dino_fury_head"
+                "powerrangerscraft:mmpr_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:dino_fury_torso"
+                "powerrangerscraft:mmpr_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:dino_fury_legs"
+                "powerrangerscraft:mmpr_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:red_dino_fury_morpher"
+                "powerrangerscraft:red_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "dino_fury_blue": {
+    "mmpr_blue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:dino_fury_head"
+                "powerrangerscraft:mmpr_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:dino_fury_torso"
+                "powerrangerscraft:mmpr_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:dino_fury_legs"
+                "powerrangerscraft:mmpr_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:blue_dino_fury_morpher"
+                "powerrangerscraft:blue_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "dino_fury_pink": {
+    "mmpr_black": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:dino_fury_head"
+                "powerrangerscraft:mmpr_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:dino_fury_torso"
+                "powerrangerscraft:mmpr_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:dino_fury_legs"
+                "powerrangerscraft:mmpr_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:pink_dino_fury_morpher"
+                "powerrangerscraft:black_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "dino_fury_green": {
+    "mmpr_yellow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:dino_fury_head"
+                "powerrangerscraft:mmpr_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:dino_fury_torso"
+                "powerrangerscraft:mmpr_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:dino_fury_legs"
+                "powerrangerscraft:mmpr_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:green_dino_fury_morpher"
+                "powerrangerscraft:yellow_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "dino_fury_black": {
+    "mmpr_pink": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:dino_fury_head"
+                "powerrangerscraft:mmpr_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:dino_fury_torso"
+                "powerrangerscraft:mmpr_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:dino_fury_legs"
+                "powerrangerscraft:mmpr_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:black_dino_fury_morpher"
+                "powerrangerscraft:pink_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "dino_fury_gold": {
+    "mmpr_green": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:dino_fury_head"
+                "powerrangerscraft:mmpr_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:dino_fury_torso"
+                "powerrangerscraft:mmpr_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:dino_fury_legs"
+                "powerrangerscraft:mmpr_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:gold_mosa_blaster"
+                "powerrangerscraft:green_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "void_knight": {
+    "mmpr_white": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:dino_fury_head"
+                "powerrangerscraft:mmpr_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:dino_fury_torso"
+                "powerrangerscraft:mmpr_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:dino_fury_legs"
+                "powerrangerscraft:mmpr_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:void_knight_changer"
+                "powerrangerscraft:white_power_morpher"
               ]
             }
           }
         }
       }
     },
-    "dino_fury_zenith": {
+    "ninjor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:dino_fury_head"
+                "powerrangerscraft:mmpr_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:dino_fury_torso"
+                "powerrangerscraft:mmpr_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:dino_fury_legs"
+                "powerrangerscraft:mmpr_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:zenith_dino_fury_morpher"
+                "powerrangerscraft:ninjor_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "santa": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:mmpr_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:mmpr_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:mmpr_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:santa_power_morpher"
               ]
             }
           }

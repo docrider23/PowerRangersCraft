@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:red_turbo_morpher"
     },
-    "title": "Red Turbo Ranger!",
-    "description": "Change into the Red Turbo Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.turbo_red.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.turbo_red.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

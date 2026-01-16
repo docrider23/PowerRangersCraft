@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:signal_whistle"
     },
-    "title": "The Millennium Message",
-    "description": "Change into the Blue Senturion (Evil)",
+    "title": {
+      "translate": "advancements.powerrangerscraft.blue_senturion_evil.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.blue_senturion_evil.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

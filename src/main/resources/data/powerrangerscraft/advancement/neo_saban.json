@@ -1,0 +1,23 @@
+{
+  "display": {
+	"icon": {
+	  "id": "powerrangerscraft:samurai_logo"
+	},
+	  "title": {
+		  "translate": "advancements.powerrangerscraft.neo_saban.title"
+	  },
+	  "description": {
+		  "translate": "advancements.powerrangerscraft.neo_saban.desc"
+	  },
+	"background": "minecraft:textures/block/prismarine.png",
+	"frame": "task",
+	"show_toast": false,
+	"announce_to_chat": false,
+	"hidden": false
+  },
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:tick"
+	}
+  }
+}

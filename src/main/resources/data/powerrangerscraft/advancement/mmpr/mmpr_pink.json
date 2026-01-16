@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:red_delta_morpher"
+      "id": "powerrangerscraft:pink_power_morpher"
     },
     "title": {
-      "translate": "advancements.powerrangerscraft.spd_red.title"
+      "translate": "advancements.powerrangerscraft.mmpr_pink.title"
     },
     "description": {
-      "translate": "advancements.powerrangerscraft.spd_red.desc"
+      "translate": "advancements.powerrangerscraft.mmpr_pink.desc"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:operation_overdrive/mmpr_black",
+  "parent": "powerrangerscraft:mmpr/mmpr_yellow",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -23,22 +23,22 @@
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:spd_head"
+                "powerrangerscraft:mmpr_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:spd_torso"
+                "powerrangerscraft:mmpr_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:spd_legs"
+                "powerrangerscraft:mmpr_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:red_delta_morpher"
+                "powerrangerscraft:pink_power_morpher"
               ]
             }
           }

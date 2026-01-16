@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:phantom_ranger_module"
     },
-    "title": "Invisible Ranger",
-    "description": "Change into the Phantom Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.phantom_ranger.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.phantom_ranger.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

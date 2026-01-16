@@ -4,12 +4,12 @@
 	  "id": "powerrangerscraft:power_rangers_logo"
 	},
 	  "title": {
-		  "translate": "advancements.powerrangerscraft.title"
+		  "translate": "advancements.powerrangerscraft.saban.title"
 	  },
 	  "description": {
-		  "translate": "advancements.powerrangerscraft.desc"
+		  "translate": "advancements.powerrangerscraft.saban.desc"
 	  },
-	"background": "minecraft:textures/block/polished_andesite.png",
+	"background": "minecraft:textures/block/sand.png",
 	"frame": "task",
 	"show_toast": false,
 	"announce_to_chat": false,

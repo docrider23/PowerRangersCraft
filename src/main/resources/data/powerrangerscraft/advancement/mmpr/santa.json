@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:red_turbo_morpher"
+      "id": "powerrangerscraft:santa_power_morpher"
     },
     "title": {
-      "translate": "advancements.powerrangerscraft.turbo_green.title"
+      "translate": "advancements.powerrangerscraft.santa.title"
     },
     "description": {
-      "translate": "advancements.powerrangerscraft.turbo_green.desc"
+      "translate": "advancements.powerrangerscraft.santa.desc"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:turbo/turbo_blue",
+  "parent": "powerrangerscraft:mmpr/ninjor",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -23,22 +23,22 @@
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:turbo_head"
+                "powerrangerscraft:mmpr_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:turbo_torso"
+                "powerrangerscraft:mmpr_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:turbo_legs"
+                "powerrangerscraft:mmpr_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:green_turbo_morpher"
+                "powerrangerscraft:santa_power_morpher"
               ]
             }
           }

@@ -1,0 +1,23 @@
+{
+  "display": {
+	"icon": {
+	  "id": "powerrangerscraft:drakkon_head"
+	},
+	  "title": {
+		  "translate": "advancements.powerrangerscraft.comics.title"
+	  },
+	  "description": {
+		  "translate": "advancements.powerrangerscraft.comics.desc"
+	  },
+	"background": "minecraft:textures/block/bone_block.png",
+	"frame": "task",
+	"show_toast": false,
+	"announce_to_chat": false,
+	"hidden": false
+  },
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:tick"
+	}
+  }
+}

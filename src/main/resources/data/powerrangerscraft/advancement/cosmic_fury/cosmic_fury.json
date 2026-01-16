@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:root",
+  "parent": "powerrangerscraft:hasbro",
   "criteria": {
     "cosmic_fury_red": {
       "trigger": "minecraft:inventory_changed",

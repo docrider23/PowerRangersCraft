@@ -1587,8 +1587,107 @@
   "item.powerrangercraft.":"",
   
   //Advancements
-  "advancements.powerrangerscraft.title": "Power Rangers Craft",
-  "advancements.powerrangerscraft.desc": "May the Power Protect You!",
+  "advancements.powerrangerscraft.saban.title": "Power Rangers Craft - Saban Era",
+  "advancements.powerrangerscraft.saban.desc": "The Saban era marks the very beginning of Ranger history. This mod would not be without these Rangers!",
+  "advancements.powerrangerscraft.disney.title": "Power Rangers Craft - Disney Era",
+  "advancements.powerrangerscraft.disney.desc": "The Disney era was the era of big explosions, epic teamups, and lots of Battlizers.",
+  "advancements.powerrangerscraft.neo_saban.title": "Power Rangers Craft - Neo-Saban Era",
+  "advancements.powerrangerscraft.neo_saban.desc": "The Neo-Saban era was a return to the original style of Power Rangers with a modern twist.",
+  "advancements.powerrangerscraft.hasbro.title": "Power Rangers Craft - Hasbro Era",
+  "advancements.powerrangerscraft.hasbro.desc": "The Hasbro era encompasses all the Ranger teams of today. What new and exciting stories are unfolding?",
+  "advancements.powerrangerscraft.others.title": "Power Rangers Craft - Other Series",
+  "advancements.powerrangerscraft.others.desc": "Even beyond the TV and the comics, there are other Ranger teams fighting to protect the universe.",
+  "advancements.powerrangerscraft.comics.title": "Power Rangers Craft - Comics Series",
+  "advancements.powerrangerscraft.comics.desc": "Beyond the screen, the pages of comics expand the Power Rangers universe.",
+
+  "advancements.powerrangerscraft.mmpr.title": "Mighty Morphin' Power Rangers!",
+  "advancements.powerrangerscraft.mmpr.desc": "Change into each member of the OG Power Rangers Team",
+  "advancements.powerrangerscraft.mmpr_red.desc": "Change into the MMPR Red Ranger",
+  "advancements.powerrangerscraft.mmpr_red.title": "Tyrannosaurus!",
+  "advancements.powerrangerscraft.mmpr_black.desc": "Change into the MMPR Black Ranger",
+  "advancements.powerrangerscraft.mmpr_black.title": "Mastodon!",
+  "advancements.powerrangerscraft.mmpr_blue.desc": "Change into the MMPR Blue Ranger",
+  "advancements.powerrangerscraft.mmpr_blue.title": "Triceratops!",
+  "advancements.powerrangerscraft.mmpr_yellow.desc": "Change into the MMPR Yellow Ranger",
+  "advancements.powerrangerscraft.mmpr_yellow.title": "Sabertooth Tiger!",
+  "advancements.powerrangerscraft.mmpr_pink.desc": "Change into the MMPR Pink Ranger",
+  "advancements.powerrangerscraft.mmpr_pink.title": "Pteradactyl!",
+  "advancements.powerrangerscraft.mmpr_green.desc": "Change into the MMPR Green Ranger",
+  "advancements.powerrangerscraft.mmpr_green.title": "Dragonzord!",
+  "advancements.powerrangerscraft.mmpr_white.desc": "Change into the MMPR White Ranger",
+  "advancements.powerrangerscraft.mmpr_white.title": "Tigerzord!",
+  "advancements.powerrangerscraft.ninjor.desc": "Change into Ninjor",
+  "advancements.powerrangerscraft.ninjor.title": "Creator of the Coins!",
+  "advancements.powerrangerscraft.santa.desc": "Change into the MMPR Santa Ranger",
+  "advancements.powerrangerscraft.santa.title": "ReindeerZord!",
+  "advancements.powerrangerscraft.dragon_shield.title": "Shield Transfer",
+  "advancements.powerrangerscraft.dragon_shield.desc": "Equip the Dragon Shield onto any of the core 5 MMPR Rangers.",
+  "advancements.powerrangerscraft.ninjor_battle_mode.title": "Ninja Quest",
+  "advancements.powerrangerscraft.ninjor_battle_mode.desc": "Transform Ninjor into his Battle Mode.",
+  "advancements.powerrangerscraft.power_morpher.title": "It's Morphing Time!",
+  "advancements.powerrangerscraft.power_morpher.desc": "Obtain any Power Morpher",
+
+  "advancements.powerrangerscraft.alien.title": "Mighty Morphin' Alien Rangers!",
+  "advancements.powerrangerscraft.alien.desc": "Change into each member of the Aquitar Ranger Team",
+
+  "advancements.powerrangerscraft.zeo.title": "Power Rangers Zeo!",
+  "advancements.powerrangerscraft.zeo.desc": "Change into each member of the Zeo Ranger Team",
+
+  "advancements.powerrangerscraft.turbo.desc": "Change into each member of the Turbo Ranger Team",
+  "advancements.powerrangerscraft.turbo.title": "Power Rangers Turbo",
+  "advancements.powerrangerscraft.turbo_red.desc": "Change into the Red Turbo Ranger",
+  "advancements.powerrangerscraft.turbo_red.title": "Red Turbo Ranger!",
+  "advancements.powerrangerscraft.turbo_blue.desc": "Change into the Blue Turbo Ranger",
+  "advancements.powerrangerscraft.turbo_blue.title": "Blue Turbo Ranger!",
+  "advancements.powerrangerscraft.turbo_green.desc": "Change into the Green Turbo Ranger",
+  "advancements.powerrangerscraft.turbo_green.title": "Green Turbo Ranger!",
+  "advancements.powerrangerscraft.turbo_yellow.desc": "Change into the Yellow Turbo Ranger",
+  "advancements.powerrangerscraft.turbo_yellow.title": "Yellow Turbo Ranger!",
+  "advancements.powerrangerscraft.turbo_pink.desc": "Change into the Pink Turbo Ranger",
+  "advancements.powerrangerscraft.turbo_pink.title": "Pink Turbo Ranger!",
+  "advancements.powerrangerscraft.blue_senturion.desc": "Change into the Blue Senturion",
+  "advancements.powerrangerscraft.blue_senturion.title": "Blue Senturion!",
+  "advancements.powerrangerscraft.blue_senturion_evil.desc": "Change into the Blue Senturion (Evil)",
+  "advancements.powerrangerscraft.blue_senturion_evil.title": "The Millennium Message",
+  "advancements.powerrangerscraft.phantom_ranger.desc": "Change into the Phantom Ranger",
+  "advancements.powerrangerscraft.phantom_ranger.title": "Invisible Ranger",
+  "advancements.powerrangerscraft.turbo_morpher.desc": "Obtain any Turbo Morpher",
+  "advancements.powerrangerscraft.turbo_morpher.title": "Shift into Turbo!",
+
+  "advancements.powerrangerscraft.in_space.desc": "Change into each member of the Space Ranger Team",
+  "advancements.powerrangerscraft.in_space.title": "Power Rangers In Space",
+
+  "advancements.powerrangerscraft.lost_galaxy.desc": "Change into each member of the Galaxy Ranger Team",
+  "advancements.powerrangerscraft.lost_galaxy.title": "Power Rangers Lost Galaxy",
+
+  "advancements.powerrangerscraft.lightspeed_rescue.desc": "Change into each member of the Lightspeed Ranger Team",
+  "advancements.powerrangerscraft.lightspeed_rescue.title": "Power Rangers Lightspeed Rescue",
+
+  "advancements.powerrangerscraft.time_force.desc": "Change into each member of the Time Force Ranger Team",
+  "advancements.powerrangerscraft.time_force.title": "Power Rangers Time Force",
+
+  "advancements.powerrangerscraft.wild_force.desc": "Change into each member of the Wild Force Ranger Team",
+  "advancements.powerrangerscraft.wild_force.title": "Power Rangers Wild Force",
+
+  "advancements.powerrangerscraft.ninja_storm.desc": "Change into each member of the Ninja Storm Ranger Team",
+  "advancements.powerrangerscraft.ninja_storm.title": "Power Rangers Ninja Storm",
+  "advancements.powerrangerscraft.ninja_storm_blue.desc": "Change into Ninja Storm Blue",
+  "advancements.powerrangerscraft.ninja_storm_blue.title": "Power of Water!",
+
+  "advancements.powerrangerscraft.dino_thunder.desc": "Change into each member of the Dino Thunder Ranger Team",
+  "advancements.powerrangerscraft.dino_thunder.title": "Power Rangers Dino Thunder",
+  "advancements.powerrangerscraft.dino_thunder_yellow.desc": "Change into Dino Thunder Yellow",
+  "advancements.powerrangerscraft.dino_thunder_yellow.title": "Ptera Power! Yellow Ranger!",
+
+  "advancements.powerrangerscraft.spd.desc": "Change into each member of the SPD B-Squad Ranger Team",
+  "advancements.powerrangerscraft.spd.title": "Power Rangers SPD",
+  "advancements.powerrangerscraft.spd_red.desc": "Change into SPD Red",
+  "advancements.powerrangerscraft.spd_red.title": "1! SPD Red Ranger!",
+
+  "advancements.powerrangerscraft.mystic_force.desc": "Change into each member of the Mystic Force Ranger Team",
+  "advancements.powerrangerscraft.mystic_force.title": "Power Rangers Mystic Force",
+  "advancements.powerrangerscraft.mystic_force_green.desc": "Change into Mystic Force Green",
+  "advancements.powerrangerscraft.mystic_force_green.title": "Strong as a Tree, Green Mystic Ranger!",
 
   "advancements.powerrangerscraft.operation_overdrive.desc": "Change into each member of the Overdrive Ranger Team",
   "advancements.powerrangerscraft.operation_overdrive.title": "Power Rangers Operation Overdrive",
@@ -1614,24 +1713,57 @@
   "advancements.powerrangerscraft.mercury_morpher.title": "Overdrive! Accelerate!",
   "advancements.powerrangerscraft.red_sentinel_ranger.desc": "Turn into the Red Sentinel Ranger",
   "advancements.powerrangerscraft.red_sentinel_ranger.title": "Red Sentinel Ranger! Activate!",
-
   "advancements.powerrangerscraft.once_a_ranger.desc": "Change into each member of the Once a Ranger Ranger Team",
   "advancements.powerrangerscraft.once_a_ranger.title": "Once a Ranger, Always a Ranger",
-  "advancements.powerrangerscraft.mmpr_black.desc": "Change into the MMPR Black Ranger",
-  "advancements.powerrangerscraft.mmpr_black.title": "Mastodon!",
-  "advancements.powerrangerscraft.spd_red.desc": "Change into SPD Red",
-  "advancements.powerrangerscraft.spd_red.title": "1! SPD Red Ranger!",
-  "advancements.powerrangerscraft.ninja_storm_blue.desc": "Change into Ninja Storm Blue",
-  "advancements.powerrangerscraft.ninja_storm_blue.title": "Power of Water!",
-  "advancements.powerrangerscraft.dino_thunder_yellow.desc": "Change into Dino Thnder Yellow",
-  "advancements.powerrangerscraft.dino_thunder_yellow.title": "Ptera Power! Yellow Ranger!",
-  "advancements.powerrangerscraft.mystic_force_green.desc": "Change into Mystic Force Green",
-  "advancements.powerrangerscraft.mystic_force_green.title": "Strong as a Tree, Green Mystic Ranger!",
   "advancements.powerrangerscraft.defender_vest_mmpr.desc": "Equip the MMPR Black Ranger with the Defender Vest",
   "advancements.powerrangerscraft.defender_vest_mmpr.title": "Another Black Ranger Upgrade",
 
+  "advancements.powerrangerscraft.jungle_fury.desc": "Change into each member of the Jungle Fury Ranger Team",
+  "advancements.powerrangerscraft.jungle_fury.title": "Power Rangers Jungle Fury",
+
+  "advancements.powerrangerscraft.rpm.desc": "Change into each member of the Ranger Operator Team",
+  "advancements.powerrangerscraft.rpm.title": "Power Rangers RPM",
+
+  "advancements.powerrangerscraft.samurai.desc": "Change into each member of the Samurai Ranger Team",
+  "advancements.powerrangerscraft.samurai.title": "Power Rangers Samurai",
+
+  "advancements.powerrangerscraft.megaforce.desc": "Change into each member of the Megaforce Ranger Team",
+  "advancements.powerrangerscraft.megaforce.title": "Power Rangers Megaforce",
+
+  "advancements.powerrangerscraft.super_megaforce.desc": "Change into each member of the Super Megaforce Ranger Team",
+  "advancements.powerrangerscraft.super_megaforce.title": "Power Rangers Super Megaforce",
+
+  "advancements.powerrangerscraft.dino_charge.desc": "Change into each member of the Dino Charge Ranger Team",
+  "advancements.powerrangerscraft.dino_charge.title": "Power Rangers Dino Charge",
+
+  "advancements.powerrangerscraft.ninja_steel.desc": "Change into each member of the Ninja Steel Ranger Team",
+  "advancements.powerrangerscraft.ninja_steel.title": "Power Rangers Ninja Steel",
+
+  "advancements.powerrangerscraft.beast_morphers.desc": "Change into each member of the Grid Battleforce Ranger Team",
+  "advancements.powerrangerscraft.beast_morphers.title": "Power Rangers Beast Morphers",
+
+  "advancements.powerrangerscraft.dino_fury.desc": "Change into each member of the Dino Fury Ranger Team",
+  "advancements.powerrangerscraft.dino_fury.title": "Power Rangers Dino Fury",
+
+  "advancements.powerrangerscraft.cosmic_fury.desc": "Change into each member of the Cosmic Fury Ranger Team",
+  "advancements.powerrangerscraft.cosmic_fury.title": "Power Rangers Cosmic Fury",
+
+  "advancements.powerrangerscraft.hyperforce.desc": "Change into each member of the Hyperforce Ranger Team",
+  "advancements.powerrangerscraft.hyperforce.title": "Power Rangers Hyperforce",
   "advancements.powerrangerscraft.black_sentinel_ranger.desc": "Turn into the Black Sentinel Ranger",
   "advancements.powerrangerscraft.black_sentinel_ranger.title": "Black Sentinel Ranger! Activate!",
+
+  "advancements.powerrangerscraft.reboot.desc": "Change into each member of the 2017 Ranger Team",
+  "advancements.powerrangerscraft.reboot.title": "Power Rangers (2017)",
+
+  "advancements.powerrangerscraft.prime.desc": "Change into each member of the Prime Ranger Team",
+  "advancements.powerrangerscraft.prime.title": "Power Rangers Prime",
+
+  "advancements.powerrangerscraft.omega.desc": "Change into each member of the Omega Ranger Team",
+  "advancements.powerrangerscraft.omega.title": "Power Rangers Omega",
+
+  "advancements.powerrangerscraft.solar.desc": "Change into each member of the Solar Ranger Team",
+  "advancements.powerrangerscraft.solar.title": "Power Rangers: Beyond the Grid",
 
   "advancements.powerrangerscraft..desc": "",
   "advancements.powerrangerscraft..title": ""

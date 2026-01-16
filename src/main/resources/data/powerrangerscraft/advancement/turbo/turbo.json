@@ -3,14 +3,18 @@
     "icon": {
       "id": "powerrangerscraft:turbo_logo"
     },
-    "title": "Power Rangers Turbo",
-    "description": "Change into each member of the Turbo Rangers",
+    "title": {
+      "translate": "advancements.powerrangerscraft.turbo.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.turbo.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:root",
+  "parent": "powerrangerscraft:saban",
   "criteria": {
     "red_turbo": {
       "trigger": "minecraft:inventory_changed",

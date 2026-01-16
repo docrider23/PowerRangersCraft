@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:dragon_power_coin"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.dragon_shield.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.dragon_shield.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:mmpr/mmpr",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:mmpr_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:mmpr_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:mmpr_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_power_morpher",
+                "powerrangerscraft:black_power_morpher",
+                "powerrangerscraft:blue_power_morpher",
+                "powerrangerscraft:yellow_power_morpher",
+                "powerrangerscraft:pink_power_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:dragon_power_coin\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

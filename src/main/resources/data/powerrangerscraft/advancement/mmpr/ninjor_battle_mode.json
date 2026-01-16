@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:black_power_morpher"
+      "id": "powerrangerscraft:ninjor_coin"
     },
     "title": {
-      "translate": "advancements.powerrangerscraft.mmpr_black.title"
+      "translate": "advancements.powerrangerscraft.ninjor_battle_mode.title"
     },
     "description": {
-      "translate": "advancements.powerrangerscraft.mmpr_black.desc"
+      "translate": "advancements.powerrangerscraft.ninjor_battle_mode.desc"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:operation_overdrive/once_a_ranger",
+  "parent": "powerrangerscraft:mmpr/dragon_shield",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -38,8 +38,11 @@
             },
             "feet": {
               "items": [
-                "powerrangerscraft:black_power_morpher"
-              ]
+                "powerrangerscraft:ninjor_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:ninjor_coin_battle_mode\"}"
+              }
             }
           }
         }

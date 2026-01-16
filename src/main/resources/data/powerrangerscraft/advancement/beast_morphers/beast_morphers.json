@@ -1,185 +1,189 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:lost_galaxy_logo"
+      "id": "powerrangerscraft:beast_morphers_logo"
     },
-    "title": "Power Rangers Lost Galaxy",
-    "description": "Change into each member of the Galaxy Rangers",
+    "title": {
+      "translate": "advancements.powerrangerscraft.beast_morphers.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.beast_morphers.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:saban",
+  "parent": "powerrangerscraft:hasbro",
   "criteria": {
-    "galaxy_red": {
+    "beast_morphers_red": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:lost_galaxy_head"
+                "powerrangerscraft:beast_morphers_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:lost_galaxy_torso"
+                "powerrangerscraft:beast_morphers_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:lost_galaxy_legs"
+                "powerrangerscraft:beast_morphers_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:red_transmorpher"
+                "powerrangerscraft:red_beast_x_morpher"
               ]
             }
           }
         }
       }
     },
-    "galaxy_green": {
+    "beast_morphers_blue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:lost_galaxy_head"
+                "powerrangerscraft:beast_morphers_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:lost_galaxy_torso"
+                "powerrangerscraft:beast_morphers_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:lost_galaxy_legs"
+                "powerrangerscraft:beast_morphers_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:green_transmorpher"
+                "powerrangerscraft:blue_beast_x_morpher"
               ]
             }
           }
         }
       }
     },
-    "galaxy_blue": {
+    "beast_morphers_yellow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:lost_galaxy_head"
+                "powerrangerscraft:beast_morphers_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:lost_galaxy_torso"
+                "powerrangerscraft:beast_morphers_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:lost_galaxy_legs"
+                "powerrangerscraft:beast_morphers_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:blue_transmorpher"
+                "powerrangerscraft:yellow_beast_x_morpher"
               ]
             }
           }
         }
       }
     },
-    "galaxy_yellow": {
+    "beast_morphers_gold": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:lost_galaxy_head"
+                "powerrangerscraft:beast_morphers_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:lost_galaxy_torso"
+                "powerrangerscraft:beast_morphers_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:lost_galaxy_legs"
+                "powerrangerscraft:beast_morphers_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:yellow_transmorpher"
+                "powerrangerscraft:gold_striker_morpher"
               ]
             }
           }
         }
       }
     },
-    "galaxy_pink": {
+    "beast_morphers_silver": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:lost_galaxy_head"
+                "powerrangerscraft:beast_morphers_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:lost_galaxy_torso"
+                "powerrangerscraft:beast_morphers_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:lost_galaxy_legs"
+                "powerrangerscraft:beast_morphers_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:pink_transmorpher"
+                "powerrangerscraft:silver_striker_morpher"
               ]
             }
           }
         }
       }
     },
-    "black_knight": {
+    "beast_morphers_orange": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:lost_galaxy_head"
+                "powerrangerscraft:beast_morphers_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:lost_galaxy_torso"
+                "powerrangerscraft:beast_morphers_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:lost_galaxy_legs"
+                "powerrangerscraft:beast_morphers_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:magna_defender_morpher"
+                "powerrangerscraft:orange_beast_x_morpher"
               ]
             }
           }

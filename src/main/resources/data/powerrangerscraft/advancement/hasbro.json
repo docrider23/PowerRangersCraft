@@ -1,0 +1,23 @@
+{
+  "display": {
+	"icon": {
+	  "id": "powerrangerscraft:beast_morphers_logo"
+	},
+	  "title": {
+		  "translate": "advancements.powerrangerscraft.hasbro.title"
+	  },
+	  "description": {
+		  "translate": "advancements.powerrangerscraft.hasbro.desc"
+	  },
+	"background": "minecraft:textures/block/amethyst_block.png",
+	"frame": "task",
+	"show_toast": false,
+	"announce_to_chat": false,
+	"hidden": false
+  },
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:tick"
+	}
+  }
+}

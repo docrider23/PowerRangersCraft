@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:green_mystic_morpher"
+      "id": "powerrangerscraft:blue_wind_morpher"
     },
     "title": {
-      "translate": "advancements.powerrangerscraft.mystic_force_green.title"
+      "translate": "advancements.powerrangerscraft.ninja_storm_blue.title"
     },
     "description": {
-      "translate": "advancements.powerrangerscraft.mystic_force_green.desc"
+      "translate": "advancements.powerrangerscraft.ninja_storm_blue.desc"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:operation_overdrive/dino_thunder_yellow",
+  "parent": "powerrangerscraft:spd/spd_red",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -23,22 +23,22 @@
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:mystic_force_head"
+                "powerrangerscraft:ninja_storm_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:mystic_force_torso"
+                "powerrangerscraft:ninja_storm_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:mystic_force_legs"
+                "powerrangerscraft:ninja_storm_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:green_mystic_morpher"
+                "powerrangerscraft:blue_wind_morpher"
               ]
             }
           }
