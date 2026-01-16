@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:red_power_morpher"
     },
-    "title": "Shift into Turbo!",
-    "description": "Obtain any Power Morpher",
+    "title": {
+      "translate": "advancements.powerrangerscraft.power_morpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.power_morpher.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
