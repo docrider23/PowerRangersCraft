@@ -1,0 +1,23 @@
+{
+	"name": "Blue Wind Ninja",
+	"icon": "powerrangerscraft:blue_wind_ninja_power_disk",
+	"category": "powerrangerscraft:ninja_storm/rangers",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "ninja_storm_blue",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_wind_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:blue_wind_ninja_power_disk\"}},Count:1b},{id:\"powerrangerscraft:ninja_storm_legs\",Count:1b},{id:\"powerrangerscraft:ninja_storm_torso\",Count:1b},{id:\"powerrangerscraft:ninja_storm_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Blue Wind Ninja",
+			"text": "Accessed with the $(l:ninja_storm/items/ninja_power_disks#blue_wind_ninja_power_disk)Blue Wind Ninja Power Disk$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Blue Wind Ninja",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV Series)$(br2)Transforms with the $(l:ninja_storm/devices/wind_morphers#blue_wind_morpher)Blue Wind Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Jungle Fury Red Ranger",
+	"icon": "powerrangerscraft:tiger_spirit",
+	"category": "powerrangerscraft:jungle_fury/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "jungle_fury_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_solar_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:tiger_spirit\"}},Count:1b},{id:\"powerrangerscraft:jungle_fury_legs\",Count:1b},{id:\"powerrangerscraft:jungle_fury_torso\",Count:1b},{id:\"powerrangerscraft:jungle_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Jungle Fury Red Ranger",
+			"text": "Accessed with the $(l:jungle_fury/items/animal_spirits#tiger_spirit)tiger_spirit$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Jungle Fury Red Ranger",
+			"text": "Appears in:$(li)Power Rangers Jungle Fury (2008, TV Series)$(br2)Transforms with the $(l:jungle_fury/devices/solar_morphers#red_solar_morpher)Red Solar Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

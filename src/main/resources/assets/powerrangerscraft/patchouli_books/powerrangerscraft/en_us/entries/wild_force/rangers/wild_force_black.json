@@ -1,0 +1,23 @@
+{
+	"name": "Wild Force Black",
+	"icon": "powerrangerscraft:bison_animal_crystal",
+	"category": "powerrangerscraft:wild_force/rangers",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "wild_force_black",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:black_growl_phone\",components:{custom_data:{slot_tex1:\"powerrangerscraft:bison_animal_crystal\"}},Count:1b},{id:\"powerrangerscraft:wild_force_legs\",Count:1b},{id:\"powerrangerscraft:wild_force_torso\",Count:1b},{id:\"powerrangerscraft:wild_force_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Wild Force Black",
+			"text": "Accessed with the $(l:wild_force/items/animal_crystals#bison_animal_crystal)Bison Animal Crystal$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Wild Force Black",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Series)$(br2)Transforms with the $(l:wild_force/devices/growl_phones#Black_growl_phone)black Growl Phone$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

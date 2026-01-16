@@ -1,0 +1,23 @@
+{
+	"name": "Red Mystic Ranger",
+	"icon": "powerrangerscraft:red_mystic_morpher_plate",
+	"category": "powerrangerscraft:mystic_force/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "mystic_force_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_mystic_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:red_mystic_morpher_plate\"}},Count:1b},{id:\"powerrangerscraft:mystic_force_legs\",Count:1b},{id:\"powerrangerscraft:mystic_force_torso\",Count:1b},{id:\"powerrangerscraft:mystic_force_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Red Mystic Ranger",
+			"text": "Accessed with the $(l:mystic_force/items/mystic_plates#red_mystic_morpher_plate)Red Mystic Plate$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Red Mystic Ranger",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2006, TV Series)$(br2)Transforms with the $(l:mystic_force/devices/mystic_morphers#red_mystic_morpher)Red Mystic Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

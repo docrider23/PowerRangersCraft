@@ -1,0 +1,23 @@
+{
+	"name": "Wild Force White",
+	"icon": "powerrangerscraft:tiger_animal_crystal",
+	"category": "powerrangerscraft:wild_force/rangers",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "wild_force_white",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:white_growl_phone\",components:{custom_data:{slot_tex1:\"powerrangerscraft:tiger_animal_crystal\"}},Count:1b},{id:\"powerrangerscraft:wild_force_legs\",Count:1b},{id:\"powerrangerscraft:wild_force_torso\",Count:1b},{id:\"powerrangerscraft:wild_force_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Wild Force White",
+			"text": "Accessed with the $(l:wild_force/items/animal_crystals#tiger_animal_crystal)Tiger Animal Crystal$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Wild Force White",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Series)$(br2)Transforms with the $(l:wild_force/devices/growl_phones#white_growl_phone)White Growl Phone$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

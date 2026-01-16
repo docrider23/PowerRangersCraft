@@ -1,0 +1,38 @@
+{
+	"name": "Mercury Ranger",
+	"icon": "powerrangerscraft:mercury_ranger_logo",
+	"category": "powerrangerscraft:operation_overdrive/rangers",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "mercury_ranger",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:mercury_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:operation_overdrive_mercury_logo\"}},Count:1b},{id:\"powerrangerscraft:operation_overdrive_legs\",Count:1b},{id:\"powerrangerscraft:operation_overdrive_torso\",Count:1b},{id:\"powerrangerscraft:operation_overdrive_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Mercury Ranger",
+			"text": "Accessed with the $(l:overdrive/items/overdrive_logos#overdrive_mercury_logo)Mercury Overdrive Logo$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mercury Ranger",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:overdrive/devices/overdrive_trackers#mercury_morpher)Mercury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+
+		{
+			"type": "patchouli:entity",
+			"anchor": "mercury_ranger",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:mercury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:defender_vest\"}},Count:1b},{id:\"powerrangerscraft:operation_overdrive_legs\",Count:1b},{id:\"powerrangerscraft:operation_overdrive_torso\",Count:1b},{id:\"powerrangerscraft:operation_overdrive_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Mercury Ranger With Defender Vest",
+			"text": "Accessed with the $(l:overdrive/items/overdrive_logos#overdrive_mercury_logo)Defender Vest$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mercury Ranger With Defender Vest",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:overdrive/devices/overdrive_trackers#mercury_morpher)Mercury Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

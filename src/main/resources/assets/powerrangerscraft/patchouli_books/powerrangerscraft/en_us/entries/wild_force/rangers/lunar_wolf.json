@@ -1,0 +1,23 @@
+{
+	"name": "Lunar Wolf Ranger",
+	"icon": "powerrangerscraft:wolf_animal_crystal",
+	"category": "powerrangerscraft:wild_force/rangers",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "lunar_wolf_ranger",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:lunar_caller\",components:{custom_data:{slot_tex1:\"powerrangerscraft:wolf_animal_crystal\"}},Count:1b},{id:\"powerrangerscraft:wild_force_legs\",Count:1b},{id:\"powerrangerscraft:wild_force_torso\",Count:1b},{id:\"powerrangerscraft:wild_force_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Lunar Wolf Ranger",
+			"text": "Accessed with the $(l:wild_force/items/animal_crystals#wolf_animal_crystal)Wolf Animal Crystal$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Lunar Wolf Ranger",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Series)$(br2)Transforms with the $(l:wild_force/devices/growl_phones#lunar_caller)Lunar Caller$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

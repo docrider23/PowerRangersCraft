@@ -1,0 +1,38 @@
+{
+	"name": "Yellow Overdrive Ranger",
+	"icon": "powerrangerscraft:overdrive_yellow_logo",
+	"category": "powerrangerscraft:operation_overdrive/rangers",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "overdrive_yellow",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:yellow_overdrive_tracker\",components:{custom_data:{slot_tex1:\"powerrangerscraft:operation_overdrive_yellow_logo\"}},Count:1b},{id:\"powerrangerscraft:operation_overdrive_legs\",Count:1b},{id:\"powerrangerscraft:operation_overdrive_torso\",Count:1b},{id:\"powerrangerscraft:operation_overdrive_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Yellow Overdrive Ranger",
+			"text": "Accessed with the $(l:overdrive/items/overdrive_logos#overdrive_yellow_logo)Yellow Overdrive Logo$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Yellow Overdrive Ranger",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:overdrive/devices/overdrive_trackers#yellow_overdrive_tracker)Yellow Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
+		},
+
+		{
+			"type": "patchouli:entity",
+			"anchor": "overdrive_yellow",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:yellow_overdrive_tracker\",components:{custom_data:{slot_tex2:\"powerrangerscraft:defender_vest\"}},Count:1b},{id:\"powerrangerscraft:operation_overdrive_legs\",Count:1b},{id:\"powerrangerscraft:operation_overdrive_torso\",Count:1b},{id:\"powerrangerscraft:operation_overdrive_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Yellow Overdrive Ranger With Defender Vest",
+			"text": "Accessed with the $(l:overdrive/items/overdrive_logos#overdrive_yellow_logo)Defender Vest$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Yellow Overdrive Ranger With Defender Vest",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:overdrive/devices/overdrive_trackers#yellow_overdrive_tracker)Yellow Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

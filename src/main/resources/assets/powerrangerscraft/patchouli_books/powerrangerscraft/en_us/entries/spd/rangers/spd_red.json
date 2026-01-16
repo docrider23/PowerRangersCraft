@@ -1,0 +1,23 @@
+{
+	"name": "Red SPD Ranger",
+	"icon": "powerrangerscraft:spd_red_badge",
+	"category": "powerrangerscraft:spd/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "spd_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_delta_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:spd_red_badge\"}},Count:1b},{id:\"powerrangerscraft:spd_legs\",Count:1b},{id:\"powerrangerscraft:spd_torso\",Count:1b},{id:\"powerrangerscraft:spd_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Red SPD Ranger",
+			"text": "Accessed with the $(l:spd/items/spd_badges#spd_red_badge)SPD Red Badge$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Red SPD Ranger",
+			"text": "Appears in:$(li)Power Rangers SPD (2005, TV Series)$(br2)Transforms with the $(l:spd/devices/delta_morphers#red_delta_morpher)Red Delta Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

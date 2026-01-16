@@ -1,0 +1,23 @@
+{
+	"name": "Red Dino Ranger",
+	"icon": "powerrangerscraft:red_dino_gem",
+	"category": "powerrangerscraft:dino_thunder/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_thunder_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_dino_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:red_dino_gems\"}},Count:1b},{id:\"powerrangerscraft:dino_thunder_legs\",Count:1b},{id:\"powerrangerscraft:dino_thunder_torso\",Count:1b},{id:\"powerrangerscraft:dino_thunder_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Red Dino Ranger",
+			"text": "Accessed with the $(l:dino_thunder/items/dino_gems#red_dino_gems)Red Dino Gem$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Red Dino Ranger",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV Series)$(br2)Transforms with the $(l:dino_thunder/devices/dino_morphers#red_dino_morpher)Red Dino Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

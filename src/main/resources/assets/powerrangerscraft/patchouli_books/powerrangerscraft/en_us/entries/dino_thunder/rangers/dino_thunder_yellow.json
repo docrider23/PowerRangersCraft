@@ -1,0 +1,23 @@
+{
+	"name": "Yellow Dino Ranger",
+	"icon": "powerrangerscraft:yellow_dino_gem",
+	"category": "powerrangerscraft:dino_thunder/rangers",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_thunder_yellow",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:yellow_dino_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:yellow_dino_gems\"}},Count:1b},{id:\"powerrangerscraft:dino_thunder_legs\",Count:1b},{id:\"powerrangerscraft:dino_thunder_torso\",Count:1b},{id:\"powerrangerscraft:dino_thunder_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Yellow Dino Ranger",
+			"text": "Accessed with the $(l:dino_thunder/items/dino_gems#yellow_dino_gems)Yellow Dino Gem$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Yellow Dino Ranger",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV Series)$(br2)Transforms with the $(l:dino_thunder/devices/dino_morphers#yellow_dino_morpher)Yellow Dino Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}
