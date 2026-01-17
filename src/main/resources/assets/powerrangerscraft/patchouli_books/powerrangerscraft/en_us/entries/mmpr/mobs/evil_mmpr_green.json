@@ -1,0 +1,18 @@
+{
+  "name": "Evil MMPR Green",
+  "icon": "powerrangerscraft:dragon_power_coin",
+  "category": "powerrangerscraft:mmpr/mobs",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "powerrangerscraft:evil_mmpr_green",
+      "text": "Appears in:$(li)Mighty Morphin,Power Rangers (1993, TV Series)$(br)Health:250"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Has a chance to spawn from a $(l:mmpr/mobs/putty_patroller)putty_patroller$(/l)$(br2)Drops$(li)5 $(l:mmpr/items/mmpr_logo)mmpr Logos$(/l)$(li)1 $(l:mmpr/items/power_coins#Dragon_Power_coin)Dragon Power Coin$(/l)$(li)1 $(l:mmpr/items/power_coins#white_tiger_power_coin)White Tiger Power Coin$(/l) (90%) $(li)1$(l:dino_thunder/items/dino_gems#black_dino_gem)Black Dino Gem$(/l) (10%)"
+    }
+  ]
+
+}
