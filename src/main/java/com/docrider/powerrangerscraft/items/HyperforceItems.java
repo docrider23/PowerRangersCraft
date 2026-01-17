@@ -28,34 +28,34 @@ public class HyperforceItems {
                     .AddToTabList(RangerTabs.HYPERFORCE));
     public static final DeferredItem<Item> SERPENT_HYPERFORCE_CARD = ITEMS.register("serpent_hyperforce_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","hyperforce_blue","hyperforce_belt",
-                    new MobEffectInstance(MobEffects.REGENERATION, 40, 1, true, false),
-                    new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 1, true, false))
+                    new MobEffectInstance(MobEffects.REGENERATION, 40, 0, true, false),
+                    new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 0, true, false))
                     .AddToTabList(RangerTabs.HYPERFORCE));
     public static final DeferredItem<Item> RAM_HYPERFORCE_CARD = ITEMS.register("ram_hyperforce_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","hyperforce_yellow","hyperforce_belt",
-                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4, true, false),
-                    new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 1, true, false))
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3, true, false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0, true, false))
                     .AddToTabList(RangerTabs.HYPERFORCE));
     public static final DeferredItem<Item> CERBERUS_HYPERFORCE_CARD = ITEMS.register("cerberus_hyperforce_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","hyperforce_black","hyperforce_belt",
-                    new MobEffectInstance(MobEffects.NIGHT_VISION, 40, 0, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0, true, false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2, true, false))
                     .AddToTabList(RangerTabs.HYPERFORCE));
     public static final DeferredItem<Item> PHOENIX_HYPERFORCE_CARD = ITEMS.register("phoenix_hyperforce_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","hyperforce_pink","hyperforce_belt",
-                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2, true, false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0, true, false),
                     new MobEffectInstance(MobEffects.JUMP, 40, 3, true, false))
                     .AddToTabList(RangerTabs.HYPERFORCE));
     public static final DeferredItem<Item> HYDRA_HYPERFORCE_CARD = ITEMS.register("hydra_hyperforce_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","hyperforce_green","hyperforce_green_belt",
-                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4, true, false),
-                    new MobEffectInstance(EffectCore.SLASH, 40, 4, true, false),
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40 ,4, true, false))
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0, true, false),
+                    new MobEffectInstance(EffectCore.SLASH, 40, 3, true, false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40 ,0, true, false))
                     .AddToTabList(RangerTabs.HYPERFORCE));
 
     public static final DeferredItem<Item> PINK_POWER_GEM = ITEMS.register("pink_power_gem",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_battlizer_mode","hyperforce_pink","blank",
-                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 4, true, false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2, true, false),
                     new MobEffectInstance(MobEffects.JUMP, 40, 4, true, false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40 ,3, true, false))
                     .ChangeModel("rangerwing.geo.json").AddToTabList(RangerTabs.HYPERFORCE));

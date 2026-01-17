@@ -24,9 +24,8 @@ public class LostGalaxyItems {
 
 	public static final DeferredItem<Item> LION_MIRINOI_MEDAL = ITEMS.register("lion_mirinoi_medal",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","galaxy_red","lost_galaxy_belt",
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false)){
 				public void OnTransformation(ItemStack itemstack, LivingEntity player) {
 					super.OnTransformation(itemstack, player);
@@ -39,67 +38,62 @@ public class LostGalaxyItems {
     
 	public static final DeferredItem<Item> EAGLE_MIRINOI_MEDAL = ITEMS.register("eagle_mirinoi_medal",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","galaxy_green","lost_galaxy_belt",
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false),
-            		new MobEffectInstance(EffectCore.FLYING, 40, 2,true,false))
+            		new MobEffectInstance(EffectCore.FLYING, 40, 0,true,false))
 			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
     
 	public static final DeferredItem<Item> GORILLA_MIRINOI_MEDAL = ITEMS.register("gorilla_mirinoi_medal",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","galaxy_blue","lost_galaxy_belt",
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
 			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
     
 	public static final DeferredItem<Item> WOLF_MIRINOI_MEDAL = ITEMS.register("wolf_mirinoi_medal",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","galaxy_yellow","lost_galaxy_belt",
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
 			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
     
 	public static final DeferredItem<Item> WILDCAT_MIRINOI_MEDAL = ITEMS.register("wildcat_mirinoi_medal",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","galaxy_pink","lost_galaxy_belt",
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
 			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
 
 	public static final DeferredItem<Item> MAGNA_DEFENDER_CORE_SOLAR = ITEMS.register("magna_defender_core_solar",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_black","blank",
-					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
+					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
 					new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false)).IsGlowing());
 
 	public static final DeferredItem<Item> MAGNA_DEFENDER_CORE = ITEMS.register("magna_defender_core",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","magna_defender","magna_defender_belt",
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
+            		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
             		new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
 					.addAlternative(MAGNA_DEFENDER_CORE_SOLAR.get()).ChangeModel("magna_defender.geo.json").ChangeAnimation("magna_defender.animation.json").ChangeBeltModel("geo/magna_defender_belt.geo.json").AddToTabList(RangerTabs.LOST_GALAXY));
     
     public static final DeferredItem<Item> LIGHTS_OF_ORION = ITEMS.register("lights_of_orion",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_lights_of_orion","galaxy_red","lights_of_orion_belt",
-            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+            		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
-            		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 4,true,false),
+            		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 400, 3,true,false))
             .ChangeSlot(2).ChangeBeltModel("geo/rangerbeltextra.geo.json").ResetFormToBase()
             .AddCompatibilityList(new String[] {"galaxy_green","galaxy_blue","galaxy_yellow","galaxy_pink"}).AddToTabList(RangerTabs.LOST_GALAXY));
 
 	public static final DeferredItem<Item> GALACTIC_KEY = ITEMS.register("galactic_key",
 			() -> new RangerFormChangeItem(new Item.Properties(),0,"_armored","galaxy_red","lights_of_orion_belt",
-					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 5,true,false),
+					new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 5,true,false),
-					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 4,true,false),
-					new MobEffectInstance(MobEffects.JUMP, 400, 4,true,false)).ChangeModel("dino_master.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json").alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).addNeedForm(LIGHTS_OF_ORION.get(),2).AddToTabList(RangerTabs.LOST_GALAXY));
+					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false)).ChangeModel("dino_master.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json").alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).addNeedForm(LIGHTS_OF_ORION.get(),2).AddToTabList(RangerTabs.LOST_GALAXY));
     
     public static final DeferredItem<Item> LOST_GALAXY_HELMET = ITEMS.register("lost_galaxy_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.LOST_GALAXY).ChangeRepairItem(LOST_GALAXY_LOGO.get()));

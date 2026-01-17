@@ -144,7 +144,7 @@ public class MMPRItems {
                     .ChangeSlot(2).ChangeBeltModel("geo/mmpr_belt_weapon.geo.json"));
     public static final DeferredItem<Item> DRAGON_POWER_COIN = ITEMS.register("dragon_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"dragon_shield","","",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,1,true,true))
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,0,true,true))
             {
                 public void OnTransformation(ItemStack itemstack, LivingEntity player) {
                     super.OnTransformation(itemstack,player);
@@ -158,7 +158,7 @@ public class MMPRItems {
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_white","mmpr_white_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,1,true,true))
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,0,true,true))
             {
                 public void OnTransformation(ItemStack itemstack, LivingEntity player) {
                     super.OnTransformation(itemstack,player);
@@ -173,7 +173,7 @@ public class MMPRItems {
 
     public static final DeferredItem<Item> NINJOR_COIN_BATTLE_MODE = ITEMS.register("ninjor_coin_battle_mode",
             () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_battle_mode","ninjor","blank",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
             {
@@ -193,7 +193,7 @@ public class MMPRItems {
 
     public static final DeferredItem<Item> NINJOR_COIN = ITEMS.register("ninjor_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","ninjor","blank",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false))
             {
@@ -230,42 +230,42 @@ public class MMPRItems {
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_metallic_armor","mmpr_white","mmpr_white_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .IsGlowing().BackToBase());
 
 
     public static final DeferredItem<Item> METALLIC_ARMOR_PINK = ITEMS.register("metallic_armor_power_coin_pink",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"mmpr_pink_metallic_armor","mmpr_pink","mmpr_pink_belt",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(METALLIC_ARMOR_WHITE.get()));
 
 
     public static final DeferredItem<Item> METALLIC_ARMOR_YELLOW = ITEMS.register("metallic_armor_power_coin_yellow",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"mmpr_yellow_metallic_armor","mmpr_yellow","mmpr_yellow_belt",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(METALLIC_ARMOR_PINK.get()));
 
 
     public static final DeferredItem<Item> METALLIC_ARMOR_BLUE = ITEMS.register("metallic_armor_power_coin_blue",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"mmpr_blue_metallic_armor","mmpr_blue","mmpr_blue_belt",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(METALLIC_ARMOR_YELLOW.get()));
 
 
     public static final DeferredItem<Item> METALLIC_ARMOR_BLACK = ITEMS.register("metallic_armor_power_coin_black",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"mmpr_black_metallic_armor","mmpr_black","mmpr_black_belt",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(METALLIC_ARMOR_BLUE.get()));
 
 
     public static final DeferredItem<Item> METALLIC_ARMOR = ITEMS.register("metallic_armor_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"mmpr_red_metallic_armor","mmpr_red","mmpr_red_belt",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(METALLIC_ARMOR_BLACK.get()).AddToTabList(RangerTabs.MMPR));
 
