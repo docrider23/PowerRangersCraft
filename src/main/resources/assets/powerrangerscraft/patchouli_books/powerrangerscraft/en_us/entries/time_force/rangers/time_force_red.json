@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Time Force Red Ranger",
-			"text": "Accessed with the $(l:time_force/items/time_force_badges#time_force_red_badge) Time Force Red Badge$(/l)"
+			"text": "Accessed with the $(l:time_force/items/time_force_badges#time_force_red_badge)Time Force Red Badge$(/l)"
 		},
 		{
 			"type": "patchouli:text",

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:phantom_ranger_module"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.phantom_ranger_module.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.phantom_ranger_module.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:turbo/signal_whistle",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:phantom_ranger_module"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:entity",
-			"anchor": "yellow turbo Ranger",
+			"anchor": "turbo_yellow",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:yellow_turbo_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:turbo_yellow_power_coin\"}},Count:1b},{id:\"powerrangerscraft:turbo_legs\",Count:1b},{id:\"powerrangerscraft:turbo_torso\",Count:1b},{id:\"powerrangerscraft:turbo_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,

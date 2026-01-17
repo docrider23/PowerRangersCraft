@@ -1,5 +1,5 @@
 {
-	"name": "Green Samurai",
+	"name": "Green Samurai Ranger",
 	"icon": "powerrangerscraft:green_samurai_ninja_power_disk",
 	"category": "powerrangerscraft:ninja_storm/rangers",
 	"sortnum": 5,
@@ -10,13 +10,13 @@
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:samurai_cyclone_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:green_samurai_ninja_power_disk\"}},Count:1b},{id:\"powerrangerscraft:ninja_storm_legs\",Count:1b},{id:\"powerrangerscraft:ninja_storm_torso\",Count:1b},{id:\"powerrangerscraft:ninja_storm_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "Green Samurai Ninja",
+			"name": "Green Samurai Ranger",
 			"text": "Accessed with the $(l:ninja_storm/items/ninja_power_disks#green_samurai_ninja_power_disk)Green Samurai Ninja Power Disk$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Green Samurai",
-			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV Series)$(br2)Transforms with the $(l:ninja_storm/devices/wind_morphers#samurai_cyclone_morpher)Samurai Cyclone Morpher$(/l)$(br2)Status Effects:TBD"
+			"title": "Green Samurai Ranger",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV Series)$(br2)Transforms with the $(l:ninja_storm/devices/samurai_cyclone_morpher)Samurai Cyclone Morpher$(/l)$(br2)Status Effects:TBD"
 		}
 	]
 

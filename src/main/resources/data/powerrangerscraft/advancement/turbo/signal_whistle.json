@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:signal_whistle"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.signal_whistle.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.signal_whistle.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:turbo/turbo_morpher",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:signal_whistle"
+            ]
+          }
+        ]
+      }
+    },
+    "item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:signal_whistle_evil"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item",
+      "item2"
+    ]
+  ]
+}

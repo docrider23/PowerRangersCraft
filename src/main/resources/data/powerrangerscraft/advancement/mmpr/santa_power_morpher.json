@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:santa_power_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.santa_power_morpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.santa_power_morpher.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:mmpr/ninjor_morpher",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:santa_power_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

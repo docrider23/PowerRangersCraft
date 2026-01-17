@@ -16,22 +16,22 @@
 		{
 			"type": "patchouli:text",
 			"title": "Magna Defender",
-			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)$(br2)Transforms with the $(l:lost_galaxy/devices/tansmorphers#magna_defender_morpher)Magna Defender Morpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)$(br2)Transforms with the $(l:lost_galaxy/devices/magna_defender_morpher)Magna Defender Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 
 		{
 			"type": "patchouli:entity",
-			"anchor": "magna_defender",
+			"anchor": "magna_defender_bftg",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:magna_defender_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:battle_for_the_grid_game_magna_defender\"}},Count:1b},{id:\"powerrangerscraft:lost_galaxy_legs\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_torso\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "Magna Defender Battle for the Grid",
-			"text": "Accessed with the $(l:misc/items/battle-for_the_grid#magna_defender_core)Lights Of Orion $(/l)"
+			"name": "Magna Defender (Battle for the Grid Alt Skin)",
+			"text": "Accessed with the $(l:misc/items/battle_for_the_grid_game)Battle for the Grid game$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Magna Defender Battle for the Grid",
-			"text": "Appears in:$(li)Power Rangers Battle for the Grid (2019, Video Game)$(br2)Transforms with the $(l:lost_galaxy/devices/tansmorphers#magna_defender_morpher)Magna Defemder morpher$(/l)$(br2)Status Effects:TBD"
+			"title": "Magna Defender (Battle for the Grid Alt Skin)",
+			"text": "Appears in:$(li)Power Rangers: Battle for the Grid (2019, Video Game)$(br2)Transforms with the $(l:lost_galaxy/devices/magna_defender_morpher)Magna Defemder Morpher$(/l)$(br2)Status Effects:TBD"
 		}
 
 	]

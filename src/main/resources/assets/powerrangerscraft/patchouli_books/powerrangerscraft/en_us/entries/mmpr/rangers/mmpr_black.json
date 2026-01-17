@@ -39,7 +39,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "MMPR Black Ranger (w/ Defender Vest)",
-			"text": "Accessed with the $(l:mmpr/items/power_coins#overdrive_defender_vest)Defender Vest$(/l)"
+			"text": "Accessed with the $(l:operation_overdrive/items/defender_vest)Defender Vest$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -53,7 +53,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "MMPR Black Ranger",
-			"text": "Accessed with the $(l:mmpr/items/game_controller)Game Controller$(/l)"
+			"text": "Accessed with the $(l:misc/items/game_controller)Game Controller$(/l)"
 		},
 		{
 			"type": "patchouli:text",

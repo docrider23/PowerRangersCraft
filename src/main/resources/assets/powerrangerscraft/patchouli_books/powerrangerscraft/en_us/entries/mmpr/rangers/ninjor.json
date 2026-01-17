@@ -16,7 +16,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Ninjor",
-			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#ninjor_morpher)Ninjor Urn$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/ninjor_morpher)Ninjor Urn$(/l)$(br2)Status Effects:TBD"
 		},
 		{
 			"type": "patchouli:entity",
@@ -30,7 +30,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Ninjor",
-			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#ninjor_morpher)Ninjor Urn$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/ninjor_morpher)Ninjor Urn$(/l)$(br2)Status Effects:TBD"
 		}
 
 	]

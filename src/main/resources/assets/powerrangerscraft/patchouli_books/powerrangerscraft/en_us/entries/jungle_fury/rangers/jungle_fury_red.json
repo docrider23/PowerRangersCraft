@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Jungle Fury Red Ranger",
-			"text": "Accessed with the $(l:jungle_fury/items/animal_spirits#tiger_spirit)tiger_spirit$(/l)"
+			"text": "Accessed with the $(l:jungle_fury/items/animal_spirits#tiger_spirit)Tiger Spirit$(/l)"
 		},
 		{
 			"type": "patchouli:text",

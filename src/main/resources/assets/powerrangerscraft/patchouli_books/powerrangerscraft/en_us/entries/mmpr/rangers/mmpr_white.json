@@ -18,8 +18,6 @@
 			"title": "Mighty Morphin' White Ranger",
 			"text": "Appears in:$(li)Mighty Morphin' Power Rangers (1993, TV show)$(br2)Transforms with the $(l:mmpr/devices/power_morphers#white_power_morpher)Power Morpher$(/l)$(br2)Status Effects:TBD"
 		},
-
-
 		{
 			"type": "patchouli:entity",
 			"anchor": "mmpr_white_bftg",

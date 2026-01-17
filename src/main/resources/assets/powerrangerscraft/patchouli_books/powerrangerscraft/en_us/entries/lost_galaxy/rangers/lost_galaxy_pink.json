@@ -11,27 +11,27 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Lost Galaxy Pink",
-			"text": "Accessed with the $(l:lost_galaxy/items/mirinoi_medals#wolf_mirinoi_medal)Wolf Mirinoi Medal $(/l)"
+			"text": "Accessed with the $(l:lost_galaxy/items/mirinoi_medals#wildcat_mirinoi_medal)Wildcat Mirinoi Medal $(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Lost Galaxy Pink",
-			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)$(br2)Transforms with the $(l:lost_galaxy/devices/tansmorphers#pink_transmorpher)Pink Transmorpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)$(br2)Transforms with the $(l:lost_galaxy/devices/transmorphers#pink_transmorpher)Pink Transmorpher$(/l)$(br2)Status Effects:TBD"
 		},
 
 		{
 			"type": "patchouli:entity",
-			"anchor": "lost_galaxy_pink",
+			"anchor": "lost_galaxy_pink_lights_of_orion",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:pink_transmorpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:lights_of_orion\"}},Count:1b},{id:\"powerrangerscraft:lost_galaxy_legs\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_torso\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "Lost Galaxy Pink Lights of Orion",
-			"text": "Accessed with the $(l:lost_galaxy/items/mirinoi_medals#wolf_mirinoi_medal)Lights Of Orion $(/l)"
+			"name": "Lost Galaxy Pink (Lights of Orion Armor)",
+			"text": "Accessed with the $(l:lost_galaxy/items/lights_of_orion)Lights Of Orion$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Lost Galaxy Pink lights of Orion",
-			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)$(br2)Transforms with the $(l:lost_galaxy/devices/tansmorphers#pink_transmorpher)Pink Transmorpher$(/l)$(br2)Status Effects:TBD"
+			"title": "Lost Galaxy Pink (Lights of Orion Armor)",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)$(br2)Transforms with the $(l:lost_galaxy/devices/transmorphers#pink_transmorpher)Pink Transmorpher$(/l)$(br2)Status Effects:TBD"
 		}
 
 	]

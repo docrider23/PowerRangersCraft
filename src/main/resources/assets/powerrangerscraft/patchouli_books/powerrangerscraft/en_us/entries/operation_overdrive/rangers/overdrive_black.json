@@ -21,12 +21,12 @@
 
 		{
 			"type": "patchouli:entity",
-			"anchor": "overdrive_black",
+			"anchor": "overdrive_black_vest",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:black_overdrive_tracker\",components:{custom_data:{slot_tex2:\"powerrangerscraft:defender_vest\"}},Count:1b},{id:\"powerrangerscraft:operation_overdrive_legs\",Count:1b},{id:\"powerrangerscraft:operation_overdrive_torso\",Count:1b},{id:\"powerrangerscraft:operation_overdrive_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Black Overdrive Ranger With Defender Vest",
-			"text": "Accessed with the $(l:overdrive/items/overdrive_logos#overdrive_black_logo)Defender Vest$(/l)"
+			"text": "Accessed with the $(l:overdrive/items/defender_vest)Defender Vest$(/l)"
 		},
 		{
 			"type": "patchouli:text",

@@ -1,5 +1,5 @@
 {
-	"name": "RPM Red Ranger",
+	"name": "Ranger Operator Red",
 	"icon": "powerrangerscraft:eagle_racer_engine_cell",
 	"category": "powerrangerscraft:rpm/rangers",
 	"sortnum": 0,
@@ -10,28 +10,28 @@
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_cell_shift_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:eagle_racer_engine_cell\"}},Count:1b},{id:\"powerrangerscraft:rpm_legs\",Count:1b},{id:\"powerrangerscraft:rpm_torso\",Count:1b},{id:\"powerrangerscraft:rpm_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "RPM Red Ranger",
+			"name": "Ranger Operator Red",
 			"text": "Accessed with the $(l:rpm/items/engine_cells#eagle_racer_engine_cell)Eagle Racer Engine Cell$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "RPM Red Ranger",
+			"title": "Ranger Operator Red",
 			"text": "Appears in:$(li)Power Rangers RPM (2009, TV Series)$(br2)Transforms with the $(l:rpm/devices/cell_shift_morphers#red_cell_shift_morpher)Red Cell Shift Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 
 		{
 			"type": "patchouli:entity",
-			"anchor": "rpm_red",
+			"anchor": "rpm_red_shark_attack",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_cell_shift_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:shark_disc\"}},Count:1b},{id:\"powerrangerscraft:rpm_legs\",Count:1b},{id:\"powerrangerscraft:rpm_torso\",Count:1b},{id:\"powerrangerscraft:rpm_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "RPM Red Ranger Shark Attack Mode",
-			"text": "Accessed with the $(l:samurai/items/power_disks#shark_disc)Shark Disk$(/l) and $(l:samurai/arsenal/power_disks#spin sword)Spin Sword$(/l) in the off hand"
+			"name": "Ranger Operator Red Shark Attack Mode",
+			"text": "Accessed with the $(l:samurai/items/power_disks#shark_disc)Shark Disk$(/l) and $(l:samurai/arsenal/spin sword)Spin Sword$(/l) in the off hand"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "RPM Red Ranger Shark Attack Mode",
-			"text": "Appears in:$(li)Power Rangers Samurai Clash Of The Red Rangers (2011, TV Movie)$(br2)Transforms with the $(l:rpm/devices/cell_shift_morphers#red_cell_shift_morpher)Red Cell Shift Morpher$(/l)$(br2)Status Effects:TBD"
+			"title": "Ranger Operator Red Shark Attack Mode",
+			"text": "Appears in:$(li)Power Rangers Samurai: Clash Of The Red Rangers (2011, TV Movie)$(br2)Transforms with the $(l:rpm/devices/cell_shift_morphers#red_cell_shift_morpher)Red Cell Shift Morpher$(/l)$(br2)Status Effects:TBD"
 		}
 	]
 

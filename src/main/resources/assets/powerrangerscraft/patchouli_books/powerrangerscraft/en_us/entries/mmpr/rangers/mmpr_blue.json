@@ -40,7 +40,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "MMPR Blue Ranger",
-			"text": "Accessed with the $(l:mmpr/items/game_controller)Game Controller$(/l)"
+			"text": "Accessed with the $(l:misc/items/game_controller)Game Controller$(/l)"
 		},
 		{
 			"type": "patchouli:text",
