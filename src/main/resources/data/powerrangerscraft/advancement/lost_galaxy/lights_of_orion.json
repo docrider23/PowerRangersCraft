@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:lights_of_orion"
     },
-    "title": "Lights of Orion! Activate!",
-    "description": "Obtain the Lights of Orion",
+    "title": {
+      "translate": "advancements.powerrangerscraft.lights_of_orion.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.lights_of_orion.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

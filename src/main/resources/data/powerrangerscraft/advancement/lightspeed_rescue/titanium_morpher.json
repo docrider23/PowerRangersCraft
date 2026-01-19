@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:titanium_morpher"
     },
-    "title": "From Demon Raised to Hero Forged!",
-    "description": "Obtain the Titanium Morpher",
+    "title": {
+      "translate": "advancements.powerrangerscraft.titanium_morpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.titanium_morpher.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

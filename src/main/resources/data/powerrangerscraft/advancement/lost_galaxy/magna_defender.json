@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:magna_defender_morpher"
     },
-    "title": "Magna Power!",
-    "description": "Change into the Magna Defender",
+    "title": {
+      "translate": "advancements.powerrangerscraft.magna_defender.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.magna_defender.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

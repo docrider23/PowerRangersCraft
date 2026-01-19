@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:lights_of_orion"
     },
-    "title": "Orion Returns",
-    "description": "Change into the Lights of Orion Armor",
+    "title": {
+      "translate": "advancements.powerrangerscraft.lights_of_orion_armor.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.lights_of_orion_armor.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

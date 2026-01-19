@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:red_rescue_morpher"
     },
-    "title": "Green Ranger! Rescue Ready!",
-    "description": "Change into the Lightspeed Green Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.lightspeed_green.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.lightspeed_green.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

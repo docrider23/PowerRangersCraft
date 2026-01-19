@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:trans_armor_badge"
     },
-    "title": "Trans Armor Cycle! Armor Mode!",
-    "description": "Equip the Trans Armor",
+    "title": {
+      "translate": "advancements.powerrangerscraft.trans_armor.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.trans_armor.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

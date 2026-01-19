@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:blue_transmorpher"
     },
-    "title": "Galaxy Blue!",
-    "description": "Change into the Blue Galaxy Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.galaxy_blue.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.galaxy_blue.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

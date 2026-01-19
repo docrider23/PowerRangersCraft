@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:yellow_transmorpher"
     },
-    "title": "Galaxy Yellow!",
-    "description": "Change into the Yellow Galaxy Ranger!",
+    "title": {
+      "translate": "advancements.powerrangerscraft.galaxy_yellow.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.galaxy_yellow.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

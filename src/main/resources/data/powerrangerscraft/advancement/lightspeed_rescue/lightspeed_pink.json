@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:red_rescue_morpher"
     },
-    "title": "Pink Ranger! Rescue Ready!",
-    "description": "Change into the Pink Lightspeed Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.lightspeed_pink.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.lightspeed_pink.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

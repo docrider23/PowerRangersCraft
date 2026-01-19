@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:green_transmorpher"
     },
-    "title": "Galaxy Green!",
-    "description": "Change into the Green Galaxy Ranger!",
+    "title": {
+      "translate": "advancements.powerrangerscraft.galaxy_green.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.galaxy_green.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:red_transmorpher"
     },
-    "title": "Go Galactic!",
-    "description": "Obtain any Transmorpher",
+    "title": {
+      "translate": "advancements.powerrangerscraft.transmorpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.transmorpher.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

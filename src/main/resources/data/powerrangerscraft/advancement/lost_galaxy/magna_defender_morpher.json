@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:magna_defender_morpher"
     },
-    "title": "My Power is Now Yours!",
-    "description": "Obtain the Magna Defender's Morpher",
+    "title": {
+      "translate": "advancements.powerrangerscraft.magna_defender_morpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.magna_defender_morpher.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

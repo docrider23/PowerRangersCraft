@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:galactic_key"
     },
-    "title": "Red! Armored! Power! Ranger!",
-    "description": "Transform into the Red Armored Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.red_armored_ranger.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.red_armored_ranger.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },
