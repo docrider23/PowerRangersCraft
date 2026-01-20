@@ -1,0 +1,23 @@
+{
+	"name": "Red Super Megaforce Ranger",
+	"icon": "powerrangerscraft:super_megaforce_red_key",
+	"category": "powerrangerscraft:super_megaforce/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "super_megaforce_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_legendary_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:super_megafoce_red_key\"}},Count:1b},{id:\"powerrangerscraft:super_megaforce_legs\",Count:1b},{id:\"powerrangerscraft:super_megaforce_torso\",Count:1b},{id:\"powerrangerscraft:super_megaforce_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Red Super Megaforce Ranger",
+			"text": "Accessed with the $(l:megaforce/items/ranger_keys#super_megaforce_red_key)Super Megaforce Red Key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Red Super Megaforce Ranger",
+			"text": "Appears in:$(li)Power Rangers Super Megaforce (2014, TV Series)$(br2)Transforms with the $(l:megaforce/devices/legendary_morphers#red_legendary_morpher)Red Legendary Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

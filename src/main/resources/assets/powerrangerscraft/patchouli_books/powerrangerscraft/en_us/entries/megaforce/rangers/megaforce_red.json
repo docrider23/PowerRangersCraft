@@ -1,0 +1,23 @@
+{
+	"name": "Red Megaforce Ranger",
+	"icon": "powerrangerscraft:red_change_power_card",
+	"category": "powerrangerscraft:megaforce/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "megaforce_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_gosei_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:red_change_power_card\"}},Count:1b},{id:\"powerrangerscraft:megaforce_legs\",Count:1b},{id:\"powerrangerscraft:megaforce_torso\",Count:1b},{id:\"powerrangerscraft:megaforce_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Red megaforce Ranger",
+			"text": "Accessed with the $(l:megaforce/items/power_cards#red_change_power_card)Red Change Power Card$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Red Megaforce Ranger",
+			"text": "Appears in:$(li)Power Rangers Megaforce (2013, TV Series)$(br2)Transforms with the $(l:megaforce/devices/gosei_morphers#red_gosei_morpher)Red Gosei Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

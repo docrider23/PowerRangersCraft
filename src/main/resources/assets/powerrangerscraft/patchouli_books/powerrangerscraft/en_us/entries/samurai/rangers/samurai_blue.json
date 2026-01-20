@@ -1,0 +1,93 @@
+{
+	"name": "Blue Samurai Ranger",
+	"icon": "powerrangerscraft:dragon_disc",
+	"category": "powerrangerscraft:samurai/rangers",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "samurai_blue",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_samuraizer\",components:{custom_data:{slot_tex1:\"powerrangerscraft:dragon_disc\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Blue Samurai Ranger",
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#dragon_disc)Dragon Disc$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Blue Samurai Ranger",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#blue_samuraizer)Blue Samuraizer Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "samurai_blue",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_samuraizer\",components:{custom_data:{slot_tex1:\"powerrangerscraft:mega_mode_disc_blue\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Blue Samurai Ranger Mega Mode",
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#dragon_disc)Mega Disc$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Blue Samurai Ranger Mega Mode",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#blue_samuraizer)Blue Samuraizer Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "samurai_blue",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_samuraizer\",components:{custom_data:{slot_tex2:\"powerrangerscraft:super_samurai_disc\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Blue Super Samurai Ranger",
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#dragon_disc)Super Samurai Disc$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Blue Super Samurai Ranger",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#blue_samuraizer)Blue Samuraizer Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "samurai_blue",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_samuraizer\",components:{custom_data:{slot_tex1:\"powerrangerscraft:super_mega_mode_disc_blue\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Blue Samurai Ranger Super Mega Mode",
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#dragon_disc)Mega Disc$(/l) while in Super Samurai"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Blue Samurai Ranger Super Mega Mode",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#blue_samuraizer)Blue Samuraizer Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "samurai_blue",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_samuraizer\",components:{custom_data:{slot_tex1:\"powerrangerscraft:shogun_disc_blue\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Blue Samurai Ranger Shogun",
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#dragon_disc)Shogun Disc$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Blue Samurai Ranger Shogun Mode",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#blue_samuraizer)Blue Samuraizer Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "samurai_blue",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:blue_samuraizer\",components:{custom_data:{slot_tex2:\"powerrangerscraft:shark_disc\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Blue Samurai Ranger Shark Attack Mode",
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#dragon_disc)Shark Disc$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Blue Samurai Ranger Shark Attack Mode",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#blue_samuraizer)Blue Samuraizer Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}
