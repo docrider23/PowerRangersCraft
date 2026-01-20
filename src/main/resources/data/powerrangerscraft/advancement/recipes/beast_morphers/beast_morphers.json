@@ -1,0 +1,26 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:beast_morphers/beast_morphers_head",
+      "powerrangerscraft:beast_morphers/beast_morphers_torso",
+      "powerrangerscraft:beast_morphers/beast_morphers_legs",
+      "powerrangerscraft:beast_morphers/beast_x_blaster",
+      "powerrangerscraft:beast_morphers/beast_x_saber",
+      "powerrangerscraft:beast_morphers/beast_morphers_logo",
+      "powerrangerscraft:beast_morphers/miniature_morph_x_tank"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:morph_x_canister"
+          }
+        ]
+      }
+    }
+  }
+}

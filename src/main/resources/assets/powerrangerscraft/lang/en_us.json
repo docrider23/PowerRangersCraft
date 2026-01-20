@@ -24,9 +24,11 @@
   "effect.powerrangerscraft.stretch":"Stretch",
   "effect.powerrangerscraft.wide":"Wide",
   "effect.powerrangerscraft.christmas": "Christmas",
+  "effect.powerrangerscraft.low_gravity": "Low Gravity",
 
   "effect.powerrangerscraft.morphin_particle": "Morphin Particles",
-  "effect.powerrangerscraft.beast_morphers_red": "Beast Morphers Red's Super Speed",
+  "effect.powerrangerscraft.beast_morphers_red": "Beast Morphers Red",
+  "effect.powerrangerscraft.beast_morphers_yellow_beast_x": "Beast Morphers Yellow Beast-X Mode",
 
   "effect.powerrangerscraft.beast_morphers_red_weakness": "Beast Morphers Red's Weakness",
   "effect.powerrangerscraft.beast_morphers_blue_weakness": "Beast Morphers Blue's Weakness",
@@ -1049,6 +1051,9 @@
 
   "item.powerrangerscraft.morph_x_canister": "Morph-X Canister",
   "item.powerrangerscraft.blank_morph_x_key": "Blank Morph-X Key",
+  "block.powerrangerscraft.unrefined_morph_x": "Unrefined Morph-X",
+  "block.powerrangerscraft.miniature_morph_x_tank": "Miniature Morph-X Tank",
+  "block.powerrangerscraft.animal_dna_repository": "Animal DNA Repository",
 
   "item.powerrangerscraft.red_beast_x_morpher": "Beast-X Morpher",
   "item.powerrangerscraft.blue_beast_x_morpher": "Beast-X Morpher",
@@ -1061,8 +1066,6 @@
   "item.powerrangerscraft.roxy_evox_beast_x_morpher": "Evox's Beast-X Morpher",
   "item.powerrangerscraft.robo_blaze_evox_beast_x_morpher": "Evox's Beast-X Morpher",
   "item.powerrangerscraft.robo_roxy_evox_beast_x_morpher": "Evox's Beast-X Morpher",
-
-  "block.powerrangerscraft.animal_dna_repository": "Animal DNA Repository",
 
   "item.powerrangerscraft.red_morph_x_key": "Red Morph-X Key",
   "item.powerrangerscraft.blue_morph_x_key": "Blue Morph-X Key",

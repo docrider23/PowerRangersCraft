@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_taiga",
+  "spawners": {
+    "type": "powerrangerscraft:tronic",
+    "weight": 15,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:beast_x_visor"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.beast_x_visor.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.beast_x_visor.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:beast_morphers/striker_morpher",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:beast_x_visor"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:striker_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.striker_morpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.striker_morpher.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:beast_morphers/beast_x_morpher",
+  "criteria": {
+    "beast_morphers_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:gold_striker_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "beast_morphers_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:silver_striker_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "beast_morphers_gold",
+      "beast_morphers_silver"
+    ]
+  ]
+}

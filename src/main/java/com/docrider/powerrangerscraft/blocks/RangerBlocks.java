@@ -4,6 +4,7 @@ import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.blocks.custom.*;
 import com.docrider.powerrangerscraft.blocks.machineBlocks.AnimalDNARepository;
 import com.docrider.powerrangerscraft.blocks.machineBlocks.CoronaAuroraCrown;
+import com.docrider.powerrangerscraft.blocks.machineBlocks.MiniatureMorphXTank;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.RangerTabs;
@@ -12,7 +13,6 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -90,6 +90,11 @@ public class RangerBlocks {
     public static final DeferredBlock<Block> UNREFINED_MORPH_X = registerBlock("unrefined_morph_x",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
+
+    public static final DeferredBlock<Block> MINIATURE_MORPH_X_TANK = registerBlock("miniature_morph_x_tank",
+            () -> new MiniatureMorphXTank(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .strength(5.0F, 6.0F).sound(SoundType.METAL).dynamicShape().lightLevel((p_152632_) -> {
+                        return 10;}),Block.box(1, 0, 2, 14,16, 14)).AddToTabList(RangerTabs.BLOCKS));
 
    public static final DeferredBlock<Block> ANIMAL_DNA_REPOSITORY = registerBlock("animal_dna_repository",
             () -> new AnimalDNARepository(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.COW_BELL)

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:silver_striker_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.beast_morphers_silver.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.beast_morphers_silver.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:beast_morphers/beast_morphers_gold",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:beast_morphers_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:beast_morphers_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:beast_morphers_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:silver_striker_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

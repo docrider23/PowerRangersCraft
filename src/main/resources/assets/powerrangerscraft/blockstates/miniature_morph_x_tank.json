@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "powerrangerscraft:block/miniature_morph_x_tank" },
+        "facing=south": { "model": "powerrangerscraft:block/miniature_morph_x_tank", "y": 180 },
+        "facing=west":  { "model": "powerrangerscraft:block/miniature_morph_x_tank", "y": 270 },
+        "facing=east":  { "model": "powerrangerscraft:block/miniature_morph_x_tank", "y": 90 }
+    }
+}

@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_beast_x_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.beast_x_morpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.beast_x_morpher.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:beast_morphers/beast_morphers",
+  "criteria": {
+    "beast_morphers_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:red_beast_x_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "beast_morphers_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:blue_beast_x_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "beast_morphers_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:yellow_beast_x_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "beast_morphers_orange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:orange_beast_x_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "beast_morphers_red",
+      "beast_morphers_blue",
+      "beast_morphers_yellow",
+      "beast_morphers_orange"
+    ]
+  ]
+}

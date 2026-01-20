@@ -200,7 +200,7 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
             () -> EntityType.Builder.of(TronicsEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":tronic"));
 
     public static final DeferredItem<DeferredSpawnEggItem> TRONICS_SPAWN_EGG = ITEMS.register("tronic_spawn_egg",
-            () -> new DeferredSpawnEggItem(TRONICS, 0xe60b71, 0x999794, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(TRONICS, 0xffffff, 0x151515, new Item.Properties()));
 
     public static final DeferredHolder<EntityType<?>, EntityType<CybervillainBlazeEntity>> CYBERVILLAIN_BLAZE = MOBLIST.register("cybervillain_blaze",
             () -> EntityType.Builder.of(CybervillainBlazeEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":cybervillain_blaze"));

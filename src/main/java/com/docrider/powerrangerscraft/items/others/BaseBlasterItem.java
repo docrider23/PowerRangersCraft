@@ -167,11 +167,6 @@ public class BaseBlasterItem extends BowItem {
 				arrow.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
 				this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 2 * 7.0F, 1.0F, true, (LivingEntity)null);
 			}
-			else if (entityLiving.hasEffect(EffectCore.SHOTBOOST)) {
-				ItemStack arrow = new ItemStack(Items.ARROW, 1);
-				arrow.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
-				this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 2 * (entityLiving.getEffect(EffectCore.SHOTBOOST).getAmplifier()+1), 1.0F, true, (LivingEntity)null);
-			}
 			else {
 				if (Charged) {
 					if (get_mode(stack) < 30) set_mode(stack, get_mode(stack) + 1);

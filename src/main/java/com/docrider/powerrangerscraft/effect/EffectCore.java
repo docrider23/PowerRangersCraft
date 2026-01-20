@@ -83,6 +83,10 @@ public class EffectCore {
     public static final Holder<MobEffect>  CHRISTMAS= EFFECT.register("christmas",
             () -> new ChristmasEffect(MobEffectCategory.BENEFICIAL, 0x4eff00));
 
+    public static final Holder<MobEffect> LOW_GRAVITY= EFFECT.register("low_gravity",
+            () -> new LowGravityEffect(MobEffectCategory.NEUTRAL, 0x1d8519)
+                    .addAttributeModifier(Attributes.GRAVITY, ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "effect.low_gravity"), -0.1F, AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+
     public static final Holder<MobEffect> BEAST_MORPHERS_RED_WEAKNESS = EFFECT.register("beast_morphers_red_weakness",
             () -> new BeastMorphersRedWeaknessEffect(MobEffectCategory.NEUTRAL, 0xf7fada));
 
@@ -97,6 +101,9 @@ public class EffectCore {
 
     public static final Holder<MobEffect> BEAST_MORPHERS_YELLOW_WEAKNESS= EFFECT.register("beast_morphers_yellow_weakness",
             () -> new BeastMorphersYellowWeaknessEffect(MobEffectCategory.NEUTRAL, 0xf7fada));
+
+    public static final Holder<MobEffect> BEAST_MORPHERS_YELLOW_BEAST_X= EFFECT.register("beast_morphers_yellow_beast_x",
+            () -> new BeastMorphersYellowBeastXEffect(MobEffectCategory.NEUTRAL, 0xf7fada));
 
 
     public static void register(IEventBus eventBus) {

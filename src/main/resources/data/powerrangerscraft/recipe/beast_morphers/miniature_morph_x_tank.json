@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "go_busters",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "powerrangerscraft:unrefined_morph_x"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:miniature_morph_x_tank"
+  }
+}

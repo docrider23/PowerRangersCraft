@@ -29,8 +29,8 @@ public class BeastMorphersRedWeaknessEffect extends InstantenousMobEffect {
 							entity -> (entity instanceof Wolf));
 
 					for (LivingEntity enemy : wolf) {
-						player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 3, 8, true, true));
-						player.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 3, 8, true, true));
+						player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 3, 8, true, false));
+						player.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 3, 8, true, false));
 					}
 				}
 			}
