@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:dino_thunder_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_thunder.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.dino_thunder.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:disney",
+  "criteria": {
+    "dino_thunder_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_thunder_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_thunder_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_thunder_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dino_thunder_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_thunder_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_thunder_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_thunder_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_dino_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

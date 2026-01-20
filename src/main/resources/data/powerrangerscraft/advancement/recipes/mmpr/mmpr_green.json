@@ -2,18 +2,18 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:gingaman/green_transmorpher",
-      "powerrangerscraft:gingaman/trans_blaster",
-      "powerrangerscraft:gingaman/quasar_launcher_green"
+      "powerrangerscraft:mmpr/green_power_morpher",
+      "powerrangerscraft:mmpr/dragon_dagger",
+      "powerrangerscraft:mmpr/sword_of_darkness"
     ]
   },
   "criteria": {
-    "has_logo": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "powerrangerscraft:eagle_mirinoi_medal"
+            "items": "powerrangerscraft:dragon_power_coin"
           }
         ]
       }
@@ -21,7 +21,7 @@
   },
   "requirements": [
     [
-      "has_logo"
+      "has_item"
     ]
   ]
 }

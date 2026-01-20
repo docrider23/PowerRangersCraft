@@ -1761,6 +1761,8 @@
 
   "advancements.powerrangerscraft.dino_thunder.desc": "Change into each member of the Dino Thunder Ranger Team",
   "advancements.powerrangerscraft.dino_thunder.title": "Power Rangers Dino Thunder",
+  "advancements.powerrangerscraft.dino_thunder_red.desc": "Change into Dino Thunder Red",
+  "advancements.powerrangerscraft.dino_thunder_red.title": "Tyranno Power! Red Ranger!",
   "advancements.powerrangerscraft.dino_thunder_yellow.desc": "Change into Dino Thunder Yellow",
   "advancements.powerrangerscraft.dino_thunder_yellow.title": "Ptera Power! Yellow Ranger!",
 
@@ -1858,8 +1860,10 @@
 
   "advancements.powerrangerscraft.dino_charge.desc": "Change into each member of the Dino Charge Ranger Team",
   "advancements.powerrangerscraft.dino_charge.title": "Power Rangers Dino Charge",
-  "advancements.powerrangerscraft.dino_charge_dark.desc": "",
-  "advancements.powerrangerscraft.dino_charge_dark.title": "",
+  "advancements.powerrangerscraft.dino_charge_red.desc": "Change into the Dino Charge Red Ranger",
+  "advancements.powerrangerscraft.dino_charge_red.title": "Tyrannosaurus Rex! Dino Charge Red!",
+  "advancements.powerrangerscraft.dino_charge_dark.desc": "Change into the Dino Charge Dark Ranger",
+  "advancements.powerrangerscraft.dino_charge_dark.title": "Spinosaurus! Dino Charge Dark!",
 
   "advancements.powerrangerscraft.ninja_steel.desc": "Change into each member of the Ninja Steel Ranger Team",
   "advancements.powerrangerscraft.ninja_steel.title": "Power Rangers Ninja Steel",

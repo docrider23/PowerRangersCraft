@@ -2,18 +2,17 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:gingaman/green_transmorpher",
-      "powerrangerscraft:gingaman/trans_blaster",
-      "powerrangerscraft:gingaman/quasar_launcher_green"
+      "powerrangerscraft:mmpr/red_power_morpher",
+      "powerrangerscraft:mmpr/power_sword"
     ]
   },
   "criteria": {
-    "has_logo": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "powerrangerscraft:eagle_mirinoi_medal"
+            "items": "powerrangerscraft:tyrannosaurus_power_coin"
           }
         ]
       }
@@ -21,7 +20,7 @@
   },
   "requirements": [
     [
-      "has_logo"
+      "has_item"
     ]
   ]
 }

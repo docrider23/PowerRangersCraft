@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:dino_thunder/dino_thunder_yellow",
+  "parent": "powerrangerscraft:ninja_storm/ninja_storm_blue",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

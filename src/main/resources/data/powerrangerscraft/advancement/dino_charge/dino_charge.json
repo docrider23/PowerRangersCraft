@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:dino_charge_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_charge.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.dino_charge.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:neo_saban",
+  "criteria": {
+    "dino_charge_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_charge_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_charge_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_charge_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_dino_charge_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dino_charge_dark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_charge_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_charge_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_charge_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:dark_spino_boomerang"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

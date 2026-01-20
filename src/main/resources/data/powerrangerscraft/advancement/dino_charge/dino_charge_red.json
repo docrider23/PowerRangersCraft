@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:spino_boomerang"
+      "id": "powerrangerscraft:dino_charge_morpher"
     },
     "title": {
-      "translate": "advancements.powerrangerscraft.dino_charge_dark.title"
+      "translate": "advancements.powerrangerscraft.dino_charge_red.title"
     },
     "description": {
-      "translate": "advancements.powerrangerscraft.dino_charge_dark.desc"
+      "translate": "advancements.powerrangerscraft.dio_charge_red.desc"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:dino_charge/dino_charge_red",
+  "parent": "powerrangerscraft:dino_charge/dino_charge",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -38,7 +38,7 @@
             },
             "feet": {
               "items": [
-                "powerrangerscraft:dark_spino_boomerang"
+                "powerrangerscraft:red_dino_charge_morpher"
               ]
             }
           }
