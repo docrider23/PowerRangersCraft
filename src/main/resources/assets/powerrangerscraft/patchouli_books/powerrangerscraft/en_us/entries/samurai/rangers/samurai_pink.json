@@ -20,7 +20,7 @@
 		},
 		{
 			"type": "patchouli:entity",
-			"anchor": "samurai_pink",
+			"anchor": "samurai_pink_mega_mode",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:pink_samuraizer\",components:{custom_data:{slot_tex1:\"powerrangerscraft:mega_mode_disc_pink\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
@@ -34,7 +34,7 @@
 		},
 		{
 			"type": "patchouli:entity",
-			"anchor": "samurai_pink",
+			"anchor": "super_samurai_pink",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:pink_samuraizer\",components:{custom_data:{slot_tex2:\"powerrangerscraft:super_samurai_disc\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
@@ -48,7 +48,7 @@
 		},
 		{
 			"type": "patchouli:entity",
-			"anchor": "samurai_pink",
+			"anchor": "samurai_pink_super_mega_mode",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:pink_samuraizer\",components:{custom_data:{slot_tex1:\"powerrangerscraft:super_mega_mode_disc_pink\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
@@ -62,21 +62,21 @@
 		},
 		{
 			"type": "patchouli:entity",
-			"anchor": "samurai_pink",
+			"anchor": "shogun_pink",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:pink_samuraizer\",components:{custom_data:{slot_tex1:\"powerrangerscraft:shogun_disc_pink\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "Pink Samurai Ranger Shogun",
+			"name": "Pink Shogun Ranger",
 			"text": "Accessed with the $(l:samurai/items/samurai_discs#turtle_disc)Shogun Disc$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Pink Samurai Ranger Shogun Mode",
+			"title": "Pink Shogun Ranger",
 			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#pink_samuraizer)Pink Samuraizer Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 		{
 			"type": "patchouli:entity",
-			"anchor": "samurai_pink",
+			"anchor": "samurai_pink_shark_attack",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:pink_samuraizer\",components:{custom_data:{slot_tex2:\"powerrangerscraft:shark_disc\"}},Count:1b},{id:\"powerrangerscraft:samurai_legs\",Count:1b},{id:\"powerrangerscraft:samurai_torso\",Count:1b},{id:\"powerrangerscraft:samurai_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
