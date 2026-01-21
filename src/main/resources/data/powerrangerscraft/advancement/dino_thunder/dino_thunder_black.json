@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:blue_wind_morpher"
+      "id": "powerrangerscraft:brachio_morpher"
     },
     "title": {
-      "translate": "advancements.powerrangerscraft.ninja_storm_blue.title"
+      "translate": "advancements.powerrangerscraft.dino_thunder_black.title"
     },
     "description": {
-      "translate": "advancements.powerrangerscraft.ninja_storm_blue.desc"
+      "translate": "advancements.powerrangerscraft.dino_thunder_black.desc"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:ninja_storm/ninja_storm",
+  "parent": "powerrangerscraft:dino_thunder/dino_thunder_yellow",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -23,22 +23,22 @@
           "equipment": {
             "head": {
               "items": [
-                "powerrangerscraft:ninja_storm_head"
+                "powerrangerscraft:dino_thunder_head"
               ]
             },
             "chest": {
               "items": [
-                "powerrangerscraft:ninja_storm_torso"
+                "powerrangerscraft:dino_thunder_torso"
               ]
             },
             "legs": {
               "items": [
-                "powerrangerscraft:ninja_storm_legs"
+                "powerrangerscraft:dino_thunder_legs"
               ]
             },
             "feet": {
               "items": [
-                "powerrangerscraft:blue_wind_morpher"
+                "powerrangerscraft:brachio_morpher"
               ]
             }
           }

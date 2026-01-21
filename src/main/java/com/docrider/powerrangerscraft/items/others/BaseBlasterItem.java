@@ -157,15 +157,22 @@ public class BaseBlasterItem extends BowItem {
 				projectile.fire(player, player.getLookAngle());
 				stack.hurtAndBreak(1, player, LivingEntity.getSlotForHand(player.getUsedItemHand()));
 			}
+			else if (entityLiving.hasEffect(EffectCore.SHOTBOOST)) {
+				ItemStack arrow = new ItemStack(Items.ARROW, 1);
+				arrow.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
+				this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 2 * (entityLiving.getEffect(EffectCore.SHOTBOOST).getAmplifier()+1), 1.0F, true, (LivingEntity)null);
+			}
 			else if (SuperGun) {
 				ItemStack arrow = new ItemStack(Items.ARROW, 1);
 				arrow.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
-				this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 2 * 3.0F, 1.0F, true, (LivingEntity)null);
+				if (entityLiving.hasEffect(EffectCore.SHOTBOOST)) this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), (2 + (entityLiving.getEffect(EffectCore.SHOTBOOST).getAmplifier()+1)) * 2.5F, 1.0F, true, (LivingEntity)null);
+				else this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 2 * 2.5F, 1.0F, true, (LivingEntity)null);
 			}
 			else if (HyperGun) {
 				ItemStack arrow = new ItemStack(Items.ARROW, 1);
 				arrow.set(DataComponents.INTANGIBLE_PROJECTILE, Unit.INSTANCE);
-				this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 2 * 7.0F, 1.0F, true, (LivingEntity)null);
+				if (entityLiving.hasEffect(EffectCore.SHOTBOOST)) this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), (2 + (entityLiving.getEffect(EffectCore.SHOTBOOST).getAmplifier()+1)) * 5.0F, 1.0F, true, (LivingEntity)null);
+				else this.shoot(serverlevel, player, player.getUsedItemHand(), stack, List.of(arrow), 2 * 5.0F, 1.0F, true, (LivingEntity)null);
 			}
 			else {
 				if (Charged) {

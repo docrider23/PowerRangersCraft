@@ -186,6 +186,8 @@ public class ComicsItems {
     public static final DeferredItem<BaseBlasterItem> PRIME_RITA_STAFF = ITEMS.register("prime_rita_staff",
             () -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.PRIME).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(PRIME_RITAS_WAND.get()));
 
+    //Ranger Academy
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

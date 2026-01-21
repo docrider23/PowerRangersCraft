@@ -38,7 +38,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 160,
+          "weight": 185,
           "functions": [
             {
               "enchantment": "minecraft:fortune",

@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:ninja_storm/ninja_storm_blue",
+  "parent": "powerrangerscraft:spd/spd_red",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

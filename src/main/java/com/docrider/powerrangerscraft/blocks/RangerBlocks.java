@@ -2,9 +2,7 @@ package com.docrider.powerrangerscraft.blocks;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.blocks.custom.*;
-import com.docrider.powerrangerscraft.blocks.machineBlocks.AnimalDNARepository;
-import com.docrider.powerrangerscraft.blocks.machineBlocks.CoronaAuroraCrown;
-import com.docrider.powerrangerscraft.blocks.machineBlocks.MiniatureMorphXTank;
+import com.docrider.powerrangerscraft.blocks.machineBlocks.*;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.RangerTabs;
@@ -86,6 +84,11 @@ public class RangerBlocks {
     public static final DeferredBlock<Block> DEEPSLATE_POWER_DISC_ORE = registerBlock("deepslate_power_disc_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
+
+    public static final DeferredBlock<Block> LIGHT_ZORD_BLOCK = registerBlock("light_zord_block",
+            () -> new LightZordBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .strength(5.0F, 6.0F).dynamicShape().lightLevel((p_152632_) -> {
+                        return 15;}),Block.box(4, 0, 4, 12,16, 12)).AddToTabList(RangerTabs.BLOCKS));
 
     public static final DeferredBlock<Block> UNREFINED_MORPH_X = registerBlock("unrefined_morph_x",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)

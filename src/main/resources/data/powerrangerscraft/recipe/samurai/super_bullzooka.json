@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "super_samurai",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:bullzooka"
+    },
+	{
+      "item": "powerrangerscraft:spin_sword"
+    },
+    {
+      "item": "powerrangerscraft:black_box"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:super_bullzooka"
+  }
+}

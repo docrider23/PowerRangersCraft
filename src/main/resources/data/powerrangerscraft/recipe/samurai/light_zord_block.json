@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "samurai",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:samurai_disc"
+    },
+    "b": {
+      "item": "minecraft:torch"
+    },
+    "c": {
+      "item": "powerrangerscraft:light_zord_disc"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powerrangerscraft:light_zord_block"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "powerrangerscraft:block/light_zord_block" },
+        "facing=south": { "model": "powerrangerscraft:block/light_zord_block", "y": 180 },
+        "facing=west":  { "model": "powerrangerscraft:block/light_zord_block", "y": 270 },
+        "facing=east":  { "model": "powerrangerscraft:block/light_zord_block", "y": 90 }
+    }
+}

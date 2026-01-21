@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:miniature_morph_x_tank"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "powerrangerscraft:blocks/miniature_morph_x_tank"
+}

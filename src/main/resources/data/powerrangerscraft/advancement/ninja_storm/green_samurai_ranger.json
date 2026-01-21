@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:blue_wind_morpher"
+      "id": "powerrangerscraft:samurai_cyclone_morpher"
     },
     "title": {
-      "translate": "advancements.powerrangerscraft.ninja_storm_blue.title"
+      "translate": "advancements.powerrangerscraft.green_samurai_ranger.title"
     },
     "description": {
-      "translate": "advancements.powerrangerscraft.ninja_storm_blue.desc"
+      "translate": "advancements.powerrangerscraft.green_samurai_ranger.desc"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:ninja_storm/ninja_storm",
+  "parent": "powerrangerscraft:ninja_storm/ninja_storm_blue",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -38,7 +38,7 @@
             },
             "feet": {
               "items": [
-                "powerrangerscraft:blue_wind_morpher"
+                "powerrangerscraft:samurai_cyclone_morpher"
               ]
             }
           }

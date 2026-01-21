@@ -73,6 +73,35 @@
           }
         }
       }
+    },
+    "dino_thunder_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:dino_thunder_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:dino_thunder_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:dino_thunder_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:brachio_morpher"
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }

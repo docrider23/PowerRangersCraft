@@ -886,7 +886,8 @@
   "item.powerrangerscraft.mega_mode_disc": "Mega Mode Disc",
   "item.powerrangerscraft.super_samurai_disc": "Super Samurai Disc",
   "item.powerrangerscraft.shark_disc": "Shark Disc",
-  "item.powerrangerscraft.bull_disc": "Bull Disc",
+  "item.powerrangerscraft.bullzooka_disc": "Bullzooka Disc",
+  "item.powerrangerscraft.light_zord_disc": "Light Zord Disc",
   "item.powerrangerscraft.shogun_disc": "Shogun Disc",
 
   "item.powerrangerscraft.black_box": "Black Box",
@@ -955,6 +956,9 @@
   "item.powerrangerscraft.shark_sword": "Shark Sword",
   "item.powerrangerscraft.bullzooka": "Bullzooka",
   "item.powerrangerscraft.super_bullzooka": "Super Bullzooka",
+  "block.powerrangerscraft.light_zord_block": "Light Zord (Lantern Mode)",
+  "item.powerrangerscraft.light_zord": "Light Zord (Lantern Mode)",
+  "item.powerrangerscraft.light_zord_blade": "Light Zord Blade",
 
   //20 Megaforce
   "tab.powerrangerscraft.megaforce": "Megaforce",
@@ -1756,8 +1760,12 @@
 
   "advancements.powerrangerscraft.ninja_storm.desc": "Change into each member of the Ninja Storm Ranger Team",
   "advancements.powerrangerscraft.ninja_storm.title": "Power Rangers Ninja Storm",
+  "advancements.powerrangerscraft.ninja_storm_red.desc": "Change into Ninja Storm Red",
+  "advancements.powerrangerscraft.ninja_storm_red.title": "Power of Air!",
   "advancements.powerrangerscraft.ninja_storm_blue.desc": "Change into Ninja Storm Blue",
   "advancements.powerrangerscraft.ninja_storm_blue.title": "Power of Water!",
+  "advancements.powerrangerscraft.green_samurai_ranger.desc": "Change into Green Samurai Ranger (Ninja Storm)",
+  "advancements.powerrangerscraft.green_samurai_ranger.title": "Samurai Power!",
 
   "advancements.powerrangerscraft.dino_thunder.desc": "Change into each member of the Dino Thunder Ranger Team",
   "advancements.powerrangerscraft.dino_thunder.title": "Power Rangers Dino Thunder",
@@ -1765,6 +1773,8 @@
   "advancements.powerrangerscraft.dino_thunder_red.title": "Tyranno Power! Red Ranger!",
   "advancements.powerrangerscraft.dino_thunder_yellow.desc": "Change into Dino Thunder Yellow",
   "advancements.powerrangerscraft.dino_thunder_yellow.title": "Ptera Power! Yellow Ranger!",
+  "advancements.powerrangerscraft.dino_thunder_black.desc": "Change into Dino Thunder Black",
+  "advancements.powerrangerscraft.dino_thunder_black.title": "Brachio Power! Black Ranger!",
 
   "advancements.powerrangerscraft.spd.desc": "Change into each member of the SPD B-Squad Ranger Team",
   "advancements.powerrangerscraft.spd.title": "Power Rangers SPD",

@@ -2,18 +2,17 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:dino_charge/dino_charge_head",
-      "powerrangerscraft:dino_charge/dino_charge_torso",
-      "powerrangerscraft:dino_charge/dino_charge_legs"
+      "powerrangerscraft:dino_thunder/brachio_morpher",
+      "powerrangerscraft:dino_thunder/brachio_staff"
     ]
   },
   "criteria": {
-    "has_logo": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "powerrangerscraft:empty_dino_charger"
+            "items": "powerrangerscraft:black_dino_gem"
           }
         ]
       }
@@ -21,7 +20,7 @@
   },
   "requirements": [
     [
-      "has_logo"
+      "has_item"
     ]
   ]
 }

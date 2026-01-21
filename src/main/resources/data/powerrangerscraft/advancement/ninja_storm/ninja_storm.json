@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:ninja_storm_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.ninja_storm.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.ninja_storm.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:disney",
+  "criteria": {
+    "ninja_storm_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ninja_storm_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ninja_storm_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ninja_storm_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_wind_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "green_samurai_ranger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ninja_storm_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ninja_storm_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ninja_storm_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:samurai_cyclone_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

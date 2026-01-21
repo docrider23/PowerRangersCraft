@@ -1,13 +1,17 @@
 {
 	"replace": false,
 	"values": [
-	"powerrangerscraft:animal_crystal_ore",
-	"powerrangerscraft:deepslate_animal_crystal_ore",
-	"powerrangerscraft:power_disc_ore",
-	"powerrangerscraft:deepslate_power_disc_ore",
+		"powerrangerscraft:rescue_bird",
+		"powerrangerscraft:animal_crystal_ore",
+		"powerrangerscraft:deepslate_animal_crystal_ore",
+		"powerrangerscraft:power_disc_ore",
+		"powerrangerscraft:deepslate_power_disc_ore",
+		"powerrangerscraft:light_zord_block",
 		"powerrangerscraft:unrefined_morph_x",
-	"powerrangerscraft:dino_key_ore",
-	"powerrangerscraft:deepslate_dino_key_ore",
+		"powerrangerscraft:miniature_morph_x_tank",
+		"powerrangerscraft:animal_dna_repository",
+		"powerrangerscraft:dino_key_ore",
+		"powerrangerscraft:deepslate_dino_key_ore",
 		"powerrangerscraft:logo_ore",
 		"powerrangerscraft:deepslate_logo_ore"
 	]

@@ -2,18 +2,18 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:dino_charge/dino_charge_head",
-      "powerrangerscraft:dino_charge/dino_charge_torso",
-      "powerrangerscraft:dino_charge/dino_charge_legs"
+      "powerrangerscraft:samurai/bullzooka",
+      "powerrangerscraft:samurai/super_bullzooka",
+      "powerrangerscraft:samurai/super_bullzooka1"
     ]
   },
   "criteria": {
-    "has_logo": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "powerrangerscraft:empty_dino_charger"
+            "items": "powerrangerscraft:bullzooka_disc"
           }
         ]
       }
@@ -21,7 +21,7 @@
   },
   "requirements": [
     [
-      "has_logo"
+      "has_item"
     ]
   ]
 }

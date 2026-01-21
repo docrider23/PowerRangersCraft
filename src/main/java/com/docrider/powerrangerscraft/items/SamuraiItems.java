@@ -105,7 +105,10 @@ public class SamuraiItems {
             		new MobEffectInstance(EffectCore.FLYING, 40, 5,true,false))
             .ChangeSlot(2).ResetFormToBase().AddCompatibilityList(SAMURAI_PLUS).AddToTabList(RangerTabs.SAMURAI));
 
-	public static final DeferredItem<Item> BULL_DISC = ITEMS.register("bull_disc",
+	public static final DeferredItem<Item> BULLZOOKA_DISC = ITEMS.register("bullzooka_disc",
+			() -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.SAMURAI));
+
+	public static final DeferredItem<Item> LIGHT_ZORD_DISC = ITEMS.register("light_zord_disc",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.SAMURAI));
 
 	public static final DeferredItem<Item> SHARK_ATTACK_MEGA_MODE_DISC = ITEMS.register("shark_attack_mega_mode_disc",
@@ -282,19 +285,22 @@ public class SamuraiItems {
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
     
     public static final DeferredItem<SwordItem> SUPER_SPIN_SWORD = ITEMS.register("super_spin_sword",
-			() -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
+			() -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).KeepDifItem(SPIN_SWORD.get()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
 	public static final DeferredItem<SwordItem> SUPER_MEGA_BLADE = ITEMS.register("super_mega_blade",
-			() -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
+			() -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).KeepDifItem(MEGA_BLADE.get()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
     
     public static final DeferredItem<SwordItem> SHARK_SWORD = ITEMS.register("shark_sword",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 16, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
-/*
+
 	public static final DeferredItem<BaseBlasterItem> BULLZOOKA = ITEMS.register("bullzooka",
-			() -> new BaseBlasterItem(Tiers.DIAMOND, 16, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
 	public static final DeferredItem<BaseBlasterItem> SUPER_BULLZOOKA = ITEMS.register("super_bullzooka",
-			() -> new BaseBlasterItem(Tiers.NETHERITE, 20, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));*/
-    
-    public static void register(IEventBus eventBus) {
+			() -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.LARGE_FIREBALL).KeepDifItem(BULLZOOKA.get()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
+
+	public static final DeferredItem<SwordItem> LIGHT_ZORD_BLADE = ITEMS.register("light_zord_blade",
+			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SAMURAI).ChangeRepairItem(SAMURAI_DISC.get()));
+
+	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
 	}
 

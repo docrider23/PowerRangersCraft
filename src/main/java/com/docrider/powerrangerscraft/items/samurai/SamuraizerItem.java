@@ -92,7 +92,8 @@ public class SamuraizerItem extends RangerChangerItem{
 						rider.getMainHandItem().getItem()==SamuraiItems.EARTH_SLICER.get() ||
 						rider.getMainHandItem().getItem()==SamuraiItems.SUPER_SPIN_SWORD.get() ||
 						rider.getMainHandItem().getItem()==SamuraiItems.SHARK_SWORD.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.MEGA_BLADE.get()) {
+						rider.getMainHandItem().getItem()==SamuraiItems.MEGA_BLADE.get() ||
+						rider.getMainHandItem().getItem()==SamuraiItems.SUPER_BULLZOOKA.get()) {
 					belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
 				}
 				else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
