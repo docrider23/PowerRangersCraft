@@ -23,6 +23,7 @@ public class CosmicFuryItems {
 
     public static final DeferredItem<Item> ANKYLO_COSMIC_ORB = ITEMS.register("ankylo_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_red","cosmic_fury_red_belt",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
@@ -30,12 +31,14 @@ public class CosmicFuryItems {
 
     public static final DeferredItem<Item> TRICERA_COSMIC_ORB = ITEMS.register("tricera_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_blue","cosmic_fury_blue_belt",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 3,true,false))
                     .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
 
     public static final DeferredItem<Item> TIGER_COSMIC_ORB = ITEMS.register("tiger_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_green","cosmic_fury_green_belt",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
@@ -43,12 +46,14 @@ public class CosmicFuryItems {
 
     public static final DeferredItem<Item> STEGO_COSMIC_ORB = ITEMS.register("stego_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_black","cosmic_fury_black_belt",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
                     .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
 
     public static final DeferredItem<Item> MOSA_COSMIC_ORB = ITEMS.register("mosa_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_gold","cosmic_fury_gold_belt",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2,true,false))
@@ -56,6 +61,7 @@ public class CosmicFuryItems {
 
     public static final DeferredItem<Item> SOLONO_COSMIC_ORB = ITEMS.register("solono_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_orange","cosmic_fury_orange_belt",
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
@@ -63,7 +69,7 @@ public class CosmicFuryItems {
 
     public static final DeferredItem<Item> T_REX_COSMIC_ORB = ITEMS.register("t_rex_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_zenith","cosmic_fury_zenith_belt",
-                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
