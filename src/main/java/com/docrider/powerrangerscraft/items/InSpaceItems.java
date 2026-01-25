@@ -1,7 +1,10 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.*;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
@@ -20,7 +23,10 @@ public class InSpaceItems {
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_red","blank")
                     .IsGlowing());
     public static final DeferredItem<Item> RED_SPACE_DISK = ITEMS.register("red_space_disk",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","in_space_red","in_space_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","in_space_red","in_space_belt",
+                    new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
                     .addAlternative(RED_SPACE_DISK_SOLAR.get()).AddToTabList(RangerTabs.IN_SPACE));
 
     public static final DeferredItem<Item> IN_SPACE_HELMET = ITEMS.register("in_space_head",
