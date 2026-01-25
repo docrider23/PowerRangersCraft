@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "MMPR Pink Ranger",
-			"text": "Accessed with the $(l:mmpr/items/power_coins#pteradactyl_tiger_power_coin) Pteradactyl Power Coin$(/l)"
+			"text": "Accessed with the $(l:mmpr/items/power_coins#pteradactyl_power_coin) Pteradactyl Power Coin$(/l)"
 		},
 		{
 			"type": "patchouli:text",
