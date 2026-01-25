@@ -22,7 +22,6 @@ public class BattleBoosterItem extends BaseItem {
         if (p_41406_ instanceof Player player) {
             if (player.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RescueMorpherItem belt && belt.isTransformed(player)) {
                 ItemStack Belt = player.getItemBySlot(EquipmentSlot.FEET);
-
                 player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST,40,4,true,false));
                 player.addEffect(new MobEffectInstance(EffectCore.PUNCH,40,4,true,false));
             }
