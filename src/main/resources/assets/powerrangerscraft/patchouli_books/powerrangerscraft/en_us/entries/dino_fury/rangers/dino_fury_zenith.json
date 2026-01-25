@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Zenith Dino Fury Ranger",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#t_rex_dino_key)T-Rex Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#t_rex_dino_key)T-Rex Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",

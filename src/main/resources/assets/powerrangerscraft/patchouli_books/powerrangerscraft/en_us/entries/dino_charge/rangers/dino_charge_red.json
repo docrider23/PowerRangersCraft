@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Red Dino Charge Ranger",
-			"text": "Accessed with the $(l:dino_charge/items/dino_charger#tyrannosaurus_rex_dino_charger)T-Rex Dino Charger$(/l)"
+			"text": "Accessed with the $(l:dino_charge/items/dino_chargers#tyrannosaurus_rex_dino_charger)T-Rex Dino Charger$(/l)"
 		},
 		{
 			"type": "patchouli:text",

@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Orange Cosmic Fury Ranger",
-			"text": "Accessed with the $(l:cosmic_fury/items/cosmic_orbss#solono_cosmic_orb)Solono Cosmic Orb$(/l)"
+			"text": "Accessed with the $(l:cosmic_fury/items/cosmic_orbs#solono_cosmic_orb)Solono Cosmic Orb$(/l)"
 		},
 		{
 			"type": "patchouli:text",

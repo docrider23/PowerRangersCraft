@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Red Ninja Steel Ranger",
-			"text": "Accessed with the $(l:ninja_steel/items/ninja_power_starss#red_ninja_power_star)Red Ninja Power Star$(/l)"
+			"text": "Accessed with the $(l:ninja_steel/items/ninja_power_stars#red_ninja_power_star)Red Ninja Power Star$(/l)"
 		},
 		{
 			"type": "patchouli:text",

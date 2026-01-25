@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Green Cosmic Fury Ranger",
-			"text": "Accessed with the $(l:cosmic_fury/items/cosmic_orbss#tiger_cosmic_orb)Tiger Cosmic Orb$(/l)"
+			"text": "Accessed with the $(l:cosmic_fury/items/cosmic_orbs#tiger_cosmic_orb)Tiger Cosmic Orb$(/l)"
 		},
 		{
 			"type": "patchouli:text",

@@ -1,5 +1,5 @@
 {
-	"name": "Red Beast Morphers Ranger",
+	"name": "Grid Battleforce Red Ranger",
 	"icon": "powerrangerscraft:red_morph_x_key",
 	"category": "powerrangerscraft:beast_morphers/rangers",
 	"sortnum": 0,
@@ -10,12 +10,12 @@
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_beast_x_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:red_morph_x_key\"}},Count:1b},{id:\"powerrangerscraft:beast_morphers_legs\",Count:1b},{id:\"powerrangerscraft:beast_morphers_torso\",Count:1b},{id:\"powerrangerscraft:beast_morphers_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "Red Beast Morphers Ranger",
+			"name": "Grid Battleforce Red Ranger",
 			"text": "Accessed with the $(l:beast_morphers/items/morph_x_keys#red_morph_x_key)Red Morph X Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Red Beast Morphers Ranger",
+			"title": "Grid Battleforce Red Ranger",
 			"text": "Appears in:$(li)Power Rangers Beast Morphers (2019, TV Series)$(br2)Transforms with the $(l:beast_morphers/devices/beast_x_morphers#red_beast_x_morpher)Red Beast X Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 
@@ -25,12 +25,12 @@
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_beast_x_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:red_fury_morph_x_key\"}},Count:1b},{id:\"powerrangerscraft:beast_morphers_legs\",Count:1b},{id:\"powerrangerscraft:beast_morphers_torso\",Count:1b},{id:\"powerrangerscraft:beast_morphers_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "Red Beast Morphers Ranger Fury Mode",
+			"name": "Grid Battleforce Red Ranger Fury Mode",
 			"text": "Accessed with the $(l:beast_morphers/items/morph_x_keys#red_fury_morph_x_key)Red Fury Morph X Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Red Beast Morphers Ranger Fury Mode",
+			"title": "Grid Battleforce Red Ranger Fury Mode",
 			"text": "Appears in:$(li)Power Rangers Beast Morphers (2019, TV Series)$(br2)Transforms with the $(l:beast_morphers/devices/beast_x_morphers#red_beast_x_morpher)Red Beast X Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 		{
@@ -39,12 +39,12 @@
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_beast_x_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:beast_x_visor\"}},Count:1b},{id:\"powerrangerscraft:beast_morphers_legs\",Count:1b},{id:\"powerrangerscraft:beast_morphers_torso\",Count:1b},{id:\"powerrangerscraft:beast_morphers_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "Red Beast Morphers Ranger Beast X Mode",
+			"name": "Grid Battleforce Red Ranger Beast X Mode",
 			"text": "Accessed with the $(l:beast_morphers/items/beast_x_visor)Beast X Visor$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Red Beast Morphers Ranger Beast X Mode",
+			"title": "Grid Battleforce Red Ranger Beast X Mode",
 			"text": "Appears in:$(li)Power Rangers Beast Morphers (2019, TV Series)$(br2)Transforms with the $(l:beast_morphers/devices/beast_x_morphers#red_beast_x_morpher)Red Beast X Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 		{
@@ -53,12 +53,12 @@
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_beast_x_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:beast_x_king_activator\"}},Count:1b},{id:\"powerrangerscraft:beast_morphers_legs\",Count:1b},{id:\"powerrangerscraft:beast_morphers_torso\",Count:1b},{id:\"powerrangerscraft:beast_morphers_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "Red Beast Morphers Ranger Beast X king Mode",
+			"name": "Grid Battleforce Red Ranger Beast X King Mode",
 			"text": "Accessed with the $(l:beast_morphers/items/beast_x_king_activator)Beast X King Activator$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Red Beast Morphers Ranger Beast X King mode",
+			"title": "Grid Battleforce Red Ranger Beast X King Mode",
 			"text": "Appears in:$(li)Power Rangers Beast Morphers (2019, Toyline)$(br2)Transforms with the $(l:beast_morphers/devices/beast_x_morphers#red_beast_x_morpher)Red Beast X Morpher$(/l)$(br2)Status Effects:TBD"
 		}
 	]

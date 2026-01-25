@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#ankylo_dino_key)Ankylo Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#ankylo_dino_key)Ankylo Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -25,7 +25,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Hyper",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#hyper_dino_key)Hyper Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#hyper_dino_key)Hyper Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -39,7 +39,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Elasto",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#elasto_dino_key)Elasto Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#elasto_dino_key)Elasto Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -53,7 +53,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Gravi",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#gravi_dino_key)Gravi Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#gravi_dino_key)Gravi Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -67,7 +67,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Sprint",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#sprint_dino_key)Sprint Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#sprint_dino_key)Sprint Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -81,7 +81,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Shield",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#shield_dino_key)shield Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#shield_dino_key)shield Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -95,7 +95,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Sonic",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#sonic_dino_key)Sonic Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#sonic_dino_key)Sonic Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -109,7 +109,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Stink",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#stink_dino_key)Stink Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#stink_dino_key)Stink Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -123,7 +123,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Vision",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#vision_dino_key)Vision Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#vision_dino_key)Vision Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -137,7 +137,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Muscle",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#muscle_dino_key)Muscle Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#muscle_dino_key)Muscle Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -151,7 +151,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Grow",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#grow_dino_key)Grow Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#grow_dino_key)Grow Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -165,7 +165,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Flare",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#flare_dino_key)Flare Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#flare_dino_key)Flare Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -179,7 +179,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Mist",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#mist_dino_key)Mist Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#mist_dino_key)Mist Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -193,7 +193,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Hover",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#hover_dino_key)Hover Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#hover_dino_key)Hover Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -207,7 +207,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Fix It",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#fix_it_dino_key)Fix It Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#fix_it_dino_key)Fix It Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -221,7 +221,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Slick",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#slick_dino_key)Slick Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#slick_dino_key)Slick Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -235,7 +235,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Balloon",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#balloon_dino_key)Balloon Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#balloon_dino_key)Balloon Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -249,7 +249,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Invisi",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#invisi_dino_key)Invisi Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#invisi_dino_key)Invisi Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -263,7 +263,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Double",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#double_dino_key)Double Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#double_dino_key)Double Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -277,7 +277,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Snooze",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#snooze_dino_key)Snooze Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#snooze_dino_key)Snooze Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -291,7 +291,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Spin",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#spin_dino_key)Spin Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#spin_dino_key)Spin Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -305,7 +305,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Cushion",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#cushion_dino_key)Cushion Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#cushion_dino_key)Cushion Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -319,7 +319,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Blazing Battle Armor",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#blazing_dino_key)Blazing Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#blazing_dino_key)Blazing Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -333,7 +333,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Electro Battle Armor",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#electro_dino_key)Electro Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#electro_dino_key)Electro Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -347,7 +347,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Shadow Battle Armor",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#shadow_dino_key)Shadow Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#shadow_dino_key)Shadow Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -361,7 +361,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Light Battle Armor",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#light_dino_key)Light Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#light_dino_key)Light Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -375,7 +375,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Cosmic Battle Armor",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#cosmic_dino_key)Cosmic Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#cosmic_dino_key)Cosmic Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -389,7 +389,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Smash Battle Armor",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#smash_dino_key)Smash Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#smash_dino_key)Smash Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -403,7 +403,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Pink Dino Fury Ranger Freeze Battle Armor",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#freeze_dino_key)Freeze Dino key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#freeze_dino_key)Freeze Dino Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",

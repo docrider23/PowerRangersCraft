@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Zenith Cosmic Fury Ranger",
-			"text": "Accessed with the $(l:cosmic_fury/items/cosmic_orbss#t_rex_cosmic_orb)T-Rex Cosmic Orb$(/l)"
+			"text": "Accessed with the $(l:cosmic_fury/items/cosmic_orbs#t_rex_cosmic_orb)T-Rex Cosmic Orb$(/l)"
 		},
 		{
 			"type": "patchouli:text",

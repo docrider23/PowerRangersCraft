@@ -1,5 +1,5 @@
 {
-	"name": "Orange Beast Morphers Ranger",
+	"name": "Grid Battleforce Orange Ranger",
 	"icon": "powerrangerscraft:orange_morph_x_key",
 	"category": "powerrangerscraft:beast_morphers/rangers",
 	"sortnum": 9,
@@ -10,13 +10,13 @@
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:orange_beast_x_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:orange_morph_x_key\"}},Count:1b},{id:\"powerrangerscraft:beast_morphers_legs\",Count:1b},{id:\"powerrangerscraft:beast_morphers_torso\",Count:1b},{id:\"powerrangerscraft:beast_morphers_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
-			"name": "Orange Beast Morphers Ranger",
+			"name": "Grid Battleforce Orange Ranger",
 			"text": "Accessed with the $(l:beast_morphers/items/morph_x_keys#orange_morph_x_key)Orange Morph X Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
-			"title": "Orange Beast Morphers Ranger",
-			"text": "Appears in:$(li)Power Rangers Beast Morphers (2019, TV Series)$(br2)Transforms with the $(l:beast_morphers/devices/beast_x_morphers#orange_beast_x_morpher)Orange Beast X Morpher$(/l)$(br2)Status Effects:TBD"
+			"title": "Grid Battleforce Orange Ranger",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (2019, Comic Series)$(br2)Transforms with the $(l:beast_morphers/devices/beast_x_morphers#orange_beast_x_morpher)Orange Beast X Morpher$(/l)$(br2)Status Effects:TBD"
 		}
 	]
 

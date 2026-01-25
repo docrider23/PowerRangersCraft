@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Black Cosmic Fury Ranger",
-			"text": "Accessed with the $(l:cosmic_fury/items/cosmic_orbss#stego_cosmic_orb)Stego Cosmic Orb$(/l)"
+			"text": "Accessed with the $(l:cosmic_fury/items/cosmic_orbs#stego_cosmic_orb)Stego Cosmic Orb$(/l)"
 		},
 		{
 			"type": "patchouli:text",

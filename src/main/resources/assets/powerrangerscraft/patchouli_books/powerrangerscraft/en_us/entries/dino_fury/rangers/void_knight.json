@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Void Knight",
-			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#void_knight_key)Void knight key$(/l)"
+			"text": "Accessed with the $(l:dino_fury/items/dino_keys#void_knight_key)Void Knight Key$(/l)"
 		},
 		{
 			"type": "patchouli:text",
