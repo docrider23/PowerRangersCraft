@@ -68,7 +68,7 @@ public class CosmicFuryItems {
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).HasCape().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
 
     public static final DeferredItem<Item> COSMIC_FURY_HELMET = ITEMS.register("cosmic_fury_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));

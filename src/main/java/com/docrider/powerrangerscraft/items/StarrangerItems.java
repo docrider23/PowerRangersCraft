@@ -159,7 +159,7 @@ public class StarrangerItems {
                     new MobEffectInstance(EffectCore.SLASH, 40, 4,true,false),
                     new MobEffectInstance(EffectCore.FLYING, 40, 5,true,false),
                     new MobEffectInstance(EffectCore.FROSTWALKER, 40, 5,true,false))
-                    .IsGlowing().AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeModel("default_cape.geo.json").HasCape().AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> STARRANGER_HELMET = ITEMS.register("starranger_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));

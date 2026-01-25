@@ -165,6 +165,9 @@ public class RangerChangerItem extends RangerArmorItem{
             Consumer<CompoundTag> data = form -> {
                 form.putBoolean("Update_form", false);
                 form.putDouble("is_transforming",120);
+                form.putFloat("wheel_rotation", 0f);
+                form.putFloat("ball_rotation", 0f);
+                form.putFloat("cape", 0f);
             };
             CustomData.update(DataComponents.CUSTOM_DATA, itemstack, data);
         }

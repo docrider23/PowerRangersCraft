@@ -15,10 +15,10 @@ public class MysticForceItems {
 
     public static final DeferredItem<Item> RED_MYSTIC_MORPHER_PLATE = ITEMS.register("red_mystic_morpher_plate",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mystic_force_red","mystic_force_belt")
-                    .AddToTabList(RangerTabs.MYSTIC_FORCE));
+                    .HasCape().AddToTabList(RangerTabs.MYSTIC_FORCE));
     public static final DeferredItem<Item> GREEN_MYSTIC_MORPHER_PLATE = ITEMS.register("green_mystic_morpher_plate",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mystic_force_green","mystic_force_belt")
-                    .AddToTabList(RangerTabs.MYSTIC_FORCE));
+                    .HasCape().AddToTabList(RangerTabs.MYSTIC_FORCE));
 
     public static final DeferredItem<Item> MYSTIC_FORCE_HELMET = ITEMS.register("mystic_force_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.MYSTIC_FORCE).ChangeRepairItem(MYSTIC_FORCE_LOGO.get()));

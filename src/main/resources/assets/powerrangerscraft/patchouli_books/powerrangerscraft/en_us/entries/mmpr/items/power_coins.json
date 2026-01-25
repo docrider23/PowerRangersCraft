@@ -84,7 +84,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "ninjor_coin",
-			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Ninjor's $(l:mmpr/devices/power_morphers#ninjor_morpher)Power Morpher$(/l)$(br2)Used to access the Ninjor $(l:mmpr/rangers/ninjor#ninjor)Base$(/l) forms"
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft $(l:mmpr/devices/ninjor_morpher)Ninjor's Urn$(/l)$(br2)Used to switch between Ninjor's $(l:mmpr/rangers/ninjor#ninjor)Base$(/l) and $(l:mmpr/rangers/ninjor#ninjor_battle_mode)Battle Mode$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",

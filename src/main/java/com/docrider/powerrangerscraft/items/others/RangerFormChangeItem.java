@@ -53,6 +53,10 @@ public class RangerFormChangeItem extends BaseItem {
     private Boolean SET_SHOW_FACE = false;
     private Boolean SET_SHOW_UNDER = false;
 
+    private Boolean USE_WALK = false;
+    private Boolean USE_BIKE = false;
+    private Boolean HAS_CAPE = false;
+
     private Boolean A1 = false;
 
     private Boolean FLYING_TEXT = false;
@@ -170,6 +174,15 @@ public class RangerFormChangeItem extends BaseItem {
 
     public Boolean get_a1() {
         return A1;
+    }
+    public Boolean get_has_cape() {
+        return HAS_CAPE;
+    }
+    public Boolean get_Walk() {
+        return USE_WALK;
+    }
+    public Boolean get_is_Bike() {
+        return USE_BIKE;
     }
 
     public Boolean get_Is_Belt_Glowing() {
@@ -317,6 +330,22 @@ public class RangerFormChangeItem extends BaseItem {
 
     public RangerFormChangeItem IsGlowing() {
         IS_GLOWING=true;
+        return this;
+    }
+
+    public RangerFormChangeItem HasCape() {
+        ChangeAnimation("default_cape.animation.json");
+        HAS_CAPE=true;
+        return this;
+    }
+
+    public RangerFormChangeItem IsWalk() {
+        USE_WALK=true;
+        return this;
+    }
+
+    public RangerFormChangeItem IsBike() {
+        USE_BIKE=true;
         return this;
     }
 

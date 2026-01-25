@@ -76,16 +76,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:mmpr_logo",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "powerrangerscraft:empty_dino_charger",
           "functions": [
             {

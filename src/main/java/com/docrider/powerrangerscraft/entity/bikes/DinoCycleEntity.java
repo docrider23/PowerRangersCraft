@@ -1,5 +1,7 @@
 package com.docrider.powerrangerscraft.entity.bikes;
 
+import com.docrider.powerrangerscraft.entity.MobsCore;
+import com.docrider.powerrangerscraft.items.DinoChargeItems;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -11,7 +13,7 @@ public class DinoCycleEntity extends baseBikeEntity {
 
 
 	public DinoCycleEntity(EntityType<? extends baseBikeEntity> entityType, Level level) {
-		super(entityType, level);
+		super(entityType, level, DinoChargeItems.DINO_CYCLE_CHARGER.get());
 		NAME ="dino_cycle";
 		NAME_MODEL ="dino_cycle";
 		}
