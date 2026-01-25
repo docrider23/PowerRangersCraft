@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:entity",
-			"anchor": "Ninjor",
+			"anchor": "ninjor",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:ninjor_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:ninjor_coin\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
@@ -20,7 +20,7 @@
 		},
 		{
 			"type": "patchouli:entity",
-			"anchor": "Ninjor_battle_mode",
+			"anchor": "ninjor_battle_mode",
 			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:ninjor_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:ninjor_coin_battle_mode\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
