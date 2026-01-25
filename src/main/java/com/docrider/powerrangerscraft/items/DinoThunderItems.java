@@ -1,7 +1,10 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.*;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -14,7 +17,10 @@ public class DinoThunderItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.DINO_THUNDER));
 
     public static final DeferredItem<Item> RED_DINO_GEM = ITEMS.register("red_dino_gem",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_thunder_red","dino_thunder_red_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_thunder_red","dino_thunder_red_belt",
+                    new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false))
                     .ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.DINO_THUNDER));
     public static final DeferredItem<Item> YELLOW_DINO_GEM = ITEMS.register("yellow_dino_gem",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_thunder_yellow","dino_thunder_yellow_belt")

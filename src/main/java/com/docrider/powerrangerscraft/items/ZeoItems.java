@@ -1,10 +1,13 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.BaseItem;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
@@ -23,7 +26,11 @@ public class ZeoItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.ZEO));
 
     public static final DeferredItem<Item> RED_ZEO_SUB_CRYSTAL = ITEMS.register("red_zeo_sub_crystal",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","zeo_red","zeo_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","zeo_red","zeo_belt",
+                    new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false))
                     .AddToTabList(RangerTabs.ZEO));
 
     public static final DeferredItem<Item> YELLOW_ZEO_SUB_CRYSTAL_SOLAR = ITEMS.register("yellow_zeo_sub_crystal_solar",

@@ -1,9 +1,12 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.dino_charge.DinoChargeMorpherItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import com.docrider.powerrangerscraft.entity.MobsCore;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.animal.TropicalFish;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -25,7 +28,10 @@ public class DinoChargeItems {
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_charge_dark","dino_charge_silver_belt")
                     .addAlternative(SPINOSAURUS_DINO_CHARGER_SOLAR.get()).AddToTabList(RangerTabs.DINO_CHARGE));
     public static final DeferredItem<Item> TYRANNOSAURUS_REX_DINO_CHARGER = ITEMS.register("tyrannosaurus_rex_dino_charger",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_charge_red","dino_charge_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_charge_red","dino_charge_belt",
+                    new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
+                    new MobEffectInstance(EffectCore.SHOTBOOST, 40, 1,true,false))
                     .AddToTabList(RangerTabs.DINO_CHARGE));
     public static final DeferredItem<Item> DINO_CYCLE_CHARGER = ITEMS.register("dino_cycle_charger",
             () -> new SummonBikeItem(new Item.Properties(), MobsCore.DINO_CYCLE)

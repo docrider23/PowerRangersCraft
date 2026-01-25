@@ -1,7 +1,10 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.*;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -14,10 +17,16 @@ public class TimeForceItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.TIME_FORCE));
 
     public static final DeferredItem<Item> TIME_FORCE_RED_BADGE = ITEMS.register("time_force_red_badge",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","time_force_red","time_force_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","time_force_red","time_force_belt",
+                    new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false))
                     .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.TIME_FORCE));
     public static final DeferredItem<Item> QUANTUM_RANGER_BADGE = ITEMS.register("quantum_ranger_badge",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","quantum_ranger","quantum_ranger_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","quantum_ranger","quantum_ranger_belt",
+                    new MobEffectInstance(EffectCore.SHOTBOOST, 40, 1,true,false),
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false))
                     .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.TIME_FORCE));
 
     public static final DeferredItem<Item> TIME_FORCE_HELMET = ITEMS.register("time_force_head",

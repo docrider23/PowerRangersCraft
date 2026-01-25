@@ -1,7 +1,11 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.*;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -14,7 +18,9 @@ public class AlienItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.ALIEN));
 
     public static final DeferredItem<Item> RED_ALIEN_POWER_COIN = ITEMS.register("red_alien_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","alien_red","alien_red_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","alien_red","alien_red_belt",
+                    new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
+                    new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 0,true,false))
                     .AddToTabList(RangerTabs.ALIEN));
 
     public static final DeferredItem<Item> ALIEN_HELMET = ITEMS.register("alien_head",
