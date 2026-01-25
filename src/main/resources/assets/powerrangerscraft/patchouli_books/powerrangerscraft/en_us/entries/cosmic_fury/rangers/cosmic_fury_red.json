@@ -1,0 +1,23 @@
+{
+	"name": "Red Cosmic Fury Ranger",
+	"icon": "powerrangerscraft:ankylo_cosmic_orb",
+	"category": "powerrangerscraft:cosmic_fury/rangers",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "cosmic_fury_red",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_cosmic_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:ankylo_cosmic_orb\"}},Count:1b},{id:\"powerrangerscraft:cosmic_fury_legs\",Count:1b},{id:\"powerrangerscraft:cosmic_fury_torso\",Count:1b},{id:\"powerrangerscraft:cosmic_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Red Cosmic Fury Ranger",
+			"text": "Accessed with the $(l:cosmic_fury/items/cosmic_orbss#ankylo_cosmic_orb)Ankylo Cosmic Orb$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Red Cosmic Fury Ranger",
+			"text": "Appears in:$(li)Power Rangers Cosmic Fury (2023, TV Series)$(br2)Transforms with the $(l:cosmic_fury/devices/cosmic_morphers#red_cosmic_morpher)Red Cosmic Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

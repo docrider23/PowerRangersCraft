@@ -1,0 +1,135 @@
+{
+	"name": "Gold Dino Fury Ranger",
+	"icon": "powerrangerscraft:mosa_dino_key",
+	"category": "powerrangerscraft:dino_fury/rangers",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_gold",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:gold_mosa_blaster\",components:{custom_data:{slot_tex1:\"powerrangerscraft:mosa_dino_fury\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Gold Dino Fury Ranger",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#mosa_dino_key)Mosa Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Gold Dino Fury Ranger",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/mosa_blasters#gold_mosa_blaster)Gold Mosa Blaster$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_gold_blazing",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:gold_mosa_blaster\",components:{custom_data:{slot_tex2:\"powerrangerscraft:blazing_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Gold Dino Fury Ranger Blazing Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#blazing_dino_key)Blazing Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Gold Dino Fury Ranger Blazing Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/mosa_blasters#gold_mosa_blaster)Gold Mosa Blaster$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_gold_electro",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:gold_mosa_blaster\",components:{custom_data:{slot_tex2:\"powerrangerscraft:electro_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Gold Dino Fury Ranger Electro Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#electro_dino_key)Electro Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Gold Dino Fury Ranger Electro Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/mosa_blasters#gold_mosa_blaster)Gold Mosa Blaster$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_gold_shadow",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:gold_mosa_blaster\",components:{custom_data:{slot_tex2:\"powerrangerscraft:shadow_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Gold Dino Fury Ranger Shadow Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#shadow_dino_key)Shadow Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Gold Dino Fury Ranger Shadow Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/mosa_blasters#gold_mosa_blaster)Gold Mosa Blaster$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_gold_light",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:gold_mosa_blaster\",components:{custom_data:{slot_tex2:\"powerrangerscraft:light_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Gold Dino Fury Ranger Light Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#light_dino_key)Light Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Gold Dino Fury Ranger Light Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/mosa_blasters#gold_mosa_blaster)Gold Mosa Blaster$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_gold_cosmic",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:gold_mosa_blaster\",components:{custom_data:{slot_tex2:\"powerrangerscraft:cosmic_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Gold Dino Fury Ranger Cosmic Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#cosmic_dino_key)Cosmic Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Gold Dino Fury Ranger Cosmic Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/mosa_blasters#gold_mosa_blaster)Gold Mosa Blaster$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_gold_smash",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:gold_mosa_blaster\",components:{custom_data:{slot_tex2:\"powerrangerscraft:smash_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Gold Dino Fury Ranger Smash Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#smash_dino_key)Smash Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Gold Dino Fury Ranger Smash Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/mosa_blasters#gold_mosa_blaster)Gold Mosa Blaster$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_gold_freeze",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:gold_mosa_blaster\",components:{custom_data:{slot_tex2:\"powerrangerscraft:freeze_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Gold Dino Fury Ranger Freeze Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#freeze_dino_key)Freeze Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Gold Dino Fury Ranger Freeze Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/mosa_blasters#gold_mosa_blaster)Gold Mosa Blaster$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_gold_master",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:gold_mosa_blaster\",components:{custom_data:{slot_tex2:\"powerrangerscraft:dino_master_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Gold Dino Fury Ranger Dino Master",
+			"text": "Accessed with the $(l:dino_fury/items/dino_master_saber)Dino Master Saber$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Gold Dino Fury Dino Master",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/mosa_blasters#gold_mosa_blaster)Gold Mosa Blaster$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

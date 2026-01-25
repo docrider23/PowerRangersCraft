@@ -1,0 +1,24 @@
+{
+	"name": "Void Knight",
+	"icon": "powerrangerscraft:void_knight_key",
+	"category": "powerrangerscraft:dino_fury/rangers",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_zenith",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:void_knight_changer\",components:{custom_data:{slot_tex1:\"powerrangerscraft:t_rex_dino_fury\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Void Knight",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#void_knight_key)Void knight key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Void Knight",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#void_knight_changer)Void Saber$(/l)$(br2)Status Effects:TBD"
+		}
+		
+	]
+
+}

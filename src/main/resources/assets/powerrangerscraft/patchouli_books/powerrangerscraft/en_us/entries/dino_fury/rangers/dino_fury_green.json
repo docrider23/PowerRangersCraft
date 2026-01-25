@@ -1,0 +1,429 @@
+{
+	"name": "Green Dino Fury Ranger",
+	"icon": "powerrangerscraft:tiger_dino_key",
+	"category": "powerrangerscraft:dino_fury/rangers",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:tiger_dino_fury\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#tiger_dino_key)Tiger Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_hyper",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:hyper_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Hyper",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#hyper_dino_key)Hyper Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Hyper",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_elasto",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:elasto_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Elasto",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#elasto_dino_key)Elasto Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Elasto",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_gravi",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:gravi_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Gravi",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#gravi_dino_key)Gravi Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Gravi",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_sprint",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:sprint_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Sprint",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#sprint_dino_key)Sprint Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Sprint",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_shield",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:shield_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Shield",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#shield_dino_key)shield Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Shield",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_sonic",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:sonic_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Sonic",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#sonic_dino_key)Sonic Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Sonic",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_stink",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:stink_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Stink",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#stink_dino_key)Stink Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Stink",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_vision",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:vision_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Vision",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#vision_dino_key)Vision Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Vision",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_muscle",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:muscle_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Muscle",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#muscle_dino_key)Muscle Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Muscle",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_grow",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:grow_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Grow",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#grow_dino_key)Grow Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Grow",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_flare",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:flare_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Flare",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#flare_dino_key)Flare Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Flare",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_mist",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:mist_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Mist",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#mist_dino_key)Mist Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Mist",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_hover",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:hover_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Hover",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#hover_dino_key)Hover Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Hover",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_fix_it",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:fix_it_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Fix It",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#fix_it_dino_key)Fix It Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Fix It",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_slick",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:slick_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Slick",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#slick_dino_key)Slick Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Slick",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_balloon",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:balloon_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Balloon",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#balloon_dino_key)Balloon Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Balloon",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_invisi",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:invisi_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Invisi",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#invisi_dino_key)Invisi Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Invisi",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_double",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:double_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Double",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#double_dino_key)Double Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Double",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_snooze",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:snooze_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Snooze",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#snooze_dino_key)Snooze Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Snooze",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_spin",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:spin_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Spin",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#spin_dino_key)Spin Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Spin",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_cushion",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:cushion_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Cushion",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#cushion_dino_key)Cushion Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Cushion",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_blazing",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:blazing_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Blazing Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#blazing_dino_key)Blazing Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Blazing Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_electro",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:electro_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Electro Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#electro_dino_key)Electro Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Electro Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_shadow",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:shadow_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Shadow Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#shadow_dino_key)Shadow Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Shadow Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_light",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:light_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Light Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#light_dino_key)Light Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Light Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_cosmic",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:cosmic_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Cosmic Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#cosmic_dino_key)Cosmic Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Cosmic Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_smash",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:smash_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Smash Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#smash_dino_key)Smash Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Smash Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_freeze",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:freeze_dino_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Freeze Battle Armor",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#freeze_dino_key)Freeze Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Ranger Freeze Battle Armor",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		},
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_green_master",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:green_dino_fury_morpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:dino_master_key\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Green Dino Fury Ranger Dino Master",
+			"text": "Accessed with the $(l:dino_fury/items/dino_master_saber)Dino Master Saber$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Green Dino Fury Dino Master",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#green_dino_fury_morpher)Green Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

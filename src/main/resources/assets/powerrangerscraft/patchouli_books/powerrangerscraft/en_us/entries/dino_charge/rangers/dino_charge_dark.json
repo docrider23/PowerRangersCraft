@@ -1,0 +1,23 @@
+{
+	"name": "Dark Dino Charge Ranger",
+	"icon": "powerrangerscraft:spinosaurus_dino_charger",
+	"category": "powerrangerscraft:dino_charge/rangers",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_charge_dark",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:dark_spino_boomerang\",components:{custom_data:{slot_tex1:\"powerrangerscraft:spinosaurus_dino_charger\"}},Count:1b},{id:\"powerrangerscraft:dino_charge_legs\",Count:1b},{id:\"powerrangerscraft:dino_charge_torso\",Count:1b},{id:\"powerrangerscraft:dino_charge_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Dark Dino Charge Ranger",
+			"text": "Accessed with the $(l:dino_charge/items/dino_charger#spinosaurus_dino_charger)Spino Dino Charger$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Dark Dino Charge Ranger",
+			"text": "Appears in:$(li)Mighty Morphin, Power Rangers (2016, Comic Series)$(br2)Transforms with the $(l:dino_charge/devices/dino_charge_morphers#dark_spino_boomerang)Spino Boomerang$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

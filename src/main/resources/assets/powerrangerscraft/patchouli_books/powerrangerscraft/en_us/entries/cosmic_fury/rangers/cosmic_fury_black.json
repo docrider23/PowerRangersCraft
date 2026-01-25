@@ -1,0 +1,23 @@
+{
+	"name": "Black Cosmic Fury Ranger",
+	"icon": "powerrangerscraft:stego_cosmic_orb",
+	"category": "powerrangerscraft:cosmic_fury/rangers",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "cosmic_fury_black",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:black_cosmic_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:stego_cosmic_orb\"}},Count:1b},{id:\"powerrangerscraft:cosmic_fury_legs\",Count:1b},{id:\"powerrangerscraft:cosmic_fury_torso\",Count:1b},{id:\"powerrangerscraft:cosmic_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Black Cosmic Fury Ranger",
+			"text": "Accessed with the $(l:cosmic_fury/items/cosmic_orbss#stego_cosmic_orb)Stego Cosmic Orb$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Black Cosmic Fury Ranger",
+			"text": "Appears in:$(li)Power Rangers Cosmic Fury (2023, TV Series)$(br2)Transforms with the $(l:cosmic_fury/devices/cosmic_morphers#black_cosmic_morpher)Black Cosmic Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

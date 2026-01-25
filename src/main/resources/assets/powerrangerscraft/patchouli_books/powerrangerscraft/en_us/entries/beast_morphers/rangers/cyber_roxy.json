@@ -1,0 +1,23 @@
+{
+	"name": "Cyber Roxy",
+	"icon": "powerrangerscraft:roxy_morph_x_key",
+	"category": "powerrangerscraft:beast_morphers/rangers",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "beast_morphers_roxy",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:roxy_evox_beast_x_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:roxy_morph_x_key\"}},Count:1b},{id:\"powerrangerscraft:beast_morphers_legs\",Count:1b},{id:\"powerrangerscraft:beast_morphers_torso\",Count:1b},{id:\"powerrangerscraft:beast_morphers_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Cyber Roxy",
+			"text": "Accessed with the $(l:beast_morphers/items/morph_x_keys#roxy_morph_x_key)Roxy Morph X Key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Cyber Roxy",
+			"text": "Appears in:$(li)Power Rangers Beast Morphers (2019, TV Series)$(br2)Transforms with the $(l:beast_morphers/devices/evox_beast_x_morphers#roxy_evox_beast_x_morpher)Roxy Evox Beast X Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}

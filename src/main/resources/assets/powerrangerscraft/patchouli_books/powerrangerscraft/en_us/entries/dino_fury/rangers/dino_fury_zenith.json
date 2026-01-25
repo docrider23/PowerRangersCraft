@@ -1,0 +1,24 @@
+{
+	"name": "Zenith Dino Fury Ranger",
+	"icon": "powerrangerscraft:t_rex_dino_key",
+	"category": "powerrangerscraft:dino_fury/rangers",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "dino_fury_zenith",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:zenith_dino_fury_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:t_rex_dino_fury\"}},Count:1b},{id:\"powerrangerscraft:dino_fury_legs\",Count:1b},{id:\"powerrangerscraft:dino_fury_torso\",Count:1b},{id:\"powerrangerscraft:dino_fury_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Zenith Dino Fury Ranger",
+			"text": "Accessed with the $(l:dino_fury/items/dino_keyss#t_rex_dino_key)T-Rex Dino key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Zenith Dino Fury Ranger",
+			"text": "Appears in:$(li)Power Rangers Dino Fury (2021, TV Series)$(br2)Transforms with the $(l:dino_fury/devices/dino_fury_morphers#zenith_dino_fury_morpher)Zenith Dino Fury Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+		
+	]
+
+}

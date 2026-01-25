@@ -1,0 +1,23 @@
+{
+	"name": "Gold Beast Morphers Ranger",
+	"icon": "powerrangerscraft:gold_morph_x_key",
+	"category": "powerrangerscraft:beast_morphers/rangers",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:entity",
+			"anchor": "beast_morphers_gold",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:gold_striker_morpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:gold_morph_x_key\"}},Count:1b},{id:\"powerrangerscraft:beast_morphers_legs\",Count:1b},{id:\"powerrangerscraft:beast_morphers_torso\",Count:1b},{id:\"powerrangerscraft:beast_morphers_head\",Count:1b}]}",
+			"scale": -1,
+			"offset": 0.1,
+			"name": "Gold Beast Morphers Ranger",
+			"text": "Accessed with the $(l:beast_morphers/items/morph_x_keys#gold_morph_x_key)Gold Morph X Key$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Gold Beast Morphers Ranger",
+			"text": "Appears in:$(li)Power Rangers Beast Morphers (2019, TV Series)$(br2)Transforms with the $(l:beast_morphers/devices/striker_morphers#gold_striker_morpher)Gold Striker Morpher$(/l)$(br2)Status Effects:TBD"
+		}
+	]
+
+}
