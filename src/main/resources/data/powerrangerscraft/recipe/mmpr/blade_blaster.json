@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "group": "mmpr",
   "pattern": [
-    "aaa",
     "aba",
-	"aca"
+    "aca",
+	"aaa"
   ],
   "key": {
     "a": {

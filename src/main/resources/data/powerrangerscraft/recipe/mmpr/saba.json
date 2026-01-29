@@ -3,8 +3,8 @@
   "group": "mmpr_white",
   "pattern": [
     "aaa",
-    "aba",
-	"aca"
+    "aca",
+	"aba"
   ],
   "key": {
     "a": {
