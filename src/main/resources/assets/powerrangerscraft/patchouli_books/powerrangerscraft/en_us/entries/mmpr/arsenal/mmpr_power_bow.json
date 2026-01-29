@@ -1,0 +1,19 @@
+{
+	"name": "Power Bow",
+	"icon": "powerrangerscraft:power_bow",
+	"category": "powerrangerscraft:mmpr/arsenal",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/power_bow",
+			"item": "powerrangerscraft:power_bow",
+			"title": " ",
+			"text": "The Signature weapon of the Mighty Morphin Pink Ranger"
+		}
+	]
+}

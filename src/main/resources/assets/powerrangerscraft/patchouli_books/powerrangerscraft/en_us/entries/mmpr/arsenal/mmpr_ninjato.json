@@ -1,0 +1,19 @@
+{
+	"name": "Ninjato",
+	"icon": "powerrangerscraft:ninjato",
+	"category": "powerrangerscraft:mmpr/arsenal",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/ninjato",
+			"item": "powerrangerscraft:ninjato",
+			"title": " ",
+			"text": "The Signature weapon of Ninjor"
+		}
+	]
+}

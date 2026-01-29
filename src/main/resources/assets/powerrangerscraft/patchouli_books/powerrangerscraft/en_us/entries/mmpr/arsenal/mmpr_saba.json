@@ -1,0 +1,19 @@
+{
+	"name": "Saba",
+	"icon": "powerrangerscraft:saba",
+	"category": "powerrangerscraft:mmpr/arsenal",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/saba",
+			"item": "powerrangerscraft:saba",
+			"title": " ",
+			"text": "The Signature weapon of the Mighty Morphin White Ranger"
+		}
+	]
+}

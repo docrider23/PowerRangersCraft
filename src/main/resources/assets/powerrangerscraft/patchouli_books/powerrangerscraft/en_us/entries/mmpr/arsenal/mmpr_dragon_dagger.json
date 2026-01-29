@@ -1,0 +1,19 @@
+{
+	"name": "Dragon Dagger",
+	"icon": "powerrangerscraft:dragon_dagger",
+	"category": "powerrangerscraft:mmpr/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/dragon_dagger",
+			"item": "powerrangerscraft:dragon_dagger",
+			"title": " ",
+			"text": "The Signature weapon of the Mighty Morphin Green Ranger"
+		}
+	]
+}

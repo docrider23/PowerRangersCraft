@@ -1,0 +1,19 @@
+{
+	"name": "Power lance split",
+	"icon": "powerrangerscraft:power_lance_trident",
+	"category": "powerrangerscraft:mmpr/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/power_lance_trident",
+			"item": "powerrangerscraft:power_lance_trident",
+			"title": " ",
+			"text": "The Signature weapon of the Mighty Morphin Blue Ranger"
+		}
+	]
+}

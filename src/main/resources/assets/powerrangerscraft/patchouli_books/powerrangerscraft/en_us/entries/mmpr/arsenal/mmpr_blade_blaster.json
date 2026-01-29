@@ -1,0 +1,19 @@
+{
+	"name": "Blade Blaster",
+	"icon": "powerrangerscraft:blade_blaster",
+	"category": "powerrangerscraft:mmpr/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/blade_blaster",
+			"item": "powerrangerscraft:blade_blaster",
+			"title": " ",
+			"text": "The Standard Side arm for the Mighty Morphin Power Rangers"
+		}
+	]
+}

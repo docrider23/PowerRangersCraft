@@ -1,0 +1,19 @@
+{
+	"name": "Power Axe",
+	"icon": "powerrangerscraft:power_axe",
+	"category": "powerrangerscraft:mmpr/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/power_axe",
+			"item": "powerrangerscraft:power_axe",
+			"title": " ",
+			"text": "The Signature weapon of the Mighty Morphin Black Ranger"
+		}
+	]
+}

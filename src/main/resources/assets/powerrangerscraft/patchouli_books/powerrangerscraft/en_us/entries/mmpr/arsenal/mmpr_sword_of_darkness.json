@@ -1,0 +1,19 @@
+{
+	"name": "Sword Of Darkness",
+	"icon": "powerrangerscraft:sword_of_darkness",
+	"category": "powerrangerscraft:mmpr/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/sword_of_darkness",
+			"item": "powerrangerscraft:sword_of_darkness",
+			"title": " ",
+			"text": "Used to amplify the brainwashing spell on the Mighty Morphin Green Ranger"
+		}
+	]
+}

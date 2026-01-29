@@ -1,0 +1,26 @@
+{
+	"name": "Power Lance",
+	"icon": "powerrangerscraft:power_lance",
+	"category": "powerrangerscraft:mmpr/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/power_lance",
+			"item": "powerrangerscraft:power_lance",
+			"title": " ",
+			"text": "The Signature weapon of the Mighty Morphin Blue Ranger"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/power_lance_trident1",
+			"item": "powerrangerscraft:power_lance",
+			"title": " ",
+			"text": "The Signature weapon of the Mighty Morphin Blue Ranger"
+		}
+	]
+}

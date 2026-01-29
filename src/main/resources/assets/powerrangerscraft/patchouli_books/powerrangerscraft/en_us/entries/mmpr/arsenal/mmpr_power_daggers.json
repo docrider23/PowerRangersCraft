@@ -1,0 +1,19 @@
+{
+	"name": "Power Daggers",
+	"icon": "powerrangerscraft:power_dagger",
+	"category": "powerrangerscraft:mmpr/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/power_dagger",
+			"item": "powerrangerscraft:power_dagger",
+			"title": " ",
+			"text": "The Signature weapon of the Mighty Morphin Yellow Ranger"
+		}
+	]
+}
