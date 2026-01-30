@@ -13,7 +13,7 @@
 			"recipe": "powerrangerscraft:mmpr/power_lance_trident",
 			"item": "powerrangerscraft:power_lance_trident",
 			"title": " ",
-			"text": "The Signature weapon of the Mighty Morphin Blue Ranger"
+			"text": "The Signature weapon of the Mighty Morphin Blue Ranger $(br2) Used to Craft $(l:mmpr/arsenal/mmpr_power_lance)Power Lance$(/l)"
 		}
 	]
 }

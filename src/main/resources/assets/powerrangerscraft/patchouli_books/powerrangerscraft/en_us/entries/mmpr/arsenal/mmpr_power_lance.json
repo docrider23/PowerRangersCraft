@@ -13,7 +13,7 @@
 			"recipe": "powerrangerscraft:mmpr/power_lance",
 			"item": "powerrangerscraft:power_lance",
 			"title": " ",
-			"text": "The Signature weapon of the Mighty Morphin Blue Ranger"
+			"text": "The Signature weapon of the Mighty Morphin Blue Ranger $(br2) used to craft $(l:mmpr/arsenal/mmpr_power_trident)Power Lance Split$(/l)"
 		},
 		{
 			"type": "patchouli:crafting",

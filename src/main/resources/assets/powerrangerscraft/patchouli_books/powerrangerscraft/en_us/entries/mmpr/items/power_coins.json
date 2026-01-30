@@ -7,7 +7,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "tyrannosaurus_power_coin",
-			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Red Ranger's $(l:mmpr/devices/power_morphers#red_power_morpher)Power Morpher$(/l)$(br2)Used to access the Red Ranger's $(l:mmpr/rangers/mmpr_red#mmpr_red)Base$(/l) forms"
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Red Ranger's $(l:mmpr/devices/power_morphers#red_power_morpher)Power Morpher$(/l), $(l:mmpr/arsenal/mmpr_power_sword)Power Sword$(/l) & $(l:mmpr/arsenal/mmpr_blade_blaster)Blade Blaster$(/l)$(br2)Used to access the Red Ranger's $(l:mmpr/rangers/mmpr_red#mmpr_red)Base$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -18,7 +18,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "mastodon_power_coin",
-			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Black Ranger's $(l:mmpr/devices/power_morphers#black_power_morpher)Power Morpher$(/l)$(br2)Used to access the Black Ranger's $(l:mmpr/rangers/mmpr_black#mmpr_black)Base$(/l) forms"
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Black Ranger's $(l:mmpr/devices/power_morphers#black_power_morpher)Power Morpher$(/l), $(l:mmpr/arsenal/mmpr_power_axe)Power Axe$(/l) & $(l:mmpr/arsenal/mmpr_blade_blaster)Blade Blaster$(/l)$(br2)Used to access the Black Ranger's $(l:mmpr/rangers/mmpr_black#mmpr_black)Base$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -29,7 +29,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "triceratops_power_coin",
-			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Blue Ranger's $(l:mmpr/devices/power_morphers#blue_power_morpher)Power Morpher$(/l)$(br2)Used to access the Blue Ranger's $(l:mmpr/rangers/mmpr_blue#mmpr_blue)Base$(/l) forms"
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Blue Ranger's $(l:mmpr/devices/power_morphers#blue_power_morpher)Power Morpher$(/l), $(l:mmpr/arsenal/mmpr_power_lance)Power Lance$(/l) & $(l:mmpr/arsenal/mmpr_blade_blaster)Blade Blaster$(/l)$(br2)Used to access the Blue Ranger's $(l:mmpr/rangers/mmpr_blue#mmpr_blue)Base$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -40,7 +40,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "sabertooth_tiger_power_coin",
-			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Yellow Ranger's $(l:mmpr/devices/power_morphers#yellow_power_morpher)Power Morpher$(/l)$(br2)Used to access the Yellow Ranger's $(l:mmpr/rangers/mmpr_yellow#mmpr_yellow)Base$(/l) forms"
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Yellow Ranger's $(l:mmpr/devices/power_morphers#yellow_power_morpher)Power Morpher$(/l), $(l:mmpr/arsenal/mmpr_power_daggers)Power Dagger$(/l) & $(l:mmpr/arsenal/mmpr_blade_blaster)Blade Blaster$(/l)$(br2)Used to access the Yellow Ranger's $(l:mmpr/rangers/mmpr_yellow#mmpr_yellow)Base$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -51,7 +51,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "pteradactyl_power_coin",
-			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Pink Ranger's $(l:mmpr/devices/power_morphers#pink_power_morpher)Power Morpher$(/l)$(br2)Used to access the Pink Ranger's $(l:mmpr/rangers/mmpr_pink#mmpr_pink)Base$(/l) forms"
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Pink Ranger's $(l:mmpr/devices/power_morphers#pink_power_morpher)Power Morpher$(/l), $(l:mmpr/arsenal/mmpr_power_bow)Power Bow$(/l) & $(l:mmpr/arsenal/mmpr_blade_blaster)Blade Blaster$(/l)$(br2)Used to access the Pink Ranger's $(l:mmpr/rangers/mmpr_pink#mmpr_pink)Base$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -62,7 +62,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "dragon_power_coin",
-			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Green Ranger's $(l:mmpr/devices/power_morphers#green_power_morpher)Power Morpher$(/l)$(br2)Used to access the Green Ranger's $(l:mmpr/rangers/mmpr_green#mmpr_green)Base$(/l) forms"
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the Green Ranger's $(l:mmpr/devices/power_morphers#green_power_morpher)Power Morpher$(/l), $(l:mmpr/arsenal/mmpr_dragon_dagger)Dragon Dagger$(/l) & $(l:mmpr/arsenal/mmpr_sword_of_darkness)Sword Of Darkness$(/l)$(br2)Used to access the Green Ranger's $(l:mmpr/rangers/mmpr_green#mmpr_green)Base$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -73,7 +73,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "white_tiger_power_coin",
-			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the White Ranger's $(l:mmpr/devices/power_morphers#white_power_morpher)Power Morpher$(/l)$(br2)Used to access the White Ranger's $(l:mmpr/rangers/mmpr_white#mmpr_white)Base$(/l) forms"
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft the White Ranger's $(l:mmpr/devices/power_morphers#white_power_morpher)Power Morpher$(/l) & $(l:mmpr/arsenal/mmpr_saba)Saba$(/l)$(br2)Used to access the White Ranger's $(l:mmpr/rangers/mmpr_white#mmpr_white)Base$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -84,7 +84,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "ninjor_coin",
-			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft $(l:mmpr/devices/ninjor_morpher)Ninjor's Urn$(/l)$(br2)Used to switch between Ninjor's $(l:mmpr/rangers/ninjor#ninjor)Base$(/l) and $(l:mmpr/rangers/ninjor#ninjor_battle_mode)Battle Mode$(/l) forms"
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)$(br2)Used to craft $(l:mmpr/devices/ninjor_morpher)Ninjor's Urn$(/l) & $(l:mmpr/arsenal/mmpr_ninjato)Ninjato$(/l)$(br2)Used to switch between Ninjor's $(l:mmpr/rangers/ninjor#ninjor)Base$(/l) and $(l:mmpr/rangers/ninjor#ninjor_battle_mode)Battle Mode$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",
