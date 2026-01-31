@@ -1,0 +1,92 @@
+{
+	"name": "Power Morphers",
+	"icon": "powerrangerscraft:red_power_morpher",
+	"category": "powerrangerscraft:mmpr/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_power_morpher",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/red_power_morpher",
+			"item": "powerrangerscraft:red_power_morpher",
+			"title": "Red Power Morpher",
+			"text": "The Mighty Morphin Red Ranger's Power Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "black_power_morpher",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/black_power_morpher",
+			"item": "powerrangerscraft:black_power_morpher",
+			"title": "Black Power Morpher",
+			"text": "The Mighty Morphin Black Ranger's Power Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "blue_power_morpher",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/blue_power_morpher",
+			"item": "powerrangerscraft:blue_power_morpher",
+			"title": "Blue Power Morpher",
+			"text": "The Mighty Morphin Blue Ranger's Power Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_power_morpher",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/yellow_power_morpher",
+			"item": "powerrangerscraft:yellow_power_morpher",
+			"title": "Yellow Power Morpher",
+			"text": "The Mighty Morphin Yellow Ranger's Power Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "pink_power_morpher",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/pink_power_morpher",
+			"item": "powerrangerscraft:pink_power_morpher",
+			"title": "Pink Power Morpher",
+			"text": "The Mighty Morphin Pink Ranger's Power Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "green_power_morpher",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mmpr/green_power_morpher",
+			"item": "powerrangerscraft:green_power_morpher",
+			"title": "Green Power Morpher",
+			"text": "The Mighty Morphin Green Ranger's Power Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"anchor": "white_power_morpher",
+			"recipe": "powerrangerscraft:mmpr/white_power_morpher",
+			"item": "powerrangerscraft:white_power_morpher",
+			"title": "White Power Morpher",
+			"text": "The Mighty Morphin White Ranger's Power Morpher"
+		}
+	]
+}
