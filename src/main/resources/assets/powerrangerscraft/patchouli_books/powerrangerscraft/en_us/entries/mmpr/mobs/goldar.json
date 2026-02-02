@@ -1,0 +1,18 @@
+{
+  "name": "Goldar",
+  "icon": "powerrangerscraft:goldar_sword",
+  "category": "powerrangerscraft:mmpr/mobs",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "powerrangerscraft:goldar",
+      "text": "Appears in:$(li)Mighty Morphin,Power Rangers (1993, TV Series)$(br)Health:100"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Has to Chance to spawn from a Putty Patroller $(br2)Drops$(li)5 $(l:mmpr/items/mmpr_logo)MMPR Logos$(/l)$(br)Chance to Drop: $(li)1 $(l:mmpr/items/power_coins#tyrannosaurus_power_coin)Tyrannosaurus Power Coin$(/l)$(li)1 $(l:mmpr/items/power_coins#mastodon_power_coin)Mastodon Power Coin$(/l) $(li)1 $(l:mmpr/items/power_coins#triceratops_power_coin)Triceratops Power Coin$(/l)$(li)1 $(l:mmpr/items/power_coins#sabertooth_tiger_power_coin)Sabertooth Tiger Power Coin$(/l)$(li)1 $(l:mmpr/items/power_coins#pteradactyl_power_coin)Pteradactyl Power Coin$(/l)"
+    }
+  ]
+
+}
