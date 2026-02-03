@@ -1,0 +1,41 @@
+{
+	"name": "Alien Armor",
+	"icon": "powerrangerscraft:alien_head",
+	"category": "powerrangerscraft:alien/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin AlienRangers (1996, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:alien/alien_head",
+			"item": "powerrangerscraft:alien_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin AlienRangers (1996, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:alien/alien_torso",
+			"item": "powerrangerscraft:alien_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin AlienRangers (1996, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:alien/alien_legs",
+			"item": "powerrangerscraft:alien_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}

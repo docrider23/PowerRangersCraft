@@ -1,0 +1,19 @@
+{
+	"name": "Alien Power Coins",
+	"icon": "powerrangerscraft:red_alien_power_coin",
+	"category": "powerrangerscraft:alien/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_alien_power_coin",
+			"text": "Appears in:$(li)Mighty Morphin Alien Rangers (1996, TV show)$(br2)Used to craft the Red Ranger's $(l:alien/devices/power_morphers#red_alien_morpher)Alien Morpher$(/l) & $(l:alien/arsenal/aquitian_saber)Aquitian Saber$(/l)$(br2)Used to access the Red Ranger's $(l:alien/rangers/alien_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_alien_power_coin",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Aquitian Saber",
+	"icon": "powerrangerscraft:aquitian_saber",
+	"category": "powerrangerscraft:alien/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Mighty Morphin Alien Rangers (1996, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:alien/aquitian_saber",
+			"item": "powerrangerscraft:aquitian_saber",
+			"title": " ",
+			"text": "The Alien Rangers main side arm"
+		}
+	]
+}

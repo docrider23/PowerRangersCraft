@@ -1,0 +1,20 @@
+{
+	"name": "Alien Morphers",
+	"icon": "powerrangerscraft:red_alien_morpher",
+	"category": "powerrangerscraft:alien/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_alien_morpher",
+			"text": "Appears in:$(li)Mighty Morphin Alien Rangers (1996, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:alien/red_alien_morpher",
+			"item": "powerrangerscraft:red_alien_morpher",
+			"title": " ",
+			"text": "The Red Alien Rangers morpher."
+		}
+	]
+}
