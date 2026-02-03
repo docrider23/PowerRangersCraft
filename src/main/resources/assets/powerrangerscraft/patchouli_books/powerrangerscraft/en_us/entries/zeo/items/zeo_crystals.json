@@ -1,0 +1,30 @@
+{
+	"name": "Zeo Sub Crystals",
+	"icon": "powerrangerscraft:red_zeo_sub_crystal",
+	"category": "powerrangerscraft:zeo/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_zeo_sub_crystal",
+			"text": "Appears in:$(li)Power Rangers Zeo (1996, TV show)$(br2)Used to craft the Red Ranger's $(l:zeo/devices/zeonisers#red_zeonisers)Zeonisers$(/l) $(br2)Used to access the Red Ranger's $(l:zeo/rangers/zeo_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_zeo_sub_crystal",
+			"text": "Drops from:$(li)$(l:zeo/mobs/cogs)Cogs$(/l) $(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_zeo_sub_crystal",
+			"text": "Appears in:$(li)Power Rangers Zeo (1993, TV show)$(br2)Used to craft the Yellow Ranger's $(l:zeo/devices/zeonisers#yellow_zeonisers)Zeonisers$(/l) $(br2)Used to access the Yellow Ranger's $(l:zeo/rangers/zeo_yellow)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:yellow_zeo_sub_crystal",
+			"text": "Drops from:$(li)$(l:zeo/mobs/cogs)Cogs$(/l)"
+		}
+	]
+}

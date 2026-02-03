@@ -1,0 +1,32 @@
+{
+	"name": "Zeonizers",
+	"icon": "powerrangerscraft:red_zeonizer",
+	"category": "powerrangerscraft:zeo/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_zeonizer",
+			"text": "Appears in:$(li)Power Rangers Zeo (1996, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:zeo/red_zeonizer",
+			"item": "powerrangerscraft:red_zeonizer",
+			"title": " ",
+			"text": "The Red Zeo Rangers morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_zeonizer",
+			"text": "Appears in:$(li)Power Rangers Zeo (1996, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:zeo/yellow_zeonizer",
+			"item": "powerrangerscraft:yellow_zeonizer",
+			"title": " ",
+			"text": "The Yellow Zeo Rangers morpher."
+		}
+	]
+}

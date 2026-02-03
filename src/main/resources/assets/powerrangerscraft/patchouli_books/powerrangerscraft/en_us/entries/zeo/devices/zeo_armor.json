@@ -1,0 +1,41 @@
+{
+	"name": "Zeo Armor",
+	"icon": "powerrangerscraft:zeo_head",
+	"category": "powerrangerscraft:zeo/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Zeo (1996, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:zeo/zeo_head",
+			"item": "powerrangerscraft:zeo_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Zeo (1996, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:zeo/zeo_torso",
+			"item": "powerrangerscraft:zeo_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Zeo (1996, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:zeo/zeo_legs",
+			"item": "powerrangerscraft:zeo_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Zeo Crystal Shard",
+	"icon": "powerrangerscraft:zeo_crystal_shard",
+	"category": "powerrangerscraft:zeo/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "zeo_crystal_shard",
+			"text": "Appears in:$(li)Power Rangers Zeo (1996, TV show)$(br2)Used to repair Zeo items in an Anvil"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:zeo_crystal_shard",
+			"text": "Drops from:$(li)$(l:zeo/mobs/cogs)Cogs$(/l) $(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		}
+	]
+}

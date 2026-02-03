@@ -1,0 +1,19 @@
+{
+	"name": "Zeo Logo",
+	"icon": "powerrangerscraft:zeo_logo",
+	"category": "powerrangerscraft:zeo/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Zeo (1993, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:zeo/zeo_logo",
+			"item": "powerrangerscraft:zeo_logo",
+			"title": " ",
+			"text": "Logo for Power Rangers Zeo"
+		}
+	]
+}
