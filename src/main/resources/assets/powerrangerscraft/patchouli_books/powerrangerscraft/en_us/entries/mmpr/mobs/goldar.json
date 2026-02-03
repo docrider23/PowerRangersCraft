@@ -17,7 +17,7 @@
     {
       "type": "patchouli:entity",
       "anchor": "goldar_maximus",
-      "entity": "powerrangerscraft:putty_patroller{CustomName:\"Goldar Maximus\",ArmorItems:[{id:\"powerrangerscraft:goldar_belt\",components:{custom_data:{slot_tex1:\"powerrangerscraft:z_emblem_goldar_maximus\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+      "entity": "powerrangerscraft:goldar{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:goldar_belt\",components:{custom_data:{slot_tex1:\"powerrangerscraft:z_emblem_goldar_maximus\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
       "scale": -1,
       "offset": 0.1,
       "name": "Goldar Maximus",
