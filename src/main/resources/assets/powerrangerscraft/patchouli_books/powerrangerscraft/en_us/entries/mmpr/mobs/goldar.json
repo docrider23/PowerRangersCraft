@@ -6,12 +6,26 @@
   "pages": [
     {
       "type": "patchouli:entity",
+      "anchor": "goldar",
       "entity": "powerrangerscraft:goldar",
       "text": "Appears in:$(li)Mighty Morphin,Power Rangers (1993, TV Series)$(br)Health:100"
     },
     {
       "type": "patchouli:text",
       "text": "Has to Chance to spawn from a Putty Patroller $(br2)Drops$(li)5 $(l:mmpr/items/mmpr_logo)MMPR Logos$(/l)$(br)Chance to Drop: $(li)1 $(l:mmpr/items/power_coins#tyrannosaurus_power_coin)Tyrannosaurus Power Coin$(/l)$(li)1 $(l:mmpr/items/power_coins#mastodon_power_coin)Mastodon Power Coin$(/l) $(li)1 $(l:mmpr/items/power_coins#triceratops_power_coin)Triceratops Power Coin$(/l)$(li)1 $(l:mmpr/items/power_coins#sabertooth_tiger_power_coin)Sabertooth Tiger Power Coin$(/l)$(li)1 $(l:mmpr/items/power_coins#pteradactyl_power_coin)Pteradactyl Power Coin$(/l)"
+    },
+    {
+      "type": "patchouli:entity",
+      "anchor": "goldar_maximus",
+      "entity": "powerrangerscraft:putty_patroller{CustomName:\"Goldar Maximus\",ArmorItems:[{id:\"powerrangerscraft:goldar_belt\",components:{custom_data:{slot_tex1:\"powerrangerscraft:z_emblem_goldar_maximus\"}},Count:1b},{id:\"powerrangerscraft:mmpr_legs\",Count:1b},{id:\"powerrangerscraft:mmpr_torso\",Count:1b},{id:\"powerrangerscraft:mmpr_head\",Count:1b}]}",
+      "scale": -1,
+      "offset": 0.1,
+      "name": "Goldar Maximus",
+      "text": "Appears in:$(li)Power Rangers Beast Morphers (2019, TV Series)$(br)Health:125"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If you have Morph X Canister in your inventory Goldar will transform into Goldar Maximus $(br2)Drops Chance to Drop: $(li)5 $(l:mmpr/items/mmpr_logo)MMPR Logos$(/l)$(br) $(li)1 $(l:mmpr/items/power_coins#tyrannosaurus_power_coin)Tyrannosaurus Power Coin$(/l)"
     }
   ]
 
