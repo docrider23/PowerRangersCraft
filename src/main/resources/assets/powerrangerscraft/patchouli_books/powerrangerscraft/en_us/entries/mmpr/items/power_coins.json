@@ -13,7 +13,7 @@
 			"type": "patchouli:spotlight",
 			"link_recipe": true,
 			"item": "powerrangerscraft:tyrannosaurus_power_coin",
-			"text": "Drops from:$(li)$(l:mmpr/mobs/putty_patroller)Putty Patrollers$(/l)$(li)$(l:mmpr/mobs/goldar)Goldar$(/l)$(li)$(l:mmpr/mobs/goldar#goldar_maximus)Goldar Maximus$(/l)$(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+			"text": "Drops from:$(li)$(l:mmpr/mobs/putty_patroller)Putty Patrollers$(/l)$(li)$(l:mmpr/mobs/goldar)Goldar$(/l)$(li)$(l:mmpr/mobs/goldar_maximus)Goldar Maximus$(/l)$(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -68,7 +68,7 @@
 			"type": "patchouli:spotlight",
 			"link_recipe": true,
 			"item": "powerrangerscraft:dragon_power_coin",
-			"text": "Drops from:$(li)$(l:mmpr/mobs/evil_mmpr_green)Evil MMPR Green$(/l)"
+			"text": "Drops from:$(li)$(l:mmpr/mobs/putty_patroller)Putty Patrollers$(/l)$(li)$(l:mmpr/mobs/evil_mmpr_green)Evil MMPR Green$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -79,7 +79,7 @@
 			"type": "patchouli:spotlight",
 			"link_recipe": true,
 			"item": "powerrangerscraft:white_tiger_power_coin",
-			"text": "Drops from:$(li)$(l:mmpr/mobs/evil_mmpr_green)Evil MMPR Green$(/l)"
+			"text": "Drops from:$(li)$(l:mmpr/mobs/putty_patroller)Putty Patrollers$(/l)$(li)$(l:mmpr/mobs/evil_mmpr_green)Evil MMPR Green$(/l)"
 		},
 		{
 			"type": "patchouli:text",
