@@ -33,7 +33,6 @@ public class SwordStatueBlockEntity extends BlockEntity {
         }
     };
 
-
     private float rotation;
 
     public float getRenderingRotation(SwordStatueBlockEntity pBlockEntity) {
@@ -48,7 +47,6 @@ public class SwordStatueBlockEntity extends BlockEntity {
                 default -> 270;
             };
         }
-
 
         rotation += 0.5f;
         return rotation;
@@ -87,6 +85,7 @@ public class SwordStatueBlockEntity extends BlockEntity {
     public Packet<ClientGamePacketListener> getUpdatePacket() {
         return ClientboundBlockEntityDataPacket.create(this);
     }
+
     @Override
     public CompoundTag getUpdateTag(HolderLookup.Provider pRegistries) {
         return saveWithoutMetadata(pRegistries);

@@ -37,7 +37,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "powerrangerscraft:mmpr_logo",
+          "name": "powerrangerscraft:grid_infused_gold_nugget",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -52,7 +52,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:mmpr_logo"
+          "name": "powerrangerscraft:grid_infused_gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
         }
       ]
     },

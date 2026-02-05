@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "grid_infused_gold_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "powerrangerscraft:grid_infused_gold_ingot"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:grid_infused_gold_block"
+  }
+}

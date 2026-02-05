@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:grid_energy_infuser"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "powerrangerscraft:blocks/grid_energy_infuser"
+}

@@ -61,18 +61,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:mmpr_logo",
+          "name": "powerrangerscraft:grid_infused_gold_nugget",
           "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2
+              "count": 4
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:alien_logo",
+          "name": "powerrangerscraft:aquitian_energy",
           "weight": 5,
           "functions": [
             {

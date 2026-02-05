@@ -25,6 +25,12 @@ public class OtherItems {
     public static final DeferredItem<Item> BLANK_FORM = ITEMS.register("blank_form",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","",""));
 
+    public static final DeferredItem<Item> GRID_INFUSED_GOLD_NUGGET = ITEMS.register("grid_infused_gold_nugget",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
+
+    public static final DeferredItem<Item> GRID_INFUSED_GOLD_INGOT = ITEMS.register("grid_infused_gold_ingot",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
+
     public static final DeferredItem<Item> BASE_SWORD = ITEMS.register("base_sword",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 

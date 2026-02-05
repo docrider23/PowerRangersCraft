@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
+		"powerrangerscraft:grid_energy_infuser",
 		"powerrangerscraft:deepslate_mecha_ore",
 		"powerrangerscraft:mecha_nether_ore",
 		"powerrangerscraft:rescue_bird",

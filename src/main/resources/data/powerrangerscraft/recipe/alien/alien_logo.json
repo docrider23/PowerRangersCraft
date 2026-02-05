@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mmpr",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:grid_infused_gold_ingot"
+    },
+	{
+      "item": "minecraft:paper",
+	  "data": 0
+    },
+    {
+      "item": "powerrangerscraft:aquitian_energy"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:alien_logo"
+  }
+}

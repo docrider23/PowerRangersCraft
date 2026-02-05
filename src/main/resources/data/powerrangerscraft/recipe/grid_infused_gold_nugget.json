@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:grid_infused_gold_ingot"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:grid_infused_gold_nugget",
+    "count": 9
+  }
+}

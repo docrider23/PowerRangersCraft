@@ -17,6 +17,9 @@ public class AlienItems {
     public static final DeferredItem<Item> ALIEN_LOGO = ITEMS.register("alien_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.ALIEN));
 
+    public static final DeferredItem<Item> AQUITIAN_ENERGY = ITEMS.register("aquitian_energy",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.ALIEN));
+
     public static final DeferredItem<Item> RED_ALIEN_POWER_COIN = ITEMS.register("red_alien_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","alien_red","alien_red_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),

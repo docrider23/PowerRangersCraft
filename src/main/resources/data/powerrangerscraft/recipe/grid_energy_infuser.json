@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "powerrangerscraft:grid_infused_gold_block"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:grid_energy_infuser"
+  }
+}

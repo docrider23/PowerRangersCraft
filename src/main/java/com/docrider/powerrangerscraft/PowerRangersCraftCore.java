@@ -4,6 +4,7 @@ import com.docrider.powerrangerscraft.blocks.entity.ModBlockEntities;
 import com.docrider.powerrangerscraft.blocks.entity.SwordStatueBlockEntity;
 import com.docrider.powerrangerscraft.blocks.entity.renderer.SwordStatueBlockEntityRenderer;
 import com.docrider.powerrangerscraft.client.KeyBindings;
+import com.docrider.powerrangerscraft.client.gui.GridEnergyInfuserGuiScreen;
 import com.docrider.powerrangerscraft.client.renderer.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.BaseFootsoldierEntity;
 import com.docrider.powerrangerscraft.events.ModClientEvents;
@@ -13,6 +14,7 @@ import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.events.ModCommonEvents;
 import com.docrider.powerrangerscraft.events.ModServerEvents;
 //import com.docrider.powerrangerscraft.fluid.RangerFluids;
+import com.docrider.powerrangerscraft.init.ModMenus;
 import com.docrider.powerrangerscraft.items.others.BaseDualSwordItem;
 import com.docrider.powerrangerscraft.items.others.MechaGattaiItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
@@ -136,6 +138,7 @@ public class PowerRangersCraftCore {
         ModParticles.register(modEventBus);
         ModGameRules.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+        ModMenus.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -350,6 +353,11 @@ public class PowerRangersCraftCore {
         @SubscribeEvent
         public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
             event.registerBlockEntityRenderer(ModBlockEntities.SWORD_STATUE_BE.get(), SwordStatueBlockEntityRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenus.GRID_ENERGY_INFUSED_GUI.get(), GridEnergyInfuserGuiScreen::new);
         }
 
         @SubscribeEvent

@@ -1,0 +1,8 @@
+{
+    "variants":{   
+    "facing=north": { "model": "powerrangerscraft:block/grid_energy_infuser" },
+    "facing=south": { "model": "powerrangerscraft:block/grid_energy_infuser", "y": 180 },
+    "facing=west": { "model": "powerrangerscraft:block/grid_energy_infuser", "y": 270 },
+    "facing=east": { "model": "powerrangerscraft:block/grid_energy_infuser", "y": 90 }
+  }
+ }

@@ -516,6 +516,9 @@ public class RangerTabs {
             }
         }
         else if(event.getTab() == RangerTabs.BlockTab.get()) {
+
+            event.accept(RangerBlocks.GRID_INFUSED_GOLD_BLOCK);
+
             for (int i = 0; i < RangerTabs.BLOCKS.size(); i++)
             {
                 event.accept( RangerTabs.BLOCKS.get(i));

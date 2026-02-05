@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
+		"powerrangerscraft:grid_energy_infuser",
 		"powerrangerscraft:rescue_bird",
 		"powerrangerscraft:animal_crystal_ore",
 		"powerrangerscraft:deepslate_animal_crystal_ore",

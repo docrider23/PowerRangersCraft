@@ -25,6 +25,14 @@ public class RangerBlocks {
 
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(PowerRangersCraftCore.MODID);
 
+    public static final DeferredBlock<Block> GRID_INFUSED_GOLD_BLOCK = registerBlock("grid_infused_gold_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    public static final DeferredBlock<Block> GRID_ENERGY_INFUSER = registerBlock("grid_energy_infuser",
+            () -> new GridEnergyInfuser(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.COW_BELL)
+                    .strength(5.0F,6.0F).sound(SoundType.METAL)).AddToTabList(RangerTabs.BLOCKS));
+
     public static final DeferredBlock<Block> LOGO_ORE = registerBlock("logo_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));

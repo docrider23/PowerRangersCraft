@@ -22,7 +22,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:mmpr_logo",
+          "name": "powerrangerscraft:grid_infused_gold_nugget",
           "functions": [
             {
               "function": "minecraft:set_count",

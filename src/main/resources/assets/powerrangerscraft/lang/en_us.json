@@ -139,6 +139,11 @@
   "block.powerrangerscraft.logo_ore": "Power Rangers Logo Ore",
   "block.powerrangerscraft.deepslate_logo_ore": "Deepslate Power Rangers Logo Ore",
 
+  "block.powerrangerscraft.grid_energy_infuser": "Grid Energy Infuser",
+  "item.powerrangerscraft.grid_infused_gold_nugget": "Grid-Infused Gold Nugget",
+  "item.powerrangerscraft.grid_infused_gold_ingot": "Grid-Infused Gold Ingot",
+  "block.powerrangerscraft.grid_infused_gold_block": "Grid-Infused Gold Block",
+
   //00 Mobs Weapon
   "item.powerrangerscraft.goldar_sword": "Goldar's Sword",
   "item.powerrangerscraft.cog_spear": "Cogs Spear",
@@ -237,6 +242,7 @@
   "tab.powerrangerscraft.alien": "Mighty Morphin Alien Rangers",
 
   "item.powerrangerscraft.alien_logo": "Alien Logo",
+  "item.powerrangerscraft.aquitian_energy": "Aquitian Energy",
 
   "item.powerrangerscraft.alien_head": "Alien Helmet",
   "item.powerrangerscraft.alien_torso": "Alien Chestplate",

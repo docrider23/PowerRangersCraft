@@ -147,7 +147,7 @@ public class StarrangerItems {
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 5,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 4,true,false))
-                    .IsGlowing().AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeModel("waist_cape.geo.json").HasCape().AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> COSMIC_HEART = ITEMS.register("cosmic_heart",
             () -> new MastarChangeItem(new Item.Properties(),0,"","cosmic_mastar","starranger_mastar_belt",

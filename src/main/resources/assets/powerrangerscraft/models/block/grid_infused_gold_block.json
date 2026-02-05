@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "powerrangerscraft:block/grid_infused_gold_block"
+    }
+  }
