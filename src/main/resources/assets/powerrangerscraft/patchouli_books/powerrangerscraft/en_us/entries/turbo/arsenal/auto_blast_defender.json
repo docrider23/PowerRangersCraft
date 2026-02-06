@@ -1,0 +1,19 @@
+{
+	"name": "Auto Blast Defender",
+	"icon": "powerrangerscraft:auto_blast_defender",
+	"category": "powerrangerscraft:turbo/arsenal",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/auto_blast_defender",
+			"item": "powerrangerscraft:auto_blast_defender",
+			"title": " ",
+			"text": "The Upgraded blaster Side arm for the Turbo Rangers"
+		}
+	]
+}

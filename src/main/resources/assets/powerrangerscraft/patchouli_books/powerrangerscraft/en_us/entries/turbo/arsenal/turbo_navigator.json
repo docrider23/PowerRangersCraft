@@ -1,0 +1,19 @@
+{
+	"name": "Turbo Navigator",
+	"icon": "powerrangerscraft:turbo_navigator",
+	"category": "powerrangerscraft:turbo/arsenal",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/turbo_navigator",
+			"item": "powerrangerscraft:turbo_navigator",
+			"title": " ",
+			"text": "The Phantom Ranger's Primary Weapon"
+		}
+	]
+}

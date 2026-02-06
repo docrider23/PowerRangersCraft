@@ -1,0 +1,19 @@
+{
+	"name": "Phantom Rangers Module",
+	"icon": "powerrangerscraft:phantom_ranger_module",
+	"category": "powerrangerscraft:turbo/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/phantom_ranger_module",
+			"item": "powerrangerscraft:phantom_ranger_module",
+			"title": " ",
+			"text": "The Phantom Rangers Module"
+		}
+	]
+}

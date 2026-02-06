@@ -1,0 +1,19 @@
+{
+	"name": "Blue Senturion Badge",
+	"icon": "powerrangerscraft:blue_senturion_badge",
+	"category": "powerrangerscraft:turbo/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "blue_senturion_badge",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Show)$(br2)Used to craft the Blue Senturion's $(l:turbo/devices/signal_whistle)Signal Whistle$(/l) $(br2)Used to access the Blue Ranger's $(l:turbo/rangers/blue_senturion)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:blue_senturion_badge",
+			"text": "Drops from:$(li)$(l:turbo/mobs/chromites)Chromites$(/l)"
+		}
+	]
+}

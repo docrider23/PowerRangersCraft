@@ -1,0 +1,19 @@
+{
+	"name": "Power Ruby",
+	"icon": "powerrangerscraft:power_ruby",
+	"category": "powerrangerscraft:turbo/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "power_ruby",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Show)$(br2)Used to craft the Phantom Ranger's $(l:turbo/devices/phanrom_ranger_module)Phantom Ranger Module$(/l)$(br2)Used to access the Phantom Ranger's $(l:turbo/rangers/phantom_ranger)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:power_ruby",
+			"text": "Drops from:$(li)$(l:turbo/mobs/piranhatrons)Piranhatrons$(/l)"
+		}
+	]
+}

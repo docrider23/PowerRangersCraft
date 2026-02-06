@@ -1,0 +1,18 @@
+{
+  "name": "Piranhatrons",
+  "icon": "cod",
+  "category": "powerrangerscraft:turbo/mobs",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "powerrangerscraft:piranhatron",
+      "text": "Appears in:$(li)Power Rangers Turbo (1997, TV Series)$(br)Health:45"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Spawns in the Desert $(br2)Drops$(li)5 $(l:turbo/items/turbo_logo)turbo Logos$(/l)$(br)Chance to Drop: $(li)1 $(l:turbo/items/turbo_keys#red_turbo_key)Red Turbo Key$(/l)$(li)1 $(l:turbo/items/turbo_keys#blue_turbo_key)Blue Turbo Key$(/l) $(li)1 $(l:turbo/items/turbo_keys#green_turbo_key)Green Turbo Key$(/l)$(li)1 $(l:turbo/items/turbo_keys#yellow_turbo_key)Yellow Turbo Key$(/l)$(li)1 $(l:turbo/items/turbo_keys#pink_turbo_key)Pink Turbo Key$(/l)$(li)1 $(l:turbo/items/power_ruby)Power Ruby$(/l)"
+    }
+  ]
+
+}

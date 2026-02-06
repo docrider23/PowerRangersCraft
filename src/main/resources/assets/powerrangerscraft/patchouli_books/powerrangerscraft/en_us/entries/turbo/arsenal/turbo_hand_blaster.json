@@ -1,0 +1,19 @@
+{
+	"name": "Turbo Hand Blaster",
+	"icon": "powerrangerscraft:turbo_hand_blaster",
+	"category": "powerrangerscraft:turbo/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/turbo_hand_blaster",
+			"item": "powerrangerscraft:turbo_hand_blaster",
+			"title": " ",
+			"text": "The Blue Turbo Ranger's Primary Weapon"
+		}
+	]
+}

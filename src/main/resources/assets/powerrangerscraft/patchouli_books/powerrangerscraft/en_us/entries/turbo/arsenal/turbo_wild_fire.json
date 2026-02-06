@@ -1,0 +1,19 @@
+{
+	"name": "Turbo Wind Fire",
+	"icon": "powerrangerscraft:turbo_wind_fire",
+	"category": "powerrangerscraft:turbo/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/turbo_wind_fire",
+			"item": "powerrangerscraft:turbo_wind_fire",
+			"title": " ",
+			"text": "The Pink Turbo Ranger's Primary Weapon"
+		}
+	]
+}

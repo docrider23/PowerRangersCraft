@@ -1,0 +1,19 @@
+{
+	"name": "Turbo Star Charger",
+	"icon": "powerrangerscraft:turbo_star_charger",
+	"category": "powerrangerscraft:turbo/arsenal",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/turbo_star_charger",
+			"item": "powerrangerscraft:turbo_star_charger",
+			"title": " ",
+			"text": "The Yellow Turbo Ranger's Primary Weapon"
+		}
+	]
+}

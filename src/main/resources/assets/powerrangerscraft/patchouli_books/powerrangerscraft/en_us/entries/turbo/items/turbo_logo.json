@@ -1,0 +1,19 @@
+{
+	"name": "Turbo Logo",
+	"icon": "powerrangerscraft:turbo_logo",
+	"category": "powerrangerscraft:turbo/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV show)$(br2)Used as the base item and repair material for most turbo items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:turbo_logo",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:turbo/mobs/chromites)Chromites$(/l)$(li)$(l:turbo/mobs/piranhatrons)Piranhatrons$(/l)$(li)$(l:turbo/mobs/blue_senturion_evil)Reprogrammed Blue Senturion$(/l)$(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		}
+	]
+}

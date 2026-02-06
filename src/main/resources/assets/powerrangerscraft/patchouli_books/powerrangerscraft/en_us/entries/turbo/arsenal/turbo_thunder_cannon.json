@@ -1,0 +1,19 @@
+{
+	"name": "Turbo Thunder Cannon",
+	"icon": "powerrangerscraft:turbo_thunder_cannon",
+	"category": "powerrangerscraft:turbo/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/turbo_thunder_cannon",
+			"item": "powerrangerscraft:turbo_thunder_cannon",
+			"title": " ",
+			"text": "The Green Turbo Ranger's Primary Weapon"
+		}
+	]
+}

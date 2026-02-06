@@ -1,0 +1,19 @@
+{
+	"name": "Turbo Lightning Sword",
+	"icon": "powerrangerscraft:turbo_lightning_sword",
+	"category": "powerrangerscraft:turbo/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/turbo_lightning_sword",
+			"item": "powerrangerscraft:turbo_lightning_sword",
+			"title": " ",
+			"text": "The Red Turbo Ranger's Primary Weapon"
+		}
+	]
+}

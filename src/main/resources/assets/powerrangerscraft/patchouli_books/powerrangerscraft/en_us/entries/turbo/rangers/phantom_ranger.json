@@ -11,12 +11,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Phantom Ranger",
-			"text": "Accessed with the $(l:turbo/items/turbo_keys#power_ruby)Power Ruby$(/l)"
+			"text": "Accessed with the $(l:turbo/items/power_ruby)Power Ruby$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Phantom Ranger",
-			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Series)$(br2)Transforms with the $(l:turbo/devices/turbo_morphers#phantom_ranger_module)Phantom Ranger Module$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Series)$(br2)Transforms with the $(l:turbo/devices/phantom_ranger_module)Phantom Ranger Module$(/l)$(br2)Status Effects:TBD"
 		}
 	]
 

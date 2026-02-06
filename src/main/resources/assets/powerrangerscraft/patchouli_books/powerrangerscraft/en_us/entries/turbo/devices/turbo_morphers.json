@@ -1,0 +1,68 @@
+{
+	"name": "Turbo Morphers",
+	"icon": "powerrangerscraft:red_turbo_morpher",
+	"category": "powerrangerscraft:turbo/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_turbo_morpher",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/red_turbo_morpher",
+			"item": "powerrangerscraft:red_turbo_morpher",
+			"title": "Red Turbo Morpher",
+			"text": "The Turbo Red Ranger's Turbo Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "blue_turbo_morpher",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/blue_turbo_morpher",
+			"item": "powerrangerscraft:blue_turbo_morpher",
+			"title": "Blue Turbo Morpher",
+			"text": "The Turbo Blue Ranger's Turbo Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "green_turbo_morpher",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/green_turbo_morpher",
+			"item": "powerrangerscraft:green_turbo_morpher",
+			"title": "Green Turbo Morpher",
+			"text": "The Turbo Green Ranger's Turbo Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_turbo_morpher",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/yellow_turbo_morpher",
+			"item": "powerrangerscraft:yellow_turbo_morpher",
+			"title": "Yellow Turbo Morpher",
+			"text": "The Turbo Yellow Ranger's Turbo Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "pink_turbo_morpher",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/pink_turbo_morpher",
+			"item": "powerrangerscraft:pink_turbo_morpher",
+			"title": "Pink Turbo Morpher",
+			"text": "The Turbo Pink Ranger's Turbo Morpher"
+		}
+	]
+}

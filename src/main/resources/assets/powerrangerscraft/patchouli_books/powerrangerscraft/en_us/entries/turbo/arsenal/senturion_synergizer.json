@@ -1,0 +1,19 @@
+{
+	"name": "Senturion Synergizer",
+	"icon": "powerrangerscraft:senturion_synergizer",
+	"category": "powerrangerscraft:turbo/arsenal",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/senturion_synergizer",
+			"item": "powerrangerscraft:senturion_synergizer",
+			"title": " ",
+			"text": "The Blue Senturion's Primary Weapon"
+		}
+	]
+}

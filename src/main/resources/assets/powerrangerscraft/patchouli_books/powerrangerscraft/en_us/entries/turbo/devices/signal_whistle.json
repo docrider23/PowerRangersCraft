@@ -1,0 +1,19 @@
+{
+	"name": "Signal Whistle",
+	"icon": "powerrangerscraft:signal_whistle",
+	"category": "powerrangerscraft:turbo/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:turbo/signal_whistle",
+			"item": "powerrangerscraft:signal_whistle",
+			"title": " ",
+			"text": "The Blue Senturion's Whistle."
+		}
+	]
+}

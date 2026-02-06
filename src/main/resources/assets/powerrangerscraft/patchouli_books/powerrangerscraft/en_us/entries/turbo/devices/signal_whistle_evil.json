@@ -1,0 +1,18 @@
+{
+	"name": "Signal whistle Evil",
+	"icon": "powerrangerscraft:signal_whistle_evil",
+	"category": "powerrangerscraft:turbo/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Turbo (1997, TV Show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "powerrangerscraft:signal_whistle_evil",
+			"title": " ",
+			"text": "The Blue Senturion's whistle Evil drops from the $(l:turbo/mobs/blue_senturion_evil)Reprogrammed Blue Senturion$(/l)."
+		}
+	]
+}
