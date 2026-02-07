@@ -1,0 +1,19 @@
+{
+	"name": "In Space Logo",
+	"icon": "powerrangerscraft:in_space_logo",
+	"category": "powerrangerscraft:in_space/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers in Space (1998, TV Show)$(br2)Used as the base item and repair material for most in_space items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:in_space_logo",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		}
+	]
+}

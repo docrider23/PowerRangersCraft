@@ -1,0 +1,20 @@
+{
+	"name": "Astro Morphers",
+	"icon": "powerrangerscraft:red_astro_morpher",
+	"category": "powerrangerscraft:in_space/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_astro_morpher",
+			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:in_space/red_astro_morpher",
+			"item": "powerrangerscraft:red_astro_morpher",
+			"title": " ",
+			"text": "The Red Space Ranger's morpher."
+		}
+	]
+}

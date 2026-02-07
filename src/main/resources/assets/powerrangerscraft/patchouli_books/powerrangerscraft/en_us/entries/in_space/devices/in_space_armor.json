@@ -1,0 +1,41 @@
+{
+	"name": "In Space Armor",
+	"icon": "powerrangerscraft:in_space_head",
+	"category": "powerrangerscraft:in_space/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:in_space/in_space_head",
+			"item": "powerrangerscraft:in_space_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:in_space/in_space_torso",
+			"item": "powerrangerscraft:in_space_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:in_space/in_space_legs",
+			"item": "powerrangerscraft:in_space_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}
