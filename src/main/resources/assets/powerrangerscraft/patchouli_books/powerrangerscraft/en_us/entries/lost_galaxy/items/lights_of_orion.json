@@ -1,0 +1,19 @@
+{
+	"name": "Lights Of Orion",
+	"icon": "powerrangerscraft:lights_of_orion",
+	"category": "powerrangerscraft:lost_galaxy/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "lights_of_orion",
+			"text": "Appears in:$(li)Power Rangers lost_galaxy (1999, TV Show) $(br2)Used to access the Lost Galaxy Ranger's $(l:lost_galaxy/rangers/lost_galaxy_red#lost_galaxy_red_lights_of_orion)Red Lights of Orion$(/l), $(l:lost_galaxy/rangers/lost_galaxy_green#lost_galaxy_green_lights_of_orion)Green Lights of Orion$(/l), $(l:lost_galaxy/rangers/lost_galaxy_blue#lost_galaxy_blue_lights_of_orion)Blue Lights of Orion$(/l), $(l:lost_galaxy/rangers/lost_galaxy_yellow#lost_galaxy_yellow_lights_of_orion)Yellow Lights of Orion$(/l), $(l:lost_galaxy/rangers/lost_galaxy_pink#lost_galaxy_pink_lights_of_orion)Pink Lights of Orion$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lights_of_orion",
+			"text": "Drops from:$(li)$(l:lost_galaxy/mobs/magna_defender_evil)Magna Defender$(/l)"
+		}
+	]
+}

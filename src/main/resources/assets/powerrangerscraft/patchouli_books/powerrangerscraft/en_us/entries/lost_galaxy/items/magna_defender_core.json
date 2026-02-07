@@ -1,0 +1,19 @@
+{
+	"name": "Magna Defender Core",
+	"icon": "powerrangerscraft:magna_defender_core",
+	"category": "powerrangerscraft:lost_galaxy/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "magna_defender_core",
+			"text": "Appears in:$(li)Power Rangers lost_galaxy (1999, TV Show)$(br2)Used to craft the Magna Defender's $(l:lost_galaxy/devices/magna-defender_morpher)Magna Defender Morpher$(/l) $(br2)Used to access the Magna Defender's $(l:lost_galaxy/rangers/blue_senturion)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:magna_defender_core",
+			"text": "Drops from:$(li)$(l:lost_galaxy/mobs/magna_defender_evil)Magna Defender$(/l)"
+		}
+	]
+}

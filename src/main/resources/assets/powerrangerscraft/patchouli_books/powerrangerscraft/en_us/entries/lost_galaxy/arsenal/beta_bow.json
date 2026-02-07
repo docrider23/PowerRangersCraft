@@ -1,0 +1,19 @@
+{
+	"name": "Beta Bow",
+	"icon": "powerrangerscraft:beta_bow",
+	"category": "powerrangerscraft:lost_galaxy/arsenal",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/beta_bow",
+			"item": "powerrangerscraft:beta_bow",
+			"title": " ",
+			"text": "The Red Galaxy Ranger's Signature Weapon"
+		}
+	]
+}

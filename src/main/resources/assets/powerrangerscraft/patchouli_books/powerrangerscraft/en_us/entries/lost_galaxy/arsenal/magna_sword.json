@@ -1,0 +1,19 @@
+{
+	"name": "Magna Sword",
+	"icon": "powerrangerscraft:magna_sword",
+	"category": "powerrangerscraft:lost_galaxy/arsenal",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/magna_sword",
+			"item": "powerrangerscraft:magna_sword",
+			"title": " ",
+			"text": "The Magna Defender's Signature Weapon"
+		}
+	]
+}

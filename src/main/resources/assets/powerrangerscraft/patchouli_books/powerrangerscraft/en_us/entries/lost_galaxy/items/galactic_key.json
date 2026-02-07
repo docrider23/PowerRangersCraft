@@ -1,0 +1,19 @@
+{
+	"name": "Galactic Key",
+	"icon": "powerrangerscraft:galactic_key",
+	"category": "powerrangerscraft:lost_galaxy/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "galactic_key",
+			"text": "Appears in:$(li)Power Rangers lost_galaxy (1999, TV Show) $(br2)Used to access the Red Ranger's $(l:lost_galaxy/rangers/lost_galaxy_red#red_armored_ranger)Battlizer$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:galactic_key",
+			"text": "Drops from:$(li)$(l:lost_galaxy/mobs/stingwingers)Stingwingers$(/l)"
+		}
+	]
+}

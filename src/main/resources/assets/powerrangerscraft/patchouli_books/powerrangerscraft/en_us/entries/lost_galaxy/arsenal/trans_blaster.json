@@ -1,0 +1,19 @@
+{
+	"name": "Trans_blaster",
+	"icon": "powerrangerscraft:trans_blaster",
+	"category": "powerrangerscraft:lost_galaxy/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/trans_blaster",
+			"item": "powerrangerscraft:trans_blaster",
+			"title": " ",
+			"text": "The Green Galaxy Ranger's Signature Weapon"
+		}
+	]
+}

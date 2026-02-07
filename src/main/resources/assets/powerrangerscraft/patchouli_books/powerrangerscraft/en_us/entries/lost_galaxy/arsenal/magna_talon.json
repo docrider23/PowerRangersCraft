@@ -1,0 +1,19 @@
+{
+	"name": "Magna Talon",
+	"icon": "powerrangerscraft:magna_talon",
+	"category": "powerrangerscraft:lost_galaxy/arsenal",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/magna_talon",
+			"item": "powerrangerscraft:magna_talon",
+			"title": " ",
+			"text": "The Red Galaxy Ranger's Signature Weapon"
+		}
+	]
+}

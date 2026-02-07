@@ -1,0 +1,19 @@
+{
+	"name": "Cosma Claw",
+	"icon": "powerrangerscraft:cosma_claw",
+	"category": "powerrangerscraft:lost_galaxy/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/cosma_claw",
+			"item": "powerrangerscraft:cosma_claw",
+			"title": " ",
+			"text": "The Blue Galaxy Ranger's Signature Weapon"
+		}
+	]
+}
