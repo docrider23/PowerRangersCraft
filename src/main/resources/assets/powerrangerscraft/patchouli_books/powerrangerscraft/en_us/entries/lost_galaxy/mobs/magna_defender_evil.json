@@ -1,0 +1,18 @@
+{
+  "name": "Magna Defender",
+  "icon": "powerrangerscraft:magna_defender_core",
+  "category": "powerrangerscraft:lost_galaxy/mobs",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "powerrangerscraft:magna_defender",
+      "text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Series)$(br)Health:250"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Has a chance to spawn from a $(l:lost_galaxy/mobs/swabbies)Swabbies$(/l)$(br2)Drops$(li)5 $(br2)Drops$(li)5 $(l:lost_galaxy/items/lost_galaxy_logo)Lost Galaxy Logos$(/l)$(br)Chance to Drop: $(li)1 $(l:lost_galaxy/items/magna_defender_core)Magna Defender Core$(/l)$(li)1 $(l:lost_galaxy/items/lights_of_orion)Lights Of Orion"
+    }
+  ]
+
+}

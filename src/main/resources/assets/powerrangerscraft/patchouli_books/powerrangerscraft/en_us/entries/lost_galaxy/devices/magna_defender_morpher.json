@@ -1,0 +1,19 @@
+{
+	"name": "Magna Defender Morpher",
+	"icon": "powerrangerscraft:magna_defender_morpher",
+	"category": "powerrangerscraft:lost_galaxy/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/magna_defender_morpher",
+			"item": "powerrangerscraft:magna_defender_morpher",
+			"title": " ",
+			"text": "The Magna Defenders Morpher."
+		}
+	]
+}

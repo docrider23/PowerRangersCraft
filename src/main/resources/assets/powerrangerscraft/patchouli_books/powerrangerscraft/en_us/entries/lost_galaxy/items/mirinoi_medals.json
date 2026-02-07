@@ -1,0 +1,63 @@
+{
+	"name": "Mirinoi Medals",
+	"icon": "powerrangerscraft:lion_mirinoi_medal",
+	"category": "powerrangerscraft:lost_galaxy/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "lion_mirinoi_medal",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)$(br2)Used to craft the Red Ranger's $(l:lost_galaxy/devices/transmorphers#red_transmorpher)transmorpher$(/l)$(br2)Used to access the Red Ranger's $(l:lost_galaxy/rangers/lost_galaxy_red#lost_galaxy_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lion_mirinoi_medal",
+			"text": "$(li)$(l:lost_galaxy/mobs/swabbies)Swabbies$(/l)$(li)$(l:lost_galaxy/mobs/stingwingers)Stingwingers$(/l)$(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "eagle_mirinoi_medal",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)$(br2)Used to craft the Blue Ranger's $(l:lost_galaxy/devices/transmorphers#green_transmorpher)transmorpher$(/l)$(br2)Used to access the Blue Ranger's $(l:lost_galaxy/rangers/lost_galaxy_blue#lost_galaxy_blue)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:eagle_mirinoi_medal",
+			"text": "Drops from:$(li)$(l:lost_galaxy/mobs/swabbies)Swabbies$(/l)$(li)$(l:lost_galaxy/mobs/stingwingers)Stingwingers$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "gorilla_mirinoi_medal",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)$(br2)Used to craft the Green Ranger's $(l:lost_galaxy/devices/transmorphers#blue_transmorpher)transmorpher$(/l)$(br2)Used to access the Green Ranger's $(l:lost_galaxy/rangers/lost_galaxy_green#lost_galaxy_green)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:gorilla_mirinoi_medal",
+			"text": "Drops from:$(li)$(l:lost_galaxy/mobs/swabbies)Swabbies$(/l)$(li)$(l:lost_galaxy/mobs/stingwingers)Stingwingers$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "wolf_mirinoi_medal",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)$(br2)Used to craft the Yellow Ranger's $(l:lost_galaxy/devices/transmorphers#yellow_transmorpher)transmorpher$(/l)$(br2)Used to access the Yellow Ranger's $(l:lost_galaxy/rangers/lost_galaxy_yellow#lost_galaxy_yellow)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:wolf_mirinoi_medal",
+			"text": "Drops from:$(li)$(l:lost_galaxy/mobs/swabbies)Swabbies$(/l)$(li)$(l:lost_galaxy/mobs/stingwingers)Stingwingers$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "wildcat_mirinoi_medal",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)$(br2)Used to craft the Pink Ranger's $(l:lost_galaxy/devices/transmorphers#pink_transmorpher)transmorpher$(/l)$(br2)Used to access the Pink Ranger's $(l:lost_galaxy/rangers/lost_galaxy_pink#lost_galaxy_pink)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:wildcat_mirinoi_medal",
+			"text": "Drops from:$(li)$(l:lost_galaxy/mobs/swabbies)Swabbies$(/l)$(li)$(l:lost_galaxy/mobs/stingwingers)Stingwingers$(/l)"
+		}
+	]
+}

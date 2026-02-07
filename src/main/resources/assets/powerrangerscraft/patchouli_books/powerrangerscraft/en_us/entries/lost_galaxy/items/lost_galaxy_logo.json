@@ -1,0 +1,19 @@
+{
+	"name": "Lost Galaxy Logo",
+	"icon": "powerrangerscraft:lost_galaxy_logo",
+	"category": "powerrangerscraft:lost_galaxy/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)$(br2)Used as the base item and repair material for most lost_galaxy items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lost_galaxy_logo",
+			"title": " ",
+			"text": "Drops from$(li)$(l:lost_galaxy/mobs/swabbies)Swabbies$(/l):$(li)$(l:lost_galaxy/mobs/stingwingers)Stingwingers$(/l)$(li)$(l:lost_galaxy/mobs/magna_defender_evil)Magna Defender$(/l)$(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		}
+	]
+}

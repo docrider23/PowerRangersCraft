@@ -1,0 +1,68 @@
+{
+	"name": "Transmorphers",
+	"icon": "powerrangerscraft:red_transmorpher",
+	"category": "powerrangerscraft:lost_galaxy/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_transmorpher",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/red_transmorpher",
+			"item": "powerrangerscraft:red_transmorpher",
+			"title": " ",
+			"text": "The Red Galaxy Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "green_transmorpher",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/green_transmorpher",
+			"item": "powerrangerscraft:green_transmorpher",
+			"title": " ",
+			"text": "The Green Galaxy Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "blue_transmorpher",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/blue_transmorpher",
+			"item": "powerrangerscraft:blue_transmorpher",
+			"title": " ",
+			"text": "The Blue Galaxy Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_transmorpher",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/yellow_transmorpher",
+			"item": "powerrangerscraft:yellow_transmorpher",
+			"title": " ",
+			"text": "The Yellow Galaxy Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "red_transmorpher",
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/red_transmorpher",
+			"item": "powerrangerscraft:red_transmorpher",
+			"title": " ",
+			"text": "The Pink Galaxy Ranger's morpher."
+		}
+	]
+}

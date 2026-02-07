@@ -1,0 +1,18 @@
+{
+  "name": "Stingwingers",
+  "icon": "slime_ball",
+  "category": "powerrangerscraft:lost_galaxy/mobs",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "powerrangerscraft:stingwinger",
+      "text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Series)$(br)Health:45"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Spawns in the Desert $(br2)Drops$(li)5 $(l:lost_galaxy/items/lost_galaxy_logo)Lost Galaxy Logos$(/l)$(br)Chance to Drop: $(li)1 $(l:lost_galaxy/items/mirinoi_medals#lion_mirinoi_medal)Lion Mirinoi Medals$(/l)$(li)1 $(l:lost_galaxy/items/mirinoi_medals#eagle_mirinoi_medal)Eagle Mirinoi Medals$(/l) $(li)1 $(l:lost_galaxy/items/mirinoi_medals#gorilla_mirinoi_medal)Gorilla Mirinoi Medals$(/l)$(li)1 $(l:lost_galaxy/items/mirinoi_medals#wolf_mirinoi_medal)Wolf Mirinoi Medals$(/l)$(li)1 $(l:lost_galaxy/items/mirinoi_medals#wildcat_mirinoi_medal)Wildcat Mirinoi Medals$(/l)$(li)1 $(l:lost_galaxy/items/galactic_key)Galactic Key$(/l)"
+    }
+  ]
+
+}

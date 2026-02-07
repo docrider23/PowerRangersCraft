@@ -1,0 +1,41 @@
+{
+	"name": "Lost Galaxy Armor",
+	"icon": "powerrangerscraft:lost_galaxy_head",
+	"category": "powerrangerscraft:lost_galaxy/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/lost_galaxy_head",
+			"item": "powerrangerscraft:lost_galaxy_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/lost_galaxy_torso",
+			"item": "powerrangerscraft:lost_galaxy_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lost_galaxy/lost_galaxy_legs",
+			"item": "powerrangerscraft:lost_galaxy_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}
