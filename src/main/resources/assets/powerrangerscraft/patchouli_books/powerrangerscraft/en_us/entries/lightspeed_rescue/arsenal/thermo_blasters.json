@@ -1,0 +1,63 @@
+{
+	"name": "Thermo Blasters",
+	"icon": "powerrangerscraft:thermo_blaster",
+	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/thermo_blaster",
+			"item": "powerrangerscraft:thermo_blaster",
+			"title": " ",
+			"text": "The Lightspeed Rangers additional side arm (Red Version)"
+		},	{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/thermo_blaster_blue",
+			"item": "powerrangerscraft:thermo_blaster_blue",
+			"title": " ",
+			"text": "The Lightspeed Rangers additional side arm (Blue Version)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/thermo_blaster_green",
+			"item": "powerrangerscraft:thermo_blaster_green",
+			"title": " ",
+			"text": "The Lightspeed Rangers additional side arm (Green Version)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/thermo_blaster_yellow",
+			"item": "powerrangerscraft:thermo_blaster_yellow",
+			"title": " ",
+			"text": "The Lightspeed Rangers additional side arm (Yellow Version)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/thermo_blaster_pink",
+			"item": "powerrangerscraft:thermo_blaster_pink",
+			"title": " ",
+			"text": "The Lightspeed Rangers additional side arm (Pink Version)"
+		}
+
+	]
+}

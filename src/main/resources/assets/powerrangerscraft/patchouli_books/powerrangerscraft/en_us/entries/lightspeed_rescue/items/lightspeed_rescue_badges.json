@@ -1,0 +1,74 @@
+{
+	"name": "Lightspeed badges",
+	"icon": "powerrangerscraft:lightspeed_red_badge",
+	"category": "powerrangerscraft:lightspeed_rescue/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "lightspeed_red_badge",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)$(br2)Used to craft the Red Ranger's $(l:lightspeed_rescue/devices/rescue_morphers#red_rescue_morpher)Red Rescue Morpher$(/l) $(br2)Used to access the Red Ranger's $(l:lightspeed_rescue/rangers/lightspeed_rescue_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lightspeed_red_badge",
+			"text": "Drops from:$(li)$(l:lightspeed_rescue/mobs/batlings)Batlings$(/l) $(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "lightspeed_blue_badge",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)$(br2)Used to craft the Blue Ranger's $(l:lightspeed_rescue/devices/rescue_morphers#blue_rescue_morphers)Blue Rescue Morpher$(/l) $(br2)Used to access the Blue Ranger's $(l:lightspeed_rescue/rangers/lightspeed_rescue_blue)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lightspeed_blue_badge",
+			"text": "Drops from:$(li)$(l:lightspeed_rescue/mobs/batlings)Batlings$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "lightspeed_green_badge",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)$(br2)Used to craft the Green Ranger's $(l:lightspeed_rescue/devices/rescue_morphers#green_rescue_morpher)Green Rescue Morpher$(/l) $(br2)Used to access the Green Ranger's $(l:lightspeed_rescue/rangers/lightspeed_rescue_green)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lightspeed_green_badge",
+			"text": "Drops from:$(li)$(l:lightspeed_rescue/mobs/batlings)Batlings$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "lightspeed_yellow_badge",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)$(br2)Used to craft the Yellow Ranger's $(l:lightspeed_rescue/devices/rescue_morphers#yellow_rescue_morphers)Yellow Rescue Morpher$(/l) $(br2)Used to access the Yellow Ranger's $(l:lightspeed_rescue/rangers/lightspeed_rescue_yellow)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lightspeed_yellow_badge",
+			"text": "Drops from:$(li)$(l:lightspeed_rescue/mobs/batlings)Batlings$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "lightspeed_pink_badge",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)$(br2)Used to craft the Pink Ranger's $(l:lightspeed_rescue/devices/rescue_morphers#pink_rescue_morpher)Pink Rescue Morpher$(/l) $(br2)Used to access the Pink Ranger's $(l:lightspeed_rescue/rangers/lightspeed_rescue_pink)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lightspeed_pink_badge",
+			"text": "Drops from:$(li)$(l:lightspeed_rescue/mobs/batlings)Batlings$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "titanium_badge",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)$(br2)Used to craft the Titanium Ranger's $(l:lightspeed_rescue/devices/titanium_morpher)Titanium Morpher$(/l) $(br2)Used to access the Titanium Ranger's $(l:lightspeed_rescue/rangers/titanium_ranger)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:titanium_badge",
+			"text": "Drops from:$(li)$(l:lightspeed_rescue/mobs/batlings)Batlings$(/l)"
+		}
+	]
+}

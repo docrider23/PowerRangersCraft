@@ -1,0 +1,41 @@
+{
+	"name": "Lightspeed Rescue Armor",
+	"icon": "powerrangerscraft:lightspeed_rescue_head",
+	"category": "powerrangerscraft:lightspeed_rescue/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/lightspeed_rescue_head",
+			"item": "powerrangerscraft:lightspeed_rescue_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/lightspeed_rescue_torso",
+			"item": "powerrangerscraft:lightspeed_rescue_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/lightspeed_rescue_legs",
+			"item": "powerrangerscraft:lightspeed_rescue_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}

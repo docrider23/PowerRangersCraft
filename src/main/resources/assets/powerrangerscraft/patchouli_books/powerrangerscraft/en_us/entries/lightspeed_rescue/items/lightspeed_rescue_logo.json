@@ -1,0 +1,19 @@
+{
+	"name": "Lightspeed Rescue Logo",
+	"icon": "powerrangerscraft:lightspeed_rescue_logo",
+	"category": "powerrangerscraft:lightspeed_rescue/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV Show)$(br2)Used as the base item and repair material for most lightspeed_rescue items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lightspeed_rescue_logo",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:lightspeed_rescue/mobs/batlings)Batlings$(/l) $(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		}
+	]
+}

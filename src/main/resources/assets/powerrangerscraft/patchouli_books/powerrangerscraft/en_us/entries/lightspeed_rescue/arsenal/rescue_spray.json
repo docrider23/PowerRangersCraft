@@ -1,0 +1,19 @@
+{
+	"name": "Rescue Spray",
+	"icon": "powerrangerscraft:rescue_spray",
+	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_spray",
+			"item": "powerrangerscraft:rescue_spray",
+			"title": " ",
+			"text": "The Blue Lightspeed Ranger's Signature Weapon"
+		}
+	]
+}

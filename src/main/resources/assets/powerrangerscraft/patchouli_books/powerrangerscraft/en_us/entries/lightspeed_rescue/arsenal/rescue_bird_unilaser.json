@@ -1,0 +1,19 @@
+{
+	"name": "Rescue Bird Unilaser",
+	"icon": "powerrangerscraft:rescue_bird_unilaser_mode",
+	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_bird_unilaser_mode",
+			"item": "powerrangerscraft:rescue_bird_unilaser_mode",
+			"title": " ",
+			"text": "The Lightspeed Rangers combined weapon."
+		}
+	]
+}

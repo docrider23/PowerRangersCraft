@@ -1,0 +1,19 @@
+{
+	"name": "Rescue Injector",
+	"icon": "powerrangerscraft:rescue_injector",
+	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_injector",
+			"item": "powerrangerscraft:rescue_injector",
+			"title": " ",
+			"text": "The Pink Lightspeed Ranger's Signature Weapon"
+		}
+	]
+}

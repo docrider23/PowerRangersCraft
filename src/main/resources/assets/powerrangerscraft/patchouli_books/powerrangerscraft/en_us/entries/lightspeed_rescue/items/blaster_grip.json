@@ -1,8 +1,8 @@
 {
-	"name": "Rescue Blasters",
-	"icon": "powerrangerscraft:rescue_blaster_red",
-	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
-	"sortnum": 0,
+	"name": "Blaster Grips",
+	"icon": "powerrangerscraft:blaster_grip_red",
+	"category": "powerrangerscraft:lightspeed_rescue/items",
+	"sortnum": 3,
 	"pages": [
 		{
 			"type": "patchouli:text",
@@ -10,8 +10,8 @@
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_blaster_red",
-			"item": "powerrangerscraft:rescue_blaster_red",
+			"recipe": "powerrangerscraft:lightspeed_rescue/blaster_grip_red",
+			"item": "powerrangerscraft:blaster_grip_red",
 			"title": " ",
 			"text": "The Lightspeed Rangers main side arm (Red Version)"
 		},	{
@@ -20,8 +20,8 @@
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_blaster_blue",
-			"item": "powerrangerscraft:rescue_blaster_blue",
+			"recipe": "powerrangerscraft:lightspeed_rescue/blaster_grip_blue",
+			"item": "powerrangerscraft:blaster_grip_blue",
 			"title": " ",
 			"text": "The Lightspeed Rangers main side arm (Blue Version)"
 		},
@@ -31,8 +31,8 @@
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_blaster_green",
-			"item": "powerrangerscraft:rescue_blaster_green",
+			"recipe": "powerrangerscraft:lightspeed_rescue/blaster_grip_green",
+			"item": "powerrangerscraft:blaster_grip_green",
 			"title": " ",
 			"text": "The Lightspeed Rangers main side arm (Green Version)"
 		},
@@ -42,8 +42,8 @@
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_blaster_yellow",
-			"item": "powerrangerscraft:rescue_blaster_yellow",
+			"recipe": "powerrangerscraft:lightspeed_rescue/blaster_grip_yellow",
+			"item": "powerrangerscraft:blaster_grip_yellow",
 			"title": " ",
 			"text": "The Lightspeed Rangers main side arm (Yellow Version)"
 		},
@@ -53,8 +53,8 @@
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_blaster_pink",
-			"item": "powerrangerscraft:rescue_blaster_pink",
+			"recipe": "powerrangerscraft:lightspeed_rescue/blaster_grip_pink",
+			"item": "powerrangerscraft:blaster_grip_pink",
 			"title": " ",
 			"text": "The Lightspeed Rangers main side arm (Pink Version)"
 		}

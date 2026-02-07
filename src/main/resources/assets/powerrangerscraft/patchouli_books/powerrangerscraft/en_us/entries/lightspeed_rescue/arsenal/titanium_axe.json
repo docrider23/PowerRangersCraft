@@ -1,0 +1,19 @@
+{
+	"name": "Titanium Axe",
+	"icon": "powerrangerscraft:titanium_axe",
+	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/titanium_axe",
+			"item": "powerrangerscraft:titanium_axe",
+			"title": " ",
+			"text": "The Titanium Ranger's Signature Weapon"
+		}
+	]
+}

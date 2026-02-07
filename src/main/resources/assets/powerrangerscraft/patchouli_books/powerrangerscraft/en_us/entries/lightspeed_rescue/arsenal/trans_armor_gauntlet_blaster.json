@@ -1,0 +1,19 @@
+{
+	"name": "Trans Armor Gauntlet Blaster",
+	"icon": "powerrangerscraft:trans_armor_gauntlet_blaster",
+	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/trans_armor_gauntlet_blaster",
+			"item": "powerrangerscraft:trans_armor_gauntlet_blaster",
+			"title": " ",
+			"text": "The Red Lightspeed Ranger's Battlizer Weapon"
+		}
+	]
+}

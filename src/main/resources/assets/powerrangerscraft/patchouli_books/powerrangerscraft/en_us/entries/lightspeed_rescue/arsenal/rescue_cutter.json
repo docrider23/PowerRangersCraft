@@ -1,0 +1,19 @@
+{
+	"name": "Rescue Cutter",
+	"icon": "powerrangerscraft:rescue_cutter",
+	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_cutter",
+			"item": "powerrangerscraft:rescue_cutter",
+			"title": " ",
+			"text": "The Green Lightspeed Ranger's Signature Weapon"
+		}
+	]
+}

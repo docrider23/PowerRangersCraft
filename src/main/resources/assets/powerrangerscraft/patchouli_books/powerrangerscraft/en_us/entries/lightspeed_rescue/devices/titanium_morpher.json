@@ -1,0 +1,19 @@
+{
+	"name": "Titanium Morpher",
+	"icon": "powerrangerscraft:titanium_morpher",
+	"category": "powerrangerscraft:lightspeed_rescue/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/titanium_morpher",
+			"item": "powerrangerscraft:titanium_morpher",
+			"title": " ",
+			"text": "The Titanium Ranger's Morpher."
+		}
+	]
+}

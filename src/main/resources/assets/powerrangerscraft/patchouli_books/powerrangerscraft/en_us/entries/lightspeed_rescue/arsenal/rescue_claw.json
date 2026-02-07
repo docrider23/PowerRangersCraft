@@ -1,0 +1,19 @@
+{
+	"name": "Rescue Claw",
+	"icon": "powerrangerscraft:rescue_claw",
+	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_claw",
+			"item": "powerrangerscraft:rescue_claw",
+			"title": " ",
+			"text": "The Red Lightspeed Ranger's Signature Weapon"
+		}
+	]
+}

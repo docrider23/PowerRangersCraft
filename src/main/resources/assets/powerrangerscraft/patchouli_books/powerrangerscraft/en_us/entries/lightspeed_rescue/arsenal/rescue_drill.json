@@ -1,0 +1,19 @@
+{
+	"name": "Rescue Drill",
+	"icon": "powerrangerscraft:rescue_drill",
+	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/rescue_drill",
+			"item": "powerrangerscraft:rescue_drill",
+			"title": " ",
+			"text": "The Yellow Lightspeed Ranger's Signature Weapon"
+		}
+	]
+}

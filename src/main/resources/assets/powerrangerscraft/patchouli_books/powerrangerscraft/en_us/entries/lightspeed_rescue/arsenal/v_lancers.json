@@ -1,0 +1,63 @@
+{
+	"name": "V Lancers",
+	"icon": "powerrangerscraft:v_lancer_red",
+	"category": "powerrangerscraft:lightspeed_rescue/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/v_lancer_red",
+			"item": "powerrangerscraft:v_lancer_red",
+			"title": " ",
+			"text": "The Lightspeed Rangers secondary side arm (Red Version)"
+		},	{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/v_lancer_blue",
+			"item": "powerrangerscraft:v_lancer_blue",
+			"title": " ",
+			"text": "The Lightspeed Rangers secondary side arm (Blue Version)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/v_lancer_green",
+			"item": "powerrangerscraft:v_lancer_green",
+			"title": " ",
+			"text": "The Lightspeed Rangers secondary side arm (Green Version)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/v_lancer_yellow",
+			"item": "powerrangerscraft:v_lancer_yellow",
+			"title": " ",
+			"text": "The Lightspeed Rangers secondary side arm (Yellow Version)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/v_lancer_pink",
+			"item": "powerrangerscraft:v_lancer_pink",
+			"title": " ",
+			"text": "The Lightspeed Rangers secondary side arm (Pink Version)"
+		}
+
+	]
+}

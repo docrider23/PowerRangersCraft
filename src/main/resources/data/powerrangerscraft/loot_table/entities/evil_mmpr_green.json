@@ -22,7 +22,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:grid_infused_gold_nugget",
+          "name": "powerrangerscraft:grid_infused_gold_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",

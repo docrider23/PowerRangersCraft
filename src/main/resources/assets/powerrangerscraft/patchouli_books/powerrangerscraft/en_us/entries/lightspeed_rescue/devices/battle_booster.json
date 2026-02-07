@@ -1,0 +1,19 @@
+{
+	"name": "Battle Booster",
+	"icon": "powerrangerscraft:battle_booster",
+	"category": "powerrangerscraft:lightspeed_rescue/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/battle_booster",
+			"item": "powerrangerscraft:battle_booster",
+			"title": " ",
+			"text": "Boosts the Lightspeed Rangers Combat power."
+		}
+	]
+}

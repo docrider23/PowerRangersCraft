@@ -1,0 +1,68 @@
+{
+	"name": "rescue Morphers",
+	"icon": "powerrangerscraft:red_rescue_morpher",
+	"category": "powerrangerscraft:lightspeed_rescue/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_rescue_morpher",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/red_rescue_morpher",
+			"item": "powerrangerscraft:red_rescue_morpher",
+			"title": "Red rescue Morpher",
+			"text": "The Lightspeed Red Ranger's rescue Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "blue_rescue_morpher",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/blue_rescue_morpher",
+			"item": "powerrangerscraft:blue_rescue_morpher",
+			"title": "Blue rescue Morpher",
+			"text": "The Lightspeed Blue Ranger's rescue Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "green_rescue_morpher",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/green_rescue_morpher",
+			"item": "powerrangerscraft:green_rescue_morpher",
+			"title": "Green rescue Morpher",
+			"text": "The Lightspeed Green Ranger's rescue Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_rescue_morpher",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/yellow_rescue_morpher",
+			"item": "powerrangerscraft:yellow_rescue_morpher",
+			"title": "Yellow rescue Morpher",
+			"text": "The Lightspeed Yellow Ranger's rescue Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "pink_rescue_morpher",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:lightspeed_rescue/pink_rescue_morpher",
+			"item": "powerrangerscraft:pink_rescue_morpher",
+			"title": "Pink rescue Morpher",
+			"text": "The Lightspeed Pink Ranger's rescue Morpher"
+		}
+	]
+}

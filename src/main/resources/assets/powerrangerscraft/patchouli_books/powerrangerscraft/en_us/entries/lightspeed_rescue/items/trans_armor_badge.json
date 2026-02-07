@@ -1,0 +1,19 @@
+{
+	"name": "Trans Armor Badge",
+	"icon": "powerrangerscraft:trans_armor_badge",
+	"category": "powerrangerscraft:lightspeed_rescue/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Lightspeed Rescue (2000, TV Show)$(br2)Used to access the Red Ranger's $(l:lightspeed_rescue/rangers/lightspeed_rescue_red#lightspeed_rescue_red_trans_armor)Battlizer$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:trans_armor_badge",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:lightspeed_rescue/mobs/batlings)Batlings$(/l)"
+		}
+	]
+}
