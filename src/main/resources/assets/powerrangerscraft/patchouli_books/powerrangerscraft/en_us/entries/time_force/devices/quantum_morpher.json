@@ -1,0 +1,20 @@
+{
+	"name": "Quantum Morphers",
+	"icon": "powerrangerscraft:quantum_morpher",
+	"category": "powerrangerscraft:time_force/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "quantum_morpher",
+			"text": "Appears in:$(li)Power Rangers Time Force (2001, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:time_force/quantum_morpher",
+			"item": "powerrangerscraft:quantum_morpher",
+			"title": " ",
+			"text": "The Quantum Ranger's morpher."
+		}
+	]
+}
