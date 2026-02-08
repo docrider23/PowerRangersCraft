@@ -1,0 +1,19 @@
+{
+	"name": "Animarium Buckle",
+	"icon": "powerrangerscraft:animarium_buckle",
+	"category": "powerrangerscraft:wild_force/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "animarium_buckle",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)$(br2)Used to access the Red Ranger's $(l:wild_force/rangers/wild_force_red#red_savage_warrior)Battlizer$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:animarium_buckle",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/putrids)Putrids$(/l)"
+		}
+	]
+}

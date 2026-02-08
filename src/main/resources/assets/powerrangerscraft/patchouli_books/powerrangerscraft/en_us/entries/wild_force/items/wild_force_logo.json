@@ -1,0 +1,19 @@
+{
+	"name": "Wild Force Logo",
+	"icon": "powerrangerscraft:wild_force_logo",
+	"category": "powerrangerscraft:wild_force/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/wild_force_logo",
+			"item": "powerrangerscraft:wild_force_logo",
+			"title": " ",
+			"text": "Logo for Power Rangers Wild Force"
+		}
+	]
+}

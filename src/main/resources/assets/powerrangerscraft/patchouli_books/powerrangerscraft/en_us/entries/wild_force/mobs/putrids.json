@@ -11,7 +11,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Spawns in the Swamp $(br2)Drops$(li)5 $(l:wild_force/items/empty_animal_crystals)empty Animal Crystal$(/l)$(br)Chance to Drop: $(li)1 $(l:wild_force/items/animal_crystals#lion_animal_crystals)Lion Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#eagle_animal_crystals)Eagle Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#shark_animal_crystals)Shark Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#bison_animal_crystals)Bison Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#tiger_animal_crystals)Tiger Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animarium_buckle)Animarium Buckle$(/l)"
+      "text": "Spawns in the Swamp $(br2)Drops$(li)5 $(l:wild_force/items/empty_animal_crystals)empty Animal Crystal$(/l)$(br)Chance to Drop: $(li)1 $(l:wild_force/items/animal_crystals#lion_animal_crystal)Lion Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#eagle_animal_crystal)Eagle Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#shark_animal_crystal)Shark Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#bison_animal_crystal)Bison Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#tiger_animal_crystal)Tiger Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animarium_buckle)Animarium Buckle$(/l)"
     }
   ]
 

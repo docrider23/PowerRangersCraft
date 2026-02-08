@@ -1,0 +1,19 @@
+{
+	"name": "Empty Animal Crystal",
+	"icon": "powerrangerscraft:empty_animal_crystal",
+	"category": "powerrangerscraft:wild_force/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "empty_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)$(br2)Used to repair wild_force items in an Anvil"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:empty_animal_crystal",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/putrids)Putrids$(/l) $(li)$(l:wild_force/mobs/zen_aku)Zen-Aku$(/l) $(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		}
+	]
+}

@@ -1,0 +1,316 @@
+{
+	"name": "Animal Crystals",
+	"icon": "powerrangerscraft:lion_animal_crystal",
+	"category": "powerrangerscraft:wild_force/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "lion_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)$(br2)Used to craft the Red Ranger's $(l:wild_force/devices/growl_phones#red_growl_phone)Growl Phones$(/l) $(br2)Used to access the Red Ranger's $(l:wild_force/rangers/wild_force_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lion_animal_crystal",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/putrids)Putrids$(/l) $(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "eagle_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)$(br2)Used to craft the Yellow Ranger's $(l:wild_force/devices/growl_phones#yellow_growl_phone)Growl Phones$(/l) $(br2)Used to access the Yellow Ranger's $(l:wild_force/rangers/wild_force_yellow)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:eagle_animal_crystal",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/putrids)Putrids$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "shark_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)$(br2)Used to craft the Blue Ranger's $(l:wild_force/devices/growl_phones#blue_growl_phone)Growl Phones$(/l) $(br2)Used to access the blue Ranger's $(l:wild_force/rangers/wild_force_blue)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:shark_animal_crystal",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/putrids)Putrids$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "bison_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)$(br2)Used to craft the Black Ranger's $(l:wild_force/devices/growl_phones#black_growl_phone)Growl Phones$(/l) $(br2)Used to access the Black Ranger's $(l:wild_force/rangers/wild_force_black)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:bison_animal_crystal",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/putrids)Putrids$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "tiger_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)$(br2)Used to craft the White Ranger's $(l:wild_force/devices/growl_phones#white_growl_phone)Growl Phones$(/l) $(br2)Used to access the White Ranger's $(l:wild_force/rangers/wild_force_white)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:tiger_animal_crystal",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/putrids)Putrids$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "wolf_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)$(br2)Used to craft the Silver Ranger's $(l:wild_force/devices/lunar_caller)Lunar Caller$(/l) $(br2)Used to access the Silver Ranger's $(l:wild_force/rangers/wild_force_silver)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:wolf_animal_crystal",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/zen_aku)Zen-Aku$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "elephant_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:elephant_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "giraffe_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:giraffe_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "black_bear_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:black_bear_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "polar_bear_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:polar_bear_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "gorilla_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:gorilla_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "hammerhead_shark_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:hammerhead_shark_animal_crystal",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/zen_aku)Zen-Aku$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "alligator_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:alligator_animal_crystal",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/zen_aku)Zen-Aku$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "rhino_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:rhino_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "armadillo_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:armadillo_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "red_gorilla_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_gorilla_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "deer_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:deer_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "falcon_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:falcon_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "black_lion_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:black_lion_animal_crystal",
+			"text": "unobtainable"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "condor_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:condor_animal_crystal",
+			"text": "unobtainable"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "sawshark_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:sawshark_animal_crystal",
+			"text": "unobtainable"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "buffalo_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:buffalo_animal_crystal",
+			"text": "unobtainable"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "jaguar_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:jaguar_animal_crystal",
+			"text": "unobtainable"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "panda_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:panda_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "ape_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:ape_animal_crystal",
+			"text": "Drops from:$(li)$(l:misc/ore/animal_crystal_ore)Animal Crystal Ore$(/l) and Deepslate variant"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "lion_blue_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lion_blue_animal_crystal",
+			"text": "unobtainable"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "lion_black_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lion_black_animal_crystal",
+			"text": "unobtainable"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "lion_white_animal_crystal",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lion_white_animal_crystal",
+			"text": "unobtainable"
+		}
+	]
+}

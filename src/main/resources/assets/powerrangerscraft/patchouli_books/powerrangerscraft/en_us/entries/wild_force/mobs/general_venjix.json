@@ -11,7 +11,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Chance to Spawn from $(li)$(l:zeo/mobs/cogs)Cogs$(/l) $(br2)Drops$(li)5 $(l:wild_force/items/empty_animal_crystals)empty Animal Crystal$(/l)$(br)Chance to Drop: $(li)1 $(l:wild_force/items/animal_crystals#lion_animal_crystals)Lion Animal Crystals$(/l)"
+      "text": "Chance to Spawn from $(li)$(l:zeo/mobs/cogs)Cogs$(/l) $(br2)Drops$(li)5 $(l:wild_force/items/empty_animal_crystals)empty Animal Crystal$(/l)$(br)Chance to Drop: $(li)1 $(l:wild_force/items/animal_crystals#lion_animal_crystal)Lion Animal Crystals$(/l)"
     }
   ]
 
