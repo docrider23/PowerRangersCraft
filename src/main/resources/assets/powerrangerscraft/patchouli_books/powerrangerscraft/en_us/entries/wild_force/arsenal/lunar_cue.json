@@ -1,0 +1,19 @@
+{
+	"name": "Lunar Cue",
+	"icon": "powerrangerscraft:lunar_cue",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/lunar_cue",
+			"item": "powerrangerscraft:lunar_cue",
+			"title": " ",
+			"text": "The Silver Wild Force Ranger's Signature Weapon"
+		}
+	]
+}

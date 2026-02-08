@@ -1,0 +1,19 @@
+{
+	"name": "Golden Eagle Sword",
+	"icon": "powerrangerscraft:golden_eagle_sword",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/golden_eagle_sword",
+			"item": "powerrangerscraft:golden_eagle_sword",
+			"title": " ",
+			"text": "The Yellow Wild Force Ranger's Signature Weapon"
+		}
+	]
+}

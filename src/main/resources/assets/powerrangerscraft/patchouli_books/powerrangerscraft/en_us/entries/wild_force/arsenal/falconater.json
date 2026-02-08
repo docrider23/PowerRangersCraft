@@ -1,0 +1,19 @@
+{
+	"name": "Falconator",
+	"icon": "powerrangerscraft:falconator",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/falconator",
+			"item": "powerrangerscraft:falconator",
+			"title": " ",
+			"text": "The Red Wild Force Ranger's third Signature Weapon"
+		}
+	]
+}

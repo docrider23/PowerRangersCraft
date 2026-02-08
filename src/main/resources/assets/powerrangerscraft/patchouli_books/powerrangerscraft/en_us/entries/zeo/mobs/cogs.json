@@ -11,7 +11,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Spawns everywhere in the End $(br2)Drops$(li)5 $(l:zeo/items/zeo_crystal_shard)Zeo Crystal Shard$(/l)$(br)Chance to Drop: $(li)1 $(l:zeo/items/zeo_crystal#red_zeo_sub_crystal)Red Zeo Sub Crystal$(/l)$(li)1 $(l:zeo/items/zeo_crystal#yellow_zeo_sub_crystal)Yellow Zeo Sub Crystal$(/l)"
+      "text": "Spawns everywhere in the End $(br2)Drops$(li)5 $(l:zeo/items/zeo_crystal_shard)Zeo Crystal Shard$(/l)$(br)Chance to Drop: $(li)1 $(l:zeo/items/zeo_crystals#red_zeo_sub_crystal)Red Zeo Sub Crystal$(/l)$(li)1 $(l:zeo/items/zeo_crystals#yellow_zeo_sub_crystal)Yellow Zeo Sub Crystal$(/l)"
     }
   ]
 

@@ -1,0 +1,55 @@
+{
+	"name": "crystal Sabers",
+	"icon": "powerrangerscraft:lion_crystal_saber",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 0,
+	"pages": [
+
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002 TV, Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/crystal_saber",
+			"item": "powerrangerscraft:crystal_saber",
+			"title": " ",
+			"text": "The Wild Force Rangers main blade side arm"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/lion_crystal_saber",
+			"item": "powerrangerscraft:lion_crystal_saber",
+			"title": " ",
+			"text": "The Wild Force Rangers main blade side arm (Red Version)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/eagle_crystal_saber",
+			"item": "powerrangerscraft:eagle_crystal_saber",
+			"title": " ",
+			"text": "The Wild Force Rangers main blade side arm (Yellow Version)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/shark_crystal_saber",
+			"item": "powerrangerscraft:shark_crystal_saber",
+			"title": " ",
+			"text": "The Wild Force Rangers main blade side arm (Blue Version)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/bison_crystal_saber",
+			"item": "powerrangerscraft:bison_crystal_saber",
+			"title": " ",
+			"text": "The Wild Force Rangers main blade side arm (Black Version)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/tiger_crystal_saber",
+			"item": "powerrangerscraft:tiger_crystal_saber",
+			"title": " ",
+			"text": "The Wild Force Rangers main blade side arm (White Version)"
+		}
+	]
+}

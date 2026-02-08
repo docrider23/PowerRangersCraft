@@ -1,0 +1,18 @@
+{
+  "name": "Putrids",
+  "icon": "powerrangerscraft:putrids_club",
+  "category": "powerrangerscraft:wild_force/mobs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "powerrangerscraft:putrids",
+      "text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Series)$(br)Health:45"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Spawns in the Swamp $(br2)Drops$(li)5 $(l:wild_force/items/empty_animal_crystals)empty Animal Crystal$(/l)$(br)Chance to Drop: $(li)1 $(l:wild_force/items/animal_crystals#lion_animal_crystals)Lion Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#eagle_animal_crystals)Eagle Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#shark_animal_crystals)Shark Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#bison_animal_crystals)Bison Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#tiger_animal_crystals)Tiger Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animarium_buckle)Animarium Buckle$(/l)"
+    }
+  ]
+
+}

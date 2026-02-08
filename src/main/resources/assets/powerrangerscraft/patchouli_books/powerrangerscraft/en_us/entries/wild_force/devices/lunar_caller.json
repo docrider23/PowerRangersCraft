@@ -1,0 +1,20 @@
+{
+	"name": "Lunar Caller",
+	"icon": "powerrangerscraft:lunar_caller",
+	"category": "powerrangerscraft:wild_force/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "lunar_caller",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/lunar_caller",
+			"item": "powerrangerscraft:lunar_caller",
+			"title": " ",
+			"text": "The Silver Wild Force Ranger's morpher."
+		}
+	]
+}

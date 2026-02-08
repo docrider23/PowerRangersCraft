@@ -1,0 +1,19 @@
+{
+	"name": "Jungle Sword",
+	"icon": "powerrangerscraft:jungle_sword",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/jungle_sword",
+			"item": "powerrangerscraft:jungle_sword",
+			"title": " ",
+			"text": "The Wild Force Rangers Signature Combined Weapon"
+		}
+	]
+}

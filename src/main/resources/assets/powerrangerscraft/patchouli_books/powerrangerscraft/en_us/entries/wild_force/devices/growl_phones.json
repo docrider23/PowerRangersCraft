@@ -1,0 +1,68 @@
+{
+	"name": "Growl Phones",
+	"icon": "powerrangerscraft:red_growl_phone",
+	"category": "powerrangerscraft:wild_force/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_growl_phone",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/red_growl_phone",
+			"item": "powerrangerscraft:red_growl_phone",
+			"title": " ",
+			"text": "The Red Wild Force Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_growl_phone",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/yellow_growl_phone",
+			"item": "powerrangerscraft:yellow_growl_phone",
+			"title": " ",
+			"text": "The Yellow Wild Force Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "blue_growl_phone",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/blue_growl_phone",
+			"item": "powerrangerscraft:blue_growl_phone",
+			"title": " ",
+			"text": "The Blue Wild Force Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "black_growl_phone",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/black_growl_phone",
+			"item": "powerrangerscraft:black_growl_phone",
+			"title": " ",
+			"text": "The Black Wild Force Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "white_growl_phone",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/white_growl_phone",
+			"item": "powerrangerscraft:white_growl_phone",
+			"title": " ",
+			"text": "The White Wild Force Ranger's morpher."
+		}
+	]
+}

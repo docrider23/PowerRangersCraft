@@ -1,0 +1,18 @@
+{
+  "name": "General Venjix",
+  "icon": "powerrangerscraft:mecha_gear",
+  "category": "powerrangerscraft:wild_force/mobs",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "powerrangerscraft:general_venjix",
+      "text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Series)$(br)Health:100"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Chance to Spawn from $(li)$(l:zeo/mobs/cogs)Cogs$(/l) $(br2)Drops$(li)5 $(l:wild_force/items/empty_animal_crystals)empty Animal Crystal$(/l)$(br)Chance to Drop: $(li)1 $(l:wild_force/items/animal_crystals#lion_animal_crystals)Lion Animal Crystals$(/l)"
+    }
+  ]
+
+}

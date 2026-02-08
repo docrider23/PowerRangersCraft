@@ -1,0 +1,19 @@
+{
+	"name": "White Tiger Baton",
+	"icon": "powerrangerscraft:white_tiger_baton",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/white_tiger_baton",
+			"item": "powerrangerscraft:white_tiger_baton",
+			"title": " ",
+			"text": "The White Wild Force Ranger's Signature Weapon"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Deer Clutcher",
+	"icon": "powerrangerscraft:deer_clutcher",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 14,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/deer_clutcher",
+			"item": "powerrangerscraft:deer_clutcher",
+			"title": " ",
+			"text": "The White Wild Force Ranger's Secondary Signature Weapon"
+		}
+	]
+}

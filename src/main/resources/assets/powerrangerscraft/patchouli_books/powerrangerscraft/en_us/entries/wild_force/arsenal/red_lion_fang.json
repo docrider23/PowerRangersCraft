@@ -1,0 +1,33 @@
+{
+	"name": "Red Lion Fang",
+	"icon": "powerrangerscraft:red_lion_fang",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/red_lion_fang",
+			"item": "powerrangerscraft:red_lion_fang",
+			"title": " ",
+			"text": "The Red Wild Force Ranger's Signature Weapon"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/red_lion_fang_claw",
+			"item": "powerrangerscraft:red_lion_fang_claw",
+			"title": " ",
+			"text": "The Red Wild Force Ranger's Signature Weapon"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/red_lion_fang_claw1",
+			"item": "powerrangerscraft:red_lion_fang_claw1",
+			"title": " ",
+			"text": "The Red Wild Force Ranger's Signature Weapon"
+		}
+	]
+}

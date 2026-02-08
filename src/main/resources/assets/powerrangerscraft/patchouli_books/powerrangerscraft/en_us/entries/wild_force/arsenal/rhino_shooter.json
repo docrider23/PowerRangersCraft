@@ -1,0 +1,19 @@
+{
+	"name": "Rhino Shooter",
+	"icon": "powerrangerscraft:rhino_shooter",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/rhino_shooter",
+			"item": "powerrangerscraft:rhino_shooter",
+			"title": " ",
+			"text": "The Black Wild Force Ranger's Secondary Signature Weapon"
+		}
+	]
+}

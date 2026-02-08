@@ -1,0 +1,19 @@
+{
+	"name": "Jungle Blaster",
+	"icon": "powerrangerscraft:jungle_blaster",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 15,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/jungle_blaster",
+			"item": "powerrangerscraft:jungle_blaster",
+			"title": " ",
+			"text": "The Wild Force Rangers Secondary Combined Weapon"
+		}
+	]
+}

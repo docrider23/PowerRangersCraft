@@ -1,0 +1,41 @@
+{
+	"name": "Wild Force Armor",
+	"icon": "powerrangerscraft:wild_force_head",
+	"category": "powerrangerscraft:wild_force/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/wild_force_head",
+			"item": "powerrangerscraft:wild_force_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/wild_force_torso",
+			"item": "powerrangerscraft:wild_force_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/wild_force_legs",
+			"item": "powerrangerscraft:wild_force_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}

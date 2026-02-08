@@ -1,0 +1,19 @@
+{
+	"name": "Lion Blaster",
+	"icon": "powerrangerscraft:lion_blaster",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/lion_blaster",
+			"item": "powerrangerscraft:lion_blaster",
+			"title": " ",
+			"text": "The Red Wild Force Ranger's Secondary Signature Weapon"
+		}
+	]
+}

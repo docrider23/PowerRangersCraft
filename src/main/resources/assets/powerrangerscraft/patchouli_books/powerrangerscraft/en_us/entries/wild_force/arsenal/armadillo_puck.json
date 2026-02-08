@@ -1,0 +1,19 @@
+{
+	"name": "Armadillo Puck",
+	"icon": "powerrangerscraft:armadillo_puck",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/armadillo_puck",
+			"item": "powerrangerscraft:armadillo_puck",
+			"title": " ",
+			"text": "The Yellow Wild Force Ranger's Secondary Signature Weapon"
+		}
+	]
+}

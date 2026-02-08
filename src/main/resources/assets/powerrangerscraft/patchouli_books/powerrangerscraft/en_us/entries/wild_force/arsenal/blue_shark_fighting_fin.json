@@ -1,0 +1,19 @@
+{
+	"name": "Blue Shark Fighting Fin",
+	"icon": "powerrangerscraft:blue_shark_fighting_fin",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/blue_shark_fighting_fin",
+			"item": "powerrangerscraft:blue_shark_fighting_fin",
+			"title": " ",
+			"text": "The Blue Wild Force Ranger's Signature Weapon"
+		}
+	]
+}

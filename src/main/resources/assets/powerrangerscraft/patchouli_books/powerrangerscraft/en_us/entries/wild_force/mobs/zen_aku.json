@@ -1,0 +1,18 @@
+{
+  "name": "Zen-Aku",
+  "icon": "powerrangerscraft:crescent_blade",
+  "category": "powerrangerscraft:wild_force/mobs",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "powerrangerscraft:zen_aku",
+      "text": "Appears in:$(li)Power Rangers Wild Force (2002, TV Series)$(br)Health:250"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Chance to Spawn from $(li)$(l:wild_force/mobs/putrids)Putrids$(/l) $(br2)Drops$(li)5 $(l:wild_force/items/empty_animal_crystals)empty Animal Crystal$(/l)$(br)Chance to Drop: $(li)1 $(l:wild_force/items/animal_crystals#wolf_animal_crystals)Wolf Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#hammerhead_shark_animal_crystals)Hammerhead Shark Animal Crystals$(/l)$(li)1 $(l:wild_force/items/animal_crystals#alligator_animal_crystals)Alligator Animal Crystals$(/l)"
+    }
+  ]
+
+}

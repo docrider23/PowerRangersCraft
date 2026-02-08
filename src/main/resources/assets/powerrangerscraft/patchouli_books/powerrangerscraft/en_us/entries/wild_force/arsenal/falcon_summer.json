@@ -1,0 +1,19 @@
+{
+	"name": "Falcon Summoner",
+	"icon": "powerrangerscraft:falcon_summoner",
+	"category": "powerrangerscraft:wild_force/arsenal",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Wild Force (2002, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:wild_force/falcon_summoner",
+			"item": "powerrangerscraft:falcon_summoner",
+			"title": " ",
+			"text": "The Red Falcon Zord's Signature Weapon"
+		}
+	]
+}
