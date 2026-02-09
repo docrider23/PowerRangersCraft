@@ -1,0 +1,19 @@
+{
+	"name": "Ninja Storm Logo",
+	"icon": "powerrangerscraft:ninja_storm_logo",
+	"category": "powerrangerscraft:ninja_storm/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV Show)$(br2)Used as the base item and repair material for most Ninja Storm items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:ninja_storm_logo",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+		}
+	]
+}

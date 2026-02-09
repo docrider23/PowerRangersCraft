@@ -1,0 +1,41 @@
+{
+	"name": "Ninja Power Disks",
+	"icon": "powerrangerscraft:red_wind_ninja_power_disk",
+	"category": "powerrangerscraft:ninja_storm/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_wind_ninja_power_disk",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV show)$(br2)Used to craft the Red Ranger's $(l:ninja_storm/devices/wind_morphers#red_wind_morpher)Wind Morpher$(/l)$(br2)Used to access the Red Ranger's $(l:ninja_storm/rangers/red_wind_ninja)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_wind_ninja_power_disk",
+			"text": "Unobtainable"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "blue_wind_ninja_power_disk",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV show)$(br2)Used to craft the Blue Ranger's $(l:ninja_storm/devices/wind_morphers#blue_wind_morpher)Wind Morpher$(/l)$(br2)Used to access the Blue Ranger's $(l:ninja_storm/rangers/blue_wind_ninja)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:blue_wind_ninja_power_disk",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "green_samurai_ninja_power_disk",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV show)$(br2)Used to craft the Green Ranger's $(l:ninja_storm/devices/samurai_cyclone_morphers)Samurai Cyclone Morpher$(/l)$(br2)Used to access the Green Ranger's $(l:ninja_storm/rangers/ninja_storm_green_samurai_ranger)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:green_samurai_ninja_power_disk",
+			"text": "Drops from:$(li)$(l:misc/ore/end_solar_crystal_ore)Animal Crystal Ore$(/l)"
+		}
+	]
+}

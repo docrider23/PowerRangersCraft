@@ -1,0 +1,19 @@
+{
+	"name": "Sonic Fin",
+	"icon": "powerrangerscraft:sonic_fin",
+	"category": "powerrangerscraft:ninja_storm/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_storm/sonic_fin",
+			"item": "powerrangerscraft:sonic_fin",
+			"title": " ",
+			"text": "The Blue Ninja Storm Ranger's Signature Weapon"
+		}
+	]
+}
