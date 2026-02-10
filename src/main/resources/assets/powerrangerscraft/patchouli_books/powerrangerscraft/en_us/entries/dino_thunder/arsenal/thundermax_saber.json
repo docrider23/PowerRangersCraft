@@ -1,0 +1,20 @@
+{
+	"name": "Thundermax Saber",
+	"icon": "powerrangerscraft:thundermax_saber",
+	"category": "powerrangerscraft:dino_thunder/arsenal",
+	"sortnum": 0,
+	"pages": [
+
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004 TV, Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_thunder/thundermax_saber",
+			"item": "powerrangerscraft:thundermax_saber",
+			"title": " ",
+			"text": "The Dino Thunder Rangers main side arm"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"name": "Brachio Morpher",
+	"icon": "powerrangerscraft:brachio_morpher",
+	"category": "powerrangerscraft:dino_thunder/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "brachio_morpher",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_thunder/brachio_morpher",
+			"item": "powerrangerscraft:brachio_morpher",
+			"title": " ",
+			"text": "The Black Dino Thunder Ranger's morpher."
+		}
+	]
+}

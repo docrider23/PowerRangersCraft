@@ -1,0 +1,41 @@
+{
+	"name": "Dino Thunder Armor",
+	"icon": "powerrangerscraft:dino_thunder_head",
+	"category": "powerrangerscraft:dino_thunder/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_thunder/dino_thunder_head",
+			"item": "powerrangerscraft:dino_thunder_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_thunder/dino_thunder_torso",
+			"item": "powerrangerscraft:dino_thunder_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_thunder/dino_thunder_legs",
+			"item": "powerrangerscraft:dino_thunder_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"name": "Dino Morphers",
+	"icon": "powerrangerscraft:red_dino_morpher",
+	"category": "powerrangerscraft:dino_thunder/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_dino_morpher",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_thunder/red_dino_morpher",
+			"item": "powerrangerscraft:red_dino_morpher",
+			"title": " ",
+			"text": "The Red Dino Thunder Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_dino_morpher",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_thunder/yellow_dino_morpher",
+			"item": "powerrangerscraft:yellow_dino_morpher",
+			"title": " ",
+			"text": "The Yellow Dino Thunder Ranger's morpher."
+		}
+	]
+}

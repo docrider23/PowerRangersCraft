@@ -1,0 +1,19 @@
+{
+	"name": "Dino Thunder Logo",
+	"icon": "powerrangerscraft:dino_thunder_logo",
+	"category": "powerrangerscraft:dino_thunder/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV Show)$(br2)Used as the base item and repair material for most Dino Thunder items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:dino_thunder_logo",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+		}
+	]
+}

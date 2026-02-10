@@ -1,0 +1,41 @@
+{
+	"name": "Dino Gems",
+	"icon": "powerrangerscraft:red_dino_gem",
+	"category": "powerrangerscraft:dino_thunder/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_dino_gem",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV show)$(br2)Used to craft the Red Ranger's $(l:dino_thunder/devices/dino_morphers#red_dino_morpher)Dino Morpher$(/l)$(br2)Used to access the Red Ranger's $(l:dino_thunder/rangers/dino_thunder_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_dino_gem",
+			"text": "Drops from:$(li)$(l:mmpr/mobs/goldar#goldar_maximus)Goldar Maximus$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_dino_gem",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV show)$(br2)Used to craft the Yellow Ranger's $(l:dino_thunder/devices/dino_morphers#yellow_dino_morpher)Dino Morpher$(/l)$(br2)Used to access the Yellow Ranger's $(l:dino_thunder/rangers/dino_thunder_yellow)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:yellow_dino_gem",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "black_dino_gem",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV show)$(br2)Used to craft the Black Ranger's $(l:dino_thunder/devices/brachio_morpher)Brachio Morpher$(/l)$(br2)Used to access the Black Ranger's $(l:dino_thunder/rangers/dino_thunder_black)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:black_dino_gem",
+			"text": "Drops from:$(li)$(l:mmpr/mobs/evil_mmpr_green)Evil MMPR Green$(/l)"
+		}
+	]
+}

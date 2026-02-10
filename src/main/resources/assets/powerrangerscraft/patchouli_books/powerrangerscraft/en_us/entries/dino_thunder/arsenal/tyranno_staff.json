@@ -1,0 +1,19 @@
+{
+	"name": "Tyranno Staff",
+	"icon": "powerrangerscraft:tyranno_staff",
+	"category": "powerrangerscraft:dino_thunder/arsenal",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_thunder/tyranno_staff",
+			"item": "powerrangerscraft:tyranno_staff",
+			"title": " ",
+			"text": "The Red Dino Thunder Ranger's Signature Weapon"
+		}
+	]
+}

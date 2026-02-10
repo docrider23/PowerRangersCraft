@@ -1,0 +1,19 @@
+{
+	"name": "Ptera Grip",
+	"icon": "powerrangerscraft:ptera_grip",
+	"category": "powerrangerscraft:dino_thunder/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Thunder (2004, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_thunder/ptera_grip",
+			"item": "powerrangerscraft:ptera_grip",
+			"title": " ",
+			"text": "The Yellow Dino Thunder Ranger's Signature Weapon"
+		}
+	]
+}

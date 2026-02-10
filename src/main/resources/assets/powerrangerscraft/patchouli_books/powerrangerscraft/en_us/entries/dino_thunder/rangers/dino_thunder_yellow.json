@@ -11,7 +11,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Yellow Dino Ranger",
-			"text": "Accessed with the $(l:dino_thunder/items/dino_gems#yellow_dino_gems)Yellow Dino Gem$(/l)"
+			"text": "Accessed with the $(l:dino_thunder/items/dino_gems#yellow_dino_gem)Yellow Dino Gem$(/l)"
 		},
 		{
 			"type": "patchouli:text",
