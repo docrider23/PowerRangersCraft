@@ -1,0 +1,20 @@
+{
+	"name": "Samurai Cyclone Morpher",
+	"icon": "powerrangerscraft:samurai_cyclone_morpher",
+	"category": "powerrangerscraft:ninja_storm/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "samurai_cyclone_morpher",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_storm/samurai_cyclone_morpher",
+			"item": "powerrangerscraft:samurai_cyclone_morpher",
+			"title": " ",
+			"text": "The Green Samurai (Ninja Storm) Ranger's morpher."
+		}
+	]
+}

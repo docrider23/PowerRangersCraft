@@ -29,7 +29,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "green_samurai_ninja_power_disk",
-			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV show)$(br2)Used to craft the Green Ranger's $(l:ninja_storm/devices/samurai_cyclone_morphers)Samurai Cyclone Morpher$(/l)$(br2)Used to access the Green Ranger's $(l:ninja_storm/rangers/ninja_storm_green_samurai_ranger)Base$(/l) forms"
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV show)$(br2)Used to craft the Green Ranger's $(l:ninja_storm/devices/samurai_cyclone_morpher)Samurai Cyclone Morpher$(/l)$(br2)Used to access the Green Ranger's $(l:ninja_storm/rangers/ninja_storm_green_samurai_ranger)Base$(/l) forms"
 		},
 		{
 			"type": "patchouli:spotlight",

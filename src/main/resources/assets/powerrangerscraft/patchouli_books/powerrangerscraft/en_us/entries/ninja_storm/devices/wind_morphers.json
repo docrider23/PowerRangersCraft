@@ -1,0 +1,32 @@
+{
+	"name": "Wind Morphers",
+	"icon": "powerrangerscraft:red_wind_morpher",
+	"category": "powerrangerscraft:ninja_storm/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_wind_morpher",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_storm/red_wind_morpher",
+			"item": "powerrangerscraft:red_wind_morpher",
+			"title": " ",
+			"text": "The Red Ninja Storm Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "blue_wind_morpher",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_storm/blue_wind_morpher",
+			"item": "powerrangerscraft:blue_wind_morpher",
+			"title": " ",
+			"text": "The Blue Ninja Storm Ranger's morpher."
+		}
+	]
+}

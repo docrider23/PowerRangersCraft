@@ -1,0 +1,41 @@
+{
+	"name": "Ninja Storm Armor",
+	"icon": "powerrangerscraft:ninja_storm_head",
+	"category": "powerrangerscraft:ninja_storm/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_storm/ninja_storm_head",
+			"item": "powerrangerscraft:ninja_storm_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_storm/ninja_storm_torso",
+			"item": "powerrangerscraft:ninja_storm_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Ninja Storm (2003, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_storm/ninja_storm_legs",
+			"item": "powerrangerscraft:ninja_storm_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}
