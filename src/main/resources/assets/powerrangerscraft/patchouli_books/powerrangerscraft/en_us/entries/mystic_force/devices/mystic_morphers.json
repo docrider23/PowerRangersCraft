@@ -1,0 +1,32 @@
+{
+	"name": "Mystic Morphers",
+	"icon": "powerrangerscraft:red_mystic_morpher",
+	"category": "powerrangerscraft:mystic_force/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_mystic_morpher",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2006, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mystic_force/red_mystic_morpher",
+			"item": "powerrangerscraft:red_mystic_morpher",
+			"title": "Red Mystic Morpher",
+			"text": "The Red Mystic Force Ranger's Mystic Morpher"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "green_mystic_morpher",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2006, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mystic_force/green_mystic_morpher",
+			"item": "powerrangerscraft:green_mystic_morpher",
+			"title": "Green Mystic Morpher",
+			"text": "The Green Mystic Force Ranger's Mystic Morpher"
+		}
+	]
+}

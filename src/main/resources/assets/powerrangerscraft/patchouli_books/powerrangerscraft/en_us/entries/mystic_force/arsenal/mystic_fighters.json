@@ -1,0 +1,26 @@
+{
+	"name": "Mystic Force Fighters",
+	"icon": "powerrangerscraft:mystic_force_fighter",
+	"category": "powerrangerscraft:mystic_force/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2003, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mystic_force/mystic_force_fighter",
+			"item": "powerrangerscraft:mystic_force_fighter",
+			"title": " ",
+			"text": "The Mystic Force Rangers Boxing Gloves"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mystic_force/mystic_force_fighter1",
+			"item": "powerrangerscraft:mystic_force_fighter1",
+			"title": " ",
+			"text": "The Mystic Force Rangers Boxing Gloves"
+		}
+	]
+}

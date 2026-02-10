@@ -1,0 +1,30 @@
+{
+	"name": "Mystic Morpher Plates",
+	"icon": "powerrangerscraft:red_mystic_morpher_plate",
+	"category": "powerrangerscraft:mystic_force/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_mystic_morpher_plate",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2006, TV show)$(br2)Used to craft the Red Ranger's $(l:mystic_force/devices/mystic_morphers#red_mystic_morpher)Red mystic Morpher$(/l) $(br2)Used to access the Red Ranger's $(l:mystic_force/rangers/mystic_force_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_mystic_morpher_plate",
+			"text": "Unobtainable"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "green_mystic_morpher_plate",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2006, TV show)$(br2)Used to craft the Green Ranger's $(l:mystic_force/devices/mystic_morphers#green_mystic_morpher)Green Mystic Morpher$(/l) $(br2)Used to access the Green Ranger's $(l:mystic_force/rangers/mystic_force_green)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:green_mystic_morpher_plate",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+		}
+	]
+}

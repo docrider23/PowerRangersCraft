@@ -1,0 +1,19 @@
+{
+	"name": "Mystic Force Logo",
+	"icon": "powerrangerscraft:mystic_force_logo",
+	"category": "powerrangerscraft:mystic_force/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2006, TV Show)$(br2)Used as the base item and repair material for most mystic_force items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:mystic_force_logo",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+		}
+	]
+}

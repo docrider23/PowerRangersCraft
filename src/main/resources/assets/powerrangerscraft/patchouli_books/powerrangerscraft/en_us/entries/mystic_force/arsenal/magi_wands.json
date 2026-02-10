@@ -1,0 +1,27 @@
+{
+	"name": "Magi Wands",
+	"icon": "powerrangerscraft:magi_wand_red",
+	"category": "powerrangerscraft:mystic_force/arsenal",
+	"sortnum": 0,
+	"pages": [
+
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2006 TV, Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mystic_force/magi_wand_red",
+			"item": "powerrangerscraft:magi_wand_red",
+			"title": " ",
+			"text": "The Mystic Force Rangers main side arm (Red Version) Shift Right-Click to change to Sword mode"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mystic_force/magi_wand_green",
+			"item": "powerrangerscraft:magi_wand_green",
+			"title": " ",
+			"text": "The Mystic Force Rangers main side arm (Green Version) Shift Right-Click to change into Axe Mode"
+		}
+	]
+}

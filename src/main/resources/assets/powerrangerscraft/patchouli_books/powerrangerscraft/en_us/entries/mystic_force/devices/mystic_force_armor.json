@@ -1,0 +1,41 @@
+{
+	"name": "Mystic Force Armor",
+	"icon": "powerrangerscraft:mystic_force_head",
+	"category": "powerrangerscraft:mystic_force/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2006, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mystic_force/mystic_force_head",
+			"item": "powerrangerscraft:mystic_force_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2006, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mystic_force/mystic_force_torso",
+			"item": "powerrangerscraft:mystic_force_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Mystic Force (2006, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:mystic_force/mystic_force_legs",
+			"item": "powerrangerscraft:mystic_force_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}
