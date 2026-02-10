@@ -1,0 +1,20 @@
+{
+	"name": "Delta Morphers",
+	"icon": "powerrangerscraft:red_delta_morpher",
+	"category": "powerrangerscraft:spd/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_delta_morpher",
+			"text": "Appears in:$(li)Power Rangers SPD (2005, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:spd/red_delta_morpher",
+			"item": "powerrangerscraft:red_delta_morpher",
+			"title": "Red delta Morpher",
+			"text": "The Red SPD Ranger's delta Morpher"
+		}
+	]
+}

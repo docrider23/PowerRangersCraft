@@ -1,0 +1,19 @@
+{
+	"name": "SPD Logo",
+	"icon": "powerrangerscraft:spd_logo",
+	"category": "powerrangerscraft:spd/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers SPD (2005, TV Show)$(br2)Used as the base item and repair material for most SPD items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:spd_logo",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+		}
+	]
+}

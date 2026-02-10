@@ -1,0 +1,19 @@
+{
+	"name": "SPD badges",
+	"icon": "powerrangerscraft:spd_red_badge",
+	"category": "powerrangerscraft:spd/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "spd_red_badge",
+			"text": "Appears in:$(li)Power Rangers SPD (2005, TV show)$(br2)Used to craft the Red Ranger's $(l:spd/devices/delta_morphers#red_delta_morpher)Red Delta Morpher$(/l) $(br2)Used to access the Red Ranger's $(l:spd/rangers/spd_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:spd_red_badge",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"name": "SPD Armor",
+	"icon": "powerrangerscraft:spd_head",
+	"category": "powerrangerscraft:spd/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers SPD (2005, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:spd/spd_head",
+			"item": "powerrangerscraft:spd_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers SPD (2005, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:spd/spd_torso",
+			"item": "powerrangerscraft:spd_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers SPD (2005, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:spd/spd_legs",
+			"item": "powerrangerscraft:spd_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}
