@@ -1,0 +1,75 @@
+{
+	"name": "Overdrive Logos",
+	"icon": "powerrangerscraft:overdrive_red_logo",
+	"category": "powerrangerscraft:operation_overdrive/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "overdrive_red_logo",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)$(br2)Used to craft the Red Ranger's $(l:operation_overdrive/devices/overdrive_trackers#red_overdrive_tracker)Red Overdrive Tracker$(/l) $(br2)Used to access the Red Ranger's $(l:operation_overdrive/rangers/overdrive_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:overdrive_red_logo",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/chillers)Chillers$(/l)$(li)$(l:operation_overdrive/mobs/lava_lizards)Lava Lizards$(/l) $(li)$(l:operation_overdrive/mobs/moltar)Moltar$(/l) $(li)$(l:operation_overdrive/mobs/flurious)Flurious$(/l) $(li)$(l:operation_overdrive/mobs/fearcats)Fearcats$(/l) $(li)$(l:operation_overdrive/mobs/kamdor)Kamdor$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "overdrive_black_logo",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)$(br2)Used to craft the Black Ranger's $(l:operation_overdrive/devices/overdrive_trackers#black_overdrive_tracker)Black Overdrive Tracker$(/l) $(br2)Used to access the Black Ranger's $(l:operation_overdrive/rangers/overdrive_black)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:overdrive_black_logo",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/chillers)Chillers$(/l)$(li)$(l:operation_overdrive/mobs/lava_lizards)Lava Lizards$(/l) $(li)$(l:operation_overdrive/mobs/moltar)Moltar$(/l) $(li)$(l:operation_overdrive/mobs/flurious)Flurious$(/l) $(li)$(l:operation_overdrive/mobs/fearcats)Fearcats$(/l) $(li)$(l:operation_overdrive/mobs/kamdor)Kamdor$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "overdrive_blue_logo",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)$(br2)Used to craft the Blue Ranger's $(l:operation_overdrive/devices/overdrive_trackers#blue_overdrive_tracker)Blue Overdrive Tracker$(/l) $(br2)Used to access the Blue Ranger's $(l:operation_overdrive/rangers/overdrive_blue)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:overdrive_blue_logo",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/chillers)Chillers$(/l)$(li)$(l:operation_overdrive/mobs/lava_lizards)Lava Lizards$(/l) $(li)$(l:operation_overdrive/mobs/moltar)Moltar$(/l) $(li)$(l:operation_overdrive/mobs/flurious)Flurious$(/l) $(li)$(l:operation_overdrive/mobs/fearcats)Fearcats$(/l) $(li)$(l:operation_overdrive/mobs/kamdor)Kamdor$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "overdrive_yellow_logo",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)$(br2)Used to craft the Yellow Ranger's $(l:operation_overdrive/devices/overdrive_trackers#yellow_overdrive_tracker)Yellow Overdrive Tracker$(/l) $(br2)Used to access the Yellow Ranger's $(l:operation_overdrive/rangers/overdrive_yellow)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:overdrive_yellow_logo",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/chillers)Chillers$(/l)$(li)$(l:operation_overdrive/mobs/lava_lizards)Lava Lizards$(/l) $(li)$(l:operation_overdrive/mobs/moltar)Moltar$(/l) $(li)$(l:operation_overdrive/mobs/flurious)Flurious$(/l) $(li)$(l:operation_overdrive/mobs/fearcats)Fearcats$(/l) $(li)$(l:operation_overdrive/mobs/kamdor)Kamdor$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "overdrive_pink_logo",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)$(br2)Used to craft the Pink Ranger's $(l:operation_overdrive/devices/overdrive_trackers#pink_overdrive_tracker)Pink Overdrive Tracker$(/l) $(br2)Used to access the Pink Ranger's $(l:operation_overdrive/rangers/overdrive_pink)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:overdrive_pink_logo",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/chillers)Chillers$(/l)$(li)$(l:operation_overdrive/mobs/lava_lizards)Lava Lizards$(/l) $(li)$(l:operation_overdrive/mobs/moltar)Moltar$(/l) $(li)$(l:operation_overdrive/mobs/flurious)Flurious$(/l) $(li)$(l:operation_overdrive/mobs/fearcats)Fearcats$(/l) $(li)$(l:operation_overdrive/mobs/kamdor)Kamdor$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "mercury_ranger_logo",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)$(br2)Used to craft the Mercury Ranger's $(l:operation_overdrive/devices/mercury_morpher)Mercury Morpher$(/l) $(br2)Used to access the Mercury Ranger's $(l:operation_overdrive/rangers/overdrive_mercury)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:mercury_ranger_logo",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/chillers)Chillers$(/l)$(li)$(l:operation_overdrive/mobs/lava_lizards)Lava Lizards$(/l) $(li)$(l:operation_overdrive/mobs/moltar)Moltar$(/l) $(li)$(l:operation_overdrive/mobs/flurious)Flurious$(/l) $(li)$(l:operation_overdrive/mobs/fearcats)Fearcats$(/l) $(li)$(l:operation_overdrive/mobs/kamdor)Kamdor$(/l)"
+		}
+
+	]
+}

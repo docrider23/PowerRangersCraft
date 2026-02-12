@@ -1,0 +1,19 @@
+{
+	"name": "Operation Overdrive Logo",
+	"icon": "powerrangerscraft:operation_overdrive_logo",
+	"category": "powerrangerscraft:operation_overdrive/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Show)$(br2)Used as the base item and repair material for most Operation Overdrive items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:operation_overdrive_logo",
+			"title": " ",
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/chillers)Chillers$(/l)$(li)$(l:operation_overdrive/mobs/lava_lizards)Lava Lizards$(/l) $(li)$(l:operation_overdrive/mobs/moltar)Moltar$(/l) $(li)$(l:operation_overdrive/mobs/flurious)Flurious$(/l) $(li)$(l:operation_overdrive/mobs/fearcats)Fearcats$(/l) $(li)$(l:operation_overdrive/mobs/kamdor)Kamdor$(/l)"
+		}
+	]
+}

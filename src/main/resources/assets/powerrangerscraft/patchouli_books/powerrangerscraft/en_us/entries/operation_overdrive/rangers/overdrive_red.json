@@ -11,12 +11,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Red Overdrive Ranger",
-			"text": "Accessed with the $(l:overdrive/items/overdrive_logos#overdrive_red_logo)Red Overdrive Logo$(/l)"
+			"text": "Accessed with the $(l:operation_overdrive/items/overdrive_logos#overdrive_red_logo)Red Overdrive Logo$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Red Overdrive Ranger",
-			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:overdrive/devices/overdrive_trackers#red_overdrive_tracker)Red Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:operation_overdrive/devices/overdrive_trackers#red_overdrive_tracker)Red Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
 		},
 
 		{
@@ -26,12 +26,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Red Overdrive Ranger With Defender Vest",
-			"text": "Accessed with the $(l:overdrive/items/defender_vest)Defender Vest$(/l)"
+			"text": "Accessed with the $(l:operation_overdrive/items/defender_vest)Defender Vest$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Red Overdrive Ranger With Defender Vest",
-			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:overdrive/devices/overdrive_trackers#red_overdrive_tracker)Red Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:operation_overdrive/devices/overdrive_trackers#red_overdrive_tracker)Red Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
 		},
 
 		{
@@ -41,12 +41,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Red Sentinel Ranger",
-			"text": "Accessed with the $(l:overdrive/devices/sentinel_morpher)Sentinel Morpher$(/l)"
+			"text": "Accessed with the $(l:operation_overdrive/devices/sentinel_morpher)Sentinel Morpher$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Red Sentinel Ranger",
-			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:overdrive/devices/overdrive_trackers#red_overdrive_tracker)Red Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:operation_overdrive/devices/overdrive_trackers#red_overdrive_tracker)Red Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
 		}
 	]
 

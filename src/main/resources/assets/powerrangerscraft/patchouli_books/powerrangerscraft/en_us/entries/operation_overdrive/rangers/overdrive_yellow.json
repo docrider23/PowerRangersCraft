@@ -11,12 +11,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Yellow Overdrive Ranger",
-			"text": "Accessed with the $(l:overdrive/items/overdrive_logos#overdrive_yellow_logo)Yellow Overdrive Logo$(/l)"
+			"text": "Accessed with the $(l:operation_overdrive/items/overdrive_logos#overdrive_yellow_logo)Yellow Overdrive Logo$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Yellow Overdrive Ranger",
-			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:overdrive/devices/overdrive_trackers#yellow_overdrive_tracker)Yellow Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:operation_overdrive/devices/overdrive_trackers#yellow_overdrive_tracker)Yellow Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
 		},
 
 		{
@@ -26,12 +26,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Yellow Overdrive Ranger With Defender Vest",
-			"text": "Accessed with the $(l:overdrive/items/defender_vest)Defender Vest$(/l)"
+			"text": "Accessed with the $(l:operation_overdrive/items/defender_vest)Defender Vest$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Yellow Overdrive Ranger With Defender Vest",
-			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:overdrive/devices/overdrive_trackers#yellow_overdrive_tracker)Yellow Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Series)$(br2)Transforms with the $(l:operation_overdrive/devices/overdrive_trackers#yellow_overdrive_tracker)Yellow Overdrive Tracker$(/l)$(br2)Status Effects:TBD"
 		}
 	]
 
