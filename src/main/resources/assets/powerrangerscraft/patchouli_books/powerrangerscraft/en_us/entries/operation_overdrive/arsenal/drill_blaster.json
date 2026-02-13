@@ -1,0 +1,19 @@
+{
+	"name": "Drill Blaster",
+	"icon": "powerrangerscraft:drill_blaster_mixer",
+	"category": "powerrangerscraft:operation_overdrive/arsenal",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/drill_blaster_mixer",
+			"item": "powerrangerscraft:drill_blaster_mixer",
+			"title": " ",
+			"text": "The primary weapon of the Defender Vest (Shift right click for alt mode)"
+		}
+	]
+}

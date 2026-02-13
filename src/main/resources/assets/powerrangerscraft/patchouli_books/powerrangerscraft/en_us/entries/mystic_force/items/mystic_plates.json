@@ -24,7 +24,7 @@
 			"type": "patchouli:spotlight",
 			"link_recipe": true,
 			"item": "powerrangerscraft:green_mystic_morpher_plate",
-			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thrax)Thrax$(/l)"
 		}
 	]
 }

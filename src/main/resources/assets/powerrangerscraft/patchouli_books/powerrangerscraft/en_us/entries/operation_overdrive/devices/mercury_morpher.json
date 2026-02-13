@@ -1,0 +1,19 @@
+{
+	"name": "Mercury Morpher",
+	"icon": "powerrangerscraft:mercury_morpher",
+	"category": "powerrangerscraft:operation_overdrive/devices",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/mercury_morpher",
+			"item": "powerrangerscraft:mercury_morpher",
+			"title": " ",
+			"text": "The Mercury Rangers Morpher."
+		}
+	]
+}

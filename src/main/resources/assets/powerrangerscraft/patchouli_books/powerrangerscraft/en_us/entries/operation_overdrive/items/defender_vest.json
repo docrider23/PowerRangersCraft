@@ -7,7 +7,7 @@
 		{
 			"type": "patchouli:text",
 			"anchor": "defender_vest",
-			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Show) $(br2)Used to access the Lost Galaxy Ranger's $(l:operation_overdrive/rangers/overdrive_red#overdrive_red_vest)Red Defender Vest$(/l), $(l:operation_overdrive/rangers/overdrive_black#overdrive_black_vest)Black Defender Vest$(/l), $(l:operation_overdrive/rangers/overdrive_blue#overdrive_blue_vest)Blue Defender Vest$(/l), $(l:operation_overdrive/rangers/overdrive_yellow#overdrive_yellow_vest)Yellow Defender Vest$(/l), $(l:operation_overdrive/rangers/overdrive_pink#overdrive_pink_vest)Pink Defender Vest$(/l), $(l:operation_overdrive/rangers/overdrive_mercury#mercury_ranger_vest)Mercury Defender Vest$(/l), $(l:mmpr/rangers/mmpr_black#mmpr_black_defender)MMPR Black Defender Vest$(/l) forms"
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Show) $(br2)Used to access the Overdrive Ranger's $(l:operation_overdrive/rangers/overdrive_red#overdrive_red_vest)Red Defender Vest$(/l), $(l:operation_overdrive/rangers/overdrive_black#overdrive_black_vest)Black Defender Vest$(/l), $(l:operation_overdrive/rangers/overdrive_blue#overdrive_blue_vest)Blue Defender Vest$(/l), $(l:operation_overdrive/rangers/overdrive_yellow#overdrive_yellow_vest)Yellow Defender Vest$(/l), $(l:operation_overdrive/rangers/overdrive_pink#overdrive_pink_vest)Pink Defender Vest$(/l), $(l:operation_overdrive/rangers/overdrive_mercury#mercury_ranger_vest)Mercury Defender Vest$(/l), $(l:mmpr/rangers/mmpr_black#mmpr_black_defender)MMPR Black Defender Vest$(/l) forms"
 		},
 		{
 			"type": "patchouli:crafting",

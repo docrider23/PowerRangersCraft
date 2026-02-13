@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Show)"
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)"
 		},
 		{
 			"type": "patchouli:crafting",
@@ -17,7 +17,7 @@
 		},
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Show)"
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1998, TV Show)"
 		},
 		{
 			"type": "patchouli:crafting",
@@ -28,7 +28,7 @@
 		},
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Power Rangers In Space (1998, TV Show)"
+			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1998, TV Show)"
 		},
 		{
 			"type": "patchouli:crafting",

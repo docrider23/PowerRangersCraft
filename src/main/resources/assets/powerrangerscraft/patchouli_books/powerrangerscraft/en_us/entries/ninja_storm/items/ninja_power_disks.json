@@ -24,7 +24,7 @@
 			"type": "patchouli:spotlight",
 			"link_recipe": true,
 			"item": "powerrangerscraft:blue_wind_ninja_power_disk",
-			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thrax)Thrax$(/l)"
 		},
 		{
 			"type": "patchouli:text",

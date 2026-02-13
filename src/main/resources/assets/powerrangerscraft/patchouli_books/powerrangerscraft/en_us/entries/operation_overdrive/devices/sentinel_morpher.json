@@ -1,0 +1,19 @@
+{
+	"name": "Sentinel Morpher",
+	"icon": "powerrangerscraft:sentinel_morpher",
+	"category": "powerrangerscraft:operation_overdrive/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "sentinel_morpher",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Show) $(br2)Used to access the Red overdrive Ranger's $(l:operation_overdrive/rangers/overdrive_red#red_sentinel_ranger)Battlizer$(/l) forms"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/sentinel_morpher",
+			"item": "powerrangerscraft:sentinel_morpher",
+			"text": ""
+		}
+	]
+}

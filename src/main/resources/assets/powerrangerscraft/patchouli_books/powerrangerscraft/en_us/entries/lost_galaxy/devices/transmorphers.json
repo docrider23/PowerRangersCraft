@@ -54,13 +54,13 @@
 		},
 		{
 			"type": "patchouli:text",
-			"anchor": "red_transmorpher",
+			"anchor": "pink_transmorpher",
 			"text": "Appears in:$(li)Power Rangers Lost Galaxy (1999, TV Show)"
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "powerrangerscraft:lost_galaxy/red_transmorpher",
-			"item": "powerrangerscraft:red_transmorpher",
+			"recipe": "powerrangerscraft:lost_galaxy/pink_transmorpher",
+			"item": "powerrangerscraft:pink_transmorpher",
 			"title": " ",
 			"text": "The Pink Galaxy Ranger's morpher."
 		}

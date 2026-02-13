@@ -1,0 +1,68 @@
+{
+	"name": "Overdrive Trackers",
+	"icon": "powerrangerscraft:red_overdrive_tracker",
+	"category": "powerrangerscraft:operation_overdrive/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_overdrive_tracker",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/red_overdrive_tracker",
+			"item": "powerrangerscraft:red_overdrive_tracker",
+			"title": " ",
+			"text": "The Red Overdrive Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "black_overdrive_tracker",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/black_overdrive_tracker",
+			"item": "powerrangerscraft:black_overdrive_tracker",
+			"title": " ",
+			"text": "The Black Overdrive Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "blue_overdrive_tracker",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/blue_overdrive_tracker",
+			"item": "powerrangerscraft:blue_overdrive_tracker",
+			"title": " ",
+			"text": "The Blue Overdrive Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_overdrive_tracker",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/yellow_overdrive_tracker",
+			"item": "powerrangerscraft:yellow_overdrive_tracker",
+			"title": " ",
+			"text": "The Yellow Overdrive Ranger's morpher."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "red_overdrive_tracker",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/pink_overdrive_tracker",
+			"item": "powerrangerscraft:pink_overdrive_tracker",
+			"title": " ",
+			"text": "The Pink Overdrive Ranger's morpher."
+		}
+	]
+}

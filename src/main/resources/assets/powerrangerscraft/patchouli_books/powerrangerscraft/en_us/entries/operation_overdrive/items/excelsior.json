@@ -1,0 +1,19 @@
+{
+	"name": "Excelsior",
+	"icon": "powerrangerscraft:unfinished_sentinel_sword",
+	"category": "powerrangerscraft:operation_overdrive/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV Show)$(br2)Used to craft the Sentinel Knight's $(l:operation_overdrive/devices/sentinel_knight_chestpiece)Chestpiece$(/l) $(br2)Used to access the Sentinel Knight's $(l:operation_overdrive/rangers/sentinel_knight)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:unfinished_sentinel_sword",
+			"title": " ",
+			"text": "Found in Statues that spawn in forests"
+		}
+	]
+}

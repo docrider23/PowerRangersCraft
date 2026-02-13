@@ -13,7 +13,7 @@
 			"link_recipe": true,
 			"item": "powerrangerscraft:ninja_storm_logo",
 			"title": " ",
-			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thraxx)Thraxx$(/l)"
+			"text": "Drops from:$(li)$(l:operation_overdrive/mobs/thrax)Thrax$(/l)"
 		}
 	]
 }

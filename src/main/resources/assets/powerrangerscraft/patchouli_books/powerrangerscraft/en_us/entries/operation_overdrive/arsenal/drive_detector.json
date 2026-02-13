@@ -1,0 +1,19 @@
+{
+	"name": "Drive Detector",
+	"icon": "powerrangerscraft:drive_detector_spear",
+	"category": "powerrangerscraft:operation_overdrive/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/drive_detector_spear",
+			"item": "powerrangerscraft:drive_detector_spear",
+			"title": " ",
+			"text": "The primary weapon of the mercury Overdrive Rangers"
+		}
+	]
+}

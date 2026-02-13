@@ -1,0 +1,19 @@
+{
+	"name": "Drive Geyser",
+	"icon": "powerrangerscraft:drive_geyser",
+	"category": "powerrangerscraft:operation_overdrive/arsenal",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/drive_geyser",
+			"item": "powerrangerscraft:drive_geyser",
+			"title": " ",
+			"text": "The primary weapon of the Pink Overdrive Rangers"
+		}
+	]
+}

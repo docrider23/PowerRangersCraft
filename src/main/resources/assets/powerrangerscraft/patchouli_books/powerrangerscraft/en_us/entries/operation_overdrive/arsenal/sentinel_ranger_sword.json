@@ -1,0 +1,26 @@
+{
+	"name": "Sentinel Ranger Sword",
+	"icon": "powerrangerscraft:sentinel_ranger_sword",
+	"category": "powerrangerscraft:operation_overdrive/arsenal",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/sentinel_ranger_sword",
+			"item": "powerrangerscraft:sentinel_ranger_sword",
+			"title": " ",
+			"text": "Red Sentinel Rangers Weapons"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/sentinel_ranger_sword1",
+			"item": "powerrangerscraft:sentinel_ranger_sword1",
+			"title": " ",
+			"text": "Red Sentinel Rangers Weapons"
+		}
+	]
+}

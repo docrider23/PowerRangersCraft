@@ -1,0 +1,19 @@
+{
+	"name": "Sentinel Knight Chestpiece",
+	"icon": "powerrangerscraft:sentinel_knight_chestpiece",
+	"category": "powerrangerscraft:operation_overdrive/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/sentinel_knight_chestpiece",
+			"item": "powerrangerscraft:sentinel_knight_chestpiece",
+			"title": " ",
+			"text": "The Sentinel Knight's Chestpiece (Morpher)."
+		}
+	]
+}

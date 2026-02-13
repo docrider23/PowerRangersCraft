@@ -1,0 +1,19 @@
+{
+	"name": "Drive Lance",
+	"icon": "powerrangerscraft:drive_lance",
+	"category": "powerrangerscraft:operation_overdrive/arsenal",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/drive_lance",
+			"item": "powerrangerscraft:drive_lance",
+			"title": " ",
+			"text": "The primary weapon of the Red Overdrive Rangers (Shift Right click for alt mode)"
+		}
+	]
+}

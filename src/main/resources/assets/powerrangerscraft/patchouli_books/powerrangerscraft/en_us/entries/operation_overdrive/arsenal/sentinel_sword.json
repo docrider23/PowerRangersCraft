@@ -1,0 +1,19 @@
+{
+	"name": "Sentinel Sword",
+	"icon": "powerrangerscraft:sentinel_sword",
+	"category": "powerrangerscraft:operation_overdrive/arsenal",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/sentinel_sword",
+			"item": "powerrangerscraft:sentinel_sword",
+			"title": " ",
+			"text": "Sword Mode of the Sentinel Knight"
+		}
+	]
+}

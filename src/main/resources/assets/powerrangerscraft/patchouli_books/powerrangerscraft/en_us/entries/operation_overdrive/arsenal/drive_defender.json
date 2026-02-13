@@ -1,0 +1,19 @@
+{
+	"name": "Drive Defender",
+	"icon": "powerrangerscraft:drive_defender",
+	"category": "powerrangerscraft:operation_overdrive/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/drive_defender",
+			"item": "powerrangerscraft:drive_defender",
+			"title": " ",
+			"text": "The Standard Side arm for the Overdrive Rangers"
+		}
+	]
+}

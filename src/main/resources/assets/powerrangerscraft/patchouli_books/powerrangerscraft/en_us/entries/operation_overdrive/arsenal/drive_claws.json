@@ -1,0 +1,26 @@
+{
+	"name": "Drive Claws",
+	"icon": "powerrangerscraft:drive_claw",
+	"category": "powerrangerscraft:operation_overdrive/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Operation Overdrive (2007, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/drive_claw",
+			"item": "powerrangerscraft:drive_claw",
+			"title": " ",
+			"text": "The primary weapon of the Yellow Overdrive Rangers"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:operation_overdrive/drive_claw1",
+			"item": "powerrangerscraft:drive_claw1",
+			"title": " ",
+			"text": "The primary weapon of the Yellow Overdrive Rangers"
+		}
+	]
+}
