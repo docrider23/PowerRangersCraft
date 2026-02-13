@@ -1,0 +1,20 @@
+{
+	"name": "Solar Morphers",
+	"icon": "powerrangerscraft:red_solar_morpher",
+	"category": "powerrangerscraft:jungle_fury/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_solar_morpher",
+			"text": "Appears in:$(li)Power Rangers Jungle Fury (2008, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:jungle_fury/red_solar_morpher",
+			"item": "powerrangerscraft:red_solar_morpher",
+			"title": "Red Solar Morpher",
+			"text": "The Red Jungle Fury Ranger's Solar Morpher"
+		}
+	]
+}

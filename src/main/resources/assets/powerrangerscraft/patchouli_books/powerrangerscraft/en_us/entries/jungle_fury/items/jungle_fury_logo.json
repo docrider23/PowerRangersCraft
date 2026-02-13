@@ -1,0 +1,19 @@
+{
+	"name": "Jungle Fury Logo",
+	"icon": "powerrangerscraft:jungle_fury_logo",
+	"category": "powerrangerscraft:jungle_fury/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Jungle Fury (2008, TV Show)$(br2)Used as the base item and repair material for most Jungle Fury items"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:jungle_fury_logo",
+			"title": " ",
+			"text": "Unobtainable"
+		}
+	]
+}

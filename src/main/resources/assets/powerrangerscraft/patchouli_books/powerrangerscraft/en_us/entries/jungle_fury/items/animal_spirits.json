@@ -1,0 +1,19 @@
+{
+	"name": "Animal Spirit",
+	"icon": "powerrangerscraft:tiger_spirit",
+	"category": "powerrangerscraft:jungle_fury/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "tiger_spirit",
+			"text": "Appears in:$(li)Power Rangers Jungle Fury (2008, TV show)$(br2)Used to craft the Red Ranger's $(l:jungle_fury/devices/solar_morphers#red_solar_morpher)Red Solar Morpher$(/l) $(br2)Used to access the Red Ranger's $(l:jungle_fury/rangers/jungle_fury_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:tiger_spirit",
+			"text": "Unobtainable"
+		}
+	]
+}

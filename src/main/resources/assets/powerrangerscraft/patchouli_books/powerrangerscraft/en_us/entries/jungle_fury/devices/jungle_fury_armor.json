@@ -1,0 +1,41 @@
+{
+	"name": "Jungle Fury Armor",
+	"icon": "powerrangerscraft:jungle_fury_head",
+	"category": "powerrangerscraft:jungle_fury/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Jungle Fury (2008, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:jungle_fury/jungle_fury_head",
+			"item": "powerrangerscraft:jungle_fury_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Jungle Fury (2008, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:jungle_fury/jungle_fury_torso",
+			"item": "powerrangerscraft:jungle_fury_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Jungle Fury (2008, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:jungle_fury/jungle_fury_legs",
+			"item": "powerrangerscraft:jungle_fury_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}
