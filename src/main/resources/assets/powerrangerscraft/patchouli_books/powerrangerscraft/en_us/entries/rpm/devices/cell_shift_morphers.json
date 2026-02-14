@@ -1,0 +1,20 @@
+{
+	"name": "Cell Shift Morphers",
+	"icon": "powerrangerscraft:red_cell_shift_morpher",
+	"category": "powerrangerscraft:rpm/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_cell_shift_morpher",
+			"text": "Appears in:$(li)Power Rangers RPM (2009, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:rpm/red_cell_shift_morpher",
+			"item": "powerrangerscraft:red_cell_shift_morpher",
+			"title": "Red Cell Shift Morpher",
+			"text": "The Red RPM Ranger's Cell Shift Morpher"
+		}
+	]
+}

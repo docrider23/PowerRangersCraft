@@ -1,0 +1,41 @@
+{
+	"name": "RPM Armor",
+	"icon": "powerrangerscraft:rpm_head",
+	"category": "powerrangerscraft:rpm/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers RPM (2009, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:rpm/rpm_head",
+			"item": "powerrangerscraft:rpm_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers RPM (2009, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:rpm/rpm_torso",
+			"item": "powerrangerscraft:rpm_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers RPM (2009, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:rpm/rpm_legs",
+			"item": "powerrangerscraft:rpm_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}

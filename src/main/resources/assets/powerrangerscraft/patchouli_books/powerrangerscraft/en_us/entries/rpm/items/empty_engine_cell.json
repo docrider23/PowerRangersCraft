@@ -1,0 +1,19 @@
+{
+	"name": "Empty Engine Cell",
+	"icon": "powerrangerscraft:empty_engine_cell",
+	"category": "powerrangerscraft:rpm/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "empty_engine_cell",
+			"text": "Appears in:$(li)Power Rangers RPM (2009, TV show)$(br2)Used to repair RPM items in an Anvil"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:empty_engine_cell",
+			"text": "Unobtainable"
+		}
+	]
+}

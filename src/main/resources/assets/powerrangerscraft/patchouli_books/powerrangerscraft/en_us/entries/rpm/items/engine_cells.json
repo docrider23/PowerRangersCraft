@@ -1,0 +1,19 @@
+{
+	"name": "Engine Cells",
+	"icon": "powerrangerscraft:eagle_racer_engine_cell",
+	"category": "powerrangerscraft:rpm/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "eagle_racer_engine_cell",
+			"text": "Appears in:$(li)Power Rangers RPM (2008, TV show)$(br2)Used to craft the Red Ranger's $(l:rpm/devices/cell_shift_morphers#red_cell_shift_morpher)Red Cell Shift Morpher$(/l) $(br2)Used to access the Red Ranger's $(l:rpm/rangers/rpm_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:eagle_racer_engine_cell",
+			"text": "Unobtainable"
+		}
+	]
+}

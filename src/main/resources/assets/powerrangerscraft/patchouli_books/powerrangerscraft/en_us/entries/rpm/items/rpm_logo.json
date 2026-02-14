@@ -1,0 +1,19 @@
+{
+	"name": "RPM Logo",
+	"icon": "powerrangerscraft:rpm_logo",
+	"category": "powerrangerscraft:rpm/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers RPM (2009, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:rpm/rpm_logo",
+			"item": "powerrangerscraft:rpm_logo",
+			"title": " ",
+			"text": "Logo for Power Rangers RPM"
+		}
+	]
+}
