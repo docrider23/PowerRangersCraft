@@ -1,0 +1,80 @@
+{
+	"name": "Samuraizers",
+	"icon": "powerrangerscraft:red_samuraizer",
+	"category": "powerrangerscraft:samurai/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_samuraizer",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/red_samuraizer",
+			"item": "powerrangerscraft:red_samuraizer",
+			"title": "Red Samuraizer",
+			"text": "The Red Samurai Ranger's Samuraizer"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "blue_samuraizer",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/blue_samuraizer",
+			"item": "powerrangerscraft:blue_samuraizer",
+			"title": "Blue Samuraizer",
+			"text": "The Blue Samurai Ranger's Samuraizer"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "pink_samuraizer",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/pink_samuraizer",
+			"item": "powerrangerscraft:pink_samuraizer",
+			"title": "Pink Samuraizer",
+			"text": "The Pink Samurai Ranger's Samuraizer"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "green_samuraizer",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/green_samuraizer",
+			"item": "powerrangerscraft:green_samuraizer",
+			"title": "Green Samuraizer",
+			"text": "The Green Samurai Ranger's Samuraizer"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "yellow_samuraizer",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/yellow_samuraizer",
+			"item": "powerrangerscraft:yellow_samuraizer",
+			"title": "Yellow Samuraizer",
+			"text": "The Yellow Samurai Ranger's Samuraizer"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "princess_samuraizer",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/princess_samuraizer",
+			"item": "powerrangerscraft:princess_samuraizer",
+			"title": "Red (Female) Samuraizer",
+			"text": "The Red (Female) Samurai Ranger's Samuraizer"
+		}
+	]
+}

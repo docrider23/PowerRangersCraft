@@ -25,7 +25,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Green Samurai Ranger Mega Mode",
-			"text": "Accessed with the $(l:samurai/items/samurai_discs#bear_disc)Mega Disc$(/l)"
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#mega_mode_disc)Mega Disc$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -39,7 +39,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Green Super Samurai Ranger",
-			"text": "Accessed with the $(l:samurai/items/samurai_discs#bear_disc)Super Samurai Disc$(/l)"
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#super_samurai_disc)Super Samurai Disc$(/l) With a $(l:samurai/items/black_box) Black Box$(/l) in your Inventory"
 		},
 		{
 			"type": "patchouli:text",
@@ -53,7 +53,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Green Samurai Ranger Super Mega Mode",
-			"text": "Accessed with the $(l:samurai/items/samurai_discs#bear_disc)Mega Disc$(/l) while in Super Samurai"
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#mega_mode_disc)Mega Disc$(/l) while in Super Samurai"
 		},
 		{
 			"type": "patchouli:text",
@@ -67,7 +67,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Green Shogun Ranger",
-			"text": "Accessed with the $(l:samurai/items/samurai_discs#bear_disc)Shogun Disc$(/l)"
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#shogun_disc)Shogun Disc$(/l)"
 		},
 		{
 			"type": "patchouli:text",
@@ -81,7 +81,7 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Green Samurai Ranger Shark Attack Mode",
-			"text": "Accessed with the $(l:samurai/items/samurai_discs#bear_disc)Shark Disc$(/l)"
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#shark_disc)Shark Disc$(/l) With a $(l:samurai/arsenal/spin_sword) Spin Sword$(/l) in your off hand"
 		},
 		{
 			"type": "patchouli:text",

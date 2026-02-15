@@ -1,0 +1,19 @@
+{
+	"name": "Spin Sword",
+	"icon": "powerrangerscraft:spin_sword",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/spin_sword",
+			"item": "powerrangerscraft:spin_sword",
+			"title": " ",
+			"text": "The Standard blade Side arm for the Samurai Rangers"
+		}
+	]
+}

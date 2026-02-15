@@ -1,0 +1,19 @@
+{
+	"name": "Fire Smasher",
+	"icon": "powerrangerscraft:fire_smasher",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/fire_smasher",
+			"item": "powerrangerscraft:fire_smasher",
+			"title": " ",
+			"text": "The Red Samurai Rangers Primary Weapon"
+		}
+	]
+}

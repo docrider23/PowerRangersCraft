@@ -1,0 +1,19 @@
+{
+	"name": "Light Zord Blade",
+	"icon": "powerrangerscraft:light_zord_blade",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 13,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/light_zord_blade",
+			"item": "powerrangerscraft:light_zord_blade",
+			"title": " ",
+			"text": "The Gold Samurai Ranger's Secondary Weapon"
+		}
+	]
+}

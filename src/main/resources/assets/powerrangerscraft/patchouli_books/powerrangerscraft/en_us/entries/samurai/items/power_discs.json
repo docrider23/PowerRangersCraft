@@ -1,0 +1,19 @@
+{
+	"name": "Generic Samurai Discs",
+	"icon": "powerrangerscraft:samurai_disc",
+	"category": "powerrangerscraft:samurai/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "samurai_disc",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)$(br2)Used to repair Samurai items in an Anvil"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:samurai_disc",
+			"text": "Drops from $(l:samurai/mobs/moogers)Moogers$(/l)"
+		}
+	]
+}

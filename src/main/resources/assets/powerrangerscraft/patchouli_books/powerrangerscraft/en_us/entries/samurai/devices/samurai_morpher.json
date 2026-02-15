@@ -1,0 +1,20 @@
+{
+	"name": "Samurai Morphers",
+	"icon": "powerrangerscraft:samurai_morpher",
+	"category": "powerrangerscraft:samurai/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "samurai_morpher",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/samurai_morpher",
+			"item": "powerrangerscraft:samurai_morpher",
+			"title": "Samurai Morpher",
+			"text": "The Gold Samurai Ranger's Samurai Morpher"
+		}
+	]
+}

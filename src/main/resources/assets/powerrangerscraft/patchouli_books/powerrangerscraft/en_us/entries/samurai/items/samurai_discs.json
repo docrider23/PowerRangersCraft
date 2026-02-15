@@ -1,0 +1,140 @@
+{
+	"name": "Samurai Discs",
+	"icon": "powerrangerscraft:lion_disc",
+	"category": "powerrangerscraft:samurai/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "lion_disc",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)$(br2)Used to craft the Red Ranger's $(l:samurai/devices/samuraizers#red_samuraizer)Red Samuraizer$(/l) $(br2)Used to access the Red Ranger's $(l:samurai/rangers/samurai_red)Base$(/l) forms $(br2)Used to craft the Red (Female) Ranger's $(l:samurai/devices/samuraizers#princess_samuraizer)Red (Female) Samuraizer$(/l) $(br2)Used to access the Red (Female) Ranger's $(l:samurai/rangers/samurai_princess)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:lion_disc",
+			"text": "Drops from $(l:samurai/mobs/moogers)Moogers$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "dragon_disc",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)$(br2)Used to craft the Blue Ranger's $(l:samurai/devices/samuraizers#blue_samuraizer)Blue Samuraizer$(/l) $(br2)Used to access the Blue Ranger's $(l:samurai/rangers/samurai_blue)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:dragon_disc",
+			"text": "Drops from $(l:samurai/mobs/moogers)Moogers$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "turtle_disc",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)$(br2)Used to craft the Pink Ranger's $(l:samurai/devices/samuraizers#pink_samuraizer)Pink Samuraizer$(/l) $(br2)Used to access the Blue Ranger's $(l:samurai/rangers/samurai_pink)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:turtle_disc",
+			"text": "Drops from $(l:samurai/mobs/moogers)Moogers$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "bear_disc",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)$(br2)Used to craft the Green Ranger's $(l:samurai/devices/samuraizers#green_samuraizer)Green Samuraizer$(/l) $(br2)Used to access the Green Ranger's $(l:samurai/rangers/samurai_green)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:bear_disc",
+			"text": "Drops from $(l:samurai/mobs/moogers)Moogers$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "ape_disc",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)$(br2)Used to craft the Yellow Ranger's $(l:samurai/devices/samuraizers#yellow_samuraizer)Yellow Samuraizer$(/l) $(br2)Used to access the Yellow Ranger's $(l:samurai/rangers/samurai_yellow)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:ape_disc",
+			"text": "Drops from $(l:samurai/mobs/moogers)Moogers$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "coral_disc",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)$(br2)Used to craft the Gold Ranger's $(l:samurai/devices/samurai_morpher)Samurai Morpher$(/l) $(br2)Used to access the Gold Ranger's $(l:samurai/rangers/samurai_gold)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:coral_disc",
+			"text": "Drops from $(l:samurai/mobs/moogers)Moogers$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "super_samurai_disc",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show) ($br2) Used to access the Samurai Red Ranger's $(l:samurai/rangers/samurai_red#super_samurai_red)Super$(/l) forms Samurai Blue Ranger's $(l:samurai/rangers/samurai_blue#super_samurai_blue)Super$(/l) forms Samurai Pink Ranger's $(l:samurai/rangers/samurai_pink#super_samurai_pink)Super$(/l) forms Samurai Green Ranger's $(l:samurai/rangers/samurai_green#super_samurai_green)Super$(/l) forms Samurai Yellow Ranger's $(l:samurai/rangers/samurai_yellow#super_samurai_yellow)Super$(/l) forms Samurai Gold Ranger's $(l:samurai/rangers/samurai_gold#super_samurai_gold)Super$(/l) forms Samurai Red (Female) Ranger's $(l:samurai/rangers/samurai_princess#super_samurai_princess)Super$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:super_samurai_disc",
+			"text": "Drops from $(l:misc/ores/deepslate_power_disc_ore)Deepslate Power Disc Ore$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "shark_disc",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show) ($br2) Used to access the Samurai Ranger's $(l:samurai/rangers/samurai_red#samurai_red_shark_attack)Shark Attack Mode$(/l) forms Please note this works with all Samurai rangers ($br2) the Red RPM Ranger's $(l:samurai/rangers/rpm_red#rpm_red_shark_attack)Shark Attack Mode$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:shark_disc",
+			"text": "Drops from $(l:misc/ores/power_disc_ore)Power Disc Ore$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "bullzooka_disc",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:bullzooka_disc",
+			"text": "Drops from $(l:misc/ores/deepslate_power_disc_ore)Deepslate Power Disc Ore$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "light_zord_disc",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:light_zord_disc",
+			"text": "Drops from $(l:misc/ores/deepslate_power_disc_ore)Deepslate Power Disc Ore$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "mega_mode_disc",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show) ($br2) Used to access the Samurai Ranger's $(l:samurai/rangers/samurai_red#samurai_red_mega_mode)Mega Mode$(/l) $(l:samurai/rangers/samurai_red#samurai_red_super_mega_mode)Super Mega Mode$(/l) $(l:samurai/rangers/samurai_red#samurai_red_shark_attack_mega_mode)Shark Attack Mega Mode$(/l) forms Please note this works with all Samurai rangers with the exception of Shark Attack Mega mode which is exclusive to Red"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:mega_mode_disc",
+			"text": "Drops from $(l:misc/ores/power_disc_ore)Power Disc Ore$(/l)"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "shogun_disc",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show) ($br2) Used to access the Samurai Ranger's $(l:samurai/rangers/samurai_red#shogun_red)Shogun Mode$(/l) forms Please note this works with all Samurai rangers"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:shogun_disc",
+			"text": "Drops from $(l:misc/ores/power_disc_ore)Power Disc Ore$(/l)"
+		}
+	]
+}

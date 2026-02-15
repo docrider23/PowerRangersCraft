@@ -1,0 +1,19 @@
+{
+	"name": "Super Bullzooka",
+	"icon": "powerrangerscraft:super_bullzooka",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 12,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/super_bullzooka",
+			"item": "powerrangerscraft:super_bullzooka",
+			"title": " ",
+			"text": "The Samurai Rangers Super Mode Team Cannon combined with the Super Spin Sword"
+		}
+	]
+}

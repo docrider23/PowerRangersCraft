@@ -1,0 +1,19 @@
+{
+	"name": "Forest Spear",
+	"icon": "powerrangerscraft:forest_spear",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/forest_spear",
+			"item": "powerrangerscraft:forest_spear",
+			"title": " ",
+			"text": "The Green Samurai Rangers Primary Weapon"
+		}
+	]
+}

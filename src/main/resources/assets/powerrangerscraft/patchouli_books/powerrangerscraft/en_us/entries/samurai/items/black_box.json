@@ -1,0 +1,19 @@
+{
+	"name": "Black Box",
+	"icon": "powerrangerscraft:black_box",
+	"category": "powerrangerscraft:samurai/items",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "black_box",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/black_box",
+			"item": "powerrangerscraft:black_box",
+			"text": "Black Box"
+		}
+	]
+}

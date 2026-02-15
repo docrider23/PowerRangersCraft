@@ -1,0 +1,19 @@
+{
+	"name": "Super Spin Sword",
+	"icon": "powerrangerscraft:super_spin_sword",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 8,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/super_spin_sword",
+			"item": "powerrangerscraft:super_spin_sword",
+			"title": " ",
+			"text": "The Standard blade Side arm for the Samurai Rangers Super mode"
+		}
+	]
+}

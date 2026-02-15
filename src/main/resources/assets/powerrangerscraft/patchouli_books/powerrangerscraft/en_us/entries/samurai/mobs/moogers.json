@@ -1,0 +1,18 @@
+{
+  "name": "Moogers",
+  "icon": "powerrangerscraft:moogers_dao",
+  "category": "powerrangerscraft:samurai/mobs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "powerrangerscraft:mooger",
+      "text": "Appears in:$(li)Power Rangers Samurai (2011, TV Series)$(br)Health:45"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Spawns everywhere in the Swamp $(br2)Drops$(li)5 $(l:samurai/items/power_discs)Samurai Disc$(/l)$(br)Chance to Drop: $(li)1 $(l:samurai/items/samurai_discs#lion_disc)Lion Disc $(/l)$(li)1 $(l:samurai/items/samurai_discs#dragon_disc)Dragon Disc $(/l)$(li)1 $(l:samurai/items/samurai_discs#turtle_disc)Turtle Disc $(/l)$(li)1 $(l:samurai/items/samurai_discs#bear_disc)Bear Disc $(/l)$(li)1 $(l:samurai/items/samurai_discs#ape_disc)Ape Disc $(/l)$(li)1 $(l:samurai/items/samurai_discs#coral_disc)Coral Disc $(/l)"
+    }
+  ]
+
+}

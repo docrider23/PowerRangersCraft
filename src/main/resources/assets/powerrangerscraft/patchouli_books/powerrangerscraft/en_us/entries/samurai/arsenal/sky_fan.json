@@ -1,0 +1,19 @@
+{
+	"name": "Sky Fan",
+	"icon": "powerrangerscraft:sky_fan",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/sky_fan",
+			"item": "powerrangerscraft:sky_fan",
+			"title": " ",
+			"text": "The Pink Samurai Rangers Primary Weapon"
+		}
+	]
+}

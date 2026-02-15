@@ -1,0 +1,19 @@
+{
+	"name": "Bullzooka",
+	"icon": "powerrangerscraft:bullzooka",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 11,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/bullzooka",
+			"item": "powerrangerscraft:bullzooka",
+			"title": " ",
+			"text": "The Samurai Rangers Super Mode Team Cannon"
+		}
+	]
+}

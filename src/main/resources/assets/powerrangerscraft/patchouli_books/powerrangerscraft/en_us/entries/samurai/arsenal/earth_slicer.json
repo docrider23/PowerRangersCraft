@@ -1,0 +1,19 @@
+{
+	"name": "Earth Slicer",
+	"icon": "powerrangerscraft:earth_slicer",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/earth_slicer",
+			"item": "powerrangerscraft:earth_slicer",
+			"title": " ",
+			"text": "The Red Samurai Rangers Primary Weapon"
+		}
+	]
+}

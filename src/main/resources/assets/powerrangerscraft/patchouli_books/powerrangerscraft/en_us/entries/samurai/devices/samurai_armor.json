@@ -1,0 +1,41 @@
+{
+	"name": "Samurai Armor",
+	"icon": "powerrangerscraft:samurai_head",
+	"category": "powerrangerscraft:samurai/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/samurai_head",
+			"item": "powerrangerscraft:samurai_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/samurai_torso",
+			"item": "powerrangerscraft:samurai_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/samurai_legs",
+			"item": "powerrangerscraft:samurai_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Barracuda Blade",
+	"icon": "powerrangerscraft:barracuda_blade",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/barracuda_blade",
+			"item": "powerrangerscraft:barracuda_blade",
+			"title": " ",
+			"text": "The Gold Samurai Rangers Primary Weapon"
+		}
+	]
+}

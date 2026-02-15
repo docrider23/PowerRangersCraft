@@ -1,0 +1,19 @@
+{
+	"name": "Shark Sword",
+	"icon": "powerrangerscraft:shark_sword",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/shark_sword",
+			"item": "powerrangerscraft:shark_sword",
+			"title": " ",
+			"text": "The Standard blade Side arm for the Samurai Rangers Shark Attack Mode"
+		}
+	]
+}

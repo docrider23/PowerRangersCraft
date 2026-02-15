@@ -16,7 +16,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Gold Samurai Ranger",
-			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#samurai_morpher)Samurai Morpher Morpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV Series)$(br2)Transforms with the $(l:samurai/devices/samurai_morpher)Samurai Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 		{
 			"type": "patchouli:entity",
@@ -25,12 +25,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Gold Samurai Ranger Mega Mode",
-			"text": "Accessed with the $(l:samurai/items/samurai_discs#coral_disc)Mega Disc$(/l)"
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#mega_mode_disc)Mega Disc$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Gold Samurai Ranger Mega Mode",
-			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#samurai_morpher)Samurai Morpher Morpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV Series)$(br2)Transforms with the $(l:samurai/devices/samurai_morpher)Samurai Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 		{
 			"type": "patchouli:entity",
@@ -39,12 +39,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Gold Super Samurai Ranger",
-			"text": "Accessed with the $(l:samurai/items/samurai_discs#coral_disc)Super Samurai Disc$(/l)"
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#super_samurai_disc)Super Samurai Disc$(/l) With a $(l:samurai/items/black_box) Black Box$(/l) in your Inventory"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Gold Super Samurai Ranger",
-			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#samurai_morpher)Samurai Morpher Morpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samurai_morpher)Samurai Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 		{
 			"type": "patchouli:entity",
@@ -53,12 +53,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Gold Samurai Ranger Super Mega Mode",
-			"text": "Accessed with the $(l:samurai/items/samurai_discs#coral_disc)Mega Disc$(/l) while in Super Samurai"
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#mega_mode_disc)Mega Disc$(/l) while in Super Samurai"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Gold Samurai Ranger Super Mega Mode",
-			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#samurai_morpher)Samurai Morpher Morpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samurai_morpher)Samurai Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 		{
 			"type": "patchouli:entity",
@@ -67,12 +67,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Gold Shogun Ranger",
-			"text": "Accessed with the $(l:samurai/items/samurai_discs#coral_disc)Shogun Disc$(/l)"
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#shogun_disc)Shogun Disc$(/l)"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Gold Shogun Ranger",
-			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#samurai_morpher)Samurai Morpher Morpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samurai_morpher)Samurai Morpher$(/l)$(br2)Status Effects:TBD"
 		},
 		{
 			"type": "patchouli:entity",
@@ -81,12 +81,12 @@
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Gold Samurai Ranger Shark Attack Mode",
-			"text": "Accessed with the $(l:samurai/items/samurai_discs#coral_disc)Shark Disc$(/l)"
+			"text": "Accessed with the $(l:samurai/items/samurai_discs#shark_disc)Shark Disc$(/l) With a $(l:samurai/arsenal/spin_sword) Spin Sword$(/l) in your off hand"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Gold Samurai Ranger Shark Attack Mode",
-			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samuraizers#samurai_morpher)Samurai Morpher Morpher$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV Series)$(br2)Transforms with the $(l:samurai/devices/samurai_morpher)Samurai Morpher$(/l)$(br2)Status Effects:TBD"
 		}
 	]
 

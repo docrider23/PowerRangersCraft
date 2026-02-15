@@ -1,0 +1,19 @@
+{
+	"name": "Super Mega Blade",
+	"icon": "powerrangerscraft:super_mega_blade",
+	"category": "powerrangerscraft:samurai/arsenal",
+	"sortnum": 9,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Super Samurai (2012, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/super_mega_blade",
+			"item": "powerrangerscraft:super_mega_blade",
+			"title": " ",
+			"text": "The Standard blade Side arm for the Samurai Rangers in Super Mega Mode"
+		}
+	]
+}

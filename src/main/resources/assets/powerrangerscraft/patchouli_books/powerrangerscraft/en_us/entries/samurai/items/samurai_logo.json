@@ -1,0 +1,19 @@
+{
+	"name": "Samurai Logo",
+	"icon": "powerrangerscraft:samurai_logo",
+	"category": "powerrangerscraft:samurai/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Samurai (2011, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:samurai/samurai_logo",
+			"item": "powerrangerscraft:samurai_logo",
+			"title": " ",
+			"text": "Logo for Power Rangers Samurai"
+		}
+	]
+}
