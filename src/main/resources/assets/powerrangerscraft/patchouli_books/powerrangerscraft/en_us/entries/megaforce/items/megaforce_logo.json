@@ -1,0 +1,19 @@
+{
+	"name": "Megaforce Logo",
+	"icon": "powerrangerscraft:megaforce_logo",
+	"category": "powerrangerscraft:megaforce/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Megaforce (2013, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:megaforce/megaforce_logo",
+			"item": "powerrangerscraft:megaforce_logo",
+			"title": " ",
+			"text": "Logo for Power Rangers Megaforce"
+		}
+	]
+}

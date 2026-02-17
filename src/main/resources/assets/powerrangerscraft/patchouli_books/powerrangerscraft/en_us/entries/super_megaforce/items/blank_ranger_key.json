@@ -1,0 +1,19 @@
+{
+	"name": "Blank Ranger key",
+	"icon": "powerrangerscraft:blank_ranger_key",
+	"category": "powerrangerscraft:super_megaforce/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "blank_ranger_key",
+			"text": "Appears in:$(li)Power Rangers Super Megaforce (2014, TV show)$(br2)Used to repair Megaforce items in an Anvil"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:blank_ranger_key",
+			"text": "Unobtainable"
+		}
+	]
+}

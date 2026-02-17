@@ -1,0 +1,20 @@
+{
+	"name": "Legendary Morphers",
+	"icon": "powerrangerscraft:red_legendary_morpher",
+	"category": "powerrangerscraft:super_megaforce/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_legendary_morpher",
+			"text": "Appears in:$(li)Power Rangers Super Megaforce (2014, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:super_megaforce/red_legendary_morpher",
+			"item": "powerrangerscraft:red_legendary_morpher",
+			"title": "Red legendary Morpher",
+			"text": "The Red Super Megaforce Ranger's Legendary Morpher"
+		}
+	]
+}

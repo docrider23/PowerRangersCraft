@@ -1,0 +1,41 @@
+{
+	"name": "Super Megaforce Armor",
+	"icon": "powerrangerscraft:super_megaforce_head",
+	"category": "powerrangerscraft:super_megaforce/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Super Megaforce (2014, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:super_megaforce/super_megaforce_head",
+			"item": "powerrangerscraft:super_megaforce_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Super Megaforce (2014, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:super_megaforce/super_megaforce_torso",
+			"item": "powerrangerscraft:super_megaforce_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Super Megaforce (2014, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:super_megaforce/super_megaforce_legs",
+			"item": "powerrangerscraft:super_megaforce_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}

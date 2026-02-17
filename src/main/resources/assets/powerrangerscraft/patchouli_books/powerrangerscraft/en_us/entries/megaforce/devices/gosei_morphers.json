@@ -1,0 +1,20 @@
+{
+	"name": "Gosei Morphers",
+	"icon": "powerrangerscraft:red_gosei_morpher",
+	"category": "powerrangerscraft:megaforce/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_gosei_morpher",
+			"text": "Appears in:$(li)Power Rangers Megaforce (2013, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:megaforce/red_gosei_morpher",
+			"item": "powerrangerscraft:red_gosei_morpher",
+			"title": "Red Gosei Morpher",
+			"text": "The Red Megaforce Ranger's gosei Morpher"
+		}
+	]
+}

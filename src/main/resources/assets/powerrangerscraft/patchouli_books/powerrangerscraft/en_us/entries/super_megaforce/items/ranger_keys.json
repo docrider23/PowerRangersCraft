@@ -1,0 +1,19 @@
+{
+	"name": "Ranger Keys",
+	"icon": "powerrangerscraft:super_megaforce_red_key",
+	"category": "powerrangerscraft:super_megaforce/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "super_megaforce_red_key",
+			"text": "Appears in:$(li)Power Rangers Super Megaforce (2013, TV show)$(br2)Used to craft the Red Ranger's $(l:super_megaforce/devices/legendary_morphers#red_legendary_morpher)Red Legendary Morpher$(/l) $(br2)Used to access the Red Ranger's $(l:super_megaforce/rangers/super_megaforce_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:super_megaforce_red_key",
+			"text": "Unobtainable"
+		}
+	]
+}

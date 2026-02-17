@@ -1,0 +1,19 @@
+{
+	"name": "Power Cards",
+	"icon": "powerrangerscraft:red_change_power_card",
+	"category": "powerrangerscraft:megaforce/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_change_power_card",
+			"text": "Appears in:$(li)Power Rangers Megaforce (2013, TV show)$(br2)Used to craft the Red Ranger's $(l:megaforce/devices/gosei_morphers#red_gosei_morpher)Red Gosei Morpher$(/l) $(br2)Used to access the Red Ranger's $(l:megaforce/rangers/megaforce_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_change_power_card",
+			"text": "Unobtainable"
+		}
+	]
+}
