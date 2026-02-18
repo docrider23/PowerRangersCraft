@@ -1,0 +1,19 @@
+{
+	"name": "Empty Dino Charger",
+	"icon": "powerrangerscraft:empty_dino_charger",
+	"category": "powerrangerscraft:dino_charge/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "empty_dino_charger",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)$(br2)Used to repair Dino Charge items in an Anvil"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:empty_dino_charger",
+			"text": "Drops from: $(li)$(l:mmpr/mobs/goldar#goldar_maximus)Goldar Maximus$(/l) $(li)$(l:cosmic_fury/mobs/zentinels)Zentinels$(/l)"
+		}
+	]
+}

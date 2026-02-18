@@ -1,7 +1,7 @@
 {
 	"parent": "powerrangerscraft:super_megaforce/main",
     "name": "Super Megaforce Morphers",
-    "description": "The transformation devices used by the Super Megaforce Rangers. These can be repaired in an anvil using $(l:super_megaforce/items/legendary_ranger_keys#blank_ranger_key)Blank Ranger Keys$(/l).",
+    "description": "The transformation devices used by the Super Megaforce Rangers. These can be repaired in an anvil using $(l:super_megaforce/items/blank_ranger_key)Blank Ranger Keys$(/l).",
     "icon": "powerrangerscraft:red_legendary_morpher",
     "sortnum": 1
 }

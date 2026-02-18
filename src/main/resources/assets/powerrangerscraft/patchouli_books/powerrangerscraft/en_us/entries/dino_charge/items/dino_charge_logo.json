@@ -1,0 +1,19 @@
+{
+	"name": "Dino Charge Logo",
+	"icon": "powerrangerscraft:dino_charge_logo",
+	"category": "powerrangerscraft:dino_charge/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_charge/dino_charge_logo",
+			"item": "powerrangerscraft:dino_charge_logo",
+			"title": " ",
+			"text": "Logo for Power Rangers Dino Charge"
+		}
+	]
+}

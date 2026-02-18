@@ -1,0 +1,20 @@
+{
+	"name": "Dino Charge Morpher",
+	"icon": "powerrangerscraft:dino_charge_morpher",
+	"category": "powerrangerscraft:dino_charge/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_charge/dino_charge_morpher",
+			"item": "powerrangerscraft:dino_charge_morpher",
+			"title": " ",
+			"text": "The Dino Charge Rangers Morpher"
+		}
+
+	]
+}

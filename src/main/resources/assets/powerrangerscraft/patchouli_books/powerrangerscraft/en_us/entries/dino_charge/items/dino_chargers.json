@@ -1,0 +1,41 @@
+{
+	"name": "Dino Chargers",
+	"icon": "powerrangerscraft:tyrannosaurus_rex_dino_charger",
+	"category": "powerrangerscraft:dino_charge/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "tyrannosaurus_rex_dino_charger",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)$(br2)Used to craft the Red Ranger's $(l:dino_charge/devices/dino_charge_morphers#red_dino_charge_morpher)Red Dino Charge Morpher$(/l) $(br2)Used to access the Red Ranger's $(l:dino_charge/rangers/dino_charge_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:tyrannosaurus_rex_dino_charger",
+			"text": "Drops From: $(l:mmpr/mobs/goldar#goldar_maximus)Goldar Maximus$(/l) "
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "spinosaurus_dino_charger",
+			"text": "Appears in:$(li)Power Rangers Dino Super Charge (2016, TV show)$(br2)Used to craft the Dark Ranger's $(l:dino_charge/devices/dark_spino_boomerang)Dark Spino Boomerang$(/l) $(br2)Used to access the Red Ranger's $(l:dino_charge/rangers/dino_charge_dark)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:spinosaurus_dino_charger",
+			"text": "Drops From: $(l:cosmic_fury/mobs/zentinels)Zentinels$(/l) "
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "dino_cycle_charger",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)$(br2)Used to to spawn the Dino Cycle"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:dino_cycle_charger",
+			"text": "Drops From: $(l:cosmic_fury/mobs/zentinels)Zentinels$(/l) "
+		}
+	]
+}

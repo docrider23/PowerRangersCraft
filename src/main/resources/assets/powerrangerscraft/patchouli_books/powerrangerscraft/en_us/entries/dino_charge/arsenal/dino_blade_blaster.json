@@ -1,0 +1,20 @@
+{
+	"name": "Dino Blade Blaster",
+	"icon": "powerrangerscraft:dino_blade_blaster",
+	"category": "powerrangerscraft:dino_charge/arsenal",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_charge/dino_blade_blaster",
+			"item": "powerrangerscraft:dino_blade_blaster",
+			"title": " ",
+			"text": "The Dino Charge Rangers Cannon Side Arm"
+		}
+
+	]
+}
