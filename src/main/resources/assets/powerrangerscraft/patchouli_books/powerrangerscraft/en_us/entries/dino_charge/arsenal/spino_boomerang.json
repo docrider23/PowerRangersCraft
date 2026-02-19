@@ -1,0 +1,20 @@
+{
+	"name": "Spino Boomerang",
+	"icon": "powerrangerscraft:spino_boomerang",
+	"category": "powerrangerscraft:dino_charge/arsenal",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_charge/spino_boomerang",
+			"item": "powerrangerscraft:spino_boomerang",
+			"title": " ",
+			"text": "The Dark Dino Charge Rangers Primary Weapon/Morpher"
+		}
+
+	]
+}

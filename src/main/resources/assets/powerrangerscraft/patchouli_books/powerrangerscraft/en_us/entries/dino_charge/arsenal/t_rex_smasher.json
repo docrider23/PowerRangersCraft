@@ -1,0 +1,20 @@
+{
+	"name": "T-Rex Smasher",
+	"icon": "powerrangerscraft:t_rex_smasher",
+	"category": "powerrangerscraft:dino_charge/arsenal",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_charge/t_rex_smasher",
+			"item": "powerrangerscraft:t_rex_smasher",
+			"title": " ",
+			"text": "The Red Dino Charge Rangers Primary Weapon"
+		}
+
+	]
+}
