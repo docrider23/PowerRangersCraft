@@ -1,0 +1,19 @@
+{
+	"name": "Dino Charge Morphers",
+	"icon": "powerrangerscraft:red_dino_charge_morpher",
+	"category": "powerrangerscraft:dino_charge/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_dino_charge_morpher",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_dino_charge_morpher",
+			"text": "Obtained by having an empty leg slot and with the $(l:dino_charge/items/dino_chargers#tyrannosaurus_rex_dino_charger)T-Rex Charger$(/l) in the Main Hand and the $(l:dino_charge/arsenal/dino_charge_morpher)Dino Charge Morpher$(/l) in your Off Hand."
+		}
+	]
+}

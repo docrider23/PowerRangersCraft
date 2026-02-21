@@ -1,0 +1,19 @@
+{
+	"name": "Spino Boomerang",
+	"icon": "powerrangerscraft:dark_spino_boomerang",
+	"category": "powerrangerscraft:dino_charge/devices",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "dark_spino_boomerang",
+			"text": "Appears in:$(li)Power Rangers Cosmic Fury (2023, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:dark_spino_boomerang",
+			"text": "Obtained by having an empty leg slot and with the $(l:dino_charge/items/dino_chargers#spinosaurus_dino_charger)Spino Charger$(/l) in the Main Hand and the $(l:dino_charge/arsenal/spino_boomerang)Spino Boomerang$(/l) in your Off Hand."
+		}
+	]
+}

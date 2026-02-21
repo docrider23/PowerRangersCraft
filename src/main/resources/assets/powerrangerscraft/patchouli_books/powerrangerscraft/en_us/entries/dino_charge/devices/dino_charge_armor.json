@@ -1,0 +1,41 @@
+{
+	"name": "Dino Charge Armor",
+	"icon": "powerrangerscraft:dino_charge_head",
+	"category": "powerrangerscraft:dino_charge/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_charge/dino_charge_head",
+			"item": "powerrangerscraft:dino_charge_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_charge/dino_charge_torso",
+			"item": "powerrangerscraft:dino_charge_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Dino Charge (2015, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:dino_charge/dino_charge_legs",
+			"item": "powerrangerscraft:dino_charge_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}

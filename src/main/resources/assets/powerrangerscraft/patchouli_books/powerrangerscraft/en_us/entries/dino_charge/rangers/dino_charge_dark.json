@@ -16,7 +16,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Dark Dino Charge Ranger",
-			"text": "Appears in:$(li)Mighty Morphin Power Rangers (2016, Comic Series)$(br2)Transforms with the $(l:dino_charge/devices/dino_charge_morphers#dark_spino_boomerang)Spino Boomerang$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Mighty Morphin Power Rangers (2016, Comic Series)$(br2)Transforms with the $(l:dino_charge/devices/dark_spino_boomerang)Spino Boomerang$(/l)$(br2)Status Effects:TBD"
 		}
 	]
 
