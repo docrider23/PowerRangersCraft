@@ -1,0 +1,19 @@
+{
+	"name": "Ninja Steel Logo",
+	"icon": "powerrangerscraft:ninja_steel_logo",
+	"category": "powerrangerscraft:ninja_steel/items",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_steel/ninja_steel_logo",
+			"item": "powerrangerscraft:ninja_steel_logo",
+			"title": " ",
+			"text": "Logo for Power Rangers Ninja Steel"
+		}
+	]
+}

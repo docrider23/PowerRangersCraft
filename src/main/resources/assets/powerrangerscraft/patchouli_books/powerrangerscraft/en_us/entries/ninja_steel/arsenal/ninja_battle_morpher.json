@@ -1,0 +1,20 @@
+{
+	"name": "Ninja Battle Morpher",
+	"icon": "powerrangerscraft:ninja_battle_morpher",
+	"category": "powerrangerscraft:ninja_steel/arsenal",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_steel/ninja_battle_morpher",
+			"item": "powerrangerscraft:ninja_battle_morpher",
+			"title": " ",
+			"text": "The Ninja Steel Rangers Morpher"
+		}
+
+	]
+}

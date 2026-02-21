@@ -1,0 +1,41 @@
+{
+	"name": "Ninja Steel Armor",
+	"icon": "powerrangerscraft:ninja_steel_head",
+	"category": "powerrangerscraft:ninja_steel/devices",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_steel/ninja_steel_head",
+			"item": "powerrangerscraft:ninja_steel_head",
+			"title": " ",
+			"text": "used in the head slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_steel/ninja_steel_torso",
+			"item": "powerrangerscraft:ninja_steel_torso",
+			"title": " ",
+			"text": "used in the chest slot."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV show)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:ninja_steel/ninja_steel_legs",
+			"item": "powerrangerscraft:ninja_steel_legs",
+			"title": " ",
+			"text": "used in the leg slot."
+		}
+	]
+}

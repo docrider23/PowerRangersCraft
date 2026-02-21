@@ -1,0 +1,30 @@
+{
+	"name": "Ninja Power Stars",
+	"icon": "powerrangerscraft:red_ninja_power_star",
+	"category": "powerrangerscraft:ninja_steel/items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_ninja_power_star",
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV show)$(br2)Used to craft the Red Ranger's $(l:ninja_steel/devices/ninja_battle_morphers#red_ninja_battle_morpher)Red Ninja Battle Morpher$(/l) $(br2)Used to access the Red Ranger's $(l:ninja_steel/rangers/ninja_steel_red)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_ninja_power_star",
+			"text": "Unobtainable"
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "red_ninja_power_star_silver",
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV show)$(br2)Used to craft the Silver Sash Red Ranger's $(l:ninja_steel/devices/ninja_battle_morphers#red_silver_ninja_battle_morpher)Red (W/ Silver Slash) Ninja Battle Morpher$(/l) $(br2)Used to access the Silver Sash Red Ranger's $(l:ninja_steel/rangers/ninja_steel_red_silver)Base$(/l) forms"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_ninja_power_star_silver",
+			"text": "Drops from: $(l:cosmic_fury/mobs/zentinels)Zentinels$(/l)"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Ninja Steel Ingot",
+	"icon": "powerrangerscraft:ninja_steel_ingot",
+	"category": "powerrangerscraft:ninja_steel/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "empty_ninja_steelr",
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV show)$(br2)Used to repair Ninja Steel items in an Anvil"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:ninja_steel_ingot",
+			"text": "Drops from: $(l:cosmic_fury/mobs/zentinels)Zentinels$(/l)"
+		}
+	]
+}

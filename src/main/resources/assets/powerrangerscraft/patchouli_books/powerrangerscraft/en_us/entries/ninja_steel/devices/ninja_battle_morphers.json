@@ -1,0 +1,30 @@
+{
+	"name": "Ninja Battle Morphers",
+	"icon": "powerrangerscraft:red_ninja_battle_morpher",
+	"category": "powerrangerscraft:ninja_steel/devices",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "red_ninja_battle_morpher",
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_ninja_battle_morpher",
+			"text": "Obtained by having an empty leg slot and with the $(l:ninja_steel/items/ninja_power_stars#red_ninja_power_star)Red Ninja Power Star$(/l) in the Main Hand and the $(l:ninja_steel/arsenal/ninja_battle_morpher)Ninja Battle Morpher$(/l) in your Off Hand."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "red_silver_ninja_battle_morpher",
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV show)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:red_silver_ninja_battle_morpher",
+			"text": "Obtained by having an empty leg slot and with the $(l:ninja_steel/items/ninja_power_stars#red_ninja_power_star_silver)Red Ninja Power Star$(/l) in the Main Hand and the $(l:ninja_steel/arsenal/ninja_battle_morpher)Ninja Battle Morpher$(/l) in your Off Hand."
+		}
+	]
+}

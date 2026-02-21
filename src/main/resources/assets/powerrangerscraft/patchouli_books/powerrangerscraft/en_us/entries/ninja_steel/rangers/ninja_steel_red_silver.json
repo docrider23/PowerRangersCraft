@@ -16,7 +16,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Red Ninja Steel Ranger w/ Silver Sash",
-			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV Series)$(br2)Transforms with the $(l:ninja_steel/devices/ninja_battle_morphers#red_ninja_battle_morpher)Red Ninja Battle Morpher Silver Sash$(/l)$(br2)Status Effects:TBD"
+			"text": "Appears in:$(li)Power Rangers Ninja Steel (2017, TV Series)$(br2)Transforms with the $(l:ninja_steel/devices/ninja_battle_morphers#red_silver_ninja_battle_morpher)Red Ninja Battle Morpher Silver Sash$(/l)$(br2)Status Effects:TBD"
 		}
 	]
 
