@@ -6,14 +6,14 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Appears in:$(li)Mighty Morphin Alien Rangers (1996, TV show)$(br2)Used as the base item and repair material for most alien items"
+			"text": "Appears in:$(li)Mighty Morphin Alien Rangers (1996, TV show)"
 		},
 		{
-			"type": "patchouli:spotlight",
-			"link_recipe": true,
+			"type": "patchouli:crafting",
+			"recipe": "powerrangerscraft:alien/alien_logo",
 			"item": "powerrangerscraft:alien_logo",
 			"title": " ",
-			"text": "Drops from:$(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+			"text": "Logo for the Alien Rangers"
 		}
 	]
 }

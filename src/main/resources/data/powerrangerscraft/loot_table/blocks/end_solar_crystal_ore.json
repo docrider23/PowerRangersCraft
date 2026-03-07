@@ -113,7 +113,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "powerrangerscraft:red_space_disk",
+          "name": "powerrangerscraft:red_data_card",
           "functions": [
             {
               "function": "minecraft:apply_bonus",

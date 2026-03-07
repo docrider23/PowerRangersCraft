@@ -1,7 +1,10 @@
 package com.docrider.powerrangerscraft.items.others;
 
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.MMPRItems;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.client.RangerArmorRenderer;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponents;
@@ -33,11 +36,27 @@ import java.util.function.Consumer;
 
 public class RangerArmorItem extends ArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
-    private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+    private Item RepairItem = OtherItems.GRID_INFUSED_GOLD_INGOT.get();
 
     public RangerArmorItem(Holder<ArmorMaterial> material, Type type, Properties properties) {
         super(material, type, properties.stacksTo(1).durability(type ==Type.BOOTS?600:500));
 
+    }
+
+    @Override
+    public boolean canElytraFly(ItemStack stack, net.minecraft.world.entity.LivingEntity entity) {
+        return entity.hasEffect(EffectCore.GLIDE);
+    }
+
+    @Override
+    public boolean elytraFlightTick(ItemStack stack, net.minecraft.world.entity.LivingEntity entity, int flightTicks) {
+        if (!entity.level().isClientSide) {
+            int nextFlightTick = flightTicks + 1;
+            if (nextFlightTick % 10 == 0) {
+                entity.gameEvent(net.minecraft.world.level.gameevent.GameEvent.ELYTRA_GLIDE);
+            }
+        }
+        return true;
     }
 
     @Override
@@ -47,7 +66,10 @@ public class RangerArmorItem extends ArmorItem implements GeoItem {
 
             @Override
             public <T extends LivingEntity> HumanoidModel<?> getGeoArmorRenderer(@Nullable T livingEntity, ItemStack itemStack, @Nullable EquipmentSlot equipmentSlot, @Nullable HumanoidModel<T> original) {
-                this.renderer = new RangerArmorRenderer(livingEntity, equipmentSlot);
+                if(this.renderer == null)
+                    this.renderer = new RangerArmorRenderer(livingEntity, equipmentSlot);
+                final Minecraft mc = Minecraft.getInstance();
+                this.renderer.prepForRender(livingEntity, itemStack, equipmentSlot, original, mc.renderBuffers().bufferSource(), mc.getTimer().getGameTimeDeltaPartialTick(true), 0, 0, 0, 0);
 
                 return this.renderer;
             }
@@ -123,6 +145,7 @@ public class RangerArmorItem extends ArmorItem implements GeoItem {
     public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
         RawAnimation IDLE = RawAnimation.begin().thenLoop("idle");
         RawAnimation WALK = RawAnimation.begin().thenLoop("walk");
+        RawAnimation IDLE_CAPE = RawAnimation.begin().thenLoop("idle_cape");
 
         controllerRegistrar.add(new AnimationController<>(this, "rangerAnim", 20, state -> {
             Entity entity = state.getData(DataTickets.ENTITY);
@@ -156,7 +179,7 @@ public class RangerArmorItem extends ArmorItem implements GeoItem {
 
                 if (this instanceof RangerChangerItem belt) {
 
-                    if (RangerChangerItem.get_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),1).get_has_cape()) {
+                    if (belt.HasCpae(player.getItemBySlot(EquipmentSlot.FEET))) {
                         float cape = GetCapeRotation(player.getItemBySlot(EquipmentSlot.FEET));
                         float ball = 0;
 

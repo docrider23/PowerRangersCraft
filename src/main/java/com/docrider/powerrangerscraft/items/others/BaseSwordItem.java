@@ -1,13 +1,14 @@
 package com.docrider.powerrangerscraft.items.others;
 
 import com.docrider.powerrangerscraft.items.MMPRItems;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import net.minecraft.world.item.*;
 
 import java.util.List;
 
 public class BaseSwordItem extends SwordItem {
 
-	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+	private Item RepairItem = OtherItems.GRID_INFUSED_GOLD_INGOT.get();
 
 	private Item craftingRemainingItem = null;
 	

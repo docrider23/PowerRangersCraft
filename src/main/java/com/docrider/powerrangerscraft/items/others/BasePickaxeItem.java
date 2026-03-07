@@ -1,13 +1,14 @@
 package com.docrider.powerrangerscraft.items.others;
 
 import com.docrider.powerrangerscraft.items.MMPRItems;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import net.minecraft.world.item.*;
 
 import java.util.List;
 
 public class BasePickaxeItem extends PickaxeItem {
 
-	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+	private Item RepairItem = OtherItems.GRID_INFUSED_GOLD_INGOT.get();
 	
 	public BasePickaxeItem(Tier toolTier, int Atk, float Spd, Properties prop) {
 		super(toolTier, prop.attributes(SwordItem.createAttributes(Tiers.DIAMOND, Atk, Spd)));

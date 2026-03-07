@@ -53,6 +53,7 @@ public class RangerChangerItem extends RangerArmorItem{
     private Boolean A1 = false;
 
     public int Unlimited_Textures = 0;
+    public int Unlimited_Belt_Textures = 0;
 
     public Boolean Has_basic_belt_info = true;
     public Boolean Show_belt_form_info = true;
@@ -259,12 +260,6 @@ public class RangerChangerItem extends RangerArmorItem{
         return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).get_Model(this.Rider));
     }
 
-    public ResourceLocation getAnimationResource(ItemStack itemstack,RangerArmorItem animatable, EquipmentSlot slot) {
-
-        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, get_Form_Item(itemstack, 1).get_Animation(this.Rider));
-
-    }
-
 
     public static void reset_Form_Item(ItemStack  itemstack)
     {
@@ -391,4 +386,10 @@ public class RangerChangerItem extends RangerArmorItem{
         return Base_Form_Item;
     }
 
+    public boolean HasCpae(ItemStack itemstack) {
+        for (int n = 0; n < Num_Base_Form_Item; n++) {
+            if(get_Form_Item(itemstack, n + 1).get_has_cape())return true;
+        }
+        return false;
+    }
 }

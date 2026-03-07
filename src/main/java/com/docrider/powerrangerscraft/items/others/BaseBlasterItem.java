@@ -1,5 +1,6 @@
 package com.docrider.powerrangerscraft.items.others;
 
+import com.docrider.powerrangerscraft.items.OtherItems;
 import com.google.common.collect.ImmutableMultimap;
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
@@ -38,7 +39,7 @@ import javax.annotation.Nullable;
 import java.util.List;
 
 public class BaseBlasterItem extends BowItem {
-	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+	private Item RepairItem = OtherItems.GRID_INFUSED_GOLD_INGOT.get();
 	private Item Changer = null;
 	private Boolean Charged = false;
 	private Boolean SuperGun = false;

@@ -1,0 +1,19 @@
+{
+	"name": "Aquitian Energy",
+	"icon": "powerrangerscraft:aquitian_energy",
+	"category": "powerrangerscraft:alien/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "aquitian_energy",
+			"text": "Appears in:$(li)Mighty Morphin Alien Rangers (1996, TV show)$(br2)Used to repair Alien items in an Anvil"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:aquitian_energy",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		}
+	]
+}

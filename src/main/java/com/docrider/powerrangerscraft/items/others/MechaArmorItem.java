@@ -1,6 +1,7 @@
 package com.docrider.powerrangerscraft.items.others;
 
 import com.docrider.powerrangerscraft.items.MMPRItems;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.client.MechaArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.core.Holder;
@@ -28,7 +29,7 @@ import java.util.function.Consumer;
 
 public class MechaArmorItem extends ArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
-    private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+    private Item RepairItem = OtherItems.GRID_INFUSED_GOLD_INGOT.get();
 
     public MechaArmorItem(Holder<ArmorMaterial> material, Type type, Properties properties) {
         super(material, type, properties.stacksTo(1));

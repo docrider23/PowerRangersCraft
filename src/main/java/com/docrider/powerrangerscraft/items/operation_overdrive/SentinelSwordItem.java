@@ -2,6 +2,7 @@ package com.docrider.powerrangerscraft.items.operation_overdrive;
 
 import com.docrider.powerrangerscraft.items.MMPRItems;
 import com.docrider.powerrangerscraft.entity.ally.BaseAllyEntity;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.others.BaseDualSwordItem;
 import com.docrider.powerrangerscraft.items.others.BaseSwordItem;
 import net.minecraft.core.BlockPos;
@@ -19,7 +20,7 @@ import java.util.function.Supplier;
 
 public class SentinelSwordItem extends SwordItem {
 
-	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+	private Item RepairItem = OtherItems.GRID_INFUSED_GOLD_INGOT.get();
 
 	private Item craftingRemainingItem = null;
 

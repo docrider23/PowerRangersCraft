@@ -136,7 +136,7 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
             () -> EntityType.Builder.of(LavaLizardsEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":lava_lizard"));
 
     public static final DeferredItem<DeferredSpawnEggItem> LAVA_LIZARDS_SPAWN_EGG = ITEMS.register("lava_lizard_spawn_egg",
-            () -> new DeferredSpawnEggItem(LAVA_LIZARDS,0xa61a0b, 0x8a1e34, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(LAVA_LIZARDS,0xffffff, 0x151515, new Item.Properties()));
 
     public static final DeferredHolder<EntityType<?>, EntityType<MoltorEntity>> MOLTOR = MOBLIST.register("moltor",
             () -> EntityType.Builder.of(MoltorEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":moltor"));
@@ -206,7 +206,7 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
             () -> EntityType.Builder.of(CybervillainBlazeEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":cybervillain_blaze"));
 
     public static final DeferredItem<DeferredSpawnEggItem> CYBERVILLAIN_BLAZE_SPAWN_EGG = ITEMS.register("cybervillain_blaze_spawn_egg",
-            () -> new DeferredSpawnEggItem(CYBERVILLAIN_BLAZE, 0x591515, 0xbfbfbf, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(CYBERVILLAIN_BLAZE, 0xffffff, 0x151515, new Item.Properties()));
 
     public static final DeferredHolder<EntityType<?>, EntityType<CybervillainRoxyEntity>> CYBERVILLAIN_ROXY = MOBLIST.register("cybervillain_roxy",
             () -> EntityType.Builder.of(CybervillainRoxyEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":cybervillain_roxy"));

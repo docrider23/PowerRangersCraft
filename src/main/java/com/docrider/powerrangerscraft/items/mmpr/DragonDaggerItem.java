@@ -1,6 +1,7 @@
 package com.docrider.powerrangerscraft.items.mmpr;
 
 import com.docrider.powerrangerscraft.items.MMPRItems;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.others.BaseSwordItem;
 import com.docrider.powerrangerscraft.sounds.ModSounds;
 import com.google.common.collect.ImmutableMultimap;
@@ -18,7 +19,7 @@ import net.minecraft.world.level.Level;
 import java.util.List;
 
 public class DragonDaggerItem extends BowItem {
-    private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+    private Item RepairItem = OtherItems.GRID_INFUSED_GOLD_INGOT.get();
 
     private Item craftingRemainingItem = null;
 

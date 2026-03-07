@@ -2,6 +2,7 @@ package com.docrider.powerrangerscraft.items.others;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.items.MMPRItems;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.InteractionHand;
@@ -15,7 +16,7 @@ import java.util.List;
 
 public class BaseDualSwordItem extends SwordItem {
 
-	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+	private Item RepairItem = OtherItems.GRID_INFUSED_GOLD_INGOT.get();
 
 	private Boolean Dual = false;
 	private Boolean Triple = false;

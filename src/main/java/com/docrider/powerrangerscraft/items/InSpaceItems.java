@@ -19,15 +19,15 @@ public class InSpaceItems {
     public static final DeferredItem<Item> IN_SPACE_LOGO = ITEMS.register("in_space_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE));
 
-    public static final DeferredItem<Item> RED_SPACE_DISK_SOLAR = ITEMS.register("red_space_disk_solar",
+    public static final DeferredItem<Item> RED_DATA_CARD_SOLAR = ITEMS.register("red_data_card_solar",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_red","blank")
                     .IsGlowing());
-    public static final DeferredItem<Item> RED_SPACE_DISK = ITEMS.register("red_space_disk",
+    public static final DeferredItem<Item> RED_DATA_CARD = ITEMS.register("red_data_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","in_space_red","in_space_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
-                    .addAlternative(RED_SPACE_DISK_SOLAR.get()).AddToTabList(RangerTabs.IN_SPACE));
+                    .addAlternative(RED_DATA_CARD_SOLAR.get()).AddToTabList(RangerTabs.IN_SPACE));
 
     public static final DeferredItem<Item> IN_SPACE_HELMET = ITEMS.register("in_space_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
@@ -37,7 +37,7 @@ public class InSpaceItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
 
     public static final DeferredItem<Item> RED_ASTRO_MORPHER = ITEMS.register("red_astro_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"in_space_red",RED_SPACE_DISK,IN_SPACE_HELMET,IN_SPACE_CHESTPLATE,IN_SPACE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"in_space_red",RED_DATA_CARD,IN_SPACE_HELMET,IN_SPACE_CHESTPLATE,IN_SPACE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
 
     public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER_1 = ITEMS.register("astro_blaster_1",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));

@@ -2,7 +2,7 @@
 	"name": "Alien Power Coins",
 	"icon": "powerrangerscraft:red_alien_power_coin",
 	"category": "powerrangerscraft:alien/items",
-	"sortnum": 1,
+	"sortnum": 2,
 	"pages": [
 		{
 			"type": "patchouli:text",

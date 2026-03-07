@@ -102,7 +102,7 @@ public class GoldarEntity extends BaseFootsoldierEntity {
                     key.setPickUpDelay(0);
                     level().addFreshEntity(key);
                     if (randomInt2 == 0) {
-                        ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(MMPRItems.MMPR_LOGO.get(),2),0,0,0);
+                        ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(OtherItems.GRID_INFUSED_GOLD_INGOT.get(),2),0,0,0);
                         key2.setPickUpDelay(0);
                         level().addFreshEntity(key2);
                     }
@@ -127,7 +127,7 @@ public class GoldarEntity extends BaseFootsoldierEntity {
                         key.setPickUpDelay(0);
                         level().addFreshEntity(key);
                         if (randomInt2 == 0) {
-                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(MMPRItems.MMPR_LOGO.get(),2),0,0,0);
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(OtherItems.GRID_INFUSED_GOLD_INGOT.get(),2),0,0,0);
                             key2.setPickUpDelay(0);
                             level().addFreshEntity(key2);
                         }
@@ -152,7 +152,7 @@ public class GoldarEntity extends BaseFootsoldierEntity {
                         key.setPickUpDelay(0);
                         level().addFreshEntity(key);
                         if (randomInt2 == 0) {
-                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(MMPRItems.MMPR_LOGO.get(),2),0,0,0);
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(OtherItems.GRID_INFUSED_GOLD_INGOT.get(),2),0,0,0);
                             key2.setPickUpDelay(0);
                             level().addFreshEntity(key2);
                         }
@@ -177,7 +177,7 @@ public class GoldarEntity extends BaseFootsoldierEntity {
                         key.setPickUpDelay(0);
                         level().addFreshEntity(key);
                         if (randomInt2 == 0) {
-                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(MMPRItems.MMPR_LOGO.get(),2),0,0,0);
+                            ItemEntity key2 = new ItemEntity(level(),getX(),getY(),getZ(),new ItemStack(OtherItems.GRID_INFUSED_GOLD_INGOT.get(),2),0,0,0);
                             key2.setPickUpDelay(0);
                             level().addFreshEntity(key2);
                         }

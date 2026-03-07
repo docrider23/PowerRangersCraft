@@ -24,7 +24,7 @@ public class ComicsItems {
             () -> new BaseItem(new Item.Properties()));
 
     public static final DeferredItem<Item> PINK_POWER_MORPHER_RANGER_SLAYER = ITEMS.register("pink_power_morpher_ranger_slayer",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"ranger_slayer", RANGER_SLAYER_POWER_COIN,MMPRItems.MMPR_HELMET,MMPRItems.MMPR_CHESTPLATE,MMPRItems.MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SHATTERED_GRID).ChangeRepairItem(MMPRItems.MMPR_LOGO.get()));
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"ranger_slayer", RANGER_SLAYER_POWER_COIN,MMPRItems.MMPR_HELMET,MMPRItems.MMPR_CHESTPLATE,MMPRItems.MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SHATTERED_GRID).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     //Solar Rangers
     public static final DeferredItem<Item> SOLAR_LOGO = ITEMS.register("solar_logo",
@@ -52,7 +52,7 @@ public class ComicsItems {
     public static final DeferredItem<Item> ORANGE_SOLARIX = ITEMS.register("orange_solarix",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_orange", ORANGE_SOLAR_CRYSTAL, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> RED_SOLARIX = ITEMS.register("red_solarix",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_red", InSpaceItems.RED_SPACE_DISK_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_red", InSpaceItems.RED_DATA_CARD_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> BLACK_SOLARIX = ITEMS.register("black_solarix",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_black", LostGalaxyItems.MAGNA_DEFENDER_CORE_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> BLUE_SOLARIX = ITEMS.register("blue_solarix",

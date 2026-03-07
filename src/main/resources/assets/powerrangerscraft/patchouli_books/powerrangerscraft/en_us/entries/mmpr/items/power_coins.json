@@ -2,7 +2,7 @@
 	"name": "Power Coins",
 	"icon": "powerrangerscraft:tyrannosaurus_power_coin",
 	"category": "powerrangerscraft:mmpr/items",
-	"sortnum": 1,
+	"sortnum": 2,
 	"pages": [
 		{
 			"type": "patchouli:text",

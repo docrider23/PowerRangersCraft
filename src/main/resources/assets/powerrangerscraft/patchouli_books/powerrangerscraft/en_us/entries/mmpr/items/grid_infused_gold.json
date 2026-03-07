@@ -1,0 +1,19 @@
+{
+	"name": "Grid-Infused Gold",
+	"icon": "powerrangerscraft:grid_infused_gold_ingot",
+	"category": "powerrangerscraft:mmpr/items",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"anchor": "grid_infused_gold_nugget",
+			"text": "Used to craft Grid-Infused Gold Ingots"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": true,
+			"item": "powerrangerscraft:aquitian_energy",
+			"text": "Drops from:$(li)$(l:wild_force/mobs/general_venjix)General Venjix$(/l)"
+		}
+	]
+}

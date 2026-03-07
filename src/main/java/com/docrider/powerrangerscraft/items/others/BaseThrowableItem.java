@@ -3,6 +3,7 @@ package com.docrider.powerrangerscraft.items.others;
 import com.docrider.powerrangerscraft.entity.projectile.ShurikenProjectileEntity;
 import com.docrider.powerrangerscraft.items.MMPRItems;
 import com.docrider.powerrangerscraft.entity.projectile.WeaponProjectileEntity;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
@@ -17,7 +18,7 @@ import java.util.List;
 
 public class BaseThrowableItem extends SwordItem {
 
-	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+	private Item RepairItem = OtherItems.GRID_INFUSED_GOLD_INGOT.get();
 	private Item Changer = null;
 	private boolean Shuriken = false;
 	  

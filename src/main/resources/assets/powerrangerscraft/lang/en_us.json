@@ -332,9 +332,9 @@
 
   "item.powerrangerscraft.red_astro_morpher": "Astro Morpher",
 
-  "item.powerrangerscraft.red_space_disk": "Red Space Disk",
+  "item.powerrangerscraft.red_data_card": "Red Data Card",
 
-  "powerrangerscraft:red_space_disk.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:red_data_card.form": "Ranger: §cRed Ranger",
 
   "item.powerrangerscraft.astro_blaster_1": "Astro Blaster",
   "item.powerrangerscraft.astro_blaster_2": "Astro Blaster",
@@ -1440,7 +1440,7 @@
 
   "powerrangerscraft:purple_solar_crystal.form": "Ranger: §5Purple Ranger",
   "powerrangerscraft:orange_solar_crystal.form": "Ranger: §6Orange Ranger",
-  "powerrangerscraft:red_space_disk_solar.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:red_data_card_solar.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:magna_defender_core_solar.form": "Ranger: §8Black Ranger",
   "powerrangerscraft:spinosaurus_dino_charger_solar.form": "Ranger: §1Blue Ranger",
   "powerrangerscraft:yellow_zeo_sub_crystal_solar.form": "Ranger: §eYellow Ranger",

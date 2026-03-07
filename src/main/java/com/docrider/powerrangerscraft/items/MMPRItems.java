@@ -272,62 +272,62 @@ public class MMPRItems {
 
 
     public static final DeferredItem<Item> MMPR_HELMET = ITEMS.register("mmpr_head",
-            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> MMPR_CHESTPLATE = ITEMS.register("mmpr_torso",
-            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> MMPR_LEGGINGS = ITEMS.register("mmpr_legs",
-            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<Item> RED_POWER_MORPHER = ITEMS.register("red_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_red",TYRANNOSAURUS_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_red",TYRANNOSAURUS_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> BLACK_POWER_MORPHER = ITEMS.register("black_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_black",MASTODON_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_black",MASTODON_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> BLUE_POWER_MORPHER = ITEMS.register("blue_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_blue", TRICERATOPS_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_blue", TRICERATOPS_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> YELLOW_POWER_MORPHER = ITEMS.register("yellow_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_yellow", SABERTOOTH_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_yellow", SABERTOOTH_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> PINK_POWER_MORPHER = ITEMS.register("pink_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_pink", PTERADACTYL_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_pink", PTERADACTYL_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> GREEN_POWER_MORPHER = ITEMS.register("green_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_green", DRAGON_POWER_COIN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_green", DRAGON_POWER_COIN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> WHITE_POWER_MORPHER = ITEMS.register("white_power_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mmpr_white", WHITE_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mmpr_white", WHITE_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> NINJOR_MORPHER = ITEMS.register("ninjor_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninjor", NINJOR_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninjor", NINJOR_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> SANTA_POWER_MORPHER = ITEMS.register("santa_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"santa_ranger", REINDEER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"santa_ranger", REINDEER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<SwordItem> BLADE_BLASTER = ITEMS.register("blade_blaster",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<SwordItem> POWER_SWORD = ITEMS.register("power_sword",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<BaseBlasterItem> POWER_AXE = ITEMS.register("power_axe",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<SwordItem> POWER_LANCE = ITEMS.register("power_lance",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<SwordItem> POWER_LANCE_TRIDENT = ITEMS.register("power_lance_trident",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<SwordItem> POWER_DAGGER = ITEMS.register("power_dagger",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<BaseBlasterItem> POWER_BOW = ITEMS.register("power_bow",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<BowItem> DRAGON_DAGGER = ITEMS.register("dragon_dagger",
-            () -> new DragonDaggerItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new DragonDaggerItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<SwordItem> SWORD_OF_DARKNESS = ITEMS.register("sword_of_darkness",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<SwordItem> SABA = ITEMS.register("saba",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<SwordItem> NINJATO = ITEMS.register("ninjato",
-            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<Item> Z_EMBLEM_GOLDAR = ITEMS.register("z_emblem_goldar",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","goldar","blank")
                     .ChangeModel("goldar.geo.json"));
     public static final DeferredItem<Item> GOLDAR_BELT = ITEMS.register("goldar_belt",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"goldar", Z_EMBLEM_GOLDAR, MMPR_HELMET, MMPR_CHESTPLATE, MMPR_LEGGINGS,new Item.Properties()).ChangeRepairItem(MMPR_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"goldar", Z_EMBLEM_GOLDAR, MMPR_HELMET, MMPR_CHESTPLATE, MMPR_LEGGINGS,new Item.Properties()).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> Z_EMBLEM_GOLDAR_MAXIMUS = ITEMS.register("z_emblem_goldar_maximus",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_maximus","goldar","blank")
                     .ChangeModel("goldar_maximus.geo.json"));

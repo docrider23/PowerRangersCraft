@@ -2,6 +2,7 @@ package com.docrider.powerrangerscraft.items.others;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.items.MMPRItems;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ShieldItem;
@@ -12,7 +13,7 @@ import java.util.List;
 
 public class BaseShieldItem extends ShieldItem {
 
-	private Item RepairItem = MMPRItems.MMPR_LOGO.get();
+	private Item RepairItem = OtherItems.GRID_INFUSED_GOLD_INGOT.get();
 	
 	public BaseShieldItem(Properties prop) {
 		super(prop);

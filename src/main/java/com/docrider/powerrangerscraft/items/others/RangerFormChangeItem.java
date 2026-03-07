@@ -48,7 +48,6 @@ public class RangerFormChangeItem extends BaseItem {
     private String UPDATED_BELT_MODEL;
     private String UPDATED_MODEL;
     private String FLYING_MODEL;
-    private String UPDATED_MODEL_ANIMATION;
     private Boolean SET_PLAYER_MODEL_INVISIBLE = false;
     private Boolean SET_SHOW_FACE = false;
     private Boolean SET_SHOW_UNDER = false;
@@ -154,12 +153,6 @@ public class RangerFormChangeItem extends BaseItem {
         return (GeckoLibCache.getBakedModels().get(FORM_MODEL)!=null ? "geo/"+getRangerName(rangerName)+FORM_NAME+".geo.json" : (get_Has_Static_Wings() ? "rangerwing.geo.json" : "ranger.geo.json"));
     }
 
-    public String get_Animation(String rangerName) {
-        if (UPDATED_MODEL_ANIMATION!=null) return "animations/"+UPDATED_MODEL_ANIMATION;
-        ResourceLocation FORM_ANIM = ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "animations/"+getRangerName(rangerName)+FORM_NAME+".animation.json");
-        return (GeckoLibCache.getBakedAnimations().get(FORM_ANIM)!=null ? "animations/"+getRangerName(rangerName)+FORM_NAME+".animation.json" : "animations/ranger.animation.json");
-    }
-
     public Boolean get_Show_Face() {
         return SET_SHOW_FACE;
     }
@@ -247,10 +240,6 @@ public class RangerFormChangeItem extends BaseItem {
         return this;
     }
 
-    public RangerFormChangeItem ChangeAnimation(String animation) {
-        UPDATED_MODEL_ANIMATION=animation;
-        return this;
-    }
     public RangerFormChangeItem SetPalyerModelInvisible() {
         SET_PLAYER_MODEL_INVISIBLE = true;
         return this;
@@ -334,7 +323,6 @@ public class RangerFormChangeItem extends BaseItem {
     }
 
     public RangerFormChangeItem HasCape() {
-        ChangeAnimation("default_cape.animation.json");
         HAS_CAPE=true;
         return this;
     }
