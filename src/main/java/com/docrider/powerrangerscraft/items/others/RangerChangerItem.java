@@ -243,7 +243,7 @@ public class RangerChangerItem extends RangerArmorItem{
 
     }
 
-    public String getUnlimitedTextures(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity ranger, String rangerName ,int num)
+    public String getUnlimitedTextures(ItemStack itemstack, LivingEntity ranger, String rangerName ,int num)
     {
         return "blank";
     }

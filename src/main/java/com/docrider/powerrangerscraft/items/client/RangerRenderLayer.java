@@ -18,16 +18,14 @@ import software.bernie.geckolib.renderer.layer.GeoRenderLayer;
 
 public class RangerRenderLayer<T extends GeoAnimatable> extends GeoRenderLayer<T> {
 
-    public RangerRenderLayer(GeoRenderer<T> renderer) {
+    public RangerRenderLayer(GeoRenderer<T> renderer ) {
         super(renderer);
     }
 
-    protected ResourceLocation getTextureResource(T animatable, int n, LivingEntity entity, RangerChangerItem belt, EquipmentSlot slot) {
+    protected ResourceLocation getTextureResource(T animatable,int n,LivingEntity entity,RangerChangerItem belt,EquipmentSlot slot) {
         if (slot == EquipmentSlot.FEET)  return   ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "textures/armor/belts/" +belt.getUnlimitedTextures(entity.getItemBySlot(EquipmentSlot.FEET), entity, belt.Rider, n + 1) + ".png");
         return   ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "textures/armor/" +belt.getUnlimitedTextures(entity.getItemBySlot(EquipmentSlot.FEET), entity, belt.Rider, n + 1) + ".png");
     }
-
-
     @Nullable
     protected RenderType getRenderType(T animatable,int run,LivingEntity entity,RangerChangerItem belt,EquipmentSlot slot) {
         return RenderType.entityTranslucent(getTextureResource(animatable,run,entity,belt,slot));
@@ -70,4 +68,5 @@ public class RangerRenderLayer<T extends GeoAnimatable> extends GeoRenderLayer<T
 
     }
 }
+
 
