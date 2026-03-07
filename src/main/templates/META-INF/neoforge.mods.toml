@@ -85,7 +85,7 @@ description='''${mod_description}'''
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.$[mod_id}]]]
+[[dependencies.${mod_id}]]]
 modId="geckolib"
 type="required"
 reason = "GeckoLib is used for rendering the armor and some of the mobs."
