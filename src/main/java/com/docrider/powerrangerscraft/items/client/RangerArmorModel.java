@@ -31,12 +31,12 @@ public class RangerArmorModel extends GeoModel<RangerArmorItem> {
                 else return BELT.getModelResource(RANGER.getItemBySlot(EquipmentSlot.FEET), animatable, slot, RANGER);
             }
         }
-        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/default.geo.json");
+        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/ranger.geo.json");
     }
 
     @Override
     public ResourceLocation getModelResource(RangerArmorItem animatable) {
-        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/default.geo.json");
+        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/ranger.geo.json");
     }
 
     @Override
