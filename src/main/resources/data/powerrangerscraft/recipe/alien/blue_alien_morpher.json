@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "alien_blue",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:aquitian_energy"
+    },
+    "b": {
+      "item": "powerrangerscraft:blue_alien_power_coin"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:blue_alien_morpher"
+  }
+}
