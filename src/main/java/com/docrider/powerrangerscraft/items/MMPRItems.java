@@ -20,8 +20,9 @@ public class MMPRItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
 
-    public static String[] RANGERS= new String[] {"mmpr_red","mmpr_blue","mmpr_pink","mmpr_black","mmpr_yellow","mmpr_green","samurai_green"};
+    public static String[] RANGERS= new String[] {"mmpr_red","mmpr_blue","mmpr_pink","mmpr_black","mmpr_yellow","mmpr_green","samurai_green","mmpr_master"};
     public static String[] NINJA_RANGERS= new String[] {"mmpr_red","mmpr_blue","mmpr_pink","mmpr_black","mmpr_yellow","mmpr_white"};
+    public static String[] MASTER_MORPHER_RANGERS= new String[] {"mmpr_master"};
 
     public static final DeferredItem<Item> MMPR_LOGO = ITEMS.register("mmpr_logo",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MMPR));
@@ -121,7 +122,7 @@ public class MMPRItems {
             }.ResetFormToBase().ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.MMPR));
 
 
-    public static final DeferredItem<Item> DRAGON_POWER_COIN_BASE = ITEMS.register("dragon_power_coin_base",
+        public static final DeferredItem<Item> DRAGON_POWER_COIN_BASE = ITEMS.register("dragon_power_coin_base",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_green","mmpr_green_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false))
@@ -138,10 +139,10 @@ public class MMPRItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.ChangeBeltModel("geo/mmpr_belt_weapon.geo.json"));
+            }.ChangeRangerName("mmpr_green").AddCompatibilityList(MASTER_MORPHER_RANGERS).ChangeBeltModel("geo/mmpr_belt_weapon.geo.json"));
     public static final DeferredItem<Item> DRAGON_POWER_COIN_NO_SHIELD = ITEMS.register("dragon_power_coin_no_shield",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"blank","mmpr_green","mmpr_green_belt")
-                    .ChangeSlot(2).ChangeBeltModel("geo/mmpr_belt_weapon.geo.json"));
+                    .AddCompatibilityList(MASTER_MORPHER_RANGERS).ChangeSlot(2).ChangeBeltModel("geo/mmpr_belt_weapon.geo.json"));
     public static final DeferredItem<Item> DRAGON_POWER_COIN = ITEMS.register("dragon_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"dragon_shield","","",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,40,0,true,true))
@@ -152,7 +153,7 @@ public class MMPRItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.ChangeSlot(2).addSwitchForm(DRAGON_POWER_COIN_NO_SHIELD.get()).AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.MMPR));
+            }.ChangeSlot(2).alsoChange1stSlot(DRAGON_POWER_COIN_BASE.get()).addSwitchForm(DRAGON_POWER_COIN_NO_SHIELD.get()).AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> WHITE_TIGER_POWER_COIN = ITEMS.register("white_tiger_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_white","mmpr_white_belt",
@@ -169,7 +170,7 @@ public class MMPRItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.AddToTabList(RangerTabs.MMPR));
+            }.ChangeRangerName("mmpr_white").alsoChange2ndSlot(DRAGON_POWER_COIN_NO_SHIELD.get()).AddCompatibilityList(MASTER_MORPHER_RANGERS).AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> NINJOR_COIN_BATTLE_MODE = ITEMS.register("ninjor_coin_battle_mode",
             () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_battle_mode","ninjor","blank",
@@ -190,7 +191,6 @@ public class MMPRItems {
                             player.getZ(), 80, 0, 0, 0, 1);
                 }
             }.ChangeSlot(2).BackToBase());
-
     public static final DeferredItem<Item> NINJOR_COIN = ITEMS.register("ninjor_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","ninjor","blank",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
@@ -233,43 +233,48 @@ public class MMPRItems {
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .IsGlowing().BackToBase());
-
-
     public static final DeferredItem<Item> METALLIC_ARMOR_PINK = ITEMS.register("metallic_armor_power_coin_pink",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"mmpr_pink_metallic_armor","mmpr_pink","mmpr_pink_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(METALLIC_ARMOR_WHITE.get()));
-
-
     public static final DeferredItem<Item> METALLIC_ARMOR_YELLOW = ITEMS.register("metallic_armor_power_coin_yellow",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"mmpr_yellow_metallic_armor","mmpr_yellow","mmpr_yellow_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(METALLIC_ARMOR_PINK.get()));
-
-
     public static final DeferredItem<Item> METALLIC_ARMOR_BLUE = ITEMS.register("metallic_armor_power_coin_blue",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"mmpr_blue_metallic_armor","mmpr_blue","mmpr_blue_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(METALLIC_ARMOR_YELLOW.get()));
-
-
     public static final DeferredItem<Item> METALLIC_ARMOR_BLACK = ITEMS.register("metallic_armor_power_coin_black",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"mmpr_black_metallic_armor","mmpr_black","mmpr_black_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(METALLIC_ARMOR_BLUE.get()));
-
-
     public static final DeferredItem<Item> METALLIC_ARMOR = ITEMS.register("metallic_armor_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"mmpr_red_metallic_armor","mmpr_red","mmpr_red_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
                     .ChangeSlot(2).BackToBase().addAlternative(METALLIC_ARMOR_BLACK.get()).AddToTabList(RangerTabs.MMPR));
 
-
+    public static final DeferredItem<Item> ZEO_POWER_COIN = ITEMS.register("zeo_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_master","zeo_belt",
+                    new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false))
+                    .ChangeRangerName("zeo_red").alsoChange2ndSlot(DRAGON_POWER_COIN_NO_SHIELD.get()).AddToTabList(RangerTabs.MMPR));
+    public static final DeferredItem<Item> TURBO_POWER_COIN = ITEMS.register("turbo_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_master","turbo_belt",
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
+                    .IsGlowing().ChangeRangerName("turbo_red").alsoChange2ndSlot(DRAGON_POWER_COIN_NO_SHIELD.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MMPR));
+    public static final DeferredItem<Item> DINO_THUNDER_POWER_COIN = ITEMS.register("dino_thunder_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_master","dino_thunder_black_belt")
+                    .ChangeRangerName("dino_thunder_black").alsoChange2ndSlot(DRAGON_POWER_COIN_NO_SHIELD.get()).ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.MMPR));
 
     public static final DeferredItem<Item> MMPR_HELMET = ITEMS.register("mmpr_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
@@ -289,13 +294,15 @@ public class MMPRItems {
     public static final DeferredItem<Item> PINK_POWER_MORPHER = ITEMS.register("pink_power_morpher",
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_pink", PTERADACTYL_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> GREEN_POWER_MORPHER = ITEMS.register("green_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_green", DRAGON_POWER_COIN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_green", DRAGON_POWER_COIN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(DRAGON_POWER_COIN).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> WHITE_POWER_MORPHER = ITEMS.register("white_power_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mmpr_white", WHITE_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> NINJOR_MORPHER = ITEMS.register("ninjor_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninjor", NINJOR_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> SANTA_POWER_MORPHER = ITEMS.register("santa_power_morpher",
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"santa_ranger", REINDEER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+    public static final DeferredItem<Item> MASTER_MORPHER = ITEMS.register("master_morpher",
+            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_master", DRAGON_POWER_COIN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(DRAGON_POWER_COIN).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<SwordItem> BLADE_BLASTER = ITEMS.register("blade_blaster",
             () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));

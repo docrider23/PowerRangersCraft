@@ -74,7 +74,7 @@ public class MMPRBeltItem extends RangerChangerItem {
         else if (equipmentSlot == EquipmentSlot.HEAD) {
             return get_Form_Item(itemstack,2).getFormName(fly)+get_Form_Item(itemstack,1).getFormName(fly);
         }
-        else return rangerName+get_Form_Item(itemstack,1).getFormName(fly);
+        else return get_Form_Item(itemstack,1).getRangerName(rangerName)+get_Form_Item(itemstack,1).getFormName(fly);
     }
 
     public ResourceLocation getModelResource(ItemStack itemstack, RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {

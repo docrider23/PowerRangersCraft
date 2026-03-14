@@ -189,6 +189,7 @@
   "item.powerrangerscraft.white_power_morpher": "Power Morpher",
   "item.powerrangerscraft.ninjor_morpher": "Ninjor Urn",
   "item.powerrangerscraft.santa_power_morpher": "Power Morpher",
+  "item.powerrangerscraft.master_morpher": "Master Morpher",
 
   "item.powerrangerscraft.tyrannosaurus_power_coin": "Tyrannosaurus Power Coin",
   "item.powerrangerscraft.mastodon_power_coin": "Mastodon Power Coin",
@@ -201,6 +202,10 @@
   "item.powerrangerscraft.reindeer_power_coin": "Reindeer Power Coin",
 
   "item.powerrangerscraft.metallic_armor_power_coin": "Metallic Power Coin",
+
+  "item.powerrangerscraft.zeo_power_coin": "Zeo Power Coin",
+  "item.powerrangerscraft.turbo_power_coin": "Turbo Power Coin",
+  "item.powerrangerscraft.dino_thunder_power_coin": "Dino Thunder Power Coin",
 
   "powerrangerscraft:tyrannosaurus_power_coin.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:mastodon_power_coin.form": "Ranger: §8Black Ranger",
@@ -220,6 +225,10 @@
   "powerrangerscraft:metallic_armor_power_coin_yellow.form": "w/ §7Metallic Armor",
   "powerrangerscraft:metallic_armor_power_coin_pink.form": "w/ §7Metallic Armor",
   "powerrangerscraft:metallic_armor_power_coin_white.form": "Ranger: White Ranger w/ §7Metallic Armor",
+
+  "powerrangerscraft:zeo_power_coin.form": "Ranger: §cRed §6Zeo §cRanger",
+  "powerrangerscraft:turbo_power_coin.form": "Ranger: §cRed §rTurbo §cRanger",
+  "powerrangerscraft:dino_thunder_power_coin.form": "Ranger: §8Black §rDino Thunder §8Ranger",
   
   "item.powerrangerscraft.blade_blaster": "Blade Blaster",
 
@@ -249,10 +258,22 @@
   "item.powerrangerscraft.alien_legs": "Alien Leggings",
 
   "item.powerrangerscraft.red_alien_morpher": "Alien Morpher",
+  "item.powerrangerscraft.white_alien_morpher": "Alien Morpher",
+  "item.powerrangerscraft.blue_alien_morpher": "Alien Morpher",
+  "item.powerrangerscraft.yellow_alien_morpher": "Alien Morpher",
+  "item.powerrangerscraft.black_alien_morpher": "Alien Morpher",
 
   "item.powerrangerscraft.red_alien_power_coin": "Red Alien Power Coin",
+  "item.powerrangerscraft.white_alien_power_coin": "White Alien Power Coin",
+  "item.powerrangerscraft.blue_alien_power_coin": "Blue Alien Power Coin",
+  "item.powerrangerscraft.yellow_alien_power_coin": "Yellow Alien Power Coin",
+  "item.powerrangerscraft.black_alien_power_coin": "Black Alien Power Coin",
 
   "powerrangerscraft:red_alien_power_coin.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:white_alien_power_coin.form": "Ranger: White Ranger",
+  "powerrangerscraft:blue_alien_power_coin.form": "Ranger: §bBlue Ranger",
+  "powerrangerscraft:yellow_alien_power_coin.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:black_alien_power_coin.form": "Ranger: §8Black Ranger",
 
   "item.powerrangerscraft.aquitian_saber": "Aquitian Saber",
 
@@ -1529,11 +1550,12 @@
   //EX Comics: Ranger Academy
   "tab.powerrangerscraft.ranger_academy": "Ranger Academy",
 
-  "item.powerrangerscraft.spectracite_shard": "Spectracite Shard",
-
   "item.powerrangerscraft.ranger_academy_head": "Ranger Academy Helmet",
   "item.powerrangerscraft.ranger_academy_torso": "Ranger Academy Chestplate",
   "item.powerrangerscraft.ranger_academy_legs": "Ranger Academy Leggings",
+
+  "item.powerrangerscraft.spectracite_shard": "Spectracite Shard",
+  "block.powerrangerscraft.end_spectracite_ore": "End Spectracite Ore",
 
   "item.powerrangerscraft.ranger_academy_red_morpher": "Ranger Academy Morpher",
   "item.powerrangerscraft.ranger_academy_black_morpher": "Ranger Academy Morpher",
