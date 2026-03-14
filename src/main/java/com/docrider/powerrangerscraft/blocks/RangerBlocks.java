@@ -127,6 +127,10 @@ public class RangerBlocks {
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2,6)).AddToTabList(RangerTabs.BLOCKS));
 
+    public static final DeferredBlock<Block> END_SPECTRACITE_ORE = registerBlock("end_spectracite_ore",
+            () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE)
+                    .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2,6)).AddToTabList(RangerTabs.BLOCKS));
+
     public static final DeferredBlock<Block> END_STARRANGER_ORE = registerBlock("end_starranger_ore",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F), UniformInt.of(2,6)).AddToTabList(RangerTabs.BLOCKS));
