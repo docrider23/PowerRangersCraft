@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "powerrangerscraft:item/ranger_academy_red_power_coin"
+  }
+}

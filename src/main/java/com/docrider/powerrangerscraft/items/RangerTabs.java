@@ -149,6 +149,11 @@ public class RangerTabs {
                             (PowerRangersCraftCore.MODID,"textures/gui/tab_prime_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.prime")).build());
 
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> RangerAcademyTab = CREATIVE_MODE_TABS.register("prc035", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(ComicsItems.RANGER_ACADEMY_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
+                            (PowerRangersCraftCore.MODID,"textures/gui/tab_ranger_academy_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.ranger_academy")).build());
+
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> RebootTab = CREATIVE_MODE_TABS.register("prc899", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(RebootItems.REBOOT_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
                             (PowerRangersCraftCore.MODID,"textures/gui/tab_reboot_items.png"))
@@ -224,6 +229,8 @@ public class RangerTabs {
     public static List<Item> OMEGA = new ArrayList<Item>();
 
     public static List<Item> PRIME = new ArrayList<Item>();
+
+    public static List<Item> RANGER_ACADEMY = new ArrayList<Item>();
 
     public static List<Item> MISC= new ArrayList<Item>();
 
@@ -437,6 +444,13 @@ public class RangerTabs {
             for (int i = 0; i < RangerTabs.PRIME.size(); i++)
             {
                 event.accept( RangerTabs.PRIME.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.RangerAcademyTab.get()) {
+            for (int i = 0; i < RangerTabs.RANGER_ACADEMY.size(); i++)
+            {
+                event.accept( RangerTabs.RANGER_ACADEMY.get(i));
             }
 
         }

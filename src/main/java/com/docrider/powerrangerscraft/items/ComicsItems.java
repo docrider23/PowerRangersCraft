@@ -187,6 +187,47 @@ public class ComicsItems {
             () -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.PRIME).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(PRIME_RITAS_WAND.get()));
 
     //Ranger Academy
+    public static final DeferredItem<Item> SPECTRACITE_SHARD = ITEMS.register("spectracite_shard",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
+
+    public static final DeferredItem<Item> RANGER_ACADEMY_RED_POWER_COIN = ITEMS.register("ranger_academy_red_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_red","ranger_academy_red_belt")
+                    .AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> RANGER_ACADEMY_BLACK_POWER_COIN = ITEMS.register("ranger_academy_black_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_black","ranger_academy_black_belt")
+                    .AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> RANGER_ACADEMY_BLUE_POWER_COIN = ITEMS.register("ranger_academy_blue_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_blue","ranger_academy_blue_belt")
+                    .AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> RANGER_ACADEMY_YELLOW_POWER_COIN = ITEMS.register("ranger_academy_yellow_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_yellow","ranger_academy_yellow_belt")
+                    .AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> RANGER_ACADEMY_PINK_POWER_COIN = ITEMS.register("ranger_academy_pink_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_pink","ranger_academy_pink_belt")
+                    .AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> RANGER_ACADEMY_GREEN_POWER_COIN = ITEMS.register("ranger_academy_green_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_green","ranger_academy_green_belt")
+                    .AddToTabList(RangerTabs.RANGER_ACADEMY));
+
+    public static final DeferredItem<Item> RANGER_ACADEMY_HELMET = ITEMS.register("ranger_academy_head",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+    public static final DeferredItem<Item> RANGER_ACADEMY_CHESTPLATE = ITEMS.register("ranger_academy_torso",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+    public static final DeferredItem<Item> RANGER_ACADEMY_LEGGINGS = ITEMS.register("ranger_academy_legs",
+            () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+
+    public static final DeferredItem<Item> RANGER_ACADEMY_RED_MORPHER = ITEMS.register("ranger_academy_red_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_red", RANGER_ACADEMY_RED_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+    public static final DeferredItem<Item> RANGER_ACADEMY_BLACK_MORPHER = ITEMS.register("ranger_academy_black_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_black", RANGER_ACADEMY_BLACK_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+    public static final DeferredItem<Item> RANGER_ACADEMY_BLUE_MORPHER = ITEMS.register("ranger_academy_blue_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_blue", RANGER_ACADEMY_BLUE_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+    public static final DeferredItem<Item> RANGER_ACADEMY_YELLOW_MORPHER = ITEMS.register("ranger_academy_yellow_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_yellow", RANGER_ACADEMY_YELLOW_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+    public static final DeferredItem<Item> RANGER_ACADEMY_PINK_MORPHER = ITEMS.register("ranger_academy_pink_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_pink", RANGER_ACADEMY_PINK_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+    public static final DeferredItem<Item> RANGER_ACADEMY_GREEN_MORPHER = ITEMS.register("ranger_academy_green_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_green", RANGER_ACADEMY_GREEN_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

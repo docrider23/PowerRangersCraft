@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:red_prime_coin"
     },
-    "title": "Power Rangers Prime",
-    "description": "Change into each member of the Prime Rangers",
+    "title": {
+      "translate": "advancements.powerrangerscraft.prime.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.prime.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

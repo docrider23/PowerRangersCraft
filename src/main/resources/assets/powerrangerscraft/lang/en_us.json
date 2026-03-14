@@ -1526,6 +1526,36 @@
   "item.powerrangerscraft.prime_pink_mace": "Prime Mace",
   "item.powerrangerscraft.prime_rita_staff": "Prime Rita's Staff",
 
+  //EX Comics: Ranger Academy
+  "tab.powerrangerscraft.ranger_academy": "Ranger Academy",
+
+  "item.powerrangerscraft.spectracite_shard": "Spectracite Shard",
+
+  "item.powerrangerscraft.ranger_academy_head": "Ranger Academy Helmet",
+  "item.powerrangerscraft.ranger_academy_torso": "Ranger Academy Chestplate",
+  "item.powerrangerscraft.ranger_academy_legs": "Ranger Academy Leggings",
+
+  "item.powerrangerscraft.ranger_academy_red_morpher": "Ranger Academy Morpher",
+  "item.powerrangerscraft.ranger_academy_black_morpher": "Ranger Academy Morpher",
+  "item.powerrangerscraft.ranger_academy_blue_morpher": "Ranger Academy Morpher",
+  "item.powerrangerscraft.ranger_academy_yellow_morpher": "Ranger Academy Morpher",
+  "item.powerrangerscraft.ranger_academy_pink_morpher": "Ranger Academy Morpher",
+  "item.powerrangerscraft.ranger_academy_green_morpher": "Ranger Academy Morpher",
+
+  "item.powerrangerscraft.ranger_academy_red_power_coin": "Ranger Academy Red Power Coin",
+  "item.powerrangerscraft.ranger_academy_black_power_coin": "Ranger Academy Black Power Coin",
+  "item.powerrangerscraft.ranger_academy_blue_power_coin": "Ranger Academy Blue Power Coin",
+  "item.powerrangerscraft.ranger_academy_yellow_power_coin": "Ranger Academy Yellow Power Coin",
+  "item.powerrangerscraft.ranger_academy_pink_power_coin": "Ranger Academy Pink Power Coin",
+  "item.powerrangerscraft.ranger_academy_green_power_coin": "Ranger Academy Green Power Coin",
+
+  "powerrangerscraft:ranger_academy_red_power_coin.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:ranger_academy_black_power_coin.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:ranger_academy_blue_power_coin.form": "Ranger: §bBlue Ranger",
+  "powerrangerscraft:ranger_academy_yellow_power_coin.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:ranger_academy_pink_power_coin.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:ranger_academy_green_power_coin.form": "Ranger: §aGreen Ranger",
+
   //EX 2017 Reboot
   "tab.powerrangerscraft.reboot": "Power Rangers (2017)",
 
@@ -2113,20 +2143,20 @@
 
   "advancements.powerrangerscraft.prime.desc": "Change into each member of the Prime Ranger Team",
   "advancements.powerrangerscraft.prime.title": "Power Rangers Prime",
-  "advancements.powerrangerscraft.prime_red.desc": "",
-  "advancements.powerrangerscraft.prime_red.title": "",
-  "advancements.powerrangerscraft.prime_black.desc": "",
-  "advancements.powerrangerscraft.prime_black.title": "",
-  "advancements.powerrangerscraft.prime_blue.desc": "",
-  "advancements.powerrangerscraft.prime_blue.title": "",
-  "advancements.powerrangerscraft.prime_yellow.desc": "",
-  "advancements.powerrangerscraft.prime_yellow.title": "",
-  "advancements.powerrangerscraft.prime_pink.desc": "",
-  "advancements.powerrangerscraft.prime_pink.title": "",
-  "advancements.powerrangerscraft.prime_green.desc": "",
-  "advancements.powerrangerscraft.prime_green.title": "",
-  "advancements.powerrangerscraft.prime_coin.desc": "",
-  "advancements.powerrangerscraft.prime_coin.title": "",
+  "advancements.powerrangerscraft.prime_red.desc": "Change into Prime Red",
+  "advancements.powerrangerscraft.prime_red.title": "Ranger Prime Red",
+  "advancements.powerrangerscraft.prime_black.desc": "Change into Prime Black",
+  "advancements.powerrangerscraft.prime_black.title": "Ranger Prime Black",
+  "advancements.powerrangerscraft.prime_blue.desc": "Change into Prime Blue",
+  "advancements.powerrangerscraft.prime_blue.title": "Ranger Prime Blue",
+  "advancements.powerrangerscraft.prime_yellow.desc": "Change into Prime Yellow",
+  "advancements.powerrangerscraft.prime_yellow.title": "Ranger Prime Yellow",
+  "advancements.powerrangerscraft.prime_pink.desc": "Change into Prime Pink",
+  "advancements.powerrangerscraft.prime_pink.title": "Ranger Prime Pink",
+  "advancements.powerrangerscraft.prime_green.desc": "Change into Prime Green",
+  "advancements.powerrangerscraft.prime_green.title": "Ranger Prime Green",
+  "advancements.powerrangerscraft.prime_coin.desc": "Obtain any Prime Power Coin",
+  "advancements.powerrangerscraft.prime_coin.title": "Ranger Prime!",
 
   "advancements.powerrangerscraft..desc": "",
   "advancements.powerrangerscraft..title": ""
