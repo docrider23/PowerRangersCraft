@@ -109,6 +109,9 @@ public class EffectCore {
     public static final Holder<MobEffect> BEAST_MORPHERS_YELLOW_BEAST_X= EFFECT.register("beast_morphers_yellow_beast_x",
             () -> new BeastMorphersYellowBeastXEffect(MobEffectCategory.NEUTRAL, 0xf7fada));
 
+    public static final Holder<MobEffect> NINJA_SMOKE= EFFECT.register("ninja_smoke",
+            () -> new NinjaSmokeEffect(MobEffectCategory.NEUTRAL, 0xf7fada));
+
 
     public static void register(IEventBus eventBus) {
         EFFECT.register(eventBus);
