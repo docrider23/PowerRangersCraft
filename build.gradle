@@ -25,7 +25,28 @@ repositories {
             includeGroup("software.bernie.geckolib")
         }
     }
-    mavenCentral()
+    maven {
+        name = 'Sherds API'
+        url = 'https://dl.cloudsmith.io/public/thomasglasser/sherdsapi/maven/'
+        content {
+            includeGroupAndSubgroups("dev.thomasglasser.sherdsapi")
+        }
+    }
+    maven {
+        name = "RedlanceMinecraft"
+        url = "https://repo.redlance.org/public"
+    }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
 
 base {
