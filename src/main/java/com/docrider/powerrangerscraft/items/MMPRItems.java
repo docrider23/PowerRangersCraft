@@ -276,6 +276,43 @@ public class MMPRItems {
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","mmpr_master","dino_thunder_black_belt")
                     .ChangeRangerName("dino_thunder_black").alsoChange2ndSlot(DRAGON_POWER_COIN_NO_SHIELD.get()).ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.MMPR));
 
+    public static final DeferredItem<Item> CRIMSON_HAWK_POWER_COIN = ITEMS.register("crimson_hawk_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","crimson_hawk_ranger","crimson_hawk_ranger_belt",
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 3,true,false),
+                    new MobEffectInstance(EffectCore.HADOKEN, 40, 0,true,false))
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack, player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY() + 1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY() + 1,
+                            player.getZ(), 10, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.RED_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY() + 1,
+                            player.getZ(), 90, 0, 0, 0, 1);
+                }
+            }.AddToTabList(RangerTabs.MMPR));
+    public static final DeferredItem<Item> BLAZING_PHOENIX_POWER_COIN = ITEMS.register("blazing_phoenix_power_coin",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","blue_phoenix_ranger","blue_phoenix_ranger_belt",
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 3,true,false),
+                    new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack, player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_GREEN_WHITE_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY() + 1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY() + 1,
+                            player.getZ(), 10, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.BLUE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY() + 1,
+                            player.getZ(), 90, 0, 0, 0, 1);
+                }
+            }.AddToTabList(RangerTabs.MMPR));
+
     public static final DeferredItem<Item> MMPR_HELMET = ITEMS.register("mmpr_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> MMPR_CHESTPLATE = ITEMS.register("mmpr_torso",
@@ -303,6 +340,11 @@ public class MMPRItems {
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"santa_ranger", REINDEER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> MASTER_MORPHER = ITEMS.register("master_morpher",
             () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_master", DRAGON_POWER_COIN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(DRAGON_POWER_COIN).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+
+    public static final DeferredItem<Item> CRIMSON_HAWK_POWER_MORPHER = ITEMS.register("crimson_hawk_power_morpher",
+        () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"crimson_hawk_ranger", CRIMSON_HAWK_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+    public static final DeferredItem<Item> BLAZING_PHOENIX_POWER_MORPHER = ITEMS.register("blazing_phoenix_power_morpher",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"blue_phoenix_ranger", BLAZING_PHOENIX_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<SwordItem> BLADE_BLASTER = ITEMS.register("blade_blaster",
             () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));

@@ -1626,11 +1626,26 @@
   "item.powerrangerscraft.transportal_device": "Transportal Device",
   "item.powerrangerscraft.gift": "Gift",
 
+  "item.powerrangerscraft.go_go_power_rangers_music_disc": "Go! Go! Power Rangers Music Disc",
+  "item.powerrangerscraft.go_go_power_rangers.desc": "HosephHoestar - Go! Go! Power Rangers",
+
+  "item.powerrangerscraft.go_go_alien_rangers_music_disc": "Go! Go! Alien Rangers Music Disc",
+  "item.powerrangerscraft.go_go_alien_rangers.desc": "HosephHoestar - Go! Go! Alien Rangers",
+
+  //EX Game Stuff
   "item.powerrangerscraft.game_controller_16_bit": "Game Controller",
   "powerrangerscraft:game_controller_16_bit.form": "Ranger: §1Blue Ranger",
   "powerrangerscraft:game_controller_16_bit_mmpr_black.form": "Ranger: §8Black Ranger",
   "powerrangerscraft:game_controller_16_bit_mmpr_yellow.form": "Ranger: §eYellow Ranger",
   "powerrangerscraft:game_controller_16_bit_mmpr_pink.form": "Ranger: §dPink Ranger",
+
+  "item.powerrangerscraft.crimson_hawk_power_coin": "Crimson Hawk Power Coin",
+  "item.powerrangerscraft.crimson_hawk_power_morpher": "Power Morpher",
+  "powerrangerscraft:crimson_hawk_power_coin.form": "Ranger: §4Crimson Hawk Ranger",
+
+  "item.powerrangerscraft.blazing_phoenix_power_coin": "Blazing Phoenix Power Coin",
+  "item.powerrangerscraft.blazing_phoenix_power_morpher": "Power Morpher",
+  "powerrangerscraft:blazing_phoenix_power_coin.form": "Ranger: §1Blue Phoenix Ranger",
 
   "item.powerrangerscraft.battle_for_the_grid_game": "Power Rangers: Battle for the Grid",
   "powerrangerscraft:battle_for_the_grid_game_f.form": "§cRed Ranger (Female)§r\nBattle for the Grid Alt Skin",
@@ -1642,12 +1657,6 @@
   "powerrangerscraft:battle_for_the_grid_game_mmpr_white.form": "Ranger: White Ranger\nBattle for the Grid Alt Skin",
   "powerrangerscraft:battle_for_the_grid_game_ranger_slayer.form": "Villain: §dRanger Slayer§r\nBattle for the Grid Alt Skin",
   "powerrangerscraft:battle_for_the_grid_game_quantum_ranger.form": "Ranger: §4Quantum Ranger§r\nBattle for the Grid Alt Skin",
-
-  "item.powerrangerscraft.go_go_power_rangers_music_disc": "Go! Go! Power Rangers Music Disc",
-  "item.powerrangerscraft.go_go_power_rangers.desc": "HosephHoestar - Go! Go! Power Rangers",
-
-  "item.powerrangerscraft.go_go_alien_rangers_music_disc": "Go! Go! Alien Rangers Music Disc",
-  "item.powerrangerscraft.go_go_alien_rangers.desc": "HosephHoestar - Go! Go! Alien Rangers",
 
   "item.powerrangercraft.":"",
   

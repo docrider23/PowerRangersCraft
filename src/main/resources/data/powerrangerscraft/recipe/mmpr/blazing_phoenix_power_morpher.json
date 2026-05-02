@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blue_phoenix_ranger",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:grid_infused_gold_ingot"
+    },
+	"b": {
+      "item": "powerrangerscraft:blazing_phoenix_power_coin"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:blazing_phoenix_power_morpher"
+  }
+}

@@ -39,9 +39,19 @@ public class EffectCore {
             () -> new 	BasicEffect(MobEffectCategory.BENEFICIAL, 0xffffff)
                     .addAttributeModifier(NeoForgeMod.CREATIVE_FLIGHT, ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "effect.flying"), 1, AttributeModifier.Operation.ADD_VALUE) );
 
+    public static final Holder<MobEffect> LONG_ARM= EFFECT.register("long_arm",
+            () -> new BasicEffect(MobEffectCategory.NEUTRAL, 0xe60052)
+                    .addAttributeModifier(Attributes.BLOCK_INTERACTION_RANGE, ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "effect.long_arm"), 1F, AttributeModifier.Operation.ADD_VALUE));
+
+    public static final Holder<MobEffect> STEP= EFFECT.register("step",
+            () -> new BasicEffect(MobEffectCategory.NEUTRAL, 0x9d3443)
+                    .addAttributeModifier(Attributes.STEP_HEIGHT, ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "effect.step"), 1F, AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+
     public static final Holder<MobEffect>GLIDE = EFFECT.register("glide",
             () -> new BasicEffect(MobEffectCategory.BENEFICIAL, 0xd368fa));
 
+    public static final Holder<MobEffect> HADOKEN = EFFECT.register("hadoken",
+            () -> new HadokenEffect(MobEffectCategory.NEUTRAL, 0x1d8519));
 
     public static final Holder<MobEffect> FIRESLASH= EFFECT.register("fire_slash",
             () -> new BasicEffect(MobEffectCategory.BENEFICIAL, 0xf7c208));

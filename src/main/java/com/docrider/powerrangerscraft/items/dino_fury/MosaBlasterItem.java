@@ -54,14 +54,14 @@ public class MosaBlasterItem extends RangerChangerItem{
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
 			if (get_Form_Item(itemstack,2).getFormName(fly)=="") return "blank";
-			if (get_Form_Item(itemstack,2).getFormName(fly)!="blazing_battle_armor"&
-					get_Form_Item(itemstack,2).getFormName(fly)!="electro_battle_armor" &
-					get_Form_Item(itemstack,2).getFormName(fly)!="shadow_battle_armor" &
-					get_Form_Item(itemstack,2).getFormName(fly)!="light_battle_armor" &
-					get_Form_Item(itemstack,2).getFormName(fly)!="cosmic_battle_armor" &
-					get_Form_Item(itemstack,2).getFormName(fly)!="smash_battle_armor" &
-					get_Form_Item(itemstack,2).getFormName(fly)!="freeze_battle_armor" &
-					get_Form_Item(itemstack,2).getFormName(fly)!="dino_master_mode") return "blank";
+			if (get_Form_Item(itemstack,2).getFormName(false)!="blazing_battle_armor"&
+					get_Form_Item(itemstack,2).getFormName(false)!="electro_battle_armor" &
+					get_Form_Item(itemstack,2).getFormName(false)!="shadow_battle_armor" &
+					get_Form_Item(itemstack,2).getFormName(false)!="light_battle_armor" &
+					get_Form_Item(itemstack,2).getFormName(false)!="cosmic_battle_armor" &
+					get_Form_Item(itemstack,2).getFormName(false)!="smash_battle_armor" &
+					get_Form_Item(itemstack,2).getFormName(false)!="freeze_battle_armor" &
+					get_Form_Item(itemstack,2).getFormName(false)!="dino_master_mode") return "blank";
 			else return get_Form_Item(itemstack,2).getFormName(fly);
 		}
 
