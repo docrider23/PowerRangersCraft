@@ -22,8 +22,12 @@ public class GamesItems {
     public static final DeferredItem<Item> GAME_CONTROLLER_16_BIT = ITEMS.register("game_controller_16_bit",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_16_bit","mmpr_blue","mmpr_belt").ChangeBeltModel("geo/mmpr_belt.geo.json").addAlternative(GAME_CONTROLLER_16_BIT_MMPR_BLACK.get()).AddToTabList(RangerTabs.MISC));
 
+    public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME_BLUE_PHOENIX_RANGER = ITEMS.register("battle_for_the_grid_game_blue_phoenix_ranger",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","blue_phoenix_ranger","blue_phoenix_ranger_belt"));
+    public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME_CRIMSON_HAWK_RANGER = ITEMS.register("battle_for_the_grid_game_crimson_hawk_ranger",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","crimson_hawk_ranger","crimson_hawk_ranger_belt").addAlternative(BATTLE_FOR_THE_GRID_GAME_BLUE_PHOENIX_RANGER.get()));
     public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME_QUANTUM_RANGER = ITEMS.register("battle_for_the_grid_game_quantum_ranger",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","quantum_ranger","quantum_ranger_belt_game").ChangeBeltModel("geo/rangerbelt1.geo.json"));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","quantum_ranger","quantum_ranger_belt_game").addAlternative(BATTLE_FOR_THE_GRID_GAME_CRIMSON_HAWK_RANGER.get()).ChangeBeltModel("geo/rangerbelt1.geo.json"));
     public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME_RANGER_SLAYER = ITEMS.register("battle_for_the_grid_game_ranger_slayer",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_game","ranger_slayer","ranger_slayer_belt_game").addAlternative(BATTLE_FOR_THE_GRID_GAME_QUANTUM_RANGER.get()).ChangeBeltModel("geo/mmpr_belt_weapon.geo.json"));
     public static final DeferredItem<Item> BATTLE_FOR_THE_GRID_GAME_MMPR_WHITE = ITEMS.register("battle_for_the_grid_game_mmpr_white",
