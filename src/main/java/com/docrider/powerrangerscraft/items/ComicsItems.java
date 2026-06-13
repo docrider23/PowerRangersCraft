@@ -1,8 +1,14 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.mmpr.MMPRBeltItem;
 import com.docrider.powerrangerscraft.items.others.*;
+import com.docrider.powerrangerscraft.particle.ModParticles;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -11,6 +17,41 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ComicsItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
+
+    public static final DeferredItem<Item> BOOM_STUDIOS_COMIC = ITEMS.register("boom_studios_comic",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
+    public static final DeferredItem<Item> BOOM_STUDIOS_COMIC_DARK = ITEMS.register("boom_studios_comic_dark",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
+
+    public static final DeferredItem<Item> MMPR_THE_RETURN_COMIC = ITEMS.register("mmpr_the_return_comic",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_the_return","mmpr_red","mmpr_red_the_return_belt",
+                    new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1, true, false)){
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.RED_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }}
+                    .ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.MISC));
+
+    public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_PINK = ITEMS.register("mmpr_2026_comic_mmpr_pink",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_pink","mmpr_2026_belt"));
+    public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_YELLOW = ITEMS.register("mmpr_2026_comic_mmpr_yellow",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_yellow","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_PINK.get()));
+    public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_BLACK = ITEMS.register("mmpr_2026_comic_mmpr_black",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_black","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_YELLOW.get()));
+    public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_BLUE = ITEMS.register("mmpr_2026_comic_mmpr_blue",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_blue","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLACK.get()));
+    public static final DeferredItem<Item> MMPR_2026_COMIC = ITEMS.register("mmpr_2026_comic",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_red","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLUE.get()).AddToTabList(RangerTabs.MISC));
 
     //Shattered Grid
     public static final DeferredItem<Item> RANGER_SLAYER_POWER_COIN_SOLAR = ITEMS.register("ranger_slayer_power_coin_solar",

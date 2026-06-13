@@ -37,6 +37,9 @@
   "key.categories.powerrangerscraft": "PowerRangersCraft",
   "key.powerrangerscraft.ability": "Use an Ability",
 
+  "gamerule.bossSpawnPercentage_PRC": "Boss spawn chance percentage (PRC)",
+  "gamerule.bossSpawnPercentage_PRC.description": "The chance for a Ranger mob to spawn a boss when killed.",
+
   "entity.powerrangerscraft.putty_patroller":"Putty Patrollers",
   "item.powerrangerscraft.putty_patroller_spawn_egg":"Putty Patrollers Spawn Egg",
   "entity.powerrangerscraft.goldar":"Goldar",
@@ -1426,6 +1429,19 @@
   "item.powerrangerscraft.cosmic_staff": "Cosmic Staff",
 
   //EX Comics
+  "item.powerrangerscraft.boom_studios_comic": "Boom Studios Comic",
+  "item.powerrangerscraft.boom_studios_comic_dark": "Boom Studios Comic (Dark Variant)",
+
+  "item.powerrangerscraft.mmpr_the_return_comic": "Mighty Morphin' Power Rangers: The Return Comic",
+  "powerrangerscraft:mmpr_the_return_comic.form": "Ranger: §cRed Ranger",
+
+  "item.powerrangerscraft.mmpr_2026_comic": "Mighty Morphin' Power Rangers (2026) Comic",
+  "powerrangerscraft:mmpr_2026_comic.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:mmpr_2026_comic_mmpr_black.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:mmpr_2026_comic_mmpr_blue.form": "Ranger: §1Blue Ranger",
+  "powerrangerscraft:mmpr_2026_comic_mmpr_yellow.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:mmpr_2026_comic_mmpr_pink.form": "Ranger: §dPink Ranger",
+
   //EX Comics: Shattered Grid
   "tab.powerrangerscraft.shattered_grid": "Shattered Grid",
 

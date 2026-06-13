@@ -1,0 +1,41 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "powerrangerscraft:item/mmpr_the_return_comic"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.75, 1.5],
+			"scale": [0.36, 0.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2.75, 1.5],
+			"scale": [0.36, 0.5, 1]
+		},
+		"firstperson_righthand": {
+			"scale": [0.51, 0.75, 1]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.51, 0.75, 1]
+		},
+		"ground": {
+			"scale": [0.75, 1, 1]
+		},
+		"gui": {
+			"scale": [0.75, 1, 1]
+		},
+		"head": {
+			"translation": [0, 14.5, 0],
+			"scale": [0.75, 1, 1]
+		},
+		"fixed": {
+			"scale": [0.75, 1, 1]
+		},
+		"on_shelf": {
+			"scale": [0.75, 1, 1]
+		}
+	},
+	"_comment": "Generated using MiningMark48's JSON Generator."
+}
