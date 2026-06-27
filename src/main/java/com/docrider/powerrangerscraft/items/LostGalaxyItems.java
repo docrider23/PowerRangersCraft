@@ -86,7 +86,7 @@ public class LostGalaxyItems {
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
             		new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
             		new MobEffectInstance(MobEffects.JUMP, 400, 3,true,false))
-            .ChangeSlot(2).ChangeBeltModel("geo/rangerbeltextra.geo.json").ResetFormToBase()
+            .ChangeSlot(2).ChangeBeltModel("geo/rangerbeltextra.geo.json").ChangeModel("lights_of_orion.geo.json").ResetFormToBase()
             .AddCompatibilityList(new String[] {"galaxy_green","galaxy_blue","galaxy_yellow","galaxy_pink"}).AddToTabList(RangerTabs.LOST_GALAXY));
 
 	public static final DeferredItem<Item> GALACTIC_KEY = ITEMS.register("galactic_key",
