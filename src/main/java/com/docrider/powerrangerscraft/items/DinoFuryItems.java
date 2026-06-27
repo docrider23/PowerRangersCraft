@@ -277,7 +277,7 @@ public class DinoFuryItems {
             		new MobEffectInstance(EffectCore.SLASH, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
             		new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false))
-			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/dino_fury_belt.geo.json").AddToTabList(RangerTabs.DINO_FURY));
+			.alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/dino_fury_belt.geo.json").AddCompatibilityList(new String[] {"dino_fury_black"}).AddToTabList(RangerTabs.DINO_FURY));
     
 	public static final DeferredItem<Item> DINO_MASTER_KEY = ITEMS.register("dino_master_key",
             () -> new DinoKeyItem(new Item.Properties(),0,"dino_master_mode","","blank",
