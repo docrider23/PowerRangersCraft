@@ -1260,7 +1260,8 @@
   "powerrangerscraft:smash_dino_key.form": "Smash Battle Armor",
   "powerrangerscraft:freeze_dino_key.form": "Freeze Battle Armor",
 
-  "powerrangerscraft:dino_knight_key.form_1": "§cRed Ranger",
+  "powerrangerscraft:dino_knight_key.form_r": "§cRed Ranger",
+  "powerrangerscraft:dino_knight_key.form_b": "§8Black Ranger",
   "powerrangerscraft:dino_knight_key.form_2": "Dino Knight Mode",
   "powerrangerscraft:dino_master_key.form": "Dino Master Mode",
 

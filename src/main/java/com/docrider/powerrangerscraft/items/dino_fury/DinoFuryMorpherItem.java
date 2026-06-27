@@ -17,6 +17,7 @@ import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.neoforge.registries.DeferredItem;
 
 import java.util.List;
+import java.util.Stack;
 
 public class DinoFuryMorpherItem extends RangerChangerItem{
 
@@ -33,8 +34,14 @@ public class DinoFuryMorpherItem extends RangerChangerItem{
 		Item formItem2 = this.get_Form_Item(stack, 2);
 
 		if (formItem== DinoFuryItems.DINO_KNIGHT_KEY.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
+			if (stack.getItem() == DinoFuryItems.RED_DINO_FURY_MORPHER.get()) {
+				tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_r").getString()));
+				tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
+			}
+		else if (stack.getItem() == DinoFuryItems.BLACK_DINO_FURY_MORPHER.get()) {
+				tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_b").getString()));
+				tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
+			}
 		}
 		else if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
 		else {

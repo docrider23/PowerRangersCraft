@@ -36,7 +36,8 @@ public class DinoKeyItem extends RangerFormChangeItem {
 				{
 					if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==DinoFuryItems.DINO_KNIGHT_MORPHER.get())
 					{
-						if (BELT.getItem() == DinoFuryItems.RED_DINO_FURY_MORPHER.get()) RangerChangerItem.set_Form_Item(BELT,this, getSlot());
+						if (BELT.getItem() == DinoFuryItems.RED_DINO_FURY_MORPHER.get() |
+								BELT.getItem() == DinoFuryItems.BLACK_DINO_FURY_MORPHER.get()) RangerChangerItem.set_Form_Item(BELT,this, getSlot());
 					}
 				}
 				else if (this == DinoFuryItems.DINO_MASTER_KEY.get())
