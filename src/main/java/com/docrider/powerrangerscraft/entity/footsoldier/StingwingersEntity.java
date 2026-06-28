@@ -12,5 +12,6 @@ public class StingwingersEntity extends BaseFootsoldierEntity {
         super(type, level);
         NAME="stingwinger";
         this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(MobsItems.STINGWINGERS_STINGER.get()));
+        this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(MobsItems.STINGWINGERS_STINGER.get()));
     }
 }
