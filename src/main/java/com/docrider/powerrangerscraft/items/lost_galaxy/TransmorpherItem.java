@@ -32,6 +32,7 @@ public class TransmorpherItem extends RangerChangerItem {
 		Item formItem2 = this.get_Form_Item(stack, 2);
 
 		if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form").getString()));
+		else if (formItem2 == LostGalaxyItems.GALACTIC_KEY.get()) tooltipComponents.add(Component.literal(Component.translatable(formItem2.toString() + ".form").getString()));
 		else {
 			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form").getString()
 					+ " " + Component.translatable(formItem2.toString() + ".form").getString()));
@@ -68,7 +69,10 @@ public class TransmorpherItem extends RangerChangerItem {
 			return "belts/"+belt;
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
-			if (get_Form_Item(itemstack,2).getFormName(fly)=="_armored") return "blank";
+			if (get_Form_Item(itemstack,2).getFormName(fly)=="_armored")
+			{
+				return get_Form_Item(itemstack,2).getRangerName(rangerName)+get_Form_Item(itemstack,2).getFormName(fly);
+			}
 			else if (get_Form_Item(itemstack, 2).getFormName(fly)=="_lights_of_orion")
 			{
 				return get_Form_Item(itemstack,2).getRangerName(rangerName)+get_Form_Item(itemstack,2).getFormName(fly);

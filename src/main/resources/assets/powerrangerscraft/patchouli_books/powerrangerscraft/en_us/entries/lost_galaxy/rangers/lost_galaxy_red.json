@@ -37,7 +37,7 @@
 		{
 			"type": "patchouli:entity",
 			"anchor": "red_armored_ranger",
-			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_transmorpher\",components:{custom_data:{slot_tex1:\"powerrangerscraft:galactic_key\"}},Count:1b},{id:\"powerrangerscraft:lost_galaxy_legs\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_torso\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_head\",Count:1b}]}",
+			"entity": "powerrangerscraft:putty_patroller{CustomName:\"Grumm\",ArmorItems:[{id:\"powerrangerscraft:red_transmorpher\",components:{custom_data:{slot_tex2:\"powerrangerscraft:galactic_key\"}},Count:1b},{id:\"powerrangerscraft:lost_galaxy_legs\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_torso\",Count:1b},{id:\"powerrangerscraft:lost_galaxy_head\",Count:1b}]}",
 			"scale": -1,
 			"offset": 0.1,
 			"name": "Red Armored Ranger",
