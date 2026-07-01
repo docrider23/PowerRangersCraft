@@ -6,12 +6,14 @@ import com.docrider.powerrangerscraft.entity.ally.*;
 import com.docrider.powerrangerscraft.entity.bikes.DinoCycleEntity;
 import com.docrider.powerrangerscraft.entity.boss.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.*;
+import com.docrider.powerrangerscraft.entity.villagers.RangerVillagers;
 import com.docrider.powerrangerscraft.items.ComicsItems;
 import com.docrider.powerrangerscraft.items.GamesItems;
 import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.network.payload.AbilityKeyPayload;
+import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -142,22 +144,24 @@ public class ModCommonEvents {
                 new ItemCost(Items.EMERALD, 2),
                 new ItemStack(GamesItems.GAME_CONTROLLER_16_BIT.get(), 1), 10, 8, 0.02F));
         trades.add((trader,rand) -> new MerchantOffer(
-                new ItemCost(Items.EMERALD, 3),
-                new ItemStack(ComicsItems.MMPR_2026_COMIC.get(), 1), 10, 10, 0.02F));
-        trades.add((trader,rand) -> new MerchantOffer(
-                new ItemCost(Items.EMERALD, 3),
-                new ItemStack(ComicsItems.MMPR_THE_RETURN_COMIC.get(), 1), 10, 10, 0.02F));
-        trades.add((trader,rand) -> new MerchantOffer(
-                new ItemCost(Items.EMERALD, 3),
-                new ItemStack(ComicsItems.UNLIMITED_COMMUNICATOR.get(), 1), 10, 10, 0.02F));
-        trades.add((trader,rand) -> new MerchantOffer(
                 new ItemCost(Items.EMERALD,5),
                 new ItemStack(OperationOverdriveItems.DRAGON_SCALE.get(), 1), 10, 20, 0.02F));
     }
 
     @SubscribeEvent
-        public void addCustomTrades(VillagerTradesEvent event) {
-
+    public void addCustomTrades(VillagerTradesEvent event) {
+        Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+        if (event.getType() == RangerVillagers.COMICSHOP_VILLAGER.get()) {
+            trades.get(1).add((trader,rand) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 3),
+                new ItemStack(ComicsItems.MMPR_2026_COMIC.get(), 1), 10, 10, 0.02F));
+            trades.get(1).add((trader,rand) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 3),
+                new ItemStack(ComicsItems.MMPR_THE_RETURN_COMIC.get(), 1), 10, 10, 0.02F));
+            trades.get(1).add((trader,rand) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 3),
+                new ItemStack(ComicsItems.UNLIMITED_COMMUNICATOR.get(), 1), 10, 10, 0.02F));
+            }
         }
     }
 

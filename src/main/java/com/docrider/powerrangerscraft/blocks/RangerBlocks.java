@@ -138,6 +138,10 @@ public class RangerBlocks {
     public static final DeferredBlock<Block> GENERAL_VENJIX_BOSS_BLOCK = registerBlock("general_venjix_boss_block",
             () -> new BossBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD).strength(2f), MobsCore.GENERAL_VENJIX).AddToTabList(RangerTabs.BLOCKS));
 
+    public static final DeferredBlock<Block> COMIC_SHOP = registerBlock("comic_shop",
+            () -> new BaseFacingBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.GLASS)
+                    .requiresCorrectToolForDrops().strength(2f)).AddToTabList(RangerTabs.BLOCKS));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

@@ -1430,6 +1430,11 @@
   "item.powerrangerscraft.cosmic_staff": "Cosmic Staff",
 
   //EX Comics
+  "tab.powerrangerscraft.comics": "Other Comics Stuff",
+
+  "block.powerrangerscraft.comic_shop": "Comic Store Counter",
+  "entity.minecraft.villager.powerrangerscraft.comicshop_villager": "Comic Store Clerk",
+
   "item.powerrangerscraft.boom_studios_comic": "Boom Studios Comic",
   "item.powerrangerscraft.boom_studios_comic_dark": "Boom Studios Comic (Dark Variant)",
 

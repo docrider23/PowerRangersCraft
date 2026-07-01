@@ -129,6 +129,11 @@ public class RangerTabs {
                           (PowerRangersCraftCore.MODID,"textures/gui/tab_hyperforce_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.hyperforce")).build());
 
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> ComicsTab = CREATIVE_MODE_TABS.register("prc03x", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(ComicsItems.BOOM_STUDIOS_COMIC.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
+                            (PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.comics")).build());
+
    public static DeferredHolder<CreativeModeTab, CreativeModeTab> ShatteredGridTab = CREATIVE_MODE_TABS.register("prc031", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(ComicsItems.DRAKKON_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath
                             (PowerRangersCraftCore.MODID,"textures/gui/tab_shattered_grid_items.png"))
@@ -219,6 +224,8 @@ public class RangerTabs {
     public static List<Item> COSMIC_FURY= new ArrayList<Item>();
 
     public static List<Item> HYPERFORCE= new ArrayList<Item>();
+
+    public static List<Item> COMICS= new ArrayList<>();
 
     public static List<Item> REBOOT= new ArrayList<Item>();
 
@@ -416,6 +423,13 @@ public class RangerTabs {
             for (int i = 0; i < RangerTabs.HYPERFORCE.size(); i++)
             {
                 event.accept( RangerTabs.HYPERFORCE.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.ComicsTab.get()) {
+            for (int i = 0; i < RangerTabs.COMICS.size(); i++)
+            {
+                event.accept( RangerTabs.COMICS.get(i));
             }
 
         }

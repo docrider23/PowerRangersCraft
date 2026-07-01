@@ -19,9 +19,9 @@ public class ComicsItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
 
     public static final DeferredItem<Item> BOOM_STUDIOS_COMIC = ITEMS.register("boom_studios_comic",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.COMICS));
     public static final DeferredItem<Item> BOOM_STUDIOS_COMIC_DARK = ITEMS.register("boom_studios_comic_dark",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.COMICS));
 
     public static final DeferredItem<Item> MMPR_THE_RETURN_COMIC = ITEMS.register("mmpr_the_return_comic",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_the_return","mmpr_red","mmpr_red_the_return_belt",
@@ -40,7 +40,7 @@ public class ComicsItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }}
-                    .ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.MISC));
+                    .ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.COMICS));
 
     public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_PINK = ITEMS.register("mmpr_2026_comic_mmpr_pink",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_pink","mmpr_2026_belt"));
@@ -51,7 +51,7 @@ public class ComicsItems {
     public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_BLUE = ITEMS.register("mmpr_2026_comic_mmpr_blue",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_blue","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLACK.get()));
     public static final DeferredItem<Item> MMPR_2026_COMIC = ITEMS.register("mmpr_2026_comic",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_red","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLUE.get()).AddToTabList(RangerTabs.MISC));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_red","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLUE.get()).AddToTabList(RangerTabs.COMICS));
 
     //Shattered Grid
     public static final DeferredItem<Item> RANGER_SLAYER_POWER_COIN_SOLAR = ITEMS.register("ranger_slayer_power_coin_solar",
@@ -287,7 +287,7 @@ public class ComicsItems {
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
             }
-                    .ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.MISC));
+                    .ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.COMICS));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

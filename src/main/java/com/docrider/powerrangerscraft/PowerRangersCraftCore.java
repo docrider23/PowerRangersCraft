@@ -7,6 +7,7 @@ import com.docrider.powerrangerscraft.client.KeyBindings;
 import com.docrider.powerrangerscraft.client.gui.GridEnergyInfuserGuiScreen;
 import com.docrider.powerrangerscraft.client.renderer.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.BaseFootsoldierEntity;
+import com.docrider.powerrangerscraft.entity.villagers.RangerVillagers;
 import com.docrider.powerrangerscraft.events.ModClientEvents;
 import com.docrider.powerrangerscraft.blocks.RangerBlocks;
 import com.docrider.powerrangerscraft.effect.EffectCore;
@@ -129,6 +130,7 @@ public class PowerRangersCraftCore {
 
         RangerBlocks.register(modEventBus);
         //RangerFluids.register(modEventBus);
+        RangerVillagers.register(modEventBus);
 
         MobsCore.register(modEventBus);
         MobsCore.MOBLIST.register(modEventBus);
