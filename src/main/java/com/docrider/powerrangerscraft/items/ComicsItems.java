@@ -270,6 +270,25 @@ public class ComicsItems {
     public static final DeferredItem<Item> RANGER_ACADEMY_GREEN_MORPHER = ITEMS.register("ranger_academy_green_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_green", RANGER_ACADEMY_GREEN_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
 
+    //Unlimited
+    public static final DeferredItem<Item> UNLIMITED_COMMUNICATOR = ITEMS.register("unlimited_communicator",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_unlimited","mmpr_yellow","mmpr_yellow_belt")
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.YELLOW_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.WHITE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }
+                    .ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.MISC));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

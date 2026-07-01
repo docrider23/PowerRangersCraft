@@ -1595,6 +1595,11 @@
   "powerrangerscraft:ranger_academy_pink_power_coin.form": "Ranger: §dPink Ranger",
   "powerrangerscraft:ranger_academy_green_power_coin.form": "Ranger: §aGreen Ranger",
 
+  //EX Comics: Unlimited
+  "item.powerrangerscraft.unlimited_communicator": "Unlimited Communicator",
+
+  "powerrangerscraft:unlimited_communicator.form": "Ranger: §eStriking Tiger Unlimited Ranger",
+
   //EX 2017 Reboot
   "tab.powerrangerscraft.reboot": "Power Rangers (2017)",
 

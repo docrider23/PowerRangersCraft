@@ -143,13 +143,16 @@ public class ModCommonEvents {
                 new ItemStack(GamesItems.GAME_CONTROLLER_16_BIT.get(), 1), 10, 8, 0.02F));
         trades.add((trader,rand) -> new MerchantOffer(
                 new ItemCost(Items.EMERALD, 3),
-                new ItemStack(ComicsItems.MMPR_2026_COMIC.get(), 1), 10, 8, 0.02F));
+                new ItemStack(ComicsItems.MMPR_2026_COMIC.get(), 1), 10, 10, 0.02F));
         trades.add((trader,rand) -> new MerchantOffer(
                 new ItemCost(Items.EMERALD, 3),
-                new ItemStack(ComicsItems.MMPR_THE_RETURN_COMIC.get(), 1), 10, 8, 0.02F));
+                new ItemStack(ComicsItems.MMPR_THE_RETURN_COMIC.get(), 1), 10, 10, 0.02F));
+        trades.add((trader,rand) -> new MerchantOffer(
+                new ItemCost(Items.EMERALD, 3),
+                new ItemStack(ComicsItems.UNLIMITED_COMMUNICATOR.get(), 1), 10, 10, 0.02F));
         trades.add((trader,rand) -> new MerchantOffer(
                 new ItemCost(Items.EMERALD,5),
-                new ItemStack(OperationOverdriveItems.DRAGON_SCALE.get(), 1), 10, 8, 0.02F));
+                new ItemStack(OperationOverdriveItems.DRAGON_SCALE.get(), 1), 10, 20, 0.02F));
     }
 
     @SubscribeEvent
