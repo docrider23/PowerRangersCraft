@@ -443,7 +443,9 @@
   "powerrangerscraft:lightspeed_pink_badge.form": "Ranger: §dPink Ranger",
   "powerrangerscraft:titanium_badge.form": "Ranger: §7Titanium Ranger",
 
-  "powerrangerscraft:trans_armor_badge.form": "Ranger: §cRed Ranger §rw/ Trans Armor",
+  "powerrangerscraft:trans_armor_badge.form": "§rw/ Trans Armor",
+  "powerrangerscraft:battle_booster_megabattle_blue.form": "§rMegabattle Armor",
+  "powerrangerscraft:battle_booster_megabattle_green.form": "§rMegabattle Armor",
 
   "item.powerrangerscraft.battle_booster": "Battle Booster",
 
@@ -502,6 +504,9 @@
 
   "item.powerrangerscraft.trans_armor_gauntlet_blaster": "Trans Armor Gauntlet Blaster",
   "item.powerrangerscraft.trans_armor_gauntlet_blaster1": "Trans Armor Gauntlet Blaster",
+
+  "item.powerrangerscraft.megabattle_water_cannon": "Megabattle Water Cannon",
+  "item.powerrangerscraft.megabattle_power_saw": "Megabattle Power Saw",
 
   //09 Time Force
   "tab.powerrangerscraft.time_force": "Time Force",

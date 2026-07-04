@@ -1,0 +1,38 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "powerrangerscraft:item/megabattle_water_cannon"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-43.25, 90, 0],
+			"translation": [2.25, -2, 6],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [43.25, -90, 90],
+			"translation": [2.25, -2, 6],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, -39.75],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, -90, 130],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"head": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 13, 7]
+		},
+		"fixed": {
+			"rotation": [180, 0, 180]
+		}
+	},
+	"_comment": "Generated using MiningMark48's JSON Generator."
+}

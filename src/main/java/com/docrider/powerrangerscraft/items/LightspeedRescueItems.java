@@ -58,7 +58,7 @@ public class LightspeedRescueItems {
                     new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.SHOTBOOST,40,2,true,false))
-                    .ChangeModel("trans_armor.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    .ChangeSlot(2).ChangeModel("trans_armor.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_RESCUE_HELMET = ITEMS.register("lightspeed_rescue_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
@@ -68,19 +68,25 @@ public class LightspeedRescueItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
     public static final DeferredItem<Item> RED_RESCUE_MORPHER = ITEMS.register("red_rescue_morpher",
-            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_red",LIGHTSPEED_RED_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_red",LIGHTSPEED_RED_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
     public static final DeferredItem<Item> BLUE_RESCUE_MORPHER = ITEMS.register("blue_rescue_morpher",
-            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_blue",LIGHTSPEED_BLUE_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_blue",LIGHTSPEED_BLUE_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
     public static final DeferredItem<Item> GREEN_RESCUE_MORPHER = ITEMS.register("green_rescue_morpher",
-            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_green",LIGHTSPEED_GREEN_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_green",LIGHTSPEED_GREEN_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
     public static final DeferredItem<Item> YELLOW_RESCUE_MORPHER = ITEMS.register("yellow_rescue_morpher",
-            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_yellow",LIGHTSPEED_YELLOW_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_yellow",LIGHTSPEED_YELLOW_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
     public static final DeferredItem<Item> PINK_RESCUE_MORPHER = ITEMS.register("pink_rescue_morpher",
-            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_pink",LIGHTSPEED_PINK_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_pink",LIGHTSPEED_PINK_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
     public static final DeferredItem<Item> TITANIUM_MORPHER = ITEMS.register("titanium_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"titanium_ranger",TITANIUM_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
+    public static final DeferredItem<Item> BATTLE_BOOSTER_MEGABATTLE_GREEN = ITEMS.register("battle_booster_megabattle_green",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_megabattle","lightspeed_green","lightspeed_green_belt")
+                    .ChangeModel("lightspeed_megabattle.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json"));
+    public static final DeferredItem<Item> BATTLE_BOOSTER_MEGABATTLE_BLUE = ITEMS.register("battle_booster_megabattle_blue",
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_megabattle","lightspeed_blue","lightspeed_blue_belt")
+                    .ChangeModel("lightspeed_megabattle.geo.json").ChangeBeltModel("geo/rangerbeltextra.geo.json"));
     public static final DeferredItem<Item> BATTLE_BOOSTER = ITEMS.register("battle_booster",
             () -> new BattleBoosterItem(new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
@@ -182,6 +188,11 @@ public class LightspeedRescueItems {
             () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
     public static final DeferredItem<BaseBlasterItem> TRANS_ARMOR_GAUNTLET_BLASTER1 = ITEMS.register("trans_armor_gauntlet_blaster1",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).setProjectile(BaseBlasterItem.BlasterProjectile.WIND_CHARGE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> MEGABATTLE_WATER_CANNON = ITEMS.register("megabattle_water_cannon",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()).KeepDifItem(BATTLE_BOOSTER.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).setProjectile(BaseBlasterItem.BlasterProjectile.SNOWBALL).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+    public static final DeferredItem<AxeItem> MEGABATTLE_POWER_SAW = ITEMS.register("megabattle_power_saw",
+            () -> new BaseAxeItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).keepDiffItem(BATTLE_BOOSTER.get()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

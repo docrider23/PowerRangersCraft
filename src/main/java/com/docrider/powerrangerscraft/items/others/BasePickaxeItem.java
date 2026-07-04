@@ -3,6 +3,7 @@ package com.docrider.powerrangerscraft.items.others;
 import com.docrider.powerrangerscraft.items.MMPRItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import net.minecraft.world.item.*;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
@@ -19,8 +20,15 @@ public class BasePickaxeItem extends PickaxeItem {
 		return this;
 	}
 
-	public boolean isValidRepairItem(ItemStack p_40392_, ItemStack p_40393_) {
-		return p_40393_.getItem()== RepairItem;
+	public boolean isValidRepairItem(@NotNull ItemStack itemStackOne, ItemStack repairItem) {
+		return repairItem.getItem() == RepairItem;
+	}
+
+	public BasePickaxeItem addToList(List<Item> TabList, int num) {
+		for (int i = 0; i < num; i++) {
+			TabList.add(this);
+		}
+		return this;
 	}
 	
 	public BasePickaxeItem AddToTabList(List<Item> TabList) {

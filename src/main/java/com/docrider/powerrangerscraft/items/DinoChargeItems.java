@@ -34,6 +34,7 @@ public class DinoChargeItems {
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
                     new MobEffectInstance(EffectCore.SHOTBOOST, 40, 1,true,false))
                     .AddToTabList(RangerTabs.DINO_CHARGE));
+
     public static final DeferredItem<Item> DINO_CYCLE_CHARGER = ITEMS.register("dino_cycle_charger",
             () -> new SummonBikeItem(new Item.Properties(), MobsCore.DINO_CYCLE)
                     .AddToList(RangerTabs.DINO_CHARGE));

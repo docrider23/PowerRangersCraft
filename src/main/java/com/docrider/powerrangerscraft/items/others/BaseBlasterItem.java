@@ -100,6 +100,14 @@ public class BaseBlasterItem extends BowItem {
 				windcharge.accelerationPower = 0.75D;
 				user.level().addFreshEntity(windcharge);
 			}
+		},
+		SNOWBALL {
+			public void fire(LivingEntity user, Vec3 movement) {
+				Snowball snowball = new Snowball(user.level(), user);
+				snowball.setPos(snowball.getX(), user.getY(0.5D) + 0.5D, snowball.getZ());
+				snowball.addDeltaMovement(movement.scale(3));
+				user.level().addFreshEntity(snowball);
+			}
 		};
 
 		public void fire(LivingEntity player, Vec3 vec3) {}
