@@ -40,4 +40,18 @@ public class GrowlPhoneItem extends RangerChangerItem{
 		}
 		else return rangerName+get_Form_Item(itemstack,1).getFormName(fly);
 	}
+
+	@Override
+	public boolean getPartsForSlot(ItemStack itemstack,EquipmentSlot currentSlot,String  part) {
+
+		switch (currentSlot) {
+			case HEAD, LEGS ->{
+				return true;
+			}
+			case CHEST -> {
+			}
+			default -> {}
+		}
+		return false;
+	}
 }

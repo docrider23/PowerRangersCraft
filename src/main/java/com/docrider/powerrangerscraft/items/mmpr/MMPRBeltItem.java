@@ -38,7 +38,7 @@ public class MMPRBeltItem extends RangerChangerItem {
         Item formItem = this.get_Form_Item(stack, 1);
         Item formItem2 = this.get_Form_Item(stack, 2);
 
-        if (formItem2== MMPRItems.DRAGON_POWER_COIN.get()
+        if (formItem2== MMPRItems.DRAGON_POWER_COIN_SHIELD.get()
                 ||formItem2== MMPRItems.METALLIC_ARMOR.get()
                 ||formItem2== MMPRItems.METALLIC_ARMOR_BLACK.get()
                 ||formItem2== MMPRItems.METALLIC_ARMOR_BLUE.get()
@@ -62,8 +62,8 @@ public class MMPRBeltItem extends RangerChangerItem {
         boolean fly = !rider.onGround();
 
         if (equipmentSlot == EquipmentSlot.FEET) {
-            if (rangerName != "mmpr_green" & rider.getMainHandItem().getItem() == MMPRItems.BLADE_BLASTER.get() ||
-                rangerName == "mmpr_green" & rider.getMainHandItem().getItem() == MMPRItems.DRAGON_DAGGER.get()) {
+            if (!rangerName.equals("mmpr_green") & rider.getMainHandItem().getItem() == MMPRItems.BLADE_BLASTER.get() ||
+                rangerName.equals("mmpr_green") & rider.getMainHandItem().getItem() == MMPRItems.DRAGON_DAGGER.get()) {
                 belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
             }
             else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
@@ -88,26 +88,14 @@ public class MMPRBeltItem extends RangerChangerItem {
 
     }
 
-    public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
+    @Override
+    public boolean getPartsForSlot(ItemStack itemstack,EquipmentSlot currentSlot,String  part) {
 
         switch (currentSlot) {
-            case HEAD ->{
-                if (part =="head") return true;
-                if (part =="body") return true;
-                if (part =="rightArm") return true;
-                if (part =="leftArm") return true;
-                if (part =="rightLeg") return true;
-                if (part =="leftLeg") return true;
+            case HEAD, LEGS ->{
+                return true;
             }
             case CHEST -> {
-                if (part =="head") return true;
-                if (part =="body") return true;
-                if (part =="rightArm") return true;
-                if (part =="leftArm") return true;
-            }
-            case LEGS -> {
-                if (part =="rightLeg") return true;
-                if (part =="leftLeg") return true;
             }
             default -> {}
         }

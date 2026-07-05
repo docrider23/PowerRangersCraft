@@ -62,10 +62,10 @@ public class RescueMorpherItem extends RangerChangerItem{
 				return "belts/"+belt;
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
-			if (get_Form_Item(itemstack, 2).getFormName(fly) == "_megabattle") {
+			if (get_Form_Item(itemstack, 2).getFormName(fly).equals("_megabattle")) {
 				return get_Form_Item(itemstack, 2).getRangerName(riderName) + get_Form_Item(itemstack, 2).getFormName(fly);
 			}
-			if (get_Form_Item(itemstack, 2).getFormName(fly) == "_trans_armor") {
+			if (get_Form_Item(itemstack, 2).getFormName(fly).equals("_trans_armor")) {
 				return get_Form_Item(itemstack, 2).getRangerName(riderName) + get_Form_Item(itemstack, 2).getFormName(fly);
 			}
 		}

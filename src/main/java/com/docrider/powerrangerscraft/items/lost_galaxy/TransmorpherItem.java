@@ -48,7 +48,7 @@ public class TransmorpherItem extends RangerChangerItem {
 		boolean fly = !rider.onGround();
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
-			if (get_Form_Item(itemstack,2).getFormName(fly)=="_lights_of_orion") {
+			if (get_Form_Item(itemstack,2).getFormName(fly).equals("_lights_of_orion")) {
 				if (rider.getMainHandItem().getItem()==LostGalaxyItems.QUASAR_SABER.get() |
 						rider.getOffhandItem().getItem()==LostGalaxyItems.QUASAR_SABER.get()) {
 					belt = get_Form_Item(itemstack,2).getBeltTex()+"_empty";
@@ -69,11 +69,11 @@ public class TransmorpherItem extends RangerChangerItem {
 			return "belts/"+belt;
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
-			if (get_Form_Item(itemstack,2).getFormName(fly)=="_armored")
+			if (get_Form_Item(itemstack,2).getFormName(fly).equals("_armored"))
 			{
 				return get_Form_Item(itemstack,2).getRangerName(rangerName)+get_Form_Item(itemstack,2).getFormName(fly);
 			}
-			else if (get_Form_Item(itemstack, 2).getFormName(fly)=="_lights_of_orion")
+			else if (get_Form_Item(itemstack, 2).getFormName(fly).equals("_lights_of_orion"))
 			{
 				return get_Form_Item(itemstack,2).getRangerName(rangerName)+get_Form_Item(itemstack,2).getFormName(fly);
 			}
@@ -90,28 +90,16 @@ public class TransmorpherItem extends RangerChangerItem {
 		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).get_Model(this.Rider));
 	}
 
-	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
+	@Override
+	public boolean getPartsForSlot(ItemStack itemstack,EquipmentSlot currentSlot,String  part) {
 
 		switch (currentSlot) {
-		case HEAD ->{ 
-			if (part =="head") return true;
-			if (part =="body") return true;
-			if (part =="rightArm") return true;
-			if (part =="leftArm") return true;
-			if (part =="rightLeg") return true;
-			if (part =="leftLeg") return true;
-		}
-		case CHEST -> {
-			if (part =="head") return true;
-			if (part =="body") return true;
-			if (part =="rightArm") return true;
-			if (part =="leftArm") return true;
-		}
-		case LEGS -> {
-			if (part =="rightLeg") return true;
-			if (part =="leftLeg") return true;
-		}
-		default -> {}
+			case HEAD, LEGS ->{
+				return true;
+			}
+			case CHEST -> {
+			}
+			default -> {}
 		}
 		return false;
 	}

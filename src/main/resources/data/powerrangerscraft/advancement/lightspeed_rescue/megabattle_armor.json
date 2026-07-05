@@ -1,0 +1,88 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:battle_booster"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.megabattle_armor.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.megabattle_armor.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:lightspeed_rescue/lightspeed_rescue",
+  "criteria": {
+    "lightspeed_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_rescue_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:battle_booster_megabattle_blue\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "lightspeed_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:green_rescue_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:battle_booster_megabattle_green\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lightspeed_blue",
+      "lightspeed_green"
+    ]
+  ]
+}

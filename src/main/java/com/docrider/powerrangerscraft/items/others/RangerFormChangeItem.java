@@ -27,6 +27,7 @@ import software.bernie.geckolib.cache.GeckoLibCache;
 import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class RangerFormChangeItem extends BaseItem {
 
@@ -408,7 +409,7 @@ public class RangerFormChangeItem extends BaseItem {
 
 
     public Boolean iscompatible(RangerChangerItem belt) {
-        if (belt.Rider==RANGER_NAME) return true;
+        if (belt.Rider.equals(RANGER_NAME)) return true;
         for (String str : compatibilityList) {
             if (str==belt.Rider) return true;
         }
@@ -432,38 +433,37 @@ public class RangerFormChangeItem extends BaseItem {
 		return false;
 	}
 
-        public Boolean CanChange(Player player,RangerChangerItem belt, ItemStack stack) {
+    public Boolean canChange(Player player, RangerChangerItem belt, ItemStack stack) {
 
         if (this == OtherItems.BLANK_FORM.get()) {
-            return true;
+            //return true;
         }
-        if(hasIncompatibleForms) {
-            for (int i = 0; i < incompatibleForms.size(); i++)
-            {
-                if (incompatibleForms.get(i)==RangerChangerItem.get_Form_Item(stack, 1)){
-                    return false;
+        if (hasIncompatibleForms) {
+            for (RangerFormChangeItem incompatibleForm : incompatibleForms) {
+                int num_forms = belt.Num_Base_Form_Item;
+                for (int n = 0; n < num_forms; n++) {
+                    if (incompatibleForm == RangerChangerItem.get_Form_Item(stack, n + 1)) {
+                        return false;
+                    }
                 }
             }
         }
-
-            if(!iscompatible(belt)) {
+        if (!iscompatible(belt)) {
             return false;
         }
-        if ( !NEEDITEM.isEmpty()) {
-            for (Item item : NEEDITEM)
-            {
+        if (!NEEDITEM.isEmpty()) {
+            for (Item item : NEEDITEM) {
                 if (!inventoryOrHolderContains(player, item)) return false;
             }
         }
-        if (NEED_BASE_FORM )if (RangerChangerItem.get_Form_Item(stack, 1)!=belt.Base_Form_Item)return false;
-        if (NEED_FORM_SLOT_1!=null )if (RangerChangerItem.get_Form_Item(stack, 1)!=NEED_FORM_SLOT_1)return false;
-        if (NEED_FORM_SLOT_2!=null )if (RangerChangerItem.get_Form_Item(stack, 2)!=NEED_FORM_SLOT_2)return false;
-        if (NEED_FORM_SLOT_3!=null )if (RangerChangerItem.get_Form_Item(stack, 3)!=NEED_FORM_SLOT_3)return false;
-        if (NEED_FORM_SLOT_4!=null )if (RangerChangerItem.get_Form_Item(stack, 4)!=NEED_FORM_SLOT_4)return false;
+        if (NEED_BASE_FORM) if (RangerChangerItem.get_Form_Item(stack, 1) != belt.Base_Form_Item) return false;
+        if (NEED_FORM_SLOT_1 != null) if (RangerChangerItem.get_Form_Item(stack, 1) != NEED_FORM_SLOT_1) return false;
+        if (NEED_FORM_SLOT_2 != null) if (RangerChangerItem.get_Form_Item(stack, 2) != NEED_FORM_SLOT_2) return false;
+        if (NEED_FORM_SLOT_3 != null) if (RangerChangerItem.get_Form_Item(stack, 3) != NEED_FORM_SLOT_3) return false;
+        if (NEED_FORM_SLOT_4 != null) if (RangerChangerItem.get_Form_Item(stack, 4) != NEED_FORM_SLOT_4) return false;
 
-        if  (!needItemList.isEmpty()) {
-            for (Item item : needItemList)
-            {
+        if (!needItemList.isEmpty()) {
+            for (Item item : needItemList) {
                 if (!inventoryOrHolderContains(player, item)) return false;
             }
         }
@@ -473,43 +473,52 @@ public class RangerFormChangeItem extends BaseItem {
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand usedHand) {
 
-        ItemStack itemstack = player.getItemInHand(usedHand);
+        ItemStack itemStack = player.getItemInHand(usedHand);
 
         ItemStack BELT = player.getItemBySlot(EquipmentSlot.FEET);
 
-         if (BELT.getItem() instanceof RangerChangerItem belt) {
+        if (!player.hasEffect(EffectCore.FORM_LOCK)) {
+            if (BELT.getItem() instanceof RangerChangerItem belt) {
+                if (SHIFT_ITEM instanceof RangerFormChangeItem form && player.isShiftKeyDown())
+                    SHIFT_ITEM.use(level, player, usedHand);
+                else if (canChange(player, belt, BELT)) {
+                    if (!player.isCreative()) {
+                        player.getCooldowns().addCooldown(this, 60);
+                        player.addEffect(new MobEffectInstance(EffectCore.FORM_LOCK, 20, 0, true, false));
+                    }
+                    if (RESET_FORM) RangerChangerItem.reset_Form_Item(player.getItemBySlot(EquipmentSlot.FEET));
+                    if (RESET_FORM_MAIN & Objects.equals(belt.Rider, RANGER_NAME))
+                        RangerChangerItem.reset_Form_Item(player.getItemBySlot(EquipmentSlot.FEET));
+                    if (alsoChange1stSlot != null)
+                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), alsoChange1stSlot, 1);
+                    if (alsoChange2ndSlot != null)
+                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), alsoChange2ndSlot, 2);
+                    if (alsoChange3rdSlot != null)
+                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), alsoChange3rdSlot, 3);
+                    if (alsoChange4thSlot != null)
+                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), alsoChange4thSlot, 4);
 
-                if (SHIFT_ITEM instanceof RangerFormChangeItem & player.isShiftKeyDown()) {
-                    ((RangerFormChangeItem)SHIFT_ITEM).use(level, player, usedHand);
-                }
-                else if (CanChange(player,belt,BELT)) {
-                    if (RESET_FORM)RangerChangerItem.reset_Form_Item(player.getItemBySlot(EquipmentSlot.FEET));
-                    if (RESET_FORM_MAIN&belt.Rider==RANGER_NAME)RangerChangerItem.reset_Form_Item(player.getItemBySlot(EquipmentSlot.FEET));
-                    if (alsoChange1stSlot !=null)RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),alsoChange1stSlot, 1);
-                    if (alsoChange2ndSlot !=null)RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),alsoChange2ndSlot, 2);
-                    if (alsoChange3rdSlot !=null)RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),alsoChange3rdSlot, 3);
-                    if (alsoChange4thSlot !=null)RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),alsoChange4thSlot, 4);
-
-                    //if (SET_TO_ARMOR_FORM)RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),belt.Armor_Form_Item, 1);
+                    if (SET_TO_ARMOR_FORM)
+                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), belt.Armor_Form_Item, 1);
 
                     int SLOT = Slot;
-                    if (usedHand==InteractionHand.OFF_HAND&Offhand)SLOT = OffhandSlot;
+                    if (usedHand == InteractionHand.OFF_HAND & Offhand) SLOT = OffhandSlot;
 
-                    if (SWITCH_ITEM!=null&RangerChangerItem.get_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), SLOT)==this) RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),SWITCH_ITEM, SLOT);
-                    else RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),this, SLOT);
-                    if (alsoChange5thSlot !=null)RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET),alsoChange5thSlot, 5);
+                    if (SWITCH_ITEM != null & RangerChangerItem.get_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), SLOT) == this)
+                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), SWITCH_ITEM, SLOT);
+                    else RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), this, SLOT);
+                    if (alsoChange5thSlot != null)
+                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), alsoChange5thSlot, 5);
 
-                }else if(!alternative.isEmpty()){
+                } else if (!alternative.isEmpty()) {
 
-                    for (int i = 0; i < alternative.size(); i++)
-                    {
-                        RangerFormChangeItem alternativeItem_form_change = alternative.get(i);
+                    for (RangerFormChangeItem alternativeItem_form_change : alternative) {
                         alternativeItem_form_change.use(level, player, usedHand);
                     }
                 }
             }
-
-        return InteractionResultHolder.sidedSuccess(itemstack, level.isClientSide());
+        }
+        return InteractionResultHolder.sidedSuccess(itemStack, level.isClientSide());
 
     }
 

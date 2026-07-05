@@ -87,29 +87,17 @@ public class DinoFuryMorpherItem extends RangerChangerItem{
 			return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).get_Model(this.Rider));
 
 	}
-	
-	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
+
+	@Override
+	public boolean getPartsForSlot(ItemStack itemstack,EquipmentSlot currentSlot,String  part) {
 
 		switch (currentSlot) {
-		case HEAD ->{ 
-			if (part =="head") return true;
-			if (part =="body") return true;
-			if (part =="rightArm") return true;
-			if (part =="leftArm") return true;
-			if (part =="rightLeg") return true;
-			if (part =="leftLeg") return true;
-		}
-		case CHEST -> {
-			if (part =="head") return true;
-			if (part =="body") return true;
-			if (part =="rightArm") return true;
-			if (part =="leftArm") return true;
-		}
-		case LEGS -> {
-			if (part =="rightLeg") return true;
-			if (part =="leftLeg") return true;
-		}
-		default -> {}
+			case HEAD, LEGS ->{
+				return true;
+			}
+			case CHEST -> {
+			}
+			default -> {}
 		}
 		return false;
 	}

@@ -45,7 +45,7 @@
                 "powerrangerscraft:pink_power_morpher"
               ],
               "predicates": {
-                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:dragon_power_coin\"}"
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:dragon_power_coin_shield\"}"
               }
             }
           }

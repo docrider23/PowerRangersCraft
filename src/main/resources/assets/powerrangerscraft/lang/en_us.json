@@ -215,12 +215,12 @@
   "powerrangerscraft:triceratops_power_coin.form": "Ranger: §1Blue Ranger",
   "powerrangerscraft:sabertooth_tiger_power_coin.form": "Ranger: §eYellow Ranger",
   "powerrangerscraft:pteradactyl_power_coin.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:dragon_power_coin_base.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft:dragon_power_coin_mmpr_green_base.form": "Ranger: §aGreen Ranger",
   "powerrangerscraft:white_tiger_power_coin.form": "Ranger: White Ranger",
   "powerrangerscraft:ninjor_coin.form": "Ally: §1Ninjor",
   "powerrangerscraft:reindeer_power_coin.form": "Ally: §cSanta §aRanger",
 
-  "powerrangerscraft:dragon_power_coin.form": "w/ §6Dragon Shield",
+  "powerrangerscraft:dragon_power_coin_shield.form": "w/ §6Dragon Shield",
   "powerrangerscraft:ninjor_coin_battle_mode.form": "Ally: §1Ninjor §cBattle Mode",
   "powerrangerscraft:metallic_armor_power_coin.form": "w/ §7Metallic Armor",
   "powerrangerscraft:metallic_armor_power_coin_black.form": "w/ §7Metallic Armor",
@@ -1820,6 +1820,8 @@
   "advancements.powerrangerscraft.titanium_morpher.title": "Titanium Power!",
   "advancements.powerrangerscraft.trans_armor.desc": "Equip the Trans Armor",
   "advancements.powerrangerscraft.trans_armor.title": "Trans Armor Cycle! Armor Mode!",
+  "advancements.powerrangerscraft.megabattle_armor.desc": "Equip either the Blue or Green Megabattle Armor",
+  "advancements.powerrangerscraft.megabattle_armor.title": "8-1-6! Megabattle Armor! Activate!",
 
   "advancements.powerrangerscraft.time_force.desc": "Change into each member of the Time Force Ranger Team",
   "advancements.powerrangerscraft.time_force.title": "Power Rangers Time Force",

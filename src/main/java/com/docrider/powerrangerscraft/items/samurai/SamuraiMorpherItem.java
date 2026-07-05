@@ -69,29 +69,17 @@ public class SamuraiMorpherItem extends RangerChangerItem{
 		
 		else return rangerName+get_Form_Item(itemstack,1).getFormName(fly);
 	}
-	
-	public  boolean getPartsForSlot(EquipmentSlot currentSlot,String  part) {
+
+	@Override
+	public boolean getPartsForSlot(ItemStack itemstack,EquipmentSlot currentSlot,String  part) {
 
 		switch (currentSlot) {
-		case HEAD ->{ 
-			if (part =="head") return true;
-			if (part =="body") return true;
-			if (part =="rightArm") return true;
-			if (part =="leftArm") return true;
-			if (part =="rightLeg") return true;
-			if (part =="leftLeg") return true;
-		}
-		case CHEST -> {
-			if (part =="head") return true;
-			if (part =="body") return true;
-			if (part =="rightArm") return true;
-			if (part =="leftArm") return true;
-		}
-		case LEGS -> {
-			if (part =="rightLeg") return true;
-			if (part =="leftLeg") return true;
-		}
-		default -> {}
+			case HEAD, LEGS ->{
+				return true;
+			}
+			case CHEST -> {
+			}
+			default -> {}
 		}
 		return false;
 	}

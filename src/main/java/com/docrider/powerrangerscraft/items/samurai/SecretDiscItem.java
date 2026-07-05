@@ -28,7 +28,7 @@ public class SecretDiscItem extends RangerFormChangeItem {
 			if (getSHIFT_ITEM() instanceof RangerFormChangeItem & p_41129_.isShiftKeyDown()) {
 				((RangerFormChangeItem)getSHIFT_ITEM()).use(p_41128_, p_41129_, p_41130_);
 			}
-			else if (CanChange(p_41129_,belt,BELT)) {
+			else if (canChange(p_41129_,belt,BELT)) {
 				if (getAlsoChange2ndSlot() !=null)RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),getAlsoChange2ndSlot(), 2);
 				if (getRESET_FORM())RangerChangerItem.reset_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET));
 

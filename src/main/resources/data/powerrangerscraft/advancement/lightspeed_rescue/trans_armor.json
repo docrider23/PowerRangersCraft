@@ -39,7 +39,7 @@
                 "powerrangerscraft:red_rescue_morpher"
               ],
               "predicates": {
-                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:trans_armor_badge\"}"
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:trans_armor_badge\"}"
               }
             }
           }
