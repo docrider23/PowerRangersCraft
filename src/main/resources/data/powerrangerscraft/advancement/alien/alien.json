@@ -1,0 +1,165 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:alien_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.alien.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.alien.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:saban",
+  "criteria": {
+    "alien_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:alien_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:alien_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:alien_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_alien_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "alien_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:alien_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:alien_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:alien_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_alien_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "alien_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:alien_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:alien_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:alien_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_alien_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "alien_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:alien_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:alien_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:alien_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_alien_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "alien_white": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:alien_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:alien_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:alien_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:white_alien_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

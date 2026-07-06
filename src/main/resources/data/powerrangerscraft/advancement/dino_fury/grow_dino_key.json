@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:grow_dino_key"
     },
-    "title": "Grow Dino Key, ready!",
-    "description": "Use the Grow Dino Key",
+    "title": {
+      "translate": "advancements.powerrangerscraft.grow_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.grow_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

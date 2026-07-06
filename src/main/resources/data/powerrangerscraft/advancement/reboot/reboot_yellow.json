@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:reboot_yellow_power_morpher"
     },
-    "title": "Lesbian?",
-    "description": "Change into the 2017 Yellow Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.reboot_yellow.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.reboot_yellow.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

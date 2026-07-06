@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:black_dino_fury_morpher"
     },
-    "title": "Stego Fury, Black Ranger!",
-    "description": "Change into the Black Dino Fury Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_fury_black.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.dino_fury_black.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

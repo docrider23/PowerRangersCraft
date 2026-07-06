@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:blue_solarix"
     },
-    "title": "From A Dark Future!",
-    "description": "Change into the Blue Solar Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.solar_blue.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.solar_blue.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:time_force_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.time_force.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.time_force.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:saban",
+  "criteria": {
+    "red_time_force": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:time_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:time_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:time_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_chrono_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "quantum_ranger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:time_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:time_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:time_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:quantum_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

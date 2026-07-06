@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:dino_knight_key"
     },
-    "title": "The Hunt",
-    "description": "Change into the Dino Knight Armor",
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_knight_mode.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.dino_knight_mode.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

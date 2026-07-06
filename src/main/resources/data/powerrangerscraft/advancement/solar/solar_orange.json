@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:orange_solarix"
     },
-    "title": "Lesbians!",
-    "description": "Change into the Orange Solar Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.solar_orange.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.solar_orange.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

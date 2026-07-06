@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:zenith_dino_fury_morpher"
     },
-    "title": "T-Rex Fury, Zenith Ranger!",
-    "description": "Change into the Zenith Dino Fury Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_fury_zenith.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.dino_fury_zenith.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

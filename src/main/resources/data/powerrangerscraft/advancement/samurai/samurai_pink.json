@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:pink_samuraizer"
     },
-    "title": "Pink Ranger, ready",
-    "description": "Change into the Pink Samurai Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.samurai_pink.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.samurai_pink.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

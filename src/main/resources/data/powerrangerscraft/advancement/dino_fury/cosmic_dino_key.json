@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:cosmic_dino_key"
     },
-    "title": "Numero Uno",
-    "description": "Use the Cosmic Battle Armor",
+    "title": {
+      "translate": "advancements.powerrangerscraft.cosmic_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.cosmic_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

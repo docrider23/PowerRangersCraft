@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:dino_fury_logo"
     },
-    "title": "Power Rangers Dino Fury",
-    "description": "Change into each member of the Dino Fury Rangers",
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_fury.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.dino_fury.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

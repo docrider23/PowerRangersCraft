@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:smash_dino_key"
     },
-    "title": "Tiny Trouble",
-    "description": "Use the Smash Battle Armor",
+    "title": {
+      "translate": "advancements.powerrangerscraft.smash_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.smash_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

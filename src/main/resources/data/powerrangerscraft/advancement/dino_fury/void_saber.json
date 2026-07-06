@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:void_saber"
     },
-    "title": "Void Change!",
-    "description": "Obtain Void Knight's Void Saber",
+    "title": {
+      "translate": "advancements.powerrangerscraft.void_saber.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.void_saber.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

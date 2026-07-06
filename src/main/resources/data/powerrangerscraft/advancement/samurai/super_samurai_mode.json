@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:super_samurai_disc"
     },
-    "title": "Super Samurai",
-    "description": "Change into Super Samurai Mode",
+    "title": {
+      "translate": "advancements.powerrangerscraft.super_samurai_mode.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.super_samurai_mode.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

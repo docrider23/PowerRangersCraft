@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:dino_master_saber"
     },
-    "title": "Dino Master Mode!",
-    "description": "Obtain the Dino Master Saber",
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_master_saber.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.dino_master_saber.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -1,11 +1,15 @@
 {
   "display": {
     "icon": {
-      "id": "powerrangerscraft:samurai_logo",
-      "nbt": "{Damage:0}"
+      "id": "powerrangerscraft:samurai_logo"
     },
-    "title": "Power Rangers Samurai",
-    "description": "Change into each member of the Samurai Rangers",
+    "title": {
+      "translate": "advancements.powerrangerscraft.samurai.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.samurai.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

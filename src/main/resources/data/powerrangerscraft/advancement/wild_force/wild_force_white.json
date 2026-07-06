@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:white_growl_phone"
     },
-    "title": "Noble Tiger!",
-    "description": "Change into the White Wild Force Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.wild_force_white.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.wild_force_white.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

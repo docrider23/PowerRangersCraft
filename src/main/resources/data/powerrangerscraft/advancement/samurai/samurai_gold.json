@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:samurai_morpher"
     },
-    "title": "Gold Ranger, ready",
-    "description": "Change into the Gold Samurai Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.samurai_gold.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.samurai_gold.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

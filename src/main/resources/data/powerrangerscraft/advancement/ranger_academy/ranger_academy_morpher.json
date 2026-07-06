@@ -1,0 +1,102 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:ranger_academy_red_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.ranger_academy_morpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.ranger_academy_morpher.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:ranger_academy/ranger_academy",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:ranger_academy_red_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:ranger_academy_blue_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:ranger_academy_black_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:ranger_academy_yellow_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:ranger_academy_pink_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:ranger_academy_green_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item",
+      "item2",
+      "item3",
+      "item4",
+      "item5",
+      "item6"
+    ]
+  ]
+}

@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:blue_samuraizer"
     },
-    "title": "Blue Ranger, ready",
-    "description": "Change into the Blue Samurai Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.samurai_blue.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.samurai_blue.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

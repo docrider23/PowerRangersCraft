@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:lunar_caller"
     },
-    "title": "Howling Wolf!",
-    "description": "Change into the Silver Wild Force Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.wild_force_silver.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.wild_force_silver.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

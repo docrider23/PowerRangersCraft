@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:fix_it_dino_key"
     },
-    "title": "Fix-It Dino Key, ready!",
-    "description": "Use the Fix-It Dino Key",
+    "title": {
+      "translate": "advancements.powerrangerscraft.fix_it_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.fix_it_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

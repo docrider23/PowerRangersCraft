@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:stink_dino_key"
     },
-    "title": "Got Boost!",
-    "description": "Use every Boost Dino Key",
+    "title": {
+      "translate": "advancements.powerrangerscraft.boost_dino_keys.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.boost_dino_keys.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true

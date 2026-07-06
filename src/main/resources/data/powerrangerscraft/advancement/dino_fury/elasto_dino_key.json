@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:elasto_dino_key"
     },
-    "title": "Elasto Dino Key, ready!",
-    "description": "Use the Elasto Dino Key",
+    "title": {
+      "translate": "advancements.powerrangerscraft.elasto_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.elasto_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

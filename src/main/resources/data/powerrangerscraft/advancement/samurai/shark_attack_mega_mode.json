@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:shark_disc"
     },
-    "title": "Form the Samurai Ultrazord",
-    "description": "Change into Shark Attack Mega Mode",
+    "title": {
+      "translate": "advancements.powerrangerscraft.shark_attack_mega_mode.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.shark_attack_mega_mode.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:red_samuraizer"
     },
-    "title": "Samuraizer! Go Go Samurai!",
-    "description": "Obtain any Samuraizer",
+    "title": {
+      "translate": "advancements.powerrangerscraft.samuraizer.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.samuraizer.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

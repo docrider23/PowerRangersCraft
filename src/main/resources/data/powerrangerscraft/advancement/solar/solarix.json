@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:purple_solarix"
     },
-    "title": "Disconnected from the Grid!",
-    "description": "Obtain any Solarix",
+    "title": {
+      "translate": "advancements.powerrangerscraft.solarix.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.solarix.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

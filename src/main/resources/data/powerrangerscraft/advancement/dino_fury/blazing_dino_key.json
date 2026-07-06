@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:blazing_dino_key"
     },
-    "title": "McScary Manor",
-    "description": "Use the Blazing Battle Armor",
+    "title": {
+      "translate": "advancements.powerrangerscraft.blazing_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.blazing_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

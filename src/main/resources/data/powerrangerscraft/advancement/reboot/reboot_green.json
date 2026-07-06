@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:reboot_green_power_morpher"
     },
-    "title": "A Witch Craves Donuts!",
-    "description": "Change into the 2017 Green Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.reboot_green.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.reboot_green.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

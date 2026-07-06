@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_alien_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.alien_morpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.alien_morpher.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:alien/alien",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:red_alien_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:blue_alien_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:black_alien_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:yellow_alien_morpher"
+            ]
+          }
+        ]
+      }
+    },
+    "item5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:white_alien_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item",
+      "item2",
+      "item3",
+      "item4",
+      "item5"
+    ]
+  ]
+}

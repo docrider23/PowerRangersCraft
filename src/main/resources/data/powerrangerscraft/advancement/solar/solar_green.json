@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:green_solarix"
     },
-    "title": "Cyber?",
-    "description": "Change into the Green Solar Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.solar_green.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.solar_green.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

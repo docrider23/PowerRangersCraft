@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:spin_dino_key"
     },
-    "title": "Spin Dino Key, ready!",
-    "description": "Use the Spin Dino Key",
+    "title": {
+      "translate": "advancements.powerrangerscraft.spin_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.spin_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

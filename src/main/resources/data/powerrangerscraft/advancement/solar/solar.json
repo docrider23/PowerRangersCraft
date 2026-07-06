@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:solar_logo"
     },
-    "title": "Beyond the Grid",
-    "description": "Change into each member of the Solar Ranger team",
+    "title": {
+      "translate": "advancements.powerrangerscraft.solar.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.solar.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

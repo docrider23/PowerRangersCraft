@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_zeonizer"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.zeo_red.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.zeo_red.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:zeo/zeo",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:zeo_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:zeo_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:zeo_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_zeonizer"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

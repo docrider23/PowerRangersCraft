@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:yellow_growl_phone"
     },
-    "title": "Soaring Eagle!",
-    "description": "Change into the Yellow Wild Force Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.wild_force_yellow.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.wild_force_yellow.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

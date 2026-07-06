@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_cell_shift_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.rpm_red.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.rpm_red.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:rpm/rpm",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:rpm_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:rpm_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:rpm_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_cell_shift_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_power_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.mmpr_2026.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.mmpr_2026.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:comics",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:mmpr_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:mmpr_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:mmpr_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_power_morpher",
+                "powerrangerscraft:black_power_morpher",
+                "powerrangerscraft:blue_power_morpher",
+                "powerrangerscraft:yellow_power_morpher",
+                "powerrangerscraft:pink_power_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:mmpr_2026_comic\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

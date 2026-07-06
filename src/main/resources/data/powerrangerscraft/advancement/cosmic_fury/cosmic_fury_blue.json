@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:blue_cosmic_morpher"
     },
-    "title": "Tricera Fury, Blue Ranger!",
-    "description": "Change into the Blue Cosmic Fury Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.cosmic_fury_blue.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.cosmic_fury_blue.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

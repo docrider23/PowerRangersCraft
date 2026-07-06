@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_chrono_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.time_force_red.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.time_force_red.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:time_force/time_force",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:time_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:time_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:time_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_chrono_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

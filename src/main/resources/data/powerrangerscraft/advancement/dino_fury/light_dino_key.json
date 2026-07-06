@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:light_dino_key"
     },
-    "title": "Missing Pieces",
-    "description": "Use the Light Battle Armor",
+    "title": {
+      "translate": "advancements.powerrangerscraft.light_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.light_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

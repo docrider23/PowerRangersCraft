@@ -1,0 +1,310 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:tyrannosaurus_power_coin"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.forever_red.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.forever_red.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:wild_force/wild_force",
+  "criteria": {
+    "mmpr_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:mmpr_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:mmpr_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:mmpr_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_power_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "alien_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:alien_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:alien_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:alien_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_alien_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "zeo_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:zeo_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:zeo_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:zeo_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_zeonizer"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "turbo_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:turbo_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:turbo_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:turbo_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_turbo_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "in_space_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:in_space_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:in_space_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:in_space_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_astro_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "galaxy_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lost_galaxy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_transmorpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "lightspeed_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:lightspeed_rescue_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_rescue_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "time_force_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:time_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:time_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:time_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_chrono_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "quantum_ranger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:time_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:time_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:time_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:quantum_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "wild_force_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:wild_force_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:wild_force_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:wild_force_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_growl_phone"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

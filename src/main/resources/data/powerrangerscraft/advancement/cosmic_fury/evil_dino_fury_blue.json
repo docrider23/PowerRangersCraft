@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:corrupted_blue_dino_fury_morpher"
     },
-    "title": "Tricera Fury, Dark Ranger!",
-    "description": "Change into the Evil Blue Dino Fury Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.evil_dino_fury_blue.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.evil_dino_fury_blue.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

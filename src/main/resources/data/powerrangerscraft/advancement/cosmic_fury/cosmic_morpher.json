@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:red_cosmic_morpher"
     },
-    "title": "Link to Morphin' Grid!",
-    "description": "Obtain any Cosmic Morpher",
+    "title": {
+      "translate": "advancements.powerrangerscraft.cosmic_morpher.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.cosmic_morpher.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

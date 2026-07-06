@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:cosmic_fury_logo"
     },
-    "title": "Power Rangers Cosmic Fury",
-    "description": "Change into each member of the Cosmic Fury Rangers",
+    "title": {
+      "translate": "advancements.powerrangerscraft.cosmic_fury.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.cosmic_fury.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

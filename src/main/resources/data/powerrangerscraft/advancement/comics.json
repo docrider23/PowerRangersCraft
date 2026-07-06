@@ -1,7 +1,7 @@
 {
   "display": {
 	"icon": {
-	  "id": "powerrangerscraft:drakkon_head"
+	  "id": "powerrangerscraft:boom_studios_comic"
 	},
 	  "title": {
 		  "translate": "advancements.powerrangerscraft.comics.title"
@@ -9,7 +9,7 @@
 	  "description": {
 		  "translate": "advancements.powerrangerscraft.comics.desc"
 	  },
-	"background": "minecraft:textures/block/bone_block.png",
+	"background": "minecraft:textures/block/blackstone.png",
 	"frame": "task",
 	"show_toast": false,
 	"announce_to_chat": false,

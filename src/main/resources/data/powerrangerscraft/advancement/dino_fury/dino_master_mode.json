@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:dino_master_saber"
     },
-    "title": "Morphin Master",
-    "description": "Change into Dino Master Mode",
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_master_mode.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.dino_master_mode.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

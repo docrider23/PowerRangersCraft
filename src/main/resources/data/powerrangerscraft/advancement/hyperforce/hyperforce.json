@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:hyperforce_logo"
     },
-    "title": "Power Rangers Hyperforce",
-    "description": "Change into each member of the Hyperforce Rangers",
+    "title": {
+      "translate": "advancements.powerrangerscraft.hyperforce.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.hyperforce.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

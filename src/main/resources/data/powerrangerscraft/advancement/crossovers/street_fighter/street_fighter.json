@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:crimson_hawk_power_coin"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.street_fighter.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.street_fighter.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:crossovers",
+  "criteria": {
+    "crimson_hawk_ranger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:mmpr_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:mmpr_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:mmpr_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:crimson_hawk_power_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "blue_phoenix_ranger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:mmpr_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:mmpr_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:mmpr_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blazing_phoenix_power_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

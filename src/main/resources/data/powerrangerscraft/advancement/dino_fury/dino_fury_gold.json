@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:gold_mosa_blaster"
     },
-    "title": "Mosa Fury, Gold Ranger!",
-    "description": "Change into the Gold Dino Fury Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_fury_gold.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.dino_fury_gold.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

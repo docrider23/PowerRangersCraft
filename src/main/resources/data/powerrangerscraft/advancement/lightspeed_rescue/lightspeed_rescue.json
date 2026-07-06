@@ -12,7 +12,7 @@
   },
   "parent": "powerrangerscraft:saban",
   "criteria": {
-    "ranger1": {
+    "lightspeed_red": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -41,7 +41,7 @@
         }
       }
     },
-    "ranger2": {
+    "lightspeed_blue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -70,7 +70,7 @@
         }
       }
     },
-    "ranger3": {
+    "lightspeed_green": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -99,7 +99,7 @@
         }
       }
     },
-    "ranger4": {
+    "lightspeed_yellow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -128,7 +128,7 @@
         }
       }
     },
-    "ranger5": {
+    "lightspeed_pink": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -157,7 +157,7 @@
         }
       }
     },
-    "ranger6": {
+    "titanium_ranger": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
