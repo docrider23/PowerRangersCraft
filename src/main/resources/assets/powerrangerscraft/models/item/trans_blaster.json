@@ -4,6 +4,7 @@
 	"textures": {
 		"layer0": "powerrangerscraft:item/trans_blaster"
 	},
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [-90, 0, -60],
@@ -24,6 +25,35 @@
 			"rotation": [120, 20, -160],
 			"translation": [1.13, 1.7, 1.5],
 			"scale": [1.36, 1.36, 1.36]
+		},
+		"gui": {
+			"translation": [
+				-0.7,
+				0.7,
+				0
+			],
+			"scale": [
+				1.457,
+				1.457,
+				1
+			]
+		},
+		"fixed": {
+			"rotation": [
+				0,
+				-180,
+				0
+			],
+			"translation": [
+				0.7,
+				0.7,
+				0
+			],
+			"scale": [
+				1.457,
+				1.457,
+				1
+			]
 		}
 	},
 	"_comment": "Generated using MiningMark48's JSON Generator."
