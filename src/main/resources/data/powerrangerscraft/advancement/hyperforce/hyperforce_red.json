@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:red_hyperforce_morpher"
     },
-    "title": "Red Hyperforce Ranger!",
-    "description": "Change into the Red Hyperforce Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.hyperforce_red.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.hyperforce_red.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

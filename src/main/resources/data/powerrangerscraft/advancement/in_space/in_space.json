@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:in_space_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.in_space.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.in_space.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:saban",
+  "criteria": {
+    "in_space_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:in_space_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:in_space_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:in_space_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_astro_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

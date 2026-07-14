@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:green_dino_fury_morpher"
     },
-    "title": "Tiger Fury, Green Ranger!",
-    "description": "Change into the Green Dino Fury Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.dino_fury_green.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.dino_fury_green.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

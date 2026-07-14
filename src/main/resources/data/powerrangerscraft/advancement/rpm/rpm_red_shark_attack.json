@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:shark_disc"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.rpm_red_shark_attack.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.rpm_red_shark_attack.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:rpm/rpm",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:rpm_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:rpm_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:rpm_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_cell_shift_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:shark_disc\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

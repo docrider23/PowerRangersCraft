@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_legendary_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.super_megaforce_red.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.super_megaforce_red.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:super_megaforce/super_megaforce",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:super_megaforce_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:super_megaforce_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:super_megaforce_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_legendary_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

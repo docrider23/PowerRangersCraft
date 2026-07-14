@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:omega_logo"
     },
-    "title": "Omega Rangers",
-    "description": "Change into each member of the Omega Rangers",
+    "title": {
+      "translate": "advancements.powerrangerscraft.omega.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.omega.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

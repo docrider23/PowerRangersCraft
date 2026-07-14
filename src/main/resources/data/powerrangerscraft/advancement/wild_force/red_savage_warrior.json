@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:animarium_buckle"
     },
-    "title": "Animarium Armor! Power Up!",
-    "description": "Transform into the Red Savage Warrior",
+    "title": {
+      "translate": "advancements.powerrangerscraft.red_savage_warrior.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.red_savage_warrior.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

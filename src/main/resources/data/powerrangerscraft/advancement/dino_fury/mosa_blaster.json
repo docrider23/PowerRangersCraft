@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:gold_mosa_blaster"
     },
-    "title": "Link to Morphin Grid!",
-    "description": "Obtain the Gold Ranger's Mosa Blaster",
+    "title": {
+      "translate": "advancements.powerrangerscraft.mosa_blaster.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.mosa_blaster.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

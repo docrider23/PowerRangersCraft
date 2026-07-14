@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:reboot_red_power_morpher"
     },
-    "title": "You're Breaking House Arrest!",
-    "description": "Change into the 2017 Red Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.reboot_red.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.reboot_red.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

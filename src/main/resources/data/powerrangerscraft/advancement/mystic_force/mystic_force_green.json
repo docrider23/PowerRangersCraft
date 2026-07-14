@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:spd/spd_red",
+  "parent": "powerrangerscraft:mystic_force/mystic_force_red",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

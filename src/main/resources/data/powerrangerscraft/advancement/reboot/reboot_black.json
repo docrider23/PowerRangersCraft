@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:reboot_black_power_morpher"
     },
-    "title": "Caring For Mother!",
-    "description": "Change into the 2017 Black Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.reboot_black.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.reboot_black.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

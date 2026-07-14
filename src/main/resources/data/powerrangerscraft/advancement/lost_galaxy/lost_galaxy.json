@@ -157,7 +157,7 @@
         }
       }
     },
-    "black_knight": {
+    "magna_defender": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {

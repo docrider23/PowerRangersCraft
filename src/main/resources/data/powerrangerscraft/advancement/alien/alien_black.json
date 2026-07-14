@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:black_alien_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.alien_black.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.alien_black.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:alien/alien_yellow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:alien_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:alien_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:alien_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_alien_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

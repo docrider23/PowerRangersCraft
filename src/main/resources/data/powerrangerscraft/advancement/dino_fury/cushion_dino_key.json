@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:cushion_dino_key"
     },
-    "title": "Cushion Dino Key, ready!",
-    "description": "Use the Cushion Dino Key",
+    "title": {
+      "translate": "advancements.powerrangerscraft.cushion_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.cushion_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

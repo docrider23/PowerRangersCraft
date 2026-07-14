@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:wild_force_megazord_head"
     },
-    "title": "Wildzords! Combine!",
-    "description": "Combine into the Wild Force Megazord",
+    "title": {
+      "translate": "advancements.powerrangerscraft.wild_force_megazord.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.wild_force_megazord.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

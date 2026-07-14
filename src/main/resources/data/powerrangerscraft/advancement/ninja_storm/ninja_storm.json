@@ -16,6 +16,35 @@
   },
   "parent": "powerrangerscraft:disney",
   "criteria": {
+    "ninja_storm_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ninja_storm_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ninja_storm_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ninja_storm_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_wind_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
     "ninja_storm_blue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {

@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:reboot_pink_power_morpher"
     },
-    "title": "A Whole New World!",
-    "description": "Change into the 2017 Pink Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.reboot_pink.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.reboot_pink.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

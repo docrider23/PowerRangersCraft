@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:black_box"
     },
-    "title": "The Secrets Within!",
-    "description": "Obtain the Black Box",
+    "title": {
+      "translate": "advancements.powerrangerscraft.black_box.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.black_box.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

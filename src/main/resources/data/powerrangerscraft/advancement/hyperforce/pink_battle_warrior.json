@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:pink_power_gem"
     },
-    "title": "Pink Battle Warrior!",
-    "description": "Change into the Pink Battle Warrior",
+    "title": {
+      "translate": "advancements.powerrangerscraft.pink_battle_warrior.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.pink_battle_warrior.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

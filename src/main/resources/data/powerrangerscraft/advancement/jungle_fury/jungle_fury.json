@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:jungle_fury_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.jungle_fury.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.jungle_fury.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:disney",
+  "criteria": {
+    "jungle_fury_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:jungle_fury_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:jungle_fury_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:jungle_fury_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_solar_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

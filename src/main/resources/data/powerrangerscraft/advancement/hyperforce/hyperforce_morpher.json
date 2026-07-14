@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:red_hyperforce_morpher"
     },
-    "title": "Hyperforce, ready! Power Up!",
-    "description": "Obtain any Hyperforce Morpher",
+    "title": {
+    "translate": "advancements.powerrangerscraft.hyperforce_morpher.title"
+  },
+  "description":
+  {
+    "translate": "advancements.powerrangerscraft.hyperforce_morpher.desc"
+  },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

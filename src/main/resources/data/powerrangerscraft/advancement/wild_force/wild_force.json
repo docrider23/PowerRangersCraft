@@ -3,8 +3,14 @@
     "icon": {
       "id": "powerrangerscraft:wild_force_logo"
     },
-    "title": "Power Rangers Wild Force",
-    "description": "Change into each member of the Wild Force Rangers",
+    "title":
+    {
+      "translate": "advancements.powerrangerscraft.wild_force.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.wild_force.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

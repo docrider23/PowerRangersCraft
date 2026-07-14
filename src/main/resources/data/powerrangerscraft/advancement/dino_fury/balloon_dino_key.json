@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:balloon_dino_key"
     },
-    "title": "Balloon Dino Key, ready!",
-    "description": "Use the Balloon Dino Key",
+    "title": {
+      "translate": "advancements.powerrangerscraft.balloon_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.balloon_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:blazing_dino_key"
     },
-    "title": "Fury Unleashed!!",
-    "description": "Use every Battle Armor Dino Key",
+    "title": {
+      "translate": "advancements.powerrangerscraft.battle_armor_dino_keys.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.battle_armor_dino_keys.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true

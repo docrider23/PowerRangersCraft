@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:shark_disc"
     },
-    "title": "The Rescue",
-    "description": "Obtain the Shark Disc",
+    "title": {
+      "translate": "advancements.powerrangerscraft.shark_disc.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.shark_disc.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

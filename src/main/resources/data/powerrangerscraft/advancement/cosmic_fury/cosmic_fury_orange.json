@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:orange_cosmic_morpher"
     },
-    "title": "Solono Fury, Orange Ranger!",
-    "description": "Change into the Orange Cosmic Fury Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.cosmic_fury_orange.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.cosmic_fury_orange.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

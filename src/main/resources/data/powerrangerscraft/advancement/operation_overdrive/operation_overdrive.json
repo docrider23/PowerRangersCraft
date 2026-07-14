@@ -16,7 +16,7 @@
   },
   "parent": "powerrangerscraft:disney",
   "criteria": {
-    "ranger1": {
+    "overdrive_red": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -45,7 +45,7 @@
         }
       }
     },
-    "ranger2": {
+    "overdrive_black": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -74,7 +74,7 @@
         }
       }
     },
-    "ranger3": {
+    "overdrive_blue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -103,7 +103,7 @@
         }
       }
     },
-    "ranger4": {
+    "overdrive_yellow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -132,7 +132,7 @@
         }
       }
     },
-    "ranger5": {
+    "overdrive_pink": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -161,7 +161,7 @@
         }
       }
     },
-    "ranger6": {
+    "mercury_ranger": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -190,7 +190,7 @@
         }
       }
     },
-    "ranger7": {
+    "sentinel_knight": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {

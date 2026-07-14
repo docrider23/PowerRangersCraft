@@ -1,0 +1,194 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:spectracite_shard"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.ranger_academy.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.ranger_academy.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:comics",
+  "criteria": {
+    "ranger_academy_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ranger_academy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ranger_academy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ranger_academy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:omega_red_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger_academy_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ranger_academy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ranger_academy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ranger_academy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:ranger_academy_blue_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger_academy_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ranger_academy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ranger_academy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ranger_academy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:ranger_academy_black_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger_academy_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ranger_academy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ranger_academy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ranger_academy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:ranger_academy_yellow_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger_academy_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ranger_academy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ranger_academy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ranger_academy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:ranger_academy_pink_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ranger_academy_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ranger_academy_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ranger_academy_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ranger_academy_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:ranger_academy_green_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:megaforce_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.megaforce.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.megaforce.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:neo_saban",
+  "criteria": {
+    "megaforce_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:megaforce_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:megaforce_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:megaforce_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_gosei_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

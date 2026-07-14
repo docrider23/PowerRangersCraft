@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:ninja_steel_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.ninja_steel.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.ninja_steel.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:neo_saban",
+  "criteria": {
+    "ninja_steel_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ninja_steel_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ninja_steel_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ninja_steel_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_ninja_battle_morpher"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ninja_steel_red_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:ninja_steel_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:ninja_steel_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:ninja_steel_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_silver_ninja_battle_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

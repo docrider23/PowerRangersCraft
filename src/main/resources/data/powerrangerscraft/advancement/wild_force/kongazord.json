@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:kongazord_head"
     },
-    "title": "Monkeying Around!",
-    "description": "Combine into the KongaZord",
+    "title": {
+      "translate": "advancements.powerrangerscraft.kongazord.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.kongazord.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

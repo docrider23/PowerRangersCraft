@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:ultimus_megazord_head"
     },
-    "title": "Knight of the Wind!",
-    "description": "Combine into the Ultimus Megazord",
+    "title": {
+      "translate": "advancements.powerrangerscraft.ultimus_megazord.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.ultimus_megazord.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

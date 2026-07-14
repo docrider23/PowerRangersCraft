@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:predazord_head"
     },
-    "title": "Predazord, Awaken!",
-    "description": "Combine into the Light Predazord",
+    "title": {
+      "translate": "advancements.powerrangerscraft.predazord.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.predazord.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:shark_disc"
     },
-    "title": "Clash of the Red Rangers",
-    "description": "Change into Shark Attack Mode",
+    "title": {
+      "translate": "advancements.powerrangerscraft.shark_attack_mode.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.shark_attack_mode.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

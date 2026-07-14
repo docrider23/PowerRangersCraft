@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:hyper_dino_key"
     },
-    "title": "Hyper Dino Key, ready!",
-    "description": "Use the Hyper Dino Key",
+    "title": {
+      "translate": "advancements.powerrangerscraft.hyper_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.hyper_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },
@@ -40,8 +45,6 @@
               ],
               "predicates": {
                 "minecraft:custom_data": "{slot_tex2:\"powerrangerscraft:hyper_dino_key\"}"
-              }
-              }
               }
             }
           }

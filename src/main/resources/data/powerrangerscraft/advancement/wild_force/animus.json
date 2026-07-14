@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:animus_head"
     },
-    "title": "God of the Wildzords",
-    "description": "Combine into Animus",
+    "title": {
+      "translate": "advancements.powerrangerscraft.animus.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.animus.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

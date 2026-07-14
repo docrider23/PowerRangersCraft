@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:omega_yellow_morpher"
     },
-    "title": "Omega Air Power",
-    "description": "Change into the Yellow Omega Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.omega_yellow.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.omega_yellow.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

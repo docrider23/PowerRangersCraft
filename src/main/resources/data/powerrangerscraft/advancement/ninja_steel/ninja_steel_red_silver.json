@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:cosmic_fury/cosmic_fury",
+  "parent": "powerrangerscraft:ninja_steel/ninja_Steel_red",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

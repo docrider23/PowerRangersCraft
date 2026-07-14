@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:crimson_hawk_power_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.ryu_ranger.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.ryu_ranger.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:crossovers/street_fighter/street_fighter",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:mmpr_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:mmpr_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:mmpr_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:crimson_hawk_power_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

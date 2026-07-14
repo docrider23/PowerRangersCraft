@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:gravi_dino_key"
     },
-    "title": "Gravi Dino Key, ready!",
-    "description": "Use the Gravi Dino Key",
+    "title": {
+      "translate": "advancements.powerrangerscraft.gravi_dino_key.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.gravi_dino_key.desc"
+    },
     "show_toast": true,
     "announce_to_chat": true
   },

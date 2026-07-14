@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:isis_megazord_head"
     },
-    "title": "The Wings of Animaria!",
-    "description": "Combine into the Isis Megazord",
+    "title": {
+      "translate": "advancements.powerrangerscraft.isis_megazord.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.isis_megazord.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

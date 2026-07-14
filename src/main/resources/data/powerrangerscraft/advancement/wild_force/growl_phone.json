@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:red_growl_phone"
     },
-    "title": "Wild Access!",
-    "description": "Obtain any Growl Phone",
+    "title": {
+      "translate": "advancements.powerrangerscraft.growl_phone.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.growl_phone.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

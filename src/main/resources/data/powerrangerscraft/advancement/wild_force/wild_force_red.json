@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:red_growl_phone"
     },
-    "title": "Blazing Lion!",
-    "description": "Change into the Red Wild Force Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.wild_force_red.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.wild_force_red.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

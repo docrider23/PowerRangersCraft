@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:mega_mode_disc"
     },
-    "title": "Mega Mode Power, Just SUPER!",
-    "description": "Change into Super Mega Mode",
+    "title": {
+      "translate": "advancements.powerrangerscraft.super_mega_mode.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.super_mega_mode.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

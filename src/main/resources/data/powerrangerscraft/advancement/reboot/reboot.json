@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:reboot_logo"
     },
-    "title": "Power Rangers (2017)",
-    "description": "Change into each member of the Movie Rangers",
+    "title": {
+      "translate": "advancements.powerrangerscraft.reboot.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.reboot.desc"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

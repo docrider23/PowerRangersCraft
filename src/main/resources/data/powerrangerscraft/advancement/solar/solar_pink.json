@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:pink_solarix"
     },
-    "title": "No More Strings On Me",
-    "description": "Change into the Pink Solar Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.solar_pink.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.solar_pink.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:black_cosmic_morpher"
     },
-    "title": "Stego Fury, Black Ranger!",
-    "description": "Change into the Black Cosmic Fury Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.cosmic_fury_black.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.cosmic_fury_black.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

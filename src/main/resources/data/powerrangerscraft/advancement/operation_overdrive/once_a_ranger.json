@@ -16,7 +16,7 @@
   },
   "parent": "powerrangerscraft:operation_overdrive/operation_overdrive",
   "criteria": {
-    "ranger1": {
+    "mmpr_black": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -45,7 +45,7 @@
         }
       }
     },
-    "ranger2": {
+    "spd_red": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -74,7 +74,7 @@
         }
       }
     },
-    "ranger3": {
+    "ninja_storm_blue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -103,7 +103,7 @@
         }
       }
     },
-    "ranger4": {
+    "dino_thunder_yellow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -132,7 +132,7 @@
         }
       }
     },
-    "ranger5": {
+    "mystic_force_green": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {

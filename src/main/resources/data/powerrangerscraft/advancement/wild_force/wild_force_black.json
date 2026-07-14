@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:black_growl_phone"
     },
-    "title": "Iron Bison!",
-    "description": "Change into the Black Wild Force Ranger",
+    "title": {
+    "translate": "advancements.powerrangerscraft.wild_force_black.title"
+  },
+  "description":
+  {
+    "translate": "advancements.powerrangerscraft.wild_force_black.desc"
+  },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

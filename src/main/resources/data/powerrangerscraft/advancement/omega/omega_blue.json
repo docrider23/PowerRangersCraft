@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:omega_blue_morpher"
     },
-    "title": "Omega Water Power!",
-    "description": "Change into the Blue Omega Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.omega_blue.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.omega_blue.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

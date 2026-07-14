@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:black_solarix"
     },
-    "title": "In Love With Yellow!",
-    "description": "Change into the Black Solar Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.solar_black.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.solar_black.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

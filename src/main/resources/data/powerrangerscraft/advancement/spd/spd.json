@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:spd_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.spd.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.spd.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:disney",
+  "criteria": {
+    "spd_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:spd_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:spd_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:spd_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_delta_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

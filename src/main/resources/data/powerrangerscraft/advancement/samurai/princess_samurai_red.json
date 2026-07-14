@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:princess_samuraizer"
     },
-    "title": "I am the Red Ranger, and your downfall!",
-    "description": "Change into the Female Red Samurai Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.princess_samurai_red.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.princess_samurai_red.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

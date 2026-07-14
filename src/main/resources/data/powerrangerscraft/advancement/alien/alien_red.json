@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_alien_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.alien_red.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.alien_red.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:alien/alien",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:alien_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:alien_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:alien_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_alien_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:green_cosmic_morpher"
     },
-    "title": "Tiger Fury, Green Ranger!",
-    "description": "Change into the Green Cosmic Fury Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.cosmic_fury_green.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.cosmic_fury_green.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

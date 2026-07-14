@@ -3,8 +3,12 @@
     "icon": {
       "id": "powerrangerscraft:omega_black_morpher"
     },
-    "title": "Omega Earth Power!",
-    "description": "Change into the Black Omega Ranger",
+    "title": {
+      "translate": "advancements.powerrangerscraft.omega_black.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.omega_black.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

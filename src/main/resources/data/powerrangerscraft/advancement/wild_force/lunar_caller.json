@@ -3,8 +3,13 @@
     "icon": {
       "id": "powerrangerscraft:lunar_caller"
     },
-    "title": "Wild Access!",
-    "description": "Obtain the Silver Ranger's Lunar Caller",
+    "title": {
+      "translate": "advancements.powerrangerscraft.lunar_caller.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.lunar_caller.desc"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

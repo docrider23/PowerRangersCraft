@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:zeo_logo"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.zeo.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.zeo.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:saban",
+  "criteria": {
+    "zeo_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:zeo_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:zeo_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:zeo_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_zeonizer"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "yellow_zeo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:zeo_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:zeo_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:zeo_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_zeonizer"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -7,7 +7,7 @@
       "translate": "advancements.powerrangerscraft.dino_charge_red.title"
     },
     "description": {
-      "translate": "advancements.powerrangerscraft.dio_charge_red.desc"
+      "translate": "advancements.powerrangerscraft.dino_charge_red.desc"
     },
     "frame": "task",
     "show_toast": true,

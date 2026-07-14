@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "powerrangerscraft:operation_overdrive/once_a_ranger",
+  "parent": "powerrangerscraft:spd/spd",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
