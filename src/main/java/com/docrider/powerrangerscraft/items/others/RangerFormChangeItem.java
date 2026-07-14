@@ -151,7 +151,7 @@ public class RangerFormChangeItem extends BaseItem {
     public String get_Model(String rangerName) {
         if (UPDATED_MODEL!=null) return UPDATED_MODEL;
         ResourceLocation FORM_MODEL = ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+getRangerName(rangerName)+FORM_NAME+".geo.json");
-        return (GeckoLibCache.getBakedModels().get(FORM_MODEL)!=null ? "geo/"+getRangerName(rangerName)+FORM_NAME+".geo.json" : (get_Has_Static_Wings() ? "rangerwing.geo.json" : "ranger.geo.json"));
+        return (GeckoLibCache.getBakedModels().get(FORM_MODEL)!=null ? getRangerName(rangerName)+FORM_NAME+".geo.json" : (get_Has_Static_Wings() ? "rangerwing.geo.json" : "ranger.geo.json"));
     }
 
     public Boolean get_Show_Face() {

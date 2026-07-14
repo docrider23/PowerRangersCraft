@@ -2,6 +2,6 @@
   "_comment": "Generated using MiningMark48's JSON Generator.",
   "parent": "item/generated",
   "textures": {
-    "layer0": "powerrangerscraft:item/red_change_power_card"
+    "layer0": "powerrangerscraft:item/robo_knight_change_power_card"
   }
 }

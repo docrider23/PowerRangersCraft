@@ -1007,10 +1007,42 @@
   "item.powerrangerscraft.blank_power_card": "Blank Power Card",
 
   "item.powerrangerscraft.red_gosei_morpher": "Gosei Morpher",
+  "item.powerrangerscraft.pink_gosei_morpher": "Gosei Morpher",
+  "item.powerrangerscraft.black_gosei_morpher": "Gosei Morpher",
+  "item.powerrangerscraft.yellow_gosei_morpher": "Gosei Morpher",
+  "item.powerrangerscraft.blue_gosei_morpher": "Gosei Morpher",
+  "item.powerrangerscraft.robo_morpher": "Robo Morpher",
+  "item.powerrangerscraft.green_gosei_morpher": "Gosei Morpher",
 
   "item.powerrangerscraft.red_change_power_card": "Red Change Power Card",
+  "item.powerrangerscraft.pink_change_power_card": "Pink Change Power Card",
+  "item.powerrangerscraft.black_change_power_card": "Black Change Power Card",
+  "item.powerrangerscraft.yellow_change_power_card": "Yellow Change Power Card",
+  "item.powerrangerscraft.blue_change_power_card": "Blue Change Power Card",
+  "item.powerrangerscraft.robo_knight_change_power_card": "Robo Knight Change Power Card",
+  "item.powerrangerscraft.green_change_power_card": "Green Change Power Card",
+
+  "item.powerrangerscraft.red_ultra_power_card": "Red Ultra Power Card",
+  "item.powerrangerscraft.pink_ultra_power_card": "Pink Ultra Power Card",
+  "item.powerrangerscraft.black_ultra_power_card": "Black Ultra Power Card",
+  "item.powerrangerscraft.yellow_ultra_power_card": "Yellow Ultra Power Card",
+  "item.powerrangerscraft.blue_ultra_power_card": "Blue Power Card",
 
   "powerrangerscraft:red_change_power_card.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:pink_change_power_card.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:black_change_power_card.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft:yellow_change_power_card.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft:blue_change_power_card.form": "Ranger: §9Blue Ranger",
+  "powerrangerscraft:robo_knight_change_power_card.form": "Ranger: §7Robo Knight",
+  "powerrangerscraft:green_change_power_card.form": "Ranger: §2Green Ranger",
+
+  "powerrangerscraft:robo_knight_change_power_card_dark.form": "Villain: §7Reprogrammed Robo Knight",
+
+  "powerrangerscraft:red_ultra_power_card.form": "Ranger: §cRed Ranger §6Ultra Mode",
+  "powerrangerscraft:pink_ultra_power_card.form": "Ranger: §dPink Ranger §6Ultra Mode",
+  "powerrangerscraft:black_ultra_power_card.form": "Ranger: §8Black Ranger §6Ultra Mode",
+  "powerrangerscraft:yellow_ultra_power_card.form": "Ranger: §eYellow Ranger §6Ultra Mode",
+  "powerrangerscraft:blue_ultra_power_card.form": "Ranger: §9Blue Ranger §6Ultra Mode",
 
   //21 Super Megaforce
   "tab.powerrangerscraft.super_megaforce": "Super Megaforce",
