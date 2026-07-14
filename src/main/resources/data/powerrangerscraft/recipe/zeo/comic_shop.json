@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_slab"
+    },
+    "G": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:comic_shop"
+  }
+}
