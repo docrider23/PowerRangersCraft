@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "grid_infused_gold_ingot",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:book"
+    },
+
+    "a": {
+      "item": "minecraft:quartz_slab"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:comic_shop"
+  }
+}
