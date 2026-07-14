@@ -230,6 +230,18 @@ public class ComicsItems {
     //Ranger Academy
     public static final DeferredItem<Item> SPECTRACITE_SHARD = ITEMS.register("spectracite_shard",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> RED_SPECTRACITE_SHARD = ITEMS.register("red_spectracite_shard",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> BLUE_SPECTRACITE_SHARD = ITEMS.register("blue_spectracite_shard",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> BLACK_SPECTRACITE_SHARD = ITEMS.register("black_spectracite_shard",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> YELLOW_SPECTRACITE_SHARD = ITEMS.register("yellow_spectracite_shard",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> PINK_SPECTRACITE_SHARD = ITEMS.register("pink_spectracite_shard",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
+    public static final DeferredItem<Item> GREEN_SPECTRACITE_SHARD = ITEMS.register("green_spectracite_shard",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
 
     public static final DeferredItem<Item> RANGER_ACADEMY_RED_POWER_COIN = ITEMS.register("ranger_academy_red_power_coin",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_red","ranger_academy_red_belt")

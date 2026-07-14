@@ -2,16 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "###",
-    "#G#",
-    "###"
+    "aaa",
+    "bcb",
+    "ddd"
   ],
   "key": {
-    "#": {
+    "a": {
       "item": "minecraft:quartz_slab"
     },
-    "G": {
+    "b": {
+      "item": "minecraft:glass"
+    },
+    "c": {
       "item": "minecraft:book"
+    },
+    "d": {
+      "tag": "minecraft:wooden_slabs"
     }
   },
   "result": {
