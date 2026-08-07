@@ -59,13 +59,17 @@ public class DinoFuryMorpherItem extends RangerChangerItem{
 		boolean fly = rider instanceof Player player && player.getAbilities().flying;
 
 		if (equipmentSlot == EquipmentSlot.FEET) {
-			if (rider.getMainHandItem().getItem()==DinoFuryItems.CHROMAFURY_SABER.get()) {
-				belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
+			if (!isTransformed(rider)) {
+				return "belts/dino_fury_morpher";
 			}
-			else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
-				belt = get_Form_Item(itemstack,1).getBeltTex();
+			else {
+				if (rider.getMainHandItem().getItem() == DinoFuryItems.CHROMAFURY_SABER.get()) {
+					belt = get_Form_Item(itemstack, 1).getBeltTex() + "_empty";
+				} else if (((RangerChangerItem) itemstack.getItem()).BELT_TEXT == null) {
+					belt = get_Form_Item(itemstack, 1).getBeltTex();
+				}
+				return "belts/" + belt;
 			}
-			return "belts/"+belt;
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
 			if (get_Form_Item(itemstack,2).getFormName(fly)=="") return "blank";
@@ -86,6 +90,12 @@ public class DinoFuryMorpherItem extends RangerChangerItem{
 		}else
 			return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).get_Model(this.Rider));
 
+	}
+
+	@Override
+	public ResourceLocation getBeltModelResource(ItemStack itemstack, RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
+		if (!isTransformed(rider)) return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/rangerbelt.geo.json");
+		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).get_Belt_Model());
 	}
 
 	@Override

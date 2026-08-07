@@ -45,12 +45,17 @@ public class MosaBlasterItem extends RangerChangerItem{
 		String belt = ((RangerChangerItem)itemstack.getItem()).BELT_TEXT;
 		
 		boolean fly = !rider.onGround();
-		
+
 		if (equipmentSlot == EquipmentSlot.FEET) {
-				if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
-					belt = get_Form_Item(itemstack,1).getBeltTex();
+			if (!isTransformed(rider)) {
+				return "blank";
+			}
+			else {
+				if (((RangerChangerItem) itemstack.getItem()).BELT_TEXT == null) {
+					belt = get_Form_Item(itemstack, 1).getBeltTex();
 				}
-				return "belts/"+belt;
+				return "belts/" + belt;
+			}
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
 			if (get_Form_Item(itemstack,2).getFormName(fly)=="") return "blank";

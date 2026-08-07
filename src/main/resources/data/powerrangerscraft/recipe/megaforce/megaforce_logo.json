@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "megaforce",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:blank_power_card"
+    },
+	{
+      "item": "minecraft:paper",
+	  "data": 0
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:megaforce_logo"
+  }
+}

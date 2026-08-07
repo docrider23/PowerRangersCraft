@@ -1,5 +1,6 @@
 package com.docrider.powerrangerscraft.items.megaforce;
 
+import com.docrider.powerrangerscraft.items.MegaforceItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.items.SamuraiItems;
@@ -17,35 +18,25 @@ import java.util.List;
 
 public class GoseiMorpherItem extends RangerChangerItem{
 
-	public GoseiMorpherItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Item.Properties properties)
+	public GoseiMorpherItem(Holder<ArmorMaterial> material, String ranger, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Item.Properties properties)
 	{
-		super(material, rider, baseFormItem, head, torso, legs, properties);
-		Has_basic_belt_info=false;
-	}
-
-	@Override
-	public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-
-		Item formItem = this.get_Form_Item(stack, 1);
-		Item formItem2 = this.get_Form_Item(stack, 2);
-
-		if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
-		else {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem2.toString() + ".form").getString()
-					+ " " + Component.translatable(formItem.toString() + ".form").getString()));
-		}
-		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+		super(material, ranger, baseFormItem, head, torso, legs, properties);
 	}
 	
 	@Override
-	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider, String rangerName)
+	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity ranger, String rangerName)
 	{
 		String belt = ((RangerChangerItem)itemstack.getItem()).BELT_TEXT;
 		
-		boolean fly = !rider.onGround();
+		boolean fly = !ranger.onGround();
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
-				if (rider.getMainHandItem().getItem()==SamuraiItems.SPIN_SWORD.get()) {
+				if (ranger.getMainHandItem().getItem()== MegaforceItems.MEGA_BLASTER.get() ||
+						ranger.getMainHandItem().getItem()==MegaforceItems.MEGA_BLASTER_DRAGON.get() ||
+						ranger.getMainHandItem().getItem()==MegaforceItems.MEGA_BLASTER_PHOENIX.get() ||
+						ranger.getMainHandItem().getItem()==MegaforceItems.MEGA_BLASTER_SNAKE.get() ||
+						ranger.getMainHandItem().getItem()==MegaforceItems.MEGA_BLASTER_TIGER.get() ||
+						ranger.getMainHandItem().getItem()==MegaforceItems.MEGA_BLASTER_SHARK.get()) {
 					belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
 				}
 				else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {

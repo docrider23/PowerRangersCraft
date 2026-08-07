@@ -1,0 +1,25 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:megaforce/green_gosei_morpher"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:green_change_power_card"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:megaforce/megaforce_head",
+      "powerrangerscraft:megaforce/megaforce_torso",
+      "powerrangerscraft:megaforce/megaforce_legs",
+      "powerrangerscraft:megaforce/mega_blaster"
+    ]
+  },
+  "criteria": {
+    "has_logo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:blank_power_card"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logo"
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:robo_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.robo_knight.title"
+    },
+    "description":
+    {
+      "translate": "advancements.powerrangerscraft.robo_knight.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:megaforce/megaforce_blue",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:megaforce_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:megaforce_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:megaforce_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:robo_morpher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

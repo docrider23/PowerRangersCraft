@@ -1,0 +1,178 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:red_ultra_power_card"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.ultra_mode.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.ultra_mode.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "powerrangerscraft:megaforce/megaforce",
+  "criteria": {
+    "megaforce_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:megaforce_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:megaforce_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:megaforce_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:red_gosei_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:red_ultra_power_card\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "megaforce_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:megaforce_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:megaforce_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:megaforce_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:pink_gosei_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:pink_ultra_power_card\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "megaforce_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:megaforce_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:megaforce_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:megaforce_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:black_gosei_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:black_ultra_power_card\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "megaforce_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:megaforce_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:megaforce_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:megaforce_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:yellow_gosei_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:yellow_ultra_power_card\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "megaforce_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "powerrangerscraft:megaforce_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "powerrangerscraft:megaforce_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "powerrangerscraft:megaforce_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "powerrangerscraft:blue_gosei_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:blue_ultra_power_card\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

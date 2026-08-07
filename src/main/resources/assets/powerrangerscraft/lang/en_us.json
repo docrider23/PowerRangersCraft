@@ -1028,6 +1028,28 @@
   "item.powerrangerscraft.yellow_ultra_power_card": "Yellow Ultra Power Card",
   "item.powerrangerscraft.blue_ultra_power_card": "Blue Power Card",
 
+  "item.powerrangerscraft.mega_blaster": "Mega Blaster",
+  "item.powerrangerscraft.mega_blaster_dragon": "Mega Blaster (Dragon Headder)",
+  "item.powerrangerscraft.mega_blaster_phoenix": "Mega Blaster (Phoenix Headder)",
+  "item.powerrangerscraft.mega_blaster_snake": "Mega Blaster (Snake Headder)",
+  "item.powerrangerscraft.mega_blaster_tiger": "Mega Blaster (Tiger Headder)",
+  "item.powerrangerscraft.mega_blaster_shark": "Mega Blaster (Shark Headder)",
+
+  "item.powerrangerscraft.robo_blaster": "Robo Blaster",
+  "item.powerrangerscraft.robo_blade": "Robo Blade",
+  "item.powerrangerscraft.dynamic_robo_blaster": "Robo Blaster w/ Vulcan Cannon",
+
+  "item.powerrangerscraft.ultra_sword": "Ultra Sword",
+
+  "item.powerrangerscraft.megaforce_blaster": "Megaforce Blaster",
+  "item.powerrangerscraft.land_sea_blaster": "Land-sea Blaster",
+  "item.powerrangerscraft.sky_blaster": "Sky Blaster",
+  "item.pwoerrangerscraft.dragon_sword": "Dragon Sword",
+  "item.powerrangerscraft.phoenix_shot": "Phoenix Shot",
+  "item.powerrangerscraft.snake_axe": "Snake Axe",
+  "item.powerrangerscraft.tiger_claw": "Tiger Claw",
+  "item.powerrangerscraft.shark_bowgun": "Shark Bowgun",
+
   "powerrangerscraft:red_change_power_card.form": "Ranger: §cRed Ranger",
   "powerrangerscraft:pink_change_power_card.form": "Ranger: §dPink Ranger",
   "powerrangerscraft:black_change_power_card.form": "Ranger: §8Black Ranger",

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "megaforce_red",
+  "pattern": [
+    "aaa",
+    "aba",
+	"aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_power_card"
+    },
+	"b": {
+      "item": "powerrangerscraft:red_change_power_card"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:red_gosei_morpher"
+  }
+}

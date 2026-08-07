@@ -233,8 +233,13 @@ public class RangerChangerItem extends RangerArmorItem{
 
         if (equipmentSlot == EquipmentSlot.FEET) {
             String belt = ((RangerChangerItem)itemstack.getItem()).BELT_TEXT;
-            if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null||get_Form_Item(itemstack,1).getIgnoreOverrideBeltText()) {
-                belt = get_Form_Item(itemstack,1).getBeltTex();
+            if (!isTransformed(ranger)) {
+                return "blank";
+            }
+            else {
+                if (((RangerChangerItem) itemstack.getItem()).BELT_TEXT == null) {
+                    belt = get_Form_Item(itemstack, 1).getBeltTex();
+                }
             }
             return "belts/"+belt;
         }
