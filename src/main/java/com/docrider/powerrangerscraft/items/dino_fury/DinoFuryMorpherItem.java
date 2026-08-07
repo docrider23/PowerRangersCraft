@@ -60,7 +60,8 @@ public class DinoFuryMorpherItem extends RangerChangerItem{
 
 		if (equipmentSlot == EquipmentSlot.FEET) {
 			if (!isTransformed(rider)) {
-				return "belts/dino_fury_morpher";
+				if (this == DinoFuryItems.CORRUPTED_BLUE_DINO_FURY_MORPHER.get()) return "belts/corrupted_dino_fury_morpher";
+				else return "belts/dino_fury_morpher";
 			}
 			else {
 				if (rider.getMainHandItem().getItem() == DinoFuryItems.CHROMAFURY_SABER.get()) {

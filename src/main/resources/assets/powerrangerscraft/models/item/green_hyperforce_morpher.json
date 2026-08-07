@@ -2,6 +2,6 @@
   "_comment": "Generated using MiningMark48's JSON Generator.",
   "parent": "item/generated",
   "textures": {
-    "layer0": "powerrangerscraft:item/red_hyperforce_morpher"
+    "layer0": "powerrangerscraft:item/hyperforce_morpher"
   }
 }

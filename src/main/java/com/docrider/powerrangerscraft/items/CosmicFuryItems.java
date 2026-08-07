@@ -26,40 +26,40 @@ public class CosmicFuryItems {
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
 
     public static final DeferredItem<Item> TRICERA_COSMIC_ORB = ITEMS.register("tricera_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_blue","cosmic_fury_blue_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 3,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
 
     public static final DeferredItem<Item> TIGER_COSMIC_ORB = ITEMS.register("tiger_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_green","cosmic_fury_green_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
 
     public static final DeferredItem<Item> STEGO_COSMIC_ORB = ITEMS.register("stego_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_black","cosmic_fury_black_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
 
     public static final DeferredItem<Item> MOSA_COSMIC_ORB = ITEMS.register("mosa_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_gold","cosmic_fury_gold_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
 
     public static final DeferredItem<Item> SOLONO_COSMIC_ORB = ITEMS.register("solono_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_orange","cosmic_fury_orange_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
 
     public static final DeferredItem<Item> T_REX_COSMIC_ORB = ITEMS.register("t_rex_cosmic_orb",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","cosmic_fury_zenith","cosmic_fury_zenith_belt",
@@ -68,7 +68,7 @@ public class CosmicFuryItems {
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeModel("default_cape.geo.json").HasCape().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeModel("default_cape.geo.json").HasCape().ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.COSMIC_FURY));
 
     public static final DeferredItem<Item> COSMIC_FURY_HELMET = ITEMS.register("cosmic_fury_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
@@ -90,7 +90,7 @@ public class CosmicFuryItems {
     public static final DeferredItem<Item> ORANGE_COSMIC_MORPHER = ITEMS.register("orange_cosmic_morpher",
             () -> new CosmicMorpherItem(ArmorMaterials.DIAMOND,"cosmic_fury_orange", SOLONO_COSMIC_ORB,COSMIC_FURY_HELMET,COSMIC_FURY_CHESTPLATE,COSMIC_FURY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
     public static final DeferredItem<Item> ZENITH_COSMIC_MORPHER = ITEMS.register("zenith_cosmic_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"cosmic_fury_zenith", T_REX_COSMIC_ORB,COSMIC_FURY_HELMET,COSMIC_FURY_CHESTPLATE,COSMIC_FURY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
+            () -> new CosmicMorpherItem(ArmorMaterials.DIAMOND,"cosmic_fury_zenith", T_REX_COSMIC_ORB,COSMIC_FURY_HELMET,COSMIC_FURY_CHESTPLATE,COSMIC_FURY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));
 
     public static final DeferredItem<BaseBlasterItem> COSMIC_BLASTER = ITEMS.register("cosmic_blaster",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 30, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.COSMIC_FURY).ChangeRepairItem(EMPTY_COSMIC_ORB.get()));

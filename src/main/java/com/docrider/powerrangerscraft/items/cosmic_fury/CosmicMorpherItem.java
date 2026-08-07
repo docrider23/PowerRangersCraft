@@ -1,7 +1,11 @@
 package com.docrider.powerrangerscraft.items.cosmic_fury;
 
+import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.items.CosmicFuryItems;
+import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import net.minecraft.core.Holder;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorMaterial;
@@ -24,14 +28,30 @@ public class CosmicMorpherItem extends RangerChangerItem {
         boolean fly = !rider.onGround();
 
         if (equipmentSlot == EquipmentSlot.FEET) {
-            if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
-                belt = get_Form_Item(itemstack,1).getBeltTex();
+            if (!isTransformed(rider)) {
+                if (this == CosmicFuryItems.RED_COSMIC_MORPHER.get()) return "belts/cosmic_morpher_red";
+                if (this == CosmicFuryItems.BLUE_COSMIC_MORPHER.get()) return "belts/cosmic_morpher_blue";
+                if (this == CosmicFuryItems.GREEN_COSMIC_MORPHER.get()) return "belts/cosmic_morpher_green";
+                if (this == CosmicFuryItems.BLACK_COSMIC_MORPHER.get()) return "belts/cosmic_morpher_black";
+                if (this == CosmicFuryItems.GOLD_COSMIC_MORPHER.get()) return "belts/cosmic_morpher_gold";
+                if (this == CosmicFuryItems.ORANGE_COSMIC_MORPHER.get()) return "belts/cosmic_morpher_orange";
+                if (this == CosmicFuryItems.ZENITH_COSMIC_MORPHER.get()) return "belts/cosmic_morpher_zenith";
+            }
+            else {
+                if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
+                    belt = get_Form_Item(itemstack,1).getBeltTex();
+                }
             }
             return "belts/"+belt;
         }
-        else if (equipmentSlot == EquipmentSlot.HEAD) return "cosmic_fury_armor";
 
         else return get_Form_Item(itemstack,1).getRangerName(rangerName)+get_Form_Item(itemstack,1).getFormName(fly);
+    }
+
+    @Override
+    public ResourceLocation getBeltModelResource(ItemStack itemstack, RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
+        if (!isTransformed(rider)) return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/rangerbelt.geo.json");
+        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).get_Belt_Model());
     }
 
     @Override
