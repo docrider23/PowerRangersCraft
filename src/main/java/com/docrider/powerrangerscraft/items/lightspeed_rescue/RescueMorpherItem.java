@@ -2,7 +2,6 @@ package com.docrider.powerrangerscraft.items.lightspeed_rescue;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.items.LightspeedRescueItems;
-import com.docrider.powerrangerscraft.items.LostGalaxyItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
@@ -49,17 +48,21 @@ public class RescueMorpherItem extends RangerChangerItem{
 		boolean fly = !rider.onGround();
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
-				if (rider.getMainHandItem().getItem()== LightspeedRescueItems.RESCUE_BLASTER_RED.get()|
-						rider.getMainHandItem().getItem()== LightspeedRescueItems.RESCUE_BLASTER_BLUE.get()|
-						rider.getMainHandItem().getItem()== LightspeedRescueItems.RESCUE_BLASTER_GREEN.get()|
-						rider.getMainHandItem().getItem()== LightspeedRescueItems.RESCUE_BLASTER_YELLOW.get()|
-						rider.getMainHandItem().getItem()== LightspeedRescueItems.RESCUE_BLASTER_PINK.get()) {
-					belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
+			if (!isTransformed(rider)) {
+				return "belts/rescue_morpher";
+			}
+			else {
+				if (rider.getMainHandItem().getItem() == LightspeedRescueItems.RESCUE_BLASTER_RED.get() |
+						rider.getMainHandItem().getItem() == LightspeedRescueItems.RESCUE_BLASTER_BLUE.get() |
+						rider.getMainHandItem().getItem() == LightspeedRescueItems.RESCUE_BLASTER_GREEN.get() |
+						rider.getMainHandItem().getItem() == LightspeedRescueItems.RESCUE_BLASTER_YELLOW.get() |
+						rider.getMainHandItem().getItem() == LightspeedRescueItems.RESCUE_BLASTER_PINK.get()) {
+					belt = get_Form_Item(itemstack, 1).getBeltTex() + "_empty";
+				} else if (((RangerChangerItem) itemstack.getItem()).BELT_TEXT == null) {
+					belt = get_Form_Item(itemstack, 1).getBeltTex();
 				}
-				else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
-					belt = get_Form_Item(itemstack,1).getBeltTex();
-				}
-				return "belts/"+belt;
+				return "belts/" + belt;
+			}
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
 			if (get_Form_Item(itemstack, 2).getFormName(fly).equals("_megabattle")) {
@@ -78,6 +81,12 @@ public class RescueMorpherItem extends RangerChangerItem{
 		if (slot == EquipmentSlot.HEAD)num=2;
 
 		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).get_Model(this.Rider));
+	}
+
+	@Override
+	public ResourceLocation getBeltModelResource(ItemStack itemstack, RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
+		if (!isTransformed(rider)) return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/left_brace.geo.json");
+		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).get_Belt_Model());
 	}
 
 	@Override

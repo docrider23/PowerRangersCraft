@@ -68,15 +68,15 @@ public class HyperforceItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
 
     public static final DeferredItem<Item> RED_HYPERFORCE_MORPHER = ITEMS.register("red_hyperforce_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"hyperforce_red", LION_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
+            () -> new HyperforceMorpherItem(ArmorMaterials.DIAMOND,"hyperforce_red", LION_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
     public static final DeferredItem<Item> BLUE_HYPERFORCE_MORPHER = ITEMS.register("blue_hyperforce_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"hyperforce_blue", SERPENT_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
+            () -> new HyperforceMorpherItem(ArmorMaterials.DIAMOND,"hyperforce_blue", SERPENT_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
     public static final DeferredItem<Item> YELLOW_HYPERFORCE_MORPHER = ITEMS.register("yellow_hyperforce_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"hyperforce_yellow", RAM_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
+            () -> new HyperforceMorpherItem(ArmorMaterials.DIAMOND,"hyperforce_yellow", RAM_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
     public static final DeferredItem<Item> BLACK_HYPERFORCE_MORPHER = ITEMS.register("black_hyperforce_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"hyperforce_black", CERBERUS_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
+            () -> new HyperforceMorpherItem(ArmorMaterials.DIAMOND,"hyperforce_black", CERBERUS_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
     public static final DeferredItem<Item> PINK_HYPERFORCE_MORPHER = ITEMS.register("pink_hyperforce_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"hyperforce_pink", PHOENIX_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
+            () -> new HyperforceMorpherItem(ArmorMaterials.DIAMOND,"hyperforce_pink", PHOENIX_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
     public static final DeferredItem<Item> GREEN_HYPERFORCE_MORPHER = ITEMS.register("green_hyperforce_morpher",
             () -> new HyperforceMorpherItem(ArmorMaterials.DIAMOND,"hyperforce_green", HYDRA_HYPERFORCE_CARD,HYPERFORCE_HELMET,HYPERFORCE_CHESTPLATE, HYPERFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.HYPERFORCE).ChangeRepairItem(HYPERFORCE_DIE.get()));
 

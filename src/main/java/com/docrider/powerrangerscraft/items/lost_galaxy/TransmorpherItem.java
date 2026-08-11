@@ -48,39 +48,37 @@ public class TransmorpherItem extends RangerChangerItem {
 		boolean fly = !rider.onGround();
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
-			if (get_Form_Item(itemstack,2).getFormName(fly).equals("_lights_of_orion")) {
-				if (rider.getMainHandItem().getItem()==LostGalaxyItems.QUASAR_SABER.get() |
-						rider.getOffhandItem().getItem()==LostGalaxyItems.QUASAR_SABER.get()) {
-					belt = get_Form_Item(itemstack,2).getBeltTex()+"_empty";
-				}
-				else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
-					belt = get_Form_Item(itemstack,2).getBeltTex();
-				}
+			if (!isTransformed(rider)) {
+				return "belts/transmorpher";
 			}
 			else {
-				if (rider.getMainHandItem().getItem()==LostGalaxyItems.QUASAR_SABER.get() |
-						rider.getOffhandItem().getItem()==LostGalaxyItems.QUASAR_SABER.get()) {
-					belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
+				if (get_Form_Item(itemstack, 2).getFormName(fly).equals("_lights_of_orion")) {
+					if (rider.getMainHandItem().getItem() == LostGalaxyItems.QUASAR_SABER.get() |
+							rider.getOffhandItem().getItem() == LostGalaxyItems.QUASAR_SABER.get()) {
+						belt = get_Form_Item(itemstack, 2).getBeltTex() + "_empty";
+					} else if (((RangerChangerItem) itemstack.getItem()).BELT_TEXT == null) {
+						belt = get_Form_Item(itemstack, 2).getBeltTex();
+					}
+				} else {
+					if (rider.getMainHandItem().getItem() == LostGalaxyItems.QUASAR_SABER.get() |
+							rider.getOffhandItem().getItem() == LostGalaxyItems.QUASAR_SABER.get()) {
+						belt = get_Form_Item(itemstack, 1).getBeltTex() + "_empty";
+					} else if (((RangerChangerItem) itemstack.getItem()).BELT_TEXT == null) {
+						belt = get_Form_Item(itemstack, 1).getBeltTex();
+					}
 				}
-				else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
-					belt = get_Form_Item(itemstack,1).getBeltTex();
-				}
+				return "belts/" + belt;
 			}
-			return "belts/"+belt;
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
-			if (get_Form_Item(itemstack,2).getFormName(fly).equals("_armored"))
-			{
-				return get_Form_Item(itemstack,2).getRangerName(rangerName)+get_Form_Item(itemstack,2).getFormName(fly);
+			if (get_Form_Item(itemstack, 2).getFormName(fly).equals("_armored")) {
+				return get_Form_Item(itemstack, 2).getRangerName(rangerName) + get_Form_Item(itemstack, 2).getFormName(fly);
 			}
-			else if (get_Form_Item(itemstack, 2).getFormName(fly).equals("_lights_of_orion"))
-			{
-				return get_Form_Item(itemstack,2).getRangerName(rangerName)+get_Form_Item(itemstack,2).getFormName(fly);
+			else if (get_Form_Item(itemstack, 2).getFormName(fly).equals("_lights_of_orion")) {
+				return get_Form_Item(itemstack, 2).getRangerName(rangerName) + get_Form_Item(itemstack, 2).getFormName(fly);
 			}
 		}
-
-		return get_Form_Item(itemstack,1).getRangerName(rangerName)+get_Form_Item(itemstack,1).getFormName(fly);
-
+		return get_Form_Item(itemstack, 1).getRangerName(rangerName) + get_Form_Item(itemstack, 1).getFormName(fly);
     }
 
 	public ResourceLocation getModelResource(ItemStack itemstack, RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
@@ -88,6 +86,12 @@ public class TransmorpherItem extends RangerChangerItem {
 		if (slot == EquipmentSlot.HEAD)num=2;
 
 		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).get_Model(this.Rider));
+	}
+
+	@Override
+	public ResourceLocation getBeltModelResource(ItemStack itemstack, RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
+		if (!isTransformed(rider)) return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/left_brace.geo.json");
+		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).get_Belt_Model());
 	}
 
 	@Override

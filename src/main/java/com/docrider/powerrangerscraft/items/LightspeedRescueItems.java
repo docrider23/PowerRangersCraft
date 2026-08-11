@@ -5,6 +5,7 @@ import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.lightspeed_rescue.BattleBoosterItem;
 import com.docrider.powerrangerscraft.items.lightspeed_rescue.RescueMorpherItem;
 import com.docrider.powerrangerscraft.items.lightspeed_rescue.RescueInjectorItem;
+import com.docrider.powerrangerscraft.items.lightspeed_rescue.TitaniumMorpherItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -23,27 +24,27 @@ public class LightspeedRescueItems {
     public static final DeferredItem<Item> LIGHTSPEED_RED_BADGE = ITEMS.register("lightspeed_red_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_red","lightspeed_red_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_BLUE_BADGE = ITEMS.register("lightspeed_blue_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_blue","lightspeed_blue_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_GREEN_BADGE = ITEMS.register("lightspeed_green_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_green","lightspeed_green_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_YELLOW_BADGE = ITEMS.register("lightspeed_yellow_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_yellow","lightspeed_yellow_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_PINK_BADGE = ITEMS.register("lightspeed_pink_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_pink","lightspeed_pink_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> TITANIUM_BADGE = ITEMS.register("titanium_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","titanium_ranger","titanium_ranger_belt",
@@ -79,7 +80,7 @@ public class LightspeedRescueItems {
             () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_pink",LIGHTSPEED_PINK_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
     public static final DeferredItem<Item> TITANIUM_MORPHER = ITEMS.register("titanium_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"titanium_ranger",TITANIUM_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+            () -> new TitaniumMorpherItem(ArmorMaterials.DIAMOND,"titanium_ranger",TITANIUM_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
     public static final DeferredItem<Item> BATTLE_BOOSTER_MEGABATTLE_GREEN = ITEMS.register("battle_booster_megabattle_green",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_megabattle","lightspeed_green","lightspeed_green_belt")

@@ -53,14 +53,18 @@ public class SamuraiMorpherItem extends RangerChangerItem{
 		boolean fly = !rider.onGround();
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
-				if (rider.getMainHandItem().getItem()==SamuraiItems.BARRACUDA_BLADE.get() ||
-						rider.getMainHandItem().getItem()==SamuraiItems.SHARK_SWORD.get()) {
-					belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
+			if (!isTransformed(rider)) {
+				return "blank";
+			}
+			else {
+				if (rider.getMainHandItem().getItem() == SamuraiItems.BARRACUDA_BLADE.get() ||
+						rider.getMainHandItem().getItem() == SamuraiItems.SHARK_SWORD.get()) {
+					belt = get_Form_Item(itemstack, 1).getBeltTex() + "_empty";
+				} else if (((RangerChangerItem) itemstack.getItem()).BELT_TEXT == null) {
+					belt = get_Form_Item(itemstack, 1).getBeltTex();
 				}
-				else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
-					belt = get_Form_Item(itemstack,1).getBeltTex();
-				}
-				return "belts/"+belt;
+				return "belts/" + belt;
+			}
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
 			if (get_Form_Item(itemstack,2).getFormName(fly)=="") return "blank";

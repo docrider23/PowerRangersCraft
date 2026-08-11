@@ -103,7 +103,7 @@ public class WildForceItems {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
 					new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false))
-					.addAlternative(WOLF_ANIMAL_CRYSTAL_MEGAZORD.get()).ChangeBeltModel("geo/rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
+					.addAlternative(WOLF_ANIMAL_CRYSTAL_MEGAZORD.get()).ChangeBeltModel("rangerbeltweapon.geo.json").AddToTabList(RangerTabs.WILD_FORCE));
 
 	public static final DeferredItem<Item> ELEPHANT_ANIMAL_CRYSTAL = ITEMS.register("elephant_animal_crystal",
 			() -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.WILD_FORCE));

@@ -1,7 +1,6 @@
-package com.docrider.powerrangerscraft.items.wild_force;
+package com.docrider.powerrangerscraft.items.starranger;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
-import com.docrider.powerrangerscraft.items.WildForceItems;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import net.minecraft.core.Holder;
@@ -13,9 +12,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.registries.DeferredItem;
 
-public class LunarCallerItem extends RangerChangerItem{
+public class LightningBraceItem extends RangerChangerItem{
 
-	public LunarCallerItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Properties properties)
+	public LightningBraceItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Item.Properties properties)
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
 	}
@@ -29,16 +28,13 @@ public class LunarCallerItem extends RangerChangerItem{
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
 			if (!isTransformed(rider)) {
-				return "belts/lunar_caller";
+				return "belts/lightning_brace";
 			}
 			else {
-				if (rider.getMainHandItem().getItem()== WildForceItems.LUNAR_CUE.get()) {
-					belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
+				if (((RangerChangerItem) itemstack.getItem()).BELT_TEXT == null) {
+					belt = get_Form_Item(itemstack, 1).getBeltTex();
 				}
-				else if (((RangerChangerItem)itemstack.getItem()).BELT_TEXT==null) {
-					belt = get_Form_Item(itemstack,1).getBeltTex();
-				}
-				return "belts/"+belt;
+				return "belts/" + belt;
 			}
 		}
 		else return rangerName+get_Form_Item(itemstack,1).getFormName(fly);
@@ -48,19 +44,5 @@ public class LunarCallerItem extends RangerChangerItem{
 	public ResourceLocation getBeltModelResource(ItemStack itemstack, RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
 		if (!isTransformed(rider)) return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/left_brace.geo.json");
 		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).get_Belt_Model());
-	}
-
-	@Override
-	public boolean getPartsForSlot(ItemStack itemstack,EquipmentSlot currentSlot,String  part) {
-
-		switch (currentSlot) {
-			case HEAD, LEGS ->{
-				return true;
-			}
-			case CHEST -> {
-			}
-			default -> {}
-		}
-		return false;
 	}
 }

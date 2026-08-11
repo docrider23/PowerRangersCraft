@@ -3,7 +3,9 @@ package com.docrider.powerrangerscraft.items;
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.*;
+import com.docrider.powerrangerscraft.items.starranger.LightningBraceItem;
 import com.docrider.powerrangerscraft.items.starranger.MastarChangeItem;
+import com.docrider.powerrangerscraft.items.starranger.ZodiacBraceItem;
 import com.docrider.powerrangerscraft.particle.ModParticles;
 import net.minecraft.core.particles.BlockParticleOption;
 import net.minecraft.core.particles.ParticleTypes;
@@ -45,7 +47,7 @@ public class StarrangerItems {
                             player.getZ(), 300, 0, 0, 0, 0.2);
                 }
             }
-                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> WATER_CONSTELLATION_CARD = ITEMS.register("water_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_blue","starranger_belt",
@@ -63,7 +65,7 @@ public class StarrangerItems {
                             player.getZ(), 300, 0, 0, 0, 0.2);
                 }
             }
-                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> EARTH_CONSTELLATION_CARD = ITEMS.register("earth_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_green","starranger_belt",
@@ -83,7 +85,7 @@ public class StarrangerItems {
                             player.getZ(), 300, 0, 0, 0, 0.2);
                 }
             }
-                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> AIR_CONSTELLATION_CARD = ITEMS.register("air_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_white","starranger_belt",
@@ -101,7 +103,7 @@ public class StarrangerItems {
                             player.getZ(), 300, 0, 0, 0, 0.2);
                 }
             }
-                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> LIGHTNING_CONSTELLATION_CARD = ITEMS.register("lightning_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","star_lightning","starranger_lightning_belt",
@@ -121,7 +123,7 @@ public class StarrangerItems {
 
                 }
             }
-                    .IsGlowing().ChangeBeltModel("geo/rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
+                    .IsGlowing().ChangeBeltModel("rangerbeltchanger.geo.json").AddToTabList(RangerTabs.STARRANGER));
 
     public static final DeferredItem<Item> SOLAR_CONSTELLATION_CARD = ITEMS.register("solar_constellation_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","taiyou_gold","starranger_equinox_belt",
@@ -169,15 +171,15 @@ public class StarrangerItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static final DeferredItem<Item> RED_ZODIAC_BRACE = ITEMS.register("red_zodiac_brace",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"star_red",FIRE_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new ZodiacBraceItem(ArmorMaterials.DIAMOND,"star_red",FIRE_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
     public static final DeferredItem<Item> BLUE_ZODIAC_BRACE = ITEMS.register("blue_zodiac_brace",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"star_blue", WATER_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new ZodiacBraceItem(ArmorMaterials.DIAMOND,"star_blue", WATER_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
     public static final DeferredItem<Item> GREEN_ZODIAC_BRACE = ITEMS.register("green_zodiac_brace",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"star_green", EARTH_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new ZodiacBraceItem(ArmorMaterials.DIAMOND,"star_green", EARTH_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
     public static final DeferredItem<Item> WHITE_ZODIAC_BRACE = ITEMS.register("white_zodiac_brace",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"star_white", AIR_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new ZodiacBraceItem(ArmorMaterials.DIAMOND,"star_white", AIR_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
     public static final DeferredItem<Item> YELLOW_LIGHTNING_BRACE = ITEMS.register("yellow_lightning_brace",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"star_lightning", LIGHTNING_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new LightningBraceItem(ArmorMaterials.DIAMOND,"star_lightning", LIGHTNING_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static final DeferredItem<Item> COSMO_SABER_GOLD = ITEMS.register("cosmo_saber_gold",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"taiyou_gold", SOLAR_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).CanChangeTexture().AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));

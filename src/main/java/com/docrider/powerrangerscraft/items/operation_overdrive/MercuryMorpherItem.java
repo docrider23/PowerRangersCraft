@@ -1,11 +1,14 @@
 package com.docrider.powerrangerscraft.items.operation_overdrive;
 
+import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.SamuraiItems;
+import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorMaterial;
@@ -46,6 +49,10 @@ public class MercuryMorpherItem extends RangerChangerItem{
 		boolean fly = !rider.onGround();
 		
 		if (equipmentSlot == EquipmentSlot.FEET) {
+			if (!isTransformed(rider)) {
+				return "belts/mercury_morpher";
+			}
+			else {
 				if (rider.getMainHandItem().getItem()== OperationOverdriveItems.DRIVE_DETECTOR.get()) {
 					belt = get_Form_Item(itemstack,1).getBeltTex()+"_empty";
 				}
@@ -53,6 +60,7 @@ public class MercuryMorpherItem extends RangerChangerItem{
 					belt = get_Form_Item(itemstack,1).getBeltTex();
 				}
 				return "belts/"+belt;
+			}
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
 			if (get_Form_Item(itemstack,2).getFormName(fly)=="") return "blank";
@@ -60,6 +68,12 @@ public class MercuryMorpherItem extends RangerChangerItem{
 		}
 		
 		else return rangerName+get_Form_Item(itemstack,1).getFormName(fly);
+	}
+
+	@Override
+	public ResourceLocation getBeltModelResource(ItemStack itemstack, RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
+		if (!isTransformed(rider)) return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/left_brace1.geo.json");
+		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, get_Form_Item(itemstack, 1).get_Belt_Model());
 	}
 
 	@Override
