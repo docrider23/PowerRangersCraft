@@ -1,7 +1,7 @@
 package com.docrider.powerrangerscraft.entity.boss;
 
 import com.docrider.powerrangerscraft.entity.footsoldier.BaseFootsoldierEntity;
-import com.docrider.powerrangerscraft.items.TurboItems;
+import com.docrider.powerrangerscraft.items.MegaforceItems;
 import net.minecraft.ChatFormatting;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
@@ -15,21 +15,31 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Blocks;
 
 import javax.annotation.Nullable;
+import java.time.LocalDate;
+import java.time.temporal.ChronoField;
 
-public class BlueSenturionEvilEntity extends BaseFootsoldierEntity {
+public class DarkRoboKnightEntity extends BaseFootsoldierEntity {
 
-    private final ServerBossEvent bossEvent = (ServerBossEvent)(new ServerBossEvent(Component.translatable(getDisplayName().getString()).withStyle(ChatFormatting.WHITE), BossEvent.BossBarColor.BLUE, BossEvent.BossBarOverlay.PROGRESS));
+    private final ServerBossEvent bossEvent = (ServerBossEvent)(new ServerBossEvent(Component.translatable(getDisplayName().getString()).withStyle(ChatFormatting.GRAY), BossEvent.BossBarColor.RED, BossEvent.BossBarOverlay.PROGRESS));
 
-    public BlueSenturionEvilEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
+    public DarkRoboKnightEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="dr_blue_senturion";
-        this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(TurboItems.TURBO_HELMET.get()));
-        this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(TurboItems.TURBO_CHESTPLATE.get()));
-        this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(TurboItems.TURBO_LEGGINGS.get()));
-        this.setItemSlot(EquipmentSlot.FEET, new ItemStack(TurboItems.SIGNAL_WHISTLE_EVIL.get()));
-        this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(TurboItems.SENTURION_SYNERGIZER.get()));
+        NAME="ld_gosei_knight";
+        LocalDate localdate = LocalDate.now();
+        int i = localdate.get(ChronoField.DAY_OF_MONTH);
+        int j = localdate.get(ChronoField.MONTH_OF_YEAR);
+        if (j == 6 && i == 22) {
+            this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Blocks.AIR));
+            this.armorDropChances[EquipmentSlot.HEAD.getIndex()] = 0.0F;
+        }
+        else this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(MegaforceItems.MEGAFORCE_HELMET.get()));
+        this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(MegaforceItems.MEGAFORCE_CHESTPLATE.get()));
+        this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(MegaforceItems.MEGAFORCE_LEGGINGS.get()));
+        this.setItemSlot(EquipmentSlot.FEET, new ItemStack(MegaforceItems.ROBO_MORPHER_DARK.get()));
+        this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(MegaforceItems.ROBO_BLADE.get()));
     }
 
 
@@ -69,6 +79,6 @@ public class BlueSenturionEvilEntity extends BaseFootsoldierEntity {
                 .add(Attributes.MOVEMENT_SPEED,(double)0.2F)
                 .add(Attributes.ATTACK_DAMAGE, 15.0D)
                 .add(Attributes.ARMOR, 4.0D)
-                .add(Attributes.MAX_HEALTH, 250.0D);
+                .add(Attributes.MAX_HEALTH, 50.0D);
     }
 }

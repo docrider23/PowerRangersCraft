@@ -186,6 +186,17 @@ public class MobsCore {public static final DeferredRegister.Items ITEMS = Deferr
             () -> new DeferredSpawnEggItem(MOOGERS, 0xd6ba00, 0xa61a0b, new Item.Properties()));
             
     //20 Megaforce
+    public static final DeferredHolder<EntityType<?>, EntityType<LoogiesEntity>> LOOGIES = MOBLIST.register("loogie",
+            () -> EntityType.Builder.of(LoogiesEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":loogie"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> LOOGIES_SPAWN_EGG = ITEMS.register("loogie_spawn_egg",
+            () -> new DeferredSpawnEggItem(LOOGIES,0xffffff, 0x151515, new Item.Properties()));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<DarkRoboKnightEntity>> DARK_ROBO_KNIGHT = MOBLIST.register("dark_robo_knight",
+            () -> EntityType.Builder.of(DarkRoboKnightEntity::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build(PowerRangersCraftCore.MODID + ":dark_robo_knight"));
+
+    public static final DeferredItem<DeferredSpawnEggItem> DARK_ROBO_KNIGHT_SPAWN_EGG = ITEMS.register("dark_robo_knight_spawn_egg",
+            () -> new DeferredSpawnEggItem(DARK_ROBO_KNIGHT,0xffffff, 0x151515, new Item.Properties()));
     
     //21 Super Megaforce
     

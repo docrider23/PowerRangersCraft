@@ -30,7 +30,7 @@ public class CybervillainRoxyEntity extends BaseFootsoldierEntity {
 
     public CybervillainRoxyEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="cybervillain_roxy";
+        NAME="dr_cybervillain_blaze";
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(BeastMorphersItems.BEAST_MORPHERS_HELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(BeastMorphersItems.BEAST_MORPHERS_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(BeastMorphersItems.BEAST_MORPHERS_LEGGINGS.get()));

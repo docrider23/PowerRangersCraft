@@ -198,6 +198,9 @@ public class ModCommonEvents {
 
         event.put(MobsCore.MOOGERS.get(), MoogersEntity.setAttributes().build());
 
+        event.put(MobsCore.LOOGIES.get(), LoogiesEntity.setAttributes().build());
+        event.put(MobsCore.DARK_ROBO_KNIGHT.get(), DarkRoboKnightEntity.setAttributes().build());
+
         event.put(MobsCore.DINO_CYCLE.get(), DinoCycleEntity.setAttributes().build());
 
         event.put(MobsCore.TRONICS.get(), TronicsEntity.setAttributes().build());
@@ -244,6 +247,8 @@ public class ModCommonEvents {
         event.register(MobsCore.LAVA_LIZARDS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.MOOGERS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+        event.register(MobsCore.LOOGIES.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 
         event.register(MobsCore.TRONICS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 

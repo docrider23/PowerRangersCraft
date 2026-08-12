@@ -58,6 +58,9 @@ public class MobsItems {
 	public static final DeferredItem<SwordItem> MOOGERS_DAO = ITEMS.register("moogers_dao",
 			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 
+	public static final DeferredItem<SwordItem> LOOGIE_KNIFE = ITEMS.register("loogie_knife",
+			() -> new BaseSwordItem(Tiers.IRON, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
+
 	public static final DeferredItem<BaseBlasterItem> TRONIC_CLAW_BLASTER = ITEMS.register("tronic_claw_blaster",
 			() -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MISC).ChangeRepairItem(Items.IRON_INGOT));
 

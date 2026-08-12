@@ -515,6 +515,9 @@ public class RangerTabs {
 
             event.accept(MobsCore.MOOGERS_SPAWN_EGG);
 
+            event.accept(MobsCore.LOOGIES_SPAWN_EGG);
+            event.accept(MobsCore.DARK_ROBO_KNIGHT_SPAWN_EGG);
+
             event.accept(MobsCore.TRONICS_SPAWN_EGG);
             event.accept(MobsCore.CYBERVILLAIN_BLAZE_SPAWN_EGG);
             event.accept(MobsCore.CYBERVILLAIN_ROXY_SPAWN_EGG);

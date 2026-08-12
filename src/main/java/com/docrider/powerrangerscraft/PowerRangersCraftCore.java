@@ -281,6 +281,9 @@ public class PowerRangersCraftCore {
 
             event.registerEntityRenderer(MobsCore.MOOGERS.get(), BasicEntityRenderer::new);
 
+            event.registerEntityRenderer(MobsCore.LOOGIES.get(), BasicEntityRenderer::new);
+            event.registerEntityRenderer(MobsCore.DARK_ROBO_KNIGHT.get(), BasicEntityRenderer::new);
+
             event.registerEntityRenderer(MobsCore.DINO_CYCLE.get(), BikeRenderer::new);
 
             event.registerEntityRenderer(MobsCore.TRONICS.get(), BasicEntityRenderer::new);

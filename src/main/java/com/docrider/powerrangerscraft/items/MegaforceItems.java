@@ -110,6 +110,8 @@ public class MegaforceItems {
 
     public static final DeferredItem<Item> ROBO_MORPHER = ITEMS.register("robo_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"robo_knight",ROBO_KNIGHT_CHANGE_POWER_CARD,MEGAFORCE_HELMET,MEGAFORCE_CHESTPLATE,MEGAFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
+    public static final DeferredItem<Item> ROBO_MORPHER_DARK = ITEMS.register("robo_morpher_dark",
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"robo_knight_dark",ROBO_KNIGHT_CHANGE_POWER_CARD,MEGAFORCE_HELMET,MEGAFORCE_CHESTPLATE,MEGAFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
 
     public static final DeferredItem<Item> GREEN_GOSEI_MORPHER = ITEMS.register("green_gosei_morpher",
             () -> new GoseiMorpherItem(ArmorMaterials.DIAMOND,"megaforce_green",GREEN_CHANGE_POWER_CARD,MEGAFORCE_HELMET,MEGAFORCE_CHESTPLATE,MEGAFORCE_LEGGINGS,new Item.Properties())
