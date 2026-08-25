@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "powerrangerscraft:block/gosei"},
+    "facing=south": { "model": "powerrangerscraft:block/gosei", "y": 180 },
+    "facing=west":  { "model": "powerrangerscraft:block/gosei", "y": 270 },
+    "facing=east":  { "model": "powerrangerscraft:block/gosei", "y": 90}
+  }
+}

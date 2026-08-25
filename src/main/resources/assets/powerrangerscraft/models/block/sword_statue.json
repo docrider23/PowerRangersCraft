@@ -193,35 +193,43 @@
 		"fixed": {
 			"translation": [0, -4, 0],
 			"scale": [0.5, 0.5, 0.5]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0]
 		}
 	},
 	"groups": [
 		{
 			"name": "Waist",
 			"origin": [8, 12, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "Head",
 					"origin": [8, 24, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [0]
 				},
 				{
 					"name": "Body",
 					"origin": [8, 24, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [1, 2]
 				},
 				{
 					"name": "Right Arm",
 					"origin": [13, 22, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [3, 4]
 				},
 				{
 					"name": "Left Arm",
 					"origin": [3, 22, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [5, 6]
 				}
@@ -230,12 +238,14 @@
 		{
 			"name": "Right Leg",
 			"origin": [9.9, 12, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [7, 8]
 		},
 		{
 			"name": "Left Leg",
 			"origin": [6.1, 12, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [9, 10]
 		}

@@ -6,6 +6,7 @@ import com.docrider.powerrangerscraft.blocks.machineBlocks.*;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.RangerTabs;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -97,6 +98,12 @@ public class RangerBlocks {
             () -> new LightZordBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .strength(5.0F, 6.0F).dynamicShape().lightLevel((p_152632_) -> {
                         return 15;}),Block.box(4, 0, 4, 12,16, 12)).AddToTabList(RangerTabs.BLOCKS));
+
+    public static final DeferredBlock<Block> GOSEI = registerBlock("gosei",
+            () -> new Gosei(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).sound(new SoundType(1.0F, 0.1F, SoundEvents.VILLAGER_DEATH, SoundEvents.VILLAGER_AMBIENT, SoundEvents.VILLAGER_CELEBRATE, SoundEvents.VILLAGER_HURT, SoundEvents.VILLAGER_DEATH))
+                    .strength(5.0F, 6.0F).dynamicShape().lightLevel((p_152632_) -> {
+                        return 10;
+                    }),Block.box(-2,-4,6,18,30,12)).AddToTabList(RangerTabs.BLOCKS));
 
     public static final DeferredBlock<Block> UNREFINED_MORPH_X = registerBlock("unrefined_morph_x",
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)

@@ -1,7 +1,9 @@
 package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.blocks.machineBlocks.Gosei;
 import com.docrider.powerrangerscraft.items.megaforce.GoseiMorpherItem;
+import com.docrider.powerrangerscraft.items.megaforce.PowerCardItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -84,6 +86,44 @@ public class MegaforceItems {
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
                     .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+
+    public static final DeferredItem<Item> DRAGON_SWORD_CARD = ITEMS.register("dragon_sword_card",
+            () -> new PowerCardItem(new Item.Properties(),"megaforce_red","dragon_sword").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.RED_CARD,10));
+    public static final DeferredItem<Item> PHOENIX_SHOT_CARD = ITEMS.register("phoenix_shot_card",
+            () -> new PowerCardItem(new Item.Properties(),"megaforce_pink","phoenix_shot").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.PINK_CARD,10));
+    public static final DeferredItem<Item> SNAKE_AXE_CARD = ITEMS.register("snake_axe_card",
+            () -> new PowerCardItem(new Item.Properties(),"megaforce_black","snake_axe").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.BLACK_CARD,10));
+    public static final DeferredItem<Item> TIGER_CLAW_CARD = ITEMS.register("tiger_claw_card",
+            () -> new PowerCardItem(new Item.Properties(),"megaforce_yellow","tiger_claw").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.YELLOW_CARD,10));
+    public static final DeferredItem<Item> SHARK_BOWGUN_CARD = ITEMS.register("shark_bowgun_card",
+            () -> new PowerCardItem(new Item.Properties(),"megaforce_blue","shark_bowgun").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.BLUE_CARD,10));
+
+    public static final DeferredItem<Item> DRAGON_HEADDER_CARD = ITEMS.register("dragon_headder_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.RED_CARD,10));
+    public static final DeferredItem<Item> PHOENIX_HEADDER_CARD = ITEMS.register("phoenix_headder_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.PINK_CARD,10));
+    public static final DeferredItem<Item> SNAKE_HEADDER_CARD = ITEMS.register("snake_headder_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.BLACK_CARD,10));
+    public static final DeferredItem<Item> TIGER_HEADDER_CARD = ITEMS.register("tiger_headder_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.YELLOW_CARD,10));
+    public static final DeferredItem<Item> SHARK_HEADDER_CARD = ITEMS.register("shark_headder_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.BLUE_CARD,10));
+    public static final DeferredItem<Item> VULCAN_HEADDER_CARD = ITEMS.register("vulcan_headder_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.KNIGHT_CARD,10));
+
+    public static final DeferredItem<Item> SKY_BROTHERS_CARD = ITEMS.register("sky_brothers_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.RED_CARD,5).AddToList(Gosei.PINK_CARD,5));
+    public static final DeferredItem<Item> LAND_BROTHERS_CARD = ITEMS.register("land_brothers_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.BLACK_CARD,5).AddToList(Gosei.YELLOW_CARD,5));
+    public static final DeferredItem<Item> SEA_BROTHERS_CARD = ITEMS.register("sea_brothers_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.BLUE_CARD,5));
+    public static final DeferredItem<Item> ULTRA_CHANGE_ZORD_CARD = ITEMS.register("ultra_change_zord_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.RED_CARD,5).AddToList(Gosei.PINK_CARD,5).AddToList(Gosei.YELLOW_CARD,5).AddToList(Gosei.BLACK_CARD,5).AddToList(Gosei.BLUE_CARD,5));
+
+    public static final DeferredItem<Item> GOSEI_JET_CARD = ITEMS.register("gosei_jet_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE));
+    public static final DeferredItem<Item> GOSEI_ULTIMATE_COMMAND_SHIP_CARD = ITEMS.register("gosei_ultimate_command_ship_card",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE));
 
     public static final DeferredItem<Item> MEGAFORCE_HELMET = ITEMS.register("megaforce_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
