@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "megaforce_yellow",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:mega_blaster"
+    },
+    {
+      "item": "powerrangerscraft:tiger_headder_card"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:mega_blaster_tiger"
+  }
+}

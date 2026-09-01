@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ultra_mode",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:gosei_ultimate_command_ship_card"
+    },
+    {
+      "item": "powerrangerscraft:snake_headder_card"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:black_ultra_power_card"
+  }
+}

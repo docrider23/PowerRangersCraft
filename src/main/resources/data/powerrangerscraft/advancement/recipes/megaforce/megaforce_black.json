@@ -2,7 +2,8 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:megaforce/black_gosei_morpher"
+      "powerrangerscraft:megaforce/black_gosei_morpher",
+      "powerrangerscraft:megaforce/mega_blaster_snake"
     ]
   },
   "criteria": {

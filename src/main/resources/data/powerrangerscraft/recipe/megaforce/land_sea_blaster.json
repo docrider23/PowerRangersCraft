@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "megaforce",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:snake_axe"
+    },
+    {
+      "item": "powerrangerscraft:tiger_claw"
+    },
+    {
+      "item": "powerrangerscraft:shark_bowgun"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:land_sea_blaster"
+  }
+}

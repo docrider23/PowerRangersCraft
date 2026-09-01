@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#powerrangerscraft:cold",
+  "spawners": {
+    "type": "powerrangerscraft:loogie",
+    "weight": 15,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ultra_mode",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:blank_power_card"
+    },
+    "b": [
+      {
+        "item": "powerrangerscraft:red_ultra_power_card"
+      },
+      {
+        "item": "powerrangerscraft:pink_ultra_power_card"
+      },
+      {
+        "item": "powerrangerscraft:black_ultra_power_card"
+      },
+      {
+        "item": "powerrangerscraft:yellow_ultra_power_card"
+      },
+      {
+        "item": "powerrangerscraft:blue_ultra_power_card"
+      }
+    ],
+    "c": {
+      "item": "powerrangerscraft:base_sword"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:ultra_sword"
+  }
+}

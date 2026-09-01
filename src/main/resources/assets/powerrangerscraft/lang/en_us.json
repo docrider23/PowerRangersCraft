@@ -100,8 +100,8 @@
   "item.powerrangerscraft.mooger_spawn_egg": "Mooger Spawn Egg",
 
   "entity.powerrangerscraft.loogie": "Loogie",
-  "item.powerrangerscraft.loogie_spawn_egg": "Loogie Spawn Egg",
   "entity.powerrangerscraft.dark_robo_knight": "Reprogrammed Robo Knight",
+  "item.powerrangerscraft.loogie_spawn_egg": "Loogie Spawn Egg",
   "item.powerrangerscraft.dark_robo_knight_spawn_egg": "Reprogrammed Robo Knight Spawn Egg",
 
   "entity.powerrangerscraft.dino_cycle": "Dino Cycle",
@@ -1067,6 +1067,7 @@
   "item.powerrangerscraft.dynamic_robo_blaster": "Robo Blaster w/ Vulcan Cannon",
 
   "item.powerrangerscraft.ultra_sword": "Ultra Sword",
+  "item.powerrangerscraft.gosei_ultra_sword": "Gosei Ultra Sword",
 
   "item.powerrangerscraft.megaforce_blaster": "Megaforce Blaster",
   "item.powerrangerscraft.land_sea_blaster": "Land-sea Blaster",

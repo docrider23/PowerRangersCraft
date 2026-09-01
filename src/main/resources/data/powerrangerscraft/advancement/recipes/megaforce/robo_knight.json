@@ -2,7 +2,8 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:megaforce/robo_morpher"
+      "powerrangerscraft:megaforce/robo_morpher",
+      "powerrangerscraft:megaforce/robo_blade"
     ]
   },
   "criteria": {

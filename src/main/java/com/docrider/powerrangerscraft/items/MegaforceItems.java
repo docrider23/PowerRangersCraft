@@ -197,6 +197,8 @@ public class MegaforceItems {
 
     public static final DeferredItem<SwordItem> ULTRA_SWORD = ITEMS.register("ultra_sword",
             () -> new BaseDualSwordItem(Tiers.DIAMOND, 16, -2.4F, new Item.Properties().rarity(Rarity.EPIC)).IsDualWeapon().AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
+    public static final DeferredItem<SwordItem> GOSEI_ULTRA_SWORD = ITEMS.register("gosei_ultra_sword",
+            () -> new BaseDualSwordItem(Tiers.DIAMOND, 16, -2.4F, new Item.Properties().rarity(Rarity.EPIC)).IsDualWeapon().AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

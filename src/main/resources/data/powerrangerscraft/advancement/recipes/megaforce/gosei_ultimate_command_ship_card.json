@@ -1,0 +1,69 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:megaforce/gosei_ultimate_command_ship_card"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:sky_brothers_card"
+          }
+        ]
+      }
+    },
+    "has_item1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:land_brothers_card"
+          }
+        ]
+      }
+    },
+    "has_item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:sea_brothers_card"
+          }
+        ]
+      }
+    },
+    "has_item3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:ultra_change_zord_card"
+          }
+        ]
+      }
+    },
+    "has_item4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:vulcan_headder_card"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item",
+      "has_item1",
+      "has_item2",
+      "has_item3",
+      "has_item4"
+    ]
+  ]
+}

@@ -1,5 +1,12 @@
 {
   "values": [
-    "powerrangerscraft:red_gosei_morpher"
+    "powerrangerscraft:red_gosei_morpher",
+    "powerrangerscraft:pink_gosei_morpher",
+    "powerrangerscraft:black_gosei_morpher",
+    "powerrangerscraft:yellow_gosei_morpher",
+    "powerrangerscraft:blue_gosei_morpher",
+    "powerrangerscraft:robo_morpher",
+    "powerrangerscraft:robo_morpher_dark",
+    "powerrangerscraft:green_gosei_morpher"
   ]
 }

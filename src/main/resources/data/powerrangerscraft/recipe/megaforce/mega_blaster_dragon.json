@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "megaforce_red",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:mega_blaster"
+    },
+    {
+      "item": "powerrangerscraft:dragon_headder_card"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:mega_blaster_dragon"
+  }
+}

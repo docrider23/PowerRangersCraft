@@ -2,8 +2,7 @@
   "parent": "powerrangerscraft:recipes/root",
   "rewards": {
     "recipes": [
-      "powerrangerscraft:megaforce/blue_gosei_morpher",
-      "powerrangerscraft:megaforce/mega_blaster_shark"
+      "powerrangerscraft:megaforce/dynamic_robo_blaster"
     ]
   },
   "criteria": {
@@ -12,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "powerrangerscraft:blue_change_power_card"
+            "items": "powerrangerscraft:vulcan_headder_card"
           }
         ]
       }

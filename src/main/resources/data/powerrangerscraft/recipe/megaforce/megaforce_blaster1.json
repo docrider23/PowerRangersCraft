@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "megaforce",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:sky_blaster"
+    },
+    {
+      "item": "powerrangerscraft:land_sea_blaster"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:megaforce_blaster"
+  }
+}

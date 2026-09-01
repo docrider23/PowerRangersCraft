@@ -1,0 +1,29 @@
+{
+  "parent": "powerrangerscraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:megaforce/red_ultra_power_card",
+      "powerrangerscraft:megaforce/pink_ultra_power_card",
+      "powerrangerscraft:megaforce/black_ultra_power_card",
+      "powerrangerscraft:megaforce/yellow_ultra_power_card",
+      "powerrangerscraft:megaforce/blue_ultra_power_card"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:gosei_ultimate_command_ship_card"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

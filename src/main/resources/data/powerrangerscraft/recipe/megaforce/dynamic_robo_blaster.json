@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "robo_knight",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:robo_blade"
+    },
+    {
+      "item": "powerrangerscraft:vulcan_headder_card"
+    },
+    {
+      "item": "powerrangerscraft:robo_morpher"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:dynamic_robo_blaster"
+  }
+}

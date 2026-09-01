@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ultra_mode",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:sky_brothers_card"
+    },
+    {
+      "item": "powerrangerscraft:land_brothers_card"
+    },
+    {
+      "item": "powerrangerscraft:sea_brothers_card"
+    },
+    {
+      "item": "powerrangerscraft:ultra_change_zord_card"
+    },
+    {
+      "item": "powerrangerscraft:vulcan_headder_card"
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:gosei_ultimate_command_ship_card"
+  }
+}

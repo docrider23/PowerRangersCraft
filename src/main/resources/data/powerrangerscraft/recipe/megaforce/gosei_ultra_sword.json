@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ultra_mode",
+  "ingredients": [
+    {
+      "item": "powerrangerscraft:ultra_sword"
+    },
+    [
+      {
+        "item": "powerrangerscraft:red_gosei_morpher"
+      },
+      {
+        "item": "powerrangerscraft:pink_gosei_morpher"
+      },
+      {
+        "item": "powerrangerscraft:black_gosei_morpher"
+      },
+      {
+        "item": "powerrangerscraft:yellow_gosei_morpher"
+      },
+      {
+        "item": "powerrangerscraft:blue_gosei_morpher"
+      }
+    ]
+  ],
+  "result": {
+    "id": "powerrangerscraft:gosei_ultra_sword"
+  }
+}

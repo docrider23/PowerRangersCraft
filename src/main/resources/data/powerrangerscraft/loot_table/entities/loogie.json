@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:red_change_power_card",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:pink_change_power_card",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:black_change_power_card",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:yellow_change_power_card",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:blue_change_power_card",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:ultra_change_zord_card"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:blank_power_card",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powerrangerscraft:blank_power_card"
+        }
+      ]
+    }
+  ]
+}

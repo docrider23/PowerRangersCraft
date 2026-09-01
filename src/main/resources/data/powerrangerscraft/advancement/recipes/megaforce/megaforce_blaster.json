@@ -1,0 +1,71 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:megaforce/sky_blaster",
+      "powerrangerscraft:megaforce/land_sea_blaster",
+      "powerrangerscraft:megaforce/megaforce_blaster"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:dragon_sword"
+          }
+        ]
+      }
+    },
+    "has_item1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:phoenix_shot"
+          }
+        ]
+      }
+    },
+    "has_item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:snake_axe"
+          }
+        ]
+      }
+    },
+    "has_item3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:tiger_claw"
+          }
+        ]
+      }
+    },
+    "has_item4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:shark_bowgun"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item",
+      "has_item1",
+      "has_item2",
+      "has_item3",
+      "has_item4"
+    ]
+  ]
+}

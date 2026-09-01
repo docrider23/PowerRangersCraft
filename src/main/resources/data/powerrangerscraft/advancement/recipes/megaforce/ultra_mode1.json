@@ -1,0 +1,70 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "powerrangerscraft:megaforce/ultra_sword",
+      "powerrangerscraft:megaforce/gosei_ultra_sword"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:red_ultra_power_card"
+          }
+        ]
+      }
+    },
+    "has_item1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:pink_ultra_power_card"
+          }
+        ]
+      }
+    },
+    "has_item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:black_ultra_power_card"
+          }
+        ]
+      }
+    },
+    "has_item3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:yellow_ultra_power_card"
+          }
+        ]
+      }
+    },
+    "has_item4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "powerrangerscraft:blue_ultra_power_card"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item",
+      "has_item1",
+      "has_item2",
+      "has_item3",
+      "has_item4"
+    ]
+  ]
+}
