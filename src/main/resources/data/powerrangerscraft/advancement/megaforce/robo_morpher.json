@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "powerrangerscraft:robo_morpher"
+    },
+    "title": {
+      "translate": "advancements.powerrangerscraft.robo_morpher.title"
+    },
+    "description": {
+      "translate": "advancements.powerrangerscraft.robo_morpher.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "powerrangerscraft:megaforce/gosei_morpher",
+  "criteria": {
+    "ranger1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powerrangerscraft:robo_morpher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ranger1"
+    ]
+  ]
+}
