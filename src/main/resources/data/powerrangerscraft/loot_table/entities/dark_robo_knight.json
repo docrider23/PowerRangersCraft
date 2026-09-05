@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "supersentaicraft:blank_power_card",
+          "name": "powerrangerscraft:blank_power_card",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -21,7 +21,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "supersentaicraft:robo_morpher_dark"
+          "name": "powerrangerscraft:robo_morpher_dark"
         },
         {
           "type": "minecraft:empty",
@@ -34,7 +34,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "supersentaicraft:robo_knight_change_power_card"
+          "name": "powerrangerscraft:robo_knight_change_power_card"
         }
       ]
     }

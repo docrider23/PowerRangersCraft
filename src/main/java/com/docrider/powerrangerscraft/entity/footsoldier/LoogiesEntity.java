@@ -14,7 +14,7 @@ public class LoogiesEntity extends BaseFootsoldierEntity {
 
     public LoogiesEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="beebe";
+        NAME="loogie";
         this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(MobsItems.LOOGIE_KNIFE.get()));
     }
 

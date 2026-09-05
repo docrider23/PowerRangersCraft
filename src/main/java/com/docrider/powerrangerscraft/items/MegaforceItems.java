@@ -25,27 +25,27 @@ public class MegaforceItems {
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","megaforce_red","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-            .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+            .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.MAIN_CARD,25));
     public static final DeferredItem<Item> PINK_CHANGE_POWER_CARD = ITEMS.register("pink_change_power_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","megaforce_pink","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+            .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.MAIN_CARD,25));
     public static final DeferredItem<Item> BLACK_CHANGE_POWER_CARD = ITEMS.register("black_change_power_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","megaforce_black","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+            .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.MAIN_CARD,25));
     public static final DeferredItem<Item> YELLOW_CHANGE_POWER_CARD = ITEMS.register("yellow_change_power_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","megaforce_yellow","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+            .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.MAIN_CARD,25));
     public static final DeferredItem<Item> BLUE_CHANGE_POWER_CARD = ITEMS.register("blue_change_power_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","megaforce_blue","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+            .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.MAIN_CARD,25));
     public static final DeferredItem<Item> ROBO_KNIGHT_CHANGE_POWER_CARD_DARK = ITEMS.register("robo_knight_change_power_card_dark",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_dark","robo_knight","robo_knight_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
@@ -59,7 +59,7 @@ public class MegaforceItems {
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","megaforce_green","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+            .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.MAIN_CARD,15));
 
     public static final DeferredItem<Item> RED_ULTRA_POWER_CARD = ITEMS.register("red_ultra_power_card",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"_ultra","megaforce_red","megaforce_belt",
@@ -121,7 +121,7 @@ public class MegaforceItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.RED_CARD,5).AddToList(Gosei.PINK_CARD,5).AddToList(Gosei.YELLOW_CARD,5).AddToList(Gosei.BLACK_CARD,5).AddToList(Gosei.BLUE_CARD,5));
 
     public static final DeferredItem<Item> GOSEI_JET_CARD = ITEMS.register("gosei_jet_card",
-            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE));
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.RED_CARD,5).AddToList(Gosei.PINK_CARD,5).AddToList(Gosei.YELLOW_CARD,5).AddToList(Gosei.BLACK_CARD,5).AddToList(Gosei.BLUE_CARD,5));
     public static final DeferredItem<Item> GOSEI_ULTIMATE_COMMAND_SHIP_CARD = ITEMS.register("gosei_ultimate_command_ship_card",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE));
 
@@ -151,7 +151,7 @@ public class MegaforceItems {
     public static final DeferredItem<Item> ROBO_MORPHER = ITEMS.register("robo_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"robo_knight",ROBO_KNIGHT_CHANGE_POWER_CARD,MEGAFORCE_HELMET,MEGAFORCE_CHESTPLATE,MEGAFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
     public static final DeferredItem<Item> ROBO_MORPHER_DARK = ITEMS.register("robo_morpher_dark",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"robo_knight_dark",ROBO_KNIGHT_CHANGE_POWER_CARD,MEGAFORCE_HELMET,MEGAFORCE_CHESTPLATE,MEGAFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"robo_knight_dark",ROBO_KNIGHT_CHANGE_POWER_CARD_DARK,MEGAFORCE_HELMET,MEGAFORCE_CHESTPLATE,MEGAFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
 
     public static final DeferredItem<Item> GREEN_GOSEI_MORPHER = ITEMS.register("green_gosei_morpher",
             () -> new GoseiMorpherItem(ArmorMaterials.DIAMOND,"megaforce_green",GREEN_CHANGE_POWER_CARD,MEGAFORCE_HELMET,MEGAFORCE_CHESTPLATE,MEGAFORCE_LEGGINGS,new Item.Properties())

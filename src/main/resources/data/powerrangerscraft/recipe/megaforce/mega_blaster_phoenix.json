@@ -3,13 +3,13 @@
   "group": "megaforce_pink",
   "ingredients": [
     {
-      "item": "supersentaicraft:mega_blaster"
+      "item": "powerrangerscraft:mega_blaster"
     },
     {
-      "item": "supersentaicraft:phoenix_headder_card"
+      "item": "powerrangerscraft:phoenix_headder_card"
     }
   ],
   "result": {
-    "id": "supersentaicraft:mega_blaster_phoenix"
+    "id": "powerrangerscraft:mega_blaster_phoenix"
   }
 }
