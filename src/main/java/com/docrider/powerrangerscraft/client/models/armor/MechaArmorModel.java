@@ -1,4 +1,4 @@
-package com.docrider.powerrangerscraft.items.client;
+package com.docrider.powerrangerscraft.client.models.armor;
 
 import com.docrider.powerrangerscraft.items.others.MechaArmorItem;
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;

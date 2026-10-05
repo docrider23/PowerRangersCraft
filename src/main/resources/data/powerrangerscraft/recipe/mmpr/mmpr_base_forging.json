@@ -1,0 +1,57 @@
+{
+  "type": "powerrangerscraft:power_coin_forge",
+  "primary_input": {
+    "item": "powerrangerscraft:grid_infused_gold_ingot"
+  },
+  "outputs": [
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:tyrannosaurus_power_coin"
+      },
+      "weight": 15
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:mastodon_power_coin"
+      },
+      "weight": 15
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:triceratops_power_coin"
+      },
+      "weight": 15
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:sabertooth_tiger_power_coin"
+      },
+      "weight": 15
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:pteradactyl_power_coin"
+      },
+      "weight": 15
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:baconadon_power_coin"
+      },
+      "weight": 5
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:featherdactyl_power_coin"
+      },
+      "weight": 5
+    }
+  ]
+}

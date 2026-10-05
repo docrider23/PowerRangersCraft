@@ -1,0 +1,25 @@
+{
+  "type": "powerrangerscraft:power_coin_forge",
+  "primary_input": {
+    "item": "powerrangerscraft:grid_infused_gold_ingot"
+  },
+  "optional_input": {
+    "item": "powerrangerscraft:game_controller_16_bit"
+  },
+  "outputs": [
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:crimson_hawk_power_coin"
+      },
+      "weight": 50
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:blazing_phoenix_power_coin"
+      },
+      "weight": 50
+    }
+  ]
+}

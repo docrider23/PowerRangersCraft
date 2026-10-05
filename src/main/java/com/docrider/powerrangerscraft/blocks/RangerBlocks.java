@@ -50,8 +50,8 @@ public class RangerBlocks {
             () -> new BaseBlockDropExperience(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops().strength(4.5F, 3.0F).sound(SoundType.NETHERRACK), UniformInt.of(2, 6)).AddToTabList(RangerTabs.BLOCKS));
 
-    //public static final DeferredBlock<Block> POWER_COIN_FORGE = registerBlock("power_coin_forge",
-    //        () -> new BaseBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).lightLevel((glow) -> 0).strength(2f).dynamicShape()).AddToTabList(RangerTabs.BLOCKS));
+    public static final DeferredBlock<Block> POWER_COIN_FORGE = registerBlock("power_coin_forge",
+            () -> new PowerCoinForge(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).lightLevel((glow) -> 0).strength(2f).noOcclusion().dynamicShape()).AddToTabList(RangerTabs.BLOCKS));
 
     public static final DeferredBlock<Block> SERPENTERA_SCALE_GREEN = registerBlock("serpentera_scale_green",
             () -> new BaseBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN).strength(5.0F,6.0F)).AddToTabList(RangerTabs.BLOCKS));

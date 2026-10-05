@@ -1,9 +1,8 @@
 package com.docrider.powerrangerscraft.items.others;
 
 import com.docrider.powerrangerscraft.effect.EffectCore;
-import com.docrider.powerrangerscraft.items.MMPRItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
-import com.docrider.powerrangerscraft.items.client.RangerArmorRenderer;
+import com.docrider.powerrangerscraft.client.renderer.armor.RangerArmorRenderer;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.core.Holder;

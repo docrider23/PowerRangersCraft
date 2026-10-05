@@ -22,6 +22,10 @@ public class ModBlockEntities {
             BLOCK_ENTITIES.register("grid_energy_infuser_be", () -> BlockEntityType.Builder.of(
                     GridEnergyInfuserBlockEntity::new, RangerBlocks.GRID_ENERGY_INFUSER.get()).build(null));
 
+    public static final Supplier<BlockEntityType<PowerCoinForgeBlockEntity>> POWER_COIN_FORGE_BE =
+            BLOCK_ENTITIES.register("power_coin_forge_be", () -> BlockEntityType.Builder.of(
+                    PowerCoinForgeBlockEntity::new, RangerBlocks.POWER_COIN_FORGE.get()).build(null));
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }

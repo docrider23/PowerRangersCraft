@@ -1,6 +1,8 @@
-package com.docrider.powerrangerscraft.items.client;
+package com.docrider.powerrangerscraft.client.renderer.armor;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.client.models.armor.MechaArmorModel;
+import com.docrider.powerrangerscraft.client.renderer.armor.render_layer.MechaRenderLayer;
 import com.docrider.powerrangerscraft.items.others.MechaArmorItem;
 import com.docrider.powerrangerscraft.items.others.MechaGattaiItem;
 import net.minecraft.resources.ResourceLocation;

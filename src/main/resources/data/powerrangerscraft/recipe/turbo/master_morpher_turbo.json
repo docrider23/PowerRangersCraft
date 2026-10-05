@@ -1,0 +1,18 @@
+{
+  "type": "powerrangerscraft:power_coin_forge",
+  "primary_input": {
+    "item": "powerrangerscraft:grid_infused_gold_ingot"
+  },
+  "optional_input": {
+    "item": "powerrangerscraft:red_turbo_key"
+  },
+  "outputs": [
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:turbo_power_coin"
+      },
+      "weight": 100
+    }
+  ]
+}

@@ -1,11 +1,11 @@
-package com.docrider.powerrangerscraft.items.client;
+package com.docrider.powerrangerscraft.client.renderer.armor;
 
-import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.client.models.armor.RangerArmorModel;
+import com.docrider.powerrangerscraft.client.renderer.armor.render_layer.RangerRenderLayer;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;

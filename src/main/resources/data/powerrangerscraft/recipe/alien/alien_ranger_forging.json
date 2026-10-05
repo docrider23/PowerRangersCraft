@@ -1,0 +1,46 @@
+{
+  "type": "powerrangerscraft:power_coin_forge",
+  "primary_input": {
+    "item": "powerrangerscraft:grid_infused_gold_ingot"
+  },
+  "optional_input": {
+    "item": "powerrangerscraft:aquitian_energy"
+  },
+  "outputs": [
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:red_alien_power_coin"
+      },
+      "weight": 20
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:white_alien_power_coin"
+      },
+      "weight": 20
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:blue_alien_power_coin"
+      },
+      "weight": 20
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:black_alien_power_coin"
+      },
+      "weight": 20
+    },
+    {
+      "result": {
+        "count": 1,
+        "id": "powerrangerscraft:yellow_alien_power_coin"
+      },
+      "weight": 20
+    }
+  ]
+}

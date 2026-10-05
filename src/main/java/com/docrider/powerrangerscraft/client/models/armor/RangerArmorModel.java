@@ -1,6 +1,7 @@
-package com.docrider.powerrangerscraft.items.client;
+package com.docrider.powerrangerscraft.client.models.armor;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.client.renderer.armor.RangerArmorRenderer;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import net.minecraft.resources.ResourceLocation;

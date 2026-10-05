@@ -1,8 +1,7 @@
 package com.docrider.powerrangerscraft.items.others;
 
-import com.docrider.powerrangerscraft.items.MMPRItems;
 import com.docrider.powerrangerscraft.items.OtherItems;
-import com.docrider.powerrangerscraft.items.client.MechaArmorRenderer;
+import com.docrider.powerrangerscraft.client.renderer.armor.MechaArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.core.Holder;
 import net.minecraft.world.entity.Entity;

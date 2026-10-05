@@ -22,7 +22,7 @@ public class GridEnergyInfuserGuiMenu extends AbstractContainerMenu {
     }
 
     public GridEnergyInfuserGuiMenu(int pContainerId, Inventory inv, BlockEntity entity, ContainerData data) {
-        super(ModMenus.GRID_ENERGY_INFUSED_GUI.get(), pContainerId);
+        super(ModMenus.GRID_ENERGY_INFUSER_GUI.get(), pContainerId);
         this.blockEntity = ((GridEnergyInfuserBlockEntity) entity);
         this.level = inv.player.level();
         this.data = data;

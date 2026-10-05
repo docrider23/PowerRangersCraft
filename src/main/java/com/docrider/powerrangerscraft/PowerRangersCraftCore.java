@@ -1,14 +1,13 @@
 package com.docrider.powerrangerscraft;
 
 import com.docrider.powerrangerscraft.blocks.entity.ModBlockEntities;
-import com.docrider.powerrangerscraft.blocks.entity.SwordStatueBlockEntity;
 import com.docrider.powerrangerscraft.blocks.entity.renderer.SwordStatueBlockEntityRenderer;
 import com.docrider.powerrangerscraft.client.KeyBindings;
 import com.docrider.powerrangerscraft.client.gui.GridEnergyInfuserGuiScreen;
+import com.docrider.powerrangerscraft.client.gui.PowerCoinForgeGuiScreen;
 import com.docrider.powerrangerscraft.client.renderer.*;
 import com.docrider.powerrangerscraft.entity.footsoldier.BaseFootsoldierEntity;
 import com.docrider.powerrangerscraft.entity.villagers.RangerVillagers;
-import com.docrider.powerrangerscraft.events.ModClientEvents;
 import com.docrider.powerrangerscraft.blocks.RangerBlocks;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.entity.MobsCore;
@@ -16,31 +15,25 @@ import com.docrider.powerrangerscraft.events.ModCommonEvents;
 import com.docrider.powerrangerscraft.events.ModServerEvents;
 //import com.docrider.powerrangerscraft.fluid.RangerFluids;
 import com.docrider.powerrangerscraft.init.ModMenus;
-import com.docrider.powerrangerscraft.items.others.BaseDualSwordItem;
 import com.docrider.powerrangerscraft.items.others.MechaGattaiItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
+import com.docrider.powerrangerscraft.level.AddStructuresToPools;
 import com.docrider.powerrangerscraft.level.ModGameRules;
 import com.docrider.powerrangerscraft.network.ServerPayloadHandler;
 import com.docrider.powerrangerscraft.network.payload.AbilityKeyPayload;
 import com.docrider.powerrangerscraft.particle.*;
+import com.docrider.powerrangerscraft.recipe.ModRecipes;
 import com.docrider.powerrangerscraft.sounds.ModSounds;
 import com.docrider.powerrangerscraft.items.*;
-import com.docrider.powerrangerscraft.items.dino_fury.DinoFuryMorpherItem;
-import com.docrider.powerrangerscraft.items.dino_fury.MosaBlasterItem;
-import com.docrider.powerrangerscraft.items.lost_galaxy.TransmorpherItem;
-import com.docrider.powerrangerscraft.items.others.BaseBlasterItem;
 import com.docrider.powerrangerscraft.loot.ModLootModifiers;
 import com.docrider.powerrangerscraft.util.RegisterItemProperties;
+import com.docrider.powerrangerscraft.world.attribute.PRCAttributes;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.model.PlayerModel;
-import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.core.component.DataComponents;
-import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -142,6 +135,9 @@ public class PowerRangersCraftCore {
         ModGameRules.register(modEventBus);
         ModBlockEntities.register(modEventBus);
         ModMenus.register(modEventBus);
+        ModRecipes.register(modEventBus);
+
+        PRCAttributes.REGISTRY.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -164,8 +160,9 @@ public class PowerRangersCraftCore {
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
+    public void onServerStarting(ServerStartingEvent event) throws NoSuchFieldException
     {
+        AddStructuresToPools.addModStructures(event.getServer());
         NeoForge.EVENT_BUS.register(new ModServerEvents.ServerEvents());
     }
 
@@ -193,16 +190,16 @@ public class PowerRangersCraftCore {
                         model.rightArm.visible = false;
                         model.body.visible = false;
                     }
-                } else if (event.getEntity() instanceof BaseFootsoldierEntity) model.setAllVisible(true);
+                }
+                else {
+                    model.setAllVisible(true);
+                }
+            } else if (!event.getEntity().getItemBySlot(EquipmentSlot.FEET).toString().contains("supersentaicraft")&&
+                    !event.getEntity().getItemBySlot(EquipmentSlot.FEET).toString().contains("kamenridercraft")&&
+                    !event.getEntity().getItemBySlot(EquipmentSlot.FEET).toString().contains("ultracraft")&&
+                    !event.getEntity().getItemBySlot(EquipmentSlot.FEET).toString().contains("tmntcraft")) {
+                model.setAllVisible(true);
             }
-            else if (event.getEntity().getItemBySlot(EquipmentSlot.HEAD).getItem() instanceof MechaGattaiItem
-                    && event.getEntity().getItemBySlot(EquipmentSlot.HEAD).has(DataComponents.CUSTOM_DATA)) {
-                double tag = event.getEntity().getItemBySlot(EquipmentSlot.HEAD).get(DataComponents.CUSTOM_DATA).copyTag().getDouble("render_type2");
-                if (tag != 0) {
-                    model.setAllVisible(false);
-                } else if (event.getEntity() instanceof BaseFootsoldierEntity) model.setAllVisible(true);
-            } else if (event.getEntity() instanceof BaseFootsoldierEntity) model.setAllVisible(true);
-            else if (event.getEntity() instanceof BaseFootsoldierEntity) model.setAllVisible(true);
         }
 
         float size = 1;
@@ -231,7 +228,7 @@ public class PowerRangersCraftCore {
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    @EventBusSubscriber(modid = MODID, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
@@ -245,7 +242,8 @@ public class PowerRangersCraftCore {
 
         @SubscribeEvent
         public static void registerScreens(RegisterMenuScreensEvent event) {
-            event.register(ModMenus.GRID_ENERGY_INFUSED_GUI.get(), GridEnergyInfuserGuiScreen::new);
+            event.register(ModMenus.GRID_ENERGY_INFUSER_GUI.get(), GridEnergyInfuserGuiScreen::new);
+            event.register(ModMenus.POWER_COIN_FORGE_GUI.get(), PowerCoinForgeGuiScreen::new);
         }
 
         @SubscribeEvent
@@ -361,7 +359,7 @@ public class PowerRangersCraftCore {
             event.register(KeyBindings.INSTANCE.AbilityKey);
         }
 
-        @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD)
+        @EventBusSubscriber(modid = MODID)
         public static class CommonModEvents {
             @SubscribeEvent
             public static void register(final RegisterPayloadHandlersEvent event) {

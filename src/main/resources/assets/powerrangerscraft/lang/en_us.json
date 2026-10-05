@@ -151,6 +151,7 @@
   "item.powerrangerscraft.grid_infused_gold_nugget": "Grid-Infused Gold Nugget",
   "item.powerrangerscraft.grid_infused_gold_ingot": "Grid-Infused Gold Ingot",
   "block.powerrangerscraft.grid_infused_gold_block": "Grid-Infused Gold Block",
+  "block.powerrangerscraft.power_coin_forge": "Power Coin Forge",
 
   //00 Mobs Weapon
   "item.powerrangerscraft.goldar_sword": "Goldar's Sword",
@@ -198,6 +199,8 @@
   "item.powerrangerscraft.white_power_morpher": "Power Morpher",
   "item.powerrangerscraft.ninjor_morpher": "Ninjor Urn",
   "item.powerrangerscraft.santa_power_morpher": "Power Morpher",
+  "item.powerrangerscraft.purple_power_morpher": "Power Morpher",
+  "item.powerrangerscraft.orange_power_morpher": "Power Morpher",
   "item.powerrangerscraft.master_morpher": "Master Morpher",
 
   "item.powerrangerscraft.tyrannosaurus_power_coin": "Tyrannosaurus Power Coin",
@@ -209,6 +212,8 @@
   "item.powerrangerscraft.white_tiger_power_coin": "White Tiger Power Coin",
   "item.powerrangerscraft.ninjor_coin": "Ninjor Coin",
   "item.powerrangerscraft.reindeer_power_coin": "Reindeer Power Coin",
+  "item.powerrangerscraft.baconadon_power_coin": "Baconadon Power Coin",
+  "item.powerrangerscraft.featherdactyl_power_coin": "Featherdactyl Power Coin",
 
   "item.powerrangerscraft.metallic_armor_power_coin": "Metallic Power Coin",
 
@@ -225,6 +230,8 @@
   "powerrangerscraft:white_tiger_power_coin.form": "Ranger: White Ranger",
   "powerrangerscraft:ninjor_coin.form": "Ally: §1Ninjor",
   "powerrangerscraft:reindeer_power_coin.form": "Ally: §cSanta §aRanger",
+  "powerrangerscraft:baconadon_power_coin.form": "Debatable Ranger: §dPurple Ranger",
+  "powerrangerscraft:featherdactyl_power_coin.form": "Debatable Ranger: §6Orange Ranger",
 
   "powerrangerscraft:dragon_power_coin_shield.form": "w/ §6Dragon Shield",
   "powerrangerscraft:ninjor_coin_battle_mode.form": "Ally: §1Ninjor §cBattle Mode",
@@ -1668,13 +1675,6 @@
 
   "item.powerrangerscraft.spectracite_shard": "Spectracite Shard",
   "block.powerrangerscraft.end_spectracite_ore": "End Spectracite Ore",
-
-  "item.powerrangerscraft.red_spectracite_shard": "Red Spectracite Shard",
-  "item.powerrangerscraft.blue_spectracite_shard": "Blue Spectracite Shard",
-  "item.powerrangerscraft.black_spectracite_shard": "Black Spectracite Shard",
-  "item.powerrangerscraft.yellow_spectracite_shard": "Yellow Spectracite Shard",
-  "item.powerrangerscraft.pink_spectracite_shard": "Pink Spectracite Shard",
-  "item.powerrangerscraft.green_spectracite_shard": "Green Spectracite Shard",
 
   "item.powerrangerscraft.ranger_academy_red_morpher": "Ranger Academy Morpher",
   "item.powerrangerscraft.ranger_academy_black_morpher": "Ranger Academy Morpher",

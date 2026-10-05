@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "powerrangerscraft:block/power_coin_forge"
+    },
+    "facing=east": {
+      "model": "powerrangerscraft:block/power_coin_forge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "powerrangerscraft:block/power_coin_forge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "powerrangerscraft:block/power_coin_forge",
+      "y": 270
+    }
+  }
+}
