@@ -24,17 +24,17 @@ public class LightspeedRescueItems {
     public static final DeferredItem<Item> LIGHTSPEED_RED_BADGE = ITEMS.register("lightspeed_red_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_red","lightspeed_red_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ResetFormToBase().ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_BLUE_BADGE = ITEMS.register("lightspeed_blue_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_blue","lightspeed_blue_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ResetFormToBase().ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_GREEN_BADGE = ITEMS.register("lightspeed_green_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_green","lightspeed_green_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
-                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false)).ResetFormToBase().ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_YELLOW_BADGE = ITEMS.register("lightspeed_yellow_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","lightspeed_yellow","lightspeed_yellow_belt",

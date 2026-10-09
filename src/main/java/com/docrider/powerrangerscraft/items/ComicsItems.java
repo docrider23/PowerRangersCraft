@@ -40,18 +40,18 @@ public class ComicsItems {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }}
-                    .ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.COMICS));
+                    .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.COMICS));
 
     public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_PINK = ITEMS.register("mmpr_2026_comic_mmpr_pink",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_pink","mmpr_2026_belt"));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_pink","mmpr_2026_belt").ResetFormToBase());
     public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_YELLOW = ITEMS.register("mmpr_2026_comic_mmpr_yellow",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_yellow","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_PINK.get()));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_yellow","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_PINK.get()).ResetFormToBase());
     public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_BLACK = ITEMS.register("mmpr_2026_comic_mmpr_black",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_black","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_YELLOW.get()));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_black","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_YELLOW.get()).ResetFormToBase());
     public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_BLUE = ITEMS.register("mmpr_2026_comic_mmpr_blue",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_blue","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLACK.get()));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_blue","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLACK.get()).ResetFormToBase());
     public static final DeferredItem<Item> MMPR_2026_COMIC = ITEMS.register("mmpr_2026_comic",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_red","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLUE.get()).AddToTabList(RangerTabs.COMICS));
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_red","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLUE.get()).ResetFormToBase().AddToTabList(RangerTabs.COMICS));
 
     //Shattered Grid
     public static final DeferredItem<Item> RANGER_SLAYER_POWER_COIN_SOLAR = ITEMS.register("ranger_slayer_power_coin_solar",

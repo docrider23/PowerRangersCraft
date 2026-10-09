@@ -1,7 +1,6 @@
 package com.docrider.powerrangerscraft.world.attribute;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
-import com.liasdan.ultracraft.UltraCraftCore;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.RangedAttribute;

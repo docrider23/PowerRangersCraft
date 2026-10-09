@@ -30,8 +30,8 @@ public class LavaLizardsEntity extends BaseFootsoldierEntity {
 
                             if (this.getLastAttacker()instanceof Player){
                                 Player playerIn = (Player) this.getLastAttacker();
-                    }
-                }
+                            }
+                        }
                         break;
                     case 1:
                         boss = MobsCore.FEARCATS.get().create(this.level());

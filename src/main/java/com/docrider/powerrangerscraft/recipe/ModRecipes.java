@@ -27,10 +27,10 @@ public class ModRecipes {
                 }
             });
     public static final DeferredHolder<RecipeType<?>, RecipeType<PowerCoinForgeRecipe>> POWER_COIN_FORGE_TYPE =
-            TYPES.register("ixa_machine_block", () -> new RecipeType<>() {
+            TYPES.register("power_coin_forge", () -> new RecipeType<>() {
                 @Override
                 public String toString() {
-                    return "ixa_machine_block";
+                    return "power_coin_forge";
                 }
             });
 

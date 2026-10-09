@@ -13,7 +13,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class DinoFuryItems {
 
-	public static String[] RANGERS= new String[] {"dino_fury_red","dino_fury_blue","dino_fury_pink","dino_fury_green","dino_fury_black","dino_fury_gold","void_knight"};
+	public static String[] RANGERS= new String[] {"dino_fury_red","dino_fury_blue","dino_fury_pink","dino_fury_green","dino_fury_black","dino_fury_gold"};
 	public static String[] DINO_FURY= new String[] {"dino_fury_red","dino_fury_blue","dino_fury_pink","dino_fury_green","dino_fury_black","dino_fury_gold"};
 
 	public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
@@ -28,7 +28,11 @@ public class DinoFuryItems {
     		() -> new BlankDinoKeyItem(new Item.Properties()));
 
 	public static final DeferredItem<Item> T_REX_DINO_KEY_ZENITH = ITEMS.register("t_rex_dino_key_zenith",
-			() -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_fury_zenith","dino_fury_red_belt").alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).HasCape().ChangeBeltModel("dino_fury_belt.geo.json").ChangeModel("dino_master.geo.json"));
+			() -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_fury_zenith","dino_fury_red_belt",
+			new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
+			new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+			new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+			new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false)).alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).HasCape().ChangeBeltModel("dino_fury_belt.geo.json").ChangeModel("dino_master.geo.json"));
 
 	public static final DeferredItem<Item> T_REX_DINO_KEY = ITEMS.register("t_rex_dino_key",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_fury_red","dino_fury_red_belt",
