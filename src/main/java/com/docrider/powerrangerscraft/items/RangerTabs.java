@@ -172,6 +172,10 @@ public class RangerTabs {
             CreativeModeTab.builder().icon(() -> new ItemStack(RangerBlocks.LOGO_ORE.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png"))
                     .title(Component.translatable("tab.powerrangerscraft.block")).build());
 
+    public static DeferredHolder<CreativeModeTab, CreativeModeTab> EggsTab = CREATIVE_MODE_TABS.register("prc902", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(MobsCore.EVIL_MMPR_GREEN_SPAWN_EGG.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png"))
+                    .title(Component.translatable("tab.powerrangerscraft.egg")).build());
+
     public static DeferredHolder<CreativeModeTab, CreativeModeTab> StarrangerTab = CREATIVE_MODE_TABS.register("prc999", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(StarrangerItems.STARRANGER_HELMET.get())).backgroundTexture(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID,"textures/gui/tab_misc_items.png")).title(Component.translatable("tab.powerrangerscraft.starranger")).build());
 
@@ -242,6 +246,8 @@ public class RangerTabs {
     public static List<Item> MISC= new ArrayList<Item>();
 
     public static List<Block> BLOCKS= new ArrayList<Block>();
+
+    public static List<Item> EGGS= new ArrayList<Item>();
 
     public static List<Item> STARRANGER= new ArrayList<Item>();
 
@@ -483,6 +489,22 @@ public class RangerTabs {
 
         }
         else if(event.getTab() == RangerTabs.MiscTab.get()) {
+            for (int i = 0; i < RangerTabs.MISC.size(); i++)
+            {
+                event.accept( RangerTabs.MISC.get(i));
+            }
+        }
+        else if(event.getTab() == RangerTabs.BlockTab.get()) {
+
+            event.accept(RangerBlocks.GRID_INFUSED_GOLD_BLOCK);
+
+            for (int i = 0; i < RangerTabs.BLOCKS.size(); i++)
+            {
+                event.accept( RangerTabs.BLOCKS.get(i));
+            }
+
+        }
+        else if(event.getTab() == RangerTabs.EggsTab.get()) {
 
             event.accept(MobsCore.PUTTY_PATROLLERS_SPAWN_EGG);
             event.accept(MobsCore.GOLDAR_SPAWN_EGG);
@@ -541,20 +563,10 @@ public class RangerTabs {
             event.accept(OtherItems.GO_GO_POWER_RANGERS_MUSIC_DISC);
             event.accept(OtherItems.GO_GO_ALIEN_RANGERS_MUSIC_DISC);
 
-            for (int i = 0; i < RangerTabs.MISC.size(); i++)
+            for (int i = 0; i < RangerTabs.EGGS.size(); i++)
             {
-                event.accept( RangerTabs.MISC.get(i));
+                event.accept( RangerTabs.EGGS.get(i));
             }
-        }
-        else if(event.getTab() == RangerTabs.BlockTab.get()) {
-
-            event.accept(RangerBlocks.GRID_INFUSED_GOLD_BLOCK);
-
-            for (int i = 0; i < RangerTabs.BLOCKS.size(); i++)
-            {
-                event.accept( RangerTabs.BLOCKS.get(i));
-            }
-
         }
 
 
