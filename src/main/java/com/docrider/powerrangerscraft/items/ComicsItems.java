@@ -228,6 +228,9 @@ public class ComicsItems {
             () -> new BaseBlasterItem(Tiers.IRON, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.PRIME).setProjectile(BaseBlasterItem.BlasterProjectile.SMALL_FIREBALL).ChangeRepairItem(PRIME_RITAS_WAND.get()));
 
     //Ranger Academy
+    public static final DeferredItem<Item> RANGER_ACADEMY_LOGO = ITEMS.register("ranger_academy_logo",
+            () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
+
     public static final DeferredItem<Item> SPECTRACITE_SHARD = ITEMS.register("spectracite_shard",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
 

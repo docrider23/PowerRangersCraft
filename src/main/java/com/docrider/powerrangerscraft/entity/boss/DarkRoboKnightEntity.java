@@ -27,7 +27,7 @@ public class DarkRoboKnightEntity extends BaseFootsoldierEntity {
 
     public DarkRoboKnightEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="dr_robo_knight";
+        NAME="robo_knight_dark";
         LocalDate localdate = LocalDate.now();
         int i = localdate.get(ChronoField.DAY_OF_MONTH);
         int j = localdate.get(ChronoField.MONTH_OF_YEAR);

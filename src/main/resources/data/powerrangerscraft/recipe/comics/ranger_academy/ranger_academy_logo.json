@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ranger_academy",
+  "ingredients": [
+	{
+      "item": "powerrangerscraft:spectracite_shard"
+    },
+	{
+      "item": "minecraft:paper",
+	  "data": 0
+    }
+  ],
+  "result": {
+    "id": "powerrangerscraft:ranger_academy_logo"
+  }
+}

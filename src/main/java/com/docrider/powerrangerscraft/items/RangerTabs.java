@@ -489,6 +489,10 @@ public class RangerTabs {
 
         }
         else if(event.getTab() == RangerTabs.MiscTab.get()) {
+
+            event.accept(OtherItems.GO_GO_POWER_RANGERS_MUSIC_DISC);
+            event.accept(OtherItems.GO_GO_ALIEN_RANGERS_MUSIC_DISC);
+
             for (int i = 0; i < RangerTabs.MISC.size(); i++)
             {
                 event.accept( RangerTabs.MISC.get(i));
@@ -559,9 +563,6 @@ public class RangerTabs {
             event.accept(MobsCore.DEATH_RANGER_SPAWN_EGG);
 
             event.accept(MobsCore.ELTARIAN_GUARD_SPAWN_EGG);
-
-            event.accept(OtherItems.GO_GO_POWER_RANGERS_MUSIC_DISC);
-            event.accept(OtherItems.GO_GO_ALIEN_RANGERS_MUSIC_DISC);
 
             for (int i = 0; i < RangerTabs.EGGS.size(); i++)
             {

@@ -1668,6 +1668,7 @@
 
   //EX Comics: Ranger Academy
   "tab.powerrangerscraft.ranger_academy": "Ranger Academy",
+  "item.powerrangerscraft.ranger_academy_logo": "Ranger Academy Logo",
 
   "item.powerrangerscraft.ranger_academy_head": "Ranger Academy Helmet",
   "item.powerrangerscraft.ranger_academy_torso": "Ranger Academy Chestplate",
@@ -1848,7 +1849,7 @@
   "advancements.powerrangerscraft.alien_yellow.desc": "Change into the Yellow Alien Ranger",
   "advancements.powerrangerscraft.alien_black.title": "Black Aquitar Ranger Power!",
   "advancements.powerrangerscraft.alien_black.desc": "Change into the Black Alien Ranger",
-  "advancements.powerrangerscraft.alien_morpher.title": "It's Morphin Time!",
+  "advancements.powerrangerscraft.alien_morpher.title": "Rangers of Aquitar! Full Power!",
   "advancements.powerrangerscraft.alien_morpher.desc": "Obtain any Alien Morpher",
 
   "advancements.powerrangerscraft.zeo.title": "Power Rangers Zeo!",
