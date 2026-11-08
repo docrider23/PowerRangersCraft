@@ -55,10 +55,28 @@ public class ComicsItems {
 
     //Shattered Grid
     public static final DeferredItem<Item> RANGER_SLAYER_POWER_COIN_SOLAR = ITEMS.register("ranger_slayer_power_coin_solar",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_pink","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_pink","blank",
+                    new MobEffectInstance(EffectCore.SHOTBOOST, 40, 1,true,false),
+                    new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
                     .IsGlowing());
     public static final DeferredItem<Item> RANGER_SLAYER_POWER_COIN = ITEMS.register("ranger_slayer_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_slayer","mmpr_pink_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_slayer","mmpr_pink_belt",
+                    new MobEffectInstance(EffectCore.SHOTBOOST, 40, 1,true,false),
+                    new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
+            {
+                public void OnTransformation(ItemStack itemstack, LivingEntity player) {
+                    super.OnTransformation(itemstack,player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.MMPR_MORPHER_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 1, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.PINK_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.BLACK_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }
                     .ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").addAlternative(RANGER_SLAYER_POWER_COIN_SOLAR.get()).AddToTabList(RangerTabs.SHATTERED_GRID));
 
     public static final DeferredItem<Item> DRAKKON_HELMET = ITEMS.register("drakkon_helmet",

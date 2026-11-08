@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mmpr_black",
+  "pattern": [
+    "daw",
+    "aza",
+	"tah"
+  ],
+  "key": {
+    "a": {
+      "item": "powerrangerscraft:grid_infused_gold_ingot"
+    },
+	"d": {
+      "item": "powerrangerscraft:dragon_power_coin"
+    },
+    "h": {
+      "item": "powerrangerscraft:dino_thunder_power_coin"
+    },
+    "t": {
+      "item": "powerrangerscraft:turbo_power_coin"
+    },
+    "w": {
+      "item": "powerrangerscraft:white_tiger_power_coin"
+    },
+    "z": {
+      "item": "powerrangerscraft:zeo_power_coin"
+    }
+  },
+  "result": {
+    "id": "powerrangerscraft:master_morpher"
+  }
+}

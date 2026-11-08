@@ -71,7 +71,6 @@ public class LostGalaxyItems {
 					new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
 					new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
 					new MobEffectInstance(EffectCore.SLASH, 40, 2,true,false)).IsGlowing());
-
 	public static final DeferredItem<Item> MAGNA_DEFENDER_CORE = ITEMS.register("magna_defender_core",
             () -> new RangerFormChangeItem(new Item.Properties(),0,"","magna_defender","magna_defender_belt",
             		new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),

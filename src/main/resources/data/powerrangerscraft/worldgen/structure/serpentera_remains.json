@@ -43,13 +43,13 @@
   
   "spawn_overrides": {
     "monster": {
-      "bounding_box": "full",
+      "bounding_box": "piece",
       "spawns": [
         {
           "type": "powerrangerscraft:cog",
-          "weight": 15,
+          "weight": 10,
           "minCount": 1,
-          "maxCount": 15
+          "maxCount": 5
         }
       ]
     }
