@@ -17,8 +17,8 @@ public class SPDItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.SPD));
 
     public static final DeferredItem<Item> SPD_RED_BADGE = ITEMS.register("spd_red_badge",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","spd_red","spd_belt")
-                    .IsGlowing().AddToTabList(RangerTabs.SPD));
+            () -> new RangerFormChangeItem(new Item.Properties(),"","spd_red","spd_belt")
+                    .isGlowing().AddToTabList(RangerTabs.SPD));
 
     public static final DeferredItem<Item> SPD_HELMET = ITEMS.register("spd_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));

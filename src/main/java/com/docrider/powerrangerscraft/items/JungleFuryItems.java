@@ -19,7 +19,7 @@ public class JungleFuryItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.JUNGLE_FURY));
 
     public static final DeferredItem<Item> TIGER_SPIRIT = ITEMS.register("tiger_spirit",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","jungle_fury_red","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","jungle_fury_red","blank")
                     .AddToTabList(RangerTabs.JUNGLE_FURY));
 
     public static final DeferredItem<Item> JUNGLE_FURY_HELMET = ITEMS.register("jungle_fury_head",

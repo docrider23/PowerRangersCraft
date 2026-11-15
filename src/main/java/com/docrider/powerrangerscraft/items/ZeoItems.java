@@ -26,7 +26,7 @@ public class ZeoItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.ZEO));
 
     public static final DeferredItem<Item> RED_ZEO_SUB_CRYSTAL = ITEMS.register("red_zeo_sub_crystal",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","zeo_red","zeo_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","zeo_red","zeo_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 0,true,false),
@@ -34,10 +34,10 @@ public class ZeoItems {
                     .AddToTabList(RangerTabs.ZEO));
 
     public static final DeferredItem<Item> YELLOW_ZEO_SUB_CRYSTAL_SOLAR = ITEMS.register("yellow_zeo_sub_crystal_solar",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_yellow","blank")
-                    .IsGlowing());
+            () -> new RangerFormChangeItem(new Item.Properties(),"","solar_yellow","blank")
+                    .isGlowing());
     public static final DeferredItem<Item> YELLOW_ZEO_SUB_CRYSTAL = ITEMS.register("yellow_zeo_sub_crystal",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","zeo_yellow","zeo_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","zeo_yellow","zeo_belt")
                     .addAlternative(YELLOW_ZEO_SUB_CRYSTAL_SOLAR.get()).AddToTabList(RangerTabs.ZEO));
 
     public static final DeferredItem<Item> ZEO_HELMET = ITEMS.register("zeo_head",

@@ -13,8 +13,8 @@ import net.minecraft.world.level.Level;
 
 public class SecretDiscItem extends RangerFormChangeItem {
 
-	public SecretDiscItem(Properties properties, int belt, String formName, String ridername, String beltTex, MobEffectInstance... effects) {
-		super( properties, belt, formName, ridername, beltTex, effects);
+	public SecretDiscItem(Properties properties, String formName, String ridername, String beltTex, MobEffectInstance... effects) {
+		super( properties, formName, ridername, beltTex, effects);
 	}
 	
 	public InteractionResultHolder<ItemStack> use(Level p_41128_, Player p_41129_, InteractionHand p_41130_) {
@@ -25,17 +25,17 @@ public class SecretDiscItem extends RangerFormChangeItem {
 
 		if (BELT.getItem() instanceof RangerChangerItem belt) {
 
-			if (getSHIFT_ITEM() instanceof RangerFormChangeItem & p_41129_.isShiftKeyDown()) {
-				((RangerFormChangeItem)getSHIFT_ITEM()).use(p_41128_, p_41129_, p_41130_);
+			if (getStiftItem() instanceof RangerFormChangeItem & p_41129_.isShiftKeyDown()) {
+				((RangerFormChangeItem)getStiftItem()).use(p_41128_, p_41129_, p_41130_);
 			}
 			else if (canChange(p_41129_,belt,BELT)) {
-				if (getAlsoChange2ndSlot() !=null)RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),getAlsoChange2ndSlot(), 2);
-				if (getRESET_FORM())RangerChangerItem.reset_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET));
+				if (getAlsoChange2ndSlot() !=null)RangerChangerItem.setFormItem(p_41129_.getItemBySlot(EquipmentSlot.FEET),getAlsoChange2ndSlot(), 2);
+				if (getIsResetForm())RangerChangerItem.reset_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET));
 
 				if (this == SamuraiItems.SHARK_DISC.get())
 				{
 					{
-						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
+						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.setFormItem(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
 					}
 				}
 				else if (this == SamuraiItems.MEGA_MODE_DISC.get() ||
@@ -47,11 +47,11 @@ public class SecretDiscItem extends RangerFormChangeItem {
 						this == SamuraiItems.MEGA_MODE_DISC_PRINCESS.get())
 				{
 					{
-						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
+						if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==SamuraiItems.SPIN_SWORD.get())	RangerChangerItem.setFormItem(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
 					}
 				}
-				else RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
-			
+				else RangerChangerItem.setFormItem(p_41129_.getItemBySlot(EquipmentSlot.FEET),this, getSlot());
+
 			}else if(!getAlternative().isEmpty()){
 
 				for (int i = 0; i < getAlternative().size(); i++)

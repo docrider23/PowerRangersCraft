@@ -17,16 +17,16 @@ public class DinoThunderItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.DINO_THUNDER));
 
     public static final DeferredItem<Item> RED_DINO_GEM = ITEMS.register("red_dino_gem",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_thunder_red","dino_thunder_red_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","dino_thunder_red","dino_thunder_red_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false))
                     .ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.DINO_THUNDER));
     public static final DeferredItem<Item> YELLOW_DINO_GEM = ITEMS.register("yellow_dino_gem",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_thunder_yellow","dino_thunder_yellow_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","dino_thunder_yellow","dino_thunder_yellow_belt")
                     .ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.DINO_THUNDER));
     public static final DeferredItem<Item> BLACK_DINO_GEM = ITEMS.register("black_dino_gem",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_thunder_black","dino_thunder_black_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","dino_thunder_black","dino_thunder_black_belt")
                     .ChangeBeltModel("geo/rangerbeltchangerweapon.geo.json").AddToTabList(RangerTabs.DINO_THUNDER));
 
     public static final DeferredItem<Item> DINO_THUNDER_HELMET = ITEMS.register("dino_thunder_head",

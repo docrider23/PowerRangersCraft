@@ -24,7 +24,7 @@ public class RPMItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RPM));
 
     public static final DeferredItem<Item> EAGLE_RACER_ENGINE_CELL = ITEMS.register("eagle_racer_engine_cell",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","rpm_red","rpm_cell_shift_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","rpm_red","rpm_cell_shift_belt")
                     .AddToTabList(RangerTabs.RPM));
 
     public static final DeferredItem<Item> RPM_HELMET = ITEMS.register("rpm_head",

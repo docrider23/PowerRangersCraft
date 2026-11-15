@@ -32,7 +32,7 @@ public class EvilMMPRGreenEntity extends BaseFootsoldierEntity {
         this.setItemSlot(EquipmentSlot.FEET, new ItemStack(MMPRItems.GREEN_POWER_MORPHER.get()));
         this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(MMPRItems.DRAGON_DAGGER.get()));
         this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(MMPRItems.SWORD_OF_DARKNESS.get()));
-        RangerChangerItem.set_Form_Item(this.getItemBySlot(EquipmentSlot.FEET), MMPRItems.DRAGON_POWER_COIN_SHIELD.get(), 2);
+        RangerChangerItem.setFormItem(this.getItemBySlot(EquipmentSlot.FEET), MMPRItems.DRAGON_POWER_COIN_SHIELD.get(), 2);
     }
 
 

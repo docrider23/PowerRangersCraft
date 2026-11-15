@@ -1,7 +1,9 @@
 package com.docrider.powerrangerscraft.entity.boss;
 
 import com.docrider.powerrangerscraft.entity.footsoldier.BaseFootsoldierEntity;
+import com.docrider.powerrangerscraft.items.ComicsItems;
 import com.docrider.powerrangerscraft.items.MegaforceItems;
+import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
@@ -27,7 +29,7 @@ public class DarkRoboKnightEntity extends BaseFootsoldierEntity {
 
     public DarkRoboKnightEntity(EntityType<? extends BaseFootsoldierEntity> type, Level level) {
         super(type, level);
-        NAME="robo_knight_dark";
+        NAME="dr_robo_knight";
         LocalDate localdate = LocalDate.now();
         int i = localdate.get(ChronoField.DAY_OF_MONTH);
         int j = localdate.get(ChronoField.MONTH_OF_YEAR);
@@ -38,8 +40,9 @@ public class DarkRoboKnightEntity extends BaseFootsoldierEntity {
         else this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(MegaforceItems.MEGAFORCE_HELMET.get()));
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(MegaforceItems.MEGAFORCE_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(MegaforceItems.MEGAFORCE_LEGGINGS.get()));
-        this.setItemSlot(EquipmentSlot.FEET, new ItemStack(MegaforceItems.ROBO_MORPHER_DARK.get()));
+        this.setItemSlot(EquipmentSlot.FEET, new ItemStack(MegaforceItems.ROBO_MORPHER.get()));
         this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(MegaforceItems.ROBO_BLADE.get()));
+        RangerChangerItem.setFormItem(this.getItemBySlot(EquipmentSlot.FEET), MegaforceItems.ROBO_KNIGHT_CHANGE_POWER_CARD_DARK.get(), 1);
     }
 
 

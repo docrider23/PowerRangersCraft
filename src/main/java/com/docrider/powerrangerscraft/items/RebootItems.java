@@ -17,23 +17,23 @@ public class RebootItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.REBOOT));
 
     public static final DeferredItem<Item> REBOOT_RED_POWER_COIN = ITEMS.register("reboot_red_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","reboot_red","reboot_red_belt")
-                    .IsGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
+            () -> new RangerFormChangeItem(new Item.Properties(),"","reboot_red","reboot_red_belt")
+                    .isGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
     public static final DeferredItem<Item> REBOOT_BLACK_POWER_COIN = ITEMS.register("reboot_black_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","reboot_black","reboot_black_belt")
-                    .IsGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
+            () -> new RangerFormChangeItem(new Item.Properties(),"","reboot_black","reboot_black_belt")
+                    .isGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
     public static final DeferredItem<Item> REBOOT_BLUE_POWER_COIN = ITEMS.register("reboot_blue_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","reboot_blue","reboot_blue_belt")
-                    .IsGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
+            () -> new RangerFormChangeItem(new Item.Properties(),"","reboot_blue","reboot_blue_belt")
+                    .isGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
     public static final DeferredItem<Item> REBOOT_YELLOW_POWER_COIN = ITEMS.register("reboot_yellow_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","reboot_yellow","reboot_yellow_belt")
-                    .IsGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
+            () -> new RangerFormChangeItem(new Item.Properties(),"","reboot_yellow","reboot_yellow_belt")
+                    .isGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
     public static final DeferredItem<Item> REBOOT_PINK_POWER_COIN = ITEMS.register("reboot_pink_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","reboot_pink","reboot_pink_belt")
-                    .IsGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
+            () -> new RangerFormChangeItem(new Item.Properties(),"","reboot_pink","reboot_pink_belt")
+                    .isGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
     public static final DeferredItem<Item> REBOOT_GREEN_POWER_COIN = ITEMS.register("reboot_green_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","reboot_green","reboot_green_belt")
-                    .IsGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
+            () -> new RangerFormChangeItem(new Item.Properties(),"","reboot_green","reboot_green_belt")
+                    .isGlowing().IsBeltGlowing().AddToTabList(RangerTabs.REBOOT));
 
     public static final DeferredItem<Item> REBOOT_HELMET = ITEMS.register("reboot_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));

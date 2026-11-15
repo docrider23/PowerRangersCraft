@@ -76,7 +76,7 @@ public class GoldarEntity extends BaseFootsoldierEntity {
             boolean hasMorphX = Inventory.countItem(BeastMorphersItems.MORPH_X_CANISTER.get()) != 0;
 
             if (hasMorphX) {
-                RangerChangerItem.set_Form_Item(this.getItemBySlot(EquipmentSlot.FEET), MMPRItems.Z_EMBLEM_GOLDAR_MAXIMUS.get(), 1);
+                RangerChangerItem.setFormItem(this.getItemBySlot(EquipmentSlot.FEET), MMPRItems.Z_EMBLEM_GOLDAR_MAXIMUS.get(), 1);
                 this.bossEvent.setName(Component.translatable("entity.powerrangerscraft.goldar_maximus").withStyle(ChatFormatting.GOLD));
                 this.getAttribute(Attributes.MOVEMENT_SPEED).setBaseValue(0.4);
                 this.getAttribute(Attributes.ATTACK_DAMAGE).setBaseValue(10.0D);

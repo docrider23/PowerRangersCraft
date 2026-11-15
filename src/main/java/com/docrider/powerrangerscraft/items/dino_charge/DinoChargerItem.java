@@ -10,10 +10,10 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-public class DinoChargersItem extends RangerFormChangeItem {
+public class DinoChargerItem extends RangerFormChangeItem {
 
-    public DinoChargersItem(Properties properties, int belt, String formName, String ridername, String beltTex, MobEffectInstance... effects) {
-        super( properties, belt, formName, ridername, beltTex, effects);
+    public DinoChargerItem(Properties properties, String formName, String ridername, String beltTex, MobEffectInstance... effects) {
+        super( properties, formName, ridername, beltTex, effects);
     }
 
     public InteractionResultHolder<ItemStack> use(Level p_41128_, Player p_41129_, InteractionHand p_41130_) {

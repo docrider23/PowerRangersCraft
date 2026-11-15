@@ -24,7 +24,7 @@ public class PowerCoinItem extends BaseItem {
             ItemStack belt = player.getItemBySlot(EquipmentSlot.FEET);
 
             if (belt.getItem() == MMPRItems.MASTER_MORPHER.get()) {
-                RangerChangerItem.set_Form_Item(belt,MMPRItems.DRAGON_POWER_COIN_MMPR_GREEN_BASE.get(),2);
+                RangerChangerItem.setFormItem(belt,MMPRItems.DRAGON_POWER_COIN_MMPR_GREEN_BASE.get(),2);
             }
             else new ItemStack(MMPRItems.DRAGON_POWER_COIN_SHIELD.get()).use(level, player, usedHand);
         }

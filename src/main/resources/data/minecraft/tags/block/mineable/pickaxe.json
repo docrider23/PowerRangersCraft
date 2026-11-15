@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
+		"powerrangerscraft:grid_infused_gold_block",
 		"powerrangerscraft:grid_energy_infuser",
 		"powerrangerscraft:power_coin_forge",
 		"powerrangerscraft:deepslate_mecha_ore",

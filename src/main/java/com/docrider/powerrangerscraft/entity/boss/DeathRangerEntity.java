@@ -30,7 +30,7 @@ public class DeathRangerEntity extends BaseFootsoldierEntity {
         this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(ComicsItems.OMEGA_CHESTPLATE.get()));
         this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(ComicsItems.OMEGA_LEGGINGS.get()));
         this.setItemSlot(EquipmentSlot.FEET, new ItemStack(ComicsItems.OMEGA_GOLD_MORPHER.get()));
-        RangerChangerItem.set_Form_Item(this.getItemBySlot(EquipmentSlot.FEET), ComicsItems.OMEGA_GOLD_LOGO_DEATH.get(), 1);
+        RangerChangerItem.setFormItem(this.getItemBySlot(EquipmentSlot.FEET), ComicsItems.OMEGA_GOLD_LOGO_DEATH.get(), 1);
     }
 
 
@@ -67,9 +67,9 @@ public class DeathRangerEntity extends BaseFootsoldierEntity {
 
         return Monster.createMonsterAttributes()
                 .add(Attributes.FOLLOW_RANGE, 35.0D)
-                .add(Attributes.MOVEMENT_SPEED,(double)0.4F)
+                .add(Attributes.MOVEMENT_SPEED,(double)0.2F)
                 .add(Attributes.ATTACK_DAMAGE, 15.0D)
-                .add(Attributes.ARMOR, 8.0D)
+                .add(Attributes.ARMOR, 4.0D)
                 .add(Attributes.MAX_HEALTH, 250.0D);
     }
 }

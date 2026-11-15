@@ -3,12 +3,10 @@ package com.docrider.powerrangerscraft.items;
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.dino_charge.DinoChargeMorpherItem;
-import com.docrider.powerrangerscraft.items.dino_charge.DinoChargersItem;
+import com.docrider.powerrangerscraft.items.dino_charge.DinoChargerItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import com.docrider.powerrangerscraft.entity.MobsCore;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.animal.TropicalFish;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -24,12 +22,12 @@ public class DinoChargeItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE));
 
     public static final DeferredItem<Item> SPINOSAURUS_DINO_CHARGER_SOLAR = ITEMS.register("spinosaurus_dino_charger_solar",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_blue","blank").IsGlowing());
+            () -> new RangerFormChangeItem(new Item.Properties(),"","solar_blue","blank").isGlowing());
     public static final DeferredItem<Item> SPINOSAURUS_DINO_CHARGER = ITEMS.register("spinosaurus_dino_charger",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","dino_charge_dark","dino_charge_silver_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","dino_charge_dark","dino_charge_silver_belt")
                     .addAlternative(SPINOSAURUS_DINO_CHARGER_SOLAR.get()).AddToTabList(RangerTabs.DINO_CHARGE));
     public static final DeferredItem<Item> TYRANNOSAURUS_REX_DINO_CHARGER = ITEMS.register("tyrannosaurus_rex_dino_charger",
-            () -> new DinoChargersItem(new Item.Properties(),0,"","dino_charge_red","dino_charge_belt",
+            () -> new DinoChargerItem(new Item.Properties(),"","dino_charge_red","dino_charge_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
                     new MobEffectInstance(EffectCore.SHOTBOOST, 40, 1,true,false))

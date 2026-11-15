@@ -86,17 +86,17 @@ public class DinoFuryMorpherItem extends RangerChangerItem{
 		int num = 1;
 		if (slot == EquipmentSlot.HEAD)num=2;
 
-		if (get_Form_Item(itemstack, num).HasWingsIfFlying() & !rider.onGround()){
-			return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).get_FlyingModel(this.Rider));
+		if (get_Form_Item(itemstack, num).hasWingsIfFlying() & !rider.onGround()){
+			return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).getFlyingModel(this.Rider));
 		}else
-			return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).get_Model(this.Rider));
+			return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).getModel(this.Rider));
 
 	}
 
 	@Override
 	public ResourceLocation getBeltModelResource(ItemStack itemstack, RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
 		if (!isTransformed(rider)) return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/left_brace.geo.json");
-		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).get_Belt_Model());
+		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).getBeltModel());
 	}
 
 	@Override

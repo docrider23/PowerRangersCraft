@@ -18,25 +18,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class PRCAttributes extends Event implements IModBusEvent {
     public static final DeferredRegister<Attribute> REGISTRY = DeferredRegister.create(BuiltInRegistries.ATTRIBUTE, PowerRangersCraftCore.MODID);
 
-    public static final DeferredHolder<Attribute, Attribute> TOJIMA = REGISTRY.register("tojima",
-            () -> new RangedAttribute(
-                    "attribute.powerrangerscraftcore.tojima",
-                    0,
-                    0,
-                    100
-            ).setSyncable(true)
-    );
-
     public static final DeferredHolder<Attribute, Attribute> WIND = REGISTRY.register("wind",
             () -> new BooleanAttribute(
                     "attribute.powerrangerscraftcore.wind",
-                    false
-            ).setSyncable(true)
-    );
-
-    public static final DeferredHolder<Attribute, Attribute> MUTEKI = REGISTRY.register("muteki",
-            () -> new BooleanAttribute(
-                    "attribute.powerrangerscraftcore.muteki",
                     false
             ).setSyncable(true)
     );
@@ -66,17 +50,25 @@ public class PRCAttributes extends Event implements IModBusEvent {
 
     public static final DeferredHolder<Attribute, Attribute> CAPE_ROT_OLD = REGISTRY.register("cape_rotation_old",
             () -> new RangedAttribute(
-                    "attribute.powerrangerscraftcore.cape_rotation_old",
+                    "attribute.kamenridercraftcore.cape_rotation_old",
                     0,
                     -30,
                     30
             ).setSyncable(true)
     );
+    public static final DeferredHolder<Attribute, Attribute> CAPE_ROT_NEXT = REGISTRY.register("cape_rotation_next",
+            () -> new RangedAttribute(
+                    "attribute.kamenridercraftcore.cape_rotation_next",
+                    0,
+                    -30,
+                    30
+            ).setSyncable(false)
+    );
 
 
     public static final DeferredHolder<Attribute, Attribute> CAPE_ROT = REGISTRY.register("cape_rotation",
             () -> new RangedAttribute(
-                    "attribute.powerrangerscraftcore.cape_rotation",
+                    "attribute.kamenridercraftcore.cape_rotation",
                     0,
                     -30,
                     30
@@ -85,17 +77,27 @@ public class PRCAttributes extends Event implements IModBusEvent {
 
     public static final DeferredHolder<Attribute, Attribute> WHEEL_ROT_OLD = REGISTRY.register("wheel_rotation_old",
             () -> new RangedAttribute(
-                    "attribute.powerrangerscraftcore.wheel_rotation_old",
+                    "attribute.kamenridercraftcore.wheel_rotation_old",
                     0,
                     -30,
                     30
             ).setSyncable(true)
     );
+    public static final DeferredHolder<Attribute, Attribute> WHEEL_ROT_NEXT = REGISTRY.register("wheel_rotation_next",
+            () -> new RangedAttribute(
+                    "attribute.kamenridercraftcore.wheel_rotation_next",
+                    0,
+
+                    -30,
+                    30
+            ).setSyncable(false)
+    );
+
 
 
     public static final DeferredHolder<Attribute, Attribute> WHEEL_ROT = REGISTRY.register("wheel_rotation",
             () -> new RangedAttribute(
-                    "attribute.powerrangerscraftcore.wheel_rotation",
+                    "attribute.kamenridercraftcore.wheel_rotation",
                     0,
                     -30,
                     30
@@ -104,17 +106,25 @@ public class PRCAttributes extends Event implements IModBusEvent {
 
     public static final DeferredHolder<Attribute, Attribute> BALL_ROT_OLD = REGISTRY.register("ball_rotation_old",
             () -> new RangedAttribute(
-                    "attribute.powerrangerscraftcore.cape_rotation_old",
+                    "attribute.kamenridercraftcore.cape_rotation_old",
                     0,
                     -30,
                     30
             ).setSyncable(true)
     );
 
+    public static final DeferredHolder<Attribute, Attribute> BALL_ROT_NEXT = REGISTRY.register("ball_rotation_next",
+            () -> new RangedAttribute(
+                    "attribute.kamenridercraftcore.ball_rotation_next",
+                    0,
+                    -30,
+                    30
+            ).setSyncable(false)
+    );
 
     public static final DeferredHolder<Attribute, Attribute> BALL_ROT = REGISTRY.register("ball_rotation",
             () -> new RangedAttribute(
-                    "attribute.powerrangerscraftcore.ball_rotation",
+                    "attribute.kamenridercraftcore.ball_rotation",
                     0,
                     -30,
                     30
@@ -127,7 +137,7 @@ public class PRCAttributes extends Event implements IModBusEvent {
                     "attribute.powerrangerscraftcore.is_transforming",
                     0,
                     0,
-                    30
+                    300
             ).setSyncable(true)
     );
 
@@ -152,14 +162,6 @@ public class PRCAttributes extends Event implements IModBusEvent {
     public static final DeferredHolder<Attribute, Attribute> HAS_TIME = REGISTRY.register("has_time",
             () -> new RangedAttribute(
                     "attribute.powerrangerscraftcore.has_time",
-                    0,
-                    0,
-                    1
-            ).setSyncable(true)
-    );
-    public static final DeferredHolder<Attribute, Attribute> HAS_BUG = REGISTRY.register("has_bug",
-            () -> new RangedAttribute(
-                    "attribute.powerrangerscraftcore.has_bug",
                     0,
                     0,
                     1

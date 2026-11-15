@@ -13,8 +13,8 @@ import net.minecraft.world.level.Level;
 
 public class DinoKeyItem extends RangerFormChangeItem {
 
-	public DinoKeyItem(Properties properties, int belt, String formName, String ridername, String beltTex, MobEffectInstance... effects) {
-		super( properties, belt, formName, ridername, beltTex, effects);
+	public DinoKeyItem(Properties properties, String formName, String ridername, String beltTex, MobEffectInstance... effects) {
+		super( properties, formName, ridername, beltTex, effects);
 	}
 	
 	public InteractionResultHolder<ItemStack> use(Level p_41128_, Player p_41129_, InteractionHand p_41130_) {
@@ -25,24 +25,24 @@ public class DinoKeyItem extends RangerFormChangeItem {
 
 		if (BELT.getItem() instanceof RangerChangerItem belt) {
 
-			if (getSHIFT_ITEM() instanceof RangerFormChangeItem & p_41129_.isShiftKeyDown()) {
-				((RangerFormChangeItem)getSHIFT_ITEM()).use(p_41128_, p_41129_, p_41130_);
+			if (getStiftItem() instanceof RangerFormChangeItem & p_41129_.isShiftKeyDown()) {
+				((RangerFormChangeItem)getStiftItem()).use(p_41128_, p_41129_, p_41130_);
 			}
 			else if (canChange(p_41129_,belt,BELT)) {
-				if (getAlsoChange2ndSlot() !=null)RangerChangerItem.set_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET),getAlsoChange2ndSlot(), 2);
-				if (getRESET_FORM())RangerChangerItem.reset_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET));
+				if (getAlsoChange2ndSlot() !=null)RangerChangerItem.setFormItem(p_41129_.getItemBySlot(EquipmentSlot.FEET),getAlsoChange2ndSlot(), 2);
+				if (getIsResetForm())RangerChangerItem.reset_Form_Item(p_41129_.getItemBySlot(EquipmentSlot.FEET));
 
 				if (this == DinoFuryItems.DINO_KNIGHT_KEY.get())
 				{
 					if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==DinoFuryItems.DINO_KNIGHT_MORPHER.get())
 					{
 						if (BELT.getItem() == DinoFuryItems.RED_DINO_FURY_MORPHER.get() |
-								BELT.getItem() == DinoFuryItems.BLACK_DINO_FURY_MORPHER.get()) RangerChangerItem.set_Form_Item(BELT,this, getSlot());
+								BELT.getItem() == DinoFuryItems.BLACK_DINO_FURY_MORPHER.get()) RangerChangerItem.setFormItem(BELT,this, getSlot());
 					}
 				}
 				else if (this == DinoFuryItems.DINO_MASTER_KEY.get())
 				{
-					RangerChangerItem.set_Form_Item(BELT,this, getSlot());
+					RangerChangerItem.setFormItem(BELT,this, getSlot());
 				}
 				else if (BELT.getItem() == DinoFuryItems.RED_DINO_FURY_MORPHER.get() |
 						BELT.getItem() == DinoFuryItems.BLUE_DINO_FURY_MORPHER.get() | 
@@ -52,10 +52,10 @@ public class DinoKeyItem extends RangerFormChangeItem {
 					
 					if (p_41129_.getItemBySlot(EquipmentSlot.OFFHAND).getItem()==DinoFuryItems.CHROMAFURY_SABER.get())
 					{
-						RangerChangerItem.set_Form_Item(BELT,this, getSlot());
+						RangerChangerItem.setFormItem(BELT,this, getSlot());
 					}
 				}
-				else RangerChangerItem.set_Form_Item(BELT,this, getSlot());
+				else RangerChangerItem.setFormItem(BELT,this, getSlot());
 			
 			}else if(!getAlternative().isEmpty()){
 

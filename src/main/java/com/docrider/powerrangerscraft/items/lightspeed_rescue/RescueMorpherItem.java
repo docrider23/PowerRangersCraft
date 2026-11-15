@@ -41,7 +41,7 @@ public class RescueMorpherItem extends RangerChangerItem{
 	}
 	
 	@Override
-	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider, String riderName)
+	public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity rider, String rangerName)
 	{
 		String belt = ((RangerChangerItem)itemstack.getItem()).BELT_TEXT;
 		
@@ -66,13 +66,13 @@ public class RescueMorpherItem extends RangerChangerItem{
 		}
 		else if (equipmentSlot == EquipmentSlot.HEAD) {
 			if (get_Form_Item(itemstack, 2).getFormName(fly).equals("_megabattle")) {
-				return get_Form_Item(itemstack, 2).getRangerName(riderName) + get_Form_Item(itemstack, 2).getFormName(fly);
+				return get_Form_Item(itemstack, 2).getRangerName(rangerName) + get_Form_Item(itemstack, 2).getFormName(fly);
 			}
 			if (get_Form_Item(itemstack, 2).getFormName(fly).equals("_trans_armor")) {
-				return get_Form_Item(itemstack, 2).getRangerName(riderName) + get_Form_Item(itemstack, 2).getFormName(fly);
+				return get_Form_Item(itemstack, 2).getRangerName(rangerName) + get_Form_Item(itemstack, 2).getFormName(fly);
 			}
 		}
-		return riderName+get_Form_Item(itemstack,1).getFormName(fly);
+		return rangerName +get_Form_Item(itemstack,1).getFormName(fly);
 
 	}
 
@@ -80,13 +80,13 @@ public class RescueMorpherItem extends RangerChangerItem{
 		int num = 1;
 		if (slot == EquipmentSlot.HEAD)num=2;
 
-		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).get_Model(this.Rider));
+		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, num).getModel(this.Rider));
 	}
 
 	@Override
 	public ResourceLocation getBeltModelResource(ItemStack itemstack, RangerArmorItem animatable, EquipmentSlot slot, LivingEntity rider) {
 		if (!isTransformed(rider)) return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/left_brace.geo.json");
-		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).get_Belt_Model());
+		return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).getBeltModel());
 	}
 
 	@Override

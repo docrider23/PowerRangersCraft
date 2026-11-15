@@ -20,13 +20,13 @@ public class InSpaceItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE));
 
     public static final DeferredItem<Item> RED_DATA_CARD_SOLAR = ITEMS.register("red_data_card_solar",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_red","blank",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","solar_red","blank",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
-                    .IsGlowing());
+                    .isGlowing());
     public static final DeferredItem<Item> RED_DATA_CARD = ITEMS.register("red_data_card",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","in_space_red","in_space_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","in_space_red","in_space_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))

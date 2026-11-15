@@ -28,10 +28,10 @@ public class BattleBoosterItem extends BaseItem {
             ItemStack belt = player.getItemBySlot(EquipmentSlot.FEET);
 
             if (belt.getItem() == LightspeedRescueItems.BLUE_RESCUE_MORPHER.get() && player.isCrouching()) {
-                RangerChangerItem.set_Form_Item(belt,LightspeedRescueItems.BATTLE_BOOSTER_MEGABATTLE_BLUE.get(),2);
+                RangerChangerItem.setFormItem(belt,LightspeedRescueItems.BATTLE_BOOSTER_MEGABATTLE_BLUE.get(),2);
             }
             if (belt.getItem() == LightspeedRescueItems.GREEN_RESCUE_MORPHER.get() && player.isCrouching()) {
-                RangerChangerItem.set_Form_Item(belt,LightspeedRescueItems.BATTLE_BOOSTER_MEGABATTLE_GREEN.get(),2);
+                RangerChangerItem.setFormItem(belt,LightspeedRescueItems.BATTLE_BOOSTER_MEGABATTLE_GREEN.get(),2);
             }
         }
         return InteractionResultHolder.pass(player.getItemInHand(usedHand));

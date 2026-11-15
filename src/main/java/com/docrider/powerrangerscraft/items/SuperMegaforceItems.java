@@ -22,7 +22,7 @@ public class SuperMegaforceItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE));
 
     public static final DeferredItem<Item> SUPER_MEGAFORCE_RED_KEY = ITEMS.register("super_megaforce_red_key",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","super_megaforce_red","super_megaforce_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","super_megaforce_red","super_megaforce_belt")
                     .AddToTabList(RangerTabs.SUPER_MEGAFORCE));
 
     public static final DeferredItem<Item> SUPER_MEGAFORCE_HELMET = ITEMS.register("super_megaforce_head",

@@ -24,7 +24,7 @@ public class ComicsItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.COMICS));
 
     public static final DeferredItem<Item> MMPR_THE_RETURN_COMIC = ITEMS.register("mmpr_the_return_comic",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_the_return","mmpr_red","mmpr_red_the_return_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"_the_return","mmpr_red","mmpr_red_the_return_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(EffectCore.PUNCH, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1, true, false)){
@@ -43,24 +43,24 @@ public class ComicsItems {
                     .ResetFormToBase().ChangeBeltModel("geo/mmpr_belt_weapon.geo.json").AddToTabList(RangerTabs.COMICS));
 
     public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_PINK = ITEMS.register("mmpr_2026_comic_mmpr_pink",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_pink","mmpr_2026_belt").ResetFormToBase());
+            () -> new RangerFormChangeItem(new Item.Properties(),"_2026","mmpr_pink","mmpr_2026_belt").ResetFormToBase());
     public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_YELLOW = ITEMS.register("mmpr_2026_comic_mmpr_yellow",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_yellow","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_PINK.get()).ResetFormToBase());
+            () -> new RangerFormChangeItem(new Item.Properties(),"_2026","mmpr_yellow","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_PINK.get()).ResetFormToBase());
     public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_BLACK = ITEMS.register("mmpr_2026_comic_mmpr_black",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_black","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_YELLOW.get()).ResetFormToBase());
+            () -> new RangerFormChangeItem(new Item.Properties(),"_2026","mmpr_black","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_YELLOW.get()).ResetFormToBase());
     public static final DeferredItem<Item> MMPR_2026_COMIC_MMPR_BLUE = ITEMS.register("mmpr_2026_comic_mmpr_blue",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_blue","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLACK.get()).ResetFormToBase());
+            () -> new RangerFormChangeItem(new Item.Properties(),"_2026","mmpr_blue","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLACK.get()).ResetFormToBase());
     public static final DeferredItem<Item> MMPR_2026_COMIC = ITEMS.register("mmpr_2026_comic",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_2026","mmpr_red","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLUE.get()).ResetFormToBase().AddToTabList(RangerTabs.COMICS));
+            () -> new RangerFormChangeItem(new Item.Properties(),"_2026","mmpr_red","mmpr_2026_belt").addAlternative(MMPR_2026_COMIC_MMPR_BLUE.get()).ResetFormToBase().AddToTabList(RangerTabs.COMICS));
 
     //Shattered Grid
     public static final DeferredItem<Item> RANGER_SLAYER_POWER_COIN_SOLAR = ITEMS.register("ranger_slayer_power_coin_solar",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_pink","blank",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","solar_pink","blank",
                     new MobEffectInstance(EffectCore.SHOTBOOST, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
-                    .IsGlowing());
+                    .isGlowing());
     public static final DeferredItem<Item> RANGER_SLAYER_POWER_COIN = ITEMS.register("ranger_slayer_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_slayer","mmpr_pink_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","ranger_slayer","mmpr_pink_belt",
                     new MobEffectInstance(EffectCore.SHOTBOOST, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
             {
@@ -93,11 +93,11 @@ public class ComicsItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.SOLAR));
 
     public static final DeferredItem<Item> PURPLE_SOLAR_CRYSTAL = ITEMS.register("purple_solar_crystal",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_purple","blank")
-                    .IsGlowing().AddToTabList(RangerTabs.SOLAR));
+            () -> new RangerFormChangeItem(new Item.Properties(),"","solar_purple","blank")
+                    .isGlowing().AddToTabList(RangerTabs.SOLAR));
     public static final DeferredItem<Item> ORANGE_SOLAR_CRYSTAL = ITEMS.register("orange_solar_crystal",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_orange","blank")
-                    .IsGlowing().AddToTabList(RangerTabs.SOLAR));
+            () -> new RangerFormChangeItem(new Item.Properties(),"","solar_orange","blank")
+                    .isGlowing().AddToTabList(RangerTabs.SOLAR));
 
     public static final DeferredItem<Item> SOLAR_HELMET = ITEMS.register("solar_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
@@ -145,21 +145,21 @@ public class ComicsItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OMEGA));
 
     public static final DeferredItem<Item> OMEGA_RED_LOGO = ITEMS.register("omega_red_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_red","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","omega_red","blank")
                     .AddToTabList(RangerTabs.OMEGA));
     public static final DeferredItem<Item> OMEGA_BLUE_LOGO = ITEMS.register("omega_blue_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_blue","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","omega_blue","blank")
                     .AddToTabList(RangerTabs.OMEGA));
     public static final DeferredItem<Item> OMEGA_YELLOW_LOGO = ITEMS.register("omega_yellow_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_yellow","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","omega_yellow","blank")
                     .AddToTabList(RangerTabs.OMEGA));
     public static final DeferredItem<Item> OMEGA_BLACK_LOGO = ITEMS.register("omega_black_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_black","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","omega_black","blank")
                     .AddToTabList(RangerTabs.OMEGA));
     public static final DeferredItem<Item> OMEGA_GOLD_LOGO_DEATH = ITEMS.register("omega_gold_logo_death",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_death","omega_gold","blank"));
+            () -> new RangerFormChangeItem(new Item.Properties(),"_death","omega_gold","blank"));
     public static final DeferredItem<Item> OMEGA_GOLD_LOGO = ITEMS.register("omega_gold_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","omega_gold","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","omega_gold","blank")
                     .addSwitchForm(OMEGA_GOLD_LOGO_DEATH.get()).AddToTabList(RangerTabs.OMEGA));
 
     public static final DeferredItem<Item> OMEGA_HELMET = ITEMS.register("omega_head",
@@ -194,22 +194,22 @@ public class ComicsItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.PRIME));
 
     public static final DeferredItem<Item> RED_RIB = ITEMS.register("red_rib",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_red","prime_red_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","prime_red","prime_red_belt")
                     .AddToTabList(RangerTabs.PRIME));
     public static final DeferredItem<Item> BLACK_SCALE = ITEMS.register("black_scale",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_black","prime_black_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","prime_black","prime_black_belt")
                     .AddToTabList(RangerTabs.PRIME));
     public static final DeferredItem<Item> BLUE_BONE = ITEMS.register("blue_bone",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_blue","prime_blue_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","prime_blue","prime_blue_belt")
                     .AddToTabList(RangerTabs.PRIME));
     public static final DeferredItem<Item> YELLOW_TALON = ITEMS.register("yellow_talon",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_yellow","prime_yellow_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","prime_yellow","prime_yellow_belt")
                     .AddToTabList(RangerTabs.PRIME));
     public static final DeferredItem<Item> PINK_GEM = ITEMS.register("pink_gem",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_pink","prime_pink_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","prime_pink","prime_pink_belt")
                     .AddToTabList(RangerTabs.PRIME));
     public static final DeferredItem<Item> GREEN_SPHERE = ITEMS.register("green_sphere",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","prime_green","prime_green_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","prime_green","prime_green_belt")
                     .AddToTabList(RangerTabs.PRIME));
 
     public static final DeferredItem<Item> PRIME_HELMET = ITEMS.register("prime_head",
@@ -253,22 +253,22 @@ public class ComicsItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY));
 
     public static final DeferredItem<Item> RANGER_ACADEMY_RED_POWER_COIN = ITEMS.register("ranger_academy_red_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_red","ranger_academy_red_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","ranger_academy_red","ranger_academy_red_belt")
                     .AddToTabList(RangerTabs.RANGER_ACADEMY));
     public static final DeferredItem<Item> RANGER_ACADEMY_BLACK_POWER_COIN = ITEMS.register("ranger_academy_black_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_black","ranger_academy_black_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","ranger_academy_black","ranger_academy_black_belt")
                     .AddToTabList(RangerTabs.RANGER_ACADEMY));
     public static final DeferredItem<Item> RANGER_ACADEMY_BLUE_POWER_COIN = ITEMS.register("ranger_academy_blue_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_blue","ranger_academy_blue_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","ranger_academy_blue","ranger_academy_blue_belt")
                     .AddToTabList(RangerTabs.RANGER_ACADEMY));
     public static final DeferredItem<Item> RANGER_ACADEMY_YELLOW_POWER_COIN = ITEMS.register("ranger_academy_yellow_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_yellow","ranger_academy_yellow_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","ranger_academy_yellow","ranger_academy_yellow_belt")
                     .AddToTabList(RangerTabs.RANGER_ACADEMY));
     public static final DeferredItem<Item> RANGER_ACADEMY_PINK_POWER_COIN = ITEMS.register("ranger_academy_pink_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_pink","ranger_academy_pink_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","ranger_academy_pink","ranger_academy_pink_belt")
                     .AddToTabList(RangerTabs.RANGER_ACADEMY));
     public static final DeferredItem<Item> RANGER_ACADEMY_GREEN_POWER_COIN = ITEMS.register("ranger_academy_green_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ranger_academy_green","ranger_academy_green_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","ranger_academy_green","ranger_academy_green_belt")
                     .AddToTabList(RangerTabs.RANGER_ACADEMY));
 
     public static final DeferredItem<Item> RANGER_ACADEMY_HELMET = ITEMS.register("ranger_academy_head",
@@ -293,7 +293,7 @@ public class ComicsItems {
 
     //Unlimited
     public static final DeferredItem<Item> UNLIMITED_COMMUNICATOR = ITEMS.register("unlimited_communicator",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"_unlimited","mmpr_yellow","mmpr_yellow_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"_unlimited","mmpr_yellow","mmpr_yellow_belt")
             {
                 public void OnTransformation(ItemStack itemstack, LivingEntity player) {
                     super.OnTransformation(itemstack,player);

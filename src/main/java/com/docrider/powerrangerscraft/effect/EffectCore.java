@@ -122,6 +122,9 @@ public class EffectCore {
     public static final Holder<MobEffect> NINJA_SMOKE= EFFECT.register("ninja_smoke",
             () -> new NinjaSmokeEffect(MobEffectCategory.NEUTRAL, 0xf7fada));
 
+    public static final Holder<MobEffect> FORM_TIMEOUT = EFFECT.register("form_timeout",
+            () -> new UncurableEffect(MobEffectCategory.HARMFUL, 0xffffff));
+
     public static final Holder<MobEffect> FORM_LOCK = EFFECT.register("form_lock",
             () -> new UncurableEffect(MobEffectCategory.HARMFUL, 0xffffff));
 

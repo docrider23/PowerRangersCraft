@@ -17,16 +17,16 @@ public class NinjaStormItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.NINJA_STORM));
 
     public static final DeferredItem<Item> RED_WIND_NINJA_POWER_DISK = ITEMS.register("red_wind_ninja_power_disk",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ninja_storm_red","ninja_storm_red_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","ninja_storm_red","ninja_storm_red_belt")
                     .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.NINJA_STORM));
     public static final DeferredItem<Item> BLUE_WIND_NINJA_POWER_DISK = ITEMS.register("blue_wind_ninja_power_disk",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","ninja_storm_blue","ninja_storm_blue_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","ninja_storm_blue","ninja_storm_blue_belt")
                     .ChangeBeltModel("geo/rangerbelt1.geo.json").AddToTabList(RangerTabs.NINJA_STORM));
     public static final DeferredItem<Item> GREEN_SAMURAI_NINJA_POWER_DISK_SOLAR = ITEMS.register("green_samurai_ninja_power_disk_solar",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","solar_green","blank")
-                    .IsGlowing());
+            () -> new RangerFormChangeItem(new Item.Properties(),"","solar_green","blank")
+                    .isGlowing());
     public static final DeferredItem<Item> GREEN_SAMURAI_NINJA_POWER_DISK = ITEMS.register("green_samurai_ninja_power_disk",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","green_samurai_ranger","green_samurai_ranger_belt")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","green_samurai_ranger","green_samurai_ranger_belt")
                     .addAlternative(GREEN_SAMURAI_NINJA_POWER_DISK_SOLAR.get()).AddToTabList(RangerTabs.NINJA_STORM));
 
     public static final DeferredItem<Item> NINJA_STORM_HELMET = ITEMS.register("ninja_storm_head",

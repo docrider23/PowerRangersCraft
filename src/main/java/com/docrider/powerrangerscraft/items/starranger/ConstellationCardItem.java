@@ -13,8 +13,8 @@ import net.minecraft.world.level.Level;
 
 public class ConstellationCardItem extends RangerFormChangeItem {
 
-    public ConstellationCardItem(Properties properties, int belt, String formName, String ridername, String beltTex, MobEffectInstance... effects) {
-        super( properties, belt, formName, ridername, beltTex, effects);
+    public ConstellationCardItem(Properties properties, String formName, String ridername, String beltTex, MobEffectInstance... effects) {
+        super( properties, formName, ridername, beltTex, effects);
     }
 
     public InteractionResultHolder<ItemStack> use(Level p_41128_, Player p_41129_, InteractionHand p_41130_) {
@@ -33,7 +33,7 @@ public class ConstellationCardItem extends RangerFormChangeItem {
                 if (this == StarrangerItems.LUNAR_CONSTELLATION_CARD.get())
                 {
                     ItemStack itemstack1 = new ItemStack(StarrangerItems.COSMO_SABER_GOLD.get(), 1);
-                    RangerChangerItem.set_Form_Item(itemstack1, StarrangerItems.LUNAR_CONSTELLATION_CARD.get(), 1);
+                    RangerChangerItem.setFormItem(itemstack1, StarrangerItems.LUNAR_CONSTELLATION_CARD.get(), 1);
                     p_41129_.setItemSlot(EquipmentSlot.FEET, itemstack1);
                 }
 

@@ -21,54 +21,54 @@ public class OperationOverdriveItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
     public static final DeferredItem<Item> OVERDRIVE_RED_LOGO = ITEMS.register("overdrive_red_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","overdrive_red","operation_overdrive_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","overdrive_red","operation_overdrive_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").IsGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").isGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
     public static final DeferredItem<Item> OVERDRIVE_BLACK_LOGO = ITEMS.register("overdrive_black_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","overdrive_black","operation_overdrive_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","overdrive_black","operation_overdrive_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").IsGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").isGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
     public static final DeferredItem<Item> OVERDRIVE_BLUE_LOGO = ITEMS.register("overdrive_blue_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","overdrive_blue","operation_overdrive_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","overdrive_blue","operation_overdrive_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
                     new MobEffectInstance(EffectCore.SHOTBOOST, 40, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").IsGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").isGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
     public static final DeferredItem<Item> OVERDRIVE_YELLOW_LOGO = ITEMS.register("overdrive_yellow_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","overdrive_yellow","operation_overdrive_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","overdrive_yellow","operation_overdrive_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").IsGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").isGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
     public static final DeferredItem<Item> OVERDRIVE_PINK_LOGO = ITEMS.register("overdrive_pink_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","overdrive_pink","operation_overdrive_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","overdrive_pink","operation_overdrive_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 0,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").IsGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra.geo.json").isGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
     public static final DeferredItem<Item> MERCURY_RANGER_LOGO = ITEMS.register("mercury_ranger_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","mercury_ranger","mercury_ranger_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","mercury_ranger","mercury_ranger_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 3,true,false),
                     new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 2,true,false))
-                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra1.geo.json").IsGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+                    .alsoChange2ndSlot(OtherItems.BLANK_FORM.get()).ChangeBeltModel("geo/rangerbeltextra1.geo.json").isGlowing().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
     public static final DeferredItem<Item> UNFINISHED_SENTINEL_SWORD = ITEMS.register("unfinished_sentinel_sword",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","sentinel_knight","blank",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","sentinel_knight","blank",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 0,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
@@ -79,10 +79,10 @@ public class OperationOverdriveItems {
             () -> new BaseItem(new Item.Properties().rarity(Rarity.RARE)).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
         public static final DeferredItem<Item> DEFENDER_VEST = ITEMS.register("defender_vest",
-            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"overdrive_defender_vest","","operation_overdrive_belt",
+            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),"overdrive_defender_vest","","operation_overdrive_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 3,true,false))
-                    .ChangeSlot(2).BackToBase().AddCompatibilityList(RANGERS).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
+                    .ChangeSlot(2).ResetFormToBase().addCompatibilityList(RANGERS).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
     public static final DeferredItem<Item> OPERATION_OVERDRIVE_HELMET = ITEMS.register("operation_overdrive_head",
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
@@ -114,20 +114,20 @@ public class OperationOverdriveItems {
                     .Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
     public static final DeferredItem<Item> SENTINEL_MORPHER_HYPERFORCE = ITEMS.register("sentinel_morpher_hyperforce",
-            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_sentinel","hyperforce_black","blank",
+            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),"_sentinel","hyperforce_black","blank",
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0, true, false),
                     new MobEffectInstance(EffectCore.SLASH, 40, 2, true, false),
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false))
                     .ChangeModel("sentinel_ranger.geo.json"));
     public static final DeferredItem<Item> SENTINEL_MORPHER = ITEMS.register("sentinel_morpher",
-            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),0,"_sentinel","overdrive_red","blank",
+            () -> new RangerFormChangeItem(new Item.Properties().rarity(Rarity.RARE),"_sentinel","overdrive_red","blank",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0,true,false),
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false))
-                    .BackToBase().addAlternative(SENTINEL_MORPHER_HYPERFORCE.get())
+                    .ResetFormToBase().addAlternative(SENTINEL_MORPHER_HYPERFORCE.get())
                     .ChangeModel("sentinel_ranger.geo.json").KeepItem().AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
     public static final DeferredItem<BaseBlasterItem> DRIVE_DEFENDER = ITEMS.register("drive_defender",
@@ -187,7 +187,7 @@ public class OperationOverdriveItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.OPERATION_OVERDRIVE));
 
     public static final DeferredItem<Item> Z_EMBLEM_THRAX = ITEMS.register("z_emblem_thrax",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","thrax","blank")
+            () -> new RangerFormChangeItem(new Item.Properties(),"","thrax","blank")
                     .ChangeModel("thrax.geo.json"));
     public static final DeferredItem<Item> THRAX_CODPIECE = ITEMS.register("thrax_codpiece",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"thrax", Z_EMBLEM_THRAX, OPERATION_OVERDRIVE_HELMET, OPERATION_OVERDRIVE_CHESTPLATE, OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties()).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));

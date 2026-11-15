@@ -1,43 +1,39 @@
 package com.docrider.powerrangerscraft.items.others;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.client.renderer.armor.render_layer.render_layer_info.RenderLayerInfo;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.entity.summon.BaseSummonEntity;
+import com.docrider.powerrangerscraft.items.OtherItems;
+import com.docrider.powerrangerscraft.world.attribute.PRCAttributes;
 import com.google.common.collect.Lists;
-import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponents;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.CustomData;
-import net.minecraft.world.item.component.ItemContainerContents;
 import net.minecraft.world.level.Level;
+import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.registries.DeferredItem;
-import org.jetbrains.annotations.Nullable;
+import software.bernie.geckolib.cache.texture.AutoGlowingTexture;
 
-import java.time.LocalDate;
-import java.time.temporal.ChronoField;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
+import java.util.Objects;
 import java.util.function.Consumer;
+
+import static com.docrider.powerrangerscraft.world.attribute.PRCAttributes.IS_TRANSFORMING;
 
 public class RangerChangerItem extends RangerArmorItem{
 
@@ -99,11 +95,18 @@ public class RangerChangerItem extends RangerArmorItem{
         return false;
     }
 
+    public static Boolean isTransformingFromBlank(ItemStack itemStack, LivingEntity rider) {
+        RangerFormChangeItem form = get_Form_Item(itemStack, 1);
+        Double form_time = form.getHenshinTick();
+        return get_Form_Item(itemStack, 1, form_time + 1) == OtherItems.BLANK_FORM.asItem()&isTransforming(rider) ;
+    }
+
     public static double getRenderType(ItemStack stack) {
         double form_double = 1;
         RangerFormChangeItem form = get_Form_Item(stack, 1);
-        if (form.get_Show_Face())form_double=2;
-        if (form.get_Show_under())form_double=3;
+        if (form.getShowFace())form_double=2;
+        if (form.getShowUnder())form_double=3;
+        if (form.getShowPlayer())form_double=0;
         return form_double ;
     }
 
@@ -226,26 +229,20 @@ public class RangerChangerItem extends RangerArmorItem{
     }
 
 
-    public String GET_TEXT(ItemStack itemstack, EquipmentSlot equipmentSlot, LivingEntity ranger, String rangerName)
-    {
+    public String GET_TEXT(ItemStack itemStack, EquipmentSlot equipmentSlot, LivingEntity rider, String rangerName) {
+        double henshin_tick = getHenshinTick(itemStack, rider);
+        boolean fly = rider.getAttribute(PRCAttributes.WINGS_OUT).getBaseValue() == 1;
 
-        boolean fly = ranger instanceof Player player && player.getAbilities().flying;
 
         if (equipmentSlot == EquipmentSlot.FEET) {
-            String belt = ((RangerChangerItem)itemstack.getItem()).BELT_TEXT;
-            if (!isTransformed(ranger)) {
-                return "blank";
+            String belt = ((RangerChangerItem) itemStack.getItem()).BELT_TEXT;
+            if (((RangerChangerItem) itemStack.getItem()).BELT_TEXT == null || get_Form_Item(itemStack, 1).getIgnoreOverrideBeltText()) {
+                belt = get_Form_Item(itemStack, 1).getBeltTex();
             }
-            else {
-                if (((RangerChangerItem) itemstack.getItem()).BELT_TEXT == null) {
-                    belt = get_Form_Item(itemstack, 1).getBeltTex();
-                }
-            }
-            return "belts/"+belt;
+            return "belts/" + belt;
+        } else {
+            return get_Form_Item(itemStack, 1, henshin_tick).getRangerName(rangerName) + get_Form_Item(itemStack, 1, henshin_tick).getFormName(fly);
         }
-
-        else return get_Form_Item(itemstack,1).getRangerName(rangerName)+get_Form_Item(itemstack,1).getFormName(fly);
-
     }
 
     public String getUnlimitedTextures(ItemStack itemstack, LivingEntity ranger, String rangerName ,int num)
@@ -253,16 +250,56 @@ public class RangerChangerItem extends RangerArmorItem{
         return "blank";
     }
 
+    public String getUnlimitedBeltTextures(ItemStack itemStack, LivingEntity rider, String riderName, int num) {
+        return "blank";
+    }
+
+    public void SetUnlimitedModels(List<RenderLayerInfo> layerInfo, ItemStack itemStack, LivingEntity rider, EquipmentSlot slot) {
+
+        //if(slot==EquipmentSlot.HEAD&isTransformed(rider))layerInfo.add(new RenderLayerInfo("ferbus", "ferbus"));
+        //if(slot==EquipmentSlot.HEAD&isTransformed(rider))layerInfo.add(new ModuleRenderLayerInfo("ferbus", "ferbus", Color.MAGENTA.getColor(),1));
+
+        double henshin_tick = getHenshinTick(itemStack, rider);
+        for (int n = 0; n < Num_Base_Form_Item; n++) {
+            RangerFormChangeItem form = get_Form_Item(rider.getItemBySlot(EquipmentSlot.FEET), n + 1, henshin_tick);
+            form.SetUnlimitedModels(layerInfo, itemStack, rider, slot);
+        }
+
+        if (slot == EquipmentSlot.FEET) {
+            String texture = GET_TEXT(itemStack, EquipmentSlot.FEET, rider, Rider);
+            ResourceLocation location = ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "textures/" + texture + ".png");
+            if (this.getGlowForSlot(itemStack, EquipmentSlot.FEET, rider)) {
+                if (ModList.get().isLoaded("iris")) {
+                    layerInfo.add(new RenderLayerInfo(AutoGlowingTexture.getRenderType(location), null));
+                } else {
+                    layerInfo.add(new RenderLayerInfo(texture, null, texture + "_glowmask"));
+                }
+            }
+
+            if (Unlimited_Belt_Textures != 0) {
+                for (int n = 0; n < Unlimited_Belt_Textures; n++) {
+                    layerInfo.add(new RenderLayerInfo("belts/" + getUnlimitedBeltTextures(itemStack, rider, this.Rider, n + 1), null));
+                }
+            }
+        } else if (Unlimited_Belt_Textures != 0 & slot == EquipmentSlot.HEAD & isTransformed(rider)) {
+            for (int n = 0; n < Unlimited_Textures; n++) {
+                layerInfo.add(new RenderLayerInfo(getUnlimitedTextures(itemStack, rider, this.Rider, n + 1), null));
+            }
+        }
+
+
+    }
+
     public ResourceLocation getBeltModelResource(ItemStack itemstack,RangerArmorItem animatable, EquipmentSlot slot, LivingEntity ranger) {
-        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, get_Form_Item(itemstack, 1).get_Belt_Model());
+        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, get_Form_Item(itemstack, 1).getBeltModel());
     }
 
 
     public ResourceLocation getModelResource(ItemStack itemstack,RangerArmorItem animatable, EquipmentSlot slot, LivingEntity ranger) {
-        if (get_Form_Item(itemstack, 1).HasWingsIfFlying() && ranger instanceof Player player && player.getAbilities().flying){
-            return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).get_FlyingModel(this.Rider));
+        if (get_Form_Item(itemstack, 1).hasWingsIfFlying() && ranger instanceof Player player && player.getAbilities().flying){
+            return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).getFlyingModel(this.Rider));
         }
-        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).get_Model(this.Rider));
+        return ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+get_Form_Item(itemstack, 1).getModel(this.Rider));
     }
 
 
@@ -274,10 +311,10 @@ public class RangerChangerItem extends RangerArmorItem{
             if (belt.Num_Base_Form_Item!=1) {
                 for (int n = 0; n < belt.Num_Base_Form_Item-1; n++)
                 {
-                    set_Form_Item( itemstack,belt.Extra_Base_Form_Item.get(n),2+n);
+                    setFormItem( itemstack,belt.Extra_Base_Form_Item.get(n),2+n);
                 }
             }
-            set_Form_Item( itemstack,belt.Base_Form_Item,1);
+            setFormItem( itemstack,belt.Base_Form_Item,1);
 
         }
     }
@@ -308,32 +345,107 @@ public class RangerChangerItem extends RangerArmorItem{
     }
 
 
-    public static void set_Form_Item(ItemStack itemstack, Item ITEM,int SLOT)
-    {
-        if (!itemstack.has(DataComponents.CUSTOM_DATA)) itemstack.set(DataComponents.CUSTOM_DATA, CustomData.EMPTY);
-        if (itemstack.getItem() instanceof RangerChangerItem changer) {
+    public static void setFormItem(ItemStack itemStack, Item item, int slot) {
+        if (!itemStack.has(DataComponents.CUSTOM_DATA)) {
+            set_Update_Form(itemStack);
+        }
+        if (itemStack.getItem() instanceof RangerChangerItem driver) {
             Consumer<CompoundTag> data = form -> {
-                if (!form.getString("slot_tex" + SLOT).equals(ITEM.toString())) {
-                    form.putString("slot_tex" + SLOT, ITEM.toString());
+                if (!form.getString("slot_tex" + slot).equals(item.toString())) {
+                    form.putString("slot_tex" + slot, item.toString());
+                    form.putDouble("changed_form_slot", slot);
                     form.putBoolean("Update_form", true);
-                    form.putDouble("render_type", getRenderType(itemstack));
                 }
             };
-
-            CustomData.update(DataComponents.CUSTOM_DATA, itemstack, data);
-            changer.Extra_set_Form_Item(itemstack, ITEM, SLOT, itemstack.get(DataComponents.CUSTOM_DATA).copyTag());
+            CustomData.update(DataComponents.CUSTOM_DATA, itemStack, data);
+            driver.setExtraFormItem(itemStack, item, slot, itemStack.get(DataComponents.CUSTOM_DATA).copyTag());
         }
     }
 
 
-    public void Extra_set_Form_Item(ItemStack itemstack, Item ITEM,int SLOT,CompoundTag  tag)
-    {
+    public static void setFormItemNoExtra(ItemStack itemStack, Item item, int slot) {
+        if (!itemStack.has(DataComponents.CUSTOM_DATA)) {
+            set_Update_Form(itemStack);
+        }
+        if (itemStack.getItem() instanceof RangerChangerItem driver) {
+            Consumer<CompoundTag> data = form -> {
+                if (!form.getString("slot_tex" + slot).equals(item.toString())) {
+                    form.putString("slot_tex" + slot, item.toString());
+                    form.putBoolean("Update_form", true);
+                }
+            };
+            CustomData.update(DataComponents.CUSTOM_DATA, itemStack, data);
+        }
     }
 
+    public static void revertFormItem(ItemStack itemStack, int slot) {
+        Item form = RangerChangerItem.get_Form_Item(itemStack, 1, 200);
+        if (form != OtherItems.BLANK_FORM.asItem()) {
+            RangerChangerItem.setFormItem(itemStack, RangerChangerItem.get_Form_Item(itemStack, 1, 200), slot);
+        } else {
+            RangerChangerItem.reset_Form_Item(itemStack);
+        }
+    }
+
+    public static void updateOldFormItem(ItemStack itemStack) {
+        if (!itemStack.has(DataComponents.CUSTOM_DATA)) {
+            set_Update_Form(itemStack);
+        }
+        if (itemStack.getItem() instanceof RangerChangerItem driver) {
+            Consumer<CompoundTag> data = form -> {
+                for (int n = 1; n <= driver.Num_Base_Form_Item; n++) {
+                    form.putString("slot_tex_old" + n, form.getString("slot_tex" + n));
+                }
+            };
+            CustomData.update(DataComponents.CUSTOM_DATA, itemStack, data);
+        }
+    }
+
+    public static void updateOldFormItemSlot(ItemStack itemStack, int slot) {
+        if (!itemStack.has(DataComponents.CUSTOM_DATA)) {
+            set_Update_Form(itemStack);
+        }
+        if (itemStack.getItem() instanceof RangerChangerItem driver) {
+            Consumer<CompoundTag> data = form -> {
+                form.putString("slot_tex_old" + slot, form.getString("slot_tex" + slot));
+            };
+            CustomData.update(DataComponents.CUSTOM_DATA, itemStack, data);
+        }
+    }
+
+    public static void setOldFormItem(ItemStack itemStack, Item formItem, int slot) {
+        if (!itemStack.has(DataComponents.CUSTOM_DATA)) {
+            set_Update_Form(itemStack);
+        }
+        if (itemStack.getItem() instanceof RangerChangerItem) {
+            Consumer<CompoundTag> data = form -> {
+                form.putString("slot_tex_old" + slot, formItem.toString());
+            };
+            CustomData.update(DataComponents.CUSTOM_DATA, itemStack, data);
+        }
+    }
+
+    public void setExtraFormItem(ItemStack itemStack, Item ITEM, int SLOT, CompoundTag tag) {
+    }
+
+    public double getHenshinTick(ItemStack itemStack, LivingEntity rider) {
+        double transformingTick = Objects.requireNonNull(rider.getAttribute(IS_TRANSFORMING)).getBaseValue();
+        if (itemStack.has(DataComponents.CUSTOM_DATA)) {
+            CompoundTag tag = Objects.requireNonNull(itemStack.get(DataComponents.CUSTOM_DATA)).getUnsafe();
+            if (tag.getBoolean("Update_form")) {
+                transformingTick = getBaseHenshinTick(itemStack,rider);
+            }
+        }
+        return transformingTick;
+    }
+
+    public double getBaseHenshinTick(ItemStack stack, LivingEntity ride){
+        return get_Form_Item(stack, 1).getHenshinTick();
+    }
 
     public  boolean getGlowForSlot(ItemStack itemstack,EquipmentSlot currentSlot, LivingEntity livingEntity) {
-        if (currentSlot== EquipmentSlot.FEET) return get_Form_Item(itemstack, 1).get_Is_Belt_Glowing();
-        else if (isTransformed(livingEntity)) return get_Form_Item(itemstack, 1).get_Is_Glowing();
+        if (currentSlot== EquipmentSlot.FEET) return get_Form_Item(itemstack, 1).getIsBeltGlowing();
+        else if (isTransformed(livingEntity)) return get_Form_Item(itemstack, 1).getIsGlowing();
         return false;
     }
     public void openInventory(ServerPlayer player, InteractionHand hand, ItemStack itemstack) {
@@ -376,24 +488,35 @@ public class RangerChangerItem extends RangerArmorItem{
     }
 
 
-    public static RangerFormChangeItem get_Form_Item(ItemStack itemstack,int SLOT) {
+    public static RangerFormChangeItem get_Form_Item(ItemStack itemstack,int SLOT, double num) {
 
         RangerChangerItem belt = (RangerChangerItem) itemstack.getItem();
         RangerFormChangeItem Base_Form_Item = (SLOT>=2 ? belt.Extra_Base_Form_Item.get(SLOT-2) : belt.Base_Form_Item);
 
         if (itemstack.has(DataComponents.CUSTOM_DATA)) {
-            CompoundTag tag = itemstack.get(DataComponents.CUSTOM_DATA).getUnsafe();
-            ResourceLocation Used_Form_Item = ResourceLocation.parse(tag.getString("slot_tex" + SLOT));
-            if (BuiltInRegistries.ITEM.get(Used_Form_Item) instanceof RangerFormChangeItem formItem) {
+            CompoundTag tag = Objects.requireNonNull(itemstack.get(DataComponents.CUSTOM_DATA)).getUnsafe();
+            ResourceLocation UsedFormItem = ResourceLocation.parse(tag.getString("slot_tex" + SLOT));
+            ResourceLocation UsedFormItemOld = ResourceLocation.parse(tag.getString("slot_tex_old" + SLOT));
+            if (BuiltInRegistries.ITEM.get(UsedFormItem) instanceof RangerFormChangeItem formItem) {
+                if (BuiltInRegistries.ITEM.get(UsedFormItemOld) instanceof RangerFormChangeItem formItem2 && (num > formItem.getFormDelay())) {
+                    return formItem2;
+
+                } else if (num > formItem.getFormDelay()) {
+                    return (RangerFormChangeItem) OtherItems.BLANK_FORM.asItem();
+                }
                 return formItem;
             }
         }
         return Base_Form_Item;
     }
 
+    public static RangerFormChangeItem get_Form_Item(ItemStack itemStack, int slot) {
+        return get_Form_Item(itemStack, slot, 0d);
+    }
+
     public boolean HasCpae(ItemStack itemstack) {
         for (int n = 0; n < Num_Base_Form_Item; n++) {
-            if(get_Form_Item(itemstack, n + 1).get_has_cape())return true;
+            if(get_Form_Item(itemstack, n + 1).getHasCape())return true;
         }
         return false;
     }

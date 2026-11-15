@@ -3,8 +3,10 @@ package com.docrider.powerrangerscraft.items.others;
 
 import com.google.common.collect.Lists;
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
+import com.docrider.powerrangerscraft.client.renderer.armor.render_layer.render_layer_info.RenderLayerInfo;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.OtherItems;
+import com.docrider.powerrangerscraft.world.attribute.PRCAttributes;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.particles.ParticleTypes;
@@ -20,8 +22,8 @@ import net.minecraft.world.entity.decoration.ArmorStand;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.NotNull;
 import software.bernie.geckolib.cache.GeckoLibCache;
 
 import javax.annotation.Nullable;
@@ -30,78 +32,100 @@ import java.util.List;
 import java.util.Objects;
 
 public class RangerFormChangeItem extends BaseItem {
-
-    private String FORM_NAME;
-    private int Slot =1;
-    private int OffhandSlot=10;
-    private Boolean Offhand = false;
+    private String formName;
+    private int slot = 1;
+    private int offhandSlot = 10;
+    private Boolean offhand = false;
 
     private List<MobEffectInstance> potionEffectList;
-    private int BELT;
-    private List<Item> NEEDITEM = new ArrayList<Item>();
-    protected String RANGER_NAME;
-    protected String OVERRIDE_RANGER_NAME;
+    private List<Item> needItem = new ArrayList<>();
+    protected String riderName;
+    protected String overrideRangerName;
 
-    private String BELT_TEX;
-    private Boolean IS_GLOWING = false;
-    private Boolean IS_BELT_GLOWING = false;
-    private Boolean HAS_STATIC_WINGS = false;
-    private String UPDATED_BELT_MODEL;
-    private String UPDATED_MODEL;
-    private String FLYING_MODEL;
-    private Boolean SET_PLAYER_MODEL_INVISIBLE = false;
-    private Boolean SET_SHOW_FACE = false;
-    private Boolean SET_SHOW_UNDER = false;
+    private String beltTex;
+    private Boolean isGlowing = false;
+    private Boolean isBeltGlowing = false;
+    private Boolean hasStaticWings = false;
+    private String updatedBeltModel;
+    private String updatedModel;
+    private String flyingModel;
+    private Boolean setShowFace = false;
+    private Boolean setShowUnder = false;
+    private Boolean setShowPlayer = false;
 
-    private Boolean USE_WALK = false;
-    private Boolean USE_BIKE = false;
-    private Boolean HAS_CAPE = false;
+    private Boolean useWalk = false;
+    private Boolean useBike = false;
+    private Boolean hasCape = false;
+
 
     private Boolean A1 = false;
+    private Boolean SD = false;
 
-    private Boolean FLYING_TEXT = false;
-    private Item SHIFT_ITEM = Items.APPLE;
-    private Item SWITCH_ITEM;
-    private Boolean RESET_FORM = false;
-    private Boolean RESET_FORM_MAIN = false;
+    private Boolean flyingText = false;
+    private Item shiftItem;
+    private Item switchItem;
+    private Boolean resetForm = false;
+    private Boolean resetToMainForm = false;
+    private Boolean attackForm = false;
 
-    private Boolean SET_TO_ARMOR_FORM = false;
+    private Boolean isGold = false;
+    private Boolean snowWalk = false;
 
-    private List<RangerFormChangeItem> alternative = new ArrayList<RangerFormChangeItem>();
+    private Boolean setToArmorForm = false;
+
+    private List<RangerFormChangeItem> alternative = new ArrayList<>();
     private RangerFormChangeItem alsoChange1stSlot;
     private RangerFormChangeItem alsoChange2ndSlot;
     private RangerFormChangeItem alsoChange3rdSlot;
     private RangerFormChangeItem alsoChange4thSlot;
     private RangerFormChangeItem alsoChange5thSlot;
 
+    private RangerFormChangeItem alsoUpdateOld;
+
     private Boolean hasIncompatibleForms = false;
-    private List<RangerFormChangeItem> incompatibleForms= new ArrayList<RangerFormChangeItem>();
+    private List<RangerFormChangeItem> incompatibleForms = new ArrayList<>();
 
-    public String[] compatibilityList= new String[] {""};
-    public List<Item> needItemList = new ArrayList<Item>();
+    public String[] compatibilityList = new String[]{""};
+    public List<Item> needItemList = new ArrayList<>();
 
-    private Boolean NEED_BASE_FORM = false;
-    private RangerFormChangeItem NEED_FORM_SLOT_1;
-    private RangerFormChangeItem NEED_FORM_SLOT_2;
-    private RangerFormChangeItem NEED_FORM_SLOT_3;
-    private RangerFormChangeItem NEED_FORM_SLOT_4;
+    private Boolean needBaseForm = false;
+    private RangerFormChangeItem needFormSlot1;
+    private RangerFormChangeItem needFormSlot2;
+    private RangerFormChangeItem needFormSlot3;
+    private RangerFormChangeItem needFormSlot4;
+    private RangerFormChangeItem needFormSlot5;
 
-    private int timeoutDuration=0;
-    private int lockDuration=0;
-    private RangerFormChangeItem REVERT_FORM;
+    private int timeoutDuration = 0;
+    private int lockDuration = 0;
+    private RangerFormChangeItem revertForm;
 
-    private Boolean IGNORE_BELT_TEXT = false;
+    private Boolean ignoreBeltText = false;
 
-    private int Store_num =1;
+    private int storeNum = 1;
 
-    public RangerFormChangeItem(Properties properties, int belt, String formName, String rangername, String beltTex, MobEffectInstance... effects) {
-        super( properties);
+    private String slotOneAbility = "";
+    private int slotOneAbilityPriority = 0;
+    private String slotTwoAbility = "";
+    private int slotTwoAbilityPriority = 0;
+
+    private String glidingPosition = "";
+    private String flyingPosition = "";
+
+    private String modifiedPosition = "";
+    private String modifiedPositionLayer = "postion_1";
+    private List<String> modifiedPositionConditions;
+
+
+    private Double formDelay = 30d;
+    private Double henshinTick = 30d;
+
+    public RangerFormChangeItem(Properties properties, String formName, String riderName, String beltTex, MobEffectInstance... effects) {
+        super(properties);
 
         potionEffectList = Lists.newArrayList(effects);
-        FORM_NAME = formName;
-        BELT_TEX = beltTex;
-        BELT = belt;
-        RANGER_NAME = rangername;
+        this.formName = formName;
+        this.beltTex = beltTex;
+        this.riderName = riderName;
     }
 
 
@@ -110,158 +134,292 @@ public class RangerFormChangeItem extends BaseItem {
     }
 
     public int getSlot() {
-        return Slot;
-    }
-
-    public int getBelt() {
-        return BELT;
+        return slot;
     }
 
     public String getFormName(Boolean isFlying) {
-        return (isFlying&FLYING_TEXT ? FORM_NAME+"_wing" : FORM_NAME);
+        return (isFlying & flyingText ? formName + "_wing" : formName);
     }
 
     public String getRangerName(String name) {
-        return (OVERRIDE_RANGER_NAME!=null ? OVERRIDE_RANGER_NAME : name);
+        return (overrideRangerName != null ? overrideRangerName : name);
     }
-
-    public Boolean getRESET_FORM(){return RESET_FORM;}
-
-    public Item getSHIFT_ITEM(){return SHIFT_ITEM;}
 
     public RangerFormChangeItem getAlsoChange2ndSlot(){return alsoChange2ndSlot;}
 
     public String getBeltTex() {
-        return BELT_TEX;
+        return beltTex;
     }
 
-    public List<RangerFormChangeItem> getAlternative () {
+    public Double getFormDelay() {
+        return formDelay;
+    }
+
+    public Double getHenshinTick() {
+        return henshinTick;
+    }
+
+    public List<RangerFormChangeItem> getAlternative() {
         return alternative;
     }
 
 
     public Boolean getIgnoreOverrideBeltText() {
-        return IGNORE_BELT_TEXT;
+        return ignoreBeltText;
     }
 
-    public String get_Belt_Model() {
-        return (UPDATED_BELT_MODEL!=null ? UPDATED_BELT_MODEL : "geo/rangerbelt.geo.json");
+    public String getBeltModel() {
+        return (updatedBeltModel!=null ? updatedBeltModel : "geo/rangerbelt.geo.json");
     }
 
-    public String get_Model(String rangerName) {
-        if (UPDATED_MODEL!=null) return UPDATED_MODEL;
-        ResourceLocation FORM_MODEL = ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+getRangerName(rangerName)+FORM_NAME+".geo.json");
-        return (GeckoLibCache.getBakedModels().get(FORM_MODEL)!=null ? getRangerName(rangerName)+FORM_NAME+".geo.json" : (get_Has_Static_Wings() ? "rangerwing.geo.json" : "ranger.geo.json"));
+    public String getModel(String riderName) {
+        if (updatedModel != null) {
+            return updatedModel;
+        }
+        ResourceLocation FORM_MODEL = ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo" + getRangerName(riderName) + formName + ".geo.json");
+        return (GeckoLibCache.getBakedModels().get(FORM_MODEL) != null ? getRangerName(riderName) + formName + ".geo.json" : (getHasStaticWings() ? "rangerwing.geo.json" : "ranger.geo.json"));
     }
 
-    public Boolean get_Show_Face() {
-        return SET_SHOW_FACE;
+    public Boolean getShowFace() {
+        return setShowFace;
     }
 
-    public Boolean get_Show_under() {
-        return SET_SHOW_UNDER;
+    public Boolean getShowUnder() {
+        return setShowUnder;
     }
 
-    public Boolean get_Is_Glowing() {
-        return IS_GLOWING;
+    public Boolean getShowPlayer() {
+        return setShowPlayer;
     }
 
-    public Boolean get_a1() {
+    public Boolean getA1() {
         return A1;
     }
-    public Boolean get_has_cape() {
-        return HAS_CAPE;
-    }
-    public Boolean get_Walk() {
-        return USE_WALK;
-    }
-    public Boolean get_is_Bike() {
-        return USE_BIKE;
+
+    public Boolean getSD() {
+        return SD;
     }
 
-    public Boolean get_Is_Belt_Glowing() {
-        return IS_BELT_GLOWING;
+    public String getSlotOneAbility() {
+        return slotOneAbility.toLowerCase();
     }
 
-    public Boolean get_Has_Static_Wings() {
-        return HAS_STATIC_WINGS;
+    public int getSlotOneAbilityPriotiy() {
+        return slotOneAbilityPriority;
     }
 
-    public int get_Stored_num() {
-        return Store_num;
+    public String getSlotTwoAbility() {
+        return slotTwoAbility.toLowerCase();
     }
 
-    public String get_FlyingModel(String rangerName) {
-        if (FLYING_MODEL!=null) return FLYING_MODEL;
-        ResourceLocation FORM_MODEL = ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/"+getRangerName(rangerName)+FORM_NAME+"_wing.geo.json");
-        return (GeckoLibCache.getBakedModels().get(FORM_MODEL)!=null ? getRangerName(rangerName)+FORM_NAME+"_wing.geo.json" : "rangerwingbelt.geo.json");
-    }
-    public Boolean HasWingsIfFlying() {
-        return FLYING_TEXT;
+    public int getSlotTwoAbilityPriority() {
+        return slotTwoAbilityPriority;
     }
 
-    public RangerFormChangeItem AddIncompatibleForm(Item item) {
+    public Boolean getHasCape() {
+        return hasCape;
+    }
+
+    public Boolean getIsBike() {
+        return useBike;
+    }
+
+    public Boolean getIsBeltGlowing() {
+        return isBeltGlowing;
+    }
+
+    public Boolean getIsGlowing() {
+        return isGlowing;
+    }
+
+    public Boolean getHasStaticWings() {
+        return hasStaticWings;
+    }
+
+    public Boolean getIsResetForm() {
+        return resetForm;
+    }
+
+    public Boolean getIsResetFormMain() {
+        return resetToMainForm;
+    }
+
+    public Boolean GetIsAttackForm() {
+        return attackForm;
+    }
+
+    public Item getStiftItem() {
+        return shiftItem;
+    }
+
+    public int getStoredNum() {
+        return storeNum;
+    }
+
+    public String getFlyingModel(String riderName) {
+        if (flyingModel != null) {
+            return flyingModel;
+        }
+        ResourceLocation FORM_MODEL = ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo/armor/" + getRangerName(riderName) + formName + "_wing.geo.json");
+        return (GeckoLibCache.getBakedModels().get(FORM_MODEL) != null ? getRangerName(riderName) + formName + "_wing.geo.json" : "rider_plusbelt_and_wings.geo.json");
+    }
+
+    public Boolean hasWingsIfFlying() {
+        return flyingText;
+    }
+
+    public RangerFormChangeItem addIncompatibleForm(Item item) {
         incompatibleForms.add((RangerFormChangeItem) item);
-       hasIncompatibleForms=true;
+        hasIncompatibleForms = true;
         return this;
     }
 
     public RangerFormChangeItem alsoChange1stSlot(Item item) {
-        alsoChange1stSlot=  (RangerFormChangeItem) item;
+        alsoChange1stSlot = (RangerFormChangeItem) item;
         return this;
     }
 
     public RangerFormChangeItem alsoChange2ndSlot(Item item) {
-        alsoChange2ndSlot=  (RangerFormChangeItem) item;
+        alsoChange2ndSlot = (RangerFormChangeItem) item;
         return this;
     }
 
     public RangerFormChangeItem alsoChange3rdSlot(Item item) {
-        alsoChange3rdSlot=  (RangerFormChangeItem) item;
+        alsoChange3rdSlot = (RangerFormChangeItem) item;
         return this;
     }
 
     public RangerFormChangeItem alsoChange4thSlot(Item item) {
-        alsoChange4thSlot=  (RangerFormChangeItem) item;
+        alsoChange4thSlot = (RangerFormChangeItem) item;
         return this;
     }
 
     public RangerFormChangeItem alsoChange5thSlot(Item item) {
-        alsoChange5thSlot=  (RangerFormChangeItem) item;
+        alsoChange5thSlot = (RangerFormChangeItem) item;
+        return this;
+    }
+
+    public RangerFormChangeItem getAlsoUpdateOld(Item item) {
+        alsoUpdateOld = (RangerFormChangeItem) item;
         return this;
     }
 
     public RangerFormChangeItem ChangeRangerName(String name) {
-        OVERRIDE_RANGER_NAME=name;
+        overrideRangerName = name;
         return this;
     }
 
     public RangerFormChangeItem ChangeModel(String model) {
-        UPDATED_MODEL=model;
+        updatedModel = model;
         return this;
     }
 
-    public RangerFormChangeItem SetPalyerModelInvisible() {
-        SET_PLAYER_MODEL_INVISIBLE = true;
+    public RangerFormChangeItem setShowFace() {
+        setShowFace = true;
         return this;
     }
 
-    public RangerFormChangeItem SetShowFace() {
-        SET_SHOW_FACE = true;
+    public RangerFormChangeItem setShowUnder() {
+        setShowUnder = true;
         return this;
     }
-    public RangerFormChangeItem SetShowUnder() {
-        SET_SHOW_UNDER = true;
+
+    public RangerFormChangeItem setShowPlayer() {
+        setShowPlayer = true;
+        return this;
+    }
+
+    public RangerFormChangeItem setFormDelay(double num) {
+        formDelay = num;
+        return this;
+    }
+
+    public RangerFormChangeItem setHenshinTick(double num) {
+        henshinTick = num;
+        return this;
+    }
+
+    public RangerFormChangeItem isGold() {
+        isGold = true;
+        return this;
+    }
+
+    public RangerFormChangeItem canSnowWalk() {
+        snowWalk = true;
+        return this;
+    }
+
+    public RangerFormChangeItem setSlotOneAbility(String abilityChange, int abilityPriority) {
+        slotOneAbility = abilityChange.toLowerCase();
+        slotOneAbilityPriority = abilityPriority;
+        return this;
+    }
+
+    public RangerFormChangeItem setSlotTwoAbility(String abilityChange, int abilityPriority) {
+        slotTwoAbility = abilityChange.toLowerCase();
+        slotTwoAbilityPriority = abilityPriority;
+        return this;
+    }
+
+    public String getGlidingPosition() {
+        return glidingPosition;
+    }
+
+    public String getFlyingPosition() {
+        return flyingPosition;
+    }
+
+    public String getModifiedPosition() {
+        return modifiedPosition;
+    }
+
+    public String getModifiedPositionLayer() {
+        return modifiedPositionLayer;
+    }
+
+    public List<String> getPositionModifierConditions() {
+        return modifiedPositionConditions;
+    }
+
+    public RangerFormChangeItem setGlidingPosition(String poseName) {
+        glidingPosition = poseName.toLowerCase();
+        return this;
+    }
+
+    public RangerFormChangeItem setFlyingPosition(String poseName) {
+        flyingPosition = poseName.toLowerCase();
+        return this;
+    }
+
+    public RangerFormChangeItem setModifiedPosition(String poseName) {
+        modifiedPosition = poseName.toLowerCase();
+        return this;
+    }
+
+    public RangerFormChangeItem setModifiedPositionLayer(String positionLayer) {
+        modifiedPositionLayer = positionLayer.toLowerCase();
+        return this;
+    }
+
+    public RangerFormChangeItem setModifiedPositionConditions(String... conditions) {
+        ArrayList<String> newConditions = new ArrayList<>();
+        for (String condition : conditions) {
+            if (!condition.isEmpty()) {
+                condition = condition.toLowerCase();
+            }
+            newConditions.add(condition);
+        }
+        modifiedPositionConditions = newConditions;
         return this;
     }
 
     public RangerFormChangeItem ChangeBeltModel(String model) {
-        UPDATED_BELT_MODEL=model;
+        updatedBeltModel = model;
         return this;
     }
 
     public RangerFormChangeItem ChangeSlot(int slot) {
-        Slot=slot;
+        this.slot = slot;
         return this;
     }
 
@@ -274,29 +432,33 @@ public class RangerFormChangeItem extends BaseItem {
     }
 
     public RangerFormChangeItem getRevertForm() {
-        return this.REVERT_FORM;
+        return this.revertForm;
     }
 
     public RangerFormChangeItem hasTimeout(int timeout, int lock, RangerFormChangeItem revertsTo) {
         timeoutDuration = timeout;
         lockDuration = lock;
-        REVERT_FORM = revertsTo;
+        revertForm = revertsTo;
         return this;
     }
 
-    public RangerFormChangeItem AddNum(int num) {
-        Store_num=num;
+    public RangerFormChangeItem addNum(int num) {
+        storeNum = num;
         return this;
     }
-    public RangerFormChangeItem SetOffhandSlot(int slot) {
-        OffhandSlot=slot;
-        Offhand=true;
+
+    public RangerFormChangeItem setOffhandSlot(int slot) {
+        offhandSlot = slot;
+        offhand = true;
         return this;
     }
+
 
     public RangerFormChangeItem hasFlyingWings(@Nullable String model) {
-        FLYING_TEXT=true;
-        if (model!=null) FLYING_MODEL=model;
+        flyingText = true;
+        if (model != null) {
+            flyingModel = model;
+        }
         return this;
     }
 
@@ -306,138 +468,178 @@ public class RangerFormChangeItem extends BaseItem {
     }
 
     public RangerFormChangeItem ResetFormToBase() {
-        RESET_FORM=true;
-        return this;
-    }
-    public RangerFormChangeItem ResetFormToBaseIfMain() {
-        RESET_FORM_MAIN=true;
-        return this;
-    }
-    public RangerFormChangeItem SetFormToArmor() {
-        SET_TO_ARMOR_FORM=true;
+        resetForm = true;
         return this;
     }
 
-    public RangerFormChangeItem IsGlowing() {
-        IS_GLOWING=true;
+    public RangerFormChangeItem resetFormToBaseIfMain() {
+        resetToMainForm = true;
         return this;
     }
 
-    public RangerFormChangeItem HasCape() {
-        HAS_CAPE=true;
+    public RangerFormChangeItem isAttackForm() {
+        attackForm = true;
         return this;
     }
 
-    public RangerFormChangeItem IsWalk() {
-        USE_WALK=true;
+    public RangerFormChangeItem setFormToArmor() {
+        setToArmorForm = true;
         return this;
     }
 
-    public RangerFormChangeItem IsBike() {
-        USE_BIKE=true;
+    public RangerFormChangeItem isGlowing() {
+        isGlowing = true;
         return this;
     }
 
-    public RangerFormChangeItem IsA1() {
-        A1=true;
+    public RangerFormChangeItem hasCape() {
+        hasCape = true;
+        return this;
+    }
+
+    public RangerFormChangeItem isBike() {
+        useBike = true;
+        return this;
+    }
+
+
+    public RangerFormChangeItem isA1() {
+        A1 = true;
+        return this;
+    }
+
+    public RangerFormChangeItem hasSD() {
+        SD = true;
         return this;
     }
 
     public RangerFormChangeItem IsBeltGlowing() {
-        IS_BELT_GLOWING=true;
+        isBeltGlowing = true;
         return this;
     }
 
     public RangerFormChangeItem hasStaticWings() {
-        HAS_STATIC_WINGS=true;
+        hasStaticWings = true;
         return this;
     }
 
     public RangerFormChangeItem needBaseForm() {
-     NEED_BASE_FORM=true;
+        needBaseForm = true;
         return this;
     }
 
     public RangerFormChangeItem ignoreOverrideBeltText() {
-        IGNORE_BELT_TEXT =true;
+        ignoreBeltText = true;
         return this;
     }
 
-    public RangerFormChangeItem addNeedForm(Item  item) {
-    NEED_FORM_SLOT_1=((RangerFormChangeItem)item);
+    public RangerFormChangeItem addNeedForm(Item item) {
+        needFormSlot1 = ((RangerFormChangeItem) item);
         return this;
     }
 
-    public RangerFormChangeItem BackToBase() {
-        RESET_FORM=true;
-        return this;
-    }
+    public RangerFormChangeItem addNeedForm(Item item, int slot) {
 
-    public RangerFormChangeItem addNeedForm(Item  item, int slot) {
-
-        if (slot==1)NEED_FORM_SLOT_1=((RangerFormChangeItem)item);
-        else if (slot==2)NEED_FORM_SLOT_2=((RangerFormChangeItem)item);
-        else if (slot==3)NEED_FORM_SLOT_3=((RangerFormChangeItem)item);
-        else if (slot==4)NEED_FORM_SLOT_4=((RangerFormChangeItem)item);
+        if (slot == 1) {
+            needFormSlot1 = ((RangerFormChangeItem) item);
+        } else if (slot == 2) {
+            needFormSlot2 = ((RangerFormChangeItem) item);
+        } else if (slot == 3) {
+            needFormSlot3 = ((RangerFormChangeItem) item);
+        } else if (slot == 4) {
+            needFormSlot4 = ((RangerFormChangeItem) item);
+        } else if (slot == 5) {
+            needFormSlot5 = ((RangerFormChangeItem) item);
+        }
         return this;
     }
 
     public RangerFormChangeItem addNeedItem(Item item) {
-        NEEDITEM.add(item);
+        needItem.add(item);
         return this;
     }
 
     public RangerFormChangeItem addShiftForm(Item item) {
-        SHIFT_ITEM=item;
+        shiftItem = item;
         return this;
     }
 
     public RangerFormChangeItem addSwitchForm(Item item) {
-        SWITCH_ITEM=item;
+        switchItem = item;
         return this;
     }
 
-    public RangerFormChangeItem AddNeedItemList(List<Item> NEED_ITEM) {
-        needItemList=NEED_ITEM;
+    public RangerFormChangeItem addNeedItemList(List<Item> NEED_ITEM) {
+        needItemList = NEED_ITEM;
         return this;
     }
 
-    public RangerFormChangeItem AddCompatibilityList(String[] List) {
-        compatibilityList=List;
+    public RangerFormChangeItem addCompatibilityList(String[] List) {
+        compatibilityList = List;
         return this;
     }
 
 
-    public Boolean iscompatible(RangerChangerItem belt) {
-        if (belt.Rider.equals(RANGER_NAME)) return true;
-        for (String str : compatibilityList) {
-            if (str==belt.Rider) return true;
+    public Boolean isCompatible(RangerChangerItem belt) {
+        if (Objects.equals(belt.Rider, riderName)) {
+            return true;
         }
-        ItemStack itemstack=new ItemStack(belt);
-        return itemstack.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "form_change_item/works_with/" +RANGER_NAME+FORM_NAME)));
+        for (String str : compatibilityList) {
+            if (Objects.equals(str, belt.Rider)) {
+                return true;
+            }
+        }
+        ItemStack itemStack = new ItemStack(belt);
+        return itemStack.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "form_change_item/works_with/" + riderName + formName)));
     }
 
-	public boolean inventoryOrHolderContains(Player player, Item item) {
-		NonNullList<ItemStack> inv = NonNullList.create();
-		inv.addAll(player.getInventory().items);
-		inv.addAll(player.getInventory().armor);
-		inv.add(player.getInventory().offhand.getFirst());
+    public Boolean checkGold() {
+        return isGold;
+    }
 
-		if (player.getInventory().countItem(item)!=0) return true;
-		else for (int i = 0; i < inv.size(); i++) {
-			if (inv.get(i).has(DataComponents.CONTAINER)) {
-				for (ItemStack stack : inv.get(i).getComponents().get(DataComponents.CONTAINER).nonEmptyItems()) if (stack.getItem() == item) return true;
-			} else if (inv.get(i).has(DataComponents.BUNDLE_CONTENTS))
-				for (ItemStack stack : inv.get(i).getComponents().get(DataComponents.BUNDLE_CONTENTS).items()) if (stack.getItem() == item) return true;
-		}
-		return false;
-	}
+    public Boolean checkSnowWalk() {
+        return snowWalk;
+    }
+
+    public boolean inventoryOrHolderContains(Player player, Item item) {
+        NonNullList<ItemStack> inv = NonNullList.create();
+        inv.addAll(player.getInventory().items);
+        inv.addAll(player.getInventory().armor);
+        inv.add(player.getInventory().offhand.getFirst());
+
+        if (player.getInventory().countItem(item) != 0) {
+            return true;
+        } else {
+            for (ItemStack itemStack : inv) {
+                if (itemStack.has(DataComponents.CONTAINER)) {
+                    for (ItemStack stack : itemStack.getComponents().get(DataComponents.CONTAINER).nonEmptyItems())
+                        if (stack.getItem() == item) {
+                            return true;
+                        }
+                } else if (itemStack.has(DataComponents.BUNDLE_CONTENTS)) {
+                    for (ItemStack stack : itemStack.getComponents().get(DataComponents.BUNDLE_CONTENTS).items())
+                        if (stack.getItem() == item) {
+                            return true;
+                        }
+                }
+            }
+        }
+        return false;
+    }
 
     public Boolean canChange(Player player, RangerChangerItem belt, ItemStack stack) {
 
         if (this == OtherItems.BLANK_FORM.get()) {
-            //return true;
+            return true;
         }
+        if (this.GetIsAttackForm() && Objects.requireNonNull(player.getAttribute(PRCAttributes.IS_TRANSFORMING)).getValue() != 0) {
+            return false;
+        }
+        if (this.GetIsAttackForm() && !belt.isTransformed(player)) {
+            return false;
+        }
+
+
         if (hasIncompatibleForms) {
             for (RangerFormChangeItem incompatibleForm : incompatibleForms) {
                 int num_forms = belt.Num_Base_Form_Item;
@@ -448,67 +650,110 @@ public class RangerFormChangeItem extends BaseItem {
                 }
             }
         }
-        if (!iscompatible(belt)) {
+        if (!isCompatible(belt)) {
             return false;
         }
-        if (!NEEDITEM.isEmpty()) {
-            for (Item item : NEEDITEM) {
-                if (!inventoryOrHolderContains(player, item)) return false;
+        if (!needItem.isEmpty()) {
+            for (Item item : needItem) {
+                if (!inventoryOrHolderContains(player, item)) {
+                    return false;
+                }
             }
         }
-        if (NEED_BASE_FORM) if (RangerChangerItem.get_Form_Item(stack, 1) != belt.Base_Form_Item) return false;
-        if (NEED_FORM_SLOT_1 != null) if (RangerChangerItem.get_Form_Item(stack, 1) != NEED_FORM_SLOT_1) return false;
-        if (NEED_FORM_SLOT_2 != null) if (RangerChangerItem.get_Form_Item(stack, 2) != NEED_FORM_SLOT_2) return false;
-        if (NEED_FORM_SLOT_3 != null) if (RangerChangerItem.get_Form_Item(stack, 3) != NEED_FORM_SLOT_3) return false;
-        if (NEED_FORM_SLOT_4 != null) if (RangerChangerItem.get_Form_Item(stack, 4) != NEED_FORM_SLOT_4) return false;
-
+        if (needBaseForm) {
+            if (RangerChangerItem.get_Form_Item(stack, 1) != belt.Base_Form_Item) {
+                return false;
+            }
+        }
+        if (needFormSlot1 != null) {
+            if (RangerChangerItem.get_Form_Item(stack, 1) != needFormSlot1) {
+                return false;
+            }
+        }
+        if (needFormSlot2 != null) {
+            if (RangerChangerItem.get_Form_Item(stack, 2) != needFormSlot2) {
+                return false;
+            }
+        }
+        if (needFormSlot3 != null) {
+            if (RangerChangerItem.get_Form_Item(stack, 3) != needFormSlot3) {
+                return false;
+            }
+        }
+        if (needFormSlot4 != null) {
+            if (RangerChangerItem.get_Form_Item(stack, 4) != needFormSlot4) {
+                return false;
+            }
+        }
+        if (needFormSlot5 != null) {
+            if (RangerChangerItem.get_Form_Item(stack, 5) != needFormSlot5) {
+                return false;
+            }
+        }
         if (!needItemList.isEmpty()) {
             for (Item item : needItemList) {
-                if (!inventoryOrHolderContains(player, item)) return false;
+                if (!inventoryOrHolderContains(player, item)) {
+                    return false;
+                }
             }
         }
         return true;
     }
 
     @Override
-    public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand usedHand) {
+    public @NotNull InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand usedHand) {
 
         ItemStack itemStack = player.getItemInHand(usedHand);
 
         ItemStack BELT = player.getItemBySlot(EquipmentSlot.FEET);
 
-        if (!player.hasEffect(EffectCore.FORM_LOCK)) {
+        if (!level.isClientSide() && !player.hasEffect(EffectCore.FORM_LOCK)) {
             if (BELT.getItem() instanceof RangerChangerItem belt) {
-                if (SHIFT_ITEM instanceof RangerFormChangeItem form && player.isShiftKeyDown())
-                    SHIFT_ITEM.use(level, player, usedHand);
-                else if (canChange(player, belt, BELT)) {
+                if (shiftItem instanceof RangerFormChangeItem form && player.isShiftKeyDown()) {
+                    shiftItem.use(level, player, usedHand);
+                } else if (canChange(player, belt, BELT)) {
                     if (!player.isCreative()) {
                         player.getCooldowns().addCooldown(this, 60);
                         player.addEffect(new MobEffectInstance(EffectCore.FORM_LOCK, 20, 0, true, false));
                     }
-                    if (RESET_FORM) RangerChangerItem.reset_Form_Item(player.getItemBySlot(EquipmentSlot.FEET));
-                    if (RESET_FORM_MAIN & Objects.equals(belt.Rider, RANGER_NAME))
+                    int SLOT = slot;
+                    if (resetForm) {
                         RangerChangerItem.reset_Form_Item(player.getItemBySlot(EquipmentSlot.FEET));
-                    if (alsoChange1stSlot != null)
-                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), alsoChange1stSlot, 1);
-                    if (alsoChange2ndSlot != null)
-                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), alsoChange2ndSlot, 2);
-                    if (alsoChange3rdSlot != null)
-                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), alsoChange3rdSlot, 3);
-                    if (alsoChange4thSlot != null)
-                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), alsoChange4thSlot, 4);
+                    }
+                    if (resetToMainForm & Objects.equals(belt.Rider, riderName)) {
+                        RangerChangerItem.reset_Form_Item(player.getItemBySlot(EquipmentSlot.FEET));
+                    }
+                    if (alsoChange1stSlot != null) {
+                        RangerChangerItem.setFormItem(player.getItemBySlot(EquipmentSlot.FEET), alsoChange1stSlot, 1);
+                    }
+                    if (alsoChange2ndSlot != null) {
+                        RangerChangerItem.setFormItem(player.getItemBySlot(EquipmentSlot.FEET), alsoChange2ndSlot, 2);
+                    }
+                    if (alsoChange3rdSlot != null) {
+                        RangerChangerItem.setFormItem(player.getItemBySlot(EquipmentSlot.FEET), alsoChange3rdSlot, 3);
+                    }
+                    if (alsoChange4thSlot != null) {
+                        RangerChangerItem.setFormItem(player.getItemBySlot(EquipmentSlot.FEET), alsoChange4thSlot, 4);
+                    }
+                    if (alsoUpdateOld != null) {
+                        RangerChangerItem.setOldFormItem(player.getItemBySlot(EquipmentSlot.FEET), alsoUpdateOld, SLOT);
+                    }
+                    if (setToArmorForm) {
+                        RangerChangerItem.setFormItem(player.getItemBySlot(EquipmentSlot.FEET), belt.Armor_Form_Item, 1);
+                    }
 
-                    if (SET_TO_ARMOR_FORM)
-                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), belt.Armor_Form_Item, 1);
+                    if (usedHand == InteractionHand.OFF_HAND & offhand) {
+                        SLOT = offhandSlot;
+                    }
 
-                    int SLOT = Slot;
-                    if (usedHand == InteractionHand.OFF_HAND & Offhand) SLOT = OffhandSlot;
-
-                    if (SWITCH_ITEM != null & RangerChangerItem.get_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), SLOT) == this)
-                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), SWITCH_ITEM, SLOT);
-                    else RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), this, SLOT);
-                    if (alsoChange5thSlot != null)
-                        RangerChangerItem.set_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), alsoChange5thSlot, 5);
+                    if (switchItem != null & RangerChangerItem.get_Form_Item(player.getItemBySlot(EquipmentSlot.FEET), SLOT) == this) {
+                        RangerChangerItem.setFormItem(player.getItemBySlot(EquipmentSlot.FEET), switchItem, SLOT);
+                    } else {
+                        RangerChangerItem.setFormItem(player.getItemBySlot(EquipmentSlot.FEET), this, SLOT);
+                    }
+                    if (alsoChange5thSlot != null) {
+                        RangerChangerItem.setFormItem(player.getItemBySlot(EquipmentSlot.FEET), alsoChange5thSlot, 5);
+                    }
 
                 } else if (!alternative.isEmpty()) {
 
@@ -522,18 +767,32 @@ public class RangerFormChangeItem extends BaseItem {
 
     }
 
-    public void OnTransformation(ItemStack itemstack, LivingEntity entity) {
+    public void OnTransformation(ItemStack itemStack, LivingEntity entity) {
         if (timeoutDuration != 0) {
-            if (entity instanceof Player player && !player.isCreative()) player.getCooldowns().addCooldown(this, this.lockDuration);
-        }
-        if (entity.level() instanceof ServerLevel sl) {
-            sl.sendParticles(ParticleTypes.GUST,
-                    entity.getX(), entity.getY() + 1.0,
-                    entity.getZ(), 1, 0, 0, 0, 1);
+            if (!(entity instanceof ArmorStand)) {
+                entity.addEffect(new MobEffectInstance(EffectCore.FORM_TIMEOUT, this.timeoutDuration, 0, true, false));
+            }
+            if (entity instanceof Player player && !player.isCreative()) {
+                player.getCooldowns().addCooldown(this, this.lockDuration);
+            }
         }
     }
 
+    public void transformationEffect(ItemStack itemStack, LivingEntity entity) {
+        if (entity.level() instanceof ServerLevel sl) {
+            sl.sendParticles(ParticleTypes.GUST, entity.getX(), entity.getY() + 1.0, entity.getZ(), 1, 0, 0, 0, 1);
+        }
+    }
 
-    public void OnRiderKickHit(ItemStack itemstack, LivingEntity pLivingEntity, LivingEntity enemy) {
+    public void transformationEffect(ItemStack itemStack, LivingEntity entity, Double tick) {
+        if (tick == 30) {
+            transformationEffect(itemStack, entity);
+        }
+        if (tick == 1) {
+            RangerChangerItem.updateOldFormItem(itemStack);
+        }
+    }
+
+    public void SetUnlimitedModels(List<RenderLayerInfo> layerInfo, ItemStack itemStack, LivingEntity rider, EquipmentSlot slot) {
     }
 }

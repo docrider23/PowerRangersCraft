@@ -21,27 +21,27 @@ public class AlienItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.ALIEN));
 
     public static final DeferredItem<Item> RED_ALIEN_POWER_COIN = ITEMS.register("red_alien_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","alien_red","alien_red_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","alien_red","alien_red_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 0,true,false))
                     .AddToTabList(RangerTabs.ALIEN));
     public static final DeferredItem<Item> WHITE_ALIEN_POWER_COIN = ITEMS.register("white_alien_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","alien_white","alien_white_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","alien_white","alien_white_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 0,true,false))
                     .AddToTabList(RangerTabs.ALIEN));
     public static final DeferredItem<Item> BLUE_ALIEN_POWER_COIN = ITEMS.register("blue_alien_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","alien_blue","alien_blue_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","alien_blue","alien_blue_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 0,true,false))
                     .AddToTabList(RangerTabs.ALIEN));
     public static final DeferredItem<Item> YELLOW_ALIEN_POWER_COIN = ITEMS.register("yellow_alien_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","alien_yellow","alien_yellow_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","alien_yellow","alien_yellow_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 0,true,false))
                     .AddToTabList(RangerTabs.ALIEN));
     public static final DeferredItem<Item> BLACK_ALIEN_POWER_COIN = ITEMS.register("black_alien_power_coin",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","alien_black","alien_black_belt",
+            () -> new RangerFormChangeItem(new Item.Properties(),"","alien_black","alien_black_belt",
                     new MobEffectInstance(EffectCore.SLASH, 40, 1,true,false),
                     new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 0,true,false))
                     .AddToTabList(RangerTabs.ALIEN));

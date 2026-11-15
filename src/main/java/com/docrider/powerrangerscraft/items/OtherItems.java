@@ -23,7 +23,7 @@ public class OtherItems {
             "isis_megazord","animus","ultimus_megazord","sentinel_knight","ninjor"};
 
     public static final DeferredItem<Item> BLANK_FORM = ITEMS.register("blank_form",
-            () -> new RangerFormChangeItem(new Item.Properties(),0,"","",""));
+            () -> new RangerFormChangeItem(new Item.Properties(),"","",""));
 
     public static final DeferredItem<Item> GRID_INFUSED_GOLD_NUGGET = ITEMS.register("grid_infused_gold_nugget",
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
@@ -44,9 +44,9 @@ public class OtherItems {
             () -> new BaseItem(new Item.Properties()).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> POWER_RANGERS_LOGO = ITEMS.register("power_rangers_logo",
-            () -> new RangerFormChangeItem(new Item.Properties(), 0, "", "", "",
+            () -> new RangerFormChangeItem(new Item.Properties(), "", "", "",
                     new MobEffectInstance(EffectCore.BIG, 40, 2,true,false))
-                    .ChangeSlot(2).addSwitchForm(BLANK_FORM.get()).AddCompatibilityList(SentaiRobo).AddToTabList(RangerTabs.MISC));
+                    .ChangeSlot(2).addSwitchForm(BLANK_FORM.get()).addCompatibilityList(SentaiRobo).AddToTabList(RangerTabs.MISC));
 
     public static final DeferredItem<Item> GO_GO_POWER_RANGERS_MUSIC_DISC = ITEMS.register("go_go_power_rangers_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.GO_GO_POWER_RANGERS_KEY).stacksTo(1)));
