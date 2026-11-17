@@ -38,8 +38,11 @@
             },
             "feet": {
               "items": [
-                "powerrangerscraft:robo_morpher_dark"
-              ]
+                "powerrangerscraft:robo_morpher"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{slot_tex1:\"powerrangerscraft:robo_knight_change_power_card_dark\"}"
+              }
             }
           }
         }
