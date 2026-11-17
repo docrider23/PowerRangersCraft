@@ -65,27 +65,27 @@ public class MegaforceItems {
             () -> new RangerFormChangeItem(new Item.Properties(),"_ultra","megaforce_red","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").ChangeModel("megaforce_red_ultra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
     public static final DeferredItem<Item> PINK_ULTRA_POWER_CARD = ITEMS.register("pink_ultra_power_card",
             () -> new RangerFormChangeItem(new Item.Properties(),"_ultra","megaforce_pink","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").ChangeModel("megaforce_pink_ultra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
     public static final DeferredItem<Item> BLACK_ULTRA_POWER_CARD = ITEMS.register("black_ultra_power_card",
             () -> new RangerFormChangeItem(new Item.Properties(),"_ultra","megaforce_black","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").ChangeModel("megaforce_black_ultra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
     public static final DeferredItem<Item> YELLOW_ULTRA_POWER_CARD = ITEMS.register("yellow_ultra_power_card",
             () -> new RangerFormChangeItem(new Item.Properties(),"_ultra","megaforce_yellow","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").ChangeModel("megaforce_yellow_ultra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
     public static final DeferredItem<Item> BLUE_ULTRA_POWER_CARD = ITEMS.register("blue_ultra_power_card",
             () -> new RangerFormChangeItem(new Item.Properties(),"_ultra","megaforce_blue","megaforce_belt",
                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false))
-                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
+                    .ChangeBeltModel("geo/rangerbeltextra.geo.json").ChangeModel("megaforce_blue_ultra.geo.json").AddToTabList(RangerTabs.MEGAFORCE));
 
     public static final DeferredItem<Item> DRAGON_SWORD_CARD = ITEMS.register("dragon_sword_card",
             () -> new PowerCardItem(new Item.Properties(),"megaforce_red","dragon_sword").AddToTabList(RangerTabs.MEGAFORCE).AddToList(Gosei.RED_CARD,10));
