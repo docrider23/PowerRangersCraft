@@ -5,7 +5,7 @@ import com.docrider.powerrangerscraft.items.*;
 import com.docrider.powerrangerscraft.items.dino_fury.DinoFuryMorpherItem;
 import com.docrider.powerrangerscraft.items.dino_fury.MosaBlasterItem;
 import com.docrider.powerrangerscraft.items.lost_galaxy.TransmorpherItem;
-import com.docrider.powerrangerscraft.items.mmpr.MMPRBeltItem;
+import com.docrider.powerrangerscraft.items.mmpr.PowerMorpherItem;
 import com.docrider.powerrangerscraft.items.others.BaseBlasterItem;
 import com.docrider.powerrangerscraft.items.others.BaseDualSwordItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
@@ -73,7 +73,7 @@ public class RegisterItemProperties {
                     }
                     if ($entity.getItemBySlot(EquipmentSlot.FEET).getItem() == MMPRItems.RED_POWER_MORPHER.get()) {
                         if ($itemStack.getItem() == MMPRItems.POWER_SWORD.get()) {
-                            if (MMPRBeltItem.get_Form_Item(belt, 1) == ComicsItems.MMPR_THE_RETURN_COMIC.get()) return 1;
+                            if (PowerMorpherItem.get_Form_Item(belt, 1) == ComicsItems.MMPR_THE_RETURN_COMIC.get()) return 1;
                             return 0;
                         }
                     }
