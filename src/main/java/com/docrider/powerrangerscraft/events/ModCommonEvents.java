@@ -44,6 +44,8 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Objects;
 
+import static com.docrider.powerrangerscraft.world.attribute.PRCAttributes.IS_TRANSFORMING;
+
 public class ModCommonEvents {
     public static class EventHandler {
 
@@ -133,6 +135,16 @@ public class ModCommonEvents {
 }
 
     public static class CommonEvents {
+
+        @SubscribeEvent
+        public void onEntityTick(EntityTickEvent.Post event) {
+            if (event.getEntity() instanceof LivingEntity livingEntity) {
+                if (livingEntity.getAttribute(IS_TRANSFORMING).getBaseValue() != 0)
+                    livingEntity.getAttribute(IS_TRANSFORMING).setBaseValue(livingEntity.getAttribute(IS_TRANSFORMING).getBaseValue() - 1);
+                if (livingEntity.getAttribute(IS_TRANSFORMING).getBaseValue() <= 0)
+                    livingEntity.getAttribute(IS_TRANSFORMING).setBaseValue(0);
+            }
+        }
 
     @SubscribeEvent
     public void addCustomWandererTrades(WandererTradesEvent event) {

@@ -1,11 +1,13 @@
 package com.docrider.powerrangerscraft.client.renderer.armor;
 
+import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.client.models.armor.RangerArmorModel;
 import com.docrider.powerrangerscraft.client.renderer.armor.render_layer.RangerRenderLayer;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -15,27 +17,33 @@ import software.bernie.geckolib.renderer.GeoArmorRenderer;
 import software.bernie.geckolib.renderer.layer.AutoGlowingGeoLayer;
 import software.bernie.geckolib.renderer.layer.GeoRenderLayer;
 
+import static software.bernie.geckolib.cache.texture.GeoAbstractTexture.appendToPath;
+
 public class RangerArmorRenderer extends GeoArmorRenderer<RangerArmorItem> {
 
-    public RangerArmorRenderer(LivingEntity entity, EquipmentSlot equipmentSlot) {
+    public RangerArmorRenderer(EquipmentSlot equipmentSlot) {
+        super(new RangerArmorModel<>());
+        if (equipmentSlot != EquipmentSlot.FEET) {
+            addRenderLayer(new AutoGlowingGeoLayer<>(this) {
+                @Nullable
+                protected RenderType getRenderType(RangerArmorItem animatable, @Nullable MultiBufferSource bufferSource) {
+                    if (getRenderer() instanceof RangerArmorRenderer renderer2) {
+                        LivingEntity RIDER = renderer2.GetEntity();
+                        if (RIDER != null && RIDER.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RangerChangerItem belt) {
+                            if (renderer.getTextureLocation(animatable).getPath().equals((ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "textures/armor/blank.png")).getPath())) {
+                                return null;
+                            }
+                            ResourceLocation path = appendToPath(model.getTextureResource(animatable, renderer2), "_glowmask");
+                            return belt.getGlowForSlot(RIDER.getItemBySlot(EquipmentSlot.FEET), renderer2.getCurrentSlot(), RIDER) ? RenderType.breezeEyes(path) : null;
+                        }
+                    }
+                    return null;
+                }
+            });
+        }
 
-        super(new RangerArmorModel());
-        addRenderLayer(new AutoGlowingGeoLayer<>(this){
-            @Nullable
-            protected RenderType getRenderType(RangerArmorItem animatable, @Nullable MultiBufferSource bufferSource) {
-                if (this.getRenderer() instanceof RangerArmorRenderer renderer2) {
-                    LivingEntity RIDER = renderer2.GetEntity();
-                    if (RIDER!=null&&RIDER.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RangerChangerItem belt) {
-                        return belt.getGlowForSlot(RIDER.getItemBySlot(EquipmentSlot.FEET), equipmentSlot,RIDER)? AutoGlowingTexture.getRenderType(getTextureResource(animatable)): null;
-                    }}
-                return null;
-            }});
-
-        if (entity.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof RangerChangerItem belt) {
-            if (belt.Unlimited_Textures != 0 & equipmentSlot == EquipmentSlot.HEAD
-                    ||belt.Unlimited_Belt_Textures != 0 & equipmentSlot == EquipmentSlot.FEET) {
-                addRenderLayer(new RangerRenderLayer<>(this));
-            }
+        if (equipmentSlot == EquipmentSlot.HEAD || equipmentSlot == EquipmentSlot.FEET) {
+            addRenderLayer(new RangerRenderLayer<>(this));
         }
     }
 

@@ -12,6 +12,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import software.bernie.geckolib.cache.object.BakedGeoModel;
 import software.bernie.geckolib.cache.object.GeoBone;
+import software.bernie.geckolib.util.Color;
 
 import java.util.Objects;
 
@@ -50,7 +51,7 @@ public class RenderLayerInfo {
 
         float Transforming = (float) Mth.lerp(1, GetTransforming, (GetTransforming - 1) - partialTick);
 
-        if (getModel().toLowerCase().contains("orichalcum")) {
+        if (getModel(partialTick, entity).toLowerCase().contains("orichalcum")) {
             Transforming = (float) Mth.lerp(1, GetTransforming + 15, ((GetTransforming + 15) - 1) - partialTick);
         }
 
@@ -77,8 +78,8 @@ public class RenderLayerInfo {
         return GlowTexture;
     }
 
-    public String getModel() {
-        return model;
+    public String getModel(float partialTick, LivingEntity RIDER) {
+        return model != null ? model+".geo.json" : null;
     }
 
     public boolean isGlowing() {
@@ -107,5 +108,9 @@ public class RenderLayerInfo {
 
     public float getScaleZ() {
         return 1f;
+    }
+
+    public int getColor(float partialTick, LivingEntity RIDER) {
+        return Color.WHITE.getColor();
     }
 }
