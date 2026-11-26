@@ -1,5 +1,10 @@
 {
   "values": [
-    "powerrangerscraft:red_astro_morpher"
+    "powerrangerscraft:red_astro_morpher",
+    "powerrangerscraft:black_astro_morpher",
+    "powerrangerscraft:blue_astro_morpher",
+    "powerrangerscraft:yellow_astro_morpher",
+    "powerrangerscraft:pink_astro_morpher",
+    "powerrangerscraft:digimorpher"
   ]
 }
