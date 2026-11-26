@@ -28,7 +28,7 @@ public class SPDItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));
 
     public static final DeferredItem<Item> RED_DELTA_MORPHER = ITEMS.register("red_delta_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"spd_red",SPD_RED_BADGE,SPD_HELMET,SPD_CHESTPLATE,SPD_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"spd_red",SPD_RED_BADGE,SPD_HELMET,SPD_CHESTPLATE,SPD_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));
 
     public static final DeferredItem<BaseBlasterItem> DELTA_BLASTER_1 = ITEMS.register("delta_blaster_1",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SPD).ChangeRepairItem(SPD_LOGO.get()));

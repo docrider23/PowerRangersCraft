@@ -33,7 +33,7 @@ public class SuperMegaforceItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(BLANK_RANGER_KEY.get()));
 
     public static final DeferredItem<Item> RED_LEGENDARY_MORPHER = ITEMS.register("red_legendary_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"super_megaforce_red", SUPER_MEGAFORCE_RED_KEY,SUPER_MEGAFORCE_HELMET,SUPER_MEGAFORCE_CHESTPLATE,SUPER_MEGAFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(BLANK_RANGER_KEY.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"super_megaforce_red", SUPER_MEGAFORCE_RED_KEY,SUPER_MEGAFORCE_HELMET,SUPER_MEGAFORCE_CHESTPLATE,SUPER_MEGAFORCE_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.SUPER_MEGAFORCE).ChangeRepairItem(BLANK_RANGER_KEY.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -22,21 +22,18 @@ public class MosaBlasterItem extends RangerChangerItem{
 	public MosaBlasterItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Properties properties)
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
-		Has_basic_belt_info=false;
+		Show_belt_form_info=false;
 	}
 
 	@Override
 	public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-
-		Item formItem = this.get_Form_Item(stack, 1);
-		Item formItem2 = this.get_Form_Item(stack, 2);
-
-		if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
-		else {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem2.toString() + ".form").getString()));
-		}
 		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+		Item formItem2 = this.get_Form_Item(stack, 2);
+		if (formItem2 != OtherItems.BLANK_FORM.get()) {
+			tooltipComponents.add(Component.translatable(formItem2.toString() + ".form"));
+		}
+
 	}
 	
 	@Override

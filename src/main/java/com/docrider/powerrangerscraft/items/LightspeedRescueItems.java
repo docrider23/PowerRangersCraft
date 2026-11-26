@@ -35,14 +35,7 @@ public class LightspeedRescueItems {
             () -> new RangerFormChangeItem(new Item.Properties(),"","lightspeed_red","lightspeed_red_belt",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2,true,false),
                     new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false))
-            {
-                public void SetUnlimitedModels(List<RenderLayerInfo> layerInfo, ItemStack itemStack, LivingEntity rider, EquipmentSlot slot) {
-                    super.SetUnlimitedModels(layerInfo, itemStack, rider, slot);
-                    RenderType renderType = RenderType.breezeEyes(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "textures/armor/transforming/lightspeed_red_shield.png"));
-                    if (isTransformingFromBlank(itemStack, rider) && slot == EquipmentSlot.HEAD && rider.getAttribute(PRCAttributes.IS_TRANSFORMING).getValue() < 15)
-                        layerInfo.add(new RenderLayerInfo(renderType, "lightspeed_shield"));
-                }
-            }.ResetFormToBase().ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
+            .setFormDelay(15).setHenshinTick(30).ResetFormToBase().ChangeBeltModel("rangerbeltextra.geo.json").AddToTabList(RangerTabs.LIGHTSPEED_RESCUE));
 
     public static final DeferredItem<Item> LIGHTSPEED_BLUE_BADGE = ITEMS.register("lightspeed_blue_badge",
             () -> new RangerFormChangeItem(new Item.Properties(),"","lightspeed_blue","lightspeed_blue_belt",
@@ -87,7 +80,15 @@ public class LightspeedRescueItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
 
     public static final DeferredItem<Item> RED_RESCUE_MORPHER = ITEMS.register("red_rescue_morpher",
-            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_red",LIGHTSPEED_RED_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
+            () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_red",LIGHTSPEED_RED_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()){
+        @Override
+                public void SetUnlimitedModels(List<RenderLayerInfo> layerInfo, ItemStack itemStack, LivingEntity rider, EquipmentSlot slot) {
+                    super.SetUnlimitedModels(layerInfo, itemStack, rider, slot);
+                    RenderType renderType = RenderType.breezeEyes(ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "textures/armor/transforming/lightspeed_red_shield.png"));
+                    if (isTransformingFromBlank(itemStack, rider) && slot == EquipmentSlot.HEAD && rider.getAttribute(PRCAttributes.IS_TRANSFORMING).getValue() < 15)
+                        layerInfo.add(new RenderLayerInfo(renderType, "lightspeed_shield"));
+                }
+            }.Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
     public static final DeferredItem<Item> BLUE_RESCUE_MORPHER = ITEMS.register("blue_rescue_morpher",
             () -> new RescueMorpherItem(ArmorMaterials.DIAMOND,"lightspeed_blue",LIGHTSPEED_BLUE_BADGE,LIGHTSPEED_RESCUE_HELMET,LIGHTSPEED_RESCUE_CHESTPLATE,LIGHTSPEED_RESCUE_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.LIGHTSPEED_RESCUE).ChangeRepairItem(LIGHTSPEED_RESCUE_LOGO.get()));
     public static final DeferredItem<Item> GREEN_RESCUE_MORPHER = ITEMS.register("green_rescue_morpher",

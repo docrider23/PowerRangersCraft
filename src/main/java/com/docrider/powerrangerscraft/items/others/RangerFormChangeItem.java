@@ -49,6 +49,7 @@ public class RangerFormChangeItem extends BaseItem {
     private String updatedBeltModel;
     private String updatedModel;
     private String flyingModel;
+    private Boolean setShowHead = false;
     private Boolean setShowFace = false;
     private Boolean setShowUnder = false;
     private Boolean setShowPlayer = false;
@@ -179,6 +180,8 @@ public class RangerFormChangeItem extends BaseItem {
         ResourceLocation FORM_MODEL = ResourceLocation.fromNamespaceAndPath(PowerRangersCraftCore.MODID, "geo" + getRangerName(riderName) + formName + ".geo.json");
         return (GeckoLibCache.getBakedModels().get(FORM_MODEL) != null ? getRangerName(riderName) + formName + ".geo.json" : (getHasStaticWings() ? "rangerwing.geo.json" : "ranger.geo.json"));
     }
+
+    public Boolean getShowHead() {return setShowHead;}
 
     public Boolean getShowFace() {
         return setShowFace;
@@ -311,6 +314,11 @@ public class RangerFormChangeItem extends BaseItem {
 
     public RangerFormChangeItem ChangeModel(String model) {
         updatedModel = model;
+        return this;
+    }
+
+    public RangerFormChangeItem setShowHead() {
+        setShowHead = true;
         return this;
     }
 
@@ -794,5 +802,8 @@ public class RangerFormChangeItem extends BaseItem {
     }
 
     public void SetUnlimitedModels(List<RenderLayerInfo> layerInfo, ItemStack itemStack, LivingEntity rider, EquipmentSlot slot) {
+    }
+
+    public void SetTransformationUnlimitedModels(List<RenderLayerInfo> layerInfo, ItemStack itemStack, LivingEntity rider, EquipmentSlot slot, double henshin_tick) {
     }
 }

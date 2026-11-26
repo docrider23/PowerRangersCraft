@@ -2,13 +2,13 @@ package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.items.others.*;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterials;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Tiers;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class RebootItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
@@ -43,17 +43,27 @@ public class RebootItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
 
     public static final DeferredItem<Item> REBOOT_RED_POWER_MORPHER = ITEMS.register("reboot_red_power_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_red", REBOOT_RED_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_red", REBOOT_RED_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
     public static final DeferredItem<Item> REBOOT_BLACK_POWER_MORPHER = ITEMS.register("reboot_black_power_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_black", REBOOT_BLACK_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_black", REBOOT_BLACK_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
     public static final DeferredItem<Item> REBOOT_BLUE_POWER_MORPHER = ITEMS.register("reboot_blue_power_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_blue", REBOOT_BLUE_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_blue", REBOOT_BLUE_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+                    RangerFormChangeItem formItem1 = this.get_Form_Item(stack, 1);
+                    if (formItem1 != this.Base_Form_Item) {
+                        tooltipComponents.add(Component.translatable(formItem1.toString() + ".form"));
+                    }
+                }
+            }.Dont_show_belt_form_info().AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
     public static final DeferredItem<Item> REBOOT_YELLOW_POWER_MORPHER = ITEMS.register("reboot_yellow_power_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_yellow", REBOOT_YELLOW_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_yellow", REBOOT_YELLOW_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
     public static final DeferredItem<Item> REBOOT_PINK_POWER_MORPHER = ITEMS.register("reboot_pink_power_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_pink", REBOOT_PINK_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_pink", REBOOT_PINK_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
     public static final DeferredItem<Item> REBOOT_GREEN_POWER_MORPHER = ITEMS.register("reboot_green_power_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_green", REBOOT_GREEN_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"reboot_green", REBOOT_GREEN_POWER_COIN, REBOOT_HELMET, REBOOT_CHESTPLATE, REBOOT_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));
 
     public static final DeferredItem<BaseSwordItem> REBOOT_POWER_SWORD = ITEMS.register("reboot_power_sword",
             () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.REBOOT).ChangeRepairItem(REBOOT_LOGO.get()));

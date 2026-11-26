@@ -5,12 +5,15 @@ import com.docrider.powerrangerscraft.blocks.machineBlocks.Gosei;
 import com.docrider.powerrangerscraft.items.megaforce.GoseiMorpherItem;
 import com.docrider.powerrangerscraft.items.megaforce.PowerCardItem;
 import com.docrider.powerrangerscraft.items.others.*;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class MegaforceItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
@@ -149,7 +152,18 @@ public class MegaforceItems {
                     .Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
 
     public static final DeferredItem<Item> ROBO_MORPHER = ITEMS.register("robo_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"robo_knight",ROBO_KNIGHT_CHANGE_POWER_CARD,MEGAFORCE_HELMET,MEGAFORCE_CHESTPLATE,MEGAFORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"robo_knight",ROBO_KNIGHT_CHANGE_POWER_CARD,MEGAFORCE_HELMET,MEGAFORCE_CHESTPLATE,MEGAFORCE_LEGGINGS,new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    boolean isDark = get_Form_Item(stack, 1) == ROBO_KNIGHT_CHANGE_POWER_CARD_DARK.get();
+                    Has_basic_belt_info = !isDark;
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+                    if (isDark) {
+                        tooltipComponents.add(Component.translatable("powerrangerscraft.name.dark_robo_knight"));
+                    }
+                }
+            }.Dont_show_belt_form_info().AddToTabList(RangerTabs.MEGAFORCE).ChangeRepairItem(BLANK_POWER_CARD.get()));
 
     public static final DeferredItem<Item> GREEN_GOSEI_MORPHER = ITEMS.register("green_gosei_morpher",
             () -> new GoseiMorpherItem(ArmorMaterials.DIAMOND,"megaforce_green",GREEN_CHANGE_POWER_CARD,MEGAFORCE_HELMET,MEGAFORCE_CHESTPLATE,MEGAFORCE_LEGGINGS,new Item.Properties())

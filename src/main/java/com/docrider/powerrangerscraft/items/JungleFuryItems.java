@@ -30,7 +30,7 @@ public class JungleFuryItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.JUNGLE_FURY).ChangeRepairItem(JUNGLE_FURY_LOGO.get()));
 
     public static final DeferredItem<Item> RED_SOLAR_MORPHER = ITEMS.register("red_solar_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"jungle_fury_red",TIGER_SPIRIT,JUNGLE_FURY_HELMET,JUNGLE_FURY_CHESTPLATE,JUNGLE_FURY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.JUNGLE_FURY).ChangeRepairItem(JUNGLE_FURY_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"jungle_fury_red",TIGER_SPIRIT,JUNGLE_FURY_HELMET,JUNGLE_FURY_CHESTPLATE,JUNGLE_FURY_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.JUNGLE_FURY).ChangeRepairItem(JUNGLE_FURY_LOGO.get()));
 
 
     public static void register(IEventBus eventBus) {

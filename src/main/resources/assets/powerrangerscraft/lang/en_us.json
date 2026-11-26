@@ -221,26 +221,27 @@
   "item.powerrangerscraft.turbo_power_coin": "Turbo Power Coin",
   "item.powerrangerscraft.dino_thunder_power_coin": "Dino Thunder Power Coin",
 
-  "powerrangerscraft:tyrannosaurus_power_coin.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:mastodon_power_coin.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:triceratops_power_coin.form": "Ranger: §1Blue Ranger",
-  "powerrangerscraft:sabertooth_tiger_power_coin.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:pteradactyl_power_coin.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:dragon_power_coin_mmpr_green_base.form": "Ranger: §aGreen Ranger",
-  "powerrangerscraft:white_tiger_power_coin.form": "Ranger: White Ranger",
-  "powerrangerscraft:ninjor_coin.form": "Ally: §1Ninjor",
-  "powerrangerscraft:reindeer_power_coin.form": "Ally: §cSanta §aRanger",
-  "powerrangerscraft:baconadon_power_coin.form": "Debatable Ranger: §dPurple Ranger",
-  "powerrangerscraft:featherdactyl_power_coin.form": "Debatable Ranger: §6Orange Ranger",
+  "powerrangerscraft.name.mmpr_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.mmpr_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.mmpr_blue": "Ranger: §1Blue Ranger",
+  "powerrangerscraft.name.mmpr_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.mmpr_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.mmpr_green": "Ranger: §aGreen Ranger",
+  "powerrangerscraft.name.mmpr_white": "Ranger: White Ranger",
+  "powerrangerscraft.name.ninjor": "Ally: §1Ninjor",
+  "powerrangerscraft.name.santa_ranger": "Ally: §cSanta §aRanger",
+  "powerrangerscraft.name.mmpr_purple": "Debatable Ranger: §dPurple Ranger",
+  "powerrangerscraft.name.mmpr_orange": "Debatable Ranger: §6Orange Ranger",
 
   "powerrangerscraft:dragon_power_coin_shield.form": "w/ §6Dragon Shield",
-  "powerrangerscraft:ninjor_coin_battle_mode.form": "Ally: §1Ninjor §cBattle Mode",
+  "powerrangerscraft:ninjor_coin.form": "Form: Base Mode",
+  "powerrangerscraft:ninjor_coin_battle_mode.form": "Form: §cBattle Mode",
   "powerrangerscraft:metallic_armor_power_coin.form": "w/ §7Metallic Armor",
   "powerrangerscraft:metallic_armor_power_coin_black.form": "w/ §7Metallic Armor",
   "powerrangerscraft:metallic_armor_power_coin_blue.form": "w/ §7Metallic Armor",
   "powerrangerscraft:metallic_armor_power_coin_yellow.form": "w/ §7Metallic Armor",
   "powerrangerscraft:metallic_armor_power_coin_pink.form": "w/ §7Metallic Armor",
-  "powerrangerscraft:metallic_armor_power_coin_white.form": "Ranger: White Ranger w/ §7Metallic Armor",
+  "powerrangerscraft:metallic_armor_power_coin_white.form": "w/ §7Metallic Armor",
 
   "powerrangerscraft:zeo_power_coin.form": "Ranger: §cRed §6Zeo §cRanger",
   "powerrangerscraft:turbo_power_coin.form": "Ranger: §cRed §rTurbo §cRanger",
@@ -285,11 +286,11 @@
   "item.powerrangerscraft.yellow_alien_power_coin": "Yellow Alien Power Coin",
   "item.powerrangerscraft.black_alien_power_coin": "Black Alien Power Coin",
 
-  "powerrangerscraft:red_alien_power_coin.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:white_alien_power_coin.form": "Ranger: White Ranger",
-  "powerrangerscraft:blue_alien_power_coin.form": "Ranger: §bBlue Ranger",
-  "powerrangerscraft:yellow_alien_power_coin.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:black_alien_power_coin.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.alien_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.alien_white": "Ranger: White Ranger",
+  "powerrangerscraft.name.alien_blue": "Ranger: §bBlue Ranger",
+  "powerrangerscraft.name.alien_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.alien_black": "Ranger: §8Black Ranger",
 
   "item.powerrangerscraft.aquitian_saber": "Aquitian Saber",
 
@@ -309,8 +310,8 @@
   "item.powerrangerscraft.red_zeo_sub_crystal": "Red Zeo Sub-Crystal",
   "item.powerrangerscraft.yellow_zeo_sub_crystal": "Yellow Zeo Sub-Crystal",
 
-  "powerrangerscraft:red_zeo_sub_crystal.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:yellow_zeo_sub_crystal.form": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.zeo_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.zeo_yellow": "Ranger: §eYellow Ranger",
 
   //05 Turbo
   "tab.powerrangerscraft.turbo": "Turbo",
@@ -338,14 +339,14 @@
   "item.powerrangerscraft.blue_senturion_badge": "Blue Senturion Badge",
   "item.powerrangerscraft.power_ruby": "Power Ruby",
 
-  "powerrangerscraft:red_turbo_key.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:blue_turbo_key.form": "Ranger: §9Blue Ranger",
-  "powerrangerscraft:green_turbo_key.form": "Ranger: §aGreen Ranger",
-  "powerrangerscraft:yellow_turbo_key.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:pink_turbo_key.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:blue_senturion_badge.form": "Extra Hero: §9Blue Senturion",
-  "powerrangerscraft:blue_senturion_badge_evil.form": "Villain: §9Reprogrammed Blue Senturion",
-  "powerrangerscraft:power_ruby.form": "Ranger: §8Phantom Ranger",
+  "powerrangerscraft.name.turbo_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.turbo_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.turbo_green": "Ranger: §aGreen Ranger",
+  "powerrangerscraft.name.turbo_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.turbo_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.blue_senturion": "Extra Hero: §9Blue Senturion",
+  "powerrangerscraft.name.blue_senturion_evil": "Villain: §9Reprogrammed Blue Senturion",
+  "powerrangerscraft.name.phantom_ranger": "Ranger: §8Phantom Ranger",
 
   "item.powerrangerscraft.auto_blaster": "Auto Blaster",
   "item.powerrangerscraft.turbo_blade": "Turbo Blade",
@@ -371,7 +372,9 @@
 
   "item.powerrangerscraft.red_data_card": "Red Data Card",
 
-  "powerrangerscraft:red_data_card.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.in_space_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft:stealth_data_card.form": "Form: Stealth Mode",
+  "powerrangerscraft:battlizer_data_card.form": "Form: Battlizer Mode",
 
   "item.powerrangerscraft.astro_blaster_1": "Astro Blaster",
   "item.powerrangerscraft.astro_blaster_2": "Astro Blaster",
@@ -402,14 +405,14 @@
   "item.powerrangerscraft.lights_of_orion": "Lights of Orion",
   "item.powerrangerscraft.galactic_key": "Galactic Key",
 
-  "powerrangerscraft:lion_mirinoi_medal.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:eagle_mirinoi_medal.form": "Ranger: §aGreen Ranger",
-  "powerrangerscraft:gorilla_mirinoi_medal.form": "Ranger: §9Blue Ranger",
-  "powerrangerscraft:wolf_mirinoi_medal.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:wildcat_mirinoi_medal.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:magna_defender_core.form": "Extra Hero: §8Magna Defender",
+  "powerrangerscraft.name.galaxy_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.galaxy_green": "Ranger: §aGreen Ranger",
+  "powerrangerscraft.name.galaxy_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.galaxy_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.galaxy_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.magna_defender": "Extra Hero: §8Magna Defender",
   "powerrangerscraft:lights_of_orion.form": "§6Lights of Orion",
-  "powerrangerscraft:galactic_key.form": "Ranger: §cRed §7Armored §cRanger",
+  "powerrangerscraft.name.red_armored_ranger": "Ranger: §cRed §7Armored §cRanger",
 
   "item.powerrangerscraft.quasar_saber": "Quasar Saber",
   "item.powerrangerscraft.magna_talon": "Magna Talon",
@@ -449,16 +452,16 @@
 
   "item.powerrangerscraft.trans_armor_badge": "Trans Armor Badge",
 
-  "powerrangerscraft:lightspeed_red_badge.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:lightspeed_blue_badge.form": "Ranger: §9Blue Ranger",
-  "powerrangerscraft:lightspeed_green_badge.form": "Ranger: §aGreen Ranger",
-  "powerrangerscraft:lightspeed_yellow_badge.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:lightspeed_pink_badge.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:titanium_badge.form": "Ranger: §7Titanium Ranger",
+  "powerrangerscraft.name.lightspeed_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.lightspeed_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.lightspeed_green": "Ranger: §aGreen Ranger",
+  "powerrangerscraft.name.lightspeed_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.lightspeed_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.titanium_ranger": "Ranger: §7Titanium Ranger",
 
-  "powerrangerscraft:trans_armor_badge.form": "§rw/ Trans Armor",
-  "powerrangerscraft:battle_booster_megabattle_blue.form": "§rMegabattle Armor",
-  "powerrangerscraft:battle_booster_megabattle_green.form": "§rMegabattle Armor",
+  "powerrangerscraft:trans_armor_badge.form": "Trans Armor",
+  "powerrangerscraft:battle_booster_megabattle_blue.form": "Megabattle Armor",
+  "powerrangerscraft:battle_booster_megabattle_green.form": "Megabattle Armor",
 
   "item.powerrangerscraft.battle_booster": "Battle Booster",
 
@@ -536,8 +539,8 @@
   "item.powerrangerscraft.time_force_red_badge": "Time Force Red Badge",
   "item.powerrangerscraft.quantum_ranger_badge": "Quantum Ranger Badge",
 
-  "powerrangerscraft:time_force_red_badge.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:quantum_ranger_badge.form": "Ranger: §4Quantum Ranger",
+  "powerrangerscraft.name.time_force_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.quantum_ranger": "Ranger: §4Quantum Ranger",
 
   "item.powerrangerscraft.chrono_saber_red_1": "Red Chrono Saber",
   "item.powerrangerscraft.chrono_saber_red_2": "Red Chrono Saber",
@@ -643,14 +646,14 @@
 
   "item.powerrangerscraft.animarium_buckle": "Animarium Buckle",
 
-  "powerrangerscraft:lion_animal_crystal.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:eagle_animal_crystal.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:shark_animal_crystal.form": "Ranger: §9Blue Ranger",
-  "powerrangerscraft:bison_animal_crystal.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:tiger_animal_crystal.form": "Ranger: White Ranger",
-  "powerrangerscraft:wolf_animal_crystal.form": "Ranger: §7Silver Ranger",
+  "powerrangerscraft.name.wild_force_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.wild_force_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.wild_force_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.wild_force_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.wild_force_white": "Ranger: White Ranger",
+  "powerrangerscraft.name.wild_force_silver": "Ranger: §7Silver Ranger",
 
-  "powerrangerscraft:animarium_buckle.form": "Ranger: §cRed Savage Warrior",
+  "powerrangerscraft.name.red_savage_warrior": "Ranger: §cRed Savage Warrior",
 
   "item.powerrangerscraft.crystal_saber":"Crystal Saber",
   "item.powerrangerscraft.lion_crystal_saber":"Crystal Saber (Red Ranger)",
@@ -717,9 +720,9 @@
   "item.powerrangerscraft.blue_wind_ninja_power_disk": "Blue Wind Ninja Power Disk",
   "item.powerrangerscraft.green_samurai_ninja_power_disk": "Green Samurai Ninja Power Disk",
 
-  "powerrangerscraft:red_wind_ninja_power_disk.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:blue_wind_ninja_power_disk.form": "Ranger: §bBlue Ranger",
-  "powerrangerscraft:green_samurai_ninja_power_disk.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft.name.ninja_storm_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.ninja_storm_blue": "Ranger: §bBlue Ranger",
+  "powerrangerscraft.name.green_samurai_ranger": "Ranger: §aGreen Ranger",
 
   "item.powerrangerscraft.ninja_sword": "Ninja Sword",
   "item.powerrangerscraft.hawk_blaster": "Hawk Blaster",
@@ -742,9 +745,9 @@
   "item.powerrangerscraft.yellow_dino_gem": "Yellow Dino Gem",
   "item.powerrangerscraft.black_dino_gem": "Black Dino Gem",
 
-  "powerrangerscraft:red_dino_gem.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:yellow_dino_gem.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:black_dino_gem.form": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.dino_thunder_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.dino_thunder_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.dino_thunder_black": "Ranger: §8Black Ranger",
 
   "item.powerrangerscraft.thundermax_saber": "Thundermax Saber",
   "item.powerrangerscraft.tyranno_staff": "Tyranno Staff",
@@ -765,7 +768,7 @@
 
   "item.powerrangerscraft.spd_red_badge": "SPD Red Badge",
 
-  "powerrangerscraft:spd_red_badge.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.spd_red": "Ranger: §cRed Ranger",
 
   "item.powerrangerscraft.delta_blaster_1": "Delta Blaster",
   "item.powerrangerscraft.delta_blaster_2": "Delta Blaster",
@@ -786,8 +789,8 @@
   "item.powerrangerscraft.red_mystic_morpher_plate": "Red Mystic Morpher Plate",
   "item.powerrangerscraft.green_mystic_morpher_plate": "Green Mystic Morpher Plate",
 
-  "powerrangerscraft:red_mystic_morpher_plate.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:green_mystic_morpher_plate.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft.name.mystic_force_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.mystic_force_green": "Ranger: §aGreen Ranger",
 
   "item.powerrangerscraft.magi_wand_red": "Red Magi Wand",
   "item.powerrangerscraft.magi_wand_green": "Green Magi Wand",
@@ -827,20 +830,19 @@
   "item.powerrangerscraft.defender_vest": "Defender Vest",
   "item.powerrangerscraft.sentinel_morpher": "Sentinel Morpher",
 
-  "powerrangerscraft:overdrive_red_logo.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:overdrive_black_logo.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:overdrive_blue_logo.form": "Ranger: §9Blue Ranger",
-  "powerrangerscraft:overdrive_yellow_logo.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:overdrive_pink_logo.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:mercury_ranger_logo.form": "Ranger: §7Mercury Ranger",
+  "powerrangerscraft.name.overdrive_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.overdrive_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.overdrive_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.overdrive_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.overdrive_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.mercury_ranger": "Ranger: §7Mercury Ranger",
 
-  "powerrangerscraft:unfinished_sentinel_sword.form": "Ally: §6Sentinel Knight",
+  "powerrangerscraft.name.sentinel_knight": "Ally: §6Sentinel Knight",
 
   "powerrangerscraft:defender_vest.form": "§rw/ Defender Vest",
-  "powerrangerscraft:defender_vest_mmpr.form": "Ranger: §8Black Ranger §rw/ Defender Vest",
 
-  "powerrangerscraft:sentinel_morpher.form": "Ranger: §cRed §6Sentinel §cRanger",
-  "powerrangerscraft:sentinel_morpher_hyperforce.form": "Ranger: §8Black §6Sentinel §8Ranger",
+  "powerrangerscraft.name.red_sentinel_ranger": "Ranger: §cRed §6Sentinel §cRanger",
+  "powerrangerscraft.name.black_sentinel_ranger": "Ranger: §8Black §6Sentinel §8Ranger",
 
   "item.powerrangerscraft.drive_defender": "Drive Defender",
   "item.powerrangerscraft.drive_lance": "Drive Lance",
@@ -884,7 +886,7 @@
 
   "item.powerrangerscraft.tiger_spirit": "Tiger Spirit",
 
-  "powerrangerscraft:tiger_spirit.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.jungle_fury_red": "Ranger: §cRed Ranger",
 
   //17 RPM
   "tab.powerrangerscraft.rpm": "RPM",
@@ -901,7 +903,7 @@
 
   "item.powerrangerscraft.eagle_racer_engine_cell": "Eagle Racer Engine Cell",
 
-  "powerrangerscraft:eagle_racer_engine_cell.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.rpm_red": "Ranger: §cRed Ranger",
 
   //18-19 Samurai/Super Samurai
   "tab.powerrangerscraft.samurai": "(Super) Samurai",
@@ -940,55 +942,41 @@
 
   "item.powerrangerscraft.black_box": "Black Box",
 
-  "powerrangerscraft:lion_disc.form": "§cRed Ranger",
-  "powerrangerscraft:dragon_disc.form": "§9Blue Ranger",
-  "powerrangerscraft:turtle_disc.form": "§dPink Ranger",
-  "powerrangerscraft:bear_disc.form": "§2Green Ranger",
-  "powerrangerscraft:ape_disc.form": "§eYellow Ranger",
-  "powerrangerscraft:coral_disc.form": "§6Gold Ranger",
-  "powerrangerscraft:lion_disc_f.form": "§cRed Ranger (Female)",
+  "powerrangerscraft.name.samurai_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.samurai_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.samurai_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.samurai_green": "Ranger: §2Green Ranger",
+  "powerrangerscraft.name.samurai_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.samurai_gold": "Ranger: §6Gold Ranger",
+  "powerrangerscraft.name.princess_samurai_red": "Ranger: §cRed Ranger (Female)",
 
-  "powerrangerscraft:mega_mode_disc.form_1": "§cRed Ranger",
   "powerrangerscraft:mega_mode_disc.form_2": "Mega Mode",
-  "powerrangerscraft:mega_mode_disc_blue.form_1": "§9Blue Ranger",
   "powerrangerscraft:mega_mode_disc_blue.form_2": "Mega Mode",
-  "powerrangerscraft:mega_mode_disc_pink.form_1": "§dPink Ranger",
   "powerrangerscraft:mega_mode_disc_pink.form_2": "Mega Mode",
-  "powerrangerscraft:mega_mode_disc_green.form_1": "§2Green Ranger",
   "powerrangerscraft:mega_mode_disc_green.form_2": "Mega Mode",
-  "powerrangerscraft:mega_mode_disc_yellow.form_1": "§eYellow Ranger",
   "powerrangerscraft:mega_mode_disc_yellow.form_2": "Mega Mode",
-  "powerrangerscraft:mega_mode_disc_gold.form_1": "§6Gold Ranger",
   "powerrangerscraft:mega_mode_disc_gold.form_2": "Mega Mode",
-  "powerrangerscraft:mega_mode_disc_princess.form_1": "§cRed Ranger (Female)",
   "powerrangerscraft:mega_mode_disc_princess.form_2": "Mega Mode",
 
   "powerrangerscraft:super_samurai_disc.form": "Super Samurai Mode",
-  "powerrangerscraft:super_mega_mode_disc.form_1": "§cRed Ranger",
   "powerrangerscraft:super_mega_mode_disc.form_2": "Super Mega Mode",
-  "powerrangerscraft:super_mega_mode_disc_blue.form_1": "§9Blue Ranger",
   "powerrangerscraft:super_mega_mode_disc_blue.form_2": "Super Mega Mode",
-  "powerrangerscraft:super_mega_mode_disc_pink.form_1": "§dPink Ranger",
   "powerrangerscraft:super_mega_mode_disc_pink.form_2": "Super Mega Mode",
-  "powerrangerscraft:super_mega_mode_disc_green.form_1": "§2Green Ranger",
   "powerrangerscraft:super_mega_mode_disc_green.form_2": "Super Mega Mode",
-  "powerrangerscraft:super_mega_mode_disc_yellow.form_1": "§eYellow Ranger",
   "powerrangerscraft:super_mega_mode_disc_yellow.form_2": "Super Mega Mode",
-  "powerrangerscraft:super_mega_mode_disc_gold.form_1": "§6Gold Ranger",
   "powerrangerscraft:super_mega_mode_disc_gold.form_2": "Super Mega Mode",
-  "powerrangerscraft:super_mega_mode_disc_princess.form_1": "§cRed Ranger (Female)",
   "powerrangerscraft:super_mega_mode_disc_princess.form_2": "Super Mega Mode",
 
   "powerrangerscraft:shark_disc.form": "Shark Attack Mode",
-  "powerrangerscraft:shark_attack_mega_mode_disc.form": "§cRed Ranger§r\nShark Attack Mega Mode",
+  "powerrangerscraft:shark_attack_mega_mode_disc.form": "Shark Attack Mega Mode",
 
-  "powerrangerscraft:shogun_disc.form": "§cShogun Ranger Fire",
-  "powerrangerscraft:shogun_disc_blue.form": "§9Shogun Ranger Water",
-  "powerrangerscraft:shogun_disc_pink.form": "§dShogun Ranger Sky",
-  "powerrangerscraft:shogun_disc_green.form": "§2Shogun Ranger Forest",
-  "powerrangerscraft:shogun_disc_yellow.form": "§eShogun Ranger Earth",
-  "powerrangerscraft:shogun_disc_gold.form": "§6Shogun Ranger Light",
-  "powerrangerscraft:shogun_disc_princess_f.form": "§cShogun Ranger Fire (Female)",
+  "powerrangerscraft:shogun_disc.form": "Ranger: §cShogun Ranger Fire",
+  "powerrangerscraft:shogun_disc_blue.form": "Ranger: §9Shogun Ranger Water",
+  "powerrangerscraft:shogun_disc_pink.form": "Ranger: §dShogun Ranger Sky",
+  "powerrangerscraft:shogun_disc_green.form": "Ranger: §2Shogun Ranger Forest",
+  "powerrangerscraft:shogun_disc_yellow.form": "Ranger: §eShogun Ranger Earth",
+  "powerrangerscraft:shogun_disc_gold.form": "Ranger: §6Shogun Ranger Light",
+  "powerrangerscraft:shogun_disc_princess.form": "Ranger: §cShogun Ranger Fire (Female)",
 
   "item.powerrangerscraft.spin_sword": "Spin Sword",
   "item.powerrangerscraft.mega_blade": "Mega Blade",
@@ -1086,21 +1074,21 @@
   "item.powerrangerscraft.tiger_claw": "Tiger Claw",
   "item.powerrangerscraft.shark_bowgun": "Shark Bowgun",
 
-  "powerrangerscraft:red_change_power_card.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:pink_change_power_card.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:black_change_power_card.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:yellow_change_power_card.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:blue_change_power_card.form": "Ranger: §9Blue Ranger",
-  "powerrangerscraft:robo_knight_change_power_card.form": "Ranger: §7Robo Knight",
-  "powerrangerscraft:green_change_power_card.form": "Ranger: §2Green Ranger",
+  "powerrangerscraft.name.megaforce_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.megaforce_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.megaforce_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.megaforce_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.megaforce_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.robo_knight": "Ranger: §7Robo Knight",
+  "powerrangerscraft.name.megaforce_green": "Ranger: §2Green Ranger",
 
-  "powerrangerscraft:robo_knight_change_power_card_dark.form": "Villain: §7Reprogrammed Robo Knight",
+  "powerrangerscraft.name.dark_robo_knight": "Villain: §7Reprogrammed Robo Knight",
 
-  "powerrangerscraft:red_ultra_power_card.form": "Ranger: §cRed Ranger §6Ultra Mode",
-  "powerrangerscraft:pink_ultra_power_card.form": "Ranger: §dPink Ranger §6Ultra Mode",
-  "powerrangerscraft:black_ultra_power_card.form": "Ranger: §8Black Ranger §6Ultra Mode",
-  "powerrangerscraft:yellow_ultra_power_card.form": "Ranger: §eYellow Ranger §6Ultra Mode",
-  "powerrangerscraft:blue_ultra_power_card.form": "Ranger: §9Blue Ranger §6Ultra Mode",
+  "powerrangerscraft:red_ultra_power_card.form": "§6Ultra Mode",
+  "powerrangerscraft:pink_ultra_power_card.form": "§6Ultra Mode",
+  "powerrangerscraft:black_ultra_power_card.form": "§6Ultra Mode",
+  "powerrangerscraft:yellow_ultra_power_card.form": "§6Ultra Mode",
+  "powerrangerscraft:blue_ultra_power_card.form": "§6Ultra Mode",
 
   "block.powerrangerscraft.gosei": "Gosei",
 
@@ -1119,7 +1107,7 @@
 
   "item.powerrangerscraft.super_megaforce_red_key": "Super Megaforce Red Legendary Ranger Key",
 
-  "powerrangerscraft:super_megaforce_red_key.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.super_megaforce_red": "Ranger: §cRed Ranger",
 
   //22-23 Dino Charge/Dino Supercharge
   "tab.powerrangerscraft.dino_charge": "Dino (Super)Charge",
@@ -1139,8 +1127,8 @@
   "item.powerrangerscraft.tyrannosaurus_rex_dino_charger": "T-Rex Dino Charger",
   "item.powerrangerscraft.dino_cycle_charger": "Dino Cycle Charger",
 
-  "powerrangerscraft:tyrannosaurus_rex_dino_charger.form": "§cRed Ranger",
-  "powerrangerscraft:spinosaurus_dino_charger.form": "Ranger: §1Dark Ranger",
+  "powerrangerscraft.name.dino_charge_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.dino_charge_dark": "Ranger: §1Dark Ranger",
 
   "item.powerrangerscraft.dino_charge_morpher": "Dino Charge Morpher",
   "item.powerrangerscraft.dino_saber": "Dino Saber",
@@ -1166,8 +1154,8 @@
   "item.powerrangerscraft.red_ninja_power_star": "Red Ninja Power Star",
   "item.powerrangerscraft.red_ninja_power_star_silver": "Red Ninja Power Star (Silver Sash Version)",
 
-  "powerrangerscraft:red_ninja_power_star.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:red_ninja_power_star_silver.form": "Ranger: §cRed Ranger§r w/ §7Silver Sash",
+  "powerrangerscraft.name.ninja_steel_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.ninja_steel_red_silver": "Ranger: §cRed Ranger§r w/ §7Silver Sash",
 
   "item.powerrangerscraft.ninja_battle_morpher": "Ninja Battle Morpher",
 
@@ -1219,23 +1207,23 @@
   "item.powerrangerscraft.robo_blaze_morph_x_key": "Robo-Blaze Morph-X Key",
   "item.powerrangerscraft.robo_roxy_morph_x_key": "Robo-Roxy Morph-X Key",
 
-  "powerrangerscraft:red_morph_x_key.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:blue_morph_x_key.form": "Ranger: §9Blue Ranger",
-  "powerrangerscraft:yellow_morph_x_key.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:gold_morph_x_key.form": "Ranger: §6Gold Ranger",
-  "powerrangerscraft:silver_morph_x_key.form": "Ranger: §7Silver Ranger",
-  "powerrangerscraft:orange_morph_x_key.form": "Ranger: §6Orange Ranger",
+  "powerrangerscraft.name.beast_morphers_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.beast_morphers_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.beast_morphers_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.beast_morphers_gold": "Ranger: §6Gold Ranger",
+  "powerrangerscraft.name.beast_morphers_silver": "Ranger: §7Silver Ranger",
+  "powerrangerscraft.name.beast_morphers_orange": "Ranger: §6Orange Ranger",
 
-  "powerrangerscraft:blaze_morph_x_key.form": "Villian: §4Cybervillain Blaze",
-  "powerrangerscraft:roxy_morph_x_key.form": "Villian: §6Cybervillain Roxy",
-  "powerrangerscraft:robo_blaze_morph_x_key.form": "Villian: §6Cybervillain Robo-Blaze",
-  "powerrangerscraft:robo_roxy_morph_x_key.form": "Villian: §5Cybervillain Robo-Roxy",
+  "powerrangerscraft.name.cybervillain_blaze": "Villian: §4Cybervillain Blaze",
+  "powerrangerscraft.name.cybervillain_roxy": "Villian: §6Cybervillain Roxy",
+  "powerrangerscraft.name.cybervillain_robo_blaze": "Villian: §6Cybervillain Robo-Blaze",
+  "powerrangerscraft.name.cybervillain_robo_roxy": "Villian: §5Cybervillain Robo-Roxy",
 
-  "powerrangerscraft:red_fury_morph_x_key.form": "Ranger: §cRed Ranger Fury Mode",
-  "powerrangerscraft:beast_x_visor.form": "Ranger: §cRed Ranger Beast X Mode",
-  "powerrangerscraft:beast_x_visor_b.form": "Ranger: §9Blue Ranger Beast X Mode",
-  "powerrangerscraft:beast_x_visor_y.form": "Ranger: §eYellow Ranger Beast X Mode",
-  "powerrangerscraft:beast_x_king_activator.form": "Ranger: §cRed Ranger §9Beast X §eKing Mode",
+  "powerrangerscraft:red_fury_morph_x_key.form": "Fury Mode",
+  "powerrangerscraft:beast_x_visor.form": "Beast X Mode",
+  "powerrangerscraft:beast_x_visor_b.form": "Beast X Mode",
+  "powerrangerscraft:beast_x_visor_y.form": "Beast X Mode",
+  "powerrangerscraft:beast_x_king_activator.form": "§9Beast X §eKing Mode",
 
   "item.powerrangerscraft.beast_x_saber": "Beast-X Saber",
   "item.powerrangerscraft.beast_x_blaster": "Beast-X Blaster",
@@ -1317,15 +1305,15 @@
   "item.powerrangerscraft.smash_dino_key": "Smash Dino Key",
   "item.powerrangerscraft.freeze_dino_key": "Freeze Dino Key",
 
-  "powerrangerscraft:t_rex_dino_key.form": "§cRed Ranger",
-  "powerrangerscraft:tricera_dino_key.form": "§9Blue Ranger",
-  "powerrangerscraft:ankylo_dino_key.form": "§dPink Ranger",
-  "powerrangerscraft:tiger_dino_key.form": "§2Green Ranger",
-  "powerrangerscraft:stego_dino_key.form": "§8Black Ranger",
-  "powerrangerscraft:mosa_dino_key.form": "§6Gold Ranger",
-  "powerrangerscraft:void_knight_key.form": "§5Void Knight",
-  "powerrangerscraft:t_rex_dino_key_zenith.form": "Zenith Ranger",
-  "powerrangerscraft:evil_tricera_dino_key.form": "§9Blue Ranger (Evil)",
+  "powerrangerscraft.name.dino_fury_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.dino_fury_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.dino_fury_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.dino_fury_green": "Ranger: §2Green Ranger",
+  "powerrangerscraft.name.dino_fury_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.dino_fury_gold": "Ranger: §6Gold Ranger",
+  "powerrangerscraft.name.void_knight": "Debatable Ranger/Villain: §5Void Knight",
+  "powerrangerscraft.name.dino_fury_zenith": "Ranger: Zenith Ranger",
+  "powerrangerscraft.name.evil_dino_fury_blue": "Evil Ranger: §9Blue Ranger",
 
   "powerrangerscraft:hyper_dino_key.form": "Hyper Boost",
   "powerrangerscraft:elasto_dino_key.form": "Elasto Boost",
@@ -1357,15 +1345,13 @@
   "powerrangerscraft:smash_dino_key.form": "Smash Battle Armor",
   "powerrangerscraft:freeze_dino_key.form": "Freeze Battle Armor",
 
-  "powerrangerscraft:dino_knight_key.form_r": "§cRed Ranger",
-  "powerrangerscraft:dino_knight_key.form_b": "§8Black Ranger",
   "powerrangerscraft:dino_knight_key.form_2": "Dino Knight Mode",
   "powerrangerscraft:dino_master_key.form": "Dino Master Mode",
 
   "item.powerrangerscraft.unfinished_dino_master_saber": "Unfinished Dino Master Saber",
 
   "item.powerrangerscraft.robotic_arm": "Javi's Robotic Arm",
-  "powerrangerscraft:robotic_arm.form": "§8Black Ranger§r w/ Robotic Arm",
+  "powerrangerscraft:robotic_arm.form": "w/ Robotic Arm",
 
   "item.powerrangerscraft.chromafury_saber": "Chromafury Saber",
   "item.powerrangerscraft.mosa_blaster": "Mosa Blaster",
@@ -1405,13 +1391,13 @@
   "item.powerrangerscraft.solono_cosmic_orb": "Solono Cosmic Orb",
   "item.powerrangerscraft.t_rex_cosmic_orb": "T-Rex Cosmic Orb",
 
-  "powerrangerscraft:ankylo_cosmic_orb.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:tricera_cosmic_orb.form": "Ranger: §9Blue Ranger",
-  "powerrangerscraft:tiger_cosmic_orb.form": "Ranger: §2Green Ranger",
-  "powerrangerscraft:stego_cosmic_orb.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:mosa_cosmic_orb.form": "Ranger: §6Gold Ranger",
-  "powerrangerscraft:solono_cosmic_orb.form": "Ranger: §6Orange Ranger",
-  "powerrangerscraft:t_rex_cosmic_orb.form": "Ranger: Zenith Ranger",
+  "powerrangerscraft.name.cosmic_fury_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.cosmic_fury_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.cosmic_fury_green": "Ranger: §2Green Ranger",
+  "powerrangerscraft.name.cosmic_fury_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.cosmic_fury_gold": "Ranger: §6Gold Ranger",
+  "powerrangerscraft.name.cosmic_fury_orange": "Ranger: §6Orange Ranger",
+  "powerrangerscraft.name.cosmic_fury_zenith": "Ranger: Zenith Ranger",
 
   "item.powerrangerscraft.cosmic_blaster": "Cosmic Blaster",
   "item.powerrangerscraft.ankylo_hammer": "Ankylo Hammer",
@@ -1450,14 +1436,14 @@
 
   "item.powerrangerscraft.pink_power_gem": "Pink Power Gem",
 
-  "powerrangerscraft:lion_hyperforce_card.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:serpent_hyperforce_card.form": "Ranger: §9Blue Ranger",
-  "powerrangerscraft:ram_hyperforce_card.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:cerberus_hyperforce_card.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:phoenix_hyperforce_card.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:hydra_hyperforce_card.form": "Ranger: §2Green Ranger",
+  "powerrangerscraft.name.hyperforce_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.hyperforce_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.hyperforce_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.hyperforce_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.hyperforce_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.hyperforce_green": "Ranger: §2Green Ranger",
 
-  "powerrangerscraft:pink_power_gem.form": "Ranger: §dPink Battle Warrior",
+  "powerrangerscraft.name.pink_battle_warrior": "Ranger: §dPink Battle Warrior",
 
   "item.powerrangerscraft.hyperforce_blade_blaster": "Hyperforce Blade Blaster",
   "item.powerrangerscraft.iapetus_blaster": "Iapetus Blaster",
@@ -1503,15 +1489,15 @@
   "item.powerrangerscraft.ophiuchus_constellation_card": "Ophiuchus Constellation Card",
   "item.powerrangerscraft.cosmic_heart": "Cosmic Heart",
 
-  "powerrangerscraft:fire_constellation_card.form": "Ranger: §cRed Ranger§r/§cStarRed",
-  "powerrangerscraft:water_constellation_card.form": "Ranger: §1Blue Ranger§r/§1StarBlue",
-  "powerrangerscraft:earth_constellation_card.form": "Ranger: §aGreen Ranger§r/§aStarGreen",
-  "powerrangerscraft:air_constellation_card.form": "Ranger: White Ranger/StarWhite",
-  "powerrangerscraft:lightning_constellation_card.form": "Ranger: §eYellow Ranger§r/§eStarLightning",
-  "powerrangerscraft:solar_constellation_card.form": "Ranger: §6Gold Ranger§r/§6TaiyouGold",
-  "powerrangerscraft:lunar_constellation_card.form": "Ranger: §7Silver Ranger§r/§7TsukiSilver",
-  "powerrangerscraft:ophiuchus_constellation_card.form": "Ranger: §3Ophiuchus Ranger§r/§3ZodiacMaStar",
-  "powerrangerscraft:cosmic_heart.form": "God: §1Cosmic Master§r/§1CosmicMaStar",
+  "powerrangerscraft.name.star_red": "Ranger: §cRed Ranger§r/§cStarRed",
+  "powerrangerscraft.name.star_blue": "Ranger: §1Blue Ranger§r/§1StarBlue",
+  "powerrangerscraft.name.star_green": "Ranger: §aGreen Ranger§r/§aStarGreen",
+  "powerrangerscraft.name.star_white": "Ranger: White Ranger/StarWhite",
+  "powerrangerscraft.name.star_lightning": "Ranger: §eYellow Ranger§r/§eStarLightning",
+  "powerrangerscraft.name.taiyou_gold": "Ranger: §6Gold Ranger§r/§6TaiyouGold",
+  "powerrangerscraft.name.tsuki_silver": "Ranger: §7Silver Ranger§r/§7TsukiSilver",
+  "powerrangerscraft.name.zodiac_mastar": "Ranger: §3Ophiuchus Ranger§r/§3ZodiacMaStar",
+  "powerrangerscraft.name.cosmic_mastar": "God: §1Cosmic Master§r/§1CosmicMaStar",
 
   "item.powerrangerscraft.flame_sword": "Flame Sword",
   "item.powerrangerscraft.water_bow": "Water Bow",
@@ -1536,14 +1522,14 @@
   "item.powerrangerscraft.boom_studios_comic_dark": "Boom Studios Comic (Dark Variant)",
 
   "item.powerrangerscraft.mmpr_the_return_comic": "Mighty Morphin' Power Rangers: The Return Comic",
-  "powerrangerscraft:mmpr_the_return_comic.form": "Ranger: §cRed Ranger",
+  "powerrangerscraft:mmpr_the_return_comic.form": "Form: The Return",
 
   "item.powerrangerscraft.mmpr_2026_comic": "Mighty Morphin' Power Rangers (2026) Comic",
-  "powerrangerscraft:mmpr_2026_comic.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:mmpr_2026_comic_mmpr_black.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:mmpr_2026_comic_mmpr_blue.form": "Ranger: §1Blue Ranger",
-  "powerrangerscraft:mmpr_2026_comic_mmpr_yellow.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:mmpr_2026_comic_mmpr_pink.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:mmpr_2026_comic.form": "Form: 2026 Comic",
+  "powerrangerscraft:mmpr_2026_comic_mmpr_black.form": "Form: 2026 Comic",
+  "powerrangerscraft:mmpr_2026_comic_mmpr_blue.form": "Form: 2026 Comic",
+  "powerrangerscraft:mmpr_2026_comic_mmpr_yellow.form": "Form: 2026 Comic",
+  "powerrangerscraft:mmpr_2026_comic_mmpr_pink.form": "Form: 2026 Comic",
 
   //EX Comics: World of the Coinless
   "tab.powerrangerscraft.shattered_grid": "World of the Coinless",
@@ -1552,7 +1538,7 @@
 
   "item.powerrangerscraft.pink_power_morpher_ranger_slayer": "Power Morpher",
 
-  "powerrangerscraft:ranger_slayer_power_coin.form": "Ranger/Villain: §dRanger Slayer",
+  "powerrangerscraft.name.ranger_slayer": "Ranger/Villain: §dRanger Slayer",
 
   //EX Comics: Solar Rangers
   "tab.powerrangerscraft.solar": "Beyond the Grid",
@@ -1578,14 +1564,14 @@
   "item.powerrangerscraft.purple_solar_crystal": "Purple Solar Crystal",
   "item.powerrangerscraft.orange_solar_crystal": "Orange Solar Crystal",
 
-  "powerrangerscraft:purple_solar_crystal.form": "Ranger: §5Purple Ranger",
-  "powerrangerscraft:orange_solar_crystal.form": "Ranger: §6Orange Ranger",
-  "powerrangerscraft:red_data_card_solar.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:magna_defender_core_solar.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:spinosaurus_dino_charger_solar.form": "Ranger: §1Blue Ranger",
-  "powerrangerscraft:yellow_zeo_sub_crystal_solar.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:green_samurai_ninja_power_disk_solar.form": "Ranger: §aGreen Ranger",
-  "powerrangerscraft:ranger_slayer_power_coin_solar.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.solar_purple": "Ranger: §5Purple Ranger",
+  "powerrangerscraft.name.solar_orange": "Ranger: §6Orange Ranger",
+  "powerrangerscraft.name.solar_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.solar_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.solar_blue": "Ranger: §1Blue Ranger",
+  "powerrangerscraft.name.solar_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.solar_green": "Ranger: §aGreen Ranger",
+  "powerrangerscraft.name.solar_pink": "Ranger: §dPink Ranger",
 
   "item.powerrangerscraft.solar_chakram": "Void Chakram",
   "item.powerrangerscraft.solar_baton": "Solar Baton",
@@ -1617,12 +1603,12 @@
   "item.powerrangerscraft.omega_black_logo": "Black Omega Logo",
   "item.powerrangerscraft.omega_gold_logo": "Gold Omega Logo",
 
-  "powerrangerscraft:omega_red_logo.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:omega_blue_logo.form": "Ranger: §bBlue Ranger",
-  "powerrangerscraft:omega_yellow_logo.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:omega_black_logo.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:omega_gold_logo.form": "Ranger: §6Gold Ranger",
-  "powerrangerscraft:omega_gold_logo_death.form": "Villain: §6Death Ranger",
+  "powerrangerscraft.name.omega_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.omega_blue": "Ranger: §bBlue Ranger",
+  "powerrangerscraft.name.omega_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.omega_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.omega_gold": "Ranger: §6Gold Ranger",
+  "powerrangerscraft.name.death_ranger": "Villain: §6Death Ranger",
 
   "item.powerrangerscraft.omega_katana": "Omega Katana",
   "item.powerrangerscraft.omega_kama": "Omega Kama",
@@ -1652,12 +1638,12 @@
   "item.powerrangerscraft.pink_gem": "Pink Amethyst Fossil",
   "item.powerrangerscraft.green_sphere": "Green Jade Fossil",
 
-  "powerrangerscraft:red_rib.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:black_scale.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:blue_bone.form": "Ranger: §bBlue Ranger",
-  "powerrangerscraft:yellow_talon.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:pink_gem.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:green_sphere.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft.name.prime_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.prime_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.prime_blue": "Ranger: §bBlue Ranger",
+  "powerrangerscraft.name.prime_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.prime_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.prime_green": "Ranger: §aGreen Ranger",
 
   "item.powerrangerscraft.prime_red_sword": "Prime Red Sword",
   "item.powerrangerscraft.prime_blue_bow": "Prime Blue Bow",
@@ -1691,17 +1677,17 @@
   "item.powerrangerscraft.ranger_academy_pink_power_coin": "Ranger Academy Pink Power Coin",
   "item.powerrangerscraft.ranger_academy_green_power_coin": "Ranger Academy Green Power Coin",
 
-  "powerrangerscraft:ranger_academy_red_power_coin.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:ranger_academy_black_power_coin.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:ranger_academy_blue_power_coin.form": "Ranger: §bBlue Ranger",
-  "powerrangerscraft:ranger_academy_yellow_power_coin.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:ranger_academy_pink_power_coin.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:ranger_academy_green_power_coin.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft.name.ranger_academy_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.ranger_academy_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.ranger_academy_blue": "Ranger: §bBlue Ranger",
+  "powerrangerscraft.name.ranger_academy_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.ranger_academy_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.ranger_academy_green": "Ranger: §aGreen Ranger",
 
   //EX Comics: Unlimited
   "item.powerrangerscraft.unlimited_communicator": "Unlimited Communicator",
 
-  "powerrangerscraft:unlimited_communicator.form": "Ranger: §eStriking Tiger Unlimited Ranger",
+  "powerrangerscraft.name.unlimited_yellow_ranger": "Ranger: §eStriking Tiger Unlimited Ranger",
 
   //EX 2017 Reboot
   "tab.powerrangerscraft.reboot": "Power Rangers (2017)",
@@ -1726,12 +1712,12 @@
   "item.powerrangerscraft.reboot_pink_power_coin":"Pink Power Coin (2017)",
   "item.powerrangerscraft.reboot_green_power_coin":"Green Power Coin (2017)",
 
-  "powerrangerscraft:reboot_red_power_coin.form": "Ranger: §cRed Ranger",
-  "powerrangerscraft:reboot_black_power_coin.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:reboot_blue_power_coin.form": "Ranger: §1Blue Ranger",
-  "powerrangerscraft:reboot_yellow_power_coin.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:reboot_pink_power_coin.form": "Ranger: §dPink Ranger",
-  "powerrangerscraft:reboot_green_power_coin.form": "Ranger: §aGreen Ranger",
+  "powerrangerscraft.name.reboot_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.reboot_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.reboot_blue": "Ranger: §1Blue Ranger",
+  "powerrangerscraft.name.reboot_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.reboot_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.reboot_green": "Ranger: §aGreen Ranger",
 
   "item.powerrangerscraft.reboot_power_sword": "Power Sword (2017)",
   
@@ -1760,31 +1746,31 @@
 
   //EX Game Stuff
   "item.powerrangerscraft.game_controller_16_bit": "Game Controller",
-  "powerrangerscraft:game_controller_16_bit.form": "Ranger: §1Blue Ranger",
-  "powerrangerscraft:game_controller_16_bit_mmpr_black.form": "Ranger: §8Black Ranger",
-  "powerrangerscraft:game_controller_16_bit_mmpr_yellow.form": "Ranger: §eYellow Ranger",
-  "powerrangerscraft:game_controller_16_bit_mmpr_pink.form": "Ranger: §dPink Ranger",
+  "powerrangerscraft:game_controller_16_bit.form": "Form: 16-bit Game Design",
+  "powerrangerscraft:game_controller_16_bit_mmpr_black.form": "Form: 16-bit Game Design",
+  "powerrangerscraft:game_controller_16_bit_mmpr_yellow.form": "Form: 16-bit Game Design",
+  "powerrangerscraft:game_controller_16_bit_mmpr_pink.form": "Form: 16-bit Game Design",
 
   "item.powerrangerscraft.crimson_hawk_power_coin": "Crimson Hawk Power Coin",
   "item.powerrangerscraft.crimson_hawk_power_morpher": "Power Morpher",
-  "powerrangerscraft:crimson_hawk_power_coin.form": "Ranger: §4Crimson Hawk Ranger",
+  "powerrangerscraft.name.crimson_hawk_ranger": "Ranger: §4Crimson Hawk Ranger",
 
   "item.powerrangerscraft.blazing_phoenix_power_coin": "Blazing Phoenix Power Coin",
   "item.powerrangerscraft.blazing_phoenix_power_morpher": "Power Morpher",
-  "powerrangerscraft:blazing_phoenix_power_coin.form": "Ranger: §1Blue Phoenix Ranger",
+  "powerrangerscraft.name.blue_phoenix_ranger": "Ranger: §1Blue Phoenix Ranger",
 
   "item.powerrangerscraft.battle_for_the_grid_game": "Power Rangers: Battle for the Grid",
-  "powerrangerscraft:battle_for_the_grid_game_f.form": "§cRed Ranger (Female)§r\nBattle for the Grid Alt Skin",
-  "powerrangerscraft:battle_for_the_grid_game_magna_defender.form": "Extra Hero: §8Magna Defender§r\nBattle for the Grid Alt Skin",
-  "powerrangerscraft:battle_for_the_grid_game_reboot_blue.form": "Ranger: §1Blue Ranger§r\nBattle for the Grid Alt Skin",
-  "powerrangerscraft:battle_for_the_grid_game_mmpr_red.form": "Ranger: §cRed Ranger§r\nBattle for the Grid Alt Skin",
-  "powerrangerscraft:battle_for_the_grid_game_mmpr_pink.form": "Ranger: §dPink Ranger§r\nBattle for the Grid Alt Skin",
-  "powerrangerscraft:battle_for_the_grid_game_mmpr_green.form": "Ranger: §aGreen Ranger§r\nBattle for the Grid Alt Skin",
-  "powerrangerscraft:battle_for_the_grid_game_mmpr_white.form": "Ranger: White Ranger\nBattle for the Grid Alt Skin",
-  "powerrangerscraft:battle_for_the_grid_game_ranger_slayer.form": "Villain: §dRanger Slayer§r\nBattle for the Grid Alt Skin",
-  "powerrangerscraft:battle_for_the_grid_game_quantum_ranger.form": "Ranger: §4Quantum Ranger§r\nBattle for the Grid Alt Skin",
-  "powerrangerscraft:battle_for_the_grid_game_crimson_hawk_ranger.form": "Ranger: §4Crimson Hawk Ranger§r\nBattle for the Grid Alt Skin",
-  "powerrangerscraft:battle_for_the_grid_game_blue_phoenix_ranger.form": "Ranger: §1Blue Phoenix Ranger§r\nBattle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game.form": "Battle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_magna_defender.form": "Battle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_reboot_blue.form": "Battle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_mmpr_red.form": "Battle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_mmpr_pink.form": "Battle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_mmpr_green.form": "Battle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_mmpr_white.form": "Battle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_ranger_slayer.form": "Battle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_quantum_ranger.form": "Battle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_crimson_hawk_ranger.form": "Battle for the Grid Alt Skin",
+  "powerrangerscraft:battle_for_the_grid_game_blue_phoenix_ranger.form": "Battle for the Grid Alt Skin",
 
   "item.powerrangercraft.":"",
   

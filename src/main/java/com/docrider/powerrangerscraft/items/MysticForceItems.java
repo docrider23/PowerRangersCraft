@@ -28,9 +28,9 @@ public class MysticForceItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.MYSTIC_FORCE).ChangeRepairItem(MYSTIC_FORCE_LOGO.get()));
 
     public static final DeferredItem<Item> RED_MYSTIC_MORPHER = ITEMS.register("red_mystic_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mystic_force_red",RED_MYSTIC_MORPHER_PLATE,MYSTIC_FORCE_HELMET,MYSTIC_FORCE_CHESTPLATE,MYSTIC_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MYSTIC_FORCE).ChangeRepairItem(MYSTIC_FORCE_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mystic_force_red",RED_MYSTIC_MORPHER_PLATE,MYSTIC_FORCE_HELMET,MYSTIC_FORCE_CHESTPLATE,MYSTIC_FORCE_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.MYSTIC_FORCE).ChangeRepairItem(MYSTIC_FORCE_LOGO.get()));
     public static final DeferredItem<Item> GREEN_MYSTIC_MORPHER = ITEMS.register("green_mystic_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mystic_force_green",GREEN_MYSTIC_MORPHER_PLATE,MYSTIC_FORCE_HELMET,MYSTIC_FORCE_CHESTPLATE,MYSTIC_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MYSTIC_FORCE).ChangeRepairItem(MYSTIC_FORCE_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mystic_force_green",GREEN_MYSTIC_MORPHER_PLATE,MYSTIC_FORCE_HELMET,MYSTIC_FORCE_CHESTPLATE,MYSTIC_FORCE_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.MYSTIC_FORCE).ChangeRepairItem(MYSTIC_FORCE_LOGO.get()));
 
     public static final DeferredItem<Item> MAGI_WAND_RED = ITEMS.register("magi_wand_red",
             () -> new BaseDualSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).IsDualWeapon().AddToTabList(RangerTabs.MYSTIC_FORCE).ChangeRepairItem(MYSTIC_FORCE_LOGO.get()));

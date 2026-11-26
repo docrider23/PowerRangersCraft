@@ -62,11 +62,11 @@ public class RangerArmorItem extends ArmorItem implements GeoItem {
     public void createGeoRenderer(Consumer<GeoRenderProvider> consumer) {
         consumer.accept(new GeoRenderProvider() {
             private RangerArmorRenderer renderer;
-
             @Override
             public <T extends LivingEntity> HumanoidModel<?> getGeoArmorRenderer(@Nullable T livingEntity, ItemStack itemStack, @Nullable EquipmentSlot equipmentSlot, @Nullable HumanoidModel<T> original) {
-                if(this.renderer == null)
-                    this.renderer = new RangerArmorRenderer(livingEntity, equipmentSlot);
+                if (this.renderer == null){
+                    this.renderer = new RangerArmorRenderer(equipmentSlot);
+                }
                 final Minecraft mc = Minecraft.getInstance();
                 this.renderer.prepForRender(livingEntity, itemStack, equipmentSlot, original, mc.renderBuffers().bufferSource(), mc.getTimer().getGameTimeDeltaPartialTick(true), 0, 0, 0, 0);
 

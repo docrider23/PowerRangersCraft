@@ -19,7 +19,7 @@ public class ShodoPhoneItem extends RangerChangerItem{
 	public ShodoPhoneItem (Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Properties properties)
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
-		Has_basic_belt_info=false;
+		Show_belt_form_info=false;
 	}
 
 	@Override
@@ -28,30 +28,24 @@ public class ShodoPhoneItem extends RangerChangerItem{
 		Item formItem = this.get_Form_Item(stack, 1);
 		Item formItem2 = this.get_Form_Item(stack, 2);
 
-		if (this==SamuraiItems.PRINCESS_SAMURAIZER.get())
-		{
-			if (formItem==SamuraiItems.MEGA_MODE_DISC_PRINCESS.get()) {
-				tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-				tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-			}
-			else if (formItem==SamuraiItems.SUPER_MEGA_MODE_DISC_PRINCESS.get()) {
-				tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-				tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-			}
-			else if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + "_f.form").getString()));
-			else {
-				tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + "_f.form").getString()));
-				tooltipComponents.add(Component.literal(Component.translatable(formItem2.toString() + ".form").getString()));
-			}
-		}
-		else {
-			if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
-			else {
-				tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
-				tooltipComponents.add(Component.literal(Component.translatable(formItem2.toString() + ".form").getString()));
-			}
-		}
+		boolean isShogun = formItem == SamuraiItems.SHOGUN_DISC_PRINCESS.get();
+
+		Has_basic_belt_info = !isShogun;
 		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+		if (isShogun) {
+			tooltipComponents.add(Component.translatable(formItem.toString() + ".form"));
+		} else if (formItem == SamuraiItems.MEGA_MODE_DISC_PRINCESS.get()
+				|| formItem == SamuraiItems.SUPER_MEGA_MODE_DISC_PRINCESS.get()) {
+			tooltipComponents.add(Component.translatable(formItem.toString() + ".form_2"));
+		} else if (formItem != Base_Form_Item) {
+			tooltipComponents.add(Component.translatable(formItem.toString() + ".form"));
+		}
+
+		if (formItem2 != OtherItems.BLANK_FORM.get()) {
+			tooltipComponents.add(Component.translatable(formItem2.toString() + ".form"));
+		}
+
 	}
 	
 	@Override

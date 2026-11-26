@@ -32,9 +32,9 @@ public class NinjaSteelItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.NINJA_STEEL).ChangeRepairItem(NINJA_STEEL_INGOT.get()));
 
     public static final DeferredItem<Item> RED_NINJA_BATTLE_MORPHER = ITEMS.register("red_ninja_battle_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninja_steel_red", RED_NINJA_POWER_STAR, NINJA_STEEL_HELMET, NINJA_STEEL_CHESTPLATE, NINJA_STEEL_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.NINJA_STEEL).ChangeRepairItem(NINJA_STEEL_INGOT.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninja_steel_red", RED_NINJA_POWER_STAR, NINJA_STEEL_HELMET, NINJA_STEEL_CHESTPLATE, NINJA_STEEL_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.NINJA_STEEL).ChangeRepairItem(NINJA_STEEL_INGOT.get()));
     public static final DeferredItem<Item> RED_SILVER_NINJA_BATTLE_MORPHER = ITEMS.register("red_silver_ninja_battle_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninja_steel_red_silver", RED_NINJA_POWER_STAR_SILVER, NINJA_STEEL_HELMET, NINJA_STEEL_CHESTPLATE, NINJA_STEEL_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.NINJA_STEEL).ChangeRepairItem(NINJA_STEEL_INGOT.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninja_steel_red_silver", RED_NINJA_POWER_STAR_SILVER, NINJA_STEEL_HELMET, NINJA_STEEL_CHESTPLATE, NINJA_STEEL_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.NINJA_STEEL).ChangeRepairItem(NINJA_STEEL_INGOT.get()));
 
     public static final DeferredItem<BaseSwordItem> NINJA_BATTLE_MORPHER = ITEMS.register("ninja_battle_morpher",
             () -> new BaseSwordItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.NINJA_STEEL).ChangeRepairItem(NINJA_STEEL_INGOT.get()));

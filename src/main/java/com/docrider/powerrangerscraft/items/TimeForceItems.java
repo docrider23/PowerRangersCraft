@@ -3,12 +3,15 @@ package com.docrider.powerrangerscraft.items;
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.others.*;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class TimeForceItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PowerRangersCraftCore.MODID);
@@ -37,9 +40,19 @@ public class TimeForceItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.TIME_FORCE).ChangeRepairItem(TIME_FORCE_LOGO.get()));
 
     public static final DeferredItem<Item> RED_CHRONO_MORPHER = ITEMS.register("red_chrono_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"time_force_red",TIME_FORCE_RED_BADGE,TIME_FORCE_HELMET,TIME_FORCE_CHESTPLATE,TIME_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.TIME_FORCE).ChangeRepairItem(TIME_FORCE_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"time_force_red",TIME_FORCE_RED_BADGE,TIME_FORCE_HELMET,TIME_FORCE_CHESTPLATE,TIME_FORCE_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.TIME_FORCE).ChangeRepairItem(TIME_FORCE_LOGO.get()));
     public static final DeferredItem<Item> QUANTUM_MORPHER = ITEMS.register("quantum_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"quantum_ranger",QUANTUM_RANGER_BADGE,TIME_FORCE_HELMET,TIME_FORCE_CHESTPLATE,TIME_FORCE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.TIME_FORCE).ChangeRepairItem(TIME_FORCE_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"quantum_ranger",QUANTUM_RANGER_BADGE,TIME_FORCE_HELMET,TIME_FORCE_CHESTPLATE,TIME_FORCE_LEGGINGS,new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+                    RangerFormChangeItem formItem1 = this.get_Form_Item(stack, 1);
+                    if (formItem1 != this.Base_Form_Item) {
+                        tooltipComponents.add(Component.translatable(formItem1.toString() + ".form"));
+                    }
+                }
+            }.Dont_show_belt_form_info().AddToTabList(RangerTabs.TIME_FORCE).ChangeRepairItem(TIME_FORCE_LOGO.get()));
 
     public static final DeferredItem<SwordItem> CHRONO_SABER_RED_1 = ITEMS.register("chrono_saber_red_1",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.TIME_FORCE).ChangeRepairItem(TIME_FORCE_LOGO.get()));

@@ -19,7 +19,7 @@ public class SamuraizerItem extends RangerChangerItem{
 	public SamuraizerItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Properties properties)
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
-		Has_basic_belt_info=false;
+		Show_belt_form_info=false;
 	}
 
 	@Override
@@ -28,52 +28,34 @@ public class SamuraizerItem extends RangerChangerItem{
 		Item formItem = this.get_Form_Item(stack, 1);
 		Item formItem2 = this.get_Form_Item(stack, 2);
 
-		if (formItem==SamuraiItems.MEGA_MODE_DISC.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-		}
-		else if (formItem==SamuraiItems.SUPER_MEGA_MODE_DISC.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-		}
-		else if (formItem==SamuraiItems.MEGA_MODE_DISC_BLUE.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-		}
-		else if (formItem==SamuraiItems.SUPER_MEGA_MODE_DISC_BLUE.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-		}
-		else if (formItem==SamuraiItems.MEGA_MODE_DISC_PINK.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-		}
-		else if (formItem==SamuraiItems.SUPER_MEGA_MODE_DISC_PINK.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-		}
-		else if (formItem==SamuraiItems.MEGA_MODE_DISC_GREEN.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-		}
-		else if (formItem==SamuraiItems.SUPER_MEGA_MODE_DISC_GREEN.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-		}
-		else if (formItem==SamuraiItems.MEGA_MODE_DISC_YELLOW.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-		}
-		else if (formItem==SamuraiItems.SUPER_MEGA_MODE_DISC_YELLOW.get()) {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_1").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-		}
-		else if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
-		else {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem2.toString() + ".form").getString()));
-		}
+		boolean isShogun = formItem == SamuraiItems.SHOGUN_DISC.get()
+				|| formItem == SamuraiItems.SHOGUN_DISC_BLUE.get()
+				|| formItem == SamuraiItems.SHOGUN_DISC_PINK.get()
+				|| formItem == SamuraiItems.SHOGUN_DISC_YELLOW.get()
+				|| formItem == SamuraiItems.SHOGUN_DISC_GREEN.get();
+
+		Has_basic_belt_info = !isShogun;
 		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+		if (isShogun) {
+			tooltipComponents.add(Component.translatable(formItem.toString() + ".form"));
+		} else if (formItem==SamuraiItems.MEGA_MODE_DISC.get()
+		|| formItem == SamuraiItems.SUPER_MEGA_MODE_DISC.get()
+		|| formItem == SamuraiItems.MEGA_MODE_DISC_BLUE.get()
+		|| formItem == SamuraiItems.SUPER_MEGA_MODE_DISC_BLUE.get()
+		|| formItem == SamuraiItems.MEGA_MODE_DISC_PINK.get()
+		|| formItem == SamuraiItems.SUPER_MEGA_MODE_DISC_PINK.get()
+		|| formItem == SamuraiItems.MEGA_MODE_DISC_GREEN.get()
+		|| formItem == SamuraiItems.SUPER_MEGA_MODE_DISC_GREEN.get()
+		|| formItem == SamuraiItems.MEGA_MODE_DISC_YELLOW.get()
+		|| formItem == SamuraiItems.SUPER_MEGA_MODE_DISC_YELLOW.get()) {
+			tooltipComponents.add(Component.translatable(formItem.toString() + ".form_2"));
+		} else if (formItem != Base_Form_Item) {
+			tooltipComponents.add(Component.translatable(formItem.toString() + ".form"));
+		}
+		if (formItem2 != OtherItems.BLANK_FORM.get()) {
+			tooltipComponents.add(Component.translatable(formItem2.toString() + ".form"));
+		}
 	}
 	
 	@Override

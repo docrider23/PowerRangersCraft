@@ -24,31 +24,26 @@ public class DinoFuryMorpherItem extends RangerChangerItem{
 	public DinoFuryMorpherItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Properties properties)
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
-		Has_basic_belt_info=false;
+		Show_belt_form_info=false;
 	}
 
 	@Override
 	public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
 
 		Item formItem = this.get_Form_Item(stack, 1);
 		Item formItem2 = this.get_Form_Item(stack, 2);
 
 		if (formItem== DinoFuryItems.DINO_KNIGHT_KEY.get()) {
-			if (stack.getItem() == DinoFuryItems.RED_DINO_FURY_MORPHER.get()) {
-				tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_r").getString()));
-				tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
+				tooltipComponents.add(Component.translatable(formItem.toString() + ".form_2"));
 			}
-		else if (stack.getItem() == DinoFuryItems.BLACK_DINO_FURY_MORPHER.get()) {
-				tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form_b").getString()));
-				tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form_2").getString()));
-			}
+		else if (formItem != Base_Form_Item) {
+			tooltipComponents.add(Component.translatable(formItem.toString() + ".form"));
 		}
-		else if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
-		else {
-			tooltipComponents.add(Component.literal("Ranger: " + Component.translatable(formItem.toString() + ".form").getString()));
-			tooltipComponents.add(Component.literal(Component.translatable(formItem2.toString() + ".form").getString()));
+		if (formItem2 != OtherItems.BLANK_FORM.get()) {
+			tooltipComponents.add(Component.translatable(formItem2.toString() + ".form"));
 		}
-		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
 	}
 
 	@Override

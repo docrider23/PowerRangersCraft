@@ -2,22 +2,44 @@ package com.docrider.powerrangerscraft.items.hyperforce;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.items.HyperforceItems;
+import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import net.minecraft.core.Holder;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.neoforge.registries.DeferredItem;
+
+import java.util.List;
 
 public class HyperforceMorpherItem extends RangerChangerItem {
 
     public HyperforceMorpherItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Item.Properties properties)
     {
         super(material, rider, baseFormItem, head, torso, legs, properties);
+        Show_belt_form_info = false;
+    }
+
+    @Override
+    public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+        Item formItem = get_Form_Item(stack, 1);
+        boolean isPinkBattle = formItem == HyperforceItems.PINK_POWER_GEM.get();
+        boolean isBlackSentinel = formItem == OperationOverdriveItems.SENTINEL_MORPHER_HYPERFORCE.get();
+
+        Has_basic_belt_info = !(isPinkBattle || isBlackSentinel);
+        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+        if (isPinkBattle) {
+            tooltipComponents.add(Component.translatable("powerrangerscraft.name.pink_battle_warrior"));
+        } else if (isBlackSentinel) {
+            tooltipComponents.add(Component.translatable("powerrangerscraft.name.black_sentinel_ranger"));
+        }
     }
 
     @Override

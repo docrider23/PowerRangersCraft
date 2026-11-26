@@ -92,11 +92,11 @@ public class TurboItems {
 			() -> new TurboMorpherItem(ArmorMaterials.DIAMOND,"turbo_pink",PINK_TURBO_KEY,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 
 	public static final DeferredItem<Item> SIGNAL_WHISTLE = ITEMS.register("signal_whistle",
-			() -> new RangerChangerItem(ArmorMaterials.DIAMOND, "blue_senturion",BLUE_SENTURION_BADGE,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
+			() -> new RangerChangerItem(ArmorMaterials.DIAMOND, "blue_senturion",BLUE_SENTURION_BADGE,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 	public static final DeferredItem<Item> SIGNAL_WHISTLE_EVIL = ITEMS.register("signal_whistle_evil",
-			() -> new RangerChangerItem(ArmorMaterials.DIAMOND, "blue_senturion_evil",BLUE_SENTURION_BADGE_EVIL,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
+			() -> new RangerChangerItem(ArmorMaterials.DIAMOND, "blue_senturion_evil",BLUE_SENTURION_BADGE_EVIL,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 	public static final DeferredItem<Item> PHANTOM_RANGER_MODULE = ITEMS.register("phantom_ranger_module",
-		() -> new RangerChangerItem(ArmorMaterials.DIAMOND, "phantom_ranger",POWER_RUBY,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
+		() -> new RangerChangerItem(ArmorMaterials.DIAMOND, "phantom_ranger",POWER_RUBY,TURBO_HELMET,TURBO_CHESTPLATE,TURBO_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));
 
 	public static final DeferredItem<BaseBlasterItem> AUTO_BLASTER = ITEMS.register("auto_blaster",
 			() -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).IsChargeWeapon().AddToTabList(RangerTabs.TURBO).ChangeRepairItem(TURBO_LOGO.get()));

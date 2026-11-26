@@ -20,7 +20,7 @@ public class OverdriveTrackerItem extends RangerChangerItem{
 	public OverdriveTrackerItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Item.Properties properties)
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
-		Has_basic_belt_info=false;
+		Show_belt_form_info=false;
 	}
 
 	@Override
@@ -28,13 +28,14 @@ public class OverdriveTrackerItem extends RangerChangerItem{
 
 		Item formItem = this.get_Form_Item(stack, 1);
 		Item formItem2 = this.get_Form_Item(stack, 2);
+		boolean isSentinel = formItem == OperationOverdriveItems.SENTINEL_MORPHER.get();
 
-		if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form").getString()));
-		else {
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form").getString()
-					+ " " + Component.translatable(formItem2.toString() + ".form").getString()));
-		}
+		Has_basic_belt_info = !isSentinel;
 		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+		if (isSentinel) {tooltipComponents.add(Component.translatable("powerrangerscraft.name.red_sentinel_ranger"));}
+		if (formItem2 != OtherItems.BLANK_FORM.get()) {tooltipComponents.add(Component.translatable(formItem2.toString() + ".form"));}
+
 	}
 	
 	@Override

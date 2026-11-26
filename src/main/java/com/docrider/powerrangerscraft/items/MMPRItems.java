@@ -3,10 +3,11 @@ package com.docrider.powerrangerscraft.items;
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
 import com.docrider.powerrangerscraft.items.mmpr.DragonDaggerItem;
-import com.docrider.powerrangerscraft.items.mmpr.MMPRBeltItem;
+import com.docrider.powerrangerscraft.items.mmpr.PowerMorpherItem;
 import com.docrider.powerrangerscraft.items.mmpr.PowerCoinItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import com.docrider.powerrangerscraft.particle.ModParticles;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -15,6 +16,8 @@ import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class MMPRItems {
 
@@ -362,34 +365,64 @@ public class MMPRItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<Item> RED_POWER_MORPHER = ITEMS.register("red_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_red",TYRANNOSAURUS_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"mmpr_red",TYRANNOSAURUS_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> BLACK_POWER_MORPHER = ITEMS.register("black_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_black",MASTODON_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"mmpr_black",MASTODON_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> BLUE_POWER_MORPHER = ITEMS.register("blue_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_blue", TRICERATOPS_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"mmpr_blue", TRICERATOPS_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> YELLOW_POWER_MORPHER = ITEMS.register("yellow_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_yellow", SABERTOOTH_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"mmpr_yellow", SABERTOOTH_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> PINK_POWER_MORPHER = ITEMS.register("pink_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_pink", PTERADACTYL_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"mmpr_pink", PTERADACTYL_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> GREEN_POWER_MORPHER = ITEMS.register("green_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_green", DRAGON_POWER_COIN_MMPR_GREEN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(DRAGON_POWER_COIN_SHIELD).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"mmpr_green", DRAGON_POWER_COIN_MMPR_GREEN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(DRAGON_POWER_COIN_SHIELD).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> WHITE_POWER_MORPHER = ITEMS.register("white_power_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mmpr_white", WHITE_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"mmpr_white", WHITE_TIGER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+                    RangerFormChangeItem formItem1 = this.get_Form_Item(stack, 1);
+                    if (formItem1 != this.Base_Form_Item) {
+                        tooltipComponents.add(Component.translatable(formItem1.toString() + ".form"));
+                    }
+                }
+            }.Dont_show_belt_form_info().AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> NINJOR_MORPHER = ITEMS.register("ninjor_morpher",
             () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninjor", NINJOR_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> SANTA_POWER_MORPHER = ITEMS.register("santa_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"santa_ranger", REINDEER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"santa_ranger", REINDEER_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> PURPLE_POWER_MORPHER = ITEMS.register("purple_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_purple",BACONADON_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"mmpr_purple",BACONADON_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> ORANGE_POWER_MORPHER = ITEMS.register("orange_power_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_orange",FEATHERDACTYL_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"mmpr_orange",FEATHERDACTYL_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> MASTER_MORPHER = ITEMS.register("master_morpher",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"mmpr_master", DRAGON_POWER_COIN_MMPR_GREEN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(DRAGON_POWER_COIN_SHIELD).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"mmpr_master", DRAGON_POWER_COIN_MMPR_GREEN_BASE,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(DRAGON_POWER_COIN_SHIELD).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<Item> CRIMSON_HAWK_POWER_MORPHER = ITEMS.register("crimson_hawk_power_morpher",
-        () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"crimson_hawk_ranger", CRIMSON_HAWK_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+        () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"crimson_hawk_ranger", CRIMSON_HAWK_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()){
+            @Override
+            public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+                RangerFormChangeItem formItem1 = this.get_Form_Item(stack, 1);
+                if (formItem1 != this.Base_Form_Item) {
+                    tooltipComponents.add(Component.translatable(formItem1.toString() + ".form"));
+                }
+            }
+        }.Dont_show_belt_form_info().AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
     public static final DeferredItem<Item> BLAZING_PHOENIX_POWER_MORPHER = ITEMS.register("blazing_phoenix_power_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"blue_phoenix_ranger", BLAZING_PHOENIX_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"blue_phoenix_ranger", BLAZING_PHOENIX_POWER_COIN,MMPR_HELMET,MMPR_CHESTPLATE,MMPR_LEGGINGS,new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+                    RangerFormChangeItem formItem1 = this.get_Form_Item(stack, 1);
+                    if (formItem1 != this.Base_Form_Item) {
+                        tooltipComponents.add(Component.translatable(formItem1.toString() + ".form"));
+                    }
+                }
+            }.Dont_show_belt_form_info().AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     public static final DeferredItem<SwordItem> BLADE_BLASTER = ITEMS.register("blade_blaster",
             () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.MMPR).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));

@@ -22,22 +22,24 @@ public class TransmorpherItem extends RangerChangerItem {
 	public TransmorpherItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Properties properties)
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
-		Has_basic_belt_info=false;
+		Show_belt_form_info=false;
 	}
 
 	@Override
 	public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
 
-		Item formItem = this.get_Form_Item(stack, 1);
 		Item formItem2 = this.get_Form_Item(stack, 2);
+		boolean isArmored = formItem2 == LostGalaxyItems.GALACTIC_KEY.get();
 
-		if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form").getString()));
-		else if (formItem2 == LostGalaxyItems.GALACTIC_KEY.get()) tooltipComponents.add(Component.literal(Component.translatable(formItem2.toString() + ".form").getString()));
-		else {
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form").getString()
-					+ " " + Component.translatable(formItem2.toString() + ".form").getString()));
-		}
+		Has_basic_belt_info = !isArmored;
 		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+		if (isArmored) {
+			tooltipComponents.add(Component.translatable("powerrangerscraft.name.red_armored_ranger"));
+		}
+		else if (formItem2 != OtherItems.BLANK_FORM.get()) {
+			tooltipComponents.add(Component.translatable(formItem2.toString() + ".form"));
+		}
 	}
 	
 	@Override

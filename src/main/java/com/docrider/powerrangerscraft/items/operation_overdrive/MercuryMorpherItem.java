@@ -24,21 +24,17 @@ public class MercuryMorpherItem extends RangerChangerItem{
 	public MercuryMorpherItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Item.Properties properties)
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
-		Has_basic_belt_info=false;
+		Show_belt_form_info=false;
 	}
 
 	@Override
 	public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
 
-		Item formItem = this.get_Form_Item(stack, 1);
 		Item formItem2 = this.get_Form_Item(stack, 2);
 
-		if (formItem2== OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form").getString()));
-		else {
-			tooltipComponents.add(Component.literal(Component.translatable(formItem.toString() + ".form").getString()
-					+ " " + Component.translatable(formItem2.toString() + ".form").getString()));
-		}
-		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+		if (formItem2 != OtherItems.BLANK_FORM.get()) tooltipComponents.add(Component.translatable(formItem2.toString() + ".form"));
+
 	}
 	
 	@Override

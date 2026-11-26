@@ -47,7 +47,7 @@ public class DinoChargeItems {
     public static final DeferredItem<Item> RED_DINO_CHARGE_MORPHER = ITEMS.register("red_dino_charge_morpher",
             () -> new DinoChargeMorpherItem(ArmorMaterials.DIAMOND,"dino_charge_red", TYRANNOSAURUS_REX_DINO_CHARGER,DINO_CHARGE_HELMET,DINO_CHARGE_CHESTPLATE,DINO_CHARGE_LEGGINGS,new Item.Properties()).Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
     public static final DeferredItem<Item> DARK_SPINO_BOOMERANG = ITEMS.register("dark_spino_boomerang",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"dino_charge_dark", SPINOSAURUS_DINO_CHARGER,DINO_CHARGE_HELMET,DINO_CHARGE_CHESTPLATE,DINO_CHARGE_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"dino_charge_dark", SPINOSAURUS_DINO_CHARGER,DINO_CHARGE_HELMET,DINO_CHARGE_CHESTPLATE,DINO_CHARGE_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));
 
     public static final DeferredItem<BaseBlasterItem> DINO_CHARGE_MORPHER = ITEMS.register("dino_charge_morpher",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 12, -2.4F, new Item.Properties()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.DINO_CHARGE).ChangeRepairItem(EMPTY_DINO_CHARGER.get()));

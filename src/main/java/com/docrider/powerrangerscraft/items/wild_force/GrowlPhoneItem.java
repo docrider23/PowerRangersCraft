@@ -1,20 +1,41 @@
 package com.docrider.powerrangerscraft.items.wild_force;
 
+import com.docrider.powerrangerscraft.items.LostGalaxyItems;
+import com.docrider.powerrangerscraft.items.OtherItems;
 import com.docrider.powerrangerscraft.items.WildForceItems;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import net.minecraft.core.Holder;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.neoforge.registries.DeferredItem;
+
+import java.util.List;
 
 public class GrowlPhoneItem extends RangerChangerItem{
 
 	public GrowlPhoneItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Properties properties)
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
+		Show_belt_form_info = false;
+	}
+
+	@Override
+	public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+
+		Item formItem = this.get_Form_Item(stack, 1);
+		boolean isSavage = formItem == WildForceItems.ANIMARIUM_BUCKLE.get();
+
+		Has_basic_belt_info = !isSavage;
+		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+		if (isSavage) {
+			tooltipComponents.add(Component.translatable("powerrangerscraft.name.red_savage_warrior"));
+		}
 	}
 	
 	@Override

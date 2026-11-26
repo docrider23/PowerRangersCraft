@@ -18,6 +18,7 @@ public class LunarCallerItem extends RangerChangerItem{
 	public LunarCallerItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Properties properties)
 	{
 		super(material, rider, baseFormItem, head, torso, legs, properties);
+		Show_belt_form_info = false;
 	}
 	
 	@Override

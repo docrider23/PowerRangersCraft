@@ -6,6 +6,7 @@ import com.docrider.powerrangerscraft.items.lost_galaxy.TransmorpherItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -14,6 +15,8 @@ import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class LostGalaxyItems {
 
@@ -119,8 +122,17 @@ public class LostGalaxyItems {
     		.Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.LOST_GALAXY).ChangeRepairItem(LOST_GALAXY_LOGO.get()));
 
     public static final DeferredItem<Item> MAGNA_DEFENDER_MORPHER = ITEMS.register("magna_defender_morpher",
-    		() -> new RangerChangerItem(ArmorMaterials.DIAMOND,"magna_defender",MAGNA_DEFENDER_CORE,LOST_GALAXY_HELMET,LOST_GALAXY_CHESTPLATE,LOST_GALAXY_LEGGINGS,new Item.Properties())
-    		.AddToTabList(RangerTabs.LOST_GALAXY).ChangeRepairItem(LOST_GALAXY_LOGO.get()));
+    		() -> new RangerChangerItem(ArmorMaterials.DIAMOND,"magna_defender",MAGNA_DEFENDER_CORE,LOST_GALAXY_HELMET,LOST_GALAXY_CHESTPLATE,LOST_GALAXY_LEGGINGS,new Item.Properties()) {
+				@Override
+				public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+					super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+					RangerFormChangeItem formItem1 = this.get_Form_Item(stack, 1);
+					if (formItem1 != this.Base_Form_Item) {
+						tooltipComponents.add(Component.translatable(formItem1.toString() + ".form"));
+					}
+				}
+			}.Dont_show_belt_form_info().AddToTabList(RangerTabs.LOST_GALAXY).ChangeRepairItem(LOST_GALAXY_LOGO.get()));
     
     public static final DeferredItem<SwordItem> QUASAR_SABER = ITEMS.register("quasar_saber",
 			() -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(PowerRangersCraftCore.FORM_WEAPON_ITEM).AddToTabList(RangerTabs.LOST_GALAXY).ChangeRepairItem(LOST_GALAXY_LOGO.get()));

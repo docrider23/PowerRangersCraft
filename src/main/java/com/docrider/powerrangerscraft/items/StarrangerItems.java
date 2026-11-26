@@ -9,6 +9,7 @@ import com.docrider.powerrangerscraft.items.starranger.ZodiacBraceItem;
 import com.docrider.powerrangerscraft.particle.ModParticles;
 import net.minecraft.core.particles.BlockParticleOption;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -20,6 +21,8 @@ import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class StarrangerItems {
 
@@ -182,12 +185,23 @@ public class StarrangerItems {
             () -> new LightningBraceItem(ArmorMaterials.DIAMOND,"star_lightning", LIGHTNING_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static final DeferredItem<Item> COSMO_SABER_GOLD = ITEMS.register("cosmo_saber_gold",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"taiyou_gold", SOLAR_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).CanChangeTexture().AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"taiyou_gold", SOLAR_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    boolean isLunar = get_Form_Item(stack, 1) == LUNAR_CONSTELLATION_CARD.get();
+                    Has_basic_belt_info = !isLunar;
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+                    if (isLunar) {
+                        tooltipComponents.add(Component.translatable("powerangerscraft.name.tsuki_silver"));
+                    }
+                }
+            }.Dont_show_belt_form_info().CanChangeTexture().AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static final DeferredItem<Item> OPHIUCHUS_STAFF_MASTAR = ITEMS.register("ophiuchus_staff_mastar",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"zodiac_mastar", OPHIUCHUS_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"zodiac_mastar", OPHIUCHUS_CONSTELLATION_CARD, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
     public static final DeferredItem<Item> COSMIC_STAFF_MASTAR = ITEMS.register("cosmic_staff_mastar",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"cosmic_mastar", COSMIC_HEART, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"cosmic_mastar", COSMIC_HEART, STARRANGER_HELMET, STARRANGER_CHESTPLATE, STARRANGER_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));
 
     public static final DeferredItem<SwordItem> FLAME_SWORD = ITEMS.register("flame_sword",
         () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.STARRANGER).ChangeRepairItem(STARRANGER_LOGO.get()));

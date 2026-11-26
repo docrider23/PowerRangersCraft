@@ -110,7 +110,7 @@ public class OperationOverdriveItems {
             () -> new MercuryMorpherItem(ArmorMaterials.DIAMOND,"mercury_ranger", MERCURY_RANGER_LOGO, OPERATION_OVERDRIVE_HELMET, OPERATION_OVERDRIVE_CHESTPLATE, OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties())
                     .Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
     public static final DeferredItem<Item> SENTINEL_KNIGHT_CHESTPIECE = ITEMS.register("sentinel_knight_chestpiece",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"sentinel_knight",UNFINISHED_SENTINEL_SWORD,OPERATION_OVERDRIVE_HELMET,OPERATION_OVERDRIVE_CHESTPLATE,OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties())
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"sentinel_knight",UNFINISHED_SENTINEL_SWORD,OPERATION_OVERDRIVE_HELMET,OPERATION_OVERDRIVE_CHESTPLATE,OPERATION_OVERDRIVE_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info()
                     .Add_Extra_Base_Form_Items(OtherItems.BLANK_FORM).AddToTabList(RangerTabs.OPERATION_OVERDRIVE).ChangeRepairItem(OPERATION_OVERDRIVE_LOGO.get()));
 
     public static final DeferredItem<Item> SENTINEL_MORPHER_HYPERFORCE = ITEMS.register("sentinel_morpher_hyperforce",

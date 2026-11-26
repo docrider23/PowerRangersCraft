@@ -160,9 +160,9 @@ public class BeastMorphersItems {
     public static final DeferredItem<Item> YELLOW_BEAST_X_MORPHER = ITEMS.register("yellow_beast_x_morpher",
             () -> new BeastXMorpherItem(ArmorMaterials.DIAMOND,"beast_morphers_yellow", YELLOW_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
     public static final DeferredItem<Item> GOLD_STRIKER_MORPHER = ITEMS.register("gold_striker_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"beast_morphers_gold", GOLD_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"beast_morphers_gold", GOLD_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
     public static final DeferredItem<Item> SILVER_STRIKER_MORPHER = ITEMS.register("silver_striker_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"beast_morphers_silver", SILVER_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"beast_morphers_silver", SILVER_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
     public static final DeferredItem<Item> ORANGE_BEAST_X_MORPHER = ITEMS.register("orange_beast_x_morpher",
             () -> new BeastXMorpherItem(ArmorMaterials.DIAMOND,"beast_morphers_orange", ORANGE_MORPH_X_KEY,BEAST_MORPHERS_HELMET,BEAST_MORPHERS_CHESTPLATE, BEAST_MORPHERS_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.BEAST_MORPHERS).ChangeRepairItem(BEAST_MORPHERS_LOGO.get()));
 

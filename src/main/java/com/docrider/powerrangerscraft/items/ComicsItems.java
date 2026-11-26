@@ -2,9 +2,10 @@ package com.docrider.powerrangerscraft.items;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
 import com.docrider.powerrangerscraft.effect.EffectCore;
-import com.docrider.powerrangerscraft.items.mmpr.MMPRBeltItem;
+import com.docrider.powerrangerscraft.items.mmpr.PowerMorpherItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import com.docrider.powerrangerscraft.particle.ModParticles;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -13,6 +14,8 @@ import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class ComicsItems {
 
@@ -83,7 +86,7 @@ public class ComicsItems {
             () -> new BaseItem(new Item.Properties()));
 
     public static final DeferredItem<Item> PINK_POWER_MORPHER_RANGER_SLAYER = ITEMS.register("pink_power_morpher_ranger_slayer",
-            () -> new MMPRBeltItem(ArmorMaterials.DIAMOND,"ranger_slayer", RANGER_SLAYER_POWER_COIN,MMPRItems.MMPR_HELMET,MMPRItems.MMPR_CHESTPLATE,MMPRItems.MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SHATTERED_GRID).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
+            () -> new PowerMorpherItem(ArmorMaterials.DIAMOND,"ranger_slayer", RANGER_SLAYER_POWER_COIN,MMPRItems.MMPR_HELMET,MMPRItems.MMPR_CHESTPLATE,MMPRItems.MMPR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SHATTERED_GRID).ChangeRepairItem(OtherItems.GRID_INFUSED_GOLD_INGOT.get()));
 
     //Solar Rangers
     public static final DeferredItem<Item> SOLAR_LOGO = ITEMS.register("solar_logo",
@@ -107,21 +110,21 @@ public class ComicsItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
 
     public static final DeferredItem<Item> PURPLE_SOLARIX = ITEMS.register("purple_solarix",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_purple", PURPLE_SOLAR_CRYSTAL, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_purple", PURPLE_SOLAR_CRYSTAL, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> ORANGE_SOLARIX = ITEMS.register("orange_solarix",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_orange", ORANGE_SOLAR_CRYSTAL, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_orange", ORANGE_SOLAR_CRYSTAL, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> RED_SOLARIX = ITEMS.register("red_solarix",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_red", InSpaceItems.RED_DATA_CARD_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_red", InSpaceItems.RED_DATA_CARD_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> BLACK_SOLARIX = ITEMS.register("black_solarix",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_black", LostGalaxyItems.MAGNA_DEFENDER_CORE_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_black", LostGalaxyItems.MAGNA_DEFENDER_CORE_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> BLUE_SOLARIX = ITEMS.register("blue_solarix",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_blue", DinoChargeItems.SPINOSAURUS_DINO_CHARGER_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_blue", DinoChargeItems.SPINOSAURUS_DINO_CHARGER_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> YELLOW_SOLARIX = ITEMS.register("yellow_solarix",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_yellow", ZeoItems.YELLOW_ZEO_SUB_CRYSTAL_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_yellow", ZeoItems.YELLOW_ZEO_SUB_CRYSTAL_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> GREEN_SOLARIX = ITEMS.register("green_solarix",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_green", NinjaStormItems.GREEN_SAMURAI_NINJA_POWER_DISK_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_green", NinjaStormItems.GREEN_SAMURAI_NINJA_POWER_DISK_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
     public static final DeferredItem<Item> PINK_SOLARIX = ITEMS.register("pink_solarix",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_pink", RANGER_SLAYER_POWER_COIN_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"solar_pink", RANGER_SLAYER_POWER_COIN_SOLAR, SOLAR_HELMET, SOLAR_CHESTPLATE, SOLAR_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
 
     public static final DeferredItem<BaseSwordItem> SOLAR_CHAKRAM = ITEMS.register("solar_chakram",
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.SOLAR).ChangeRepairItem(BLANK_SOLAR_CRYSTAL.get()));
@@ -170,15 +173,26 @@ public class ComicsItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
 
     public static final DeferredItem<Item> OMEGA_RED_MORPHER = ITEMS.register("omega_red_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_red", OMEGA_RED_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_red", OMEGA_RED_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
     public static final DeferredItem<Item> OMEGA_BLUE_MORPHER = ITEMS.register("omega_blue_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_blue", OMEGA_BLUE_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_blue", OMEGA_BLUE_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
     public static final DeferredItem<Item> OMEGA_YELLOW_MORPHER = ITEMS.register("omega_yellow_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_yellow", OMEGA_YELLOW_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_yellow", OMEGA_YELLOW_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
     public static final DeferredItem<Item> OMEGA_BLACK_MORPHER = ITEMS.register("omega_black_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_black", OMEGA_BLACK_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_black", OMEGA_BLACK_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
     public static final DeferredItem<Item> OMEGA_GOLD_MORPHER = ITEMS.register("omega_gold_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_gold", OMEGA_GOLD_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"omega_gold", OMEGA_GOLD_LOGO, OMEGA_HELMET, OMEGA_CHESTPLATE, OMEGA_LEGGINGS,new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    boolean isDeath = get_Form_Item(stack, 1) == OMEGA_GOLD_LOGO_DEATH.get();
+                    Has_basic_belt_info = !isDeath;
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+                    if (isDeath) {
+                        tooltipComponents.add(Component.translatable("powerrangerscraft.name.death_ranger"));
+                    }
+                }
+            }.Dont_show_belt_form_info().AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
 
     public static final DeferredItem<BaseSwordItem> OMEGA_KATANA = ITEMS.register("omega_katana",
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.OMEGA).ChangeRepairItem(OMEGA_LOGO.get()));
@@ -220,17 +234,17 @@ public class ComicsItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
 
     public static final DeferredItem<Item> RED_PRIME_COIN = ITEMS.register("red_prime_coin",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_red", RED_RIB, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_red", RED_RIB, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<Item> BLACK_PRIME_COIN = ITEMS.register("black_prime_coin",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_black", BLACK_SCALE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_black", BLACK_SCALE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<Item> BLUE_PRIME_COIN = ITEMS.register("blue_prime_coin",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_blue", BLUE_BONE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_blue", BLUE_BONE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<Item> YELLOW_PRIME_COIN = ITEMS.register("yellow_prime_coin",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_yellow", YELLOW_TALON, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_yellow", YELLOW_TALON, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<Item> PINK_PRIME_COIN = ITEMS.register("pink_prime_coin",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_pink", PINK_GEM, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_pink", PINK_GEM, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
     public static final DeferredItem<Item> GREEN_PRIME_COIN = ITEMS.register("green_prime_coin",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_green", GREEN_SPHERE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"prime_green", GREEN_SPHERE, PRIME_HELMET, PRIME_CHESTPLATE, PRIME_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
 
     public static final DeferredItem<BaseSwordItem> PRIME_RED_SWORD = ITEMS.register("prime_red_sword",
             () -> new BaseSwordItem(Tiers.DIAMOND, 8, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.PRIME).ChangeRepairItem(PRIME_RITAS_WAND.get()));
@@ -279,17 +293,17 @@ public class ComicsItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
 
     public static final DeferredItem<Item> RANGER_ACADEMY_RED_MORPHER = ITEMS.register("ranger_academy_red_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_red", RANGER_ACADEMY_RED_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_red", RANGER_ACADEMY_RED_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
     public static final DeferredItem<Item> RANGER_ACADEMY_BLACK_MORPHER = ITEMS.register("ranger_academy_black_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_black", RANGER_ACADEMY_BLACK_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_black", RANGER_ACADEMY_BLACK_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
     public static final DeferredItem<Item> RANGER_ACADEMY_BLUE_MORPHER = ITEMS.register("ranger_academy_blue_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_blue", RANGER_ACADEMY_BLUE_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_blue", RANGER_ACADEMY_BLUE_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
     public static final DeferredItem<Item> RANGER_ACADEMY_YELLOW_MORPHER = ITEMS.register("ranger_academy_yellow_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_yellow", RANGER_ACADEMY_YELLOW_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_yellow", RANGER_ACADEMY_YELLOW_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
     public static final DeferredItem<Item> RANGER_ACADEMY_PINK_MORPHER = ITEMS.register("ranger_academy_pink_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_pink", RANGER_ACADEMY_PINK_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_pink", RANGER_ACADEMY_PINK_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
     public static final DeferredItem<Item> RANGER_ACADEMY_GREEN_MORPHER = ITEMS.register("ranger_academy_green_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_green", RANGER_ACADEMY_GREEN_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ranger_academy_green", RANGER_ACADEMY_GREEN_POWER_COIN, RANGER_ACADEMY_HELMET, RANGER_ACADEMY_CHESTPLATE, RANGER_ACADEMY_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.RANGER_ACADEMY).ChangeRepairItem(SPECTRACITE_SHARD.get()));
 
     //Unlimited
     public static final DeferredItem<Item> UNLIMITED_COMMUNICATOR = ITEMS.register("unlimited_communicator",

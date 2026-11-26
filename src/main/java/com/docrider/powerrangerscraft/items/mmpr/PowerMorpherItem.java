@@ -1,10 +1,9 @@
 package com.docrider.powerrangerscraft.items.mmpr;
 
 import com.docrider.powerrangerscraft.PowerRangersCraftCore;
-import com.docrider.powerrangerscraft.items.DinoFuryItems;
-import com.docrider.powerrangerscraft.items.GamesItems;
+import com.docrider.powerrangerscraft.items.ComicsItems;
 import com.docrider.powerrangerscraft.items.MMPRItems;
-import com.docrider.powerrangerscraft.items.OtherItems;
+import com.docrider.powerrangerscraft.items.OperationOverdriveItems;
 import com.docrider.powerrangerscraft.items.others.RangerArmorItem;
 import com.docrider.powerrangerscraft.items.others.RangerChangerItem;
 import com.docrider.powerrangerscraft.items.others.RangerFormChangeItem;
@@ -22,36 +21,47 @@ import net.neoforged.neoforge.registries.DeferredItem;
 
 import java.util.List;
 
-public class MMPRBeltItem extends RangerChangerItem {
+public class PowerMorpherItem extends RangerChangerItem {
 
-    public MMPRBeltItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Item.Properties properties)
+    public PowerMorpherItem(Holder<ArmorMaterial> material, String rider, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Item.Properties properties)
     {
         super(material, rider, baseFormItem, head, torso, legs, properties);
         Extra_Base_Form_Item = Lists.newArrayList((RangerFormChangeItem) MMPRItems.DRAGON_POWER_COIN_NO_SHIELD.get(), (RangerFormChangeItem) MMPRItems.DRAGON_POWER_COIN_NO_SHIELD.get());
         Num_Base_Form_Item = 2;
-        Has_basic_belt_info = false;
+        Show_belt_form_info = false;
     }
 
     @Override
     public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+        RangerFormChangeItem formItem1 = get_Form_Item(stack, 1);
+        boolean isMaster = this == MMPRItems.MASTER_MORPHER.get();
+        boolean isUnlimited = formItem1 == ComicsItems.UNLIMITED_COMMUNICATOR.get();
 
-        Item formItem = this.get_Form_Item(stack, 1);
+        Has_basic_belt_info = !(isUnlimited || isMaster);
+
+        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+
+        if (isMaster) {
+            tooltipComponents.add(Component.translatable("powerrangerscraft.name." + formItem1.getRangerName(Rider)));
+        } else if (isUnlimited) {
+            tooltipComponents.add(Component.translatable("powerrangerscraft.name.unlimited_yellow_ranger"));
+        } else if (formItem1 != Base_Form_Item) {
+            tooltipComponents.add(Component.translatable(formItem1.toString() + ".form"));
+        }
+
         Item formItem2 = this.get_Form_Item(stack, 2);
 
-        if (formItem2== MMPRItems.DRAGON_POWER_COIN_SHIELD.get()
-                ||formItem2== MMPRItems.METALLIC_ARMOR.get()
-                ||formItem2== MMPRItems.METALLIC_ARMOR_BLACK.get()
-                ||formItem2== MMPRItems.METALLIC_ARMOR_BLUE.get()
-                ||formItem2== MMPRItems.METALLIC_ARMOR_YELLOW.get()
-                ||formItem2== MMPRItems.METALLIC_ARMOR_PINK.get()
-                ||formItem2== MMPRItems.METALLIC_ARMOR_WHITE.get()) {
-            tooltipComponents.add(Component.translatable(formItem.toString() + ".form"));
+        if (formItem2 == MMPRItems.DRAGON_POWER_COIN_SHIELD.get()
+                ||formItem2 == MMPRItems.METALLIC_ARMOR.get()
+                ||formItem2 == MMPRItems.METALLIC_ARMOR_BLACK.get()
+                ||formItem2 == MMPRItems.METALLIC_ARMOR_BLUE.get()
+                ||formItem2 == MMPRItems.METALLIC_ARMOR_YELLOW.get()
+                ||formItem2 == MMPRItems.METALLIC_ARMOR_PINK.get()
+                ||formItem2 == MMPRItems.METALLIC_ARMOR_WHITE.get()
+                ||formItem2 == OperationOverdriveItems.DEFENDER_VEST.get()) {
             tooltipComponents.add(Component.translatable(formItem2.toString() + ".form"));
         }
-        else {
-            tooltipComponents.add(Component.translatable(formItem.toString() + ".form"));
-        }
-        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
 
     @Override

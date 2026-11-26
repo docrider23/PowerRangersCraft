@@ -54,15 +54,15 @@ public class AlienItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
 
     public static final DeferredItem<Item> RED_ALIEN_MORPHER = ITEMS.register("red_alien_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_red",RED_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_red",RED_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
     public static final DeferredItem<Item> WHITE_ALIEN_MORPHER = ITEMS.register("white_alien_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_white",WHITE_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_white",WHITE_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
     public static final DeferredItem<Item> BLUE_ALIEN_MORPHER = ITEMS.register("blue_alien_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_blue",BLUE_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_blue",BLUE_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
     public static final DeferredItem<Item> YELLOW_ALIEN_MORPHER = ITEMS.register("yellow_alien_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_yellow",YELLOW_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_yellow",YELLOW_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
     public static final DeferredItem<Item> BLACK_ALIEN_MORPHER = ITEMS.register("black_alien_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_black",BLACK_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"alien_black",BLACK_ALIEN_POWER_COIN,ALIEN_HELMET,ALIEN_CHESTPLATE,ALIEN_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));
 
     public static final DeferredItem<SwordItem> AQUITIAN_SABER = ITEMS.register("aquitian_saber",
             () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.ALIEN).ChangeRepairItem(AQUITIAN_ENERGY.get()));

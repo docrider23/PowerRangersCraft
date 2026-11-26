@@ -37,11 +37,11 @@ public class NinjaStormItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.NINJA_STORM).ChangeRepairItem(NINJA_STORM_LOGO.get()));
 
     public static final DeferredItem<Item> RED_WIND_MORPHER = ITEMS.register("red_wind_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninja_storm_red",RED_WIND_NINJA_POWER_DISK,NINJA_STORM_HELMET,NINJA_STORM_CHESTPLATE,NINJA_STORM_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.NINJA_STORM).ChangeRepairItem(NINJA_STORM_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninja_storm_red",RED_WIND_NINJA_POWER_DISK,NINJA_STORM_HELMET,NINJA_STORM_CHESTPLATE,NINJA_STORM_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.NINJA_STORM).ChangeRepairItem(NINJA_STORM_LOGO.get()));
     public static final DeferredItem<Item> BLUE_WIND_MORPHER = ITEMS.register("blue_wind_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninja_storm_blue",BLUE_WIND_NINJA_POWER_DISK,NINJA_STORM_HELMET,NINJA_STORM_CHESTPLATE,NINJA_STORM_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.NINJA_STORM).ChangeRepairItem(NINJA_STORM_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"ninja_storm_blue",BLUE_WIND_NINJA_POWER_DISK,NINJA_STORM_HELMET,NINJA_STORM_CHESTPLATE,NINJA_STORM_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.NINJA_STORM).ChangeRepairItem(NINJA_STORM_LOGO.get()));
     public static final DeferredItem<Item> SAMURAI_CYCLONE_MORPHER = ITEMS.register("samurai_cyclone_morpher",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"green_samurai_ranger",GREEN_SAMURAI_NINJA_POWER_DISK,NINJA_STORM_HELMET,NINJA_STORM_CHESTPLATE,NINJA_STORM_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.NINJA_STORM).ChangeRepairItem(NINJA_STORM_LOGO.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"green_samurai_ranger",GREEN_SAMURAI_NINJA_POWER_DISK,NINJA_STORM_HELMET,NINJA_STORM_CHESTPLATE,NINJA_STORM_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.NINJA_STORM).ChangeRepairItem(NINJA_STORM_LOGO.get()));
 
     public static final DeferredItem<BaseBlasterItem> NINJA_SWORD = ITEMS.register("ninja_sword",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.NINJA_STORM).ChangeRepairItem(NINJA_STORM_LOGO.get()));

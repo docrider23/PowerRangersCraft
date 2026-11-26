@@ -21,6 +21,17 @@ public class GoseiMorpherItem extends RangerChangerItem{
 	public GoseiMorpherItem(Holder<ArmorMaterial> material, String ranger, DeferredItem<Item> baseFormItem, DeferredItem<Item> head, DeferredItem<Item>torso, DeferredItem<Item> legs, Item.Properties properties)
 	{
 		super(material, ranger, baseFormItem, head, torso, legs, properties);
+		Show_belt_form_info = false;
+	}
+
+	@Override
+	public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+		super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+
+		Item formItem = get_Form_Item(stack, 1);
+		if (formItem != Base_Form_Item) {
+			tooltipComponents.add(Component.translatable(formItem.toString() + ".form"));
+		}
 	}
 	
 	@Override

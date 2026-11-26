@@ -48,9 +48,9 @@ public class ZeoItems {
             () -> new RangerArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()).AddToTabList(RangerTabs.ZEO).ChangeRepairItem(ZEO_CRYSTAL_SHARD.get()));
 
     public static final DeferredItem<Item> RED_ZEONIZER = ITEMS.register("red_zeonizer",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"zeo_red",RED_ZEO_SUB_CRYSTAL,ZEO_HELMET,ZEO_CHESTPLATE,ZEO_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.ZEO).ChangeRepairItem(ZEO_CRYSTAL_SHARD.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"zeo_red",RED_ZEO_SUB_CRYSTAL,ZEO_HELMET,ZEO_CHESTPLATE,ZEO_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.ZEO).ChangeRepairItem(ZEO_CRYSTAL_SHARD.get()));
     public static final DeferredItem<Item> YELLOW_ZEONIZER = ITEMS.register("yellow_zeonizer",
-            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"zeo_yellow",YELLOW_ZEO_SUB_CRYSTAL,ZEO_HELMET,ZEO_CHESTPLATE,ZEO_LEGGINGS,new Item.Properties()).AddToTabList(RangerTabs.ZEO).ChangeRepairItem(ZEO_CRYSTAL_SHARD.get()));
+            () -> new RangerChangerItem(ArmorMaterials.DIAMOND,"zeo_yellow",YELLOW_ZEO_SUB_CRYSTAL,ZEO_HELMET,ZEO_CHESTPLATE,ZEO_LEGGINGS,new Item.Properties()).Dont_show_belt_form_info().AddToTabList(RangerTabs.ZEO).ChangeRepairItem(ZEO_CRYSTAL_SHARD.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
