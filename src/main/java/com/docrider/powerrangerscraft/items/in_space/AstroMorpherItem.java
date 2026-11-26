@@ -52,9 +52,9 @@ public class AstroMorpherItem extends RangerChangerItem{
 				return "belts/astro_morpher";
 			}
 			else {
-				if (rider.getMainHandItem().getItem() == InSpaceItems.ASTRO_BLASTER_1.get() |
-						rider.getMainHandItem().getItem() == InSpaceItems.ASTRO_BLASTER_2.get() |
-						rider.getMainHandItem().getItem() == InSpaceItems.ASTRO_BLASTER_COMBO.get()) {
+				if (rider.getMainHandItem().getItem() == InSpaceItems.ASTRO_MAGNUM.get() |
+						rider.getMainHandItem().getItem() == InSpaceItems.ASTRO_SHOT.get() |
+						rider.getMainHandItem().getItem() == InSpaceItems.ASTRO_BLASTER.get()) {
 					belt = get_Form_Item(itemstack, 1).getBeltTex() + "_empty";
 				} else if (((RangerChangerItem) itemstack.getItem()).BELT_TEXT == null) {
 					belt = get_Form_Item(itemstack, 1).getBeltTex();

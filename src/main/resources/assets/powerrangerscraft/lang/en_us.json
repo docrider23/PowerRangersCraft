@@ -369,16 +369,48 @@
   "item.powerrangerscraft.in_space_legs": "In Space Leggings",
 
   "item.powerrangerscraft.red_astro_morpher": "Astro Morpher",
+  "item.powerrangerscraft.black_astro_morpher": "Astro Morpher",
+  "item.powerrangerscraft.blue_astro_morpher": "Astro Morpher",
+  "item.powerrangerscraft.yellow_astro_morpher": "Astro Morpher",
+  "item.powerrangerscraft.pink_astro_morpher": "Astro Morpher",
+  "item.powerrangerscraft.digimorpher": "Digimorpher",
 
   "item.powerrangerscraft.red_data_card": "Red Data Card",
+  "item.powerrangerscraft.black_data_card": "Black Data Card",
+  "item.powerrangerscraft.blue_data_card": "Blue Data Card",
+  "item.powerrangerscraft.yellow_data_card": "Yellow Data Card",
+  "item.powerrangerscraft.pink_data_card": "Pink Data Card",
+  "item.powerrangerscraft.silver_data_card": "Silver Data Card",
 
   "powerrangerscraft.name.in_space_red": "Ranger: §cRed Ranger",
+  "powerrangerscraft.name.in_space_black": "Ranger: §8Black Ranger",
+  "powerrangerscraft.name.in_space_blue": "Ranger: §9Blue Ranger",
+  "powerrangerscraft.name.in_space_yellow": "Ranger: §eYellow Ranger",
+  "powerrangerscraft.name.in_space_pink": "Ranger: §dPink Ranger",
+  "powerrangerscraft.name.in_space_silver": "Ranger: §7Silver Ranger",
   "powerrangerscraft:stealth_data_card.form": "Form: Stealth Mode",
-  "powerrangerscraft:battlizer_data_card.form": "Form: Battlizer Mode",
+  "powerrangerscraft:battlizer_data_card.form": "Battlized Armor",
 
   "item.powerrangerscraft.astro_blaster_1": "Astro Blaster",
   "item.powerrangerscraft.astro_blaster_2": "Astro Blaster",
   "item.powerrangerscraft.astro_blaster_combo": "Astro Blaster (Combo Mode)",
+
+  "item.powerrangerscraft.spiral_saber": "Spiral Saber",
+  "item.powerrangerscraft.lunar_lance": "Lunar Lance",
+  "item.powerrangerscraft.astro_axe": "Astro Axe",
+  "item.powerrangerscraft.star_slinger": "Star Slinger",
+  "item.powerrangerscraft.satellite_stunner": "Satellite Stunner",
+
+  "item.powerrangerscraft.spiral_saber_booster": "Spiral Saber Booster Mode",
+  "item.powerrangerscraft.lunar_lance_booster": "Lunar Lance Booster Mode",
+  "item.powerrangerscraft.astro_axe_booster": "Astro Axe Booster Mode",
+  "item.powerrangerscraft.star_slinger_booster": "Star Slinger Booster Mode",
+  "item.powerrangerscraft.satellite_stunner_booster": "Satellite Stunner Booster Mode",
+
+  "item.powerrangerscraft.spiral_saber_booster_twin_barrel": "Spiral Saber Booster Mode w/ Twin Barrel Attachment",
+  "item.powerrangerscraft.quadro_blaster": "Quadro Blaster",
+
+  "item.powerrangerscraft.super_silverizer": "Super Silverizer",
 
   //07 Lost Galaxy
   "tab.powerrangerscraft.lost_galaxy": "Lost Galaxy",

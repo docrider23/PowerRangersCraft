@@ -7,10 +7,7 @@ import com.docrider.powerrangerscraft.items.in_space.BattlizerGauntletItem;
 import com.docrider.powerrangerscraft.items.others.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterials;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Tiers;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -120,12 +117,42 @@ public class InSpaceItems {
     public static final DeferredItem<Item> BATTLIZER_GAUNTLET = ITEMS.register("battlizer_gauntlet",
             () -> new BattlizerGauntletItem(new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE));
 
-    public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER_1 = ITEMS.register("astro_blaster_1",
+    public static final DeferredItem<BaseBlasterItem> ASTRO_MAGNUM = ITEMS.register("astro_magnum",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
-    public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER_2 = ITEMS.register("astro_blaster_2",
+    public static final DeferredItem<BaseBlasterItem> ASTRO_SHOT = ITEMS.register("astro_shot",
             () -> new BaseBlasterItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
-    public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER_COMBO = ITEMS.register("astro_blaster_combo",
-            () -> new BaseBlasterItem(Tiers.DIAMOND, 10, -2.4F, new Item.Properties()).KeepDifItem(ASTRO_BLASTER_2.get()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> ASTRO_BLASTER = ITEMS.register("astro_blaster",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 10, -2.4F, new Item.Properties()).KeepDifItem(ASTRO_SHOT.get()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+
+    public static final DeferredItem<SwordItem> SPIRAL_SABER = ITEMS.register("spiral_saber",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 5, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<SwordItem> LUNAR_LANCE = ITEMS.register("lunar_lance",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<SwordItem> ASTRO_AXE = ITEMS.register("astro_axe",
+            () -> new BaseSwordItem(Tiers.DIAMOND, 6, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> STAR_SLINGER = ITEMS.register("star_slinger",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> SATELLITE_STUNNER = ITEMS.register("satellite_stunner",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> SPIRAL_SABER_BOOSTER = ITEMS.register("spiral_saber_booster",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).IsSuperGun().AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> LUNAR_LANCE_BOOSTER = ITEMS.register("lunar_lance_booster",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).IsSuperGun().AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> ASTRO_AXE_BOOSTER = ITEMS.register("astro_axe_booster",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).IsSuperGun().AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> STAR_SLINGER_BOOSTER = ITEMS.register("star_slinger_booster",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).IsSuperGun().AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> SATELLITE_STUNNER_BOOSTER = ITEMS.register("satellite_stunner_booster",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).IsSuperGun().AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> SPIRAL_SABER_BOOSTER_TWIN_BARREL = ITEMS.register("spiral_saber_booster_twin_barrel",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.LARGE_FIREBALL).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+    public static final DeferredItem<BaseBlasterItem> QUADRO_BLASTER = ITEMS.register("quadro_blaster",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 0, -2.4F, new Item.Properties()).setProjectile(BaseBlasterItem.BlasterProjectile.LARGE_FIREBALL).AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
+
+    public static final DeferredItem<BaseBlasterItem> SUPER_SILVERIZER = ITEMS.register("super_silverizer",
+            () -> new BaseBlasterItem(Tiers.DIAMOND, 4, -2.4F, new Item.Properties()).IsSwordGun().AddToTabList(RangerTabs.IN_SPACE).ChangeRepairItem(IN_SPACE_LOGO.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

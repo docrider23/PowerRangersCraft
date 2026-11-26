@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "powerrangerscraft:item/astro_blaster_combo"
+		"layer0": "powerrangerscraft:item/astro_shot"
 	},
 	"display": {
 		"thirdperson_righthand": {
